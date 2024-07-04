@@ -266,3 +266,28 @@ arXiv ID   | inconsistency                                    | root cause
 2306.00469 | different spacing with tilde alignment character | (expected behaviour) due to redefining tilde character
 2306.01515 | different spacing with tilde alignment character | (expected behaviour) due to redefining tilde character
 
+## Extensions
+
+**Reusing the pipeline**
+
+This pipeline can be re-run on an entirely different sample of papers by changing the `YEAR_AND_MONTH` in `source-code/config.py` (which will run the pipeline on papers from a different time period).
+Additionally, increasing `NUM_ATTEMPTS` will increase the sample size by downloading a greater number of papers.
+
+**Debugging**
+
+Detailed logs may be found in the `source-code/logs/` directory (usually named `<TIMESTAMP>.log`).
+
+Logs are printed to the console as well.
+The log level can be changed by setting the `console_log_level` argument (e.g., `console_log_level=logging.DEBUG`).
+
+**Additional functionality**
+
+The following scripts provided in `source-code/` may be helpful in interpreting results:
+
+* Count the number of pages in _all_ PDFs
+    * `python3 run_analysis.py -count-pages` (add `-save` to save the results to a CSV file)
+* Count the number of compiled PDFs in for each engine
+    * `python3 run_analysis.py -count-compiled` (add `-save` to save the results to a CSV file)
+* Highlight the differences between two PDFs
+    * `python3 run_diff_highlight.py -id 01308 -pg 1 3 5` for the arXiv ID {YEAR_AND_MONTH}.01308 on pages 1,3,5
+

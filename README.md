@@ -62,8 +62,8 @@ The above steps will reproduce section 3 of our paper.
 
 The following directories (created automatically) may be helpful in interpreting the results:
 
-* `source-code/bin/compiled_tex_pdf/`: This directory contains the PDFs compiled by each engine.
-* `source-code/bin/diff_pdfs/`: This directory contains the results of pixel-wise comparisons between the compiled PDFs.
+* `source-code/bin_empirical/compiled_tex_pdf/`: This directory contains the PDFs compiled by each engine.
+* `source-code/bin_empirical/diff_pdfs/`: This directory contains the results of pixel-wise comparisons between the compiled PDFs.
     * Filenames follow the format: `diff_<ARXIV_ID>_<ENGINE_1>_<ENGINE_2>.pdf`. 
         * e.g. `diff_2306.00001_xe_lua.pdf` is a pixel-wise comparison of the PDF produced by XeLaTeX against LuaLaTeX, for arXiV ID 2306.00001
     * The results of each engine are super-imposed with different colours to emphasise any inconsistencies. Thus, all orange and blue pixels represent inconsistencies.
@@ -85,13 +85,52 @@ The inconsistencies found are detailed in `motivating-study/alignment/inconsiste
 
 ## RQ1: TeX Engines
 
-The results from RQ1 can be found in `rq1-tex-engines/`:
+The data and results from RQ1 can be found in `rq1-tex-engines/`:
 ```
 rq1-tex-engines
 ├── bin
 ├── logs
 └── results_workbook_final.xlsx
 ```
+
+### Reproduction of RQ1
+
+To reproduce RQ1,
+
+1. Ensure software requirements are met using the "Getting Started > Requirements" instructions in `source-code/README.md`.
+1. In the source code directory (`source-code/`), 
+    1. In `source-code/utils/tex_engine_utils.py`: uncomment lines 1-3, and comment out lines 5-7
+    1. Use the config file provided in `rq1-tex-engines/`, i.e.: replace `source-code/config.py` with `rq1-tex-engines/config.py`
+    1. Ensure that the `PROJECT_ROOT` in `config.py` is correctly set to the (absolute) path of the source code directory.
+1. Change the working directory: `cd source-code/`
+1. Run the pipeline: `python3 main.py`. 
+    * Due to the size of the dataset, this might take a few hours. If you wish to run a concise demo of the pipeline, an quick way to do so would be to comment out some subjects in `source-code/constants/arxiv_subjects.py`.
+1. Run analysis on the comparison methods: 
+    1. `python3 run_text_based_comparison.py`
+    1. `python3 run_img_comparison.py`
+
+The above steps will reproduce section 5.1 of our paper.
+
+**Interpreting the results**
+
+The following directories (created automatically) may be helpful in interpreting the results:
+
+TODO: this is the same as motivating study, except for the first bullet point
+
+* `source-code/bin/compiled_tex_pdf/`: This directory contains the PDFs compiled by each engine, along with log files and other output from the compilation process.
+* `source-code/bin/diff_pdfs/`: This directory contains the results of pixel-wise comparisons between the compiled PDFs.
+    * Filenames follow the format: `diff_<ARXIV_ID>_<ENGINE_1>_<ENGINE_2>.pdf`. 
+        * e.g. `diff_2306.00001_xe_lua.pdf` is a pixel-wise comparison of the PDF produced by XeLaTeX against LuaLaTeX, for arXiV ID 2306.00001
+    * The results of each engine are super-imposed with different colours to emphasise any inconsistencies. Thus, all orange and blue pixels represent inconsistencies.
+        * e.g. for `diff_2306.00001_xe_lua.pdf`, blue pixels are present only in XeLaTeX output, orange pixels are present only in LuaLaTeX output, and grayscale pixels are present in both.
+    * The column of red markings (on the left of each page) are visual indicators to highlight inconsistencies. A red marking indicates the presence of some inconsistency on the same row.
+* `source-code/logs/`: This directory contains the results generated from running the pipeline.
+    * `<TIMESTAMP>_results.csv`: A summary of the compilation and pixel-wise comparison results
+    * `<TIMESTAMP>_analysis_results.csv`: Detailed results of text- and font-based comparisons
+    * `<TIMESTAMP>_imgcompare.csv`: Results of feature-based comparisons
+
+The results are collated and formatted in an Excel sheet: `rq1-tex-engines/results_workbook_final.xlsx`.
+
 
 ---
 

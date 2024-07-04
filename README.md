@@ -2,28 +2,63 @@
 
 This artefact contains data and runnable code the reproduction of results in our paper (_'Inconsistencies in TeX-produced PDF Documents'_), particularly the motivating study (Section 3), methodology (Section 4), and results (Section 5).
 
+# Getting Started
+
+## Requirements
+
+* Python 3.9
+* A Python environment with the required packages (`pip install -r requirements.txt`)
+* [diff-pdf](https://github.com/vslavik/diff-pdf)
+* [Docker](https://docs.docker.com/get-docker/) (only required for reproducing RQ2)
+
+## Running a quick demo
+
+The following steps will run the pipeline on a small sample of 10 documents.
+
+1. Change the working directory: `cd source-code/`
+1. Set the `PROJECT_ROOT` in `config.py` to the path of the source code directory (i.e., the output of `pwd`).
+    * For example, `PROJECT_ROOT = '/PATH/TO/THIS/DIRECTORY/source-code/'`
+1. Run the pipeline: `python3 main.py`. A summary of preliminary comparison results will be printed on the terminal.
+1. Run comparisons and analysis: 
+    1. `python3 run_text_based_comparison.py`
+    1. `python3 run_img_comparison.py`
+
+## Interpreting the results
+
+The following directories (created automatically) may be helpful in interpreting the results:
+
+* `source-code/bin_tmp/compiled_tex_pdf/`: This directory contains the PDFs compiled by each engine, along with log files and other output from the compilation process.
+* `source-code/bin_tmp/diff_pdfs/`: This directory contains the results of pixel-wise comparisons between engines for each of the compiled PDFs.
+    * Filenames follow the format: `diff_<ARXIV_ID>_<ENGINE_1>_<ENGINE_2>.pdf`. 
+        * e.g. `diff_2306.00001_xe_lua.pdf` is a pixel-wise comparison of the PDF produced by XeLaTeX against LuaLaTeX, for arXiv ID 2306.00001
+    * The results of each engine are super-imposed with different colours to emphasise any inconsistencies. Thus, all orange and blue pixels represent inconsistencies.
+        * e.g. for `diff_2306.00001_xe_lua.pdf`, blue pixels are present only in XeLaTeX output, orange pixels are present only in LuaLaTeX output, and grayscale pixels are present in both.
+    * The column of red markings (on the left of each page) are visual indicators to highlight inconsistencies. A red marking indicates the presence of some inconsistency on the same row.
+* `source-code/logs/`: This directory contains the results generated from running the pipeline.
+    * `<TIMESTAMP>_results.csv`: A summary of the compilation and pixel-wise comparison results
+    * `<TIMESTAMP>_analysis_results.csv`: Detailed results of text- and font-based comparisons
+    * `<TIMESTAMP>_imgcompare.csv`: Results of feature-based comparisons
+
+# Detailed Description
+
 ## Source Code
 
 The source code of our automated pipeline can be found in `source-code/`.
 Besides the end-to-end pipeline, this directory also includes supplementary scripts that may be useful for verifying results.
 See `source-code/README.md` for details.
 
-## Supplementary Data
-
-Additional figures and data from study can be found at `supplementary-data/`.
-
 ## Motivating Study
 
 The data for our motivating study can be found in the `motivating-study/` directory.
 This includes the config and log files from the automated run, source data, and generated data.
-The run results may be found in `motivating-study/raw-data/`.
+The run results may be found in `motivating-study/raw-data/` and `motivating-study/bin/`.
 
 This data was used for an alignment study to inform RQ1 and RQ2.
 The results of the alignment study is documented in `motivating-study/alignment/`.
 
 ### Dataset
 
-We used the following arXiV papers as source files in the motivating study:
+We used the following arXiv papers as source files in the motivating study:
 
 arXiv ID   | document class | taxonomy
 ---------- | -------------- | --------
@@ -45,7 +80,7 @@ Running the pipeline to reproduce the motivating study will also automatically d
 
 To reproduce the motivating study, 
 
-1. Ensure software requirements are met using the "Getting Started > Requirements" instructions in `source-code/README.md`.
+1. Ensure software requirements are met (see "Getting Started > Requirements" above).
 1. In the source code directory (`source-code/`), 
     1. In `source-code/utils/tex_engine_utils.py`: uncomment lines 1-3, and comment out lines 5-7
     1. Use the config file provided in `motivating-study/`, i.e.: replace `source-code/config.py` with `motivating-study/config.py`
@@ -60,21 +95,13 @@ The above steps will reproduce section 3 of our paper.
 
 **Interpreting the results**
 
-The following directories (created automatically) may be helpful in interpreting the results:
+The following files (created automatically in `source-code/logs/`) contain the results of this run:
 
-* `source-code/bin_empirical/compiled_tex_pdf/`: This directory contains the PDFs compiled by each engine.
-* `source-code/bin_empirical/diff_pdfs/`: This directory contains the results of pixel-wise comparisons between the compiled PDFs.
-    * Filenames follow the format: `diff_<ARXIV_ID>_<ENGINE_1>_<ENGINE_2>.pdf`. 
-        * e.g. `diff_2306.00001_xe_lua.pdf` is a pixel-wise comparison of the PDF produced by XeLaTeX against LuaLaTeX, for arXiV ID 2306.00001
-    * The results of each engine are super-imposed with different colours to emphasise any inconsistencies. Thus, all orange and blue pixels represent inconsistencies.
-        * e.g. for `diff_2306.00001_xe_lua.pdf`, blue pixels are present only in XeLaTeX output, orange pixels are present only in LuaLaTeX output, and grayscale pixels are present in both.
-    * The column of red markings (on the left of each page) are visual indicators to highlight inconsistencies. A red marking indicates the presence of some inconsistency on the same row.
-* `source-code/logs/`: This directory contains the results generated from running the pipeline.
-    * `<TIMESTAMP>_results.csv`: A summary of the compilation and pixel-wise comparison results
-    * `<TIMESTAMP>_analysis_results.csv`: Detailed results of text- and font-based comparisons
-    * `<TIMESTAMP>_imgcompare.csv`: Results of feature-based comparisons
+* `<TIMESTAMP>_results.csv`: A summary of the compilation and pixel-wise comparison results
+* `<TIMESTAMP>_analysis_results.csv`: Detailed results of text- and font-based comparisons
+* `<TIMESTAMP>_imgcompare.csv`: Results of feature-based comparisons
 
-The results are collated and formatted in an Excel sheet: `motivating-study/motivating-study-results.xlsx`.
+These results are collated and formatted in an Excel sheet: `motivating-study/motivating-study-results.xlsx`.
 
 ### Reproduction of alignment study
 
@@ -97,7 +124,7 @@ rq1-tex-engines
 
 To reproduce RQ1,
 
-1. Ensure software requirements are met using the "Getting Started > Requirements" instructions in `source-code/README.md`.
+1. Ensure software requirements are met (see "Getting Started > Requirements" above).
 1. In the source code directory (`source-code/`), 
     1. In `source-code/utils/tex_engine_utils.py`: uncomment lines 1-3, and comment out lines 5-7
     1. Use the config file provided in `rq1-tex-engines/`, i.e.: replace `source-code/config.py` with `rq1-tex-engines/config.py`
@@ -113,23 +140,13 @@ The above steps will reproduce section 5.1 of our paper.
 
 **Interpreting the results**
 
-The following directories (created automatically) may be helpful in interpreting the results:
+The following files (created automatically in `source-code/logs/`) contain the results of this run:
 
-TODO: this is the same as motivating study, except for the first bullet point
+* `<TIMESTAMP>_results.csv`: A summary of the compilation and pixel-wise comparison results
+* `<TIMESTAMP>_analysis_results.csv`: Detailed results of text- and font-based comparisons
+* `<TIMESTAMP>_imgcompare.csv`: Results of feature-based comparisons
 
-* `source-code/bin/compiled_tex_pdf/`: This directory contains the PDFs compiled by each engine, along with log files and other output from the compilation process.
-* `source-code/bin/diff_pdfs/`: This directory contains the results of pixel-wise comparisons between the compiled PDFs.
-    * Filenames follow the format: `diff_<ARXIV_ID>_<ENGINE_1>_<ENGINE_2>.pdf`. 
-        * e.g. `diff_2306.00001_xe_lua.pdf` is a pixel-wise comparison of the PDF produced by XeLaTeX against LuaLaTeX, for arXiV ID 2306.00001
-    * The results of each engine are super-imposed with different colours to emphasise any inconsistencies. Thus, all orange and blue pixels represent inconsistencies.
-        * e.g. for `diff_2306.00001_xe_lua.pdf`, blue pixels are present only in XeLaTeX output, orange pixels are present only in LuaLaTeX output, and grayscale pixels are present in both.
-    * The column of red markings (on the left of each page) are visual indicators to highlight inconsistencies. A red marking indicates the presence of some inconsistency on the same row.
-* `source-code/logs/`: This directory contains the results generated from running the pipeline.
-    * `<TIMESTAMP>_results.csv`: A summary of the compilation and pixel-wise comparison results
-    * `<TIMESTAMP>_analysis_results.csv`: Detailed results of text- and font-based comparisons
-    * `<TIMESTAMP>_imgcompare.csv`: Results of feature-based comparisons
-
-The results are collated and formatted in an Excel sheet: `rq1-tex-engines/results_workbook_final.xlsx`.
+These results are collated and formatted in an Excel sheet: `rq1-tex-engines/results_workbook_final.xlsx`.
 
 
 ---
@@ -152,7 +169,7 @@ rq2-texlive-distributions
 
 To reproduce RQ2,
 
-1. Ensure software requirements are met using the "Getting Started > Requirements" instructions in `source-code/README.md`.
+1. Ensure software requirements are met (see "Getting Started > Requirements" above).
 1. In the source code directory (`source-code/`), 
     1. In `source-code/utils/tex_engine_utils.py`: comment out lines 1-3, and uncomment lines 5-7
     1. Use the config file provided in `rq2-texlive-distributions/`, i.e.: replace `source-code/config.py` with `rq2-texlive-distributions/config.py`
@@ -163,7 +180,8 @@ To reproduce RQ2,
     1. Start a Docker container with a volume: `docker run -ti -v /<REPLACE_THIS_WITH_YOUR_PATH>/source-code/version_cmp/docker_bin_2:/diff_test_tex_engines/docker_bin_2 --name run2020 tex2020`
     1. Run compilation (you should now be in the Docker container): `python3 run_compile_only.py -ver 2020`. 
     1. Exit the Docker container: `exit`
-1. After compiling with TL2020, TL2021, TL2022 and TL2023, run analysis on the comparison methods:
+1. Repeat the above steps to compile with TL2020, TL2021, TL2022 and TL2023.
+1. Run analysis on the comparison methods:
     1. `python3 run_text_based_comparison.py`
     1. `python3 run_img_comparison.py`
 

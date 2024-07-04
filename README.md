@@ -148,6 +148,49 @@ rq2-texlive-distributions
 `results_default` contains the results for the initial run; 
 `results_with_flag` contains the results running TL2020 with additional compilation flags.
 
+### Reproduction of RQ2
+
+To reproduce RQ2,
+
+1. Ensure software requirements are met using the "Getting Started > Requirements" instructions in `source-code/README.md`.
+1. In the source code directory (`source-code/`), 
+    1. In `source-code/utils/tex_engine_utils.py`: comment out lines 1-3, and uncomment lines 5-7
+    1. Use the config file provided in `rq2-texlive-distributions/`, i.e.: replace `source-code/config.py` with `rq2-texlive-distributions/config.py`
+    1. Ensure that the `PROJECT_ROOT` in `config.py` is correctly set to the (absolute) path of the source code directory.
+1. Change the working directory: `cd source-code/`
+1. To compile with a specific version (e.g. TeX Live 2020):
+    1. Build the Docker image: `docker build -t tex2020 -f ./version_cmp/tl2020.Dockerfile .`
+    1. Start a Docker container with a volume: `docker run -ti -v /<REPLACE_THIS_WITH_YOUR_PATH>/source-code/version_cmp/docker_bin_2:/diff_test_tex_engines/docker_bin_2 --name run2020 tex2020`
+    1. Run compilation (you should now be in the Docker container): `python3 run_compile_only.py -ver 2020`. 
+    1. Exit the Docker container: `exit`
+1. After compiling with TL2020, TL2021, TL2022 and TL2023, run analysis on the comparison methods:
+    1. `python3 run_text_based_comparison.py`
+    1. `python3 run_img_comparison.py`
+
+The above steps will reproduce section 5.2 of our paper.
+
+**Interpreting the results**
+
+The following directories (created automatically) may be helpful in interpreting the results:
+
+* `source-code/version_cmp/docker_bin/version_compiled_pdf/`: This directory contains the PDFs compiled by each TeX Live distribution, along with log files and other output from the compilation process.
+* `source-code/logs/`: This directory contains the results generated from running the pipeline.
+    * `<TIMESTAMP>_analysis_results.csv`: Detailed results of text- and font-based comparisons
+    * `<TIMESTAMP>_imgcompare.csv`: Results of feature-based comparisons
+
+The results are collated and formatted in an Excel sheet: `rq2-texlive-distributions/version_results_3.xlsx`.
+
+### Reproduction of "Breaking changes in compilation flags"
+
+1. Compile TL2020 with additional compilation flags:
+    1. Enter the Docker container for TL2020: `docker start run2020 && docker exec -it run2020 /bin/bash`
+    1. Run compilation with updated compilation flags: `python3 run_compile_only.py -ver 2020 -flags`
+    1. Exit the Docker container: `exit`
+
+**Interpreting the results**
+
+* Compilation output will be saved in `version_compiled_pdf_2020/` instead of `version_compiled_pdf/`.
+
 ---
 
 ## RQ3: Bugs

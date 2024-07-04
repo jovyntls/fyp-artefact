@@ -43,8 +43,9 @@ The following directories (created automatically) may be helpful in interpreting
 
 ## Source Code
 
-The source code of our automated pipeline can be found in `source-code/`.
-Besides the end-to-end pipeline, this directory also includes supplementary scripts that may be useful for verifying results.
+The source code of our automated pipeline can be found in the `source-code/`, or on [Github](https://github.com/jovyntls/inconsistencies-in-tex).
+
+Besides the end-to-end pipeline, this directory also includes supplementary scripts that may be useful for verifying and analysing results.
 See `source-code/README.md` for details.
 
 ## Motivating Study

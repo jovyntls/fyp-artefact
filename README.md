@@ -201,6 +201,10 @@ In RQ3, we studied 26 documents:
 - 13 changes from 2022->2023 (3 root causes)
 
 The analysis of the root causes of inconsistencies in each of these documents can be found in `rq3-root-causes/` in subdirectories named with the arXiv ID of the document.
+Each subdirectory contains the original TeX source files (`source/`), compilation output (`out/`), and notes detailing the inconsistency (`notes_XXXXX.md`).
+Wherever relevant, a minimum working example is included as well (`mwe/`).
+
+The 26 documents are summarised below:
 
 ### Compile failures
 

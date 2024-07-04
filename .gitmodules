@@ -1,0 +1,3 @@
+[submodule "source-code"]
+	path = inconsistencies-in-tex
+	url = git@github.com:jovyntls/inconsistencies-in-tex.git

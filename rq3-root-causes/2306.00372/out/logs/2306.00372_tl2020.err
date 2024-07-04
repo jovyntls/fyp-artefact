@@ -1,0 +1,363 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372" --jobname="2306.00372_tl2020"  "main.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.bbl in line'
+ No file 2306.00372_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `IndianEnergyExchange' on page 8 undefined on input line 478
+  Citation `PANDEY2022107597' on page 8 undefined on input line 429
+  Citation `PANDEY2022107597' on page 8 undefined on input line 478
+  Citation `ahlstrom2015evolution' on page 3 undefined on input line 175
+  Citation `algarni2009generic' on page 1 undefined on input line 142
+  Citation `algarni2009generic' on page 2 undefined on input line 146
+  Citation `algarni2009generic' on page 4 undefined on input line 194
+  Citation `allen1986bertrand' on page 5 undefined on input line 255
+  Citation `anisie2019future' on page 3 undefined on input line 175
+  Citation `apostolopoulou2016interface' on page 3 undefined on input line 175
+  Citation `bai2017distribution' on page 3 undefined on input line 175
+  Citation `baran1989network' on page 8 undefined on input line 425
+  Citation `bautista2007formulation' on page 1 undefined on input line 144
+  Citation `bautista2007formulation' on page 2 undefined on input line 152
+  Citation `bautista2007formulation' on page 4 undefined on input line 226
+  Citation `bautista2007formulation' on page 7 undefined on input line 349
+  Citation `bertsekas2014constrained' on page 6 undefined on input line 280
+  Citation `boroumand2015electricity' on page 1 undefined on input line 142
+  Citation `boroumand2015electricity' on page 2 undefined on input line 146
+  Citation `boroumand2015electricity' on page 3 undefined on input line 175
+  Citation `burkardt2014truncated' on page 8 undefined on input line 478
+  Citation `cardell1997market' on page 1 undefined on input line 144
+  Citation `cardell1997market' on page 2 undefined on input line 152
+  Citation `cardell1997market' on page 6 undefined on input line 324
+  Citation `dadkhah2012cumulant' on page 8 undefined on input line 478
+  Citation `de2003stackelberg' on page 1 undefined on input line 144
+  Citation `facchinei2007generalized' on page 2 undefined on input line 152
+  Citation `facchinei2007generalized' on page 3 undefined on input line 185
+  Citation `facchinei2007generalized' on page 4 undefined on input line 246
+  Citation `facchinei2007generalized' on page 5 undefined on input line 266
+  Citation `facchinei2007generalized' on page 5 undefined on input line 274
+  Citation `facchinei2007generalized' on page 6 undefined on input line 292
+  Citation `facchinei2007generalized' on page 6 undefined on input line 298
+  Citation `facchinei2007generalized' on page 6 undefined on input line 320
+  Citation `faruqui2012ethics' on page 2 undefined on input line 146
+  Citation `faruqui2012ethics' on page 4 undefined on input line 230
+  Citation `faruqui2012ethics' on page 8 undefined on input line 501
+  Citation `fletcher2004solving' on page 6 undefined on input line 338
+  Citation `fletcher2004solving' on page 7 undefined on input line 408
+  Citation `ghazvini2015incentive' on page 2 undefined on input line 148
+  Citation `ghazvini2015multi' on page 2 undefined on input line 148
+  Citation `ghazvini2015multi' on page 2 undefined on input line 150
+  Citation `haghighat2012bilevel' on page 11 undefined on input line 1031
+  Citation `haghighat2012bilevel' on page 2 undefined on input line 146
+  Citation `haghighat2012bilevel' on page 3 undefined on input line 185
+  Citation `haghighat2012bilevel' on page 4 undefined on input line 226
+  Citation `haider2020toward' on page 1 undefined on input line 142
+  Citation `haider2020toward' on page 2 undefined on input line 146
+  Citation `haider2020toward' on page 3 undefined on input line 175
+  Citation `hatami2009optimal' on page 3 undefined on input line 175
+  Citation `hobbs2000strategic' on page 1 undefined on input line 144
+  Citation `hobbs2000strategic' on page 2 undefined on input line 152
+  Citation `hobbs2000strategic' on page 6 undefined on input line 324
+  Citation `hobbs2000strategic' on page 7 undefined on input line 408
+  Citation `hu2003mathematical' on page 7 undefined on input line 408
+  Citation `hu2016framework' on page 2 undefined on input line 148
+  Citation `hu2016framework' on page 2 undefined on input line 150
+  Citation `hurley2013demand' on page 4 undefined on input line 194
+  Citation `jadhav2022emergence' on page 3 undefined on input line 175
+  Citation `jimenez2007competitive' on page 2 undefined on input line 146
+  Citation `kanwar2015optimal' on page 8 undefined on input line 478
+  Citation `kirschen2000factoring' on page 1 undefined on input line 142
+  Citation `kirschen2000factoring' on page 8 undefined on input line 478
+  Citation `kocuk2017new' on page 11 undefined on input line 879
+  Citation `kulkarni2014shared' on page 5 undefined on input line 274
+  Citation `leyffer2010solving' on page 1 undefined on input line 144
+  Citation `leyffer2010solving' on page 2 undefined on input line 154
+  Citation `leyffer2010solving' on page 5 undefined on input line 257
+  Citation `leyffer2010solving' on page 7 undefined on input line 368
+  Citation `li2016dynamic' on page 2 undefined on input line 146
+  Citation `li2016dynamic' on page 2 undefined on input line 148
+  Citation `li2016dynamic' on page 2 undefined on input line 150
+  Citation `li2016dynamic' on page 3 undefined on input line 175
+  Citation `li2016dynamic' on page 3 undefined on input line 185
+  Citation `li2016dynamic' on page 4 undefined on input line 226
+  Citation `li2016dynamic' on page 4 undefined on input line 230
+  Citation `li2018interactive' on page 2 undefined on input line 152
+  Citation `li2018interactive' on page 6 undefined on input line 298
+  Citation `lofberg2004yalmip' on page 11 undefined on input line 1031
+  Citation `lopez2010optimal' on page 2 undefined on input line 146
+  Citation `mahmoudi2017bottom' on page 4 undefined on input line 246
+  Citation `maskin1986existence' on page 5 undefined on input line 255
+  Citation `meena2018optimal' on page 10 undefined on input line 650
+  Citation `meena2018optimal' on page 8 undefined on input line 425
+  Citation `meena2018optimal' on page 8 undefined on input line 501
+  Citation `negash2014allocating' on page 4 undefined on input line 194
+  Citation `nguyen2010pool' on page 1 undefined on input line 142
+  Citation `pandey2021hierarchical' on page 2 undefined on input line 150
+  Citation `pandey2021hierarchical' on page 4 undefined on input line 230
+  Citation `pang2005quasi' on page 2 undefined on input line 152
+  Citation `pang2005quasi' on page 5 undefined on input line 257
+  Citation `pang2005quasi' on page 5 undefined on input line 266
+  Citation `pang2005quasi' on page 6 undefined on input line 320
+  Citation `qdr2006benefits' on page 1 undefined on input line 142
+  Citation `sarker2014optimal' on page 2 undefined on input line 146
+  Citation `sarker2014optimal' on page 2 undefined on input line 148
+  Citation `sarker2014optimal' on page 2 undefined on input line 150
+  Citation `sattarpour2018load' on page 3 undefined on input line 175
+  Citation `schweppe2013spot' on page 1 undefined on input line 142
+  Citation `share' on page 8 undefined on input line 429
+  Citation `song2017price' on page 1 undefined on input line 142
+  Citation `su2004sequential' on page 1 undefined on input line 144
+  Citation `su2004sequential' on page 2 undefined on input line 154
+  Citation `su2004sequential' on page 3 undefined on input line 185
+  Citation `su2004sequential' on page 5 undefined on input line 257
+  Citation `su2004sequential' on page 5 undefined on input line 266
+  Citation `su2004sequential' on page 6 undefined on input line 324
+  Citation `su2004sequential' on page 7 undefined on input line 382
+  Citation `su2004sequential' on page 7 undefined on input line 408
+  Citation `tushar2012economics' on page 2 undefined on input line 152
+  Citation `tushar2012economics' on page 5 undefined on input line 266
+  Citation `tushar2012economics' on page 6 undefined on input line 298
+  Citation `tushar2012economics' on page 6 undefined on input line 320
+  Citation `wachter2006implementation' on page 11 undefined on input line 1031
+  Citation `wang2019ensuring' on page 2 undefined on input line 146
+  Citation `wang2019ensuring' on page 2 undefined on input line 148
+  Citation `wang2019ensuring' on page 2 undefined on input line 150
+  Citation `wang2019ensuring' on page 3 undefined on input line 189
+  Citation `yu2017incentive' on page 2 undefined on input line 150
+  Citation `yu2017incentive' on page 4 undefined on input line 246
+  Citation `yu2017incentive' on page 5 undefined on input line 251
+  Citation `yu2017incentive' on page 8 undefined on input line 478
+  Citation `zadeh1963optimality' on page 4 undefined on input line 246
+  Citation `zhong2012coupon' on page 2 undefined on input line 148
+  Citation `zhong2012coupon' on page 3 undefined on input line 175
+  Citation `zhong2012coupon' on page 3 undefined on input line 185
+  Citation `zhong2012coupon' on page 4 undefined on input line 246
+  Reference `IBDR_arch' on page 3 undefined on input line 185
+  Reference `LSE_DRP' on page 3 undefined on input line 175
+  Reference `Load factor and power loss V 33' on page 9 undefined on input line 590
+  Reference `active and reactive power loss 108' on page 10 undefined on input line 738
+  Reference `agg load patternand DR Con' on page 9 undefined on input line 583
+  Reference `agg load patternand DR Con' on page 9 undefined on input line 585
+  Reference `agg load patternand DR Con_108' on page 10 undefined on input line 736
+  Reference `load factor' on page 8 undefined on input line 478
+  Reference `tab: Ch6_Compu com' on page 11 undefined on input line 1031
+  Reference `tab: Ch6_optimal demand schedule 108' on page 10 undefined on input line 650
+  Reference `tab: Ch6_optimal price schedule 108' on page 10 undefined on input line 650
+  Reference `tab: Comp_diff_Case' on page 11 undefined on input line 991
+  Reference `tab: Eco Comp 33 and 108-bus' on page 11 undefined on input line 879
+  Reference `tab: Optimal incentive price and demand ' on page 8 undefined on input line 501
+  Reference `tab: Optimal results BDR and ADR ' on page 9 undefined on input line 546
+  Reference `tab:Ch6_Optimization results 108' on page 10 undefined on input line 740
+  Reference `tab:Class-wise bilss BDR and ADR' on page 9 undefined on input line 601
+  Reference `tab:Comp optimal schedule' on page 10 undefined on input line 810
+  Reference `tab:Optimization results for a day' on page 9 undefined on input line 601
+  Reference `tab:cust detail' on page 8 undefined on input line 429
+  Reference `weighted-Sum' on page 8 undefined on input line 494
+  Reference `your_label' on page 7 undefined on input line 408
+Latexmk: Found bibliography file(s) [IEEEreferences.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.aux'
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00372_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.bbl'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372" --jobname="2306.00372_tl2020"  "main.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `IndianEnergyExchange' on page 8 undefined on input line 478
+  Citation `PANDEY2022107597' on page 8 undefined on input line 429
+  Citation `PANDEY2022107597' on page 8 undefined on input line 478
+  Citation `ahlstrom2015evolution' on page 3 undefined on input line 175
+  Citation `algarni2009generic' on page 1 undefined on input line 142
+  Citation `algarni2009generic' on page 2 undefined on input line 146
+  Citation `algarni2009generic' on page 4 undefined on input line 194
+  Citation `allen1986bertrand' on page 5 undefined on input line 255
+  Citation `anisie2019future' on page 3 undefined on input line 175
+  Citation `apostolopoulou2016interface' on page 3 undefined on input line 175
+  Citation `bai2017distribution' on page 3 undefined on input line 175
+  Citation `baran1989network' on page 8 undefined on input line 425
+  Citation `bautista2007formulation' on page 1 undefined on input line 144
+  Citation `bautista2007formulation' on page 2 undefined on input line 152
+  Citation `bautista2007formulation' on page 4 undefined on input line 226
+  Citation `bautista2007formulation' on page 7 undefined on input line 349
+  Citation `bertsekas2014constrained' on page 6 undefined on input line 280
+  Citation `boroumand2015electricity' on page 1 undefined on input line 142
+  Citation `boroumand2015electricity' on page 2 undefined on input line 146
+  Citation `boroumand2015electricity' on page 3 undefined on input line 175
+  Citation `burkardt2014truncated' on page 8 undefined on input line 478
+  Citation `cardell1997market' on page 1 undefined on input line 144
+  Citation `cardell1997market' on page 2 undefined on input line 152
+  Citation `cardell1997market' on page 6 undefined on input line 324
+  Citation `dadkhah2012cumulant' on page 8 undefined on input line 478
+  Citation `de2003stackelberg' on page 1 undefined on input line 144
+  Citation `facchinei2007generalized' on page 2 undefined on input line 152
+  Citation `facchinei2007generalized' on page 3 undefined on input line 185
+  Citation `facchinei2007generalized' on page 4 undefined on input line 246
+  Citation `facchinei2007generalized' on page 5 undefined on input line 266
+  Citation `facchinei2007generalized' on page 5 undefined on input line 274
+  Citation `facchinei2007generalized' on page 6 undefined on input line 292
+  Citation `facchinei2007generalized' on page 6 undefined on input line 298
+  Citation `facchinei2007generalized' on page 6 undefined on input line 320
+  Citation `faruqui2012ethics' on page 2 undefined on input line 146
+  Citation `faruqui2012ethics' on page 4 undefined on input line 230
+  Citation `faruqui2012ethics' on page 8 undefined on input line 501
+  Citation `fletcher2004solving' on page 6 undefined on input line 338
+  Citation `fletcher2004solving' on page 7 undefined on input line 408
+  Citation `ghazvini2015incentive' on page 2 undefined on input line 148
+  Citation `ghazvini2015multi' on page 2 undefined on input line 148
+  Citation `ghazvini2015multi' on page 2 undefined on input line 150
+  Citation `haghighat2012bilevel' on page 11 undefined on input line 1031
+  Citation `haghighat2012bilevel' on page 2 undefined on input line 146
+  Citation `haghighat2012bilevel' on page 3 undefined on input line 185
+  Citation `haghighat2012bilevel' on page 4 undefined on input line 226
+  Citation `haider2020toward' on page 1 undefined on input line 142
+  Citation `haider2020toward' on page 2 undefined on input line 146
+  Citation `haider2020toward' on page 3 undefined on input line 175
+  Citation `hatami2009optimal' on page 3 undefined on input line 175
+  Citation `hobbs2000strategic' on page 1 undefined on input line 144
+  Citation `hobbs2000strategic' on page 2 undefined on input line 152
+  Citation `hobbs2000strategic' on page 6 undefined on input line 324
+  Citation `hobbs2000strategic' on page 7 undefined on input line 408
+  Citation `hu2003mathematical' on page 7 undefined on input line 408
+  Citation `hu2016framework' on page 2 undefined on input line 148
+  Citation `hu2016framework' on page 2 undefined on input line 150
+  Citation `hurley2013demand' on page 4 undefined on input line 194
+  Citation `jadhav2022emergence' on page 3 undefined on input line 175
+  Citation `jimenez2007competitive' on page 2 undefined on input line 146
+  Citation `kanwar2015optimal' on page 8 undefined on input line 478
+  Citation `kirschen2000factoring' on page 1 undefined on input line 142
+  Citation `kirschen2000factoring' on page 8 undefined on input line 478
+  Citation `kocuk2017new' on page 11 undefined on input line 879
+  Citation `kulkarni2014shared' on page 5 undefined on input line 274
+  Citation `leyffer2010solving' on page 1 undefined on input line 144
+  Citation `leyffer2010solving' on page 2 undefined on input line 154
+  Citation `leyffer2010solving' on page 5 undefined on input line 257
+  Citation `leyffer2010solving' on page 7 undefined on input line 368
+  Citation `li2016dynamic' on page 2 undefined on input line 146
+  Citation `li2016dynamic' on page 2 undefined on input line 148
+  Citation `li2016dynamic' on page 2 undefined on input line 150
+  Citation `li2016dynamic' on page 3 undefined on input line 175
+  Citation `li2016dynamic' on page 3 undefined on input line 185
+  Citation `li2016dynamic' on page 4 undefined on input line 226
+  Citation `li2016dynamic' on page 4 undefined on input line 230
+  Citation `li2018interactive' on page 2 undefined on input line 152
+  Citation `li2018interactive' on page 6 undefined on input line 298
+  Citation `lofberg2004yalmip' on page 11 undefined on input line 1031
+  Citation `lopez2010optimal' on page 2 undefined on input line 146
+  Citation `mahmoudi2017bottom' on page 4 undefined on input line 246
+  Citation `maskin1986existence' on page 5 undefined on input line 255
+  Citation `meena2018optimal' on page 10 undefined on input line 650
+  Citation `meena2018optimal' on page 8 undefined on input line 425
+  Citation `meena2018optimal' on page 8 undefined on input line 501
+  Citation `negash2014allocating' on page 4 undefined on input line 194
+  Citation `nguyen2010pool' on page 1 undefined on input line 142
+  Citation `pandey2021hierarchical' on page 2 undefined on input line 150
+  Citation `pandey2021hierarchical' on page 4 undefined on input line 230
+  Citation `pang2005quasi' on page 2 undefined on input line 152
+  Citation `pang2005quasi' on page 5 undefined on input line 257
+  Citation `pang2005quasi' on page 5 undefined on input line 266
+  Citation `pang2005quasi' on page 6 undefined on input line 320
+  Citation `qdr2006benefits' on page 1 undefined on input line 142
+  Citation `sarker2014optimal' on page 2 undefined on input line 146
+  Citation `sarker2014optimal' on page 2 undefined on input line 148
+  Citation `sarker2014optimal' on page 2 undefined on input line 150
+  Citation `sattarpour2018load' on page 3 undefined on input line 175
+  Citation `schweppe2013spot' on page 1 undefined on input line 142
+  Citation `share' on page 8 undefined on input line 429
+  Citation `song2017price' on page 1 undefined on input line 142
+  Citation `su2004sequential' on page 1 undefined on input line 144
+  Citation `su2004sequential' on page 2 undefined on input line 154
+  Citation `su2004sequential' on page 3 undefined on input line 185
+  Citation `su2004sequential' on page 5 undefined on input line 257
+  Citation `su2004sequential' on page 5 undefined on input line 266
+  Citation `su2004sequential' on page 6 undefined on input line 324
+  Citation `su2004sequential' on page 7 undefined on input line 382
+  Citation `su2004sequential' on page 7 undefined on input line 408
+  Citation `tushar2012economics' on page 2 undefined on input line 152
+  Citation `tushar2012economics' on page 5 undefined on input line 266
+  Citation `tushar2012economics' on page 6 undefined on input line 298
+  Citation `tushar2012economics' on page 6 undefined on input line 320
+  Citation `wachter2006implementation' on page 11 undefined on input line 1031
+  Citation `wang2019ensuring' on page 2 undefined on input line 146
+  Citation `wang2019ensuring' on page 2 undefined on input line 148
+  Citation `wang2019ensuring' on page 2 undefined on input line 150
+  Citation `wang2019ensuring' on page 3 undefined on input line 189
+  Citation `yu2017incentive' on page 2 undefined on input line 150
+  Citation `yu2017incentive' on page 4 undefined on input line 246
+  Citation `yu2017incentive' on page 5 undefined on input line 251
+  Citation `yu2017incentive' on page 8 undefined on input line 478
+  Citation `zadeh1963optimality' on page 4 undefined on input line 246
+  Citation `zhong2012coupon' on page 2 undefined on input line 148
+  Citation `zhong2012coupon' on page 3 undefined on input line 175
+  Citation `zhong2012coupon' on page 3 undefined on input line 185
+  Citation `zhong2012coupon' on page 4 undefined on input line 246
+Latexmk: Found bibliography file(s) [IEEEreferences.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.aux'
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00372_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.aux'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372" --jobname="2306.00372_tl2020"  "main.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.pdf'
+Latexmk: Found bibliography file(s) [IEEEreferences.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.aux'
+------------
+Run number 3 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00372_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.aux'
+------------
+Run number 4 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372" --jobname="2306.00372_tl2020"  "main.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00372/2306.00372_tl2020.pdf'
+Latexmk: Found bibliography file(s) [IEEEreferences.bib]
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

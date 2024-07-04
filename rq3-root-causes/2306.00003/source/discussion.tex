@@ -1,0 +1,20 @@
+We have developed an approach to deep multiple instance learning for diagnosing a common heart valve disease (aortic stenosis) from the dozens of images collected in a routine echocardiogram. In our evaluations on the open-access TMED-2 dataset, we find our approach reaches better classifier accuracy than several alternatives, including two recent methods dedicated to AS screening. 
+We suspect that gains come from two sources. First, our method's ability to use both PLAX and PSAX images, not just PLAX. Second, our method's flexible attention that does not weight each relevant view equally. Both prior efforts on AS studied here, Filter-then-Average and Weighted Average by View Relevance, essentially treat each high-confidence PLAX or PSAX image equally in diagnosis. Instead, we emphasize that our method can learn a study-specific subset of PLAX or PSAX to attend to, based on image quality, anatomic visibility, or other factors.
+
+\paragraph{Limitations in diagnostic potential.}
+Human experts assess AS using several additional factors not available to our method. These include patient demographics, clinical variables, and (most importantly) other imaging technologies such as doppler echocardiography as well as high-resolution cineloop videos from 2D TTE (not just lower-resolution single frame images used here). 
+We suspect adapting our MIL architecture to these modalities would provide exciting further gains.
+
+\paragraph{Limitations in evaluation.}
+As of this writing, TMED-2 is the only open-access dataset of echos known to us with diagnostic labels for AS or other valve disease.
+However, it is limited in size and in covered demographics due to drawing from just one hospital site.
+Further assessment is needed to understand how our proposed method generalizes, especially to populations underrepresented at the Boston-based hospital where this data was collected.
+
+
+\paragraph{Advantages.}
+Our SAMIL approach is designed to perform automatic screening of an echo study without requiring a first-stage manual or automatic prefiltering to relevant view types.
+Even though prefiltering may sound simpler than MIL, we show our approach works better, likely due to its flexible attention mechanism. 
+We can further leverage large unlabeled data collections for pretraining effective representations.
+
+Our MIL approach could easily be applied to other structural heart diseases including cardiomyopathies and mitral and tricuspid disease if suitable labels were available for some studies. Additionally, multi-view image diagnostic problems are also abundant in fetal ultrasound, lung ultrasound, and head CT applications, so we expect translation of our insights to these other domains will bear fruit. Both key innovations -- supervised attention to steer toward clinically-relevant views for the diagnostic task and study-level representation learning -- are applicable to many other prediction tasks.
+Ultimately, we hope our study plays a part in transforming early screening for AS and other burdensome diseases to be more reproducible, effective, portable, and actionable. 

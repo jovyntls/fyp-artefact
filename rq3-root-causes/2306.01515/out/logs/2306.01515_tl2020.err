@@ -1,0 +1,316 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01515" --jobname="2306.01515_tl2020"  "main_v9.tex"'
+------------
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01515/2306.01515_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `10.1122/8.0000475' on page 4 undefined on input line 78
+  Citation `Alexander' on page 8 undefined on input line 200
+  Citation `Alice2008' on page 20 undefined on input line 628
+  Citation `BIOT19841' on page 4 undefined on input line 73
+  Citation `Coleman:1963aa' on page 3 undefined on input line 71
+  Citation `Coleman_Gurtin' on page 3 undefined on input line 71
+  Citation `D0SM01733G' on page 17 undefined on input line 521
+  Citation `D0SM02076A' on page 4 undefined on input line 73
+  Citation `D0SM02076A' on page 6 undefined on input line 142
+  Citation `EDELEN1972481' on page 4 undefined on input line 73
+  Citation `EDELEN1972481' on page 4 undefined on input line 80
+  Citation `EDELEN1972481' on page 5 undefined on input line 112
+  Citation `EDELEN1972481' on page 6 undefined on input line 131
+  Citation `Gyarmati' on page 4 undefined on input line 73
+  Citation `MIEHE20022123' on page 4 undefined on input line 73
+  Citation `MIEHE20022123' on page 6 undefined on input line 145
+  Citation `Maugin' on page 3 undefined on input line 71
+  Citation `Maugin' on page 4 undefined on input line 73
+  Citation `Mielke:2003aa' on page 4 undefined on input line 73
+  Citation `Noselli:2019aa' on page 6 undefined on input line 142
+  Citation `ORTIZ1999397' on page 4 undefined on input line 73
+  Citation `ORTIZ1999397' on page 6 undefined on input line 145
+  Citation `Onsager1931' on page 3 undefined on input line 71
+  Citation `Onsager1931' on page 4 undefined on input line 73
+  Citation `Onsager_shape' on page 17 undefined on input line 521
+  Citation `Otto2001' on page 4 undefined on input line 82
+  Citation `PhysRev.38.2265' on page 3 undefined on input line 71
+  Citation `PhysRev.38.2265' on page 4 undefined on input line 73
+  Citation `PhysRev.91.1505' on page 4 undefined on input line 73
+  Citation `PhysRev.97.1463' on page 4 undefined on input line 73
+  Citation `PhysRevLett.127.110601' on page 6 undefined on input line 143
+  Citation `Prost:2015aa' on page 3 undefined on input line 71
+  Citation `Prost:2015aa' on page 6 undefined on input line 143
+  Citation `Ruprecht:2015aa' on page 2 undefined on input line 57
+  Citation `Ruprecht:2015aa' on page 2 undefined on input line 59
+  Citation `Tozzi_2019' on page 4 undefined on input line 78
+  Citation `Tozzi_2019' on page 6 undefined on input line 143
+  Citation `ZIEGLER1987183' on page 3 undefined on input line 71
+  Citation `ZIEGLER1987183' on page 4 undefined on input line 73
+  Citation `alaimo2017' on page 2 undefined on input line 59
+  Citation `anne2016' on page 2 undefined on input line 59
+  Citation `antiga2008' on page 20 undefined on input line 644
+  Citation `arroyo2009' on page 4 undefined on input line 78
+  Citation `arroyo2009' on page 6 undefined on input line 144
+  Citation `arroyo2018' on page 4 undefined on input line 78
+  Citation `baskaran2008' on page 2 undefined on input line 59
+  Citation `bechinger2016' on page 2 undefined on input line 59
+  Citation `becker2008' on page 2 undefined on input line 59
+  Citation `benink2000' on page 2 undefined on input line 62
+  Citation `benink2000' on page 20 undefined on input line 628
+  Citation `bertin2013' on page 2 undefined on input line 59
+  Citation `callan2013' on page 2 undefined on input line 57
+  Citation `cates2009' on page 2 undefined on input line 59
+  Citation `chandrakar2020' on page 25 undefined on input line 690
+  Citation `cosserat1896theorie' on page 13 undefined on input line 363
+  Citation `de1993' on page 15 undefined on input line 453
+  Citation `de1993' on page 17 undefined on input line 521
+  Citation `de1993' on page 8 undefined on input line 184
+  Citation `de2013non' on page 3 undefined on input line 71
+  Citation `decamp2015' on page 2 undefined on input line 57
+  Citation `desplat2001' on page 2 undefined on input line 59
+  Citation `doi2011' on page 4 undefined on input line 78
+  Citation `doi:10.1080/00029890.1991.11995702' on page 28 undefined on input line 797
+  Citation `donea2003' on page 19 undefined on input line 613
+  Citation `doostmohammadi2018' on page 2 undefined on input line 57
+  Citation `doostmohammadi2018' on page 25 undefined on input line 680
+  Citation `doxzen2013' on page 2 undefined on input line 57
+  Citation `duclos2014' on page 2 undefined on input line 62
+  Citation `duclos2014' on page 23 undefined on input line 663
+  Citation `duclos2014' on page 23 undefined on input line 667
+  Citation `duclos2017' on page 2 undefined on input line 57
+  Citation `duclos2017' on page 2 undefined on input line 59
+  Citation `ehrig2017' on page 2 undefined on input line 59
+  Citation `ellis2018' on page 2 undefined on input line 59
+  Citation `elsdale1968' on page 23 undefined on input line 663
+  Citation `gao2017' on page 2 undefined on input line 57
+  Citation `giomi2014' on page 25 undefined on input line 677
+  Citation `goudiaby2021' on page 2 undefined on input line 59
+  Citation `guillamat2020' on page 2 undefined on input line 57
+  Citation `guillamat2020' on page 23 undefined on input line 663
+  Citation `hannezo2015' on page 2 undefined on input line 57
+  Citation `hardouin2019' on page 25 undefined on input line 677
+  Citation `hatwalne2004' on page 2 undefined on input line 59
+  Citation `hemingway2016' on page 2 undefined on input line 59
+  Citation `jalal2019' on page 2 undefined on input line 57
+  Citation `jubin2009' on page 23 undefined on input line 664
+  Citation `julicher2018' on page 15 undefined on input line 458
+  Citation `julicher2018' on page 2 undefined on input line 59
+  Citation `julicher2018' on page 3 undefined on input line 71
+  Citation `kaurin-bal' on page 4 undefined on input line 78
+  Citation `kaurin-bal' on page 6 undefined on input line 143
+  Citation `kaurin-bal' on page 8 undefined on input line 200
+  Citation `keber2014' on page 2 undefined on input line 59
+  Citation `khoromskaia2017' on page 2 undefined on input line 59
+  Citation `kondepudi2014modern' on page 3 undefined on input line 71
+  Citation `lehtimaki2021' on page 2 undefined on input line 57
+  Citation `lemma2021' on page 2 undefined on input line 57
+  Citation `li2017' on page 2 undefined on input line 57
+  Citation `mandato2001' on page 2 undefined on input line 59
+  Citation `mandato2001' on page 2 undefined on input line 62
+  Citation `mandato2001' on page 20 undefined on input line 628
+  Citation `marchetti2013' on page 2 undefined on input line 57
+  Citation `marenduzzo2007' on page 2 undefined on input line 59
+  Citation `maroudas2021' on page 27 undefined on input line 697
+  Citation `marsden1994' on page 8 undefined on input line 193
+  Citation `mayer2010' on page 27 undefined on input line 697
+  Citation `metselaar2019' on page 2 undefined on input line 59
+  Citation `mielke2016generalization' on page 4 undefined on input line 73
+  Citation `mielke2016generalization' on page 6 undefined on input line 131
+  Citation `mielke2016generalization' on page 6 undefined on input line 143
+  Citation `mirza2022' on page 17 undefined on input line 521
+  Citation `mirza2022' on page 2 undefined on input line 57
+  Citation `mirza2022' on page 2 undefined on input line 62
+  Citation `mirza2022' on page 27 undefined on input line 697
+  Citation `mirza2023' on page 11 undefined on input line 278
+  Citation `mirza2023' on page 27 undefined on input line 697
+  Citation `napoli2020' on page 2 undefined on input line 59
+  Citation `nestler2018' on page 2 undefined on input line 59
+  Citation `norton2018' on page 2 undefined on input line 59
+  Citation `norton2018' on page 23 undefined on input line 667
+  Citation `opathalage2019' on page 2 undefined on input line 57
+  Citation `patelli2019' on page 2 undefined on input line 59
+  Citation `pearce2020' on page 2 undefined on input line 59
+  Citation `peletier2014variational' on page 4 undefined on input line 73
+  Citation `peletier2014variational' on page 4 undefined on input line 82
+  Citation `peshkov2012' on page 2 undefined on input line 59
+  Citation `ramaswamy2007' on page 25 undefined on input line 691
+  Citation `ramaswamy2010' on page 25 undefined on input line 691
+  Citation `rayleigh1873' on page 4 undefined on input line 73
+  Citation `ronning2022' on page 25 undefined on input line 680
+  Citation `salbreux2009' on page 14 undefined on input line 417
+  Citation `salbreux2009' on page 15 undefined on input line 458
+  Citation `salbreux2009' on page 15 undefined on input line 475
+  Citation `salbreux2022' on page 2 undefined on input line 59
+  Citation `schroeder2003' on page 20 undefined on input line 644
+  Citation `sens-PNAS' on page 6 undefined on input line 143
+  Citation `simha2002' on page 2 undefined on input line 59
+  Citation `tee2015' on page 2 undefined on input line 57
+  Citation `thijssen2020' on page 25 undefined on input line 677
+  Citation `tojkander2015' on page 2 undefined on input line 57
+  Citation `torres2019' on page 6 undefined on input line 142
+  Citation `torres2019' on page 6 undefined on input line 145
+  Citation `turlier2014' on page 6 undefined on input line 143
+  Citation `vafa2020' on page 25 undefined on input line 677
+  Citation `vcopar2019' on page 2 undefined on input line 59
+  Citation `waleed_thesis' on page 11 undefined on input line 278
+  Citation `weirich2017' on page 2 undefined on input line 57
+  Citation `weirich2019' on page 2 undefined on input line 57
+  Citation `wioland2013' on page 2 undefined on input line 57
+  Citation `wirshing2017' on page 2 undefined on input line 57
+  Citation `xia2019' on page 2 undefined on input line 57
+  Citation `yolland2019' on page 2 undefined on input line 57
+  Citation `yu2018' on page 2 undefined on input line 57
+  Citation `zhang2020' on page 2 undefined on input line 59
+  Reference `2nd_law' on page 15 undefined on input line 458
+  Reference `Ons_summ' on page 7 undefined on input line 160
+  Reference `Ons_summ' on page 8 undefined on input line 195
+  Reference `Ons_summ' on page 8 undefined on input line 219
+  Reference `appendix_grid' on page 19 undefined on input line 621
+  Reference `aux1' on page 10 undefined on input line 254
+  Reference `bal_gen_force' on page 15 undefined on input line 453
+  Reference `bal_gen_force' on page 15 undefined on input line 458
+  Reference `bal_lin_mom' on page 15 undefined on input line 458
+  Reference `diss_inc' on page 15 undefined on input line 474
+  Reference `diss_ineq' on page 16 undefined on input line 485
+  Reference `entropy_prod' on page 6 undefined on input line 131
+  Reference `eq::explicit_antisymmetric_stress' on page 13 undefined on input line 389
+  Reference `eq:Jaumann' on page 10 undefined on input line 250
+  Reference `eq:Jaumann' on page 18 undefined on input line 538
+  Reference `eq:Jaumann' on page 8 undefined on input line 195
+  Reference `eq:Jaumann' on page 9 undefined on input line 226
+  Reference `eq:Lagrangian' on page 17 undefined on input line 533
+  Reference `eq:Rayleighian' on page 17 undefined on input line 533
+  Reference `eq:balance_angular_momentum' on page 13 undefined on input line 363
+  Reference `eq:balance_angular_momentum' on page 31 undefined on input line 864
+  Reference `eq:balance_mass' on page 13 undefined on input line 379
+  Reference `eq:balance_mass' on page 17 undefined on input line 516
+  Reference `eq:balance_mass' on page 17 undefined on input line 533
+  Reference `eq:balance_mass' on page 18 undefined on input line 572
+  Reference `eq:balance_q' on page 12 undefined on input line 334
+  Reference `eq:balance_q' on page 14 undefined on input line 432
+  Reference `eq:balance_q' on page 29 undefined on input line 822
+  Reference `eq:balance_q_bd' on page 12 undefined on input line 334
+  Reference `eq:balance_q_bd' on page 13 undefined on input line 363
+  Reference `eq:balance_q_bd' on page 30 undefined on input line 834
+  Reference `eq:change_of_free_energy' on page 11 undefined on input line 274
+  Reference `eq:change_of_free_energy' on page 17 undefined on input line 533
+  Reference `eq:constraint_' on page 15 undefined on input line 447
+  Reference `eq:diss_density_example' on page 16 undefined on input line 480
+  Reference `eq:diss_density_example' on page 16 undefined on input line 497
+  Reference `eq:dotf' on page 10 undefined on input line 258
+  Reference `eq:dotfUUUU' on page 10 undefined on input line 264
+  Reference `eq:dotfUUUU' on page 10 undefined on input line 269
+  Reference `eq:free_energy' on page 9 undefined on input line 233
+  Reference `eq:landau' on page 16 undefined on input line 494
+  Reference `eq:landau' on page 16 undefined on input line 497
+  Reference `eq:moment' on page 13 undefined on input line 363
+  Reference `eq:moment' on page 13 undefined on input line 381
+  Reference `eq:nematic_tensor' on page 8 undefined on input line 206
+  Reference `eq:over_activity_1' on page 20 undefined on input line 642
+  Reference `eq:over_activity_1' on page 22 undefined on input line 654
+  Reference `eq:pow_density_example' on page 16 undefined on input line 497
+  Reference `eq:rate-of-deformation' on page 13 undefined on input line 379
+  Reference `eq:spin' on page 13 undefined on input line 379
+  Reference `eq:sym_stress' on page 13 undefined on input line 389
+  Reference `eq:weak_mass' on page 19 undefined on input line 613
+  Reference `eq:weak_mass' on page 19 undefined on input line 620
+  Reference `eq:weak_q_disc' on page 19 undefined on input line 603
+  Reference `eq:weak_q_disc' on page 19 undefined on input line 613
+  Reference `eq:weak_q_disc' on page 19 undefined on input line 620
+  Reference `eq:weak_v' on page 18 undefined on input line 570
+  Reference `eq:weak_v' on page 28 undefined on input line 807
+  Reference `eq:weak_v_app' on page 31 undefined on input line 864
+  Reference `eq:weak_v_disc' on page 18 undefined on input line 570
+  Reference `eq:weak_v_disc' on page 18 undefined on input line 581
+  Reference `eq:weak_v_disc' on page 19 undefined on input line 613
+  Reference `eq:weak_v_disc' on page 28 undefined on input line 807
+  Reference `equivalence' on page 18 undefined on input line 570
+  Reference `ex1' on page 17 undefined on input line 521
+  Reference `ex2' on page 17 undefined on input line 521
+  Reference `f_frame_indiff' on page 10 undefined on input line 269
+  Reference `f_frame_indiff' on page 11 undefined on input line 280
+  Reference `f_frame_indiff_2' on page 11 undefined on input line 291
+  Reference `f_frame_indiff_2' on page 13 undefined on input line 389
+  Reference `f_frame_indiff_2' on page 30 undefined on input line 845
+  Reference `f_frame_indiff_3' on page 11 undefined on input line 291
+  Reference `f_frame_indiff_3' on page 13 undefined on input line 389
+  Reference `fig0' on page 8 undefined on input line 215
+  Reference `first_govern' on page 17 undefined on input line 521
+  Reference `first_govern' on page 17 undefined on input line 529
+  Reference `general_process' on page 5 undefined on input line 105
+  Reference `general_process' on page 5 undefined on input line 87
+  Reference `grid' on page 31 undefined on input line 874
+  Reference `grid' on page 31 undefined on input line 881
+  Reference `inequality' on page 14 undefined on input line 417
+  Reference `inequality' on page 16 undefined on input line 485
+  Reference `jaumann_detivative_def' on page 25 undefined on input line 680
+  Reference `last_govern' on page 17 undefined on input line 529
+  Reference `lya' on page 6 undefined on input line 131
+  Reference `modal_parameters_cell_colony' on page 24 undefined on input line 675
+  Reference `modal_parameters_cell_healing' on page 20 undefined on input line 644
+  Reference `nem_field' on page 13 undefined on input line 389
+  Reference `sec:Onsager' on page 16 undefined on input line 497
+  Reference `sec:Onsager' on page 3 undefined on input line 65
+  Reference `sec_0' on page 3 undefined on input line 65
+  Reference `sec_1' on page 3 undefined on input line 65
+  Reference `sec_1_chap_3_fig_1' on page 20 undefined on input line 637
+  Reference `sec_1_chap_3_fig_1' on page 22 undefined on input line 654
+  Reference `sec_1_chap_3_fig_1' on page 31 undefined on input line 894
+  Reference `sec_1_chap_3_fig_2' on page 23 undefined on input line 657
+  Reference `sec_1_chap_3_fig_2' on page 31 undefined on input line 894
+  Reference `sec_1_chap_3_fig_3' on page 24 undefined on input line 675
+  Reference `sec_1_chap_3_fig_3' on page 25 undefined on input line 677
+  Reference `sec_1_chap_3_fig_3' on page 31 undefined on input line 870
+  Reference `sec_1_chap_3_fig_3' on page 32 undefined on input line 921
+  Reference `sec_1_chap_3_fig_3.5' on page 25 undefined on input line 680
+  Reference `sec_1_chap_3_fig_3.5' on page 25 undefined on input line 689
+  Reference `sec_1_chap_3_fig_3.5' on page 25 undefined on input line 691
+  Reference `sec_1_chap_3_fig_3.5' on page 32 undefined on input line 921
+  Reference `sec_2' on page 15 undefined on input line 465
+  Reference `sec_2' on page 28 undefined on input line 807
+  Reference `sec_2_bis' on page 3 undefined on input line 65
+  Reference `sec_3' on page 20 undefined on input line 637
+  Reference `sec_3' on page 3 undefined on input line 65
+  Reference `sec_4' on page 28 undefined on input line 807
+  Reference `sec_4' on page 3 undefined on input line 65
+  Reference `sec_5' on page 3 undefined on input line 65
+  Reference `sigma_a' on page 13 undefined on input line 363
+  Reference `sigma_a' on page 13 undefined on input line 381
+  Reference `stress_stand' on page 15 undefined on input line 453
+  Reference `stress_stand' on page 15 undefined on input line 460
+  Reference `stress_stand_2' on page 15 undefined on input line 458
+  Reference `stress_stand_2' on page 15 undefined on input line 460
+  Reference `summary' on page 3 undefined on input line 65
+  Reference `weakgen' on page 5 undefined on input line 114
+  Reference `zeta' on page 10 undefined on input line 254
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01515/2306.01515_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01515/2306.01515_tl2020.out'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01515" --jobname="2306.01515_tl2020"  "main_v9.tex"'
+------------
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01515/2306.01515_tl2020.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01515/2306.01515_tl2020.aux'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01515" --jobname="2306.01515_tl2020"  "main_v9.tex"'
+------------
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01515/2306.01515_tl2020.pdf'
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

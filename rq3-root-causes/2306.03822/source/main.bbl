@@ -1,0 +1,236 @@
+\begin{thebibliography}{10}
+
+\bibitem{Bardou2007WhenAS}
+Olivier Bardou, Sandrine Bouthemy, and Gilles Pag{\`e}s.
+\newblock When are swing options bang-bang and how to use it.
+\newblock {\em arXiv: Probability}, 2007.
+
+\bibitem{Bardou2009OptimalQF}
+Olivier Bardou, Sandrine Bouthemy, and Gilles Pag{\`e}s.
+\newblock Optimal quantization for the pricing of swing options.
+\newblock {\em Applied Mathematical Finance}, 16:183 -- 217, 2009.
+
+\bibitem{BarreraEsteve2006NumericalMF}
+Christophe Barrera-Esteve, Florent Bergeret, Charles Dossal, Emmanuel Gobet,
+  Asma Meziou, R{\'e}mi Munos, and Damien Reboul-Salze.
+\newblock Numerical methods for the pricing of swing options: A stochastic
+  control approach.
+\newblock {\em Methodology and Computing in Applied Probability}, 8:517--540,
+  2006.
+
+\bibitem{Baydin2017AutomaticDI}
+Atilim~Gunes Baydin, Barak~A. Pearlmutter, Alexey Radul, and Jeffrey~Mark
+  Siskind.
+\newblock Automatic differentiation in machine learning: a survey.
+\newblock {\em J. Mach. Learn. Res.}, 18:153:1--153:43, 2017.
+
+\bibitem{EonBottou1998OnlineLA}
+L~Eon Bottou.
+\newblock Online learning and stochastic approximations.
+\newblock 1998.
+
+\bibitem{bras2022langevin}
+Pierre Bras.
+\newblock Langevin algorithms for very deep neural networks with application to
+  image classification, 2022.
+
+\bibitem{bras:hal-03891234}
+Pierre Bras and Gilles Pag{\`e}s.
+\newblock {Convergence of Langevin-Simulated Annealing algorithms with
+  multiplicative noise}.
+\newblock 31 pages + Supplementary Material (6 pages), September 2021.
+
+\bibitem{PierreLangevin}
+Pierre {Bras} and Gilles {Pag{\`e}s}.
+\newblock {Langevin algorithms for Markovian Neural Networks and Deep
+  Stochastic control}.
+\newblock {\em arXiv e-prints}, page arXiv:2212.12018, December 2022.
+
+\bibitem{Broadie2004ASM}
+Mark Broadie and Paul Glasserman.
+\newblock A sotchastic mesh method for pricing high-dimensional american
+  options.
+\newblock {\em Journal of Computational Finance}, 7:35--72, 2004.
+
+\bibitem{pmlr-v84-chee18a}
+Jerry Chee and Panos Toulis.
+\newblock Convergence diagnostics for stochastic gradient descent with constant
+  learning rate.
+\newblock In Amos Storkey and Fernando Perez-Cruz, editors, {\em Proceedings of
+  the Twenty-First International Conference on Artificial Intelligence and
+  Statistics}, volume~84 of {\em Proceedings of Machine Learning Research},
+  pages 1476--1485. PMLR, 09--11 Apr 2018.
+
+\bibitem{Dalalyan2014TheoreticalGF}
+Arnak~S. Dalalyan.
+\newblock Theoretical guarantees for approximate sampling from smooth and
+  log‐concave densities.
+\newblock {\em Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 79, 2014.
+
+\bibitem{Dalalyan2017FurtherAS}
+Arnak~S. Dalalyan.
+\newblock Further and stronger analogy between sampling and optimization:
+  Langevin monte carlo and gradient descent.
+\newblock In {\em Annual Conference Computational Learning Theory}, 2017.
+
+\bibitem{Dauphin2014IdentifyingAA}
+Yann Dauphin, Razvan Pascanu, Çaglar G{\"u}lçehre, Kyunghyun Cho, Surya
+  Ganguli, and Yoshua Bengio.
+\newblock Identifying and attacking the saddle point problem in
+  high-dimensional non-convex optimization.
+\newblock In {\em NIPS}, 2014.
+
+\bibitem{Defossez2020ASC}
+Alexandre D{\'e}fossez, Leon Bottou, Francis Bach, and Nicolas Usunier.
+\newblock A simple convergence proof of adam and adagrad.
+\newblock {\em Transactions on Machine Learning Research}, 2022.
+
+\bibitem{langcvg}
+Alain Durmus and {\'E}ric Moulines.
+\newblock {Nonasymptotic convergence analysis for the unadjusted Langevin
+  algorithm}.
+\newblock {\em The Annals of Applied Probability}, 27(3):1551 -- 1587, 2017.
+
+\bibitem{durmus2018highdimensional}
+Alain Durmus and Eric Moulines.
+\newblock High-dimensional bayesian inference via the unadjusted langevin
+  algorithm, 2018.
+
+\bibitem{GobetMunos}
+Emmanuel Gobet and Remi Munos.
+\newblock Sensitivity analysis using itô--malliavin calculus and martingales,
+  and application to stochastic optimal control.
+\newblock {\em SIAM J. Control and Optimization}, 43:1676--1713, 01 2005.
+
+\bibitem{Hornik1989MultilayerFN}
+Kurt Hornik, Maxwell~B. Stinchcombe, and Halbert~L. White.
+\newblock Multilayer feedforward networks are universal approximators.
+\newblock {\em Neural Networks}, 2:359--366, 1989.
+
+\bibitem{Jaillet1990VariationalIA}
+Patrick Jaillet, Damien Lamberton, and Bernard Lapeyre.
+\newblock Variational inequalities and the pricing of american options.
+\newblock {\em Acta Applicandae Mathematica}, 21:263--289, 1990.
+
+\bibitem{Jaillet2004ValuationOC}
+Patrick Jaillet, Ehud~I. Ronn, and Stathis Tompaidis.
+\newblock Valuation of commodity-based swing options.
+\newblock {\em Manag. Sci.}, 50:909--921, 2004.
+
+\bibitem{Jospin_2022}
+Laurent~Valentin Jospin, Hamid Laga, Farid Boussaid, Wray Buntine, and Mohammed
+  Bennamoun.
+\newblock Hands-on bayesian neural networks{\textemdash}a tutorial for deep
+  learning users.
+\newblock {\em {IEEE} Computational Intelligence Magazine}, 17(2):29--48, may
+  2022.
+
+\bibitem{Kingma2015AdamAM}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock {\em CoRR}, abs/1412.6980, 2015.
+
+\bibitem{Kushner2003StochasticAA}
+Harold~J. Kushner and George Yin.
+\newblock Stochastic approximation and recursive algorithms and applications.
+\newblock 2003.
+
+\bibitem{LariLavassani2002ADV}
+Ali Lari-Lavassani and Mohamadreza Simchi.
+\newblock A discrete valuation of swing options.
+\newblock 2002.
+
+\bibitem{Li2016PreconditionedSG}
+Chunyuan Li, Changyou Chen, David~Edwin Carlson, and Lawrence Carin.
+\newblock Preconditioned stochastic gradient langevin dynamics for deep neural
+  networks.
+\newblock In {\em AAAI}, 2016.
+
+\bibitem{sgdSaddlePoints}
+Ziyin Liu, Botao Li, and Masahito Ueda.
+\newblock {SGD} may never escape saddle points.
+\newblock {\em CoRR}, abs/2107.11774, 2021.
+
+\bibitem{Longstaff2001ValuingAO}
+Francis~A. Longstaff and Eduardo~S. Schwartz.
+\newblock Valuing american options by simulation: A simple least-squares
+  approach.
+\newblock {\em The Finance}, 2001.
+
+\bibitem{addgaussnoise}
+Arvind Neelakantan, Luke Vilnis, Quoc~V. Le, Ilya Sutskever, Lukasz Kaiser,
+  Karol Kurach, and James Martens.
+\newblock Adding gradient noise improves learning for very deep networks, 2015.
+
+\bibitem{Pags2020UnadjustedLA}
+Gilles Pag\`es and Fabien Panloup.
+\newblock Unadjusted {L}angevin algorithm with multiplicative noise: {T}otal
+  variation and {W}asserstein bounds.
+\newblock {\em Ann. Appl. Probab.}, 33(1):726--779, 2023.
+
+\bibitem{Pags2004OptimalQM}
+Gilles Pag{\`e}s, Huy{\^e}n Pham, and Jacques Printems.
+\newblock Optimal quantization methods and applications to numerical problems
+  in finance.
+\newblock 2004.
+
+\bibitem{Pan2010ASO}
+Sinno~Jialin Pan and Qiang Yang.
+\newblock A survey on transfer learning.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  22:1345--1359, 2010.
+
+\bibitem{Paszke2017AutomaticDI}
+Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zach
+  DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer.
+\newblock Automatic differentiation in pytorch.
+\newblock 2017.
+
+\bibitem{sgdMoment}
+Ning Qian.
+\newblock On the momentum term in gradient descent learning algorithms.
+\newblock {\em Neural networks : the official journal of the International
+  Neural Network Society}, 12:145--151, 02 1999.
+
+\bibitem{Robbins2007ASA}
+Herbert~E. Robbins.
+\newblock A stochastic approximation method.
+\newblock {\em Annals of Mathematical Statistics}, 22:400--407, 2007.
+
+\bibitem{Robbins1971ACT}
+Herbert~E. Robbins and David~O. Siegmund.
+\newblock A convergence theorem for non negative almost supermartingales and
+  some applications**research supported by nih grant 5-r01-gm-16895-03 and onr
+  grant n00014-67-a-0108-0018.
+\newblock 1971.
+
+\bibitem{Rogers2002MonteCV}
+L.~C.~G. Rogers.
+\newblock Monte carlo valuation of american options.
+\newblock {\em Mathematical Finance}, 12, 2002.
+
+\bibitem{Rumelhart1986LearningIR}
+David~E. Rumelhart, Geoffrey~E. Hinton, and Ronald~J. Williams.
+\newblock Learning internal representations by error propagation.
+\newblock 1986.
+
+\bibitem{Thompson1995ValuationOP}
+Andrew~Carl Thompson.
+\newblock Valuation of path-dependent contingent claims with multiple exercise
+  decisions over time: The case of take-or-pay.
+\newblock {\em Journal of Financial and Quantitative Analysis}, 30:271 -- 293,
+  1995.
+
+\bibitem{Welling2011BayesianLV}
+Max Welling and Yee~Whye Teh.
+\newblock Bayesian learning via stochastic gradient langevin dynamics.
+\newblock In {\em International Conference on Machine Learning}, 2011.
+
+\bibitem{Zou2018ASC}
+Fangyu Zou, Li~Shen, Zequn Jie, Weizhong Zhang, and Wei Liu.
+\newblock A sufficient condition for convergences of adam and rmsprop.
+\newblock {\em 2019 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 11119--11127, 2018.
+
+\end{thebibliography}

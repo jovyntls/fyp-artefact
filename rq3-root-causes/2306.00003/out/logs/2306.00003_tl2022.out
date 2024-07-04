@@ -1,0 +1,1297 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00003_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (./jmlr.cls
+Document Class: jmlr 2017/08/01 v1.24 (NLCT) Journal of Machine Learning Resear
+ch
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/x11nam.def))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/relsize/relsize.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/jmlr/jmlrutils.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)))) (/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations.sty)
+
+Package siunitx Warning: Option "load-configurations" has been removed in this
+(siunitx)                release.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titletoc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+)
+
+! LaTeX Error: Command \c@subfigure already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 ...hCaptionType{\DeclareCaptionSubType{#1}}}
+                                                  
+
+! LaTeX Error: Command \subfigure already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 ...hCaptionType{\DeclareCaptionSubType{#1}}}
+                                                  
+
+! LaTeX Error: Command \c@subtable already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 ...hCaptionType{\DeclareCaptionSubType{#1}}}
+                                                  
+
+! LaTeX Error: Command \subtable already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 ...hCaptionType{\DeclareCaptionSubType{#1}}}
+                                                  
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003
+_tl2022.aux)
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd) (./abstract.tex
+)
+
+Package hyperref Warning: Ignoring empty anchor on input line 85.
+
+(./intro.tex
+
+Package natbib Warning: Citation `yadgir2020global' on page 1 undefined on inpu
+t line 2.
+
+
+Package natbib Warning: Citation `gardezi2018cardiac' on page 1 undefined on in
+put line 2.
+
+(./fig1_diagram.tex
+
+Package natbib Warning: Citation `holste2022automated' on page 1 undefined on i
+nput line 8.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/MIL_for_AS_diagram_1.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figures/MIL_for_AS_diagram_2.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figures/MIL_for_AS_diagram_3.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figures/MIL_for_AS_diagram_4.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+
+Package natbib Warning: Citation `wessler2023automated' on page 1 undefined on 
+input line 20.
+
+
+Package natbib Warning: Citation `huang2021new' on page 1 undefined on input li
+ne 20.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+
+Package natbib Warning: Citation `mitchell2019guidelines' on page 1 undefined o
+n input line 33.
+
+
+LaTeX Warning: Reference `sec:methods_SA' on page 1 undefined on input line 33.
+
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 1 undefined on input line 33.
+
+
+
+Package natbib Warning: Citation `mitchell2019guidelines' on page 1 undefined o
+n input line 33.
+
+
+LaTeX Warning: Reference `sec:methods_SA' on page 1 undefined on input line 33.
+
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 1 undefined on input line 33.
+
+
+)
+
+LaTeX Warning: Reference `fig:diagrams' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Reference `jmlrstart' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Reference `jmlrend' on page 1 undefined on input line 15.
+
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `ilse2018attention' on page 2 undefined on inp
+ut line 21.
+
+
+Package natbib Warning: Citation `lee2019set' on page 2 undefined on input line
+ 21.
+
+
+Package natbib Warning: Citation `sharma2021cluster' on page 2 undefined on inp
+ut line 21.
+
+
+Package natbib Warning: Citation `shao2021transmil' on page 2 undefined on inpu
+t line 21.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 2 undefined on input line 27.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 2 undefined on i
+nput line 27.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 2 undefined on input line 27.
+
+
+Package natbib Warning: Citation `huang2021new' on page 2 undefined on input li
+ne 27.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 2 undefined on 
+input line 27.
+
+
+LaTeX Warning: Reference `sec:Results' on page 2 undefined on input line 28.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 2 undefined on i
+nput line 28.
+
+[2 <./figures/MIL_for_AS_diagram_1.pdf> <./figures/MIL_for_AS_diagram_2.pdf
+
+pdfTeX warning: pdflatex (file ./figures/MIL_for_AS_diagram_2.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./figures/MIL_for_AS_diagram_3.pdf
+
+pdfTeX warning: pdflatex (file ./figures/MIL_for_AS_diagram_3.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./figures/MIL_for_AS_diagram_4.pdf
+
+pdfTeX warning: pdflatex (file ./figures/MIL_for_AS_diagram_4.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `sec:methods_SA' on page 3 undefined on input line 32.
+
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 3 undefined on inp
+ut line 33.
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 3 undefined on input line 34.
+
+
+
+LaTeX Warning: Reference `sec:methods_SA' on page 3 undefined on input line 42.
+
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 3 undefined on input line 42.
+
+
+) (./related_work.tex
+
+Package natbib Warning: Citation `dietterich1997solving' on page 3 undefined on
+ input line 3.
+
+
+Package natbib Warning: Citation `maron1997framework' on page 3 undefined on in
+put line 3.
+
+
+Package natbib Warning: Citation `cosatto2013automated' on page 3 undefined on 
+input line 5.
+
+
+Package natbib Warning: Citation `shao2021transmil' on page 3 undefined on inpu
+t line 5.
+
+
+Package natbib Warning: Citation `li2021dual' on page 3 undefined on input line
+ 5.
+
+
+Package natbib Warning: Citation `quellec2012multiple' on page 3 undefined on i
+nput line 8.
+
+
+Package natbib Warning: Citation `li2021deep' on page 3 undefined on input line
+ 8.
+
+
+Package natbib Warning: Citation `li2021multi' on page 3 undefined on input lin
+e 8.
+
+
+Package natbib Warning: Citation `kandemir2015computer' on page 3 undefined on 
+input line 8.
+
+
+Package natbib Warning: Citation `borowa2020classifying' on page 3 undefined on
+ input line 8.
+
+
+Package natbib Warning: Citation `dietterich1997solving' on page 3 undefined on
+ input line 8.
+
+
+Package natbib Warning: Citation `zhao2013drug' on page 3 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `campanella2019clinical' on page 3 undefined o
+n input line 8.
+
+
+Package natbib Warning: Citation `chikontwe2020multiple' on page 3 undefined on
+ input line 8.
+
+
+Package natbib Warning: Citation `hou2016patch' on page 3 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `ding2012breast' on page 3 undefined on input 
+line 8.
+
+
+Package natbib Warning: Citation `xu2014weakly' on page 3 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `zhou2004multi' on page 3 undefined on input l
+ine 9.
+
+
+Package natbib Warning: Citation `quellec2017multiple' on page 3 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `carbonneau2018multiple' on page 3 undefined o
+n input line 9.
+
+
+Package natbib Warning: Citation `wang2018revisiting' on page 3 undefined on in
+put line 14.
+
+
+Package natbib Warning: Citation `liu2017detecting' on page 3 undefined on inpu
+t line 14.
+
+[3]
+
+LaTeX Warning: Reference `app:relatedworks' on page 4 undefined on input line 3
+0.
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 4 undefined on inp
+ut line 31.
+
+
+Package natbib Warning: Citation `lee2019set' on page 4 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `vaswani2017attention' on page 4 undefined on 
+input line 32.
+
+
+Package natbib Warning: Citation `shao2021transmil' on page 4 undefined on inpu
+t line 32.
+
+
+Package natbib Warning: Citation `sharma2021cluster' on page 4 undefined on inp
+ut line 32.
+
+
+Package natbib Warning: Citation `li2021dual' on page 4 undefined on input line
+ 33.
+
+
+Package natbib Warning: Citation `oord2018representation' on page 4 undefined o
+n input line 44.
+
+
+Package natbib Warning: Citation `chen2020simple' on page 4 undefined on input 
+line 44.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 4 undefined on input 
+line 44.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 4 undefined on inpu
+t line 44.
+
+
+Package natbib Warning: Citation `grill2020bootstrap' on page 4 undefined on in
+put line 44.
+
+
+Package natbib Warning: Citation `caron2020unsupervised' on page 4 undefined on
+ input line 44.
+
+
+Package natbib Warning: Citation `chen2021exploring' on page 4 undefined on inp
+ut line 44.
+
+
+Package natbib Warning: Citation `oord2018representation' on page 4 undefined o
+n input line 46.
+
+
+Package natbib Warning: Citation `gidaris2018unsupervised' on page 4 undefined 
+on input line 47.
+
+
+Package natbib Warning: Citation `noroozi2016unsupervised' on page 4 undefined 
+on input line 48.
+
+
+Package natbib Warning: Citation `wu2018unsupervised' on page 4 undefined on in
+put line 52.
+
+
+Package natbib Warning: Citation `oord2018representation' on page 4 undefined o
+n input line 52.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 4 undefined on input 
+line 52.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 4 undefined on inpu
+t line 52.
+
+
+Package natbib Warning: Citation `holste2022self' on page 4 undefined on input 
+line 56.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 4 undefined on i
+nput line 56.
+
+
+Package natbib Warning: Citation `liu2022multiple' on page 4 undefined on input
+ line 56.
+
+
+Package natbib Warning: Citation `lu2019semi' on page 4 undefined on input line
+ 56.
+
+
+Package natbib Warning: Citation `li2021dual' on page 4 undefined on input line
+ 56.
+
+
+Package natbib Warning: Citation `saillard2021self' on page 4 undefined on inpu
+t line 56.
+
+
+Package natbib Warning: Citation `dehaene2020self' on page 4 undefined on input
+ line 56.
+
+
+Package natbib Warning: Citation `rymarczyk2023protomil' on page 4 undefined on
+ input line 56.
+
+
+Package natbib Warning: Citation `arora2019theoretical' on page 4 undefined on 
+input line 58.
+
+
+Package natbib Warning: Citation `chuang2020debiased' on page 4 undefined on in
+put line 58.
+
+
+Package natbib Warning: Citation `khosla2020supervised' on page 4 undefined on 
+input line 58.
+
+
+Package natbib Warning: Citation `dwibedi2021little' on page 4 undefined on inp
+ut line 58.
+
+
+Package natbib Warning: Citation `zheng2021weakly' on page 4 undefined on input
+ line 58.
+
+
+Package natbib Warning: Citation `ash2021investigating' on page 4 undefined on 
+input line 58.
+
+
+Package natbib Warning: Citation `li2021comatch' on page 4 undefined on input l
+ine 58.
+
+
+Overfull \hbox (13.50099pt too wide) in paragraph at lines 56--59
+[]\OT1/cmr/m/n/10.95 Recently, self-supervision has been suc-cess-fully ap-plie
+d to pre-train MIL mod-els (\OT1/cmr/bx/n/10.95 ????????\OT1/cmr/m/n/10.95 ).
+
+LaTeX Warning: Reference `fig:diagrams' on page 4 undefined on input line 73.
+
+
+Package natbib Warning: Citation `dai2023identifying' on page 4 undefined on in
+put line 74.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 4 undefined on i
+nput line 75.
+
+[4]
+
+LaTeX Warning: Reference `fig:diagrams' on page 5 undefined on input line 78.
+
+
+Package natbib Warning: Citation `huang2021new' on page 5 undefined on input li
+ne 79.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 5 undefined on 
+input line 79.
+
+
+Package natbib Warning: Citation `krishna2023fully' on page 5 undefined on inpu
+t line 81.
+
+
+Package natbib Warning: Citation `cohen2021electrocardiogram' on page 5 undefin
+ed on input line 84.
+
+
+Package natbib Warning: Citation `elias2022deep' on page 5 undefined on input l
+ine 84.
+
+
+Package natbib Warning: Citation `yangClassificationAorticStenosis2020' on page
+ 5 undefined on input line 84.
+
+
+Package natbib Warning: Citation `dai2023identifying' on page 5 undefined on in
+put line 87.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 5 undefined on i
+nput line 87.
+
+) (./dataset.tex
+
+Package natbib Warning: Citation `huang2021new' on page 5 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `huang2021new' on page 5 undefined on input li
+ne 9.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/omscmr.fd)
+
+Package natbib Warning: Citation `mitchell2019guidelines' on page 5 undefined o
+n input line 23.
+
+[5])
+
+LaTeX Warning: Reference `sec:methods_formulation' on page 6 undefined on input
+ line 104.
+
+
+LaTeX Warning: Reference `sec:base_arch' on page 6 undefined on input line 105.
+
+
+
+LaTeX Warning: Reference `sec:methods_SA' on page 6 undefined on input line 107
+.
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 6 undefined on input line 108
+.
+
+
+LaTeX Warning: Reference `fig:workflow_diagram' on page 6 undefined on input li
+ne 108.
+
+(./fig2_workflow_diagram.tex
+
+LaTeX Warning: Reference `eq:patient_embedding_samil' on page 6 undefined on in
+put line 7.
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 6 undefined on input line 7.
+
+
+Package natbib Warning: Citation `chen2020simple' on page 6 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 6 undefined on inpu
+t line 7.
+
+
+LaTeX Warning: Reference `eq:patient_embedding_samil' on page 6 undefined on in
+put line 7.
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 6 undefined on input line 7.
+
+
+Package natbib Warning: Citation `chen2020simple' on page 6 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 6 undefined on inpu
+t line 7.
+
+) (./methods.tex
+
+Package natbib Warning: Citation `huang2022tmed' on page 6 undefined on input l
+ine 19.
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 6 undefined on inp
+ut line 26.
+
+
+Package natbib Warning: Citation `li2021dual' on page 6 undefined on input line
+ 26.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 6 undefined on input line 26.
+
+[6]
+
+LaTeX Warning: Reference `app:Architecture' on page 7 undefined on input line 4
+4.
+
+[7 <./figures/SAMIL_diagram_draft1.png>]
+
+LaTeX Warning: Reference `eq:patient_embedding_abmil' on page 8 undefined on in
+put line 68.
+
+
+LaTeX Warning: Reference `tab:TMED2_BACC' on page 8 undefined on input line 90.
+
+
+
+LaTeX Warning: Reference `eq:patient_embedding_abmil' on page 8 undefined on in
+put line 90.
+
+
+LaTeX Warning: Reference `fig:Attention_View_Alignment' on page 8 undefined on 
+input line 90.
+
+
+Package natbib Warning: Citation `madani2018fast' on page 8 undefined on input 
+line 94.
+
+
+Package natbib Warning: Citation `zhang2018fully' on page 8 undefined on input 
+line 94.
+
+
+Package natbib Warning: Citation `long2018identification' on page 8 undefined o
+n input line 94.
+
+
+Package natbib Warning: Citation `huang2021new' on page 8 undefined on input li
+ne 94.
+
+
+LaTeX Warning: Reference `eq:patient_embedding_abmil' on page 8 undefined on in
+put line 97.
+
+[8]
+
+Package natbib Warning: Citation `hinton2015distilling' on page 9 undefined on 
+input line 115.
+
+
+Package natbib Warning: Citation `huang2022fix' on page 9 undefined on input li
+ne 121.
+
+
+LaTeX Warning: Reference `app:ViewClassifier' on page 9 undefined on input line
+ 121.
+
+
+Package natbib Warning: Citation `holste2022self' on page 9 undefined on input 
+line 155.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 9 undefined on i
+nput line 155.
+
+
+Package natbib Warning: Citation `liu2022multiple' on page 9 undefined on input
+ line 155.
+
+
+Package natbib Warning: Citation `lu2019semi' on page 9 undefined on input line
+ 155.
+
+
+Package natbib Warning: Citation `li2021dual' on page 9 undefined on input line
+ 155.
+
+
+Package natbib Warning: Citation `saillard2021self' on page 9 undefined on inpu
+t line 155.
+
+
+Package natbib Warning: Citation `dehaene2020self' on page 9 undefined on input
+ line 155.
+
+
+Package natbib Warning: Citation `rymarczyk2023protomil' on page 9 undefined on
+ input line 155.
+
+
+LaTeX Warning: Reference `tab:Pretraining strategy ablation' on page 9 undefine
+d on input line 158.
+
+[9]
+
+Package natbib Warning: Citation `he2020momentum' on page 10 undefined on input
+ line 163.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 10 undefined on inp
+ut line 163.
+
+
+Package natbib Warning: Citation `wu2018unsupervised' on page 10 undefined on i
+nput line 164.
+
+
+Package natbib Warning: Citation `ye2019unsupervised' on page 10 undefined on i
+nput line 164.
+
+
+Package natbib Warning: Citation `bachman2019learning' on page 10 undefined on 
+input line 164.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 10 undefined on input
+ line 172.
+
+
+Package natbib Warning: Citation `oord2018representation' on page 10 undefined 
+on input line 178.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 10 undefined on input
+ line 191.
+
+
+Package natbib Warning: Citation `li2021dual' on page 10 undefined on input lin
+e 269.
+
+
+Package natbib Warning: Citation `chen2020simple' on page 10 undefined on input
+ line 269.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 10 undefined on input
+ line 269.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 10 undefined on inp
+ut line 269.
+
+[10]
+
+LaTeX Warning: Reference `sec:methods_CL' on page 11 undefined on input line 34
+6.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 11 undefined on inp
+ut line 347.
+
+
+Package natbib Warning: Citation `chen2020simple' on page 11 undefined on input
+ line 347.
+
+
+LaTeX Warning: Reference `app:SSL_Pretraining' on page 11 undefined on input li
+ne 347.
+
+
+LaTeX Warning: Reference `fig:workflow_diagram' on page 11 undefined on input l
+ine 359.
+
+) (./Results.tex
+
+Package natbib Warning: Citation `huang2021new' on page 11 undefined on input l
+ine 4.
+
+
+Package natbib Warning: Citation `zaheer2017deep' on page 11 undefined on input
+ line 18.
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 11 undefined on in
+put line 18.
+
+
+Package natbib Warning: Citation `lee2019set' on page 11 undefined on input lin
+e 18.
+
+
+Package natbib Warning: Citation `li2021dual' on page 11 undefined on input lin
+e 18.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 11 undefined on
+ input line 18.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 11 undefined on 
+input line 18.
+
+
+Package natbib Warning: Citation `holste2022self' on page 11 undefined on input
+ line 18.
+
+
+LaTeX Warning: Reference `App:DeepSet' on page 11 undefined on input line 19.
+
+(./tab_1_test_acc_on_TMED.tex
+
+Package natbib Warning: Citation `holste2022automated' on page 11 undefined on 
+input line 26.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 11 undefined on
+ input line 26.
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 11 undefined on in
+put line 27.
+
+
+Package natbib Warning: Citation `lee2019set' on page 11 undefined on input lin
+e 27.
+
+
+Package natbib Warning: Citation `li2021dual' on page 11 undefined on input lin
+e 27.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 11 undefined on input line 31.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 11 undefined on input line 31.
+
+[11])
+
+LaTeX Warning: Reference `tab:TMED2_BACC' on page 12 undefined on input line 29
+.
+
+
+LaTeX Warning: Reference `tab:TMED2_BACC' on page 12 undefined on input line 38
+.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 12 undefined on 
+input line 38.
+
+
+Package natbib Warning: Citation `holste2022self' on page 12 undefined on input
+ line 38.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 12 undefined on
+ input line 38.
+
+
+LaTeX Warning: Reference `fig:confusion_matrix' on page 12 undefined on input l
+ine 40.
+
+
+LaTeX Warning: Reference `fig:TMED2_roc' on page 12 undefined on input line 48.
+
+
+
+LaTeX Warning: Reference `tab:AUC_analysis_323' on page 12 undefined on input l
+ine 56.
+
+[12] (./tab_2_external_valid.tex
+Overfull \hbox (3.84921pt too wide) in paragraph at lines 20--41
+ [][] 
+)
+
+LaTeX Warning: Reference `fig:Attention_View_Alignment' on page 13 undefined on
+ input line 68.
+
+
+Package natbib Warning: Citation `holzinger2017we' on page 13 undefined on inpu
+t line 70.
+
+
+Package natbib Warning: Citation `lundberg2017unified' on page 13 undefined on 
+input line 70.
+
+
+Package natbib Warning: Citation `tonekaboni2019clinicians' on page 13 undefine
+d on input line 70.
+
+
+LaTeX Warning: Reference `fig:top_attended_images' on page 13 undefined on inpu
+t line 77.
+
+
+LaTeX Warning: Reference `app:ViewClassifier' on page 13 undefined on input lin
+e 79.
+
+(./fig_AttentionWeights_and_Relevance_Alignment.tex)
+Overfull \hbox (21.06956pt too wide) in paragraph at lines 102--102
+ [][] 
+
+Overfull \hbox (20.52037pt too wide) in paragraph at lines 119--119
+ [][] 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:View Regularization ablation' on page 13 undefine
+d on input line 123.
+
+[13]
+
+LaTeX Warning: Reference `tab:Pretraining strategy ablation' on page 14 undefin
+ed on input line 125.
+
+) (./discussion.tex [14 <./figures/Attention_View_Alignment/data_seed0.pdf> <./
+figures/Attention_View_Alignment/data_seed1.pdf> <./figures/Attention_View_Alig
+nment/data_seed2.pdf>])
+No file 2306.00003_tl2022.bbl.
+No file 2306.00003_tl2022.ptc.
+(./fig_confusion_mat.tex) [15] (./fig_TMED2_ROC.tex
+Overfull \hbox (119.21297pt too wide) in paragraph at lines 4--35
+[][] 
+) [16 <./figures/confusion_matrix/cropped_seed0/JASE.pdf> <./figures/confusion_
+matrix/cropped_seed1/JASE.pdf> <./figures/confusion_matrix/cropped_seed2/JASE.p
+df> <./figures/confusion_matrix/cropped_seed0/OffTheShelfABMIL.pdf> <./figures/
+confusion_matrix/cropped_seed1/OffTheShelfABMIL.pdf> <./figures/confusion_matri
+x/cropped_seed2/OffTheShelfABMIL.pdf> <./figures/confusion_matrix/cropped_seed0
+/OffTheShelfDSMIL_updatedseed0.pdf> <./figures/confusion_matrix/cropped_seed1/O
+ffTheShelfDSMIL.pdf> <./figures/confusion_matrix/cropped_seed2/OffTheShelfDSMIL
+.pdf> <./figures/confusion_matrix/cropped_seed0/VRABMIL_WholeMILPretrain.pdf> <
+./figures/confusion_matrix/cropped_seed1/VRABMIL_WholeMILPretrain.pdf> <./figur
+es/confusion_matrix/cropped_seed2/VRABMIL_WholeMILPretrain.pdf>]
+(./fig_AttendedImages.tex
+Overfull \hbox (32.24992pt too wide) in paragraph at lines 5--60
+[][] 
+) [17 <./figures/AUC_Analysis/data_seed0/NoASvsSomeAS_withDSMIL_DSMILupdatedsee
+d0.pdf> <./figures/AUC_Analysis/data_seed0/EarlyASvsSignificantAS_withDSMIL_DSM
+ILupdatedseed0.pdf> <./figures/AUC_Analysis/data_seed0/SignificantASvsNoSignifi
+cantAS_withDSMIL_DSMILupdatedseed0.pdf> <./figures/AUC_Analysis/data_seed1/NoAS
+vsSomeAS_withDSMIL.pdf> <./figures/AUC_Analysis/data_seed1/EarlyASvsSignificant
+AS_withDSMIL.pdf> <./figures/AUC_Analysis/data_seed1/SignificantASvsNoSignifica
+ntAS_withDSMIL.pdf> <./figures/AUC_Analysis/data_seed2/NoASvsSomeAS_withDSMIL.p
+df> <./figures/AUC_Analysis/data_seed2/EarlyASvsSignificantAS_withDSMIL.pdf> <.
+/figures/AUC_Analysis/data_seed2/SignificantASvsNoSignificantAS_withDSMIL.pdf>]
+(./app_Architecture.tex
+
+Package natbib Warning: Citation `ilse2018attention' on page 18 undefined on in
+put line 1.
+
+
+LaTeX Warning: Reference `tab:Feature Extractor $f$' on page 18 undefined on in
+put line 24.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:workflow_diagram' on page 18 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `lee2019set' on page 18 undefined on input lin
+e 26.
+
+
+Package natbib Warning: Citation `li2021dual' on page 18 undefined on input lin
+e 26.
+
+[18 <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top1_BVBO0SL1_0.p
+df> <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top2_BVBO0SL0_0.p
+df> <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top3_BVBO0SKQ_0.p
+df> <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top4_BVBO0SL2_0.p
+df> <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top5_BVBO0SM0_0.p
+df> <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top6_BVBO0SPG_1.p
+df> <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top7_BVBO0SPF_1.p
+df> <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top8_BVBO0SMX_0.p
+df> <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top9_BVBO0SPV_0.p
+df> <./figures/top_attended_images/2927484s1_OffTheShelfABMIL_top10_BVBO0SOT_0.
+pdf> <./figures/top_attended_images/2927484s1_SAMIL_top1_BVBO0SM0_0.pdf> <./fig
+ures/top_attended_images/2927484s1_SAMIL_top2_BVBO0SMM_0.pdf> <./figures/top_at
+tended_images/2927484s1_SAMIL_top3_BVBO0SL1_0.pdf> <./figures/top_attended_imag
+es/2927484s1_SAMIL_top4_BVBO0SL2_0.pdf> <./figures/top_attended_images/2927484s
+1_SAMIL_top5_BVBO0SKQ_0.pdf> <./figures/top_attended_images/2927484s1_SAMIL_top
+6_BVBO0SL0_0.pdf> <./figures/top_attended_images/2927484s1_SAMIL_top7_BVBO0SKM_
+0.pdf> <./figures/top_attended_images/2927484s1_SAMIL_top8_BVBO0SL6_0.pdf> <./f
+igures/top_attended_images/2927484s1_SAMIL_top9_BVBO0SLB_0.pdf> <./figures/top_
+attended_images/2927484s1_SAMIL_top10_BVBO0SMD_0.pdf>]
+
+LaTeX Warning: Reference `tab:attention_MLP' on page 19 undefined on input line
+ 28.
+
+) (./app_ViewClassifier.tex
+
+Package natbib Warning: Citation `huang2022fix' on page 19 undefined on input l
+ine 1.
+
+
+Package natbib Warning: Citation `laine2016temporal' on page 19 undefined on in
+put line 1.
+
+
+LaTeX Warning: Reference `tab:viewclassifier_performance' on page 19 undefined 
+on input line 3.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `zagoruyko2016wide' on page 19 undefined on in
+put line 17.
+
+
+Package natbib Warning: Citation `robbins1951stochastic' on page 19 undefined o
+n input line 19.
+
+
+LaTeX Warning: Reference `tab:ViewClassifier hyperparameters' on page 19 undefi
+ned on input line 19.
+
+[19]) (./app_experiment_details.tex
+
+Package natbib Warning: Citation `holste2022automated' on page 20 undefined on 
+input line 3.
+
+
+Package natbib Warning: Citation `holste2022self' on page 20 undefined on input
+ line 3.
+
+
+Package natbib Warning: Citation `he2016deep' on page 20 undefined on input lin
+e 3.
+
+
+Package natbib Warning: Citation `holste2022self' on page 20 undefined on input
+ line 3.
+
+
+Package natbib Warning: Citation `tran2018closer' on page 20 undefined on input
+ line 3.
+
+
+Package natbib Warning: Citation `zaheer2017deep' on page 20 undefined on input
+ line 7.
+
+
+LaTeX Warning: Reference `App:Hyper' on page 20 undefined on input line 9.
+
+
+Package natbib Warning: Citation `paszke2019pytorch' on page 20 undefined on in
+put line 11.
+
+
+Package natbib Warning: Citation `robbins1951stochastic' on page 20 undefined o
+n input line 11.
+
+[20]
+
+LaTeX Warning: Reference `eq:L_SA' on page 21 undefined on input line 17.
+
+
+LaTeX Warning: Reference `eq:total_loss' on page 21 undefined on input line 17.
+
+
+) (./app_SSL_Pretraining.tex
+
+Package natbib Warning: Citation `he2020momentum' on page 21 undefined on input
+ line 1.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 21 undefined on inp
+ut line 1.
+
+
+Package natbib Warning: Citation `goyal2017accurate' on page 21 undefined on in
+put line 1.
+
+[21]
+
+Package natbib Warning: Citation `chen2020improved' on page 22 undefined on inp
+ut line 5.
+
+
+Package natbib Warning: Citation `chen2020simple' on page 22 undefined on input
+ line 5.
+
+) (./app_relatedworks.tex
+
+Package natbib Warning: Citation `dietterich1997solving' on page 22 undefined o
+n input line 4.
+
+
+Package natbib Warning: Citation `maron1997framework' on page 22 undefined on i
+nput line 5.
+
+
+Package natbib Warning: Citation `wang2000solving' on page 22 undefined on inpu
+t line 6.
+
+
+Package natbib Warning: Citation `zhang2001dd' on page 22 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `andrews2002support' on page 22 undefined on i
+nput line 6.
+
+
+Package natbib Warning: Citation `zhou2009multi' on page 22 undefined on input 
+line 6.
+
+
+Package natbib Warning: Citation `zhang2005multiple' on page 22 undefined on in
+put line 6.
+
+
+Package natbib Warning: Citation `kim2010gaussian' on page 22 undefined on inpu
+t line 6.
+
+) [22]
+
+Package natbib Warning: There were undefined citations.
+
+[23]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003
+_tl2022.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `2306.00003_tl2022.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){/usr/local/texlive/2022/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-
+super/sfrm0800.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00003/2306.00003_tl2022.pdf (23 pages, 2683096 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00003/2306.00003_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022.pdf'
+Latexmk: Found bibliography file(s):
+  refs_manual.bib
+Bib file(s) not found in search path:
+  refs_manual.bib
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 59 reference(s)
+  Latex failed to resolve 168 citation(s)
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022.log' and/or above output for details
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022' because I don't find the following files:
+  refs_manual.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022' because I don't find the following files:
+  refs_manual.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022' because I don't find the following files:
+  refs_manual.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022' because I don't find the following files:
+  refs_manual.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022' because I don't find the following files:
+  refs_manual.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2022
+
+Latexmk: All targets () are up-to-date
+Collected error summary (may duplicate other messages):
+  pdflatex: gave an error
+

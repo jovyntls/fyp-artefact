@@ -1,0 +1,6 @@
+PWD /diff_test_tex_engines/bin/tex_sources/2306.00490
+INPUT /usr/local/texlive/2022/texmf.cnf
+INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT Photon_centroid_04.tex
+OUTPUT /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00490/2306.00490_tl2022.log

@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Model setup}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Simplified model with the $V_2$ LQ}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Four-fermi couplings}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Phenomenology}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Flavor phenomenology at $\mathcal {O}(\epsilon ^0)$ and $\mathcal {O}(\lambda ^0)$ }{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}LHC phenomenology at $\mathcal {O}(\epsilon ^0)$ }{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Flavor phenomenology at $\mathcal {O}(\epsilon ^0)$ and $\mathcal {O}(\lambda ^1)$ }{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}$\mathcal {O} (\epsilon )$ phenomenology}{13}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Summary and discussion}{17}{section.4}%

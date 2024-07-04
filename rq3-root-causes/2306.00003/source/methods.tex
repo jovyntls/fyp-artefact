@@ -1,0 +1,366 @@
+\subsection{Problem Formulation}
+\label{sec:methods_formulation}
+
+Let $D=\{(X_1, Y_1), \ldots, (X_N, Y_N)\}$ be a training dataset containing $N$ TTE studies. Each study, indexed by $i$, consists of a bag of images $X_i$ and an (optional) diagnostic label $Y_i$.
+
+\textbf{Prediction task.} Given a training set of size $N$, our goal is to build a classifier that can consume a new echo study $X_*$ and assign the appropriate label $Y_*$.
+
+\textbf{Input.}
+Each ``bag'' $X_i$ contains $K_i$ distinct images: $\{x_{i1}, x_{i2}, \ldots, x_{iK_i}\}$. These images represent all 2D TTE images gathered during a routine echocardiogram. 
+The number of images $K_i$ varies across studies (typical range 27-97).  
+Each image $x_{ik}$ is a grayscale image of 112x112 pixels.
+
+\textbf{Output.}
+Each study's diagnostic label $Y_i \in \{0, 1, 2\}$ indicates the assessed severity level of aortic stenosis (0 = no AS, 1 =  early AS, 2 = significant AS). These labels are assigned by a cardiologist with specialty training in echocardiography during a routine clinical interpretation of the entire study. Diagnosis labels for individual images are unavailable. 
+%Our goal is to build a model that given a new study $S_{new}$ predicts the diagnosis of Aortic Stenosis of this study.   
+
+\textbf{Image preprocessing.}
+We used the released dataset directly without additional preprocessing. 
+As documented in \citet{huang2022tmed}, the images are extracted from raw DICOM files in the health record by taking the first frame of the corresponding cineloop, removing identifying information, converted to grayscale, padding the shorter axis to a square aspect ratio, and resizing to 112x112. 
+
+
+
+\subsection{General MIL architecture}
+\label{sec:base_arch}
+
+Following past work on deep neural network approaches to MIL~\citep{ilse2018attention, li2021dual}, a typical architecture has 3 components, as illustrated in Fig.~\ref{fig:diagrams}(d). First, an instance representation layer $f$ transforms each instance into a feature representation. Second, a pooling layer $\sigma$ aggregates across instances to form a bag-level representation in permutation-invariant fashion. Finally, an output layer $g$ 
+maps the bag-level representation to a prediction.
+%A general procedure for modeling multiple-instance learning problems consists of 3 steps :
+
+%A mapping function $g$ that maps the aggregated feature representation to the bag label. 
+
+We now describe the forward prediction process of one study or ``bag'' $X$ under this 3 component architecture when specialized to our AS severity prediction problem.
+Let $X = \{x_1, \ldots, x_K\}$ be the input bag of K instances, with individual instances indexed by integer $k$.
+(We use $X$ interchangably with $X_i$ here, dropping the study-specific index $i$ to reduce notational clutter.)
+
+% Our work is built most directly upon ABMIL~\citep{ilse2018attention}, so when needed, we instantiate ABMIL-specific versions of $f$ and $\sigma$.
+% For example, Set Transformer \citep{lee2019set} uses an attention mechanism in both $f$ and $\sigma$. ABMIL is simpler, with attention only used in pooling.
+
+ %Our method builds upon ABMIL~\citep{ilse2018attention}, so when needed we instantiate 
+%Our method builds up
+%ABMIL \citep{ilse2018attention} uses an attention mechanism in pooling function $\sigma$. Set Transformer \citep{lee2019set} uses the attention mechanism in both $f$ and $\sigma$. 
+
+\paragraph{Instance representation layer $f$.} 
+Let $f$ be a row-wise feedforward layer that processes each instance $x_k \in \mathcal{X}$ independently and identically, producing an instance-specific embedding $h_k=f(x_k)$, where $h_k \in \mathbb{R}^{M}$. Concretely, we use a stack of convolution layers and a MLP layer to extract and project the instance's feature representation to low-dimensional embedding. More details in App.~\ref{app:Architecture}.
+%producing a bag of embeddings
+%$H = \{h_1, \ldots, h_K\}$ \in \mathbb{R}^{L \times 1}$. 
+
+\paragraph{Pooling layer $\sigma$.}
+ABMIL uses an attention-based pooling method which produces a bag-level representation $z \in \mathbb{R}^{M}$ via an attention-weighted average of the $K$ instance embeddings $\{h_1, \ldots h_K\}$:
+\begin{equation}
+    \label{eq:patient_embedding_abmil}
+    z = \sum_{k=1}^K a_k h_k, \quad 
+    a_k = \frac{\exp(w^\top \tanh(U h_k))}{\sum_{j=1}^K \exp(w^\top \tanh(U h_j))},
+\end{equation} 
+
+where vector $w \in \mathbb{R}^{L}$ and matrix $U \in \mathbb{R}^{L \times M}$ are trainable parameters of layer $\sigma$. Alternative gated attention modules are also possible, but they tend to yield only marginal gains in classification performance.
+
+\paragraph{Output layer $g$.} Given a bag-level feature vector $z = \sigma(f(X))$, the output layer performs probabilistic classification for the 3 levels of AS severity (0=none, 1=early, 2=significant) via a standard linear-softmax transformation of $z$:
+\begin{align}
+    p( Y = r | X) = g(z)_r ~\text{for}~ r \in \{0,1,2\}, \qquad g(z) = 
+    \left[
+    \frac{\exp( \eta_0^{\top} z)}{S(\eta,z)}, \frac{\exp( \eta_1^{\top} z)}{S(\eta,z)}, \frac{\exp( \eta_2^{\top} z)}{S(\eta,z)}
+    \right].
+\end{align}
+Here, $\eta_0, \eta_1, \eta_2$ represent weights for each of the 3 severity levels of AS, and denominator $S = \sum_{r=0}^2 \exp( \eta_r^{\top} z)$ ensures the probabilities sum to one. We do include an intercept term for each class, but omit from notation for clarity.
+
+\paragraph{Training.}
+This 3-component deep MIL architecture has parameters $\eta$ for the output layer as well as $\theta$ for the pooling and representation layers ($\theta$ includes $w, U$ from Eq.~\eqref{eq:patient_embedding_abmil}).
+We train these parameters by minimizing the cross-entropy loss between each study's observed AS diagnosis $Y$ and the MIL-predicted probabilities given each bag of images $X$ 
+\begin{align}
+    \theta^*, \eta^* = \arg\!\min_{\theta, \eta} \sum_{X, Y \in \mathcal{D}} \mathcal{L}_{\text{CE}}\left( Y, g_{\eta}( \sigma_{\theta}( f_{\theta}(X) ) \right) 
+\end{align}
+In practice, weight decay is often used to regularize the model and improve generalization.
+% Subscripts here remind us which layers depend on which parameters. In practical, additional regularization such as a weight decay loss may be needed to improve generalization.
+
+% {@MCH I found prior works ususally don't include the WD term when talking about loss function. Shall we follow this convention, so that the notation is cleaner here, also when writing the total loss in Sec 4.5}
+
+
+% \todo{with standard weight decay}.
+
+% \begin{align}
+%     \theta^*, \eta^* = \arg\!\min_{\theta, \eta} ~\sum_{i=1}^N \mathcal{L}_{\text{CE}}\left( Y_i, g_{\eta}( \sigma_{\theta}( f_{\theta}(X_i) ) \right) + \lambda \theta^T \theta + \lambda \eta^T \eta
+% \end{align}
+
+% {@MCH I found prior works ususally don't include the WD term when talking about loss function. Shall we follow this convention, so that the notation is cleaner here, also when writing the total loss in Sec 4.5}
+
+\subsection{Contribution 1: Attention supervised by a view classifier}
+\label{sec:methods_SA}
+
+We find the attention-based architecture described above yields unsatisfactory performance in our diagnostic task (see table~\ref{tab:TMED2_BACC}). Furthermore, the learned attention values used in Eq.~\eqref{eq:patient_embedding_abmil} do not pass a clinical sanity check: attention should be paid only to PLAX and PSAX AoV view types, as only these show the aortic valve (see fig~\ref{fig:Attention_View_Alignment}).
+
+This last observation suggests a path forward: supervising the attention mechanism. Suppose we have access to a trustworthy \emph{view-type-relevance} classifier $v : \mathcal{X} \rightarrow [0.0,1.0]$, which maps an image to the probability that it shows a relevant view depicting the aortic valve (either a PLAX or PSAX AoV view), rather than another view type (such as A2C, A4C, A5C, etc.).
+This classifier could be used to guide the attention to focus on relevant images.
+Directly classifying the view-type of a 2D TTE image has been demonstrated with high accuracy by several research groups ~\citep{madani2018fast, zhang2018fully, long2018identification, huang2021new}. 
+
+\paragraph{Supervised attention.}
+To implement this idea, we introduce a new loss term, which we call supervised attention (SA), that directly steers the attention weights $A = \{a_1, \ldots a_K\}$ produced by Eq.~\eqref{eq:patient_embedding_abmil} to match normalized relevance scores $R = \{r_1, \ldots r_K\}$ from a view-relevance classifier $v$: 
+\begin{equation}
+    \label{eq:L_SA}
+    \mathcal{L}_{SA}(w, U) = \text{KL}(R || A) = \sum_{k=1}^K r_k \log \frac{r_k}{a_k}, \qquad  r_k = \frac{\exp(v(x_k)/\tau_{v})}{\sum_{k=1}^K \exp( v(x_k) / \tau_{v} ) } 
+\end{equation}
+%\mch{@HZ, please confirm direction of KL is correct. KL is not symmetric. I would have thought we should do $KL(R || A)$.}
+
+Here, $\text{KL}$ means the KL-divergence between two discrete distributions over the same $K$ categories, and $R \in \Delta^K$ is a non-negative vector that sums to one obtained via a softmax transform of the view relevance probabilities with temperature scaling $\tau_{v} > 0$. We define view relevance probability as the sum of probability that the image is PLAX or PSAX. 
+
+%$KL$ is the KL-divergence. $VR = {vr_1, \ldots, vr_K}$ is a bag of predicted view relevance where $vr_i = p(PLAX|x_i; \theta) + p(PSAX|x_i; \theta)$ and $\theta$ is a pretrained view classifier.
+%\begin{equation}
+%\phi(vr_i) = \frac{\exp(vr_i/\tau)}{\sum_{i=K}^P \exp(vr_i/\tau)}
+%\end{equation} 
+%normalize the vector $VR$ to a valid distribution with temperature scaling $\tau$. 
+
+This supervision ensures the MIL diagnostic model attends to instances that are clinically plausible for the disease in question. That is, attention to PLAX or PSAX views that show the aortic valve is encouraged, and attention to irrelevant view types like A4C or A2C is discouraged. 
+We emphasize that our approach is classifier-guided because reliable human-annotated labels are not always available. Only 40\% percent of images in TMED-2 training set have view labels. If expert-derived labels were more readily available, we could have supervised directly on those. Using classifier-provided probabilistic labels $R$ allows us to train easily on ``as-is'' data without expensive annotation effort.
+
+Our supervised attention module can be seen as an example of \emph{knowledge distillation}~\citep{hinton2015distilling}, because the MIL model is ``taught'' to output attentions weight similar to the relevant view predictions from the pretrained view classifier. In a sense, the knowledge from the view classifier is distilled directly into the MIL model. 
+
+
+% regularization guides the MIL model to attend to where it suppose be attend as if it is a cardiologist (e.g., attend to PLAX or PSAX that show the aortic valve, instead of irrelevant background images or irrelevant views like A4C or A2C etc).
+
+\paragraph{View classifier.}
+We trained the view classifier via a recently proposed semi-supervised learning method~\citep{huang2022fix} that is shown to be robust to potential unlabeled set noise. The classifier is trained on images with view labels in the train set and all images in the unlabeled set. The classifier is trained to recognize the view type of an image, classifying it as either PLAX, PSAX or Other. To prevent data leakage, separate view classifiers are independently trained for each data split. More details can be found in App ~\ref{app:ViewClassifier}. 
+
+\paragraph{Flexible attention.}
+A potential drawback of enforcing strict alignment between attention weights and predicted view relevance is the reduced 
+flexibility. Concretely, among the identified relevant view images in a study, we would like the attention weights to have the freedom to focus on one over the other based on how it contributes to the diagnosis. To achieve this, we further introduce another set of attention weights $\mathrm{B} = \{b_1, \dots, b_K\}$.
+%\begin{equation}
+%    b_i = \frac{\exp(w_{b}^\top \tanh(U_b h_i))}{\sum_{i=1}^K \exp(w_{b}^\top \tanh(U_b h_i))},
+%\end{equation} 
+Together, the view-classifier-supervised attention $A$ and the flexible attention $B$ are combined to produce the final study-level represention $z \in \mathbb{R}^{M}$ by a simple construction,
+\begin{equation}
+\label{eq:patient_embedding_samil}
+    z = \sum_{k=1}^K c_k h_k, \quad c_k(A,B) = \frac{a_k b_k}{\sum_{j=1}^K a_j b_j }, 
+    \quad b_k = \frac{\exp(w_{b}^\top \tanh(U_b h_k))}{\sum_{j=1}^K \exp(w_{b}^\top \tanh(U_b h_j))}.
+\end{equation}
+In this way, the ultimate attention $c_k$ paid to an image can span the full range of 0.0 to 1.0 if that image is a relevant view, but is likely to be near 0.0 if the classifier deems that image's view irrelevant.
+Note that the trainable parameters that determine $B$ -- $w_b \in \mathbb{R}^{L}$ and matrix $U_b \in \mathbb{R}^{L \times M}$ -- are not guided by view-relevance supervision at all, unlike their counterparts $w, U$ that determine $A$.
+%from Eq.~\eqref{eq:patient_embedding_abmil}.
+
+%The final attention weights for our model are based on the view regularized attention weights and the free attention weights 
+%\begin{equation}
+%    \alpha^f_i = \frac{\alpha_i \cdot \beta_i }{\sum_{i=1}^K %\alpha_i \cdot \beta_i} 
+%\end{equation}
+%And the final representation of the study is 
+
+
+%move to Related work section
+% \paragraph{Related work.}
+% C2C~\citep{sharma2021cluster} also use KL-divergence to guide the attention weights, but different from ours the method is proposed for WSI classification. Further, the KL-divergence is measured between the attention weights against a predefined distribution (uniform distribution) with the purpose of minimize intra-cluster variance for patches coming from the same cluster. 
+
+
+\subsection{Contribution \#2: Contrastive learning of entire study representations}
+\label{sec:methods_CL}
+
+Self-supervised learning (SSL) is an effective way to pre-train models that can be later fine-tuned to downstream tasks. 
+Most previous methods \citep{holste2022self, holste2022automated, liu2022multiple, lu2019semi, li2021dual, saillard2021self, dehaene2020self, rymarczyk2023protomil}  applying SSL to MIL tasks focus on pretraining the instance-level feature extractor $f$  (or part of $f$) aiming to learn better instance-level feature representation. % processing each image independently.
+In contrast, we propose to pretrain the whole MIL network, 
+refining the representation vector $z$ encompassing all $K$ images in an echo study. In the vocabulary of MIL, this would also be called the ``bag-level'' representation.
+Empirical results in Tab.~\ref{tab:Pretraining strategy ablation} show that our study-level pretraining strategy is better suited for the problem of diagnosing Aortic Stenosis using multi-view ultrasound images, leading to substantial performance gain compared to image-level pretraining.
+
+%\todo{In contrast to most previous methods that pretrain only the feature extractor of the MIL model using each \textbf{image} independently, we propose to pretrain on the whole MIL network with each \textbf{study}, empirical results ~\ref{tab:Pretraining strategy ablation} shows that our pretraining strategy is better suited for the problem of diagnosing Aortic Stenosis using multi-view ultrasound images, leading to substantial performance gain compared to common approaches.}
+
+\paragraph{MoCo(v2) for representations of individual images.}
+Our pretraining strategy builds upon MoCo ~\citep{he2020momentum,chen2020improved}, a recent self-supervised learning method that yields state-of-the-art representations. 
+MoCo trains useful representations via an instance discrimination task~\citep{wu2018unsupervised, ye2019unsupervised, bachman2019learning}. The learned embedding for a training image is encouraged to be similar to embeddings of slight transformations of itself, while being different from the embeddings of other images.
+
+To obtain embeddings that should be similar, %given a training set of $J$ images $x_j \in \mathcal{X}$, 
+each image $x_j$ in training goes through different transformations (e.g., random augmentation) to yield two versions of itself: $x'_j$ and $x^+_j$ (denote as the ``query'' and the ``positive key''). These images are then \emph{encoded} into an $L$-dimensional feature space by composing a projection layer $\psi$ (a feed-forward network with $l_2$ normalization) onto the output of the instance-level representation layer $f$.
+% : $\phi = \psi \circ f$.
+
+To obtain embeddings that should be \emph{dissimilar} to a given query, MoCo retrieves $P$ previous embeddings from a first-in-first-out queue data structure.
+For each new query, these are treated as $P$ ``negative keys''. In practice, this queue is updated throughout training at each new batch: 
+the oldest elements are dequeud and all key embeddings from the current batch are enqueued. $P$ is usually set to the size of the queue \citep{he2020momentum}.  
+% \todo{(usually nearly the size of the entire dataset)}.
+%Let $N^{-}$ denote the number of elements in the queue, following convention in ~, we set $P$ to $N^{-}$. 
+
+%will be sampled to serve as the embeddings of the ``negative key''. This queue contains the embeddings from previous mini-batches, and is updated each iteration by enqueuing the current minibatch's key embeddings and dequeuing its oldest elements. Let $N^{-}$ denote the number of elements in the queue, following convention in ~\citep{he2020momentum}, we set $P$ to $N^{-}$. 
+
+To train the representation layer $\phi$ given a training set of $J$ images $x_j \in \mathcal{X}$, we minimize this InfoNCE loss~\citep{oord2018representation}:
+\begin{equation}
+    \label{eq:regular InfoNCE}
+    \mathcal{L}_{\text{img-CL}}(\phi_q) = \sum_{j=1}^J -\log \frac{\exp(q_j^{\top} k^+_j/t)}{\exp(q_j^{\top} k^+_j/t)+\sum_{p=0}^P \exp(q_j^{\top} k^{-}_{jp}/t)}, 
+    ~ 
+    \begin{array}{cc}
+    q_j = \phi_{q}(x'_j)
+    \\
+    k^+_j = \phi_{k}(x^+_j)
+    %\\
+    %k^-_{jp} = \phi_{k}(x_{jp}^{-})
+    \end{array}
+\end{equation}
+\noindent Here, $q_j \in \mathbb{R}^L$ is an embedding of the ``query'' image, $k_j^+ \in \mathbb{R}^L$ is an embedding of the ``positive key'', and $k^-_{j1}, \ldots k^-_{jP} \in \mathbb{R}^L$ are $P$ embeddings of ``negative keys'' retrieved from the queue. Encoder $\phi = \psi \circ f$ composes a projection head $\psi$ with feature layer $f$. Scalar temperature $t > 0$ is a  hyperparameter~\citep{he2020momentum}. 
+
+To improve representation quality, in MoCo queries and keys are encoded by separate networks: a query encoder $\phi_q$ with parameters $\theta_q$ and a key encoder $\phi_k$ with parameters $\theta_k$. 
+%MoCo uses a query encoder $\phi_{q}$ with parameters $\theta_q$ and a key encoder $\phi_{k}$ with parameters $\theta_k$ to encode the queries and keys.
+The query encoder $\phi_q$ is trained via standard backpropagation to minimize the loss above. The key encoder $\phi_k$ is only updated via momentum-based moving average of the query encoder: $\theta_k = m \theta_k + (1 - m)\theta_q$.
+Momentum $m \in [0, 1)$ is often set to a relatively large value such as 0.999 to make the key embeddings more consistent over time: 
+
+
+
+%The encoded queries and keys are then further projected by a projection head $\psi$ (a feed-forward network with $l_2$ normalization) to the embedding space where the contrastive loss is applied. After training, the projection head is discarded~\citep{chen2020simple, chen2020improved}.
+
+
+%an image-level contrastive learning (``img-CL'') model \textbf{using all images independently} operationalized via the InfoNCE loss shown below ~\ref{eq:regular InfoNCE}:
+
+% \begin{equation}
+%     \label{eq:regular InfoNCE}
+%     \mathcal{L}_{\text{img-CL}}(\theta_q, \theta_k; x_1, \ldots x_J) = \sum_{j=1}^J -\log \frac{\exp( q_j ^{\top} k^+_j /t)}{\sum_{p=0}^P \exp(q_j^{\top} k^{-}_{jp}/t)},
+%     \qquad 
+%     \begin{array}{cc}
+%     q_j &= f_{\theta_q}(x'_j),
+%     \\
+%     k^+_j &= f_{\theta_k}(x^+_j)
+%     \\
+%     k^-_{jp} &= f_{\theta_k}( x_{jp}^{-})
+%     \end{array}
+% \end{equation} 
+
+
+% \begin{equation}
+%     \label{eq:regular InfoNCE}
+%     % \mathcal{L}_{\text{img-CL}}(\theta_q, \theta_k; x_1, \ldots x_J) = \sum_{j=1}^J -\log \frac{\exp( f_{proj}(q_j ^{\top}) f_{proj} (k^+_j) /t)}{\sum_{p=0}^P \exp(f_{proj} (q_j^{\top}) f_{proj}(k^{-}_{jp})/t)},
+%     \mathcal{L}_{\text{img-CL}}(\theta_q, \theta_k, \theta_p; x_1, \ldots x_J) = \sum_{j=1}^J -\log \frac{\exp(s(q_j, k^+_j)/t)}{\exp(s(q_j, k^+_j)/t+\sum_{p=0}^P \exp(s(q_j, k^{-}_{jp})/t)}, 
+%     \quad 
+%     \begin{array}{cc}
+%     q_j &= f_{\theta_q}(x'_j),
+%     \\
+%     k^+_j &= f_{\theta_k}(x^+_j)
+%     \\
+%     k^-_{jp} &= f_{\theta_k}( x_{jp}^{-})
+%     \\
+%     s(a, b) &= \frac{f_{p}(a)^{\top}f_{p}(b)}{ \lVert (f_{p}(a))^ \rVert \lVert f_{p}(b) \rVert}
+%     \end{array}
+% \end{equation} 
+
+%(a different augmented version of the ``query'' image)
+
+
+
+% MoCo uses a dictionary lookup metaphor to understand obtaining the ``key'' embeddings $k^+$ and $k^-$ given a specific query image.
+% During training, each image $x_j$ in a batch goes through prescribed transformations (e.g., random augmentation) to yield two versions, $x'_j$ and $x^+_j$. Let's denote $x'_j$ as the ``query'', then $x^+_j$ is the ``positive key''.  The ``query'' will be encoded by the query encoder to obtain encoded ``query'' $q_j = f_{\theta_q}(x'_j)$. The ``positive key'' will be encoded by the key encoder to obtain the encoded ``positive key'' $k^+_j = f_{\theta_k}(x^+_j)$. $P$ ``negative keys'' will be sampled from a first-in-first-out queue data structure that contains the encoded ``keys'' from previous mini-batches. The queue is updated each iteration by enqueuing the current minibatch's key vectors and dequeuing its oldest keys. Let $N^{-}$ denote the number of elements in the queue, following convention in ~\citep{he2020momentum}, we set $P$ to $N^{-}$. $m$ is often set to a relatively large value such as 0.999 to make the encoded keys more consistent over time.
+
+%The two images will then be passed to the query encoder and key encoder respectively to get representation $e_q$ and $e_k$, which form a positive pair. 
+% To form negative pairs, MoCo uses a first-in-first-out queue data structure.
+% Let $N_{-}$ denote the number of elements in the queue, where each element is the embedding from the key encoders from previous batches. 
+
+%where  $q = f_q(x^q)$ is the feature representation of query image $x^q$ from an encoder network $f_q$. $x^k$ is the positive sample of $x^q$ and likewise, $k = f_k(x^k)$ is the feature representation.
+
+% An important part of MoCo is that the encoding of query images and key images are handled by different weight parameters $\theta_q$ and $\theta_k$ for the same featurization network $f$. The query parameters are trained via standard backpropagation, while the key-embedding parameters are updated given the latest query-embedding parameters with some momentum $m > 0$
+% \begin{equation}
+% \theta_k = m \theta_k + (1 - m)\theta_q
+% \end{equation}
+%MoCo uses a query encoder $f_q$ and a key encoder $f_k$, where the query encoder is trained via backpropagation and $f_k$ is updated using $f_q$ with momentum parameter $m$. Let $\theta_k$ and $\theta_q$ be parameters of $f_k$ and $f_q$. $\theta_k$ is updated by:
+
+
+% \todo{cut this parag?} InfoNCE is one example of a family of so-called \emph{contrastive} losses~\citep{hadsell2006dimensionality}. 
+% Comments: other forms of contrastive loss exist, such as 'Unsupervised learning of visual representations using videos', 'Unsupervised feature learning via non-parametric instance discrimination', ' Learning deep representations by mutual information estimation and maximization'
+
+%Intuitively, the instance discrimination task together with the InfoNCE loss pull together positive pairs of images(two transformed versions of the same image) while push away negative pairs of images (an image with all other images). 
+
+
+%MoCo regards self-supervised learning as a dictionary look-up problem. It achieves representation learning by training the model to output similar representations for the query and its matching keys, and dissimilar representations for the query and other keys. MoCo uses a query encoder $f_q$ and a key encoder $f_k$, where the query encoder is trained via backpropagation and $f_k$ is updated using $f_q$ with momentum parameter $m$. Let $\theta_k$ and $\theta_q$ be parameters of $f_k$ and $f_q$. $\theta_k$ is updated by:
+%\begin{equation}
+%\theta_k = m\theta_k + (1 - m)\theta_q
+%\end{equation}
+
+\paragraph{Adapting MoCo to bag-level representations.}
+%\todo{(@MCH we say 'many prior studies', do we need to cite more here?)} 
+
+Most prior studies in the MIL literature, such as  ~\citet{li2021dual},  use an ``off-the-shelf'' version of contrastive learning algorithm (e.g., SimCLR ~\citep{chen2020simple} or MoCo~\citep{he2020momentum,chen2020improved}) to pretrain image-level feature extractor $f$ like we illustrated above.
+However, we find that naively applying MoCo in this way does not yield useful results for our AS diagnosis problem.
+
+Reasoning that what ultimately matters is the quality of the study-level representation $z$ produced by our MIL architecture, we adapted MoCo to produce solid representations of entire echocardiogram studies.
+Correspondingly, we modified the InfoNCE loss to operate on the bag-level representations $z$. Given a training set of $N$ bags $X_1, \ldots X_N$, our approach to ``bag-level'' contrastive learning tries to pull together positive pairs of \emph{studies} and push away (make dissimilar) negative pairs of studies, via the loss
+%~\ref{eq:our InfoNCE}
+% \begin{equation}
+%     \label{eq:our InfoNCE}
+%     \mathcal{L}_{\text{bag-CL}}(\theta_q, \theta_k; X_{1:N}) = \sum_{i=1}^N -\log \frac{\exp(z_i^{\top} z^+_i / t)}{\sum_{p=0}^P \exp(z_i^{\top} z_{ip}^-/t)}, 
+%     \quad
+%     \begin{array}{cc}
+%          z_i &= \sigma_{\theta_q}(f_{\theta_q}(X'_i)),
+%          \\
+%          z^+_i &= \sigma_{\theta_k}(f_{\theta_k}(X^{+}_i)),
+%          \\
+%          z^{-}_{ip} &= \sigma_{\theta_k}(f_{\theta_k}(X^{-}_{ip})).
+%     \end{array}
+% \end{equation} 
+
+% \begin{equation}
+%     \label{eq:our InfoNCE}
+%     \mathcal{L}_{\text{bag-CL}}(\theta_q, \theta_p; X_{1:N}) = \sum_{i=1}^N -\log \frac{\exp(s(z_i, z^+_i)/ t)}{\exp(s(z_i, z^+_i)/ t) + \sum_{p=0}^P \exp(s(z_i, z^{-}_{ip})/t)}, 
+%     \quad
+%     \begin{array}{cc}
+%          z_i &= \sigma_{\theta_q}(f_{\theta_q}(X'_i)),
+%          \\
+%          z^+_i &= \sigma_{\theta_k}(f_{\theta_k}(X^{+}_i)),
+%          \\
+%          z^{-}_{ip} &= \sigma_{\theta_k}(f_{\theta_k}(X^{-}_{ip})).
+%          \\
+%         s(a, b) &= \frac{f_{p}(a)^{\top}f_{p}(b)}{ \lVert (f_{p}(a))^ \rVert \lVert f_{p}(b) \rVert}
+%     \end{array}
+% \end{equation} 
+
+\begin{equation}
+    \label{eq:our InfoNCE}
+    \mathcal{L}_{\text{bag-CL}}(\phi_q; X_{1:N}) = \sum_{i=1}^N -\log \frac{\exp(\tilde{z_i}^{\top} \tilde{z_i}^{+}/t)}{\exp(\tilde{z_i}^{\top} \tilde{z}_i^{+}/t) + \sum_{p=0}^P \exp(\tilde{z_i}^{\top} \tilde{z}_{ip}^{-})/t)}, 
+    ~
+    \begin{array}{cc}
+         \tilde{z_i} = \phi_q(X'_i),
+         \\
+         \tilde{z_i}^{+} = \phi_k(X^{+}_i),
+    \end{array}
+\end{equation} 
+
+% \begin{equation}
+%     \label{eq:our InfoNCE}
+%     \mathcal{L}_{\text{bag-CL}}(\theta_q, \theta_p; X_{1:N}) = \sum_{i=1}^N -\log \frac{\exp(z_i^{\top} z^+_i/ t)}{\exp(z_i^{\top} z^+_i/ t) + \sum_{p=0}^P \exp(z_i^{\top} z^{-}_{ip}/t)}, 
+%     \quad
+%     \begin{array}{cc}
+%          z_i &= \sigma_{_q}(f_{_q}(X'_i)),
+%          \\
+%          z^+_i &= \sigma_{k}(f_{k}(X^{+}_i)),
+%          \\
+%          z^{-}_{ip} &= \sigma_{\theta_k}(f_{\theta_k}(X^{-}_{ip})).
+%          \\
+%         s(a, b) &= \frac{f_{p}(a)^{\top}f_{p}(b)}{ \lVert (f_{p}(a))^ \rVert \lVert f_{p}(b) \rVert}
+%     \end{array}
+% \end{equation} 
+
+Here, $\phi = \psi \circ \sigma \circ f$. $f$ and $\psi$ are the same feature extractor and projection head as in image-level case. However, a pooling layer $\sigma$ is used and the input is now \textbf{all the images in a study}. $\tilde{z}=\psi(z)$ is the projection of $z$, $z_{i} = \sigma_q(f_q(X_i'))$ is the bag-level representation of the ``query'' study, and $z_{i}^{+} = \sigma_k(f_k(X_i^{+}))$ is the bag-level representation of the ``positive key'' study.
+$X'$ and $X^+$ are obtained from the given study $X$ by applying different random augmentation to each of its images. 
+$\tilde{z_{ip}}^{-}$ are again sampled from the queue. The enqueue and dequeue mechanism of the queue and the update rules of $\phi_q$ and $\phi_k$ are the same as the image level case. 
+
+% Here, we use $z$ variables to denote embeddings of entire bags (entire echo studies for our application).
+% For simplicity, parameters 
+% $\theta_q$ and $\theta_k$ represent \emph{all} parameters needed, unifying the set of parameters required by pooling $\sigma$ and featurization $f$ functions.
+
+
+
+
+%$X$ in eq ~\ref{eq:our InfoNCE} is the whole bag of images from a study instead of an individual image used in eq~\ref{eq:regular InfoNCE}. $z=\sigma(f(X))$ is the patient level representation obtained in eq ~\ref{eq:patient_embedding}, and $\sigma$, $f$ are the corresponding pooling function and row-wise feedforward layer in the MIL network. 
+
+\subsection{SAMIL Pipeline}
+% \paragraph{self-supervised pretraining.} We pretrain the MIL network using studies in the labeled train set (both the view labeled images and the view unlabeled images in the study are used), as well as the large unlabeled set with our proposed bag-level pretraining strategy (see ~\ref{sec:methods_CL}). The projection head $f_{p}$ is discarded following convention ~\citep{chen2020improved, chen2020simple}.
+
+\paragraph{Self-Supervised Pretraining} 
+We pretrain our SAMIL network on TMED-2 data utilizing our proposed bag-level pretraining strategy (Sec.~\ref{sec:methods_CL}).  This method can learn from all available studies, including both the labeled train set as well as the much larger unlabeled set (over 350,000 images).
+After pretraining finishes, following convention~\citep{chen2020improved, chen2020simple}, the projection head $\psi_q$ is discarded, and parameters of $\sigma_q$ and $f_q$ are retained to warm-start the supervised fine-tuning. More details in App~\ref{app:SSL_Pretraining}.
+
+% \paragraph{supervised fine-tuning of MIL using diagnosis label}
+
+% We initialize the MIL network with the self-supervised pretrained weights. Next, we fine-tune the MIL network using studies in the labeled train set (both the view labeled images and the view unlabeled images in the study are used), supervised by the diagnosis label of each study, minimizing the loss
+% \begin{equation}
+%     \mathcal{L} =  \mathcal{L}_{CE} + \lambda \mathcal{L}_{SA}
+%     % \mathcal{L}_{SA}(w, U) = \text{KL}(R || A) = \sum_{k=1}^K r_k \log \frac{r_k}{a_k}, \qquad  r_k = \frac{\exp(v(x_k)/\tau_{v})}{\sum_{k=1}^K \exp( v(x_k) / \tau_{v} ) }    
+% \end{equation}
+% Where $L_{CE}$ is the standard cross-entropy loss and $L_{SA}$ is the supervised attention loss in ~\ref{eq:L_SA}. Overall workflow can be seen in Fig~\ref{fig:workflow_diagram}.
+
+\paragraph{Supervised Fine-Tuning of MIL Using Diagnosis Label}
+We initialize our SAMIL network (Fig.~\ref{fig:workflow_diagram}) with the self-supervised pretrained weights, then fine-tune it using studies from TMED2's labeled train set by minimizing the overall loss 
+\begin{equation}
+\label{eq:total_loss}
+\mathcal{L} = \mathcal{L}_{CE} + \lambda_{SA} \mathcal{L}_{SA},
+\end{equation}
+Here, the primary supervision signal comes from the diagnosis label for each study (via cross entropy loss $\mathcal{L}_{CE}$), while the predicted view probabilities of each image from the view classifier provide additional supervision to the attention module (via supervised attention loss $\mathcal{L}_{SA}$). 
+Hyperparameter $\lambda_{SA}$ balances the weights of the two loss terms. 
+Each study's bag $X$ contains all available 2D images (regardless of view label availability).

@@ -1,0 +1,7 @@
+# Fdb version 3
+["pdflatex"] 0 "main.tex" "out/tl2020_rerun.pdf" "tl2020_rerun" 0
+  "main.tex" 0 -1 0 ""
+  "out/tl2020_rerun.aux" 1711270485 8 a94a2480d3289e625eea47cd1b285758 ""
+  (generated)
+  "out/tl2020_rerun.log"
+  "out/tl2020_rerun.pdf"

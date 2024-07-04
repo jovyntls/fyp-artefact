@@ -1,0 +1,32 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.05750" --jobname="2306.05750_tl2020"  "2306.05750"'
+------------
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.05750/2306.05750_tl2020.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.05750" --jobname="2306.05750_tl2020"  "2306.05750"'
+------------
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.05750/2306.05750_tl2020.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.

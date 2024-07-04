@@ -1,0 +1,433 @@
+arxiv_id,entrypoint,documentclass,docclass_params,pdflatex,lualatex,xelatex,xe<>pdf,xe<>lua
+2306.00345,General_Stopping-time_Fluctuation_Theorems_PRL.tex,revtex4-2,"[aps,prl,twocolumn]",12.0,12.0,12.0,False,False
+2306.00184,paper.tex,siamltex,"[final,leqno,onefignum,onetabnum]",0.0,0.0,0.0,False,False
+2306.07731,OrderPresentation.tex,amsart,"[reqno, 11pt, figuresright]",0.0,12.0,12.0,False,False
+2306.00389,main.tex,article,,0.0,0.0,0.0,False,False
+2306.08110,ISEEquiv.tex,article,"[12pt,a4paper]",0.0,0.0,0.0,False,False
+2306.02281,CondensatioNegativeMass.tex,revtex4-2,"[prb,twocolumn,superscriptaddress,preprintnumbers,amsmath,amssymb,nofootinbib,floatfix,longbibliography]",0.0,0.0,0.0,False,False
+2306.00146,main.tex,revtex4-2,"[amsmath,amssymb,prl,superscriptaddress,twocolumn]",,,,False,False
+2306.00710,setValuedAnalysisBC_3.tex,amsart,[11pt],0.0,12.0,12.0,False,False
+2306.01863,main.tex,nature,,0.0,0.0,0.0,False,False
+2306.00179,main.tex,macro/neu_msthesis,[],,12.0,12.0,False,False
+2306.00717,paper.tex,IEEEtran,"[12pt, draftclsnofoot, onecolumn]",0.0,0.0,0.0,False,False
+2306.00141,Master.tex,amsart,"[oneside,a4paper,english, 11pt]",12.0,12.0,12.0,False,False
+2306.00373,geom_symp.tex,amsart,[12pt],12.0,12.0,12.0,False,False
+2306.00387,2306.00387,amsart,[12pt],0.0,12.0,0.0,False,False
+2306.01403,Doublereplica.tex,revtex4-2,"[%reprint,superscriptaddress,amsmath,amssymb,prl,]",0.0,0.0,0.0,False,False
+2306.00916,LS_category.tex,amsart,[11pt],12.0,12.0,12.0,False,False
+2306.15291,clhampton-10janv08-ed-2023.tex,article,"[12pt,a4paper,twoside,final,notitlepage]",0.0,0.0,0.0,False,False
+2306.00743,2306.00743,article,[12pt],0.0,0.0,0.0,False,False
+2306.01691,main.tex,acmart,"[authorversion,manuscript,screen,acmtog]",0.0,0.0,0.0,False,False
+2306.00327,one-two-way.tex,amsart,[11pt],0.0,0.0,0.0,False,False
+2306.09408,ZGN_RMT.tex,revtex4-1,"[aip,amsmath,amssymb,reprint,]",0.0,0.0,0.0,False,False
+2306.03763,templateArxiv.tex,article,,0.0,0.0,0.0,False,False
+2306.00329,2306.00329,article,[11pt],0.0,0.0,0.0,False,False
+2306.00927,text.tex,article,,,,0.0,False,False
+2306.00123,LaserWriting_paper.tex,revtex4-2,"[%aps, %apsamsmath,amssymb,preprint,%]",12.0,12.0,12.0,False,False
+2306.01402,main.tex,revtex4-2,"[amsmath,amssymb,aps,prb,english,showkeys,twocolumn]",12.0,12.0,12.0,False,False
+2306.00372,main.tex,IEEEtran,[journal],0.0,0.0,0.0,False,False
+2306.01092,main.tex,IEEEtran,"[journal,twocolumn]",,12.0,12.0,False,False
+2306.00147,main.tex,IEEEtran,[journal],12.0,12.0,12.0,False,False
+2306.03399,supplement.tex,article,[10pt],0.0,0.0,0.0,False,False
+2306.00178,GQ_Modave2002.tex,article,[12pt],12.0,12.0,12.0,False,False
+2306.00727,2306.00727,amsart,"[a4paper,10pt,leqno]",0.0,12.0,0.0,False,False
+2306.00343,2306.00343,IEEEtran,"[lettersize,journal]",0.0,0.0,0.0,False,False
+2306.00718,elsarticle-template-harv-clean.tex,elsarticle,"[final,3p,times,authoryear]",0.0,0.0,0.0,False,False
+2306.00388,mnras_template.tex,mnras,"[fleqn,usenatbib]",0.0,0.0,0.0,False,False
+2306.00182,main.tex,amsart,"[11pt,reqno]",12.0,12.0,12.0,False,False
+2306.00512,POF2023.tex,revtex4-1,"[aps,pof,reprint,10pt,superscriptaddress,showpacs]",0.0,0.0,0.0,False,False
+2306.00981,main.tex,revtex4-2,"[aps,prl,reprint,superscriptaddress,floatfix]",12.0,12.0,12.0,False,False
+2306.00149,online_Sq_cumulativeV9-arxiv.tex,IEEEtran,"[12pt,draftcls,onecolumn]",12.0,12.0,12.0,False,False
+2306.00921,main.tex,revtex4-2,"[%reprint,superscriptaddress,amsmath,amssymb,aps,prper]",12.0,12.0,0.0,False,False
+2306.02681,aps_bb_skb.tex,revtex4-2,"[%reprint,superscriptaddress,amsmath,amssymb,aps,prstab,]",12.0,12.0,12.0,False,False
+2306.01838,Core_of_homotopy_classes_in_H_1.tex,article,,12.0,12.0,12.0,False,False
+2306.00122,main.tex,article,,0.0,0.0,0.0,False,False
+2306.00773,paper.tex,agujournal2019,[draft],12.0,12.0,12.0,False,False
+2306.00125,ColoringPC-single-file.tex,article,"[11pt,twoside,a4paper]",0.0,12.0,0.0,False,False
+2306.04327,GSI-038.tex,llncs,[runningheads],0.0,0.0,0.0,False,False
+2306.11061,main.tex,article,"[a4paper, 12pt]",0.0,0.0,0.0,False,False
+2306.00113,2306.00113,amsart,"[a4paper, 11pt]",0.0,12.0,0.0,False,False
+2306.01663,QST_cone20230711.tex,amsart,"[12pt,a4paper,oneside]",12.0,12.0,12.0,False,False
+2306.01372,2306.01372,amsart,"[11pt,reqno]",0.0,0.0,0.0,False,False
+2306.00059,vandesande_geckos_iau377_arxiv.tex,iau,,0.0,12.0,12.0,False,False
+2306.01515,main_v9.tex,iopart,[12pt],0.0,0.0,0.0,False,False
+2306.07888,main.tex,acmart,"[sigconf,natbib=false]",12.0,12.0,12.0,False,False
+2306.00057,mainarXivSubmission.tex,revtex4-1,"[pra,english,reprint, aps,superscriptaddress, nofootinbib]",0.0,12.0,12.0,False,False
+2306.02156,main.tex,IEEEtran,[conference],12.0,12.0,12.0,False,False
+2306.02169,probabilistic_solar_proxy_forecasting_with_neural_network_ensembles.tex,agujournal2019,[draft],0.0,0.0,0.0,False,False
+2306.01388,main.tex,acmart,"[sigconf, nonacm, amssymb]",0.0,0.0,0.0,False,False
+2306.00050,draft.tex,article,[11pt],12.0,12.0,12.0,False,False
+2306.00296,2306.00296,article,[11pt],0.0,0.0,0.0,False,False
+2306.00853,main.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.00209,paper-exponential-integrability.tex,amsart,[11pt],0.0,0.0,0.0,False,False
+2306.07013,RiPO.tex,ecai,,0.0,0.0,0.0,False,False
+2306.00236,2D-model-draft.tex,article,[12pt],12.0,12.0,12.0,False,False
+2306.00004,main_cav23_version.tex,llncs,,0.0,0.0,0.0,False,False
+2306.00493,Spreclones_Part_I-arXiv-V2.tex,article,"[12pt,fleqn]",0.0,0.0,0.0,False,False
+2306.00003,main.tex,jmlr,[pmlr],12.0,12.0,12.0,False,False
+2306.00655,manuscripts.tex,NST,[submitting],12.0,12.0,12.0,False,False
+2306.01745,output.tex,article,,0.0,0.0,0.0,False,False
+2306.00207,2306.00207,amsart,"[a4paper,11pt]",0.0,12.0,0.0,False,False
+2306.00469,HiQR_v2.tex,elsarticle,"[preprint,authoryear,11pt]",12.0,12.0,12.0,False,False
+2306.00032,paper.tex,article,,12.0,12.0,12.0,False,False
+2306.00456,RRZ.tex,CUP-JNL-JMJ,[cupthm],0.0,0.0,0.0,False,False
+2306.10630,MainText_MePTCDI.tex,achemso,"[journal=jacsat,manuscript=article]",0.0,0.0,0.0,False,False
+2306.00263,pasj2.tex,pasj01,,0.0,0.0,0.0,False,False
+2306.00051,main.tex,revtex4-2,"[prl,twocolumn,nofootinbib,nobibnotes,noeprint,preprintnumbers,floatfix]",0.0,0.0,0.0,False,False
+2306.00056,Main.tex,revtex4-2,"[twocolumn,superscriptaddress,floatfix,preprintnumbers,prl ,nofootinbib,hyperref]",12.0,12.0,12.0,False,False
+2306.00264,main.tex,sagej,"[Afour,sageh,times]",0.0,0.0,0.0,False,False
+2306.00432,arxiv.tex,article,"[11pt, letterpaper, USenglish]",12.0,12.0,12.0,False,False
+2306.00060,nitrogen_aurora.tex,mnras,"[a4paper,useAMS,usenatbib]",12.0,12.0,12.0,False,False
+2306.00094,main.tex,elsarticle,[3p],12.0,12.0,12.0,False,False
+2306.06151,main.tex,opticajnl,"[9pt,twocolumn,twoside]",0.0,0.0,0.0,False,False
+2306.03275,EE2.tex,revtex4-2,"[reprint,nofootinbib,amsmath,amssymb,aps,showpacs]",12.0,12.0,12.0,False,True
+2306.02708,Final_arxiv.tex,amsart,"[12pt,centertags,reqno]",12.0,12.0,12.0,False,False
+2306.00299,main.tex,article,,0.0,0.0,0.0,False,False
+2306.01179,main.tex,svproc,,0.0,0.0,0.0,False,False
+2306.00093,Discrete-q-Exponential-Arxiv.tex,article,,12.0,12.0,12.0,False,False
+2306.00403,main.tex,cas-dc,"[a4paper,fleqn]",0.0,0.0,0.0,False,False
+2306.03888,NewtonPolytope_CSC_Submission.tex,amsart,[10pt],0.0,12.0,0.0,False,False
+2306.00631,exotic_eig.tex,amsart,[12pt],12.0,12.0,12.0,False,False
+2306.13226,Toom-obit.tex,memoir,[11pt],12.0,12.0,12.0,False,False
+2306.09175,two_way_interactions.tex,article,,0.0,0.0,0.0,False,False
+2306.00691,ACTIVE_ACOUSTIC_UNITCELL.tex,revtex4-2,"[reprint,superscriptaddress,frontmatterverbose,amsmath,amssymb,prapplied,floatfix,nofootinbib,longbibliography]",0.0,0.0,0.0,False,False
+2306.02764,arxiv.tex,elsarticle,"[preprint,12pt]",0.0,0.0,0.0,False,False
+2306.00033,2306.00033,article,"[11pt,twoside]",0.0,0.0,0.0,False,False
+2306.09186,0_lpac-paper_arXiv.tex,article,"[a4paper,9pt,twocolumn]",0.0,0.0,0.0,False,False
+2306.04209,main.tex,revtex4-1,"[amsmath,nobibnotes,aps,superscriptadress,amssymb,pra,aps,showpacs,superscriptaddress, twocolumn]",12.0,12.0,12.0,False,False
+2306.00034,MBZUAI-main.tex,book,"[letterpaper,12pt,titlepage,oneside,final]",0.0,0.0,0.0,False,False
+2306.09529,SandholtzTai_HouseSwappingObjectiveIndifferences.tex,article,[],12.0,12.0,12.0,False,False
+2306.00230,main.tex,elsarticle,"[5p, twocolumn, times, sort&compress]",0.0,0.0,0.0,False,False
+2306.00002,worton.tex,elsarticle,"[preprint,12pt,3p]",0.0,0.0,0.0,False,False
+2306.00466,Conference.tex,IEEEtran,[conference],12.0,12.0,12.0,False,False
+2306.16731,paper.tex,article,"[twoside,leqno,twocolumn]",0.0,0.0,0.0,False,False
+2306.01920,example_paper.tex,article,,0.0,12.0,0.0,False,False
+2306.00653,2306.00653,amsart,,12.0,12.0,12.0,False,False
+2306.00461,main.tex,article,[letterpaper],12.0,12.0,12.0,False,False
+2306.00005,acl2023.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.00237,chimera_NN_vs1.tex,revtex4-2,"[prx,twocolumn,amsmath,noshowkeys,noshowpacs,amssymb]",12.0,12.0,12.0,False,False
+2306.03490,anchor-ap-arxiv.tex,llncs,"[runningheads,envcountsame,envcountsect,11pt,a4paper]",12.0,12.0,12.0,False,False
+2306.00215,SModularTransformations.tex,amsart,,12.0,12.0,12.0,False,False
+2306.00027,main.tex,IEEEtran,"[10pt,conference]",0.0,0.0,12.0,False,False
+2306.02925,main.tex,article,,0.0,0.0,0.0,False,False
+2306.00224,thermal_odd_viscous_droplets_SI_no_blue.tex,revtex4-2,"[%amsmath,amssymb,aps,10.5pt]",0.0,0.0,0.0,False,False
+2306.00029,templateArxiv.tex,article,,12.0,12.0,12.0,False,False
+2306.01933,MRM-AMA.tex,MRM,"[AMA,STIX2COL,Linenumbersoff]",0.0,0.0,0.0,False,False
+2306.00475,Phase_transition_in_MGs_ver5.tex,elsarticle,[],0.0,0.0,0.0,False,False
+2306.16346,combined.tex,article,,0.0,12.0,12.0,False,False
+2306.00678,main.tex,revtex4-2,"[%reprint,amsmath,amssymb,aps,]",12.0,12.0,12.0,False,False
+2306.00248,main.tex,acmart,[sigconf],0.0,0.0,0.0,False,False
+2306.00613,main-arxiv.tex,article,[11pt],12.0,12.0,12.0,False,False
+2306.00045,main.tex,article,[nohyperref],0.0,12.0,0.0,False,False
+2306.00277,elsart-o18.tex,elsarticle,"[preprint,12pt]",0.0,0.0,0.0,False,False
+2306.00089,main.tex,elsarticle,[3p],0.0,0.0,0.0,False,False
+2306.01967,Ch1-HK.tex,article,"[a4paper,11pt]",0.0,0.0,0.0,False,False
+2306.02188,chimeres_arxiv.tex,amsart,[12pt],0.0,0.0,0.0,False,False
+2306.00279,final_submission1.tex,IEEEtran,"[letterpaper,journal,final,twocolumn]",12.0,12.0,12.0,False,False
+2306.00883,Ryd.tex,revtex4-1,"[notitlepage,aps,prl,reprint,twocolumn,longbibliography,superscriptaddress]",0.0,0.0,0.0,False,False
+2306.01358,templateArxiv.tex,article,,0.0,0.0,0.0,False,False
+2306.00428,2306.00428,amsart,"[12pt, reqno]",0.0,0.0,0.0,False,False
+2306.04271,main.tex,acmart,"[sigconf,authorversion,noacm]",12.0,12.0,12.0,False,False
+2306.00073,anyon-dimer.tex,revtex4-2,"[prb,english,twocolumn,amsmath,amssymb,superscriptaddress]",12.0,12.0,12.0,False,False
+2306.13656,main.tex,aastex631,[preprint2],0.0,0.0,0.0,False,False
+2306.00417,spectral-density-arxiv.tex,revtex4-2,"[aps,pre,twocolumn,superscriptaddress,notitlepage]",0.0,0.0,0.0,False,False
+2306.00474,2306.00474,amsart,"[a4paper,11pt]",0.0,0.0,0.0,False,False
+2306.00010,main.tex,article,"[10pt,twocolumn,letterpaper]",0.0,0.0,0.0,False,False
+2306.00222,ECJ-camera-ready.tex,article,[twoside],0.0,0.0,0.0,False,False
+2306.05750,2306.05750,article,,0.0,0.0,0.0,False,False
+2306.00679,2306.00679,amsart,"[reqno,11pt]",0.0,0.0,0.0,False,False
+2306.01935,main.tex,oup-authoring-template,"[unnumsec,webpdf,modern,medium]",0.0,0.0,0.0,False,False
+2306.00225,2306.00225,amsart,,0.0,0.0,0.0,False,False
+2306.01793,mainV2.tex,article,[],0.0,12.0,12.0,False,False
+2306.00641,ANA-EXOT-2018-64-PAPER.tex,atlasdoc,"[cernpreprint, atlasdraft=false, texlive=2020, UKenglish, texmf, orcidlogo]",0.0,,0.0,False,False
+2306.00028,apssamp.tex,revtex4-2,"[%reprint,superscriptaddress,amsmath,amssymb,prl,floatfix,]",12.0,12.0,12.0,False,False
+2306.00213,maintext.tex,article,"[11pt, a4paper]",0.0,0.0,0.0,False,False
+2306.00822,IJPAM-2022-18.tex,article,"[twoside,11pt,leqno]",0.0,12.0,0.0,False,False
+2306.00026,MERO_23.5.18.tex,jmlr,"[pmlr,11pt]",12.0,12.0,12.0,False,False
+2306.00214,PetersenTSG_preprint2.tex,amsart,[11],0.0,0.0,0.0,False,False
+2306.00442,fastBlockSBL_V8.tex,IEEEtran,"[a4paper,journal]",12.0,12.0,12.0,False,False
+2306.00019,global_structure.tex,article,"[11pt,notitlepage,a4paper]",12.0,12.0,12.0,False,False
+2306.01903,paperRevision1.tex,elsarticle,"[review, preprint,12pt]",0.0,0.0,0.0,False,False
+2306.00489,interspeech.tex,INTERSPEECH2023,,12.0,12.0,12.0,False,False
+2306.00429,agg_05-25.tex,revtex4-1,"[twocolumn,english]",0.0,12.0,12.0,False,False
+2306.02984,main.tex,article,,0.0,0.0,0.0,False,False
+2306.00072,main.tex,revtex4-2,"[aps, prb, amssymb, amsmath, superscriptaddress,twocolumn]",0.0,0.0,0.0,False,False
+2306.01508,2306.01508,amsart,[11 pt],0.0,12.0,0.0,False,False
+2306.00882,main.tex,amsart,[a4paper],12.0,12.0,12.0,False,False
+2306.00278,2306.00278,amsart,"[11pt,oneside]",0.0,0.0,0.0,False,False
+2306.00081,paper.tex,revtex4-2,"[%superscriptaddress,amsmath,amssymb,aps,twocolumn,floatfix,]",12.0,12.0,12.0,False,False
+2306.00075,main.tex,ieeeconf,"[letterpaper, 10 pt, conference]",12.0,12.0,12.0,False,False
+2306.16589,main.tex,acmart,[sigconf],0.0,0.0,0.0,False,False
+2306.00285,2306.00285,article,[12pt],0.0,0.0,0.0,False,False
+2306.00043,manuscript.tex,sn-jnl,"[default,iicol]",0.0,0.0,12.0,False,False
+2306.00615,paper.tex,article,"[11pt,english]",0.0,12.0,12.0,False,False
+2306.00249,main.tex,article,,,,12.0,False,False
+2306.00420,hhkmmv-arxiv23.tex,llncs,"[runningheads,orivec,envcountsame]",12.0,12.0,12.0,False,False
+2306.02145,KOSP.tex,wlscirep,"[fleqn,12pt]",12.0,12.0,12.0,False,False
+2306.00282,escalera-regular.tex,cas-dc,"[a4paper,fleqn]",0.0,0.0,0.0,False,False
+2306.00599,main.tex,amsart,[11pt],12.0,12.0,12.0,False,False
+2306.00109,2306.00109,amsart,,0.0,0.0,0.0,False,False
+2306.09084,paperAppendix.tex,article,[11pt],12.0,12.0,12.0,False,True
+2306.00767,sn-article.tex,sn-jnl,"[default,pdflatex,iicol,super,sn-mathphys]",0.0,0.0,0.0,False,False
+2306.00131,chahine4exoplanets.tex,mnras,"[fleqn,usenatbib,useAMS]",0.0,0.0,0.0,False,False
+2306.01017,2306.01017,revtex4-2,"[aps, singlecolumn, showpacs]",0.0,0.0,0.0,False,False
+2306.02692,main.tex,article,"[a4paper,11pt]",0.0,0.0,0.0,False,False
+2306.06000,main.tex,article,,0.0,0.0,0.0,False,False
+2306.01028,ITR.tex,llncs,[runningheads],12.0,12.0,12.0,False,False
+2306.00107,neurips_main.tex,article,,12.0,12.0,12.0,False,False
+2306.00563,manuscript_arXiv.tex,IEEEtran,"[journal,twoside]",12.0,12.0,12.0,False,False
+2306.00138,aiptemplate.tex,revtex4-1,"[aip, reprint]",0.0,12.0,12.0,False,False
+2306.04598,ISNH_AS_V3.tex,aastex631,[],0.0,0.0,0.0,False,False
+2306.00590,2306.00590,amsart,"[letterpaper,12pt]",0.0,0.0,0.0,False,False
+2306.01825,gravtherm_numsol_sub.tex,amsart,"[12pt, hidelinks, a4paper]",0.0,0.0,0.0,False,False
+2306.00903,main.tex,amsart,"[a4,12pt]",12.0,12.0,12.0,False,False
+2306.00359,alternating_submit.tex,revtex4-1,"[%reprint,superscriptaddress,amsmath,amssymb,aps,]",0.0,0.0,0.0,False,False
+2306.00702,paper.tex,article,"[11pt,letterpaper]",12.0,12.0,12.0,False,False
+2306.00154,Caps_final_fin.tex,article,"[10pt,a4paper]",12.0,12.0,12.0,False,False
+2306.00537,main_v2.tex,article,"[a4paper,10pt]",0.0,0.0,0.0,False,False
+2306.03941,biblio_covid19.tex,article,,12.0,12.0,12.0,False,False
+2306.05241,acl2023.tex,article,"[11pt, hyperref={hyperfootnotes=true}]",0.0,0.0,0.0,False,False
+2306.00733,20230513_arXiv_Phaselock.tex,article,[a4paper],0.0,0.0,12.0,False,False
+2306.00165,main.tex,jfm,,0.0,12.0,0.0,False,False
+2306.00350,arxiv_version.tex,article,,0.0,0.0,0.0,False,False
+2306.00506,main.tex,revtex4-2,"[reprint,amsmath,amssymb,aps,floatfix,]",12.0,12.0,12.0,False,False
+2306.00101,2306.00101,article,,0.0,0.0,0.0,False,True
+2306.12602,main.tex,article,"[notitlepage, 12pt]",0.0,0.0,0.0,False,False
+2306.00334,2306.00334,amsart,[12pt],0.0,0.0,0.0,False,False
+2306.14506,2306.14506,article,[12pt],0.0,0.0,0.0,False,False
+2306.00562,DLM-KillingDuality.tex,amsart,"[a4paper,10pt,reqno]",0.0,0.0,0.0,False,False
+2306.00750,main.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.07778,main.tex,elsarticle,"[preprint,authoryear,5p]",0.0,0.0,0.0,False,False
+2306.00139,AgI_HSD-RS-RCR.tex,revtex4-1,"[aps,prl,twocolumn,superscriptaddress]",0.0,12.0,12.0,False,False
+2306.00554,main.tex,egpubl,,12.0,12.0,12.0,False,False
+2306.00130,Lambda-Moran-submission.tex,elsarticle,"[10pt,reqno]",0.0,12.0,12.0,False,False
+2306.02667,100keVDCRF.tex,elsarticle,"[5p,sort&compress]",12.0,12.0,12.0,False,False
+2306.00994,ChaoticMillingInteractingSwarmsFinal.tex,revtex4-1,"[%aip,amsmath,amssymb,reprint,%]",12.0,12.0,12.0,False,False
+2306.00163,solo_paper_psf.tex,aa,[longauth],12.0,12.0,12.0,False,False
+2306.02062,highorder.tex,IEEEtran,[journal],0.0,0.0,0.0,False,False
+2306.02096,AI_THE.tex,elsarticle,"[12pt,3p,review,]",12.0,12.0,12.0,False,False
+2306.00190,REFERENCES.tex,ceurart,[],0.0,0.0,12.0,False,False
+2306.01284,draft.tex,article,,0.0,0.0,0.0,False,False
+2306.10905,main.tex,revtex4,"[pre, twocolumn, amsmath, amssymb, superscriptaddress]",0.0,0.0,0.0,False,False
+2306.00394,fwm-manuscript-arxiv.tex,revtex4-1,"[aps,pre,twocolumn,reprint,showpacs,superscriptaddress,groupedaddress]",0.0,0.0,0.0,False,False
+2306.00358,cuda_v1.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.00531,2306.00531,amsart,"[12pt, reqno]",0.0,0.0,0.0,False,False
+2306.00367,main.tex,article,,0.0,12.0,0.0,False,False
+2306.00155,2306.00155,amsart,"[12pt, english]",0.0,12.0,0.0,False,False
+2306.01073,main.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.01625,dotted_limits_arxiv.tex,amsart,[a4paper],0.0,0.0,0.0,False,False
+2306.00581,main.tex,article,"[11pt,twocolumn,a4paper]",0.0,12.0,0.0,False,False
+2306.01661,main.tex,revtex4-1,"[%aps,showkeys,amsmath,amssymb,superscriptaddress, % avoids a very long list of author affiliationsfloatfix,]",12.0,12.0,12.0,False,False
+2306.00575,paper.tex,acmart,"[10pt,sigconf,nonacm,screen]",12.0,12.0,12.0,False,False
+2306.05803,templateArxiv.tex,article,,0.0,0.0,0.0,False,False
+2306.00116,file.tex,amsart,,0.0,0.0,0.0,False,False
+2306.00120,0_vmap.tex,vgtc,"[preprint,journal]",0.0,0.0,12.0,False,False
+2306.00782,main.tex,revtex4-2,"[%reprint,amsmath,amssymb,aps,]",0.0,0.0,0.0,False,False
+2306.04587,main.tex,article,"[12pt, %a4 paper]",0.0,0.0,0.0,False,True
+2306.00187,main.tex,IEEEtran,"[10pt, conference, anonymous]",0.0,0.0,0.0,False,False
+2306.01294,2306.01294,amsart,[12pt],0.0,12.0,12.0,False,False
+2306.00510,2306.00510,article,"[a4paper,12pt]",0.0,0.0,0.0,False,False
+2306.03395,0.main.tex,acmart,[acmlarge],12.0,12.0,12.0,False,False
+2306.00142,Scalar_nonlocal.tex,elsarticle,"[final,12pt,a4paper]",12.0,12.0,12.0,False,False
+2306.06241,almost_paratopological.tex,elsarticle,[preprint],0.0,0.0,12.0,False,False
+2306.01632,2306.01632,article,[12pt],0.0,0.0,0.0,False,False
+2306.01063,cartsmsyn.tex,amsart,[oneside],12.0,12.0,12.0,True,False
+2306.00145,main.tex,article,"[11pt, a4paper, UKenglish]",0.0,0.0,0.0,False,False
+2306.01803,aipsamp.tex,revtex4-1,"[%aip,amsmath,amssymb,reprint,%]",0.0,0.0,0.0,False,False
+2306.03768,2306.03768,amsproc,"[a4paper,10pt]",0.0,12.0,0.0,False,False
+2306.00126,main.tex,article,[11pt],0.0,12.0,0.0,False,False
+2306.00922,ResolutionEquationsFrancaisLatex5.tex,amsart,,0.0,0.0,0.0,False,False
+2306.01235,2306.01235,amsart,"[J,12pt]",0.0,0.0,0.0,False,False
+2306.10949,myosinpaper20230618_zhengwen.tex,revtex4,"[a4paper,twocolumn]",0.0,0.0,0.0,False,False
+2306.00313,main.tex,amsart,"[letterpaper,11pt]",12.0,12.0,12.0,False,False
+2306.08345,main.tex,acmart,"[sigconf, 10pt]",0.0,0.0,12.0,False,False
+2306.00128,achemso-demo.tex,achemso,"[journal=jctcce,manuscript=article,layout=twocolumn]",0.0,0.0,0.0,False,False
+2306.03766,MathPhys_en20230607.tex,revtex4,"[preprint,pra,aps]",0.0,12.0,0.0,False,False
+2306.00573,main.tex,elsarticle,"[preprint,12pt]",0.0,0.0,0.0,False,False
+2306.00741,2306.00741,amsart,,0.0,0.0,0.0,False,False
+2306.00110,main.tex,article,,0.0,12.0,12.0,False,False
+2306.00322,cosine_BDM_submit.tex,revtex4-1,"[%twocolumn,superscriptaddress,nofootinbib,amsmath,amssymb,prcaps,]",12.0,12.0,12.0,False,False
+2306.00746,2306.00746,article,[12pt],0.0,0.0,0.0,False,False
+2306.00574,SoftDefault_arXiv.tex,article,[11pt],12.0,12.0,12.0,False,False
+2306.01660,main.tex,article,,12.0,12.0,12.0,False,False
+2306.00580,main.tex,nbdt-article,[num-refs],0.0,0.0,,False,False
+2306.00712,root.tex,article,[12pt],0.0,0.0,0.0,False,False
+2306.00382,main-paper.tex,article,,0.0,0.0,0.0,False,False
+2306.03960,vote.tex,article,"[12pt,a4paper]",12.0,12.0,12.0,False,False
+2306.00371,manuscript-ax.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.00181,main.tex,article,,0.0,12.0,0.0,False,False
+2306.00511,2306.00511,amsart,[11.5pt],0.0,0.0,0.0,False,False
+2306.00378,gps-anim.tex,acmart,[acmtog],12.0,12.0,12.0,False,False
+2306.00516,sn-article.tex,sn-jnl,"[pdflatex,sn-mathphys]",0.0,0.0,0.0,False,False
+2306.00340,main.tex,revtex4-2,"[amsmath,amssymb,twocolumn,superscriptaddress]",12.0,12.0,12.0,False,False
+2306.00490,Photon_centroid_04.tex,iopart,"[12pt, a4paper, superscriptaddress, final]",12.0,12.0,12.0,False,False
+2306.04202,main.tex,dccpaper,"[smallabstract,smallcaptions]",0.0,0.0,0.0,False,False
+2306.00464,main.tex,acmart,"[sigconf, authorversion]",0.0,0.0,0.0,False,False
+2306.00038,fedbot.tex,article,,0.0,0.0,0.0,False,False
+2306.13848,main.tex,mdpi,"[entropy,article,accept,pdftex,moreauthors]",12.0,12.0,12.0,False,False
+2306.00007,template.tex,article,,0.0,0.0,0.0,False,False
+2306.00235,h-function-arxiv.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.00031,main.tex,IEEEtran,[conference],0.0,0.0,0.0,False,False
+2306.00203,main.tex,INTERSPEECH2023,,0.0,0.0,0.0,False,False
+2306.02792,2306.02792,amsart,"[a4paper,12pt]",0.0,12.0,0.0,False,False
+2306.00009,yang.tex,acmart,[sigconf],0.0,0.0,0.0,False,False
+2306.00036,icml2023.tex,article,[nohyperref],0.0,12.0,0.0,False,False
+2306.00096,PFI.tex,article,,0.0,0.0,0.0,False,False
+2306.00062,2306.00062,revtex4-1,"[12pt,preprint,nofootinbib]",0.0,0.0,0.0,False,False
+2306.00250,main.tex,revtex4-1,"[reprint, amsmath, amssymb, aps, superscriptaddress]",0.0,0.0,0.0,False,False
+2306.05379,DDoptima_v1.0.tex,mhd,"[12pt,british]",0.0,12.0,12.0,False,False
+2306.00257,Ambarzumyan-type_theorem_for_the_Sturm-Liouville_operator_on_the_lasso_graph.tex,amsart,"[reqno,11pt,centertags]",0.0,0.0,0.0,False,False
+2306.00091,main.tex,article,,0.0,0.0,0.0,False,False
+2306.00268,spectral-gap-1d-classification.tex,article,"[a4paper,10pt]",0.0,0.0,0.0,False,False
+2306.00053,geo_AssocProd.tex,SciPost,"[submission, Phys]",12.0,12.0,12.0,False,False
+2306.01949,Distruption_Petersen.tex,revtex4,"[onecolumn, amsmath, amssymb, superscriptaddress]",0.0,0.0,12.0,False,False
+2306.02394,RB_Fix_P.tex,revtex4,"[superscriptaddress,amsmath, nofootinbib]",0.0,12.0,12.0,False,False
+2306.01511,LEWD_paper.tex,article,"[12pt,onepage,oneside]",0.0,12.0,12.0,False,False
+2306.00408,Pursuing_Equilibrium_of_Medical_Resources_via_Data_Empowerment_in_Parallel_Healthcare_System.tex,IEEEtran,[conference],12.0,12.0,12.0,False,False
+2306.01378,ridesharing.tex,comsoc2023,,0.0,0.0,0.0,False,False
+2306.00054,Perspective_noncommQs.tex,revtex4-2,"[notitlepage,superscriptaddress,nofootinbib,tightenlines,preprintnumbers,twocolumn]",12.0,12.0,12.0,False,False
+2306.00266,IterativeMatchingRandomGraphs.tex,article,[11pt],0.0,12.0,0.0,False,False
+2306.00008,brainformer.tex,article,[nohyperref],0.0,12.0,0.0,False,False
+2306.00661,2306.00661,amsart,[12pt],0.0,12.0,0.0,False,False
+2306.02136,acl2021.tex,article,"[11pt,a4paper]",0.0,0.0,0.0,False,False
+2306.00453,main.tex,article,,0.0,0.0,0.0,False,False
+2306.00205,main.tex,elsarticle,"[preprint,12pt]",0.0,0.0,0.0,False,False
+2306.01740,main.tex,elsarticle,"[authoryear,preprint,12pt]",0.0,0.0,0.0,False,False
+2306.00030,2306.00030,iopart,[12pt],12.0,12.0,12.0,False,False
+2306.02303,main.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.00454,draft_v7.tex,article,[12pt],0.0,0.0,0.0,False,False
+2306.03822,main.tex,article,,0.0,0.0,0.0,False,False
+2306.00039,Sensing_and_control_scheme_for_the_inteferometer_configuration_with_an_L-shaped_resonator.tex,jpconf,[a4paper],12.0,12.0,12.0,False,False
+2306.01544,Endo_groups_Jun_2023_submission.tex,article,"[12pt,english]",12.0,12.0,12.0,False,False
+2306.00234,main.tex,IEEEtran,"[letterpaper,10pt,conference]",0.0,0.0,0.0,False,False
+2306.00006,neurips_arxiv.tex,article,,0.0,0.0,0.0,False,False
+2306.00001,conference_101719.tex,IEEEtran,[conference],0.0,0.0,0.0,False,False
+2306.01127,main.tex,amsart,,0.0,12.0,0.0,False,False
+2306.03442,laplace_temperature.tex,article,"[a4paper,twocolumn,twoside,fleqn,10pt]",0.0,0.0,0.0,False,False
+2306.00055,submission.tex,article,"[a4paper,11pt]",12.0,12.0,12.0,False,False
+2306.00431,main.tex,lipics-v2021,"[a4paper,USenglish]",0.0,0.0,0.0,False,False
+2306.00293,main.tex,achemso,"[journal=mamobx, manuscript=article]",0.0,12.0,12.0,False,False
+2306.03416,main_document.tex,cas-sc,"[a4paper,fleqn]",12.0,12.0,12.0,False,False
+2306.01510,2306.01510,amsart,"[a4paper,10pt,leqno]",0.0,12.0,0.0,False,False
+2306.00436,manuscript.tex,revtex4-2,"[twocolumn,english]",0.0,12.0,12.0,False,False
+2306.00052,main.tex,article,"[12pt, a4paper]",12.0,12.0,12.0,False,False
+2306.00260,example_npi.tex,amsart,,0.0,12.0,12.0,False,False
+2306.04430,main.tex,article,,0.0,0.0,0.0,False,False
+2306.00064,Draft.tex,revtex4-2,"[%reprint,amsmath,amssymb,aps,]",0.0,0.0,0.0,False,False
+2306.00269,Best_L0_L1_Linf.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.00063,2306.00063,amsart}%article,"[11pt,a4paper,reqno]",0.0,12.0,0.0,False,False
+2306.01713,main.tex,revtex4-2,"[%reprint,amsmath,amssymb,prd,]",0.0,0.0,12.0,False,False
+2306.03059,combined.tex,revtex4-2,"[%reprint,amsmath,amssymb,aps,]",0.0,0.0,0.0,False,False
+2306.00041,conference_101719.tex,IEEEtran,[conference],0.0,0.0,0.0,False,False
+2306.05701,main.tex,acmart,"[acmsmall, authorversion=true, nonacm=true]",0.0,0.0,0.0,False,False
+2306.00425,2306.00425,article,,0.0,0.0,0.0,False,False
+2306.00287,alpOri.tex,mnras,"[fleqn,usenatbib]",0.0,0.0,0.0,False,False
+2306.00845,sample-sigconf.tex,acmart,[sigconf],0.0,0.0,0.0,False,False
+2306.00422,article.tex,revtex4-1,"[%aip,amsmath,amssymb,reprint,%]",0.0,0.0,0.0,False,False
+2306.00274,heterogeneous.tex,article,"[11pt, reqno]",0.0,0.0,0.0,False,False
+2306.06728,mm_submission.tex,article,,12.0,12.0,0.0,False,False
+2306.02185,MESO-Revised.tex,nature,,12.0,0.0,0.0,False,False
+2306.00084,mock_observations.tex,mnras,"[fleqn,usenatbib]",12.0,12.0,12.0,False,False
+2306.13655,vissani.tex,article,"[11pt, oneside]",0.0,0.0,0.0,False,False
+2306.00070,main.tex,article,"[letterpaper,11pt]",0.0,0.0,0.0,False,False
+2306.00048,2306.00048,revtex4-2,"[pra,longbibliography,twocolumn,showpacs,nofootinbib,superscriptaddress,notitlepage]",0.0,12.0,0.0,False,False
+2306.00880,Text.2022.11.26.English.tex,,,12.0,12.0,12.0,False,False
+2306.00621,main.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.00675,02.tex,IEEEtran,"[journal, 10pt]",12.0,12.0,12.0,False,False
+2306.00681,Green_SR_arxive.tex,IEEEtran,"[10pt,conference,letterpaper]",0.0,0.0,0.0,False,False
+2306.00478,2306.00478,article,[12pt],0.0,0.0,0.0,False,False
+2306.01308,Bydzovsky_Structure_v3-arxiv.tex,revtex4,"[prc,twocolumn,showpacs,preprintnumbers,amsmath,amssymb]",0.0,0.0,0.0,False,False
+2306.10048,Main.tex,acmart,"[acmsmall,screen]",0.0,0.0,0.0,False,False
+2306.00818,main.tex,article,"[a4paper,11pt]",0.0,0.0,0.0,False,False
+2306.02773,2306.02773,scrartcl,"[letterpaper,DIV=11,numbers=noendperiod]",0.0,0.0,0.0,False,False
+2306.00216,2306.00216,amsart,,0.0,0.0,0.0,False,False
+2306.01592,2306.01592,article,[12pt],0.0,0.0,0.0,False,True
+2306.00229,main.tex,acmart,"[sigplan,nonacm,9pt]",12.0,12.0,12.0,False,False
+2306.00471,IGSW.tex,amsart,"[11pt, reqno]",,,,False,False
+2306.01791,sn-article.tex,sn-jnl,[sn-mathphys],0.0,0.0,12.0,False,False
+2306.01133,2306.01133,amsart,"[a4paper,12pt]",0.0,12.0,12.0,False,False
+2306.00218,Arnold_Gubbala_Takatori_PRL_2023.tex,revtex4-1,"[%reprint,amsmath,amssymb,aps,]",0.0,0.0,0.0,False,False
+2306.08486,article.tex,GonnellaLab-StyleArXiv,[times],0.0,12.0,12.0,False,False
+2306.00049,main.tex,mnras,"[fleqn,usenatbib]",0.0,0.0,0.0,False,False
+2306.02148,PumpAndDump_03_arxiv.tex,elsarticle,"[12pt,3p,authoryear]",0.0,0.0,12.0,False,False
+2306.00082,manuscript.tex,amsart,"[letterpaper,10pt,reqno]",0.0,0.0,0.0,False,False
+2306.01534,Magnitude_v14.tex,article,[a4paper],12.0,12.0,12.0,False,False
+2306.00244,preprint.tex,IEEEtran,"[journal,12pt,onecolumn,draftclsnofoot]",0.0,0.0,0.0,False,True
+2306.00076,main.tex,mnras,"[fleqn,usenatbib,onecolumn]",0.0,0.0,0.0,False,False
+2306.00886,buckets.tex,lipics-v2021,[a4paper],12.0,12.0,12.0,False,False
+2306.03855,main.tex,acmart,[sigconf],0.0,0.0,0.0,False,False
+2306.00415,root.tex,ieeecolor,"[journal,twoside,web]",0.0,0.0,0.0,False,False
+2306.00085,Draft_surface_defects.tex,article,[11pt],12.0,12.0,12.0,False,False
+2306.00844,conference_101719.tex,IEEEtran,[conference],0.0,0.0,0.0,False,False
+2306.00078,main_v2.tex,revtex4-1,"[reprint,amsmath,amssymb,aps,pra,superscriptaddress, showpacs, eprint]",12.0,12.0,12.0,False,False
+2306.00047,paper702.tex,llncs,[runningheads],0.0,0.0,0.0,False,False
+2306.00275,Main.tex,IEEEtran,"[lettersize,journal]",12.0,12.0,12.0,False,False
+2306.01353,CTScan_ShapleyPME.tex,elsarticle,"[preprint,svgnames,dvipsnames,authoryear]",12.0,12.0,12.0,False,False
+2306.01965,main.tex,revtex4-2,"[aps, floatfix,prl,twocolumn,showpacs,superscriptaddress]",0.0,0.0,0.0,False,False
+2306.00286,main.tex,IEEEtran,"[letterpaper, 10 pt, journal, twoside]",0.0,0.0,12.0,False,False
+2306.01192,main.tex,elsarticle,"[preprint,5p,times,twocolumn]",0.0,0.0,0.0,False,False
+2306.00484,2306.00484,amsart,"[a4paper,11pt]",0.0,0.0,0.0,False,False
+2306.00226,main.tex,article,,0.0,0.0,0.0,False,False
+2306.01569,arXiv-FPIM.tex,article,"[10pt,twocolumn]",0.0,0.0,0.0,False,False
+2306.05939,integrationf.tex,revtex4-2,"[amsmath,amssymb,12pt,aps]",0.0,0.0,0.0,False,False
+2306.01797,sdv-main.tex,llncs,[runningheads],0.0,0.0,0.0,False,False
+2306.00221,main.tex,revtex4-2,"[prb,aps,amssymb,twocolumn,notitlepage]",12.0,12.0,12.0,False,False
+2306.03696,main-arxiv.tex,revtex4-2,"[%reprint,superscriptaddress,showkeys,amsmath,amssymb,aps,pra,]",12.0,12.0,12.0,False,False
+2306.00013,paper.tex,article,,0.0,0.0,0.0,False,False
+2306.00025,paper.tex,acmart,[sigconf],12.0,12.0,12.0,False,False
+2306.00819,Optica-template.tex,optica-article,,0.0,0.0,0.0,False,False
+2306.08248,main.tex,revtex4-2,"[aps,prl,reprint,superscriptaddress]",0.0,0.0,0.0,False,False
+2306.00441,MSE__for_arxiv_.tex,amsart,"[12pt,reqno, a4paper]",0.0,12.0,12.0,False,False
+2306.16386,NA-Relaxation-C60-xcComp.tex,revtex4-1,"[pra,twocolumn,preprintnumbers,amsmath,amssymb,showpacs,superscriptaddress]",0.0,0.0,0.0,False,False
+2306.08421,Behrens_Junike_COS_method_Laplace.tex,article,[12pt],12.0,12.0,12.0,False,False
+2306.03237,2306.03237,revtex4-2,"[%reprint,amsmath,amssymb,aps,]",0.0,0.0,0.0,False,False
+2306.00022,paper.tex,mnras,"[fleqn,usenatbib,useAMS]",0.0,0.0,0.0,False,False
+2306.00210,neurips_2023.tex,article,,0.0,0.0,0.0,False,False
+2306.00479,00-arxiv-v1.tex,acmart,"[sigconf=true, nonacm=true, review=false, anonymous = false]",0.0,0.0,0.0,False,False
+2306.01799,example_paper.tex,article,[nohyperref],12.0,12.0,12.0,False,False
+2306.00706,Bikulov_Zubarev_2023_English.tex,article,[12pt],0.0,0.0,0.0,False,False
+2306.17583,the.tex,IEEEtran,[conference],0.0,0.0,0.0,False,False
+2306.03987,main.tex,article,[a4paper],0.0,0.0,0.0,False,False
+2306.07988,main.tex,elsarticle,"[preprint,12pt]",0.0,0.0,0.0,False,False
+2306.00533,2306.00533,amsart,"[11pt,reqno]",0.0,0.0,0.0,False,False
+2306.00365,main.tex,revtex4-2,"[aps,prl,twocolumn,superscriptaddress,showpacs,preprintnumbers,amsmath,amssymb]",0.0,0.0,0.0,False,False
+2306.01085,NeutralSW.tex,elsarticle,"[final,3p,times]",,,,False,False
+2306.00161,Equidistributions_CUP.tex,cup-journal,"[journal=small,manuscript=article-type,  % Use a - if you need a space e.g. ""research-article""year=2020,volume=37,]",0.0,0.0,0.0,False,False
+2306.00159,2306.00159,article,"[a4paper, 12pt]",0.0,0.0,0.0,False,False
+2306.01629,main.tex,revtex4,"[twocolumn,prl,aps,floats]",0.0,0.0,0.0,False,False
+2306.00991,Celletti_Keplero_materia_oscura.tex,amsart,"[12pt,reqno]",0.0,0.0,0.0,False,False
+2306.00166,main.tex,svjour3,"[twocolumn,epjc3]",12.0,12.0,12.0,False,False
+2306.17541,ariadne-functioncalculus-arxiv-v1.tex,article,[a4paper],0.0,0.0,0.0,False,False
+2306.02033,main.tex,revtex4-2,"[superscriptaddress,amsmath,amssymb,aps,prl,twocolumn,preprint, tightenlines]",0.0,0.0,0.0,False,False
+2306.00569,main_arXiv.tex,revtex4-2,"[reprint,amsmath,amssymb,aps]",0.0,0.0,0.0,False,False
+2306.00135,arxiv.tex,article,"[a4paper,11pt,fleqn]",12.0,12.0,12.0,False,False
+2306.08367,main.tex,acmart,[sigconf],12.0,12.0,12.0,False,False
+2306.01441,2306.01441,amsart,"[12pt, reqno]",0.0,0.0,0.0,False,False
+2306.12056,rsc-article-pccp.tex,article,"[twoside,twocolumn,9pt]",0.0,0.0,0.0,False,False
+2306.11627,versio__n2.tex,svjour3,[smallextended],0.0,12.0,12.0,False,False
+2306.00103,acl2023.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.00331,camera-ready-version.tex,INTERSPEECH2023,,12.0,12.0,12.0,False,False
+2306.00900,master.tex,revtex4-1,"[reprint,showkeys,frontmatterverbose,amsmath,amssymb,aps,nolongbibliography,prl,]",0.0,0.0,0.0,False,False
+2306.00558,2306.00558,amsart,"[nosumlimits,twoside]",12.0,12.0,12.0,False,False
+2306.00104,ActiveLinearAlgebra.tex,llncs,[runningheads],0.0,0.0,0.0,False,False
+2306.01842,133In_decay.tex,revtex4-1,"[aps, prl, twocolumn, superscriptaddress]",0.0,0.0,0.0,False,False
+2306.00158,main.tex,aastex63,"[twocolumn,tighten]",0.0,0.0,0.0,False,False
+2306.00193,main.tex,revtex4-1,"[twocolumn,secnumarabic,amssymb, nobibnotes, aps, prl, superscriptaddress]",0.0,0.0,0.0,False,False
+2306.12200,manuscriptA.tex,elsarticle,"[preprint,1p,times]",0.0,0.0,0.0,False,False
+2306.00167,main.tex,wiley-article,[num-refs],0.0,0.0,,False,False
+2306.00160,main.tex,INTERSPEECH2023,,0.0,0.0,0.0,False,False
+2306.00194,2306.00194,amsart,"[reqno,12pt]",0.0,12.0,0.0,False,False
+2306.00156,XHDG_LinearCD_Void.tex,elsarticle,,12.0,12.0,12.0,False,False
+2306.00397,Decompos_longest_elem.tex,amsart,"[a4paper,11pt,reqno]",0.0,0.0,0.0,False,False
+2306.02434,Final_version.tex,IEEEapm,[],12.0,12.0,12.0,False,False
+2306.00363,main.tex,revtex4-2,"[%reprint,superscriptaddress,aps,prb,amsmath,amssymb,]",0.0,0.0,0.0,False,False
+2306.00337,oddParity.tex,revtex4-2,"[reprint,a4paper,australian,amsmath,amssymb,aps,prd,twocolumn,superscriptaddress,preprintnumbers]",0.0,0.0,0.0,False,False
+2306.00308,tech-report.tex,article,[11pt],0.0,0.0,0.0,False,False
+2306.04132,2306.04132,amsart,"[11pt,letterpaper]",0.0,12.0,0.0,False,False
+2306.00762,main.tex,uai2023,[accepted],0.0,0.0,0.0,False,False
+2306.15076,main.tex,acmart,[sigplan],0.0,0.0,0.0,False,False
+2306.06698,BE_Study_April32023.tex,article,[12pt],12.0,12.0,12.0,False,False
+2306.10503,main.tex,IEEEtran,"[10pt,journal,compsoc]",12.0,12.0,12.0,False,False
+2306.05217,Reservoir_Controller.tex,revtex4-2,"[%aip,amsmath,amssymb,reprint,]",0.0,12.0,12.0,False,False
+2306.00557,iclr_pl.tex,article,,0.0,0.0,0.0,False,False
+2306.00133,main.tex,article,,0.0,0.0,0.0,False,False

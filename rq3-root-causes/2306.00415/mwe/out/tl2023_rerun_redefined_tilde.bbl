@@ -1,0 +1,169 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{Freidberg2007}
+J.~P. Freidberg, \emph{Plasma Physics and Fusion Energy}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Cambridge, UK: Cambridge University Press, 2007.
+
+\bibitem{ITER_CS}
+\BIBentryALTinterwordspacing
+(2020, August) Central solenoid. ITER Organization. [Online]. Available:
+  \url{http://www.ITER.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Baylor2007}
+L.~R. Baylor, \emph{et~al.}, ``{Pellet fuelling and control of burning plasmas
+  in ITER},'' \emph{Nucl. fusion}, vol.~47, no.~5, p. 443, 2007.
+
+\bibitem{Pegourie_2009}
+B.~P{\'e}gouri{\'e}, \emph{et~al.}, ``{Recent results on the fuelling and
+  control of plasmas by pellet injection, application to ITER},'' \emph{Plasma
+  Phys. and Control. Fusion}, vol.~51, no.~12, p. 124023, 2009.
+
+\bibitem{Baylor2016}
+L.~R. Baylor, \emph{et~al.}, ``{Pellet injection technology and its
+  applications on ITER},'' \emph{IEEE Trans. on Plasma Sci.}, vol.~44, no.~9,
+  pp. 1489--1495, 2016.
+
+\bibitem{Greenwald1988}
+M.~Greenwald, \emph{et~al.}, ``A new look at density limits in tokamaks,''
+  \emph{Nucl. Fusion}, vol.~28, no.~12, p. 2199, 1988.
+
+\bibitem{Blanken2018}
+T.~Blanken, \emph{et~al.}, ``Control-oriented modeling of the plasma particle
+  density in tokamaks and application to real-time density profile
+  reconstruction,'' \emph{Fusion Eng. Des.}, vol. 126, pp. 87--103, 2018.
+
+\bibitem{Sevillano2012}
+M.~G. Sevillano, I.~Garrido, and A.~J. Garrido, ``{Sliding-mode loop voltage
+  control using ASTRA-Matlab integration in Tokamak reactors},'' \emph{Int. J.
+  Innov. Comput. Inf. Control.}, vol.~8, no.~9, pp. 6473--6489, 2012.
+
+\bibitem{Bemporad1999}
+A.~Bemporad and M.~Morari, ``Control of systems integrating logic, dynamics,
+  and constraints,'' \emph{Automatica}, vol.~35, no.~3, pp. 407--427, 1999.
+
+\bibitem{Garzotti2011}
+L.~Garzotti, \emph{et~al.}, ``{Simulations of density profiles, pellet fuelling
+  and density control in ITER},'' \emph{Nucl. Fusion}, vol.~52, no.~1, p.
+  013002, 2011.
+
+\bibitem{Vincenzi2015}
+P.~Vincenzi, \emph{et~al.}, ``{Fuelling and density control for DEMO},''
+  \emph{Nucl. Fusion}, vol.~55, no.~11, p. 113028, 2015.
+
+\bibitem{Ravensbergen2017}
+T.~Ravensbergen, \emph{et~al.}, ``{Density control in ITER: an ITERative
+  learning control and robust control approach},'' \emph{Nucl. Fusion},
+  vol.~58, no.~1, p. 016048, 2017.
+
+\bibitem{Lang2018}
+P.~Lang, \emph{et~al.}, ``{Feedback controlled, reactor relevant, high-density,
+  high-confinement scenarios at ASDEX Upgrade},'' \emph{Nucl. Fusion}, vol.~58,
+  no.~3, p. 036001, 2018.
+
+\bibitem{Bosman2021}
+T.~Bosman, M.~van Berkel, and M.~R. de~Baar, ``{Model-based electron density
+  profile estimation and control, applied to ITER},'' \emph{J. Phys. Commun.},
+  vol.~5, no.~11, p. 115015, 2021.
+
+\bibitem{Bosman2022}
+T.~Bosman, M.~van Berkel, and M.~de~Baar, ``{Constrained model-predictive
+  control of the electron density profile in ITER using two pellet
+  injectors},'' in \emph{2022 IEEE Conference on Control Technology and
+  Applications (CCTA)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2022, pp.
+  812--818.
+
+\bibitem{Lazar2006}
+M.~Lazar, \emph{et~al.}, ``{Stabilizing model predictive control of hybrid
+  systems},'' \emph{IEEE Trans. on Automat. Contr.}, vol.~51, no.~11, pp.
+  1813--1818, 2006.
+
+\bibitem{Rawlings2017}
+J.~Rawlings, D.~Mayne, and M.~Diehl, \emph{{Model Predictive Control: Theory,
+  Computation, and Design}}.\hskip 1em plus 0.5em minus 0.4em\relax Santa
+  Barbara: Nob Hill Publishing, 2017, pp. 5--172.
+
+\bibitem{Kirches2011}
+C.~Kirches, ``{Fast Numerical Methods for Mixed-Integer Nonlinear
+  Model-Predictive Control},'' Ph.D. dissertation, Universität Heidelberg,
+  Heidelberg, Germany, 2011.
+
+\bibitem{Sager2006}
+S.~Sager, ``{Numerical methods for mixed-integer optimal control problems},''
+  Ph.D. dissertation, Interdisciplinary Center for Scientific Computing,
+  Universität Heidelberg, Heidelberg, Germany, 2006.
+
+\bibitem{Garzotti2019}
+L.~Garzotti, \emph{et~al.}, ``{Integrated core-SOL modelling of fuelling,
+  density control and divertor heat loads for the flat-top phase of the ITER
+  H-mode DT plasma scenarios},'' \emph{Nucl. Fusion}, vol.~59, no.~2, p.
+  026006, 2018.
+
+\bibitem{Na2019}
+Y.-S. Na, \emph{et~al.}, ``{On benchmarking of simulations of particle
+  transport in ITER},'' \emph{Nucl. Fusion}, vol.~59, no.~7, p. 076026, 2019.
+
+\bibitem{Polevoi2002}
+A.~R. Polevoi, \emph{et~al.}, ``{ITER confinement and stability modelling},''
+  \emph{J. Plasma Fusion Res.}, vol.~5, pp. 82--87, 2002.
+
+\bibitem{Franklin1997}
+G.~Franklin, J.~Powell, and M.~Workman, \emph{{Digital Control of Dynamic
+  Systems}}, 3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Menlo Park, USA:
+  Addison-Wesley, 1997.
+
+\bibitem{Heald1965}
+M.~A. Heald and C.~B. Wharton, \emph{{Plasma Diagnostics with
+  Microwaves}}.\hskip 1em plus 0.5em minus 0.4em\relax Huntington, USA: R.E.
+  Krieger Pub. Co., 1965, pp. 120--121.
+
+\bibitem{Bosman2021kalman}
+T.~Bosman, \emph{et~al.}, ``{Kalman filter density reconstruction in ICRH
+  discharges on ASDEX Upgrade},'' \emph{Fusion Eng. and Des.}, vol. 170, p.
+  112510, 2021.
+
+\bibitem{Andersson2019}
+J.~A. Andersson, \emph{et~al.}, ``{CasADi -- A software framework for nonlinear
+  optimization and optimal control},'' \emph{Math. Program. Comput.}, vol.~11,
+  no.~1, pp. 1--36, 2019.
+
+\bibitem{Lofberg2004}
+J.~L{\"{o}}fberg, ``{YALMIP : A Toolbox for Modeling and Optimization in
+  MATLAB},'' in \emph{In Proceedings of the CACSD Conference}, Taipei, Taiwan,
+  2004.
+
+\bibitem{gurobi}
+\BIBentryALTinterwordspacing
+{Gurobi Optimization, LLC}, ``{Gurobi Optimizer Reference Manual},'' 2023.
+  [Online]. Available: \url{https://www.gurobi.com}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Ferreau2014}
+H.~J. Ferreau, \emph{et~al.}, ``{qpOASES: A parametric active-set algorithm for
+  quadratic programming},'' \emph{Math. Program. Comput.}, vol.~6, pp.
+  327--363, 2014.
+
+\bibitem{Lang2019}
+P.~T. Lang, \emph{et~al.}, ``{Final design of the JT-60SA pellet launching
+  system for simultaneous density and ELM control},'' \emph{Fusion Eng. Des.},
+  vol. 146, pp. 91--95, 2019.
+
+\end{thebibliography}

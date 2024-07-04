@@ -1,0 +1,234 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415" --jobname="2306.00415_tl2020"  "root.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.bbl in line'
+ No file 2306.00415_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Andersson2019' on page 4 undefined on input line 198
+  Citation `Baylor2007' on page 1 undefined on input line 90
+  Citation `Baylor2016' on page 1 undefined on input line 90
+  Citation `Baylor2016' on page 1 undefined on input line 92
+  Citation `Baylor2016' on page 2 undefined on input line 110
+  Citation `Baylor2016' on page 3 undefined on input line 147
+  Citation `Baylor2016' on page 3 undefined on input line 158
+  Citation `Baylor2016' on page 5 undefined on input line 308
+  Citation `Bemporad1999' on page 1 undefined on input line 92
+  Citation `Bemporad1999' on page 2 undefined on input line 94
+  Citation `Blanken2018' on page 1 undefined on input line 92
+  Citation `Blanken2018' on page 2 undefined on input line 129
+  Citation `Blanken2018' on page 3 undefined on input line 131
+  Citation `Blanken2018' on page 6 undefined on input line 337
+  Citation `Bosman2021' on page 1 undefined on input line 92
+  Citation `Bosman2021' on page 2 undefined on input line 94
+  Citation `Bosman2021' on page 6 undefined on input line 337
+  Citation `Bosman2021kalman' on page 3 undefined on input line 177
+  Citation `Bosman2022' on page 1 undefined on input line 92
+  Citation `Bosman2022' on page 2 undefined on input line 94
+  Citation `Ferreau2014' on page 4 undefined on input line 224
+  Citation `Franklin1997' on page 3 undefined on input line 149
+  Citation `Franklin1997' on page 3 undefined on input line 156
+  Citation `Freidberg2007' on page 1 undefined on input line 81
+  Citation `Freidberg2007' on page 1 undefined on input line 90
+  Citation `Freidberg2007' on page 2 undefined on input line 115
+  Citation `Freidberg2007' on page 2 undefined on input line 129
+  Citation `Garzotti2011' on page 1 undefined on input line 92
+  Citation `Garzotti2019' on page 2 undefined on input line 129
+  Citation `Garzotti2019' on page 3 undefined on input line 131
+  Citation `Garzotti2019' on page 3 undefined on input line 149
+  Citation `Garzotti2019' on page 5 undefined on input line 301
+  Citation `Greenwald1988' on page 1 undefined on input line 90
+  Citation `Greenwald1988' on page 3 undefined on input line 166
+  Citation `Heald1965' on page 3 undefined on input line 171
+  Citation `ITER_CS' on page 1 undefined on input line 86
+  Citation `Kirches2011' on page 2 undefined on input line 94
+  Citation `Kirches2011' on page 3 undefined on input line 185
+  Citation `Lang2018' on page 1 undefined on input line 92
+  Citation `Lang2018' on page 5 undefined on input line 301
+  Citation `Lang2019' on page 5 undefined on input line 308
+  Citation `Lazar2006' on page 2 undefined on input line 94
+  Citation `Lofberg2004' on page 4 undefined on input line 198
+  Citation `Na2019' on page 2 undefined on input line 129
+  Citation `Pegourie_2009' on page 1 undefined on input line 90
+  Citation `Pegourie_2009' on page 2 undefined on input line 129
+  Citation `Pegourie_2009' on page 3 undefined on input line 149
+  Citation `Polevoi2002' on page 2 undefined on input line 129
+  Citation `Ravensbergen2017' on page 1 undefined on input line 92
+  Citation `Rawlings2017' on page 2 undefined on input line 94
+  Citation `Rawlings2017' on page 3 undefined on input line 156
+  Citation `Rawlings2017' on page 3 undefined on input line 164
+  Citation `Rawlings2017' on page 3 undefined on input line 181
+  Citation `Sager2006' on page 2 undefined on input line 97
+  Citation `Sager2006' on page 4 undefined on input line 213
+  Citation `Sager2006' on page 4 undefined on input line 221
+  Citation `Sager2006' on page 4 undefined on input line 241
+  Citation `Sager2006' on page 4 undefined on input line 261
+  Citation `Sevillano2012' on page 1 undefined on input line 92
+  Citation `Vincenzi2015' on page 1 undefined on input line 92
+  Citation `gurobi' on page 4 undefined on input line 198
+  Reference `eq:MIQP' on page 4 undefined on input line 221
+  Reference `eq:MIQP' on page 4 undefined on input line 261
+  Reference `eq:PDE' on page 2 undefined on input line 129
+  Reference `eq:PDE' on page 3 undefined on input line 131
+  Reference `eq:PDE' on page 3 undefined on input line 133
+  Reference `eq:PDE' on page 3 undefined on input line 147
+  Reference `eq:PDE' on page 3 undefined on input line 156
+  Reference `eq:PDE' on page 5 undefined on input line 275
+  Reference `eq:PTHMPC' on page 4 undefined on input line 208
+  Reference `eq:PTHMPC' on page 4 undefined on input line 221
+  Reference `eq:PTHMPC' on page 4 undefined on input line 261
+  Reference `eq:PTHlincons' on page 4 undefined on input line 261
+  Reference `eq:PTHobjective' on page 3 undefined on input line 181
+  Reference `eq:PTHobjective' on page 4 undefined on input line 221
+  Reference `eq:PTHobjective' on page 4 undefined on input line 261
+  Reference `eq:PTHobjective' on page 4 undefined on input line 270
+  Reference `eq:binary' on page 3 undefined on input line 185
+  Reference `eq:binary' on page 4 undefined on input line 221
+  Reference `eq:constraintsdef' on page 3 undefined on input line 177
+  Reference `eq:constraintsdef' on page 4 undefined on input line 266
+  Reference `eq:lineAvgDens' on page 4 undefined on input line 266
+  Reference `eq:objective' on page 3 undefined on input line 181
+  Reference `eq:objective' on page 4 undefined on input line 198
+  Reference `eq:objective' on page 4 undefined on input line 221
+  Reference `eq:statedynamics' on page 3 undefined on input line 149
+  Reference `eq:statedynamics' on page 3 undefined on input line 156
+  Reference `fig:FluxSurfToProfile' on page 1 undefined on input line 90
+  Reference `fig:FluxSurfToProfile' on page 2 undefined on input line 115
+  Reference `fig:FluxSurfToProfile' on page 3 undefined on input line 147
+  Reference `fig:FluxSurfToProfile' on page 3 undefined on input line 166
+  Reference `fig:FluxSurfToProfile' on page 5 undefined on input line 303
+  Reference `fig:ITERPIS' on page 1 undefined on input line 90
+  Reference `fig:ITERPIS' on page 2 undefined on input line 103
+  Reference `fig:ctrlTrajectory' on page 4 undefined on input line 261
+  Reference `fig:ctrlTrajectory' on page 5 undefined on input line 303
+  Reference `fig:ctrlTrajectory' on page 5 undefined on input line 308
+  Reference `fig:ctrlTrajectory' on page 5 undefined on input line 313
+  Reference `sec:MPCapproach' on page 3 undefined on input line 149
+  Reference `sec:MPCapproach' on page 3 undefined on input line 154
+  Reference `sec:results' on page 4 undefined on input line 270
+  Reference `subsec:ControlProblem' on page 2 undefined on input line 110
+  Reference `subsec:PTHmod' on page 4 undefined on input line 213
+  Reference `subsec:PTHmod' on page 4 undefined on input line 241
+  Reference `subsec:driftDiffusionModel' on page 2 undefined on input line 110
+  Reference `tab:compTime' on page 5 undefined on input line 308
+  Reference `tab:error' on page 5 undefined on input line 303
+  Reference `tab:sticky' on page 4 undefined on input line 261
+Latexmk: Found bibliography file(s) [LCSS_CDC_2023_Orrico.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.aux'
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00415_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.bbl'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415" --jobname="2306.00415_tl2020"  "root.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Andersson2019' on page 4 undefined on input line 198
+  Citation `Baylor2007' on page 1 undefined on input line 90
+  Citation `Baylor2016' on page 1 undefined on input line 90
+  Citation `Baylor2016' on page 1 undefined on input line 92
+  Citation `Baylor2016' on page 2 undefined on input line 110
+  Citation `Baylor2016' on page 3 undefined on input line 147
+  Citation `Baylor2016' on page 3 undefined on input line 158
+  Citation `Baylor2016' on page 5 undefined on input line 308
+  Citation `Bemporad1999' on page 1 undefined on input line 92
+  Citation `Bemporad1999' on page 2 undefined on input line 94
+  Citation `Blanken2018' on page 1 undefined on input line 92
+  Citation `Blanken2018' on page 2 undefined on input line 129
+  Citation `Blanken2018' on page 3 undefined on input line 131
+  Citation `Blanken2018' on page 6 undefined on input line 337
+  Citation `Bosman2021' on page 1 undefined on input line 92
+  Citation `Bosman2021' on page 2 undefined on input line 94
+  Citation `Bosman2021' on page 6 undefined on input line 337
+  Citation `Bosman2021kalman' on page 3 undefined on input line 177
+  Citation `Bosman2022' on page 1 undefined on input line 92
+  Citation `Bosman2022' on page 2 undefined on input line 94
+  Citation `Ferreau2014' on page 4 undefined on input line 224
+  Citation `Franklin1997' on page 3 undefined on input line 149
+  Citation `Franklin1997' on page 3 undefined on input line 156
+  Citation `Freidberg2007' on page 1 undefined on input line 81
+  Citation `Freidberg2007' on page 1 undefined on input line 90
+  Citation `Freidberg2007' on page 2 undefined on input line 115
+  Citation `Freidberg2007' on page 2 undefined on input line 129
+  Citation `Garzotti2011' on page 1 undefined on input line 92
+  Citation `Garzotti2019' on page 2 undefined on input line 129
+  Citation `Garzotti2019' on page 3 undefined on input line 131
+  Citation `Garzotti2019' on page 3 undefined on input line 149
+  Citation `Garzotti2019' on page 5 undefined on input line 301
+  Citation `Greenwald1988' on page 1 undefined on input line 90
+  Citation `Greenwald1988' on page 3 undefined on input line 166
+  Citation `Heald1965' on page 3 undefined on input line 171
+  Citation `ITER_CS' on page 1 undefined on input line 86
+  Citation `Kirches2011' on page 2 undefined on input line 94
+  Citation `Kirches2011' on page 3 undefined on input line 185
+  Citation `Lang2018' on page 1 undefined on input line 92
+  Citation `Lang2018' on page 5 undefined on input line 301
+  Citation `Lang2019' on page 5 undefined on input line 308
+  Citation `Lazar2006' on page 2 undefined on input line 94
+  Citation `Lofberg2004' on page 4 undefined on input line 198
+  Citation `Na2019' on page 2 undefined on input line 129
+  Citation `Pegourie_2009' on page 1 undefined on input line 90
+  Citation `Pegourie_2009' on page 2 undefined on input line 129
+  Citation `Pegourie_2009' on page 3 undefined on input line 149
+  Citation `Polevoi2002' on page 2 undefined on input line 129
+  Citation `Ravensbergen2017' on page 1 undefined on input line 92
+  Citation `Rawlings2017' on page 2 undefined on input line 94
+  Citation `Rawlings2017' on page 3 undefined on input line 156
+  Citation `Rawlings2017' on page 3 undefined on input line 164
+  Citation `Rawlings2017' on page 3 undefined on input line 181
+  Citation `Sager2006' on page 2 undefined on input line 97
+  Citation `Sager2006' on page 4 undefined on input line 213
+  Citation `Sager2006' on page 4 undefined on input line 221
+  Citation `Sager2006' on page 4 undefined on input line 241
+  Citation `Sager2006' on page 4 undefined on input line 261
+  Citation `Sevillano2012' on page 1 undefined on input line 92
+  Citation `Vincenzi2015' on page 1 undefined on input line 92
+  Citation `gurobi' on page 4 undefined on input line 198
+Latexmk: Found bibliography file(s) [LCSS_CDC_2023_Orrico.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.aux'
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00415_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.aux'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415" --jobname="2306.00415_tl2020"  "root.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00415/2306.00415_tl2020.pdf'
+Latexmk: Found bibliography file(s) [LCSS_CDC_2023_Orrico.bib]
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

@@ -1,0 +1,1521 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.01403_tl2023" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403"  "Doublereplica.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Doublereplica.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2022/06/05 4.2f utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2022/06/05 4.2f frontmatter package (AO,DPC,MD)]
+ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+
+Class revtex4-2 Warning: No Society specified, using default society aps.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.aux)
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package natbib Warning: Citation `Koshland' on page 1 undefined on input line 1
+03.
+
+
+Package natbib Warning: Citation `Stern' on page 1 undefined on input line 103.
+
+
+
+Package natbib Warning: Citation `Inoue' on page 1 undefined on input line 103.
+
+
+
+Package natbib Warning: Citation `levine2020phenotypic' on page 1 undefined on 
+input line 103.
+
+
+Package natbib Warning: Citation `Waddington' on page 1 undefined on input line
+ 103.
+
+
+Package natbib Warning: Citation `Li2013' on page 1 undefined on input line 103
+.
+
+
+Package natbib Warning: Citation `Huang2012' on page 1 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `Miyamoto' on page 1 undefined on input line 1
+03.
+
+
+Package natbib Warning: Citation `Matsushita2020' on page 1 undefined on input 
+line 103.
+
+
+Package natbib Warning: Citation `gerstner2014neuronal' on page 1 undefined on 
+input line 103.
+
+
+Package natbib Warning: Citation `Post' on page 1 undefined on input line 103.
+
+
+Package natbib Warning: Citation `Moran2022' on page 1 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `Gross2008' on page 1 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `berner2023adaptive' on page 1 undefined on in
+put line 103.
+
+
+Package natbib Warning: Citation `Kuehn2015' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Martin' on page 1 undefined on input line 105
+.
+
+
+Package natbib Warning: Citation `Dominicis' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Hertz2017' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `zou2023' on page 1 undefined on input line 10
+5.
+
+
+Package natbib Warning: Citation `Sompolinsky' on page 1 undefined on input lin
+e 105.
+
+
+Package natbib Warning: Citation `Opper1992' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Galla2005' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Galla2006' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Yoshino2007' on page 1 undefined on input lin
+e 105.
+
+
+Package natbib Warning: Citation `Stern2014' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Kadmon2015' on page 1 undefined on input line
+ 105.
+
+
+Package natbib Warning: Citation `Mastrogiuseppe2017' on page 1 undefined on in
+put line 105.
+
+
+Package natbib Warning: Citation `Marti2018' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Schuecker2018' on page 1 undefined on input l
+ine 105.
+
+
+Package natbib Warning: Citation `Pearce' on page 1 undefined on input line 105
+.
+
+
+Package natbib Warning: Citation `Altieri2021' on page 1 undefined on input lin
+e 105.
+
+
+Package natbib Warning: Citation `Keup' on page 1 undefined on input line 105.
+
+
+Package natbib Warning: Citation `De_Giuli' on page 1 undefined on input line 1
+05.
+
+
+Package natbib Warning: Citation `Baron2023' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Poley' on page 1 undefined on input line 105.
+
+
+
+Package natbib Warning: Citation `Pirey' on page 1 undefined on input line 105.
+
+
+
+Package natbib Warning: Citation `behera2022' on page 1 undefined on input line
+ 105.
+
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 107.
+
+
+Package natbib Warning: Citation `Elowitz' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `Karn' on page 1 undefined on input line 120.
+
+
+Package natbib Warning: Citation `PAULSSON' on page 1 undefined on input line 1
+20.
+
+
+Package natbib Warning: Citation `Eldar2010' on page 1 undefined on input line 
+120.
+
+
+Package natbib Warning: Citation `Felix' on page 1 undefined on input line 120.
+
+
+
+Package natbib Warning: Citation `Furusawa2005' on page 1 undefined on input li
+ne 120.
+
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 1 undefined on inp
+ut line 120.
+
+
+Package natbib Warning: Citation `Pham2022' on page 1 undefined on input line 1
+23.
+
+
+Package natbib Warning: Citation `Bressloff_2017' on page 1 undefined on input 
+line 123.
+
+
+Package natbib Warning: Citation `Nichol' on page 1 undefined on input line 123
+.
+
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 1 undefined on inp
+ut line 140.
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Note1' on page 2 undefined on input line 157.
+
+
+
+LaTeX Warning: Reference `general1' on page 2 undefined on input line 160.
+
+
+Package natbib Warning: Citation `Note2' on page 2 undefined on input line 167.
+
+
+
+Package natbib Warning: Citation `Note3' on page 2 undefined on input line 171.
+
+
+
+Package natbib Warning: Citation `COOLEN2001' on page 2 undefined on input line
+ 171.
+
+
+LaTeX Warning: Reference `coupling_dynamics' on page 2 undefined on input line 
+173.
+
+
+LaTeX Warning: Reference `coupling_dynamics' on page 2 undefined on input line 
+175.
+
+
+Package natbib Warning: Citation `Note4' on page 2 undefined on input line 197.
+
+
+
+Overfull \hbox (20.38805pt too wide) detected at line 203
+[][] 
+
+Overfull \hbox (1.15984pt too wide) detected at line 208
+[]\U/msb/m/n/10 E[]\OML/cmm/m/it/10 ^^Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; ^^\
+\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ^^Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; ^^\
+\OT1/cmr/m/n/10 )[] = \OML/cmm/m/it/10  []C\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t
+; t[]; ^^\\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 []\U/msb/m/n/10 E[]\OML/cmm/m/i
+t/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; ^^\\OT1/cmr/m/n/10 )\OML/cmm/m/it/10
+ x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; ^^\\OT1/cmr/m/n/10 )[]
+
+Package natbib Warning: Citation `Eissfeller' on page 2 undefined on input line
+ 210.
+
+
+Package natbib Warning: Citation `Roy2019' on page 2 undefined on input line 21
+0.
+
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 2 undefined on inp
+ut line 214.
+
+
+Package natbib Warning: Citation `GLASS' on page 2 undefined on input line 214.
+
+
+
+Package natbib Warning: Citation `MJOLSNESS' on page 2 undefined on input line 
+214.
+
+
+Package natbib Warning: Citation `Furusawa2008' on page 2 undefined on input li
+ne 214.
+
+
+Package natbib Warning: Citation `Salazar-Ciudad' on page 2 undefined on input 
+line 214.
+
+
+Package natbib Warning: Citation `Ciliberti' on page 2 undefined on input line 
+214.
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 214--215
+[]\OT1/cmr/m/n/10 We now ap-ply the present the-o-ret-i-cal frame-work
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 2 undefined on inp
+ut line 230.
+
+
+Package natbib Warning: Citation `hebb1949' on page 2 undefined on input line 2
+32.
+
+
+Package natbib Warning: Citation `Note5' on page 2 undefined on input line 232.
+
+
+[2]
+
+LaTeX Warning: Reference `fitness_change' on page 3 undefined on input line 253
+.
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 263--266
+\OT1/cmr/m/n/10 We de-fine the in-trin-sic vari-ance $\OML/cmm/m/it/10 q[] \OT1
+/cmr/m/n/10 = \OML/cmm/m/it/10 q \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^[[]$ \
+OT1/cmr/m/n/10 for
+
+LaTeX Warning: Reference `closed1' on page 3 undefined on input line 268.
+
+
+LaTeX Warning: Reference `closed1' on page 3 undefined on input line 270.
+
+
+LaTeX Warning: Reference `h_for_Jtt' on page 3 undefined on input line 338.
+
+[3]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 341.
+
+
+Package natbib Warning: Citation `Note6' on page 4 undefined on input line 343.
+
+
+
+LaTeX Warning: Reference `GRN_dynamics' on page 4 undefined on input line 343.
+
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 4 undefined on inp
+ut line 346.
+
+
+Package natbib Warning: Citation `Note7' on page 4 undefined on input line 346.
+
+
+
+LaTeX Warning: Reference `closed1' on page 4 undefined on input line 353.
+
+
+LaTeX Warning: Reference `h_for_Jto' on page 4 undefined on input line 378.
+
+
+Package natbib Warning: Citation `Zhou2022' on page 4 undefined on input line 3
+78.
+
+
+Package natbib Warning: Citation `Dekel2005' on page 4 undefined on input line 
+380.
+
+[4 <./fig1a.pdf> <./fig2b-eps-converted-to.pdf> <./fig2c.pdf> <./fig2d-eps-conv
+erted-to.pdf> <./fig2e.pdf> <./fig2f-eps-converted-to.pdf> <./Figure_2a.png> <.
+/Figure_2b.png>]
+
+Package natbib Warning: Citation `clark2023theory' on page 5 undefined on input
+ line 382.
+
+
+Package natbib Warning: Citation `Pereira-Obilinovic' on page 5 undefined on in
+put line 383.
+
+No file 2306.01403_tl2023.bbl.
+[5]
+Overfull \hbox (46.20099pt too wide) detected at line 410
+[]
+
+LaTeX Warning: Reference `master_equation' on page 6 undefined on input line 44
+9.
+
+[6]
+
+LaTeX Warning: Reference `identity' on page 7 undefined on input line 462.
+
+
+LaTeX Warning: Reference `generating_function1' on page 7 undefined on input li
+ne 462.
+
+
+LaTeX Warning: Reference `generating_function2' on page 7 undefined on input li
+ne 487.
+
+[7]
+Overfull \hbox (24.58987pt too wide) detected at line 521
+[]
+
+Overfull \hbox (56.67596pt too wide) detected at line 529
+[]
+[8] [9]
+Overfull \hbox (31.08397pt too wide) detected at line 594
+[]
+
+Package natbib Warning: There were undefined citations.
+
+[10 <./fig2a-eps-converted-to.pdf> <./fig1b-eps-converted-to.pdf> <./fig1c-eps-
+converted-to.pdf> <./fig1d-eps-converted-to.pdf> <./fig1e-eps-converted-to.pdf>
+ <./fig1f-eps-converted-to.pdf>]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.01403/2306.01403_tl2023.pdf (10 pages, 713133 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.01403/2306.01403_tl2023.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.log'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.pdf'
+Latexmk: Found bibliography file(s):
+  ./Doublereplica.bib
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023Notes.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023'
+------------
+Latexmk: Change directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/'.
+To assist finding of files in document directory, I set
+  BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.01403:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403:'
+  BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.01403:'.
+------------
+Running 'bibtex  "2306.01403_tl2023.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2023)
+The top-level auxiliary file: 2306.01403_tl2023.aux
+The style file: apsrev4-2.bst
+Database file #1: 2306.01403_tl2023Notes.bib
+Database file #2: Doublereplica.bib
+control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (0) allowed
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+(There was 1 warning)
+Latexmk: Change directory back to '/diff_test_tex_engines/bin/tex_sources/2306.01403'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.aux
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.bbl
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.01403_tl2023" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403"  "Doublereplica.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Doublereplica.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2022/06/05 4.2f utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2022/06/05 4.2f frontmatter package (AO,DPC,MD)]
+ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+
+Class revtex4-2 Warning: No Society specified, using default society aps.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.aux)
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package natbib Warning: Citation `Koshland' on page 1 undefined on input line 1
+03.
+
+
+Package natbib Warning: Citation `Stern' on page 1 undefined on input line 103.
+
+
+
+Package natbib Warning: Citation `Inoue' on page 1 undefined on input line 103.
+
+
+
+Package natbib Warning: Citation `levine2020phenotypic' on page 1 undefined on 
+input line 103.
+
+
+Package natbib Warning: Citation `Waddington' on page 1 undefined on input line
+ 103.
+
+
+Package natbib Warning: Citation `Li2013' on page 1 undefined on input line 103
+.
+
+
+Package natbib Warning: Citation `Huang2012' on page 1 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `Miyamoto' on page 1 undefined on input line 1
+03.
+
+
+Package natbib Warning: Citation `Matsushita2020' on page 1 undefined on input 
+line 103.
+
+
+Package natbib Warning: Citation `gerstner2014neuronal' on page 1 undefined on 
+input line 103.
+
+
+Package natbib Warning: Citation `Post' on page 1 undefined on input line 103.
+
+
+Package natbib Warning: Citation `Moran2022' on page 1 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `Gross2008' on page 1 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `berner2023adaptive' on page 1 undefined on in
+put line 103.
+
+
+Package natbib Warning: Citation `Kuehn2015' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Martin' on page 1 undefined on input line 105
+.
+
+
+Package natbib Warning: Citation `Dominicis' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Hertz2017' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `zou2023' on page 1 undefined on input line 10
+5.
+
+
+Package natbib Warning: Citation `Sompolinsky' on page 1 undefined on input lin
+e 105.
+
+
+Package natbib Warning: Citation `Opper1992' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Galla2005' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Galla2006' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Yoshino2007' on page 1 undefined on input lin
+e 105.
+
+
+Package natbib Warning: Citation `Stern2014' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Kadmon2015' on page 1 undefined on input line
+ 105.
+
+
+Package natbib Warning: Citation `Mastrogiuseppe2017' on page 1 undefined on in
+put line 105.
+
+
+Package natbib Warning: Citation `Marti2018' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Schuecker2018' on page 1 undefined on input l
+ine 105.
+
+
+Package natbib Warning: Citation `Pearce' on page 1 undefined on input line 105
+.
+
+
+Package natbib Warning: Citation `Altieri2021' on page 1 undefined on input lin
+e 105.
+
+
+Package natbib Warning: Citation `Keup' on page 1 undefined on input line 105.
+
+
+Package natbib Warning: Citation `De_Giuli' on page 1 undefined on input line 1
+05.
+
+
+Package natbib Warning: Citation `Baron2023' on page 1 undefined on input line 
+105.
+
+
+Package natbib Warning: Citation `Poley' on page 1 undefined on input line 105.
+
+
+
+Package natbib Warning: Citation `Pirey' on page 1 undefined on input line 105.
+
+
+
+Package natbib Warning: Citation `behera2022' on page 1 undefined on input line
+ 105.
+
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 107.
+
+
+Package natbib Warning: Citation `Elowitz' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `Karn' on page 1 undefined on input line 120.
+
+
+Package natbib Warning: Citation `PAULSSON' on page 1 undefined on input line 1
+20.
+
+
+Package natbib Warning: Citation `Eldar2010' on page 1 undefined on input line 
+120.
+
+
+Package natbib Warning: Citation `Felix' on page 1 undefined on input line 120.
+
+
+
+Package natbib Warning: Citation `Furusawa2005' on page 1 undefined on input li
+ne 120.
+
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 1 undefined on inp
+ut line 120.
+
+
+Package natbib Warning: Citation `Pham2022' on page 1 undefined on input line 1
+23.
+
+
+Package natbib Warning: Citation `Bressloff_2017' on page 1 undefined on input 
+line 123.
+
+
+Package natbib Warning: Citation `Nichol' on page 1 undefined on input line 123
+.
+
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 1 undefined on inp
+ut line 140.
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Note1' on page 2 undefined on input line 157.
+
+
+
+Package natbib Warning: Citation `Note2' on page 2 undefined on input line 167.
+
+
+
+Package natbib Warning: Citation `Note3' on page 2 undefined on input line 171.
+
+
+
+Package natbib Warning: Citation `COOLEN2001' on page 2 undefined on input line
+ 171.
+
+
+Package natbib Warning: Citation `Note4' on page 2 undefined on input line 197.
+
+
+
+Overfull \hbox (20.38805pt too wide) detected at line 203
+[][] 
+
+Overfull \hbox (1.15984pt too wide) detected at line 208
+[]\U/msb/m/n/10 E[]\OML/cmm/m/it/10 ^^Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; ^^\
+\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ^^Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; ^^\
+\OT1/cmr/m/n/10 )[] = \OML/cmm/m/it/10  []C\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t
+; t[]; ^^\\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 []\U/msb/m/n/10 E[]\OML/cmm/m/i
+t/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; ^^\\OT1/cmr/m/n/10 )\OML/cmm/m/it/10
+ x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; ^^\\OT1/cmr/m/n/10 )[]
+
+Package natbib Warning: Citation `Eissfeller' on page 2 undefined on input line
+ 210.
+
+
+Package natbib Warning: Citation `Roy2019' on page 2 undefined on input line 21
+0.
+
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 2 undefined on inp
+ut line 214.
+
+
+Package natbib Warning: Citation `GLASS' on page 2 undefined on input line 214.
+
+
+
+Package natbib Warning: Citation `MJOLSNESS' on page 2 undefined on input line 
+214.
+
+
+Package natbib Warning: Citation `Furusawa2008' on page 2 undefined on input li
+ne 214.
+
+
+Package natbib Warning: Citation `Salazar-Ciudad' on page 2 undefined on input 
+line 214.
+
+
+Package natbib Warning: Citation `Ciliberti' on page 2 undefined on input line 
+214.
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 214--215
+[]\OT1/cmr/m/n/10 We now ap-ply the present the-o-ret-i-cal frame-work
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 2 undefined on inp
+ut line 230.
+
+
+Package natbib Warning: Citation `hebb1949' on page 2 undefined on input line 2
+32.
+
+
+Package natbib Warning: Citation `Note5' on page 2 undefined on input line 232.
+
+
+[2]
+Underfull \hbox (badness 1102) in paragraph at lines 263--266
+\OT1/cmr/m/n/10 We de-fine the in-trin-sic vari-ance $\OML/cmm/m/it/10 q[] \OT1
+/cmr/m/n/10 = \OML/cmm/m/it/10 q \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^[[]$ \
+OT1/cmr/m/n/10 for
+[3]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 341.
+
+
+Package natbib Warning: Citation `Note6' on page 4 undefined on input line 343.
+
+
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 4 undefined on inp
+ut line 346.
+
+
+Package natbib Warning: Citation `Note7' on page 4 undefined on input line 346.
+
+
+
+Package natbib Warning: Citation `Zhou2022' on page 4 undefined on input line 3
+78.
+
+
+Package natbib Warning: Citation `Dekel2005' on page 4 undefined on input line 
+380.
+
+[4 <./fig1a.pdf> <./fig2b-eps-converted-to.pdf> <./fig2c.pdf> <./fig2d-eps-conv
+erted-to.pdf> <./fig2e.pdf> <./fig2f-eps-converted-to.pdf> <./Figure_2a.png> <.
+/Figure_2b.png>]
+
+Package natbib Warning: Citation `clark2023theory' on page 5 undefined on input
+ line 382.
+
+
+Package natbib Warning: Citation `Pereira-Obilinovic' on page 5 undefined on in
+put line 383.
+
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.bbl
+
+LaTeX Warning: Reference `LastBibItem' on page 5 undefined on input line 9.
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 73--79
+ []\OT1/cmr/m/n/9 S. Stern, T. Dror, E. Stolovicki, N. Bren-ner, and
+
+Underfull \hbox (badness 2012) in paragraph at lines 199--203
+ []\OT1/cmr/m/n/9 R. Berner, T. Gross, C. Kuehn, J. Kurths, and
+
+Underfull \hbox (badness 3108) in paragraph at lines 199--203
+ \OT1/cmr/m/n/9 S. Yanchuk, Adap-tive dy-nam-i-cal net-works (2023),
+
+Underfull \hbox (badness 1675) in paragraph at lines 206--210
+ []\OT1/cmr/m/n/9 C. Kuehn, \OT1/cmr/m/it/9 Mul-ti-ple time scale dy-nam-ics\OT
+1/cmr/m/n/9 , Vol. 191
+[5]
+Underfull \hbox (badness 2197) in paragraph at lines 448--455
+ \OT1/cmr/m/n/9 ma-te-ri-als through ac-tiv-ity (2022), arXiv:2203.03024
+
+Underfull \hbox (badness 1960) in paragraph at lines 480--487
+ []\OT1/cmr/m/n/9 J. Pauls-son, Mod-els of stochas-tic gene ex-pres-sion,
+
+Package natbib Warning: Citation `BenArous2006' on page 6 undefined on input li
+ne 564.
+
+
+Package natbib Warning: Citation `KanekoPloSOne2007' on page 6 undefined on inp
+ut line 713.
+
+
+Package natbib Warning: Citation `Sato2003' on page 6 undefined on input line 7
+13.
+
+
+Package natbib Warning: Citation `Kaneko2006' on page 6 undefined on input line
+ 713.
+
+
+Package natbib Warning: Citation `Ciliberti' on page 6 undefined on input line 
+713.
+
+
+Package natbib Warning: Citation `Sakata2020' on page 6 undefined on input line
+ 713.
+
+
+Package natbib Warning: Citation `Pham2022' on page 6 undefined on input line 7
+13.
+
+
+Package natbib Warning: Citation `Tang2021' on page 6 undefined on input line 7
+13.
+
+
+Package natbib Warning: Citation `Landry' on page 6 undefined on input line 713
+.
+
+
+Package natbib Warning: Citation `Silva-Rocha' on page 6 undefined on input lin
+e 713.
+
+
+Package natbib Warning: Citation `Uchida' on page 6 undefined on input line 713
+.
+
+[6]) [7]
+Overfull \hbox (46.20099pt too wide) detected at line 410
+[]
+[8] [9]
+Overfull \hbox (24.58987pt too wide) detected at line 521
+[]
+
+Overfull \hbox (56.67596pt too wide) detected at line 529
+[]
+[10] [11]
+Overfull \hbox (31.08397pt too wide) detected at line 594
+[]
+
+Package natbib Warning: There were undefined citations.
+
+[12 <./fig2a-eps-converted-to.pdf> <./fig1b-eps-converted-to.pdf> <./fig1c-eps-
+converted-to.pdf> <./fig1d-eps-converted-to.pdf> <./fig1e-eps-converted-to.pdf>
+ <./fig1f-eps-converted-to.pdf>]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.01403/2306.01403_tl2023.pdf (12 pages, 749077 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.01403/2306.01403_tl2023.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.log'
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.pdf'
+Latexmk: Found bibliography file(s):
+  ./Doublereplica.bib
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023Notes.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.aux
+
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023'
+------------
+Latexmk: Change directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/'.
+To assist finding of files in document directory, I set
+  BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.01403:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403:'
+  BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.01403:'.
+------------
+Running 'bibtex  "2306.01403_tl2023.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2023)
+The top-level auxiliary file: 2306.01403_tl2023.aux
+The style file: apsrev4-2.bst
+Database file #1: 2306.01403_tl2023Notes.bib
+Database file #2: Doublereplica.bib
+control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (0) allowed
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+(There was 1 warning)
+Latexmk: Change directory back to '/diff_test_tex_engines/bin/tex_sources/2306.01403'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.aux
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.bbl
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.01403_tl2023" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403"  "Doublereplica.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Doublereplica.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2022/06/05 4.2f utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2022/06/05 4.2f frontmatter package (AO,DPC,MD)]
+ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+
+Class revtex4-2 Warning: No Society specified, using default society aps.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.aux)
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 107.
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (20.38805pt too wide) detected at line 203
+[][] 
+
+Overfull \hbox (1.15984pt too wide) detected at line 208
+[]\U/msb/m/n/10 E[]\OML/cmm/m/it/10 ^^Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; ^^\
+\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ^^Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; ^^\
+\OT1/cmr/m/n/10 )[] = \OML/cmm/m/it/10  []C\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t
+; t[]; ^^\\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 []\U/msb/m/n/10 E[]\OML/cmm/m/i
+t/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; ^^\\OT1/cmr/m/n/10 )\OML/cmm/m/it/10
+ x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; ^^\\OT1/cmr/m/n/10 )[]
+
+Underfull \hbox (badness 1221) in paragraph at lines 214--215
+[]\OT1/cmr/m/n/10 We now ap-ply the present the-o-ret-i-cal frame-work
+[2]
+Underfull \hbox (badness 1102) in paragraph at lines 263--266
+\OT1/cmr/m/n/10 We de-fine the in-trin-sic vari-ance $\OML/cmm/m/it/10 q[] \OT1
+/cmr/m/n/10 = \OML/cmm/m/it/10 q \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^[[]$ \
+OT1/cmr/m/n/10 for
+[3]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 341.
+
+[4 <./fig1a.pdf> <./fig2b-eps-converted-to.pdf> <./fig2c.pdf> <./fig2d-eps-conv
+erted-to.pdf> <./fig2e.pdf> <./fig2f-eps-converted-to.pdf> <./Figure_2a.png> <.
+/Figure_2b.png>]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.bbl
+Underfull \hbox (badness 1158) in paragraph at lines 73--79
+ []\OT1/cmr/m/n/9 S. Stern, T. Dror, E. Stolovicki, N. Bren-ner, and
+
+Underfull \hbox (badness 2150) in paragraph at lines 199--203
+ []\OT1/cmr/m/n/9 R. Berner, T. Gross, C. Kuehn, J. Kurths, and
+
+Underfull \hbox (badness 3428) in paragraph at lines 199--203
+ \OT1/cmr/m/n/9 S. Yanchuk, Adap-tive dy-nam-i-cal net-works (2023),
+
+Underfull \hbox (badness 1831) in paragraph at lines 206--210
+ []\OT1/cmr/m/n/9 C. Kuehn, \OT1/cmr/m/it/9 Mul-ti-ple time scale dy-nam-ics\OT
+1/cmr/m/n/9 , Vol. 191
+[5]
+Underfull \hbox (badness 1087) in paragraph at lines 436--443
+ \OT1/cmr/m/n/9 extinctions in many-variable in-ter-act-ing pop-u-la-tions,
+
+Underfull \hbox (badness 2521) in paragraph at lines 448--455
+ \OT1/cmr/m/n/9 ma-te-ri-als through ac-tiv-ity (2022), arXiv:2203.03024
+
+Underfull \hbox (badness 2158) in paragraph at lines 480--487
+ []\OT1/cmr/m/n/9 J. Pauls-son, Mod-els of stochas-tic gene ex-pres-sion,
+
+Package natbib Warning: Citation `BenArous2006' on page 6 undefined on input li
+ne 564.
+
+
+Package natbib Warning: Citation `Sato2003' on page 6 undefined on input line 7
+13.
+
+
+Package natbib Warning: Citation `Kaneko2006' on page 6 undefined on input line
+ 713.
+
+
+Package natbib Warning: Citation `Sakata2020' on page 6 undefined on input line
+ 713.
+
+
+Package natbib Warning: Citation `Tang2021' on page 6 undefined on input line 7
+13.
+
+
+Package natbib Warning: Citation `Landry' on page 6 undefined on input line 713
+.
+
+
+Package natbib Warning: Citation `Silva-Rocha' on page 6 undefined on input lin
+e 713.
+
+
+Package natbib Warning: Citation `Uchida' on page 6 undefined on input line 713
+.
+
+[6]) [7]
+Overfull \hbox (46.20099pt too wide) detected at line 410
+[]
+[8] [9]
+Overfull \hbox (24.58987pt too wide) detected at line 521
+[]
+
+Overfull \hbox (56.67596pt too wide) detected at line 529
+[]
+[10] [11]
+Overfull \hbox (31.08397pt too wide) detected at line 594
+[]
+
+Package natbib Warning: There were undefined citations.
+
+[12 <./fig2a-eps-converted-to.pdf> <./fig1b-eps-converted-to.pdf> <./fig1c-eps-
+converted-to.pdf> <./fig1d-eps-converted-to.pdf> <./fig1e-eps-converted-to.pdf>
+ <./fig1f-eps-converted-to.pdf>]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.01403/2306.01403_tl2023.pdf (12 pages, 749630 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.01403/2306.01403_tl2023.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.log'
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.pdf'
+Latexmk: Found bibliography file(s):
+  ./Doublereplica.bib
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023Notes.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.aux
+
+------------
+Run number 3 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023'
+------------
+Latexmk: Change directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/'.
+To assist finding of files in document directory, I set
+  BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.01403:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403:'
+  BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.01403:'.
+------------
+Running 'bibtex  "2306.01403_tl2023.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2023)
+The top-level auxiliary file: 2306.01403_tl2023.aux
+The style file: apsrev4-2.bst
+Database file #1: 2306.01403_tl2023Notes.bib
+Database file #2: Doublereplica.bib
+control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (0) allowed
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+(There was 1 warning)
+Latexmk: Change directory back to '/diff_test_tex_engines/bin/tex_sources/2306.01403'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.aux
+
+------------
+Run number 4 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.01403_tl2023" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403"  "Doublereplica.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Doublereplica.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2022/06/05 4.2f utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2022/06/05 4.2f frontmatter package (AO,DPC,MD)]
+ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+
+Class revtex4-2 Warning: No Society specified, using default society aps.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.aux)
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 107.
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (20.38805pt too wide) detected at line 203
+[][] 
+
+Overfull \hbox (1.15984pt too wide) detected at line 208
+[]\U/msb/m/n/10 E[]\OML/cmm/m/it/10 ^^Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; ^^\
+\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ^^Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; ^^\
+\OT1/cmr/m/n/10 )[] = \OML/cmm/m/it/10  []C\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t
+; t[]; ^^\\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 []\U/msb/m/n/10 E[]\OML/cmm/m/i
+t/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; ^^\\OT1/cmr/m/n/10 )\OML/cmm/m/it/10
+ x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; ^^\\OT1/cmr/m/n/10 )[]
+
+Underfull \hbox (badness 1221) in paragraph at lines 214--215
+[]\OT1/cmr/m/n/10 We now ap-ply the present the-o-ret-i-cal frame-work
+[2]
+Underfull \hbox (badness 1102) in paragraph at lines 263--266
+\OT1/cmr/m/n/10 We de-fine the in-trin-sic vari-ance $\OML/cmm/m/it/10 q[] \OT1
+/cmr/m/n/10 = \OML/cmm/m/it/10 q \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^[[]$ \
+OT1/cmr/m/n/10 for
+[3]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 341.
+
+[4 <./fig1a.pdf> <./fig2b-eps-converted-to.pdf> <./fig2c.pdf> <./fig2d-eps-conv
+erted-to.pdf> <./fig2e.pdf> <./fig2f-eps-converted-to.pdf> <./Figure_2a.png> <.
+/Figure_2b.png>]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.bbl
+Underfull \hbox (badness 1158) in paragraph at lines 73--79
+ []\OT1/cmr/m/n/9 S. Stern, T. Dror, E. Stolovicki, N. Bren-ner, and
+
+Underfull \hbox (badness 2150) in paragraph at lines 199--203
+ []\OT1/cmr/m/n/9 R. Berner, T. Gross, C. Kuehn, J. Kurths, and
+
+Underfull \hbox (badness 3428) in paragraph at lines 199--203
+ \OT1/cmr/m/n/9 S. Yanchuk, Adap-tive dy-nam-i-cal net-works (2023),
+
+Underfull \hbox (badness 1831) in paragraph at lines 206--210
+ []\OT1/cmr/m/n/9 C. Kuehn, \OT1/cmr/m/it/9 Mul-ti-ple time scale dy-nam-ics\OT
+1/cmr/m/n/9 , Vol. 191
+[5]
+Underfull \hbox (badness 1087) in paragraph at lines 436--443
+ \OT1/cmr/m/n/9 extinctions in many-variable in-ter-act-ing pop-u-la-tions,
+
+Underfull \hbox (badness 2521) in paragraph at lines 448--455
+ \OT1/cmr/m/n/9 ma-te-ri-als through ac-tiv-ity (2022), arXiv:2203.03024
+
+Underfull \hbox (badness 2158) in paragraph at lines 480--487
+ []\OT1/cmr/m/n/9 J. Pauls-son, Mod-els of stochas-tic gene ex-pres-sion,
+[6]) [7]
+Overfull \hbox (46.20099pt too wide) detected at line 410
+[]
+[8] [9]
+Overfull \hbox (24.58987pt too wide) detected at line 521
+[]
+
+Overfull \hbox (56.67596pt too wide) detected at line 529
+[]
+[10] [11]
+Overfull \hbox (31.08397pt too wide) detected at line 594
+[]
+[12 <./fig2a-eps-converted-to.pdf> <./fig1b-eps-converted-to.pdf> <./fig1c-eps-
+converted-to.pdf> <./fig1d-eps-converted-to.pdf> <./fig1e-eps-converted-to.pdf>
+ <./fig1f-eps-converted-to.pdf>]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403
+_tl2023.aux) )
+(see the transcript file for additional information)</usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.01403/2306.01403_tl2023.pdf (12 pages, 749399 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.01403/2306.01403_tl2023.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.log'
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.pdf'
+Latexmk: Found bibliography file(s):
+  ./Doublereplica.bib
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023Notes.bib
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.pdf) are up-to-date
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+Latexmk: Nothing to do for 'Doublereplica.tex'.
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01403/2306.01403_tl2023.pdf) are up-to-date
+

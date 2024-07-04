@@ -1,0 +1,125 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838" --jobname="2306.01838_tl2020"  "Core_of_homotopy_classes_in_H_1.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020.bbl in line'
+ No file 2306.01838_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Amb' on page 2 undefined on input line 526
+  Citation `Bog' on page 12 undefined on input line 1125
+  Citation `Dej' on page 2 undefined on input line 524
+  Citation `Dej' on page 2 undefined on input line 526
+  Citation `Dej' on page 3 undefined on input line 581
+  Citation `Haj' on page 2 undefined on input line 524
+  Citation `HajSch' on page 2 undefined on input line 524
+  Citation `HajTys' on page 2 undefined on input line 524
+  Citation `Mon' on page 2 undefined on input line 524
+  Citation `Weg' on page 2 undefined on input line 524
+  Citation `Weg' on page 2 undefined on input line 526
+  Citation `Weg' on page 2 undefined on input line 530
+  Citation `Weg' on page 4 undefined on input line 613
+  Citation `Weg' on page 4 undefined on input line 615
+  Citation `Weg' on page 4 undefined on input line 639
+  Citation `aksoy2006selection' on page 3 undefined on input line 601
+  Citation `aksoy2010some' on page 3 undefined on input line 601
+  Citation `mayer1992universal' on page 3 undefined on input line 601
+  Citation `perry2020lipschitz' on page 2 undefined on input line 524
+  Citation `perry2020lipschitz' on page 2 undefined on input line 526
+  Citation `perry2020lipschitz' on page 3 undefined on input line 581
+  Citation `tits1977theorem' on page 3 undefined on input line 601
+  Reference `Desirable homotopy' on page 10 undefined on input line 1006
+  Reference `Desirable homotopy' on page 10 undefined on input line 989
+  Reference `Desirable homotopy' on page 11 undefined on input line 1035
+  Reference `Desirable homotopy' on page 2 undefined on input line 530
+  Reference `Desirable homotopy' on page 2 undefined on input line 540
+  Reference `Desirable homotopy' on page 9 undefined on input line 970
+  Reference `Lipschitz constant of the geodesic homotopy' on page 9 undefined on input line 856
+  Reference `Restriction is path Lipschitz' on page 5 undefined on input line 703
+  Reference `Restriction is path Lipschitz' on page 8 undefined on input line 806
+  Reference `Wenger and Young' on page 10 undefined on input line 1014
+  Reference `Wenger and Young' on page 11 undefined on input line 1048
+  Reference `Wenger and Young' on page 2 undefined on input line 530
+  Reference `Wenger and Young' on page 4 undefined on input line 639
+  Reference `Wenger and Young' on page 4 undefined on input line 663
+  Reference `Wenger and Young' on page 5 undefined on input line 665
+  Reference `existence of length minimizer' on page 12 undefined on input line 1121
+  Reference `finite diameter of subtree' on page 7 undefined on input line 775
+  Reference `finite diameter of subtree' on page 8 undefined on input line 811
+  Reference `finite diameter of subtree' on page 8 undefined on input line 823
+  Reference `g maps into T prime' on page 9 undefined on input line 862
+  Reference `g_t geodesic property' on page 8 undefined on input line 823
+  Reference `gamma geodesic property' on page 7 undefined on input line 775
+  Reference `gamma geodesic property' on page 8 undefined on input line 811
+  Reference `heisenberg non-singular points' on page 1 undefined on input line 522
+  Reference `heisenberg non-singular points' on page 12 undefined on input line 1128
+  Reference `heisenberg non-singular points' on page 2 undefined on input line 540
+  Reference `main result' on page 2 undefined on input line 528
+  Reference `main result' on page 2 undefined on input line 540
+  Reference `uniqueness of core' on page 10 undefined on input line 1003
+  Reference `uniqueness of core' on page 11 undefined on input line 1048
+  Reference `uniqueness of core' on page 11 undefined on input line 1108
+  Reference `uniqueness of core' on page 12 undefined on input line 1121
+Latexmk: Failed to find one or more bibliography files:
+    'bib.bib'
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020.aux'
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020' because I don't find the following files:
+  bib.bib
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020.out'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838" --jobname="2306.01838_tl2020"  "Core_of_homotopy_classes_in_H_1.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020.bbl in line'
+ No file 2306.01838_tl2020.bbl.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Amb' on page 2 undefined on input line 526
+  Citation `Bog' on page 12 undefined on input line 1125
+  Citation `Dej' on page 2 undefined on input line 524
+  Citation `Dej' on page 2 undefined on input line 526
+  Citation `Dej' on page 3 undefined on input line 581
+  Citation `Haj' on page 2 undefined on input line 524
+  Citation `HajSch' on page 2 undefined on input line 524
+  Citation `HajTys' on page 2 undefined on input line 524
+  Citation `Mon' on page 2 undefined on input line 524
+  Citation `Weg' on page 2 undefined on input line 524
+  Citation `Weg' on page 2 undefined on input line 526
+  Citation `Weg' on page 2 undefined on input line 530
+  Citation `Weg' on page 4 undefined on input line 613
+  Citation `Weg' on page 4 undefined on input line 615
+  Citation `Weg' on page 4 undefined on input line 639
+  Citation `aksoy2006selection' on page 3 undefined on input line 601
+  Citation `aksoy2010some' on page 3 undefined on input line 601
+  Citation `mayer1992universal' on page 3 undefined on input line 601
+  Citation `perry2020lipschitz' on page 2 undefined on input line 524
+  Citation `perry2020lipschitz' on page 2 undefined on input line 526
+  Citation `perry2020lipschitz' on page 3 undefined on input line 581
+  Citation `tits1977theorem' on page 3 undefined on input line 601
+Latexmk: Failed to find one or more bibliography files:
+    'bib.bib'
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 26 citation(s)
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020': The following rules & subrules became out-of-date:
+      'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020'
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01838/2306.01838_tl2020' because I don't find the following files:
+  bib.bib

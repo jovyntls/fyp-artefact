@@ -1,0 +1,14 @@
+# Fdb version 4
+["pdflatex"] 1710321447 "Photon_centroid_04.tex" "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00490/2306.00490_tl2022.pdf" "2306.00490_tl2022" 1710321447 2
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00490/2306.00490_tl2022.aux" 1710321447 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00490/iopart.cls" 0 -1 0 ""
+  "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
+  "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1682172590 7883550 77b1bc4ccb144f8e94cd369242766b89 ""
+  "/usr/local/texlive/2022/texmf.cnf" 1682172514 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "Photon_centroid_04.tex" 1695223842 28772 e4c18ed4386f70f67b24c3732b2866b2 ""
+  "iopart.cls" 0 -1 0 ""
+  (generated)
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00490/2306.00490_tl2022.aux"
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00490/2306.00490_tl2022.log"
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00490/2306.00490_tl2022.pdf"
+  (rewritten before read)

@@ -1,0 +1,457 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537" --jobname="2306.00537_tl2020"  "main_v2.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.bbl in line'
+ No file 2306.00537_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Abu-Arish2010' on page 18 undefined on input line 770
+  Citation `Allen2005' on page 16 undefined on input line 667
+  Citation `Alon2007' on page 2 undefined on input line 103
+  Citation `Averbukh2017' on page 15 undefined on input line 593
+  Citation `Averbukh2017' on page 2 undefined on input line 95
+  Citation `Averbukh2017' on page 2 undefined on input line 99
+  Citation `Balaskas2012' on page 14 undefined on input line 527
+  Citation `Balaskas2012' on page 2 undefined on input line 103
+  Citation `Balaskas2012' on page 2 undefined on input line 95
+  Citation `BeckerAllenTenWolde2012' on page 14 undefined on input line 541
+  Citation `BeckerAllenTenWolde2012' on page 16 undefined on input line 647
+  Citation `BeckerAllenTenWolde2012' on page 16 undefined on input line 667
+  Citation `BeckerAllenTenWolde2012' on page 16 undefined on input line 675
+  Citation `BeckerAllenTenWolde2012' on page 3 undefined on input line 114
+  Citation `BeckerTenWolde2012' on page 16 undefined on input line 667
+  Citation `BeckerTenWolde2012' on page 3 undefined on input line 114
+  Citation `Bier2015' on page 14 undefined on input line 527
+  Citation `Bier2015' on page 2 undefined on input line 95
+  Citation `Briscoe2015' on page 14 undefined on input line 527
+  Citation `Briscoe2015' on page 2 undefined on input line 95
+  Citation `Burda2011' on page 2 undefined on input line 103
+  Citation `Casanova1990' on page 16 undefined on input line 641
+  Citation `Chalancon2012' on page 2 undefined on input line 95
+  Citation `Chalancon2012' on page 2 undefined on input line 99
+  Citation `Clyde2003' on page 16 undefined on input line 627
+  Citation `Clyde2003' on page 2 undefined on input line 105
+  Citation `Clyde2003' on page 3 undefined on input line 137
+  Citation `Clyde2003' on page 3 undefined on input line 172
+  Citation `Cohen2015' on page 2 undefined on input line 96
+  Citation `Cotterell2010' on page 2 undefined on input line 103
+  Citation `Crombach2012' on page 14 undefined on input line 531
+  Citation `Driever1988a' on page 14 undefined on input line 526
+  Citation `Driever1988b' on page 14 undefined on input line 526
+  Citation `Driever1989' on page 16 undefined on input line 639
+  Citation `Drocco2011' on page 2 undefined on input line 96
+  Citation `Dubuis2013' on page 14 undefined on input line 531
+  Citation `Dubuis2013' on page 2 undefined on input line 105
+  Citation `Dubuis2013' on page 3 undefined on input line 137
+  Citation `DubuisPNAS2011' on page 2 undefined on input line 95
+  Citation `Durrieu2018' on page 2 undefined on input line 96
+  Citation `Eldon1991' on page 3 undefined on input line 172
+  Citation `Erdmann2009' on page 16 undefined on input line 646
+  Citation `Erdmann2009' on page 3 undefined on input line 147
+  Citation `Exelby2021' on page 14 undefined on input line 527
+  Citation `Exelby2021' on page 2 undefined on input line 103
+  Citation `Exelby2021' on page 2 undefined on input line 95
+  Citation `Frohnhofer1986' on page 14 undefined on input line 526
+  Citation `Gillespie1976' on page 16 undefined on input line 653
+  Citation `Gillespie1977' on page 16 undefined on input line 653
+  Citation `Gregor2007a' on page 18 undefined on input line 767
+  Citation `Gregor2007a' on page 2 undefined on input line 95
+  Citation `Gregor2007b' on page 18 undefined on input line 770
+  Citation `Gregor2007b' on page 2 undefined on input line 95
+  Citation `Hattne2005' on page 16 undefined on input line 661
+  Citation `Huh2011' on page 2 undefined on input line 99
+  Citation `Hulskamp1990' on page 3 undefined on input line 172
+  Citation `Hummer2003' on page 8 undefined on input line 390
+  Citation `Iyer2022' on page 15 undefined on input line 593
+  Citation `Iyer2022' on page 2 undefined on input line 95
+  Citation `Iyer2022' on page 2 undefined on input line 99
+  Citation `Jackle1986' on page 3 undefined on input line 172
+  Citation `Jaeger2004' on page 14 undefined on input line 526
+  Citation `Jaeger2004' on page 14 undefined on input line 531
+  Citation `Jaeger2004' on page 16 undefined on input line 627
+  Citation `Jaeger2004' on page 2 undefined on input line 105
+  Citation `Jaeger2004' on page 3 undefined on input line 136
+  Citation `Jaeger2004' on page 3 undefined on input line 137
+  Citation `Jaeger2004' on page 3 undefined on input line 172
+  Citation `Jaeger2011' on page 2 undefined on input line 105
+  Citation `Jaeger2011' on page 3 undefined on input line 137
+  Citation `Kicheva2012' on page 2 undefined on input line 95
+  Citation `Kicheva2014' on page 2 undefined on input line 96
+  Citation `Kopelevich2005' on page 8 undefined on input line 390
+  Citation `Kozlov2012' on page 14 undefined on input line 531
+  Citation `Kraut1991a' on page 3 undefined on input line 172
+  Citation `Kraut1991b' on page 3 undefined on input line 172
+  Citation `Kuzmicz-Kowalska2020' on page 14 undefined on input line 527
+  Citation `Kuzmicz-Kowalska2020' on page 2 undefined on input line 95
+  Citation `Lander2011' on page 2 undefined on input line 95
+  Citation `Macdonald1986' on page 14 undefined on input line 526
+  Citation `Majka2023' on page 11 undefined on input line 450
+  Citation `Majka2023' on page 11 undefined on input line 452
+  Citation `Majka2023' on page 11 undefined on input line 453
+  Citation `Majka2023' on page 11 undefined on input line 455
+  Citation `Majka2023' on page 11 undefined on input line 460
+  Citation `Majka2023' on page 12 undefined on input line 462
+  Citation `Majka2023' on page 12 undefined on input line 487
+  Citation `Majka2023' on page 14 undefined on input line 562
+  Citation `Majka2023' on page 15 undefined on input line 567
+  Citation `Majka2023' on page 15 undefined on input line 569
+  Citation `Majka2023' on page 2 undefined on input line 109
+  Citation `Majka2023' on page 20 undefined on input line 906
+  Citation `Majka2023' on page 21 undefined on input line 915
+  Citation `Majka2023' on page 21 undefined on input line 946
+  Citation `Majka2023' on page 3 undefined on input line 114
+  Citation `Manu2009PlosBiol' on page 14 undefined on input line 531
+  Citation `Manu2009PlosBiol' on page 14 undefined on input line 557
+  Citation `Manu2009PlosBiol' on page 2 undefined on input line 105
+  Citation `Manu2009PlosBiol' on page 3 undefined on input line 137
+  Citation `Manu2009PlosCompBiol' on page 14 undefined on input line 531
+  Citation `Manu2009PlosCompBiol' on page 14 undefined on input line 557
+  Citation `Margolis1995' on page 16 undefined on input line 641
+  Citation `Martin2016' on page 2 undefined on input line 103
+  Citation `McCarty2003' on page 16 undefined on input line 621
+  Citation `Minchington2023' on page 14 undefined on input line 527
+  Citation `Minchington2023' on page 2 undefined on input line 95
+  Citation `Mlodzik1987' on page 14 undefined on input line 526
+  Citation `Morelli2008' on page 18 undefined on input line 752
+  Citation `Mori1965' on page 8 undefined on input line 389
+  Citation `Paulsson2005' on page 2 undefined on input line 95
+  Citation `Paulsson2005' on page 2 undefined on input line 99
+  Citation `Pedraza2005' on page 2 undefined on input line 99
+  Citation `Petkova2019' on page 2 undefined on input line 95
+  Citation `Plotkin1998' on page 8 undefined on input line 390
+  Citation `Raj2008' on page 2 undefined on input line 95
+  Citation `Raj2008' on page 2 undefined on input line 99
+  Citation `Raser2005' on page 2 undefined on input line 95
+  Citation `Raser2005' on page 2 undefined on input line 99
+  Citation `Rogers2011' on page 2 undefined on input line 95
+  Citation `Sauer1993' on page 16 undefined on input line 621
+  Citation `Schulz1995' on page 14 undefined on input line 526
+  Citation `Shvartsman2012' on page 2 undefined on input line 95
+  Citation `Simsek2022' on page 15 undefined on input line 593
+  Citation `Simsek2022' on page 2 undefined on input line 95
+  Citation `Simsek2022' on page 2 undefined on input line 99
+  Citation `Sokolowski2012' on page 14 undefined on input line 531
+  Citation `Sokolowski2012' on page 16 undefined on input line 646
+  Citation `Sokolowski2012' on page 18 undefined on input line 752
+  Citation `Sokolowski2012' on page 18 undefined on input line 758
+  Citation `Sokolowski2012' on page 2 undefined on input line 103
+  Citation `Sokolowski2012' on page 2 undefined on input line 95
+  Citation `Sokolowski2012' on page 3 undefined on input line 147
+  Citation `Sokolowski2015' on page 14 undefined on input line 531
+  Citation `Sokolowski2015' on page 2 undefined on input line 103
+  Citation `Sokolowski2023' on page 2 undefined on input line 103
+  Citation `Sokolowski2023' on page 2 undefined on input line 95
+  Citation `Spirov2009' on page 14 undefined on input line 534
+  Citation `Stapornwongkul2020' on page 2 undefined on input line 95
+  Citation `Stapornwongkul2021' on page 2 undefined on input line 95
+  Citation `Stockholm2010' on page 2 undefined on input line 99
+  Citation `Struhl1989' on page 14 undefined on input line 526
+  Citation `Surdej1998' on page 14 undefined on input line 534
+  Citation `Surkova2008' on page 14 undefined on input line 526
+  Citation `Surkova2008' on page 14 undefined on input line 531
+  Citation `Surkova2008' on page 16 undefined on input line 627
+  Citation `Surkova2008' on page 2 undefined on input line 105
+  Citation `Surkova2008' on page 3 undefined on input line 137
+  Citation `Swain2002' on page 2 undefined on input line 95
+  Citation `Swain2002' on page 2 undefined on input line 99
+  Citation `Thomas2019' on page 2 undefined on input line 99
+  Citation `Tkacik2021' on page 2 undefined on input line 95
+  Citation `Vakulenko2009' on page 14 undefined on input line 532
+  Citation `Vakulenko2009' on page 2 undefined on input line 103
+  Citation `Vakulenko2009' on page 2 undefined on input line 109
+  Citation `Vakulenko2009' on page 3 undefined on input line 123
+  Citation `Vakulenko2009' on page 3 undefined on input line 172
+  Citation `Verd2017' on page 2 undefined on input line 103
+  Citation `Verd2019' on page 2 undefined on input line 103
+  Citation `Waddington1942' on page 10 undefined on input line 419
+  Citation `Waddington1942' on page 14 undefined on input line 556
+  Citation `Waddington1942' on page 2 undefined on input line 99
+  Citation `Waddington1959' on page 10 undefined on input line 419
+  Citation `Waddington1959' on page 14 undefined on input line 556
+  Citation `Waddington1959' on page 2 undefined on input line 99
+  Citation `Warren2004' on page 18 undefined on input line 752
+  Citation `Warren2005' on page 18 undefined on input line 752
+  Citation `Weigel1990' on page 16 undefined on input line 641
+  Citation `Wu2015' on page 2 undefined on input line 95
+  Citation `Yang2006' on page 8 undefined on input line 390
+  Citation `Zagorski2017' on page 2 undefined on input line 103
+  Citation `Zagorski2017' on page 2 undefined on input line 95
+  Citation `Zagorski2017' on page 2 undefined on input line 96
+  Citation `Zwanzig1961' on page 8 undefined on input line 389
+  Reference `Eq-kappa' on page 12 undefined on input line 473
+  Reference `Fig-DensityPinned' on page 7 undefined on input line 268
+  Reference `Fig-DensityPinned' on page 7 undefined on input line 272
+  Reference `Fig-DensityPinned' on page 8 undefined on input line 354
+  Reference `Fig-DensityPinned' on page 9 undefined on input line 409
+  Reference `Fig-ModelSketch' on page 20 undefined on input line 906
+  Reference `Fig-ModelSketch' on page 3 undefined on input line 136
+  Reference `Fig-ModelSketch' on page 5 undefined on input line 227
+  Reference `Fig-Stability' on page 11 undefined on input line 437
+  Reference `Fig-Stability' on page 13 undefined on input line 518
+  Reference `Fig-Stability' on page 14 undefined on input line 564
+  Reference `Fig-Stability' on page 7 undefined on input line 312
+  Reference `Fig-TypicalOutput' on page 12 undefined on input line 462
+  Reference `Fig-TypicalOutput' on page 5 undefined on input line 197
+  Reference `Fig-TypicalOutput' on page 5 undefined on input line 238
+  Reference `Fig-VelocitiesComparison' on page 10 undefined on input line 418
+  Reference `Fig-VelocitiesComparison' on page 10 undefined on input line 422
+  Reference `Fig-VelocitiesComparison' on page 10 undefined on input line 427
+  Reference `Fig-VelocitiesComparison' on page 10 undefined on input line 428
+  Reference `Fig-VelocitiesComparison' on page 8 undefined on input line 401
+  Reference `Fig-VelocitiesComparison' on page 9 undefined on input line 408
+  Reference `Fig-VelocitiesComparison' on page 9 undefined on input line 410
+  Reference `eq:deltaACBD' on page 8 undefined on input line 354
+  Reference `eq:effdyn' on page 15 undefined on input line 567
+  Reference `eq:effdyn' on page 15 undefined on input line 569
+  Reference `eq:effdyn' on page 22 undefined on input line 963
+  Reference `eq:effectiveform' on page 21 undefined on input line 946
+  Reference `eq:lambdaACBD' on page 6 undefined on input line 261
+  Reference `eq:lambdaACBD' on page 8 undefined on input line 354
+  Reference `eq:stabcond' on page 12 undefined on input line 496
+  Reference `eq:stabcond' on page 12 undefined on input line 501
+  Reference `eq:start' on page 21 undefined on input line 915
+  Reference `eq:start' on page 21 undefined on input line 929
+  Reference `eq:theta' on page 22 undefined on input line 955
+  Reference `eq:theta' on page 22 undefined on input line 963
+  Reference `eq:type(i)' on page 12 undefined on input line 503
+  Reference `eq:type(ii)' on page 12 undefined on input line 503
+  Reference `sec-GG-Methods' on page 12 undefined on input line 473
+  Reference `sec-GG-Methods' on page 13 undefined on input line 518
+  Reference `sec-GG-Methods' on page 3 undefined on input line 169
+  Reference `sec-GG-Methods' on page 5 undefined on input line 235
+  Reference `sec-GG-Methods' on page 6 undefined on input line 261
+  Reference `sec-GG-Methods' on page 7 undefined on input line 272
+  Reference `sec-GG-Methods' on page 8 undefined on input line 323
+  Reference `sec-GG-Methods' on page 8 undefined on input line 354
+  Reference `sec-GG-Methods' on page 8 undefined on input line 396
+Latexmk: Found bibliography file(s) [GapGenes.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.aux'
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00537_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.bbl'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537" --jobname="2306.00537_tl2020"  "main_v2.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Abu-Arish2010' on page 18 undefined on input line 770
+  Citation `Allen2005' on page 16 undefined on input line 667
+  Citation `Alon2007' on page 2 undefined on input line 103
+  Citation `Averbukh2017' on page 15 undefined on input line 593
+  Citation `Averbukh2017' on page 2 undefined on input line 95
+  Citation `Averbukh2017' on page 2 undefined on input line 99
+  Citation `Balaskas2012' on page 14 undefined on input line 527
+  Citation `Balaskas2012' on page 2 undefined on input line 103
+  Citation `Balaskas2012' on page 2 undefined on input line 95
+  Citation `BeckerAllenTenWolde2012' on page 14 undefined on input line 541
+  Citation `BeckerAllenTenWolde2012' on page 16 undefined on input line 647
+  Citation `BeckerAllenTenWolde2012' on page 16 undefined on input line 667
+  Citation `BeckerAllenTenWolde2012' on page 16 undefined on input line 675
+  Citation `BeckerAllenTenWolde2012' on page 3 undefined on input line 114
+  Citation `BeckerTenWolde2012' on page 16 undefined on input line 667
+  Citation `BeckerTenWolde2012' on page 3 undefined on input line 114
+  Citation `Bier2015' on page 14 undefined on input line 527
+  Citation `Bier2015' on page 2 undefined on input line 95
+  Citation `Briscoe2015' on page 14 undefined on input line 527
+  Citation `Briscoe2015' on page 2 undefined on input line 95
+  Citation `Burda2011' on page 2 undefined on input line 103
+  Citation `Casanova1990' on page 16 undefined on input line 641
+  Citation `Chalancon2012' on page 2 undefined on input line 95
+  Citation `Chalancon2012' on page 2 undefined on input line 99
+  Citation `Clyde2003' on page 16 undefined on input line 627
+  Citation `Clyde2003' on page 2 undefined on input line 105
+  Citation `Clyde2003' on page 3 undefined on input line 137
+  Citation `Clyde2003' on page 3 undefined on input line 172
+  Citation `Cohen2015' on page 2 undefined on input line 96
+  Citation `Cotterell2010' on page 2 undefined on input line 103
+  Citation `Crombach2012' on page 14 undefined on input line 531
+  Citation `Driever1988a' on page 14 undefined on input line 526
+  Citation `Driever1988b' on page 14 undefined on input line 526
+  Citation `Driever1989' on page 16 undefined on input line 639
+  Citation `Drocco2011' on page 2 undefined on input line 96
+  Citation `Dubuis2013' on page 14 undefined on input line 531
+  Citation `Dubuis2013' on page 2 undefined on input line 105
+  Citation `Dubuis2013' on page 3 undefined on input line 137
+  Citation `DubuisPNAS2011' on page 2 undefined on input line 95
+  Citation `Durrieu2018' on page 2 undefined on input line 96
+  Citation `Eldon1991' on page 3 undefined on input line 172
+  Citation `Erdmann2009' on page 16 undefined on input line 646
+  Citation `Erdmann2009' on page 3 undefined on input line 147
+  Citation `Exelby2021' on page 14 undefined on input line 527
+  Citation `Exelby2021' on page 2 undefined on input line 103
+  Citation `Exelby2021' on page 2 undefined on input line 95
+  Citation `Frohnhofer1986' on page 14 undefined on input line 526
+  Citation `Gillespie1976' on page 16 undefined on input line 653
+  Citation `Gillespie1977' on page 16 undefined on input line 653
+  Citation `Gregor2007a' on page 18 undefined on input line 767
+  Citation `Gregor2007a' on page 2 undefined on input line 95
+  Citation `Gregor2007b' on page 18 undefined on input line 770
+  Citation `Gregor2007b' on page 2 undefined on input line 95
+  Citation `Hattne2005' on page 16 undefined on input line 661
+  Citation `Huh2011' on page 2 undefined on input line 99
+  Citation `Hulskamp1990' on page 3 undefined on input line 172
+  Citation `Hummer2003' on page 8 undefined on input line 390
+  Citation `Iyer2022' on page 15 undefined on input line 593
+  Citation `Iyer2022' on page 2 undefined on input line 95
+  Citation `Iyer2022' on page 2 undefined on input line 99
+  Citation `Jackle1986' on page 3 undefined on input line 172
+  Citation `Jaeger2004' on page 14 undefined on input line 526
+  Citation `Jaeger2004' on page 14 undefined on input line 531
+  Citation `Jaeger2004' on page 16 undefined on input line 627
+  Citation `Jaeger2004' on page 2 undefined on input line 105
+  Citation `Jaeger2004' on page 3 undefined on input line 136
+  Citation `Jaeger2004' on page 3 undefined on input line 137
+  Citation `Jaeger2004' on page 3 undefined on input line 172
+  Citation `Jaeger2011' on page 2 undefined on input line 105
+  Citation `Jaeger2011' on page 3 undefined on input line 137
+  Citation `Kicheva2012' on page 2 undefined on input line 95
+  Citation `Kicheva2014' on page 2 undefined on input line 96
+  Citation `Kopelevich2005' on page 8 undefined on input line 390
+  Citation `Kozlov2012' on page 14 undefined on input line 531
+  Citation `Kraut1991a' on page 3 undefined on input line 172
+  Citation `Kraut1991b' on page 3 undefined on input line 172
+  Citation `Kuzmicz-Kowalska2020' on page 14 undefined on input line 527
+  Citation `Kuzmicz-Kowalska2020' on page 2 undefined on input line 95
+  Citation `Lander2011' on page 2 undefined on input line 95
+  Citation `Macdonald1986' on page 14 undefined on input line 526
+  Citation `Majka2023' on page 11 undefined on input line 450
+  Citation `Majka2023' on page 11 undefined on input line 452
+  Citation `Majka2023' on page 11 undefined on input line 453
+  Citation `Majka2023' on page 11 undefined on input line 455
+  Citation `Majka2023' on page 11 undefined on input line 460
+  Citation `Majka2023' on page 12 undefined on input line 462
+  Citation `Majka2023' on page 12 undefined on input line 487
+  Citation `Majka2023' on page 14 undefined on input line 562
+  Citation `Majka2023' on page 15 undefined on input line 567
+  Citation `Majka2023' on page 15 undefined on input line 569
+  Citation `Majka2023' on page 2 undefined on input line 109
+  Citation `Majka2023' on page 20 undefined on input line 906
+  Citation `Majka2023' on page 21 undefined on input line 915
+  Citation `Majka2023' on page 21 undefined on input line 946
+  Citation `Majka2023' on page 3 undefined on input line 114
+  Citation `Manu2009PlosBiol' on page 14 undefined on input line 531
+  Citation `Manu2009PlosBiol' on page 14 undefined on input line 557
+  Citation `Manu2009PlosBiol' on page 2 undefined on input line 105
+  Citation `Manu2009PlosBiol' on page 3 undefined on input line 137
+  Citation `Manu2009PlosCompBiol' on page 14 undefined on input line 531
+  Citation `Manu2009PlosCompBiol' on page 14 undefined on input line 557
+  Citation `Margolis1995' on page 16 undefined on input line 641
+  Citation `Martin2016' on page 2 undefined on input line 103
+  Citation `McCarty2003' on page 16 undefined on input line 621
+  Citation `Minchington2023' on page 14 undefined on input line 527
+  Citation `Minchington2023' on page 2 undefined on input line 95
+  Citation `Mlodzik1987' on page 14 undefined on input line 526
+  Citation `Morelli2008' on page 18 undefined on input line 752
+  Citation `Mori1965' on page 8 undefined on input line 389
+  Citation `Paulsson2005' on page 2 undefined on input line 95
+  Citation `Paulsson2005' on page 2 undefined on input line 99
+  Citation `Pedraza2005' on page 2 undefined on input line 99
+  Citation `Petkova2019' on page 2 undefined on input line 95
+  Citation `Plotkin1998' on page 8 undefined on input line 390
+  Citation `Raj2008' on page 2 undefined on input line 95
+  Citation `Raj2008' on page 2 undefined on input line 99
+  Citation `Raser2005' on page 2 undefined on input line 95
+  Citation `Raser2005' on page 2 undefined on input line 99
+  Citation `Rogers2011' on page 2 undefined on input line 95
+  Citation `Sauer1993' on page 16 undefined on input line 621
+  Citation `Schulz1995' on page 14 undefined on input line 526
+  Citation `Shvartsman2012' on page 2 undefined on input line 95
+  Citation `Simsek2022' on page 15 undefined on input line 593
+  Citation `Simsek2022' on page 2 undefined on input line 95
+  Citation `Simsek2022' on page 2 undefined on input line 99
+  Citation `Sokolowski2012' on page 14 undefined on input line 531
+  Citation `Sokolowski2012' on page 16 undefined on input line 646
+  Citation `Sokolowski2012' on page 18 undefined on input line 752
+  Citation `Sokolowski2012' on page 18 undefined on input line 758
+  Citation `Sokolowski2012' on page 2 undefined on input line 103
+  Citation `Sokolowski2012' on page 2 undefined on input line 95
+  Citation `Sokolowski2012' on page 3 undefined on input line 147
+  Citation `Sokolowski2015' on page 14 undefined on input line 531
+  Citation `Sokolowski2015' on page 2 undefined on input line 103
+  Citation `Sokolowski2023' on page 2 undefined on input line 103
+  Citation `Sokolowski2023' on page 2 undefined on input line 95
+  Citation `Spirov2009' on page 14 undefined on input line 534
+  Citation `Stapornwongkul2020' on page 2 undefined on input line 95
+  Citation `Stapornwongkul2021' on page 2 undefined on input line 95
+  Citation `Stockholm2010' on page 2 undefined on input line 99
+  Citation `Struhl1989' on page 14 undefined on input line 526
+  Citation `Surdej1998' on page 14 undefined on input line 534
+  Citation `Surkova2008' on page 14 undefined on input line 526
+  Citation `Surkova2008' on page 14 undefined on input line 531
+  Citation `Surkova2008' on page 16 undefined on input line 627
+  Citation `Surkova2008' on page 2 undefined on input line 105
+  Citation `Surkova2008' on page 3 undefined on input line 137
+  Citation `Swain2002' on page 2 undefined on input line 95
+  Citation `Swain2002' on page 2 undefined on input line 99
+  Citation `Thomas2019' on page 2 undefined on input line 99
+  Citation `Tkacik2021' on page 2 undefined on input line 95
+  Citation `Vakulenko2009' on page 14 undefined on input line 532
+  Citation `Vakulenko2009' on page 2 undefined on input line 103
+  Citation `Vakulenko2009' on page 2 undefined on input line 109
+  Citation `Vakulenko2009' on page 3 undefined on input line 123
+  Citation `Vakulenko2009' on page 3 undefined on input line 172
+  Citation `Verd2017' on page 2 undefined on input line 103
+  Citation `Verd2019' on page 2 undefined on input line 103
+  Citation `Waddington1942' on page 10 undefined on input line 419
+  Citation `Waddington1942' on page 14 undefined on input line 556
+  Citation `Waddington1942' on page 2 undefined on input line 99
+  Citation `Waddington1959' on page 10 undefined on input line 419
+  Citation `Waddington1959' on page 14 undefined on input line 556
+  Citation `Waddington1959' on page 2 undefined on input line 99
+  Citation `Warren2004' on page 18 undefined on input line 752
+  Citation `Warren2005' on page 18 undefined on input line 752
+  Citation `Weigel1990' on page 16 undefined on input line 641
+  Citation `Wu2015' on page 2 undefined on input line 95
+  Citation `Yang2006' on page 8 undefined on input line 390
+  Citation `Zagorski2017' on page 2 undefined on input line 103
+  Citation `Zagorski2017' on page 2 undefined on input line 95
+  Citation `Zagorski2017' on page 2 undefined on input line 96
+  Citation `Zwanzig1961' on page 8 undefined on input line 389
+Latexmk: Found bibliography file(s) [GapGenes.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.aux'
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00537_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.aux'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537" --jobname="2306.00537_tl2020"  "main_v2.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.pdf'
+Latexmk: Found bibliography file(s) [GapGenes.bib]
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

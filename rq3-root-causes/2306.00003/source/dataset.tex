@@ -1,0 +1,40 @@
+
+% \paragraph{TMED2 Dataset.}
+% We evaluate our approach on an open-access echocardiogram dataset TMED2~\citep{huang2021new,huang2022tmed}. TMED2-2 is a dataset of 2D echocardiogram images. It provides a labeled set of 599 echocardiogram studies and an authentic unlabeled set of 5486 studies. Each study represents a routine TTE scan of a patient that contains images from various views of the heart. A typical study in the dataset contains around 68 images (median=68, 10-90th percentile range=27-97). For each study in the labeled set, a diagnosis label is provided on the study level and a subset of the images in this study (around 40\%)are provided with view labels while the others remain unlabeled. For each study in the unlabeled set, neither the diagnosis label nor any view labels are provided. According to \cite{mitchell2019guidelines}, at least 9 canonical view types frequently appear in routine TTEs. However, for our purpose of diagnosing AS, only some of the view types (PLAX and PSAX) are clinically relevant, as they show the aortic valve. We use the predefined train/val/test splits from TMED2, which has 360/119/120 studies respectively. 
+
+%Trans-thoracic echocardiography (TTE) is a gold-standard way to non-invasively capture the heart's anatomy for measurement and diagnosis. 
+In this work, for model training and primary evaluation we use an open-access dataset 
+that our team created.
+The Tufts Medical Echocardiogram Dataset (TMED)~\citep{huang2021new},
+now in its latest version known as TMED-2~\citep{huang2021new},  is a collection of 2D echocardiogram images gathered during routine care at Tufts Medical Center in Boston, MA, USA from 2016-2021. 
+Our research study of these  \emph{fully deidentified} images has been approved by 
+%our Institutional Review Board (details withheld to preserve anonymity).
+the Tufts Medical Center institutional review board.
+
+Each study in the dataset represents a routine TTE scan of one patient and includes \emph{all} collected 2D ultrasound images of the heart, with a median of $K=68$ images per study (10-90th percentile range = 27-97). No filtering to specific views was applied except removal of Doppler images via metadata inspection. Each study's available set of images is exactly the set of 2D TTE images an expert cardiologist would see in the health records system.
+
+TMED-2 contains a labeled set of 599 studies. Every study in the labeled set has a diagnosis label indicating the severity of AS observed. We use 3 severity levels: no AS, early AS, or significant AS.
+These are assigned by a board-certified expert during routine reading. We note that expert readers have access to more information than our algorithms: in addition to the 2D images, clinician readers also see Doppler images of blood flow as well as other clinical variables not available in TMED-2.
+
+To make the most of the available data, we follow the recommended protocol of averaging over 3 separate predefined training/validation/test splits. Each split consists of 360/119/120 studies, constructed to yield similar proportions of no, early, and signficant AS.
+
+\textbf{View labels for view classifiers.}
+A subset of images in the TMED-2 labeled set (around 40\%) are labeled with \emph{view type}. There are 5 possible view labels: \{ PLAX, PSAX, A2C, A4C, other\}. Only PLAX and PSAX views show the aortic valve and thus are relevant for AS severity assessment.
+As per \citet{mitchell2019guidelines}, there are at least 9 canonical view types in routine TTEs, so many images in TMED-2 depict views that are ``irrelevant'' for AS diagnosis.
+ View type labels are useful for training view classifiers.
+Our MIL approach does not need these view labels at all, only a pre-trained view classifier.
+
+\textbf{Unlabeled set for pretraining.}
+TMED-2 additionally makes available a large \emph{unlabeled set} of 5486 studies from distinct patients. 
+Studies in the unlabeled set have no diagnosis label nor view label.
+We use this unlabeled set for pretraining representations, but cannot use them for the supervised training of our MIL due to the lack of labels.
+
+\textbf{2022-Validation dataset.}
+For further evaluation, we obtained (with IRB approval) additional deidentified images from routine TTEs of 323 patients at our institution, collected during 2022 and assigned the same severity labels for AS as TMED-2 by a clinical expert during routine care.
+We call this data \emph{2022-Validation}. 
+It contains 225/48/50 examples of no/early/significant AS.
+
+%We use the recommended predefined train/val/test splits from TMED2, which each consist of 360/119/120 studies. By averaging over 3 
+
+% of 5486 studies (353,500 images).
+

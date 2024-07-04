@@ -1,0 +1,11 @@
+arxiv_id,entrypoint,documentclass,docclass_params,pdf,lua,xe,xe<>pdf,xe<>lua
+2306.01691,main.tex,acmart,"[authorversion,manuscript,screen,acmtog]",0,0,0,False,False
+2306.00057,mainarXivSubmission.tex,revtex4-1,"[pra,english,reprint, aps,superscriptaddress, nofootinbib]",0,12,12,False,False
+2306.00004,main_cav23_version.tex,llncs,,0,0,0,False,False
+2306.00207,2306.00207,amsart,"[a4paper,11pt]",0,12,0,False,False
+2306.00002,worton.tex,elsarticle,"[preprint,12pt,3p]",0,0,0,False,False
+2306.00417,spectral-density-arxiv.tex,revtex4-2,"[aps,pre,twocolumn,superscriptaddress,notitlepage]",0,0,0,False,False
+2306.00036,icml2023.tex,article,[nohyperref],0,12,0,False,False
+2306.00001,conference_101719.tex,IEEEtran,[conference],0,0,0,False,False
+2306.01308,Bydzovsky_Structure_v3-arxiv.tex,revtex4,"[prc,twocolumn,showpacs,preprintnumbers,amsmath,amssymb]",0,0,0,False,False
+2306.00022,paper.tex,mnras,"[fleqn,usenatbib,useAMS]",0,0,0,False,False

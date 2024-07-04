@@ -1,0 +1,1379 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2022.5.23)  20 MAR 2024 07:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2020/08/26 v5.0h Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen141
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count187
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count188
+\leftroot@=\count189
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count190
+\DOTSCASE@=\count191
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
+\dotsspace@=\muskip16
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks18
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks19
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count199
+\multirow@dima=\skip53
+\bigstrutjot=\dimen150
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen151
+\ar@mcellbox=\box49
+\extrarowheight=\dimen152
+\NC@list=\toks22
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box50
+)
+\everycr=\toks23
+\minrowclearance=\skip56
+)
+\rownum=\count266
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip57
+\subfigcapskip=\skip58
+\subfigcaptopadj=\dimen153
+\subfigbottomskip=\skip59
+\subfigcapmargin=\dimen154
+\subfiglabelskip=\skip60
+\c@subfigure=\count267
+\c@lofdepth=\count268
+\c@subtable=\count269
+\c@lotdepth=\count270
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip61
+\subfig@bottom=\skip62
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen155
+\epsfysize=\dimen156
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/here/here.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count271
+\float@exts=\toks24
+\float@box=\box51
+\@float@everytoks=\toks25
+\@floatcapt=\box52
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
+\@cmidla=\count272
+\@cmidlb=\count273
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
+\@thisruleclass=\count274
+\@lastruleclass=\count275
+\@thisrulewidth=\dimen169
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup9
+\symitalic=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen170
+\WF@size=\dimen171
+\c@WF@wrappedlines=\count276
+\WF@box=\box53
+\WF@everypar=\toks26
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ascmac/ascmac.sty
+Package: ascmac 2020/01/15 v2.1 ascmac wrapper (community edition) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ascmac/tascmac.sty
+Package: tascmac 2020/01/15 v2.1 ascmac package (community edition) 
+Package tascmac Info: Assuming pdfLaTeX, XeLaTeX or LuaLaTeX on input line 44.
+\scb@x=\box54
+\scscb@x=\box55
+\@bw=\dimen172
+\@nbox=\box56
+\@nbody=\box57
+\@scw=\dimen173
+\ascmac@hoboxa=\box58
+\ascmac@hoboxb=\box59
+\@itemh=\dimen174
+\@iboxpos=\toks27
+\@iboxstr=\box60
+\@bwsp=\box61
+\@@bwsp=\box62
+\@bcal=\count277
+\shaderule=\dimen175
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box63
+\shadowsize=\dimen176
+\@Sbox=\box64
+\do@VerbBox=\toks28
+\the@fancyput=\toks29
+\this@fancyput=\toks30
+\EndVerbatimTokens=\toks31
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read2
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box65
+\UL@hyphenbox=\box66
+\UL@skip=\skip63
+\UL@hook=\toks32
+\UL@height=\dimen177
+\UL@pe=\count278
+\UL@pixel=\dimen178
+\ULC@box=\box67
+Package: ulem 2019/11/18
+\ULdepth=\dimen179
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks33
+)
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 24.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+Package caption Info: float package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen187
+\Hy@linkcounter=\count281
+\Hy@pagecounter=\count282
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count283
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count284
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen188
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count285
+\Field@Width=\dimen189
+\Fld@charsize=\dimen190
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring ON on input line 6093.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count286
+\c@Item=\count287
+\c@Hfootnote=\count288
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count289
+\c@bookmark@seq@number=\count290
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip64
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 9
+6.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count291
+\l__pdf_internal_box=\box68
+)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00052/2306.
+00052_tl2020.aux)
+\openout1 = `2306.00052_tl2020.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen191
+\scratchbox=\box69
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen192
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks35
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 96.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count298
+)
+LaTeX Info: Redefining \ref on input line 96.
+LaTeX Info: Redefining \pageref on input line 96.
+LaTeX Info: Redefining \nameref on input line 96.
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00052/2306.
+00052_tl2020.out)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00052/2306.
+00052_tl2020.out)
+\@outlinefile=\write5
+\openout5 = `2306.00052_tl2020.out'.
+
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 104.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 104.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 104.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 104.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 104.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 104.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 104.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 111.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
+
+
+Package mathptmx Warning: There are no bold math fonts on input line 139.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 143.
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00052/2306.
+00052_tl2020.toc)
+\tf@toc=\write6
+\openout6 = `2306.00052_tl2020.toc'.
+
+
+
+LaTeX Warning: Citation `Bordone:2019guc' on page 1 undefined on input line 179
+.
+
+
+LaTeX Warning: Citation `Iguro:2020cpg' on page 1 undefined on input line 179.
+
+
+LaTeX Warning: Citation `HFLAV:2022pwe' on page 1 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Bernlochner:2022ywh' on page 1 undefined on input line
+ 179.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 179.
+
+LaTeX Warning: Citation `Martinelli:2021onb' on page 1 undefined on input line 
+179.
+
+
+LaTeX Warning: Citation `Martinelli:2021myh' on page 1 undefined on input line 
+179.
+
+
+LaTeX Warning: Citation `FermilabLattice:2021cdg' on page 1 undefined on input 
+line 179.
+
+
+LaTeX Warning: Citation `Fedele:2023ewe' on page 1 undefined on input line 179.
+
+
+
+LaTeX Warning: Citation `Lees:2012xj' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Lees:2013uzd' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Huschle:2015rga' on page 1 undefined on input line 180
+.
+
+
+LaTeX Warning: Citation `Hirose:2016wfn' on page 1 undefined on input line 180.
+
+
+
+LaTeX Warning: Citation `Hirose:2017dxl' on page 1 undefined on input line 180.
+
+
+
+LaTeX Warning: Citation `Abdesselam:2019dgh' on page 1 undefined on input line 
+180.
+
+
+LaTeX Warning: Citation `Belle:2019rba' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2015yra' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2017uff' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2017deq' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `LHCb:2023zxo' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `LHCbRun1had' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Ciezarek:2837207' on page 1 undefined on input line 18
+1.
+
+
+LaTeX Warning: Citation `LHCbRDst2023' on page 1 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Aebischer:2022oqe' on page 1 undefined on input line 1
+83.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 1 undefined on input line 183.
+
+
+
+LaTeX Warning: Citation `Aban:2023pgq' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.195 \end{align}
+                  [1]
+
+LaTeX Warning: Citation `Beneke:1996xe' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Alonso:2016oyd' on page 2 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Celis:2016azn' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Akeroyd:2017mhr' on page 2 undefined on input line 199
+.
+
+
+LaTeX Warning: Citation `Blanke:2018yud' on page 2 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Aebischer:2021ilm' on page 2 undefined on input line 1
+99.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 2 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Tanaka:2012nw' on page 2 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Belle:2019ewo' on page 2 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Crivellin:2012ye' on page 2 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `Ko:2012sv' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Crivellin:2013wna' on page 2 undefined on input line 2
+03.
+
+
+LaTeX Warning: Citation `Cline:2015lqp' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Crivellin:2015hha' on page 2 undefined on input line 2
+03.
+
+
+LaTeX Warning: Citation `Lee:2017kbi' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2017ysu' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2018qzf' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Martinez:2018ynq' on page 2 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `Fraser:2018aqj' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Athron:2021auq' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Iguro:2022uzz' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Blanke:2022pjy' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Kumar:2022rcf' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2023jju' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Das:2023gfz' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Angelescu:2018tyl' on page 2 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `Kosnik:2012dj' on page 2 undefined on input line 209.
+
+
+LaTeX Warning: Citation `Shaw:2018sbe' on page 2 undefined on input line 209.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Sakaki:2013bfa' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Iguro:2018vqb' on page 2 undefined on input line 217.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 2 undefined on input line 218.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 220.
+
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 225.
+
+
+
+LaTeX Warning: Citation `Allwicher:2022mcg' on page 2 undefined on input line 2
+27.
+
+[2]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 247.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 247.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 247.
+
+
+LaTeX Warning: Citation `Frampton:1989fu' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Frampton:1990hz' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Frampton:1991ay' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Bernigaud:2021fwn' on page 3 undefined on input line 2
+74.
+
+[3]
+
+LaTeX Warning: Citation `Cabibbo:1963yz' on page 4 undefined on input line 312.
+
+
+
+LaTeX Warning: Citation `Kobayashi:1973fv' on page 4 undefined on input line 31
+2.
+
+[4] [5] [6]
+
+LaTeX Warning: Citation `Kim:2018oih' on page 7 undefined on input line 458.
+
+
+LaTeX Warning: Citation `Wolfenstein:1983yz' on page 7 undefined on input line 
+489.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+[7]
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 8 undefined on input line 508.
+
+
+LaTeX Warning: Citation `Jenkins:2013wua' on page 8 undefined on input line 512
+.
+
+
+LaTeX Warning: Citation `Alonso:2013hga' on page 8 undefined on input line 512.
+
+
+
+LaTeX Warning: Citation `Gonzalez-Alonso:2017iyc' on page 8 undefined on input 
+line 512.
+
+
+LaTeX Warning: Citation `Aebischer:2017gaw' on page 8 undefined on input line 5
+12.
+
+
+LaTeX Warning: Citation `Aebischer:2018acj' on page 8 undefined on input line 5
+13.
+
+
+Overfull \hbox (17.66531pt too wide) detected at line 527
+[]
+ []
+
+
+LaTeX Warning: Citation `Bobeth:1999mk' on page 8 undefined on input line 529.
+
+
+LaTeX Warning: Citation `Huber:2005ig' on page 8 undefined on input line 529.
+
+
+LaTeX Warning: Citation `LHCb:2017myy' on page 8 undefined on input line 531.
+
+
+LaTeX Warning: Citation `LHCb:2018roe' on page 8 undefined on input line 535.
+
+<Figs/RD_V2.pdf, id=148, 462.72874pt x 330.23375pt>
+File: Figs/RD_V2.pdf Graphic file (type pdf)
+<use Figs/RD_V2.pdf>
+Package pdftex.def Info: Figs/RD_V2.pdf  used on input line 539.
+(pdftex.def)             Requested size: 217.66362pt x 155.34088pt.
+
+LaTeX Warning: Citation `MILC:2015uhg' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `FermilabLattice:2021cdg' on page 8 undefined on input 
+line 564.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 8 undefined on input line 564.
+
+
+
+LaTeX Warning: Citation `Iguro:2020cpg' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Belle:2017rcc' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Belle:2018ezy' on page 8 undefined on input line 564.
+
+[8]
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 9 undefined on input line 573.
+
+
+LaTeX Warning: Citation `Blanke:2018yud' on page 9 undefined on input line 579.
+
+
+
+LaTeX Warning: Citation `Zheng:2020ult' on page 9 undefined on input line 579.
+
+
+LaTeX Warning: Citation `Amhis:2021cfy' on page 9 undefined on input line 579.
+
+
+LaTeX Warning: Citation `Fedele:2023gyi' on page 9 undefined on input line 579.
+
+
+
+LaTeX Warning: Citation `BaBar:2016wgb' on page 9 undefined on input line 583.
+
+
+LaTeX Warning: Citation `Capdevila:2017iqn' on page 9 undefined on input line 5
+83.
+
+[9 <./Figs/RD_V2.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 588.
+
+<Figs/dia_LHC_4o3.pdf, id=174, 366.36874pt x 247.92625pt>
+File: Figs/dia_LHC_4o3.pdf Graphic file (type pdf)
+<use Figs/dia_LHC_4o3.pdf>
+Package pdftex.def Info: Figs/dia_LHC_4o3.pdf  used on input line 594.
+(pdftex.def)             Requested size: 130.59949pt x 88.37949pt.
+<Figs/dia_LHC_1o3.pdf, id=175, 365.365pt x 249.93375pt>
+File: Figs/dia_LHC_1o3.pdf Graphic file (type pdf)
+<use Figs/dia_LHC_1o3.pdf>
+Package pdftex.def Info: Figs/dia_LHC_1o3.pdf  used on input line 595.
+(pdftex.def)             Requested size: 130.59949pt x 89.33919pt.
+
+LaTeX Warning: Citation `Sirunyan:2018vhk' on page 10 undefined on input line 6
+07.
+
+
+LaTeX Warning: Citation `Aaboud:2019bye' on page 10 undefined on input line 607
+.
+
+
+LaTeX Warning: Citation `Aad:2021rrh' on page 10 undefined on input line 607.
+
+
+LaTeX Warning: Citation `ATLAS:2021jyv' on page 10 undefined on input line 607.
+
+
+
+LaTeX Warning: Citation `Faroughy:2016osc' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Iguro:2018fni' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Mandal:2018kau' on page 10 undefined on input line 608
+.
+
+
+LaTeX Warning: Citation `Greljo:2018tzh' on page 10 undefined on input line 608
+.
+
+
+LaTeX Warning: Citation `Altmannshofer:2017poe' on page 10 undefined on input l
+ine 608.
+
+
+LaTeX Warning: Citation `Iguro:2017ysu' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Abdullah:2018ets' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Marzocca:2020ueu' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Iguro:2020keo' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Endo:2021lhi' on page 10 undefined on input line 608.
+
+
+LaTeX Warning: Citation `CMS:2022goy' on page 10 undefined on input line 609.
+
+
+LaTeX Warning: Citation `ATLAS:2020zms' on page 10 undefined on input line 609.
+
+
+
+LaTeX Warning: Citation `CMS:2015hmx' on page 10 undefined on input line 609.
+
+
+LaTeX Warning: Citation `Aaboud:2018vgh' on page 10 undefined on input line 609
+.
+
+
+LaTeX Warning: Citation `Sirunyan:2018lbg' on page 10 undefined on input line 6
+09.
+
+
+LaTeX Warning: Citation `ATLAS:2021bjk' on page 10 undefined on input line 609.
+
+
+
+LaTeX Warning: Citation `ATLAS:2020zms' on page 10 undefined on input line 612.
+
+
+
+LaTeX Warning: Citation `ATLAS:2021bjk' on page 10 undefined on input line 612.
+
+
+
+LaTeX Warning: Citation `Allwicher:2022mcg' on page 10 undefined on input line 
+613.
+
+<Figs/h133h223_min.pdf, id=177, 363.3575pt x 349.305pt>
+File: Figs/h133h223_min.pdf Graphic file (type pdf)
+<use Figs/h133h223_min.pdf>
+Package pdftex.def Info: Figs/h133h223_min.pdf  used on input line 619.
+(pdftex.def)             Requested size: 195.89592pt x 188.32341pt.
+[10 <./Figs/dia_LHC_4o3.pdf> <./Figs/dia_LHC_1o3.pdf>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+42.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+LaTeX Warning: Citation `Iguro:2018vqb' on page 11 undefined on input line 646.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+<Figs/RDvsBtaunu.pdf, id=193, 455.7025pt x 334.24875pt>
+File: Figs/RDvsBtaunu.pdf Graphic file (type pdf)
+<use Figs/RDvsBtaunu.pdf>
+Package pdftex.def Info: Figs/RDvsBtaunu.pdf  used on input line 661.
+(pdftex.def)             Requested size: 217.66362pt x 159.65213pt.
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 11 undefined on input line 673
+.
+
+[11 <./Figs/h133h223_min.pdf>]
+
+LaTeX Warning: Citation `PDG2022' on page 12 undefined on input line 688.
+
+[12 <./Figs/RDvsBtaunu.pdf>]
+
+LaTeX Warning: Citation `Tanaka:2016ijq' on page 13 undefined on input line 702
+.
+
+
+LaTeX Warning: Citation `Tanaka:2016ijq' on page 13 undefined on input line 702
+.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 13 undefined on input line 703.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+<Figs/dia_LHC_4o3_v2.pdf, id=229, 367.3725pt x 246.9225pt>
+File: Figs/dia_LHC_4o3_v2.pdf Graphic file (type pdf)
+<use Figs/dia_LHC_4o3_v2.pdf>
+Package pdftex.def Info: Figs/dia_LHC_4o3_v2.pdf  used on input line 725.
+(pdftex.def)             Requested size: 130.59949pt x 87.78053pt.
+<Figs/dia_LHC_1o3_v2.pdf, id=230, 367.3725pt x 247.92625pt>
+File: Figs/dia_LHC_1o3_v2.pdf Graphic file (type pdf)
+<use Figs/dia_LHC_1o3_v2.pdf>
+Package pdftex.def Info: Figs/dia_LHC_1o3_v2.pdf  used on input line 726.
+(pdftex.def)             Requested size: 130.59949pt x 88.13737pt.
+[13 <./Figs/dia_LHC_4o3_v2.pdf> <./Figs/dia_LHC_1o3_v2.pdf>]
+
+LaTeX Warning: Citation `PDG2022' on page 14 undefined on input line 748.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 14 undefined on input line 748.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 14 undefined on input line 762.
+
+<Figs/h133h223_m016.pdf, id=252, 429.605pt x 412.54124pt>
+File: Figs/h133h223_m016.pdf Graphic file (type pdf)
+<use Figs/h133h223_m016.pdf>
+Package pdftex.def Info: Figs/h133h223_m016.pdf  used on input line 767.
+(pdftex.def)             Requested size: 139.30789pt x 133.77216pt.
+<Figs/h133h223_m023.pdf, id=253, 426.59375pt x 411.5375pt>
+File: Figs/h133h223_m023.pdf Graphic file (type pdf)
+<use Figs/h133h223_m023.pdf>
+Package pdftex.def Info: Figs/h133h223_m023.pdf  used on input line 768.
+(pdftex.def)             Requested size: 139.30789pt x 134.3949pt.
+<Figs/h133h223_m037.pdf, id=254, 426.59375pt x 412.54124pt>
+File: Figs/h133h223_m037.pdf Graphic file (type pdf)
+<use Figs/h133h223_m037.pdf>
+Package pdftex.def Info: Figs/h133h223_m037.pdf  used on input line 769.
+(pdftex.def)             Requested size: 139.30789pt x 134.72269pt.
+<Figs/Obs016.pdf, id=260, 428.60126pt x 362.35374pt>
+File: Figs/Obs016.pdf Graphic file (type pdf)
+<use Figs/Obs016.pdf>
+Package pdftex.def Info: Figs/Obs016.pdf  used on input line 794.
+(pdftex.def)             Requested size: 139.30789pt x 117.77463pt.
+<Figs/Obs023.pdf, id=261, 428.60126pt x 363.3575pt>
+File: Figs/Obs023.pdf Graphic file (type pdf)
+<use Figs/Obs023.pdf>
+Package pdftex.def Info: Figs/Obs023.pdf  used on input line 795.
+(pdftex.def)             Requested size: 139.30789pt x 118.10086pt.
+<Figs/Obs037.pdf, id=262, 430.60875pt x 361.35pt>
+File: Figs/Obs037.pdf Graphic file (type pdf)
+<use Figs/Obs037.pdf>
+Package pdftex.def Info: Figs/Obs037.pdf  used on input line 796.
+(pdftex.def)             Requested size: 139.30789pt x 116.90253pt.
+[14 <./Figs/h133h223_m016.pdf> <./Figs/h133h223_m023.pdf> <./Figs/h133h223_m037
+.pdf>]
+
+LaTeX Warning: Citation `PDG2022' on page 15 undefined on input line 825.
+
+
+LaTeX Warning: Citation `HFLAV:2022pwe' on page 15 undefined on input line 825.
+
+
+
+LaTeX Warning: Citation `PDG2022' on page 15 undefined on input line 829.
+
+
+LaTeX Warning: Citation `BESIII:2019vhn' on page 15 undefined on input line 830
+.
+
+[15 <./Figs/Obs016.pdf> <./Figs/Obs023.pdf> <./Figs/Obs037.pdf>]
+
+LaTeX Warning: Citation `Capdevila:2017iqn' on page 16 undefined on input line 
+841.
+
+
+LaTeX Warning: Citation `PDG2022' on page 16 undefined on input line 841.
+
+
+LaTeX Warning: Citation `Belle:2017oht' on page 16 undefined on input line 845.
+
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 16 undefined on input line 846.
+
+
+LaTeX Warning: Citation `Buras:2014fpa' on page 16 undefined on input line 847.
+
+
+
+LaTeX Warning: Citation `Bause:2022rrs' on page 16 undefined on input line 862.
+
+
+
+LaTeX Warning: Citation `PDG2022' on page 16 undefined on input line 862.
+
+[16] [17]
+
+LaTeX Warning: Citation `Iguro:2022ozl' on page 18 undefined on input line 950.
+
+
+
+LaTeX Warning: Citation `IOprojectNo17' on page 18 undefined on input line 957.
+
+
+No file 2306.00052_tl2020.bbl.
+[18]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00052/2306.
+00052_tl2020.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `2306.00052_tl2020.out' has not changed.
+(rerunfilecheck)             Checksum: DBE083A0D784438D08E02FE571FB2FB9;1777.
+ ) 
+Here is how much of TeX's memory you used:
+ 12421 strings out of 479014
+ 184752 string characters out of 5859133
+ 514398 words of memory out of 5000000
+ 29476 multiletter control sequences out of 15000+600000
+ 493304 words of font info for 230 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,14n,74p,802b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2020/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020
+/2306.00052/2306.00052_tl2020.pdf (19 pages, 5562624 bytes).
+PDF statistics:
+ 392 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+

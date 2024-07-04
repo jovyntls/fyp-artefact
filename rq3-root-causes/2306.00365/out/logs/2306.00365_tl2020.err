@@ -1,0 +1,157 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365" --jobname="2306.00365_tl2020"  "main.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.bbl in line'
+ No file 2306.00365_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Abe:2010gxa' on page 2 undefined on input line 128
+  Citation `Abe:2010gxa' on page 2 undefined on input line 133
+  Citation `Agostinelli:2002hh' on page 2 undefined on input line 159
+  Citation `Akai:2018mbz' on page 2 undefined on input line 132
+  Citation `Barberio:1993qi' on page 2 undefined on input line 161
+  Citation `Belle-IISVD:2022upf' on page 2 undefined on input line 135
+  Citation `Belle-IIanalysissoftwareGroup:2019dlq' on page 3 undefined on input line 203
+  Citation `Browder:1996af' on page 2 undefined on input line 90
+  Citation `CLEO:1999xvl' on page 2 undefined on input line 123
+  Citation `E687:1993lxk' on page 2 undefined on input line 123
+  Citation `E791:1998zjs' on page 2 undefined on input line 123
+  Citation `FOCUS:2005gui' on page 2 undefined on input line 123
+  Citation `FlavourLatticeAveragingGroupFLAG:2021npn' on page 2 undefined on input line 121
+  Citation `Gratrex:2022xpm' on page 2 undefined on input line 117
+  Citation `Gratrex:2022xpm' on page 5 undefined on input line 453
+  Citation `Jadach:1999vf' on page 2 undefined on input line 155
+  Citation `Kirk:2017juj' on page 2 undefined on input line 117
+  Citation `Kou:2018nap' on page 2 undefined on input line 128
+  Citation `Kuhr:2018lps' on page 2 undefined on input line 163
+  Citation `LHCb:2017knt' on page 2 undefined on input line 123
+  Citation `Lange:2001uf' on page 2 undefined on input line 158
+  Citation `Lenz:2014jha' on page 2 undefined on input line 117
+  Citation `Lenz:2014jha' on page 5 undefined on input line 453
+  Citation `Morrison:1989xq' on page 2 undefined on input line 86
+  Citation `Neubert:1997gu' on page 2 undefined on input line 117
+  Citation `ParticleDataGroup:2022pth' on page 2 undefined on input line 125
+  Citation `ParticleDataGroup:2022pth' on page 3 undefined on input line 264
+  Citation `ParticleDataGroup:2022pth' on page 5 undefined on input line 393
+  Citation `ParticleDataGroup:2022pth' on page 5 undefined on input line 452
+  Citation `PhysRevD.88.034004' on page 2 undefined on input line 117
+  Citation `PhysRevD.88.034004' on page 5 undefined on input line 453
+  Citation `SELEX:2001miq' on page 2 undefined on input line 123
+  Citation `Sjostrand:2014zea' on page 2 undefined on input line 157
+  Citation `TaggedPhotonSpectrometer:1987poq' on page 2 undefined on input line 123
+  Citation `Uraltsev:2000qw' on page 2 undefined on input line 117
+  Citation `Wang:2017ajq' on page 2 undefined on input line 141
+  Citation `basf2-zenodo' on page 2 undefined on input line 163
+  Citation `charge-conjugates' on page 2 undefined on input line 127
+  Reference `eqn:decay_time' on page 4 undefined on input line 371
+  Reference `eqn:decay_time' on page 5 undefined on input line 394
+  Reference `fig:Dfeynman' on page 2 undefined on input line 86
+  Reference `fig:Dfeynman' on page 2 undefined on input line 91
+  Reference `fig:Mkkpi_plot' on page 3 undefined on input line 227
+  Reference `fig:Mkkpi_plot' on page 4 undefined on input line 315
+  Reference `fig:datafit_tproj' on page 4 undefined on input line 324
+  Reference `fig:run_period' on page 5 undefined on input line 426
+  Reference `tab:syst_summary' on page 4 undefined on input line 343
+  Reference `tab:syst_summary' on page 5 undefined on input line 396
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020Notes.bib references.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.aux'
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00365_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.bbl'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.out'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365" --jobname="2306.00365_tl2020"  "main.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Abe:2010gxa' on page 2 undefined on input line 128
+  Citation `Abe:2010gxa' on page 2 undefined on input line 133
+  Citation `Agostinelli:2002hh' on page 2 undefined on input line 159
+  Citation `Akai:2018mbz' on page 2 undefined on input line 132
+  Citation `Barberio:1993qi' on page 2 undefined on input line 161
+  Citation `Belle-IISVD:2022upf' on page 2 undefined on input line 135
+  Citation `Belle-IIanalysissoftwareGroup:2019dlq' on page 3 undefined on input line 203
+  Citation `Browder:1996af' on page 2 undefined on input line 90
+  Citation `CLEO:1999xvl' on page 2 undefined on input line 123
+  Citation `E687:1993lxk' on page 2 undefined on input line 123
+  Citation `E791:1998zjs' on page 2 undefined on input line 123
+  Citation `FOCUS:2005gui' on page 2 undefined on input line 123
+  Citation `FlavourLatticeAveragingGroupFLAG:2021npn' on page 2 undefined on input line 121
+  Citation `Gratrex:2022xpm' on page 2 undefined on input line 117
+  Citation `Gratrex:2022xpm' on page 5 undefined on input line 453
+  Citation `Jadach:1999vf' on page 2 undefined on input line 155
+  Citation `Kirk:2017juj' on page 2 undefined on input line 117
+  Citation `Kou:2018nap' on page 2 undefined on input line 128
+  Citation `Kuhr:2018lps' on page 2 undefined on input line 163
+  Citation `LHCb:2017knt' on page 2 undefined on input line 123
+  Citation `Lange:2001uf' on page 2 undefined on input line 158
+  Citation `Lenz:2014jha' on page 2 undefined on input line 117
+  Citation `Lenz:2014jha' on page 5 undefined on input line 453
+  Citation `Morrison:1989xq' on page 2 undefined on input line 86
+  Citation `Neubert:1997gu' on page 2 undefined on input line 117
+  Citation `ParticleDataGroup:2022pth' on page 2 undefined on input line 125
+  Citation `ParticleDataGroup:2022pth' on page 3 undefined on input line 264
+  Citation `ParticleDataGroup:2022pth' on page 5 undefined on input line 393
+  Citation `ParticleDataGroup:2022pth' on page 5 undefined on input line 452
+  Citation `PhysRevD.88.034004' on page 2 undefined on input line 117
+  Citation `PhysRevD.88.034004' on page 5 undefined on input line 453
+  Citation `SELEX:2001miq' on page 2 undefined on input line 123
+  Citation `Sjostrand:2014zea' on page 2 undefined on input line 157
+  Citation `TaggedPhotonSpectrometer:1987poq' on page 2 undefined on input line 123
+  Citation `Uraltsev:2000qw' on page 2 undefined on input line 117
+  Citation `Wang:2017ajq' on page 2 undefined on input line 141
+  Citation `basf2-zenodo' on page 2 undefined on input line 163
+  Citation `charge-conjugates' on page 2 undefined on input line 127
+  Reference `LastBibItem' on page 6 undefined on input line 1
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020Notes.bib references.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.aux'
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00365_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.out'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365" --jobname="2306.00365_tl2020"  "main.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020.pdf'
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00365/2306.00365_tl2020Notes.bib references.bib]
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

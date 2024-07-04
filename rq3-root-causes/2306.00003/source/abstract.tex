@@ -1,0 +1,20 @@
+%Incoporating Ben's feedback
+Aortic stenosis (AS) is a degenerative valve condition that causes substantial morbidity and mortality. This condition is under-diagnosed and under-treated. In clinical practice, AS is diagnosed with expert review of transthoracic echocardiography, which produces dozens of ultrasound images of the heart. Only some of these views show the aortic valve. To automate screening for AS, deep networks must learn to mimic a human expert’s ability to identify views of the aortic valve then aggregate across these relevant images to produce a study-level diagnosis. We find previous approaches to AS detection yield insufficient accuracy due to relying on inflexible averages across images. We further find that off-the-shelf attention-based multiple instance learning (MIL) performs poorly. We contribute a new end-to-end MIL approach with two key methodological innovations. First, a supervised attention technique guides the learned attention mechanism to favor relevant views. Second, a novel self-supervised pretraining strategy applies contrastive learning on the representation of the whole study instead of individual images as commonly done in prior literature. Experiments on an open-access dataset and an external validation set show that our approach yields higher accuracy while reducing model size.
+% Aortic stenosis (AS) is a degenerative valve condition that causes a heavy social burden. 
+% In clinical practice, the best source of diagnostic information for AS is the echocardiogram, which produces dozens of ultrasound images of the heart representing different 2D views of all the heart's valves and  chambers. Only some of these views show the \todo{aortic valve}.
+% To automate screening for AS, deep networks must learn to mimic a human expert's ability to identify views of the aortic valve then aggregate across these relevant images to produce a study-level diagnosis.
+% We find previous approaches to AS detection yield insufficient accuracy due to relying on overly-simple averages across images. We further find that off-the-shelf attention-based multiple instance learning (MIL) performs poorly. 
+% We contribute a new end-to-end MIL approach with two key methodological innovations for model training.
+% First, a \todo{supervised} attention technique guides the learned attention mechanism to favor relevant views.
+% Second, a novel self-supervised pretraining strategy applies contrastive learning on the representation of the whole study instead of individual images as commonly done in prior literature. 
+% Experiments on an open-access dataset and a external validation set show that our approach yields higher accuracy while reducing model size.
+
+
+
+
+%Moreover, our methods improves on making clinically plausible decision, which could be important in gaining trust from clinicians.
+
+%In this paper, we develop an end-to-end solution for automating the preliminary diagnosis of Aortic Stenosis from trans-thoracic ultrasound images of the heart (echocardiograms) using an attention-based multi-instance learning (MIL) architecture. 
+%Our model can take in various numbers of images from multiple view types and make a coherent diagnosis prediction for the entire study.
+%Previous approaches to detecting AS require pre-filtering to specific view types by a view classifier or handle the multiple instance problem via an overly-simplistic weighted average.
+%We find neither produces sufficient accuracy, 

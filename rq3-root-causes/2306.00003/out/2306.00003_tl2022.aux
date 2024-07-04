@@ -1,0 +1,242 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plainnat}
+\citation{yadgir2020global}
+\citation{gardezi2018cardiac}
+\citation{holste2022automated}
+\citation{wessler2023automated,huang2021new}
+\citation{mitchell2019guidelines}
+\citation{mitchell2019guidelines}
+\providecommand \oddpage@label [2]{}
+\jmlr@workshop{}
+\jmlr@title{Detecting Heart Disease from Multi-View Ultrasound via SAMIL}{Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning}
+\jmlr@author{\Name {Zhe Huang}$^{1}$ \Email {\textsc {zhe.huang@tufts.edu}} \AND \Name {Benjamin S. Wessler}$^{2}$ \Email {\textsc {bwessler@tuftsmedicalcenter.org}} \AND \Name {Michael C. Hughes}$^1$ \Email {\textsc {michael.hughes@tufts.edu}} \\ \addr $^1$ Dept. of Computer Science, Tufts University, Medford, MA, USA \\ \addr $^2$ Division of Cardiology, Tufts Medical Center, Boston, MA, USA }{\Name {Zhe Huang}$^{1}$ \Email {\textsc {zhe.huang@tufts.edu}} \AND \Name {Benjamin S. Wessler}$^{2}$ \Email {\textsc {bwessler@tuftsmedicalcenter.org}} \AND \Name {Michael C. Hughes}$^1$ \Email {\textsc {michael.hughes@tufts.edu}} \\ \addr $^1$ Dept. of Computer Science, Tufts University, Medford, MA, USA \\ \addr $^2$ Division of Cardiology, Tufts Medical Center, Boston, MA, USA }
+\newlabel{jmlrstart}{{}{1}{}{Doc-Start}{}}
+\ttl@writefile{ptc}{\ttl@starttoc{sections@1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.0.1}\protected@file@percent }
+\newlabel{sec:Introduction}{{1}{1}{Introduction}{section.0.1}{}}
+\citation{ilse2018attention,lee2019set,sharma2021cluster,shao2021transmil}
+\citation{holste2022automated}
+\citation{huang2021new,wessler2023automated}
+\citation{holste2022automated}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Overview of methods for diagnosing aortic valve disease from multiple images of the heart.} In our chosen diagnostic problem, the input is multiple ultrasound images representing different canonical view types of the heart's complex anatomy (e.g. PLAX, PSAX, A2C, A4C, and more, see \citet  {mitchell2019guidelines} for a taxonomy). The required output is a (probabilistic) prediction of the severity of Aortic Stenosis (AS), on a 3-level scale of no / early / significant disease. We wish to develop deep learning methods that can solve this problem like expert cardiologists (panel a). Two recent efforts (panel b by others, panel c by our group) made progress using a separately-trained view type classifier and per-image diagnosis classifier, but rely on combining diagnosis probabilities across images via average pooling that cannot learn how to distribute attention non-uniformly among images of relevant views. In this work, we develop more flexible attention-based multiple instance learning architectures (MIL, panel d), with crucial contributions of supervised attention (Sec.\nobreakspace  {}\ref {sec:methods_SA}) and improved pretraining strategies (Sec.\nobreakspace  {}\ref {sec:methods_CL}) that we show later yield substantially improved performance on this task. \relax }}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:diagrams}{{1}{2}{\textbf {Overview of methods for diagnosing aortic valve disease from multiple images of the heart.} In our chosen diagnostic problem, the input is multiple ultrasound images representing different canonical view types of the heart's complex anatomy (e.g. PLAX, PSAX, A2C, A4C, and more, see \citet {mitchell2019guidelines} for a taxonomy). The required output is a (probabilistic) prediction of the severity of Aortic Stenosis (AS), on a 3-level scale of no / early / significant disease. We wish to develop deep learning methods that can solve this problem like expert cardiologists (panel a). Two recent efforts (panel b by others, panel c by our group) made progress using a separately-trained view type classifier and per-image diagnosis classifier, but rely on combining diagnosis probabilities across images via average pooling that cannot learn how to distribute attention non-uniformly among images of relevant views. In this work, we develop more flexible attention-based multiple instance learning architectures (MIL, panel d), with crucial contributions of supervised attention (Sec.~\ref {sec:methods_SA}) and improved pretraining strategies (Sec.~\ref {sec:methods_CL}) that we show later yield substantially improved performance on this task. \relax }{figure.caption.1}{}}
+\citation{ilse2018attention}
+\citation{dietterich1997solving,maron1997framework}
+\citation{cosatto2013automated,shao2021transmil,li2021dual}
+\citation{quellec2012multiple,li2021deep,li2021multi,kandemir2015computer}
+\citation{borowa2020classifying}
+\citation{dietterich1997solving,zhao2013drug}
+\citation{campanella2019clinical,chikontwe2020multiple,hou2016patch,ding2012breast,xu2014weakly}
+\citation{zhou2004multi,quellec2017multiple,carbonneau2018multiple}
+\citation{wang2018revisiting}
+\citation{liu2017detecting}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.0.2}\protected@file@percent }
+\newlabel{sec:RelatedWork}{{2}{3}{Related Work}{section.0.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Multiple-instance learning.}{3}{subsection.0.2.1}\protected@file@percent }
+\citation{ilse2018attention}
+\citation{lee2019set}
+\citation{vaswani2017attention}
+\citation{shao2021transmil}
+\citation{sharma2021cluster}
+\citation{li2021dual}
+\citation{oord2018representation,chen2020simple,he2020momentum,chen2020improved,grill2020bootstrap,caron2020unsupervised,chen2021exploring}
+\citation{oord2018representation}
+\citation{gidaris2018unsupervised}
+\citation{noroozi2016unsupervised}
+\citation{wu2018unsupervised}
+\citation{oord2018representation}
+\citation{he2020momentum,chen2020improved}
+\citation{holste2022self,holste2022automated,liu2022multiple,lu2019semi,li2021dual,saillard2021self,dehaene2020self,rymarczyk2023protomil}
+\citation{arora2019theoretical,chuang2020debiased,khosla2020supervised,dwibedi2021little,zheng2021weakly,ash2021investigating,li2021comatch}
+\citation{dai2023identifying}
+\citation{holste2022automated}
+\@writefile{toc}{\contentsline {paragraph}{Deep attention-based MIL.}{4}{subsection.0.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Self-supervised learning and Pretraining of MIL}{4}{subsection.0.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Applications of ML to Aortic Stenosis.}{4}{subsection.0.2.3}\protected@file@percent }
+\citation{huang2021new}
+\citation{wessler2023automated}
+\citation{krishna2023fully}
+\citation{cohen2021electrocardiogram,elias2022deep}
+\citation{yangClassificationAorticStenosis2020}
+\citation{dai2023identifying,holste2022automated}
+\citation{huang2021new}
+\citation{huang2021new}
+\citation{mitchell2019guidelines}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Dataset}{5}{section.0.3}\protected@file@percent }
+\newlabel{sec:Dataset}{{3}{5}{Dataset}{section.0.3}{}}
+\citation{chen2020simple,chen2020improved}
+\citation{chen2020simple,chen2020improved}
+\citation{huang2022tmed}
+\citation{ilse2018attention,li2021dual}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Methods}{6}{section.0.4}\protected@file@percent }
+\newlabel{sec:Methods}{{4}{6}{Methods}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Problem Formulation}{6}{subsection.0.4.1}\protected@file@percent }
+\newlabel{sec:methods_formulation}{{4.1}{6}{Problem Formulation}{subsection.0.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Overview of proposed method: Supervised Attention Multiple Instance Learning (SAMIL)}. Given a study or ``bag'' with various images, a feature extractor processes each image individually into an embedding vector. Two attention modules (one supervised by a trained view classifier and one without) produce attention weights for each instance. The final study representation averages the image embeddings weighted by a combination of the two attentions (Eq.\nobreakspace  {}\eqref  {eq:patient_embedding_samil}). A fully connected layer then maps the study representation to a diagnosis label. \emph  {Pretraining:} SAMIL can be pretrained using either bag-level (recommended, Sec.\nobreakspace  {}\ref {sec:methods_CL}) or image-level contrastive learning. In either case, a projection head maps representations to a latent space where the contrastive loss is applied, following \citep  {chen2020simple, chen2020improved}. The projection head is discarded after pretraining. \relax }}{7}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:workflow_diagram}{{2}{7}{\textbf {Overview of proposed method: Supervised Attention Multiple Instance Learning (SAMIL)}. Given a study or ``bag'' with various images, a feature extractor processes each image individually into an embedding vector. Two attention modules (one supervised by a trained view classifier and one without) produce attention weights for each instance. The final study representation averages the image embeddings weighted by a combination of the two attentions (Eq.~\eqref {eq:patient_embedding_samil}). A fully connected layer then maps the study representation to a diagnosis label. \emph {Pretraining:} SAMIL can be pretrained using either bag-level (recommended, Sec.~\ref {sec:methods_CL}) or image-level contrastive learning. In either case, a projection head maps representations to a latent space where the contrastive loss is applied, following \citep {chen2020simple, chen2020improved}. The projection head is discarded after pretraining. \relax }{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}General MIL architecture}{7}{subsection.0.4.2}\protected@file@percent }
+\newlabel{sec:base_arch}{{4.2}{7}{General MIL architecture}{subsection.0.4.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Instance representation layer $f$.}{7}{subsection.0.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Pooling layer $\sigma $.}{7}{subsection.0.4.2}\protected@file@percent }
+\citation{madani2018fast,zhang2018fully,long2018identification,huang2021new}
+\newlabel{eq:patient_embedding_abmil}{{1}{8}{Pooling layer $\sigma $}{equation.0.4.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Output layer $g$.}{8}{equation.0.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Training.}{8}{equation.0.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Contribution 1: Attention supervised by a view classifier}{8}{subsection.0.4.3}\protected@file@percent }
+\newlabel{sec:methods_SA}{{4.3}{8}{Contribution 1: Attention supervised by a view classifier}{subsection.0.4.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Supervised attention.}{8}{subsection.0.4.3}\protected@file@percent }
+\newlabel{eq:L_SA}{{4}{8}{Supervised attention}{equation.0.4.4}{}}
+\citation{hinton2015distilling}
+\citation{huang2022fix}
+\citation{holste2022self,holste2022automated,liu2022multiple,lu2019semi,li2021dual,saillard2021self,dehaene2020self,rymarczyk2023protomil}
+\@writefile{toc}{\contentsline {paragraph}{View classifier.}{9}{equation.0.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Flexible attention.}{9}{equation.0.4.4}\protected@file@percent }
+\newlabel{eq:patient_embedding_samil}{{5}{9}{Flexible attention}{equation.0.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Contribution \#2: Contrastive learning of entire study representations}{9}{subsection.0.4.4}\protected@file@percent }
+\newlabel{sec:methods_CL}{{4.4}{9}{Contribution \#2: Contrastive learning of entire study representations}{subsection.0.4.4}{}}
+\citation{he2020momentum,chen2020improved}
+\citation{wu2018unsupervised,ye2019unsupervised,bachman2019learning}
+\citation{he2020momentum}
+\citation{oord2018representation}
+\citation{he2020momentum}
+\citation{li2021dual}
+\citation{chen2020simple}
+\citation{he2020momentum,chen2020improved}
+\@writefile{toc}{\contentsline {paragraph}{MoCo(v2) for representations of individual images.}{10}{subsection.0.4.4}\protected@file@percent }
+\newlabel{eq:regular InfoNCE}{{6}{10}{MoCo(v2) for representations of individual images}{equation.0.4.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{Adapting MoCo to bag-level representations.}{10}{equation.0.4.6}\protected@file@percent }
+\citation{chen2020improved,chen2020simple}
+\citation{huang2021new}
+\citation{zaheer2017deep,ilse2018attention,lee2019set,li2021dual}
+\citation{wessler2023automated,holste2022automated,holste2022self}
+\citation{holste2022automated}
+\citation{wessler2023automated}
+\citation{ilse2018attention}
+\citation{lee2019set}
+\citation{li2021dual}
+\newlabel{eq:our InfoNCE}{{7}{11}{Adapting MoCo to bag-level representations}{equation.0.4.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}SAMIL Pipeline}{11}{subsection.0.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Self-Supervised Pretraining}{11}{subsection.0.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Supervised Fine-Tuning of MIL Using Diagnosis Label}{11}{subsection.0.4.5}\protected@file@percent }
+\newlabel{eq:total_loss}{{8}{11}{Supervised Fine-Tuning of MIL Using Diagnosis Label}{equation.0.4.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{11}{section.0.5}\protected@file@percent }
+\newlabel{sec:Results}{{5}{11}{Results}{section.0.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Performance metrics.}{11}{section.0.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Comparisons.}{11}{section.0.5}\protected@file@percent }
+\citation{holste2022automated,holste2022self}
+\citation{wessler2023automated}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces AS diagnosis results on TMED2. Showing balanced accuracy (percentage, higher is better) on the test set across three train/test splits. Methods b, c, d are diagrammed in corresponding panel in Fig.\nobreakspace  {}\ref {fig:diagrams}. Methods above the line are approaches specialized to the AS task, others are generic MIL methods. Column ``\# params'' shows number of trainable parameters. Column ``view clf.?'' shows whether an additional view classifier is needed at deployment. $*$: value from the cited paper. \relax }}{12}{table.caption.3}\protected@file@percent }
+\newlabel{tab:TMED2_BACC}{{1}{12}{AS diagnosis results on TMED2. Showing balanced accuracy (percentage, higher is better) on the test set across three train/test splits. Methods b, c, d are diagrammed in corresponding panel in Fig.~\ref {fig:diagrams}. Methods above the line are approaches specialized to the AS task, others are generic MIL methods. Column ``\# params'' shows number of trainable parameters. Column ``view clf.?'' shows whether an additional view classifier is needed at deployment. $*$: value from the cited paper. \relax }{table.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Quantitative evaluation on TMED-2}{12}{subsection.0.5.1}\protected@file@percent }
+\citation{holzinger2017we,lundberg2017unified,tonekaboni2019clinicians}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Evaluation of screening potential on 2022-Validation set.}{13}{subsection.0.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces AUROC for AS screening on temporarily distinct cohort. Values in parenthesis show 2.5th and 97.5th percentiles of AUROC values computed from 5000 bootstrap resamples of 323 studies.\relax }}{13}{table.caption.4}\protected@file@percent }
+\newlabel{tab:AUC_analysis_323}{{2}{13}{AUROC for AS screening on temporarily distinct cohort. Values in parenthesis show 2.5th and 97.5th percentiles of AUROC values computed from 5000 bootstrap resamples of 323 studies.\relax }{table.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Assessment of attention quality}{13}{subsection.0.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Predicted view relevance of top-ranked images by attention (higher is better). Supervised attention (SAMIL, ours) outperforms off-the-shelf ABMIL by wide margin across all 3 splits. The x-axis indicates a rank position of images within an echo study when sorted by attention (1 = largest $a_k$, 2 = second largest, etc.). The y-axis indicates the average view relevance (across studies in test set) assigned by view classifier $v(x)$ to image $x$ at rank $k$. \relax }}{14}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:Attention_View_Alignment}{{3}{14}{Predicted view relevance of top-ranked images by attention (higher is better). Supervised attention (SAMIL, ours) outperforms off-the-shelf ABMIL by wide margin across all 3 splits. The x-axis indicates a rank position of images within an echo study when sorted by attention (1 = largest $a_k$, 2 = second largest, etc.). The y-axis indicates the average view relevance (across studies in test set) assigned by view classifier $v(x)$ to image $x$ at rank $k$. \relax }{figure.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Ablation of \textbf  {attention} strategies on TMED2. Showing balanced accuracy for AS severity (higher is better) on the test set across splits. All use \nobreakspace  {}2.3 M parameters. \relax }}{14}{table.caption.6}\protected@file@percent }
+\newlabel{tab:View Regularization ablation}{{3}{14}{Ablation of \textbf {attention} strategies on TMED2. Showing balanced accuracy for AS severity (higher is better) on the test set across splits. All use ~2.3 M parameters. \relax }{table.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Ablation of \textbf  {pretraining} strategies on TMED2. Reporting balanced accuracy for AS severity (higher is better) on the test set across splits. All use \nobreakspace  {}2.3 M parameters. \relax }}{14}{table.caption.6}\protected@file@percent }
+\newlabel{tab:Pretraining strategy ablation}{{4}{14}{Ablation of \textbf {pretraining} strategies on TMED2. Reporting balanced accuracy for AS severity (higher is better) on the test set across splits. All use ~2.3 M parameters. \relax }{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Ablation evaluations of attention and pretraining}{14}{subsection.0.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{14}{section.0.6}\protected@file@percent }
+\newlabel{sec:Discussion}{{6}{14}{Discussion}{section.0.6}{}}
+\bibdata{refs_manual.bib}
+\@writefile{toc}{\contentsline {paragraph}{Limitations in diagnostic potential.}{15}{section.0.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Limitations in evaluation.}{15}{section.0.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Advantages.}{15}{section.0.6}\protected@file@percent }
+\ttl@writefile{ptc}{\ttl@stoptoc{sections@1}}
+\ttl@writefile{ptc}{\ttl@starttoc{sections@2}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Further Results}{16}{section.0.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Confusion matrix}{16}{subsection.0.A.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Confusion matrices for the patient-level AS diagnosis classification, across three predefined train/test splits of TMED2. \relax }}{16}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:confusion_matrix}{{A.1}{16}{Confusion matrices for the patient-level AS diagnosis classification, across three predefined train/test splits of TMED2. \relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}ROC for AS Screening Tasks}{17}{subsection.0.A.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces Diagnosis classification receiver operator curves. Showing results across three predefined train/test splits of TMED2 and three clinically relevant screening tasks. \relax }}{17}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:TMED2_roc}{{A.2}{17}{Diagnosis classification receiver operator curves. Showing results across three predefined train/test splits of TMED2 and three clinically relevant screening tasks. \relax }{figure.caption.8}{}}
+\citation{ilse2018attention}
+\citation{lee2019set}
+\citation{li2021dual}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Attended Images by SAMIL and ABMIL}{18}{subsection.0.A.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces Showing top attended images for the first study in the test set. The top 2 rows show the top 10 attended images by ABMIL, bottom 2 rows show the top 10 attended images by SAMIL. Red box indicates the image is not a clinically relevant view for AS diagnosis. \relax }}{18}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:top_attended_images}{{A.3}{18}{Showing top attended images for the first study in the test set. The top 2 rows show the top 10 attended images by ABMIL, bottom 2 rows show the top 10 attended images by SAMIL. Red box indicates the image is not a clinically relevant view for AS diagnosis. \relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Methods Supplement}{18}{section.0.B}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1}Architecture}{18}{subsection.0.B.1}\protected@file@percent }
+\newlabel{app:Architecture}{{B.1}{18}{Architecture}{subsection.0.B.1}{}}
+\citation{huang2022fix}
+\citation{laine2016temporal}
+\citation{zagoruyko2016wide}
+\citation{robbins1951stochastic}
+\@writefile{lot}{\contentsline {table}{\numberline {B.1}{\ignorespaces Details of Feature Extractor $f$\relax }}{19}{table.caption.10}\protected@file@percent }
+\newlabel{tab:Feature Extractor $f$}{{B.1}{19}{Details of Feature Extractor $f$\relax }{table.caption.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {B.2}{\ignorespaces Details of MLP used to learn attention weights for SAMIL and ABMIL\relax }}{19}{table.caption.11}\protected@file@percent }
+\newlabel{tab:attention_MLP}{{B.2}{19}{Details of MLP used to learn attention weights for SAMIL and ABMIL\relax }{table.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2}View Classifier}{19}{subsection.0.B.2}\protected@file@percent }
+\newlabel{app:ViewClassifier}{{B.2}{19}{View Classifier}{subsection.0.B.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Backbone.}{19}{table.caption.12}\protected@file@percent }
+\citation{holste2022automated,holste2022self}
+\citation{he2016deep}
+\citation{holste2022self}
+\citation{tran2018closer}
+\citation{zaheer2017deep}
+\citation{paszke2019pytorch}
+\citation{robbins1951stochastic}
+\@writefile{lot}{\contentsline {table}{\numberline {B.3}{\ignorespaces Balanced accuracy on view classification. Showing view classification on TMED2 test set's view labeled images.\relax }}{20}{table.caption.12}\protected@file@percent }
+\newlabel{tab:viewclassifier_performance}{{B.3}{20}{Balanced accuracy on view classification. Showing view classification on TMED2 test set's view labeled images.\relax }{table.caption.12}{}}
+\@writefile{toc}{\contentsline {paragraph}{Training and Hyperparameters.}{20}{table.caption.12}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.4}{\ignorespaces Hyperparameters used for the view classifiers in each split.\relax }}{20}{table.caption.13}\protected@file@percent }
+\newlabel{tab:ViewClassifier hyperparameters}{{B.4}{20}{Hyperparameters used for the view classifiers in each split.\relax }{table.caption.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}MIL Experiment Details}{20}{section.0.C}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.1}Details on Filter then Avg. Approach}{20}{subsection.0.C.1}\protected@file@percent }
+\newlabel{App:Filter then Avg.}{{C.1}{20}{Details on Filter then Avg. Approach}{subsection.0.C.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.2}Details on DeepSet}{20}{subsection.0.C.2}\protected@file@percent }
+\newlabel{App:DeepSet}{{C.2}{20}{Details on DeepSet}{subsection.0.C.2}{}}
+\citation{he2020momentum,chen2020improved}
+\citation{goyal2017accurate}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.3}Training.}{21}{subsection.0.C.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.4}Hyperparameter.}{21}{subsection.0.C.4}\protected@file@percent }
+\newlabel{App:Hyper}{{C.4}{21}{Hyperparameter}{subsection.0.C.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {C.1}{\ignorespaces Hyperparameter settings for SAMIL across different data splits.\relax }}{21}{table.caption.14}\protected@file@percent }
+\newlabel{tab:SAMIL_hyper_nopretrain}{{C.1}{21}{Hyperparameter settings for SAMIL across different data splits.\relax }{table.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {C.2}{\ignorespaces Hyperparameter settings for DSMIL across different data splits.\relax }}{21}{table.caption.15}\protected@file@percent }
+\newlabel{tab:DSMIL_hyper}{{C.2}{21}{Hyperparameter settings for DSMIL across different data splits.\relax }{table.caption.15}{}}
+\citation{chen2020improved,chen2020simple}
+\citation{dietterich1997solving}
+\citation{maron1997framework}
+\citation{wang2000solving}
+\citation{zhang2001dd}
+\citation{andrews2002support}
+\citation{zhou2009multi}
+\citation{zhang2005multiple}
+\citation{kim2010gaussian}
+\@writefile{lot}{\contentsline {table}{\numberline {C.3}{\ignorespaces Hyperparameter settings for ABMIL across different data splits.\relax }}{22}{table.caption.16}\protected@file@percent }
+\newlabel{tab:ABMIL_hyper}{{C.3}{22}{Hyperparameter settings for ABMIL across different data splits.\relax }{table.caption.16}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {C.4}{\ignorespaces Hyperparameter settings for Set Transformer across different data splits.\relax }}{22}{table.caption.17}\protected@file@percent }
+\newlabel{tab:SetTransformer_hyper}{{C.4}{22}{Hyperparameter settings for Set Transformer across different data splits.\relax }{table.caption.17}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {C.5}{\ignorespaces Hyperparameter settings for Filter then Avg. across different data splits.\relax }}{22}{table.caption.18}\protected@file@percent }
+\newlabel{tab:Filter then Avg._hyper}{{C.5}{22}{Hyperparameter settings for Filter then Avg. across different data splits.\relax }{table.caption.18}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Self-supervised Pretraining}{22}{section.0.D}\protected@file@percent }
+\newlabel{app:SSL_Pretraining}{{D}{22}{Self-supervised Pretraining}{section.0.D}{}}
+\@writefile{toc}{\contentsline {paragraph}{projection head $\psi $.}{22}{section.0.D}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {E}Additional Related Work}{23}{section.0.E}\protected@file@percent }
+\newlabel{app:relatedworks}{{E}{23}{Additional Related Work}{section.0.E}{}}
+\@writefile{toc}{\contentsline {paragraph}{Classic approaches.}{23}{section.0.E}\protected@file@percent }
+\newlabel{jmlrend}{{E}{23}{end of Detecting Heart Disease from Multi-View Ultrasound via SAMIL}{section*.19}{}}
+\ttl@finishall
+\gdef \@abspage@last{23}

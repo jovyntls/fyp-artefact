@@ -1,0 +1,13 @@
+PWD /diff_test_tex_engines/bin/tex_sources/2306.00055
+INPUT /usr/local/texlive/2023/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT submission.tex
+OUTPUT /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00055/2306.00055_tl2023.log
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm

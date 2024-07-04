@@ -1,0 +1,6 @@
+Latexmk: Missing input file 'jheppub.sty' (or dependence on it) from following:
+  ! LaTeX Error: File `jheppub.sty' not found.
+Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.

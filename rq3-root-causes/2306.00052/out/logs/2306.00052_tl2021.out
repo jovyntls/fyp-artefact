@@ -1,0 +1,2526 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 17 Mar. 2022. Version 4.77, version: 4.77.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  main.tex
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+  pdflatex
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00052_tl2021" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/dvipdfmx.def)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cite/cite.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/carlisle/slashed.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/epsfig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/here/here.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ascmac/ascmac.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ascmac/tascmac.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancybox/fancybox.sty
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/enumerate.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.aux)
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omlztmcm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsztmcm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omxztmcm.fd)
+
+Package mathptmx Warning: There are no bold math fonts on input line 139.
+
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `Bordone:2019guc' on page 1 undefined on input line 179
+.
+
+
+LaTeX Warning: Citation `Iguro:2020cpg' on page 1 undefined on input line 179.
+
+
+LaTeX Warning: Citation `HFLAV:2022pwe' on page 1 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Bernlochner:2022ywh' on page 1 undefined on input line
+ 179.
+
+
+LaTeX Warning: Citation `Martinelli:2021onb' on page 1 undefined on input line 
+179.
+
+
+LaTeX Warning: Citation `Martinelli:2021myh' on page 1 undefined on input line 
+179.
+
+
+LaTeX Warning: Citation `FermilabLattice:2021cdg' on page 1 undefined on input 
+line 179.
+
+
+LaTeX Warning: Citation `Fedele:2023ewe' on page 1 undefined on input line 179.
+
+
+
+LaTeX Warning: Citation `Lees:2012xj' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Lees:2013uzd' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Huschle:2015rga' on page 1 undefined on input line 180
+.
+
+
+LaTeX Warning: Citation `Hirose:2016wfn' on page 1 undefined on input line 180.
+
+
+
+LaTeX Warning: Citation `Hirose:2017dxl' on page 1 undefined on input line 180.
+
+
+
+LaTeX Warning: Citation `Abdesselam:2019dgh' on page 1 undefined on input line 
+180.
+
+
+LaTeX Warning: Citation `Belle:2019rba' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2015yra' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2017uff' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2017deq' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `LHCb:2023zxo' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `LHCbRun1had' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Ciezarek:2837207' on page 1 undefined on input line 18
+1.
+
+
+LaTeX Warning: Citation `LHCbRDst2023' on page 1 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Aebischer:2022oqe' on page 1 undefined on input line 1
+83.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 1 undefined on input line 183.
+
+
+
+LaTeX Warning: Citation `Aban:2023pgq' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Beneke:1996xe' on page 1 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Alonso:2016oyd' on page 1 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Celis:2016azn' on page 1 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Akeroyd:2017mhr' on page 1 undefined on input line 199
+.
+
+
+LaTeX Warning: Citation `Blanke:2018yud' on page 1 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Aebischer:2021ilm' on page 1 undefined on input line 1
+99.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 1 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Tanaka:2012nw' on page 1 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Belle:2019ewo' on page 1 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Crivellin:2012ye' on page 1 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `Ko:2012sv' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Crivellin:2013wna' on page 1 undefined on input line 2
+03.
+
+
+LaTeX Warning: Citation `Cline:2015lqp' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Crivellin:2015hha' on page 1 undefined on input line 2
+03.
+
+
+LaTeX Warning: Citation `Lee:2017kbi' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2017ysu' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2018qzf' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Martinez:2018ynq' on page 1 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `Fraser:2018aqj' on page 1 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Athron:2021auq' on page 1 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Iguro:2022uzz' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Blanke:2022pjy' on page 1 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 1 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Kumar:2022rcf' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2023jju' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Das:2023gfz' on page 1 undefined on input line 203.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.205 
+       [1]
+
+LaTeX Warning: Citation `Angelescu:2018tyl' on page 2 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `Kosnik:2012dj' on page 2 undefined on input line 209.
+
+
+LaTeX Warning: Citation `Shaw:2018sbe' on page 2 undefined on input line 209.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Sakaki:2013bfa' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Iguro:2018vqb' on page 2 undefined on input line 217.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 2 undefined on input line 218.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 220.
+
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 225.
+
+
+
+LaTeX Warning: Citation `Allwicher:2022mcg' on page 2 undefined on input line 2
+27.
+
+
+LaTeX Warning: Reference `sec:Model' on page 2 undefined on input line 234.
+
+
+LaTeX Warning: Reference `sec:Pheno' on page 2 undefined on input line 235.
+
+
+LaTeX Warning: Reference `sec:Summary' on page 2 undefined on input line 237.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 247.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 247.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 247.
+
+[2]
+
+LaTeX Warning: Citation `Frampton:1989fu' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Frampton:1990hz' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Frampton:1991ay' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Bernigaud:2021fwn' on page 3 undefined on input line 2
+74.
+
+
+LaTeX Warning: Citation `Cabibbo:1963yz' on page 3 undefined on input line 312.
+
+
+
+LaTeX Warning: Citation `Kobayashi:1973fv' on page 3 undefined on input line 31
+2.
+
+
+LaTeX Warning: Reference `Eq:fermoin_VQ2' on page 3 undefined on input line 322
+.
+
+[3]
+
+LaTeX Warning: Reference `Tab:ModelNRC' on page 4 undefined on input line 367.
+
+[4] [5]
+
+LaTeX Warning: Citation `Kim:2018oih' on page 6 undefined on input line 458.
+
+[6]
+
+LaTeX Warning: Reference `eq:Ham_bctaunu' on page 7 undefined on input line 478
+.
+
+
+LaTeX Warning: Reference `eq:coupling_structure_2' on page 7 undefined on input
+ line 487.
+
+
+LaTeX Warning: Reference `sec:minimal_flavor' on page 7 undefined on input line
+ 488.
+
+
+LaTeX Warning: Citation `Wolfenstein:1983yz' on page 7 undefined on input line 
+489.
+
+
+LaTeX Warning: Reference `sec:LHC' on page 7 undefined on input line 490.
+
+
+LaTeX Warning: Reference `sec:next_to_minimal_flavor' on page 7 undefined on in
+put line 491.
+
+
+LaTeX Warning: Reference `sec:Oepsilon' on page 7 undefined on input line 492.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 7 undefined on input line 508.
+
+
+LaTeX Warning: Citation `Jenkins:2013wua' on page 7 undefined on input line 512
+.
+
+
+LaTeX Warning: Citation `Alonso:2013hga' on page 7 undefined on input line 512.
+
+
+
+LaTeX Warning: Citation `Gonzalez-Alonso:2017iyc' on page 7 undefined on input 
+line 512.
+
+
+LaTeX Warning: Citation `Aebischer:2017gaw' on page 7 undefined on input line 5
+12.
+
+
+LaTeX Warning: Citation `Aebischer:2018acj' on page 7 undefined on input line 5
+13.
+
+[7]
+
+LaTeX Warning: Reference `eq:ND_SL_ope' on page 8 undefined on input line 522.
+
+
+Overfull \hbox (17.66531pt too wide) detected at line 527
+[]
+
+LaTeX Warning: Citation `Bobeth:1999mk' on page 8 undefined on input line 529.
+
+
+LaTeX Warning: Citation `Huber:2005ig' on page 8 undefined on input line 529.
+
+
+LaTeX Warning: Citation `LHCb:2017myy' on page 8 undefined on input line 531.
+
+
+LaTeX Warning: Citation `LHCb:2018roe' on page 8 undefined on input line 535.
+
+
+LaTeX Warning: Reference `eq:ND_SL_ope2' on page 8 undefined on input line 555.
+
+
+
+LaTeX Warning: Reference `eq:Btotautau' on page 8 undefined on input line 555.
+
+
+LaTeX Warning: Reference `fig:RD_Bstautau' on page 8 undefined on input line 55
+7.
+
+
+LaTeX Warning: Citation `MILC:2015uhg' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `FermilabLattice:2021cdg' on page 8 undefined on input 
+line 564.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 8 undefined on input line 564.
+
+
+
+LaTeX Warning: Citation `Iguro:2020cpg' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Belle:2017rcc' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Belle:2018ezy' on page 8 undefined on input line 564.
+
+[8]
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 9 undefined on input line 573.
+
+
+LaTeX Warning: Citation `Blanke:2018yud' on page 9 undefined on input line 579.
+
+
+
+LaTeX Warning: Citation `Zheng:2020ult' on page 9 undefined on input line 579.
+
+
+LaTeX Warning: Citation `Amhis:2021cfy' on page 9 undefined on input line 579.
+
+
+LaTeX Warning: Citation `Fedele:2023gyi' on page 9 undefined on input line 579.
+
+
+
+LaTeX Warning: Citation `BaBar:2016wgb' on page 9 undefined on input line 583.
+
+
+LaTeX Warning: Citation `Capdevila:2017iqn' on page 9 undefined on input line 5
+83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 588.
+
+[9 <./Figs/RD_V2.pdf>]
+
+LaTeX Warning: Citation `Sirunyan:2018vhk' on page 10 undefined on input line 6
+07.
+
+
+LaTeX Warning: Citation `Aaboud:2019bye' on page 10 undefined on input line 607
+.
+
+
+LaTeX Warning: Citation `Aad:2021rrh' on page 10 undefined on input line 607.
+
+
+LaTeX Warning: Citation `ATLAS:2021jyv' on page 10 undefined on input line 607.
+
+
+
+LaTeX Warning: Citation `Faroughy:2016osc' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Iguro:2018fni' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Mandal:2018kau' on page 10 undefined on input line 608
+.
+
+
+LaTeX Warning: Citation `Greljo:2018tzh' on page 10 undefined on input line 608
+.
+
+
+LaTeX Warning: Citation `Altmannshofer:2017poe' on page 10 undefined on input l
+ine 608.
+
+
+LaTeX Warning: Citation `Iguro:2017ysu' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Abdullah:2018ets' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Marzocca:2020ueu' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Iguro:2020keo' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Endo:2021lhi' on page 10 undefined on input line 608.
+
+
+LaTeX Warning: Citation `CMS:2022goy' on page 10 undefined on input line 609.
+
+
+LaTeX Warning: Citation `ATLAS:2020zms' on page 10 undefined on input line 609.
+
+
+
+LaTeX Warning: Citation `CMS:2015hmx' on page 10 undefined on input line 609.
+
+
+LaTeX Warning: Citation `Aaboud:2018vgh' on page 10 undefined on input line 609
+.
+
+
+LaTeX Warning: Citation `Sirunyan:2018lbg' on page 10 undefined on input line 6
+09.
+
+
+LaTeX Warning: Citation `ATLAS:2021bjk' on page 10 undefined on input line 609.
+
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 10 undefined on input line 610.
+
+
+
+LaTeX Warning: Citation `ATLAS:2020zms' on page 10 undefined on input line 612.
+
+
+
+LaTeX Warning: Citation `ATLAS:2021bjk' on page 10 undefined on input line 612.
+
+
+
+LaTeX Warning: Citation `Allwicher:2022mcg' on page 10 undefined on input line 
+613.
+
+
+LaTeX Warning: Reference `fig:h133_h223' on page 10 undefined on input line 633
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [10 <./Figs/dia
+_LHC_4o3.pdf> <./Figs/dia_LHC_1o3.pdf>]
+
+LaTeX Warning: Citation `Iguro:2018vqb' on page 11 undefined on input line 646.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+LaTeX Warning: Reference `fig:RD_Bstautau' on page 11 undefined on input line 6
+69.
+
+
+LaTeX Warning: Reference `fig:RD_Bstautau' on page 11 undefined on input line 6
+69.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 11 undefined on input line 673
+.
+
+[11 <./Figs/h133h223_min.pdf>]
+
+LaTeX Warning: Reference `eq:eq:CSRub' on page 12 undefined on input line 686.
+
+
+LaTeX Warning: Reference `eq:eq:CSRcb' on page 12 undefined on input line 686.
+
+
+LaTeX Warning: Citation `PDG2022' on page 12 undefined on input line 688.
+
+
+LaTeX Warning: Citation `Tanaka:2016ijq' on page 12 undefined on input line 702
+.
+
+
+LaTeX Warning: Citation `Tanaka:2016ijq' on page 12 undefined on input line 702
+.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 12 undefined on input line 703.
+
+
+LaTeX Warning: Reference `eq:Butaunu_current' on page 12 undefined on input lin
+e 704.
+
+[12 <./Figs/RDvsBtaunu.pdf>]
+
+LaTeX Warning: Reference `fig:RD_Btaunu' on page 13 undefined on input line 710
+.
+
+
+LaTeX Warning: Reference `fig:RD_Bstautau' on page 13 undefined on input line 7
+11.
+
+
+LaTeX Warning: Reference `eq:Butaunu_current' on page 13 undefined on input lin
+e 712.
+
+
+LaTeX Warning: Reference `sec:Oepsilon' on page 13 undefined on input line 715.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 13 undefined on input line 732.
+
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 13 undefined on input line 732.
+
+
+
+LaTeX Warning: Reference `Tab:ModelNRC' on page 13 undefined on input line 736.
+
+
+
+LaTeX Warning: Citation `PDG2022' on page 13 undefined on input line 748.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 13 undefined on input line 748.
+
+
+LaTeX Warning: Reference `sec:Summary' on page 13 undefined on input line 754.
+
+[13 <./Figs/dia_LHC_4o3_v2.pdf> <./Figs/dia_LHC_1o3_v2.pdf>]
+
+LaTeX Warning: Citation `Kou:2018nap' on page 14 undefined on input line 762.
+
+
+LaTeX Warning: Reference `fig:h133_h223' on page 14 undefined on input line 776
+.
+
+
+LaTeX Warning: Reference `fig:h133_h223' on page 14 undefined on input line 776
+.
+
+
+LaTeX Warning: Reference `fig:diagrams2' on page 14 undefined on input line 784
+.
+
+
+LaTeX Warning: Reference `fig:h133h223h213' on page 14 undefined on input line 
+786.
+
+
+LaTeX Warning: Reference `fig:Obs_correlation' on page 14 undefined on input li
+ne 787.
+
+[14 <./Figs/h133h223_m016.pdf> <./Figs/h133h223_m023.pdf> <./Figs/h133h223_m037
+.pdf>]
+
+LaTeX Warning: Reference `Tab:ModelNRC' on page 15 undefined on input line 813.
+
+
+
+LaTeX Warning: Citation `PDG2022' on page 15 undefined on input line 825.
+
+
+LaTeX Warning: Citation `HFLAV:2022pwe' on page 15 undefined on input line 825.
+
+
+
+LaTeX Warning: Reference `eq:CSR_general' on page 15 undefined on input line 82
+6.
+
+
+LaTeX Warning: Citation `PDG2022' on page 15 undefined on input line 829.
+
+
+LaTeX Warning: Citation `BESIII:2019vhn' on page 15 undefined on input line 830
+.
+
+
+LaTeX Warning: Citation `Capdevila:2017iqn' on page 15 undefined on input line 
+841.
+
+
+LaTeX Warning: Citation `PDG2022' on page 15 undefined on input line 841.
+
+
+LaTeX Warning: Citation `Belle:2017oht' on page 15 undefined on input line 845.
+
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 15 undefined on input line 846.
+
+
+LaTeX Warning: Citation `Buras:2014fpa' on page 15 undefined on input line 847.
+
+
+[15 <./Figs/Obs016.pdf> <./Figs/Obs023.pdf> <./Figs/Obs037.pdf>]
+
+LaTeX Warning: Citation `Bause:2022rrs' on page 16 undefined on input line 862.
+
+
+
+LaTeX Warning: Citation `PDG2022' on page 16 undefined on input line 862.
+
+
+LaTeX Warning: Reference `Tab:ModelNRC_summary' on page 16 undefined on input l
+ine 872.
+
+
+LaTeX Warning: Reference `sec:LHC' on page 16 undefined on input line 883.
+
+
+LaTeX Warning: Reference `fig:diagrams2' on page 16 undefined on input line 884
+.
+
+
+LaTeX Warning: Reference `Tab:ModelNRC_summary' on page 16 undefined on input l
+ine 894.
+
+[16]
+
+LaTeX Warning: Citation `Iguro:2022ozl' on page 17 undefined on input line 950.
+
+
+
+LaTeX Warning: Citation `IOprojectNo17' on page 17 undefined on input line 957.
+
+
+[17]
+No file 2306.00052_tl2021.bbl.
+[18]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `2306.00052_tl2021.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){/usr/local/texlive/2021/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/sy
+mbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00052/2306.00052_tl2021.pdf (19 pages, 5567930 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00052/2306.00052_tl2021.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.pdf'
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.aux
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021': The following rules & subrules became out-of-date:
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021' because I don't find the following files:
+  ref.bib
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.aux
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.out
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+  pdflatex
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00052_tl2021" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/dvipdfmx.def)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cite/cite.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/carlisle/slashed.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/epsfig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/here/here.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ascmac/ascmac.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ascmac/tascmac.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancybox/fancybox.sty
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/enumerate.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.aux)
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty))
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.out)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.out) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omlztmcm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsztmcm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omxztmcm.fd)
+
+Package mathptmx Warning: There are no bold math fonts on input line 139.
+
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.toc)
+
+LaTeX Warning: Citation `Bordone:2019guc' on page 1 undefined on input line 179
+.
+
+
+LaTeX Warning: Citation `Iguro:2020cpg' on page 1 undefined on input line 179.
+
+
+LaTeX Warning: Citation `HFLAV:2022pwe' on page 1 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Bernlochner:2022ywh' on page 1 undefined on input line
+ 179.
+
+
+LaTeX Warning: Citation `Martinelli:2021onb' on page 1 undefined on input line 
+179.
+
+
+LaTeX Warning: Citation `Martinelli:2021myh' on page 1 undefined on input line 
+179.
+
+
+LaTeX Warning: Citation `FermilabLattice:2021cdg' on page 1 undefined on input 
+line 179.
+
+
+LaTeX Warning: Citation `Fedele:2023ewe' on page 1 undefined on input line 179.
+
+
+
+LaTeX Warning: Citation `Lees:2012xj' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Lees:2013uzd' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Huschle:2015rga' on page 1 undefined on input line 180
+.
+
+
+LaTeX Warning: Citation `Hirose:2016wfn' on page 1 undefined on input line 180.
+
+
+
+LaTeX Warning: Citation `Hirose:2017dxl' on page 1 undefined on input line 180.
+
+
+
+LaTeX Warning: Citation `Abdesselam:2019dgh' on page 1 undefined on input line 
+180.
+
+
+LaTeX Warning: Citation `Belle:2019rba' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2015yra' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2017uff' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2017deq' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `LHCb:2023zxo' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `LHCbRun1had' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Ciezarek:2837207' on page 1 undefined on input line 18
+1.
+
+
+LaTeX Warning: Citation `LHCbRDst2023' on page 1 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Aebischer:2022oqe' on page 1 undefined on input line 1
+83.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 1 undefined on input line 183.
+
+
+
+LaTeX Warning: Citation `Aban:2023pgq' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.195 \end{align}
+                  [1]
+
+LaTeX Warning: Citation `Beneke:1996xe' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Alonso:2016oyd' on page 2 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Celis:2016azn' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Akeroyd:2017mhr' on page 2 undefined on input line 199
+.
+
+
+LaTeX Warning: Citation `Blanke:2018yud' on page 2 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Aebischer:2021ilm' on page 2 undefined on input line 1
+99.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 2 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Tanaka:2012nw' on page 2 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Belle:2019ewo' on page 2 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Crivellin:2012ye' on page 2 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `Ko:2012sv' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Crivellin:2013wna' on page 2 undefined on input line 2
+03.
+
+
+LaTeX Warning: Citation `Cline:2015lqp' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Crivellin:2015hha' on page 2 undefined on input line 2
+03.
+
+
+LaTeX Warning: Citation `Lee:2017kbi' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2017ysu' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2018qzf' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Martinez:2018ynq' on page 2 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `Fraser:2018aqj' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Athron:2021auq' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Iguro:2022uzz' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Blanke:2022pjy' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Kumar:2022rcf' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2023jju' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Das:2023gfz' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Angelescu:2018tyl' on page 2 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `Kosnik:2012dj' on page 2 undefined on input line 209.
+
+
+LaTeX Warning: Citation `Shaw:2018sbe' on page 2 undefined on input line 209.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Sakaki:2013bfa' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Iguro:2018vqb' on page 2 undefined on input line 217.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 2 undefined on input line 218.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 220.
+
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 225.
+
+
+
+LaTeX Warning: Citation `Allwicher:2022mcg' on page 2 undefined on input line 2
+27.
+
+[2]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 247.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 247.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 247.
+
+
+LaTeX Warning: Citation `Frampton:1989fu' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Frampton:1990hz' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Frampton:1991ay' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Bernigaud:2021fwn' on page 3 undefined on input line 2
+74.
+
+[3]
+
+LaTeX Warning: Citation `Cabibbo:1963yz' on page 4 undefined on input line 312.
+
+
+
+LaTeX Warning: Citation `Kobayashi:1973fv' on page 4 undefined on input line 31
+2.
+
+[4] [5] [6]
+
+LaTeX Warning: Citation `Kim:2018oih' on page 7 undefined on input line 458.
+
+
+LaTeX Warning: Citation `Wolfenstein:1983yz' on page 7 undefined on input line 
+489.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+[7]
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 8 undefined on input line 508.
+
+
+LaTeX Warning: Citation `Jenkins:2013wua' on page 8 undefined on input line 512
+.
+
+
+LaTeX Warning: Citation `Alonso:2013hga' on page 8 undefined on input line 512.
+
+
+
+LaTeX Warning: Citation `Gonzalez-Alonso:2017iyc' on page 8 undefined on input 
+line 512.
+
+
+LaTeX Warning: Citation `Aebischer:2017gaw' on page 8 undefined on input line 5
+12.
+
+
+LaTeX Warning: Citation `Aebischer:2018acj' on page 8 undefined on input line 5
+13.
+
+
+Overfull \hbox (17.66531pt too wide) detected at line 527
+[]
+
+LaTeX Warning: Citation `Bobeth:1999mk' on page 8 undefined on input line 529.
+
+
+LaTeX Warning: Citation `Huber:2005ig' on page 8 undefined on input line 529.
+
+
+LaTeX Warning: Citation `LHCb:2017myy' on page 8 undefined on input line 531.
+
+
+LaTeX Warning: Citation `LHCb:2018roe' on page 8 undefined on input line 535.
+
+
+LaTeX Warning: Citation `MILC:2015uhg' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `FermilabLattice:2021cdg' on page 8 undefined on input 
+line 564.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 8 undefined on input line 564.
+
+
+
+LaTeX Warning: Citation `Iguro:2020cpg' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Belle:2017rcc' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Belle:2018ezy' on page 8 undefined on input line 564.
+
+[8]
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 9 undefined on input line 573.
+
+
+LaTeX Warning: Citation `Blanke:2018yud' on page 9 undefined on input line 579.
+
+
+
+LaTeX Warning: Citation `Zheng:2020ult' on page 9 undefined on input line 579.
+
+
+LaTeX Warning: Citation `Amhis:2021cfy' on page 9 undefined on input line 579.
+
+
+LaTeX Warning: Citation `Fedele:2023gyi' on page 9 undefined on input line 579.
+
+
+
+LaTeX Warning: Citation `BaBar:2016wgb' on page 9 undefined on input line 583.
+
+
+LaTeX Warning: Citation `Capdevila:2017iqn' on page 9 undefined on input line 5
+83.
+
+[9 <./Figs/RD_V2.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 588.
+
+
+LaTeX Warning: Citation `Sirunyan:2018vhk' on page 10 undefined on input line 6
+07.
+
+
+LaTeX Warning: Citation `Aaboud:2019bye' on page 10 undefined on input line 607
+.
+
+
+LaTeX Warning: Citation `Aad:2021rrh' on page 10 undefined on input line 607.
+
+
+LaTeX Warning: Citation `ATLAS:2021jyv' on page 10 undefined on input line 607.
+
+
+
+LaTeX Warning: Citation `Faroughy:2016osc' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Iguro:2018fni' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Mandal:2018kau' on page 10 undefined on input line 608
+.
+
+
+LaTeX Warning: Citation `Greljo:2018tzh' on page 10 undefined on input line 608
+.
+
+
+LaTeX Warning: Citation `Altmannshofer:2017poe' on page 10 undefined on input l
+ine 608.
+
+
+LaTeX Warning: Citation `Iguro:2017ysu' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Abdullah:2018ets' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Marzocca:2020ueu' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Iguro:2020keo' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Endo:2021lhi' on page 10 undefined on input line 608.
+
+
+LaTeX Warning: Citation `CMS:2022goy' on page 10 undefined on input line 609.
+
+
+LaTeX Warning: Citation `ATLAS:2020zms' on page 10 undefined on input line 609.
+
+
+
+LaTeX Warning: Citation `CMS:2015hmx' on page 10 undefined on input line 609.
+
+
+LaTeX Warning: Citation `Aaboud:2018vgh' on page 10 undefined on input line 609
+.
+
+
+LaTeX Warning: Citation `Sirunyan:2018lbg' on page 10 undefined on input line 6
+09.
+
+
+LaTeX Warning: Citation `ATLAS:2021bjk' on page 10 undefined on input line 609.
+
+
+
+LaTeX Warning: Citation `ATLAS:2020zms' on page 10 undefined on input line 612.
+
+
+
+LaTeX Warning: Citation `ATLAS:2021bjk' on page 10 undefined on input line 612.
+
+
+
+LaTeX Warning: Citation `Allwicher:2022mcg' on page 10 undefined on input line 
+613.
+
+[10 <./Figs/dia_LHC_4o3.pdf> <./Figs/dia_LHC_1o3.pdf>]
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+
+LaTeX Warning: Citation `Iguro:2018vqb' on page 11 undefined on input line 646.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 11 undefined on input line 673
+.
+
+[11 <./Figs/h133h223_min.pdf>]
+
+LaTeX Warning: Citation `PDG2022' on page 12 undefined on input line 688.
+
+[12 <./Figs/RDvsBtaunu.pdf>]
+
+LaTeX Warning: Citation `Tanaka:2016ijq' on page 13 undefined on input line 702
+.
+
+
+LaTeX Warning: Citation `Tanaka:2016ijq' on page 13 undefined on input line 702
+.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 13 undefined on input line 703.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+[13 <./Figs/dia_LHC_4o3_v2.pdf> <./Figs/dia_LHC_1o3_v2.pdf>]
+
+LaTeX Warning: Citation `PDG2022' on page 14 undefined on input line 748.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 14 undefined on input line 748.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 14 undefined on input line 762.
+
+[14 <./Figs/h133h223_m016.pdf> <./Figs/h133h223_m023.pdf> <./Figs/h133h223_m037
+.pdf>]
+
+LaTeX Warning: Citation `PDG2022' on page 15 undefined on input line 825.
+
+
+LaTeX Warning: Citation `HFLAV:2022pwe' on page 15 undefined on input line 825.
+
+
+
+LaTeX Warning: Citation `PDG2022' on page 15 undefined on input line 829.
+
+
+LaTeX Warning: Citation `BESIII:2019vhn' on page 15 undefined on input line 830
+.
+
+[15 <./Figs/Obs016.pdf> <./Figs/Obs023.pdf> <./Figs/Obs037.pdf>]
+
+LaTeX Warning: Citation `Capdevila:2017iqn' on page 16 undefined on input line 
+841.
+
+
+LaTeX Warning: Citation `PDG2022' on page 16 undefined on input line 841.
+
+
+LaTeX Warning: Citation `Belle:2017oht' on page 16 undefined on input line 845.
+
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 16 undefined on input line 846.
+
+
+LaTeX Warning: Citation `Buras:2014fpa' on page 16 undefined on input line 847.
+
+
+
+LaTeX Warning: Citation `Bause:2022rrs' on page 16 undefined on input line 862.
+
+
+
+LaTeX Warning: Citation `PDG2022' on page 16 undefined on input line 862.
+
+[16] [17]
+
+LaTeX Warning: Citation `Iguro:2022ozl' on page 18 undefined on input line 950.
+
+
+
+LaTeX Warning: Citation `IOprojectNo17' on page 18 undefined on input line 957.
+
+
+No file 2306.00052_tl2021.bbl.
+[18]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information){/usr/local/texlive/2021/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/sy
+mbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00052/2306.00052_tl2021.pdf (19 pages, 5571470 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00052/2306.00052_tl2021.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.log'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.pdf'
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.aux
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021': The following rules & subrules became out-of-date:
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021' because I don't find the following files:
+  ref.bib
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.aux
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.toc
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+  pdflatex
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00052_tl2021" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/dvipdfmx.def)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cite/cite.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/carlisle/slashed.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/epsfig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/here/here.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ascmac/ascmac.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ascmac/tascmac.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancybox/fancybox.sty
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/enumerate.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.aux)
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty))
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.out)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.out) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omlztmcm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsztmcm.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omxztmcm.fd)
+
+Package mathptmx Warning: There are no bold math fonts on input line 139.
+
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.toc)
+
+LaTeX Warning: Citation `Bordone:2019guc' on page 1 undefined on input line 179
+.
+
+
+LaTeX Warning: Citation `Iguro:2020cpg' on page 1 undefined on input line 179.
+
+
+LaTeX Warning: Citation `HFLAV:2022pwe' on page 1 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Bernlochner:2022ywh' on page 1 undefined on input line
+ 179.
+
+
+LaTeX Warning: Citation `Martinelli:2021onb' on page 1 undefined on input line 
+179.
+
+
+LaTeX Warning: Citation `Martinelli:2021myh' on page 1 undefined on input line 
+179.
+
+
+LaTeX Warning: Citation `FermilabLattice:2021cdg' on page 1 undefined on input 
+line 179.
+
+
+LaTeX Warning: Citation `Fedele:2023ewe' on page 1 undefined on input line 179.
+
+
+
+LaTeX Warning: Citation `Lees:2012xj' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Lees:2013uzd' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Huschle:2015rga' on page 1 undefined on input line 180
+.
+
+
+LaTeX Warning: Citation `Hirose:2016wfn' on page 1 undefined on input line 180.
+
+
+
+LaTeX Warning: Citation `Hirose:2017dxl' on page 1 undefined on input line 180.
+
+
+
+LaTeX Warning: Citation `Abdesselam:2019dgh' on page 1 undefined on input line 
+180.
+
+
+LaTeX Warning: Citation `Belle:2019rba' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2015yra' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2017uff' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Aaij:2017deq' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `LHCb:2023zxo' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `LHCbRun1had' on page 1 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Ciezarek:2837207' on page 1 undefined on input line 18
+1.
+
+
+LaTeX Warning: Citation `LHCbRDst2023' on page 1 undefined on input line 181.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Aebischer:2022oqe' on page 1 undefined on input line 1
+83.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 1 undefined on input line 183.
+
+
+
+LaTeX Warning: Citation `Aban:2023pgq' on page 1 undefined on input line 183.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 1 undefined on input line 183.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.195 \end{align}
+                  [1]
+
+LaTeX Warning: Citation `Beneke:1996xe' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Alonso:2016oyd' on page 2 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Celis:2016azn' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Akeroyd:2017mhr' on page 2 undefined on input line 199
+.
+
+
+LaTeX Warning: Citation `Blanke:2018yud' on page 2 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Aebischer:2021ilm' on page 2 undefined on input line 1
+99.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 2 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Tanaka:2012nw' on page 2 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Belle:2019ewo' on page 2 undefined on input line 200.
+
+
+LaTeX Warning: Citation `Crivellin:2012ye' on page 2 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `Ko:2012sv' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Crivellin:2013wna' on page 2 undefined on input line 2
+03.
+
+
+LaTeX Warning: Citation `Cline:2015lqp' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Crivellin:2015hha' on page 2 undefined on input line 2
+03.
+
+
+LaTeX Warning: Citation `Lee:2017kbi' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2017ysu' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2018qzf' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Martinez:2018ynq' on page 2 undefined on input line 20
+3.
+
+
+LaTeX Warning: Citation `Fraser:2018aqj' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Athron:2021auq' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Iguro:2022uzz' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Blanke:2022pjy' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Kumar:2022rcf' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Iguro:2023jju' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Das:2023gfz' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Angelescu:2018tyl' on page 2 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `Kosnik:2012dj' on page 2 undefined on input line 209.
+
+
+LaTeX Warning: Citation `Shaw:2018sbe' on page 2 undefined on input line 209.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Sakaki:2013bfa' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 209.
+
+
+
+LaTeX Warning: Citation `Iguro:2018vqb' on page 2 undefined on input line 217.
+
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 2 undefined on input line 218.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 220.
+
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 2 undefined on input line 225.
+
+
+
+LaTeX Warning: Citation `Allwicher:2022mcg' on page 2 undefined on input line 2
+27.
+
+[2]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 247.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 247.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 247.
+
+
+LaTeX Warning: Citation `Frampton:1989fu' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Frampton:1990hz' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Frampton:1991ay' on page 3 undefined on input line 274
+.
+
+
+LaTeX Warning: Citation `Bernigaud:2021fwn' on page 3 undefined on input line 2
+74.
+
+[3]
+
+LaTeX Warning: Citation `Cabibbo:1963yz' on page 4 undefined on input line 312.
+
+
+
+LaTeX Warning: Citation `Kobayashi:1973fv' on page 4 undefined on input line 31
+2.
+
+[4] [5] [6]
+
+LaTeX Warning: Citation `Kim:2018oih' on page 7 undefined on input line 458.
+
+
+LaTeX Warning: Citation `Wolfenstein:1983yz' on page 7 undefined on input line 
+489.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 496.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 496.
+
+[7]
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 8 undefined on input line 508.
+
+
+LaTeX Warning: Citation `Jenkins:2013wua' on page 8 undefined on input line 512
+.
+
+
+LaTeX Warning: Citation `Alonso:2013hga' on page 8 undefined on input line 512.
+
+
+
+LaTeX Warning: Citation `Gonzalez-Alonso:2017iyc' on page 8 undefined on input 
+line 512.
+
+
+LaTeX Warning: Citation `Aebischer:2017gaw' on page 8 undefined on input line 5
+12.
+
+
+LaTeX Warning: Citation `Aebischer:2018acj' on page 8 undefined on input line 5
+13.
+
+
+Overfull \hbox (17.66531pt too wide) detected at line 527
+[]
+
+LaTeX Warning: Citation `Bobeth:1999mk' on page 8 undefined on input line 529.
+
+
+LaTeX Warning: Citation `Huber:2005ig' on page 8 undefined on input line 529.
+
+
+LaTeX Warning: Citation `LHCb:2017myy' on page 8 undefined on input line 531.
+
+
+LaTeX Warning: Citation `LHCb:2018roe' on page 8 undefined on input line 535.
+
+
+LaTeX Warning: Citation `MILC:2015uhg' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `FermilabLattice:2021cdg' on page 8 undefined on input 
+line 564.
+
+
+LaTeX Warning: Citation `Fedele:2022iib' on page 8 undefined on input line 564.
+
+
+
+LaTeX Warning: Citation `Iguro:2020cpg' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Belle:2017rcc' on page 8 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Belle:2018ezy' on page 8 undefined on input line 564.
+
+[8]
+
+LaTeX Warning: Citation `Iguro:2022yzr' on page 9 undefined on input line 573.
+
+
+LaTeX Warning: Citation `Blanke:2018yud' on page 9 undefined on input line 579.
+
+
+
+LaTeX Warning: Citation `Zheng:2020ult' on page 9 undefined on input line 579.
+
+
+LaTeX Warning: Citation `Amhis:2021cfy' on page 9 undefined on input line 579.
+
+
+LaTeX Warning: Citation `Fedele:2023gyi' on page 9 undefined on input line 579.
+
+
+
+LaTeX Warning: Citation `BaBar:2016wgb' on page 9 undefined on input line 583.
+
+
+LaTeX Warning: Citation `Capdevila:2017iqn' on page 9 undefined on input line 5
+83.
+
+[9 <./Figs/RD_V2.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 588.
+
+
+LaTeX Warning: Citation `Sirunyan:2018vhk' on page 10 undefined on input line 6
+07.
+
+
+LaTeX Warning: Citation `Aaboud:2019bye' on page 10 undefined on input line 607
+.
+
+
+LaTeX Warning: Citation `Aad:2021rrh' on page 10 undefined on input line 607.
+
+
+LaTeX Warning: Citation `ATLAS:2021jyv' on page 10 undefined on input line 607.
+
+
+
+LaTeX Warning: Citation `Faroughy:2016osc' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Iguro:2018fni' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Mandal:2018kau' on page 10 undefined on input line 608
+.
+
+
+LaTeX Warning: Citation `Greljo:2018tzh' on page 10 undefined on input line 608
+.
+
+
+LaTeX Warning: Citation `Altmannshofer:2017poe' on page 10 undefined on input l
+ine 608.
+
+
+LaTeX Warning: Citation `Iguro:2017ysu' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Abdullah:2018ets' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Marzocca:2020ueu' on page 10 undefined on input line 6
+08.
+
+
+LaTeX Warning: Citation `Iguro:2020keo' on page 10 undefined on input line 608.
+
+
+
+LaTeX Warning: Citation `Endo:2021lhi' on page 10 undefined on input line 608.
+
+
+LaTeX Warning: Citation `CMS:2022goy' on page 10 undefined on input line 609.
+
+
+LaTeX Warning: Citation `ATLAS:2020zms' on page 10 undefined on input line 609.
+
+
+
+LaTeX Warning: Citation `CMS:2015hmx' on page 10 undefined on input line 609.
+
+
+LaTeX Warning: Citation `Aaboud:2018vgh' on page 10 undefined on input line 609
+.
+
+
+LaTeX Warning: Citation `Sirunyan:2018lbg' on page 10 undefined on input line 6
+09.
+
+
+LaTeX Warning: Citation `ATLAS:2021bjk' on page 10 undefined on input line 609.
+
+
+
+LaTeX Warning: Citation `ATLAS:2020zms' on page 10 undefined on input line 612.
+
+
+
+LaTeX Warning: Citation `ATLAS:2021bjk' on page 10 undefined on input line 612.
+
+
+
+LaTeX Warning: Citation `Allwicher:2022mcg' on page 10 undefined on input line 
+613.
+
+[10 <./Figs/dia_LHC_4o3.pdf> <./Figs/dia_LHC_1o3.pdf>]
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+
+LaTeX Warning: Citation `Iguro:2018vqb' on page 11 undefined on input line 646.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 655.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 655.
+
+
+LaTeX Warning: Citation `Cheung:2022zsb' on page 11 undefined on input line 673
+.
+
+[11 <./Figs/h133h223_min.pdf>]
+
+LaTeX Warning: Citation `PDG2022' on page 12 undefined on input line 688.
+
+[12 <./Figs/RDvsBtaunu.pdf>]
+
+LaTeX Warning: Citation `Tanaka:2016ijq' on page 13 undefined on input line 702
+.
+
+
+LaTeX Warning: Citation `Tanaka:2016ijq' on page 13 undefined on input line 702
+.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 13 undefined on input line 703.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 719.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 719.
+
+[13 <./Figs/dia_LHC_4o3_v2.pdf> <./Figs/dia_LHC_1o3_v2.pdf>]
+
+LaTeX Warning: Citation `PDG2022' on page 14 undefined on input line 748.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 14 undefined on input line 748.
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 14 undefined on input line 762.
+
+[14 <./Figs/h133h223_m016.pdf> <./Figs/h133h223_m023.pdf> <./Figs/h133h223_m037
+.pdf>]
+
+LaTeX Warning: Citation `PDG2022' on page 15 undefined on input line 825.
+
+
+LaTeX Warning: Citation `HFLAV:2022pwe' on page 15 undefined on input line 825.
+
+
+
+LaTeX Warning: Citation `PDG2022' on page 15 undefined on input line 829.
+
+
+LaTeX Warning: Citation `BESIII:2019vhn' on page 15 undefined on input line 830
+.
+
+[15 <./Figs/Obs016.pdf> <./Figs/Obs023.pdf> <./Figs/Obs037.pdf>]
+
+LaTeX Warning: Citation `Capdevila:2017iqn' on page 16 undefined on input line 
+841.
+
+
+LaTeX Warning: Citation `PDG2022' on page 16 undefined on input line 841.
+
+
+LaTeX Warning: Citation `Belle:2017oht' on page 16 undefined on input line 845.
+
+
+
+LaTeX Warning: Citation `Kou:2018nap' on page 16 undefined on input line 846.
+
+
+LaTeX Warning: Citation `Buras:2014fpa' on page 16 undefined on input line 847.
+
+
+
+LaTeX Warning: Citation `Bause:2022rrs' on page 16 undefined on input line 862.
+
+
+
+LaTeX Warning: Citation `PDG2022' on page 16 undefined on input line 862.
+
+[16] [17]
+
+LaTeX Warning: Citation `Iguro:2022ozl' on page 18 undefined on input line 950.
+
+
+
+LaTeX Warning: Citation `IOprojectNo17' on page 18 undefined on input line 957.
+
+
+No file 2306.00052_tl2021.bbl.
+[18]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052
+_tl2021.aux)
+
+LaTeX Warning: There were undefined references.
+
+ )
+(see the transcript file for additional information){/usr/local/texlive/2021/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/sy
+mbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00052/2306.00052_tl2021.pdf (19 pages, 5571473 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00052/2306.00052_tl2021.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.log'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.pdf'
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 141 citation(s)
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.pdf) are up-to-date
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 17 Mar. 2022. Version 4.77, version: 4.77.
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021': The following rules & subrules became out-of-date:
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021' because I don't find the following files:
+  ref.bib
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00052/2306.00052_tl2021.pdf) are up-to-date

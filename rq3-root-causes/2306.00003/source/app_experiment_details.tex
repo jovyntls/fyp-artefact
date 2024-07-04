@@ -1,0 +1,94 @@
+\subsection{Details on Filter then Avg. Approach}
+\label{App:Filter then Avg.}
+To apply the Filter then Avg. approach proposed on TMED2, we follow closely the steps outlined in the paper ~\citet{holste2022automated,holste2022self}. We first use the same view classifiers that are used for SAMIL to prefilter images in the dataset, keeping only images that are predicted as PLAX. We then use a 2D ResNet18~\citep{he2016deep} to train the diagnosis classifier to classify each retained PLAX image as no AS, early AS or significant AS. In aggregation step, we average the AS predictions of all PLAX images in a study to obtain the study-level AS prediction. Note that author in ~\citep{holste2022self} uses a 3D ResNet18~\citep{tran2018closer} since their proprietary dataset consists of 3D videos while the open access TMED2 consists of 2D images. For the same reason, we are not able to directly use their self-superivsed training strategy that are proposed for 3D videos.
+
+\subsection{Details on DeepSet}
+\label{App:DeepSet}
+DeepSet~\citep{zaheer2017deep} process each instance in the bag independently, and aggregate the processed feature embedding using simple pooling (mean or max). Fully connected layers are then used to map the aggregated feature embeddings into a bag prediction.
+
+We perform the same hyperparameter search for DeepSet as shown below~\ref{App:Hyper}. However, we won't able to obtain any meaningful results, which suggest that problem of using multiple ultrasound images for AS diagnosis is too challenging for simple architecture like DeepSet.
+
+\subsection{Training.} Our open source code (will be released after upon acceptance) uses PyTorch ~\citep{paszke2019pytorch}. For all methods compared, we use SGD~\citep{robbins1951stochastic} as optimizer. Each method is set to train for 2000 epochs, and early stop if validation performance does not increase for 200 consecutive epochs. Each training run uses one NVIDIA A100 GPU.
+
+\subsection{Hyperparameter.} 
+\label{App:Hyper}
+We perform a grid search for each algorithm and each data split. From our preliminary experiments, we found that learning rate around 0.0005 and weight decay around 0.0001 is a good starting point. 
+
+For DSMIL, ABMIL, Set Transformer, DeepSet and Filter then Avg, we search learning rate in [0.0003, 0.0005, 0.0008, 0.001, 0.003] and weight decay in [0.00001, 0.00003, 0.0001, 0.0003, 0.001]. SAMIL involves two additional hyperparameters, a temperature scaling term $\tau_{v}$ used in eq.~\ref{eq:L_SA}, and $\lambda_{SA}$ in eq.~\ref{eq:total_loss} that balance the supervised attention loss and the cross-entropy loss. For SAMIL, we search learning rate in [0.0005, 0.0008], weight decay in [0.0001, 0.001], $\tau_{v}$ in [0.1, 0.05, 0.03] and $\lambda_{SA}$ in [5, 15, 20]. Note that for ABMIL with gated attention, we did not search hyperparameters again, but directly use the corresponding best hyperparameter from its general attention version. Note that we perform same set of independent hyperparameter search for experiments on SAMIL with bag-level pretraining, image-level pretraining and without pretraining.
+
+Final hyperparameter used are reported as follow:
+
+% \begin{table}[!htb]
+\begin{table}[H]
+\centering
+\begin{tabular}{l|c|c|c}
+\multicolumn{4}{c}{SAMIL (with study-level SSL)} \\
+Hyperparameter & split1 & split2 & split3 \\
+\midrule
+Learning rate & 0.0005 & 0.0008 & 0.0005 \\
+Weight decay & 0.0001 & 0.001 & 0.001 \\
+Temperature T & 0.1 & 0.1 & 0.05 \\
+$\lambda_{SA}$ & 15.0 & 20.0 & 20.0 \\
+Learning rate schedule & cosine & cosine & cosine\\
+\end{tabular}
+\caption{Hyperparameter settings for SAMIL across different data splits.}
+\label{tab:SAMIL_hyper_nopretrain}
+\end{table}
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{l|c|c|c}
+\multicolumn{4}{c}{DSMIL} \\
+Hyperparameter & split1 & split2 & split3 \\
+\midrule
+Learning rate & 0.001 & 0.0008 & 0.0008 \\
+Weight decay & 0.0001 & 0.00003 & 0.00001 \\
+Learning rate schedule & cosine & cosine & cosine\\
+\end{tabular}
+\caption{Hyperparameter settings for DSMIL across different data splits.}
+\label{tab:DSMIL_hyper}
+\end{table}
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{l|c|c|c}
+\multicolumn{4}{c}{ABMIL} \\
+Hyperparameter & split1 & split2 & split3 \\
+\midrule
+Learning rate & 0.0008 & 0.0005 & 0.0008 \\
+Weight decay & 0.0001 & 0.00005 & 0.00005 \\
+Learning rate schedule & cosine & cosine & cosine\\
+\end{tabular}
+\caption{Hyperparameter settings for ABMIL across different data splits.}
+\label{tab:ABMIL_hyper}
+\end{table}
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{l|c|c|c}
+\multicolumn{4}{c}{Set Transformer} \\
+Hyperparameter & split1 & split2 & split3 \\
+\midrule
+Learning rate & 0.0010 & 0.0008 & 0.0008 \\
+Weight decay & 0.00003 & 0.0001 & 0.00001 \\
+Learning rate schedule & cosine & cosine & cosine\\
+\end{tabular}
+\caption{Hyperparameter settings for Set Transformer across different data splits.}
+\label{tab:SetTransformer_hyper}
+\end{table}
+
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{l|c|c|c}
+\multicolumn{4}{c}{Filter then Avg.} \\
+Hyperparameter & split1 & split2 & split3 \\
+\midrule
+Learning rate & 0.003 & 0.001 & 0.003 \\
+Weight decay & 0.00003 & 0.00001 & 0.00001 \\
+Learning rate schedule & cosine & cosine & cosine\\
+\end{tabular}
+\caption{Hyperparameter settings for Filter then Avg. across different data splits.}
+\label{tab:Filter then Avg._hyper}
+\end{table}
+

@@ -1,0 +1,11 @@
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03822/2306.03822_tl2023.bbl' in following:
+ No file 2306.03822_tl2023.bbl.
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Missing character: There is no ; in font nullfont!
+  Missing character: There is no ; in font nullfont!
+  Missing character: There is no ; in font nullfont!
+  Missing character: There is no ; in font nullfont!
+  Missing character: There is no s in font nullfont!
+  Missing character: There is no c in font nullfont!
+  Missing character: There is no a in font nullfont!
+ And 39 more --- see log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03822/2306.03822_tl2023.log'

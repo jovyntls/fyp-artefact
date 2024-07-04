@@ -1,0 +1,85 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 17 Mar. 2022. Version 4.77, version: 4.77.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  2306.00030
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+  pdflatex
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00030_tl2021" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030"  "2306.00030"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./2306.00030
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+
+! LaTeX Error: File `iopart.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.3 \newcommand
+               {\gguide}{{\it Preparing graphics for IOP Publishing journals...
+
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00030/2306.00030_tl2021.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2021.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2021.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2021.log'
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2021.log' for details
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 17 Mar. 2022. Version 4.77, version: 4.77.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+  pdflatex
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00030_tl2021" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030"  "2306.00030"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./2306.00030
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+
+! LaTeX Error: File `iopart.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.3 \newcommand
+               {\gguide}{{\it Preparing graphics for IOP Publishing journals...
+
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00030/2306.00030_tl2021.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2021.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2021.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2021.log'
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2021.log' for details

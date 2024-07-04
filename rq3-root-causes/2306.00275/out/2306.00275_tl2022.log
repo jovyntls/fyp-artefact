@@ -1,0 +1,1731 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.4.22)  13 MAR 2024 08:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Main.tex
+(./Main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen140
+\@IEEEtrantmpdimenB=\dimen141
+\@IEEEtrantmpdimenC=\dimen142
+\@IEEEtrantmpcountA=\count185
+\@IEEEtrantmpcountB=\count186
+\@IEEEtrantmpcountC=\count187
+\@IEEEtrantmptoksA=\toks16
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen143
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen144
+\CLASSINFOnormalsizeunitybaselineskip=\dimen145
+\IEEEnormaljot=\dimen146
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen147
+\IEEEquantizedlengthdiff=\dimen148
+\IEEEquantizedtextheightdiff=\dimen149
+\IEEEilabelindentA=\dimen150
+\IEEEilabelindentB=\dimen151
+\IEEEilabelindent=\dimen152
+\IEEEelabelindent=\dimen153
+\IEEEdlabelindent=\dimen154
+\IEEElabelindent=\dimen155
+\IEEEiednormlabelsep=\dimen156
+\IEEEiedmathlabelsep=\dimen157
+\IEEEiedtopsep=\skip48
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@IEEEsubequation=\count192
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\c@figure=\count193
+\c@table=\count194
+\@IEEEeqnnumcols=\count195
+\@IEEEeqncolcnt=\count196
+\@IEEEsubeqnnumrollback=\count197
+\@IEEEquantizeheightA=\dimen158
+\@IEEEquantizeheightB=\dimen159
+\@IEEEquantizeheightC=\dimen160
+\@IEEEquantizeprevdepth=\dimen161
+\@IEEEquantizemultiple=\count198
+\@IEEEquantizeboxA=\box51
+\@IEEEtmpitemindent=\dimen162
+\IEEEPARstartletwidth=\dimen163
+\c@IEEEbiography=\count199
+\@IEEEtranrubishbin=\box52
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/changes/changes.sty
+Package: changes 2021/07/15 v4.2.1 changes package
+
+*** changes package 2021/07/15 v4.2.1 ***
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count266
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count267
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count268
+\decimalpart=\count269
+)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+)
+ulem-option 'normalem,normalbf', passed to package ulem
+truncate-option 'breakall,fit', passed to package truncate
+changes-option 'commandnameprefix=always'
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box53
+\UL@hyphenbox=\box54
+\UL@skip=\skip51
+\UL@hook=\toks19
+\UL@height=\dimen164
+\UL@pe=\count270
+\UL@pixel=\dimen165
+\ULC@box=\box55
+Package: ulem 2019/11/18
+\ULdepth=\dimen166
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen167
+\pgfutil@tempdimb=\dimen168
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen169
+\Gin@req@width=\dimen170
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen171
+\pgf@y=\dimen172
+\pgf@xa=\dimen173
+\pgf@ya=\dimen174
+\pgf@xb=\dimen175
+\pgf@yb=\dimen176
+\pgf@xc=\dimen177
+\pgf@yc=\dimen178
+\pgf@xd=\dimen179
+\pgf@yd=\dimen180
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count271
+\c@pgf@countb=\count272
+\c@pgf@countc=\count273
+\c@pgf@countd=\count274
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count275
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count276
+\pgfsyssoftpath@bigbuffer@items=\count277
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen181
+\pgfmath@count=\count278
+\pgfmath@box=\box57
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count279
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen182
+\pgf@picmaxx=\dimen183
+\pgf@picminy=\dimen184
+\pgf@picmaxy=\dimen185
+\pgf@pathminx=\dimen186
+\pgf@pathmaxx=\dimen187
+\pgf@pathminy=\dimen188
+\pgf@pathmaxy=\dimen189
+\pgf@xx=\dimen190
+\pgf@xy=\dimen191
+\pgf@yx=\dimen192
+\pgf@yy=\dimen193
+\pgf@zx=\dimen194
+\pgf@zy=\dimen195
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen196
+\pgf@path@lasty=\dimen197
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen198
+\pgf@shorten@start@additional=\dimen199
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count280
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen256
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen257
+\pgf@pt@y=\dimen258
+\pgf@pt@temp=\dimen259
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen260
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen261
+\pgf@sys@shading@range@num=\count281
+\pgf@shadingcount=\count282
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box61
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box62
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen262
+\pgf@nodesepend=\dimen263
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen264
+\pgffor@skip=\dimen265
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count283
+\pgfplotmarksize=\dimen266
+)
+\tikz@lastx=\dimen267
+\tikz@lasty=\dimen268
+\tikz@lastxsaved=\dimen269
+\tikz@lastysaved=\dimen270
+\tikz@lastmovetox=\dimen271
+\tikz@lastmovetoy=\dimen272
+\tikzleveldistance=\dimen273
+\tikzsiblingdistance=\dimen274
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count284
+\tikznumberofchildren=\count285
+\tikznumberofcurrentchild=\count286
+\tikz@fig@count=\count287
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count288
+\pgfmatrixcurrentcolumn=\count289
+\pgf@matrix@numberofcolumns=\count290
+)
+\tikz@expandcount=\count291
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count292
+\calc@Bcount=\count293
+\calc@Adimen=\dimen275
+\calc@Bdimen=\dimen276
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count294
+\calc@Cskip=\skip54
+)
+\c@@todonotes@numberoftodonotes=\count295
+)
+\c@Changes@AuthorCount=\count296
+\c@Changes@Author=\count297
+\c@Changes@addedCount=\count298
+\c@Changes@deletedCount=\count299
+\c@Changes@replacedCount=\count300
+\c@Changes@highlightCount=\count301
+\c@Changes@commentCount=\count302
+\c@authorcommentcount=\count303
+
+changes-package option commandnameprefix=always: using prefix on added, new com
+mand name is chadded.
+changes-package option commandnameprefix=always: using prefix on deleted, new c
+ommand name is chdeleted.
+changes-package option commandnameprefix=always: using prefix on replaced, new 
+command name is chreplaced.
+changes-package option commandnameprefix=always: using prefix on highlight, new
+ command name is chhighlight.
+changes-package option commandnameprefix=always: using prefix on comment, new c
+ommand name is chcomment.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/truncate/truncate.sty
+Package: truncate 2001/08/20  ver 3.6
+\@Trunc@RestHyph=\toks32
+)
+\Changestruncatewidth=\skip55
+\Changes@summary@width=\skip56
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen277
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen278
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count304
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count305
+\leftroot@=\count306
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count307
+\DOTSCASE@=\count308
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box67
+\strutbox@=\box68
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen279
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count309
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count310
+\dotsspace@=\muskip16
+\c@parentequation=\count311
+\dspbrk@lvl=\count312
+\tag@help=\toks34
+\row@=\count313
+\column@=\count314
+\maxfields@=\count315
+\andhelp@=\toks35
+\eqnshift@=\dimen280
+\alignsep@=\dimen281
+\tagshift@=\dimen282
+\tagwidth@=\dimen283
+\totwidth@=\dimen284
+\lineht@=\dimen285
+\@envbody=\toks36
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count316
+\c@ALC@line=\count317
+\c@ALC@rem=\count318
+\c@ALC@depth=\count319
+\ALC@tlm=\skip60
+\algorithmicindent=\skip61
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count320
+\float@exts=\toks38
+\float@box=\box69
+\@float@everytoks=\toks39
+\@floatcapt=\box70
+)
+\@float@every@algorithm=\toks40
+\c@algorithm=\count321
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen286
+\ar@mcellbox=\box71
+\extrarowheight=\dimen287
+\NC@list=\toks41
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box72
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip64
+\subfigcapskip=\skip65
+\subfigcaptopadj=\dimen288
+\subfigbottomskip=\skip66
+\subfigcapmargin=\dimen289
+\subfiglabelskip=\skip67
+\c@subfigure=\count322
+\c@lofdepth=\count323
+\c@subtable=\count324
+\c@lotdepth=\count325
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2022/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip68
+\subfig@bottom=\skip69
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen290
+\captionmargin=\dimen291
+\caption@leftmargin=\dimen292
+\caption@rightmargin=\dimen293
+\caption@width=\dimen294
+\caption@indent=\dimen295
+\caption@parindent=\dimen296
+\caption@hangindent=\dimen297
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
+lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
+ {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
+nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
+e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
+malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
+ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
+ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
+\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
+\fi  on input line 1176.
+)
+\c@KVtest=\count326
+\sf@farskip=\skip70
+\sf@captopadj=\dimen298
+\sf@capskip=\skip71
+\sf@nearskip=\skip72
+\sf@top=\skip73
+\sf@bottom=\skip74
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count327
+\c@dblbotnumber=\count328
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks42
+\verbatim@line=\toks43
+\verbatim@in@stream=\read3
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen299
+\lightrulewidth=\dimen300
+\cmidrulewidth=\dimen301
+\belowrulesep=\dimen302
+\belowbottomsep=\dimen303
+\aboverulesep=\dimen304
+\abovetopsep=\dimen305
+\cmidrulesep=\dimen306
+\cmidrulekern=\dimen307
+\defaultaddspace=\dimen308
+\@cmidla=\count329
+\@cmidlb=\count330
+\@aboverulesep=\dimen309
+\@belowrulesep=\dimen310
+\@thisruleclass=\count331
+\@lastruleclass=\count332
+\@thisrulewidth=\dimen311
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count333
+\multirow@dima=\skip76
+\bigstrutjot=\dimen312
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen313
+\c@nlinenum=\count334
+\TeXr@lab=\toks44
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tabularray/tabularray.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count335
+\l__pdf_internal_box=\box73
+))
+Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count336
+\l__tblr_c_int=\count337
+\l__tblr_r_int=\count338
+\l__tblr_d_dim=\dimen314
+\l__tblr_h_dim=\dimen315
+\l__tblr_o_dim=\dimen316
+\l__tblr_p_dim=\dimen317
+\l__tblr_q_dim=\dimen318
+\l__tblr_r_dim=\dimen319
+\l__tblr_s_dim=\dimen320
+\l__tblr_t_dim=\dimen321
+\l__tblr_v_dim=\dimen322
+\l__tblr_w_dim=\dimen323
+\l__tblr_a_box=\box74
+\l__tblr_b_box=\box75
+\l__tblr_c_box=\box76
+\l__tblr_d_box=\box77
+\g__tblr_table_count_int=\count339
+\c@rownum=\count340
+\c@colnum=\count341
+\c@rowcount=\count342
+\c@colcount=\count343
+\abovesep=\dimen324
+\belowsep=\dimen325
+\leftsep=\dimen326
+\rightsep=\dimen327
+\g_tblr_level_int=\count344
+\g__tblr_data_row_key_count_int=\count345
+\g__tblr_data_column_key_count_int=\count346
+\g__tblr_data_cell_key_count_int=\count347
+\g__tblr_array_int=\count348
+\l__tblr_key_count_int=\count349
+\l__tblr_key_quotient_int=\count350
+\l__tblr_key_quotient_two_int=\count351
+\l__tblr_key_remainder_int=\count352
+\g__tblr_data_str_value_count_int=\count353
+\rulewidth=\dimen328
+\l__tblr_strut_dp_dim=\dimen329
+\l__tblr_strut_ht_dim=\dimen330
+\g__tblr_cell_wd_dim=\dimen331
+\g__tblr_cell_ht_dim=\dimen332
+\g__tblr_cell_head_dim=\dimen333
+\g__tblr_cell_foot_dim=\dimen334
+\l__column_target_dim=\dimen335
+\l__tblr_caption_box=\box78
+\l__tblr_caption_left_box=\box79
+\l__tblr_row_head_box=\box80
+\l__tblr_row_foot_box=\box81
+\l__tblr_row_head_foot_dim=\dimen336
+\tablewidth=\dimen337
+\l__tblr_table_firsthead_box=\box82
+\l__tblr_table_middlehead_box=\box83
+\l__tblr_table_lasthead_box=\box84
+\l__tblr_table_firstfoot_box=\box85
+\l__tblr_table_middlefoot_box=\box86
+\l__tblr_table_lastfoot_box=\box87
+\l__tblr_remain_height_dim=\dimen338
+\l__tblr_long_from_int=\count354
+\l__tblr_long_to_int=\count355
+\l__tblr_curr_i_int=\count356
+\l__tblr_prev_i_int=\count357
+\l__tblr_table_page_int=\count358
+\l__tblr_table_head_box=\box88
+\l__tblr_table_foot_box=\box89
+\l__tblr_table_head_foot_dim=\dimen339
+\l__tblr_table_head_body_foot_dim=\dimen340
+\l__tblr_table_box=\box90
+\l__tblr_table_hlines_box=\box91
+\l__tblr_hline_box=\box92
+\l__tblr_row_box=\box93
+\l__tblr_col_o_wd_dim=\dimen341
+\l__tblr_col_b_wd_dim=\dimen342
+\l__tblr_hline_leftskip_dim=\dimen343
+\l__tblr_hline_rightskip_dim=\dimen344
+\l__tblr_row_ht_dim=\dimen345
+\l__tblr_row_dp_dim=\dimen346
+\l__tblr_row_abovesep_dim=\dimen347
+\l__tblr_row_belowsep_dim=\dimen348
+\l__tblr_row_vlines_box=\box94
+\l__tblr_vline_box=\box95
+\l__tblr_cell_box=\box96
+\l__row_upper_dim=\dimen349
+\l__row_lower_dim=\dimen350
+\l__row_vpace_dim=\dimen351
+\l__tblr_vline_aboveskip_dim=\dimen352
+\l__tblr_vline_belowskip_dim=\dimen353
+\l__tblr_cell_wd_dim=\dimen354
+\l__tblr_cell_ht_dim=\dimen355
+\l__tblr_diag_box=\box97
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen356
+\TX@old@table=\dimen357
+\TX@old@col=\dimen358
+\TX@target=\dimen359
+\TX@delta=\dimen360
+\TX@cols=\count359
+\TX@ftn=\toks45
+)
+
+LaTeX Warning: Unused global option(s):
+    [lettersize].
+
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00275/2306.00275
+_tl2022.aux)
+\openout1 = `2306.00275_tl2022.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+-- Lines per column: 58 (exact).
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count360
+\scratchdimen=\dimen361
+\scratchbox=\box98
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen362
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks47
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 27.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+))
+
+LaTeX Warning: Citation `RN143' on page 1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `SN1' on page 1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `RN141' on page 1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `RN257' on page 1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `RN72' on page 1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `RN142' on page 1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `RN77' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `RN88' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `RN144' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `RN146' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `RN147' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `RN77' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `RN255' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `RN55' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `RN148' on page 1 undefined on input line 80.
+
+
+LaTeX Warning: Citation `RN13' on page 1 undefined on input line 80.
+
+
+
+pdfTeX warning: pdflatex (file ./fig2.pdf): PDF inclusion: found PDF version <1
+.6>, but at most version <1.5> allowed
+<fig2.pdf, id=4, 698.00323pt x 537.75496pt>
+File: fig2.pdf Graphic file (type pdf)
+<use fig2.pdf>
+Package pdftex.def Info: fig2.pdf  used on input line 87.
+(pdftex.def)             Requested size: 247.6778pt x 190.80998pt.
+
+LaTeX Warning: Citation `RN180' on page 1 undefined on input line 92.
+
+
+Underfull \vbox (badness 2503) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./fig2.pdf>]
+
+LaTeX Warning: Citation `RN57' on page 2 undefined on input line 94.
+
+
+LaTeX Warning: Citation `RN180' on page 2 undefined on input line 94.
+
+
+LaTeX Warning: Citation `RN88' on page 2 undefined on input line 97.
+
+
+LaTeX Warning: Citation `RN13' on page 2 undefined on input line 97.
+
+
+LaTeX Warning: Citation `RN102' on page 2 undefined on input line 97.
+
+
+LaTeX Warning: Citation `RN55' on page 2 undefined on input line 97.
+
+
+LaTeX Warning: Citation `RN56' on page 2 undefined on input line 97.
+
+
+LaTeX Warning: Citation `RN58' on page 2 undefined on input line 97.
+
+
+LaTeX Warning: Citation `RN16' on page 2 undefined on input line 97.
+
+
+LaTeX Warning: Citation `RN43' on page 2 undefined on input line 97.
+
+<fig1.pdf, id=38, 1159.98862pt x 973.48392pt>
+File: fig1.pdf Graphic file (type pdf)
+<use fig1.pdf>
+Package pdftex.def Info: fig1.pdf  used on input line 101.
+(pdftex.def)             Requested size: 412.80157pt x 346.42847pt.
+
+LaTeX Warning: Citation `TN927' on page 2 undefined on input line 120.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 122
+.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 122
+.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation `RN168' on page 2 undefined on input line 146.
+
+
+LaTeX Warning: Citation `RN169' on page 2 undefined on input line 146.
+
+
+
+pdfTeX warning: pdflatex (file ./fig7.pdf): PDF inclusion: found PDF version <1
+.6>, but at most version <1.5> allowed
+<fig7.pdf, id=39, 716.9786pt x 331.5085pt>
+File: fig7.pdf Graphic file (type pdf)
+<use fig7.pdf>
+Package pdftex.def Info: fig7.pdf  used on input line 150.
+(pdftex.def)             Requested size: 247.6778pt x 114.51724pt.
+
+LaTeX Warning: Citation `RN194' on page 2 undefined on input line 155.
+
+
+LaTeX Warning: Citation `RN197' on page 2 undefined on input line 155.
+
+
+LaTeX Warning: Citation `RN195' on page 2 undefined on input line 155.
+
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./fig1.pdf> <./fig7.pdf>]
+
+LaTeX Warning: Citation `SpaceXNews' on page 4 undefined on input line 159.
+
+
+LaTeX Warning: Citation `lu2022micius' on page 4 undefined on input line 159.
+
+
+LaTeX Warning: Citation `RN170' on page 4 undefined on input line 178.
+
+
+LaTeX Warning: Citation `RN171' on page 4 undefined on input line 178.
+
+
+LaTeX Warning: Citation `RN172' on page 4 undefined on input line 178.
+
+
+LaTeX Warning: Citation `RN218' on page 4 undefined on input line 178.
+
+
+LaTeX Warning: Citation `RN196' on page 4 undefined on input line 181.
+
+
+LaTeX Warning: Citation `RN196' on page 4 undefined on input line 185.
+
+
+Overfull \hbox (2.77957pt too wide) in paragraph at lines 185--186
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 T; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 S[]; S
+[]; [] ; S[]\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 f\OML/cmm/m/i
+t/10 T[]; T[]; T[]; []\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 f\O
+ML/cmm/m/it/10 G[]; G[]; G[]; []\OMS/cmsy/m/n/10 gg$\OT1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 185--186
+\OT1/ptm/m/n/10 is the set of satel-lite nodes and $\OML/cmm/m/it/10 M$ \OT1/pt
+m/m/n/10 is the to-tal
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 185--186
+\OT1/ptm/m/n/10 num-ber of them. In the $\OML/cmm/m/it/10 i$\OT1/ptm/m/n/10 -th
+ times-lice, the model
+ []
+
+
+LaTeX Warning: Citation `RN152' on page 4 undefined on input line 188.
+
+
+LaTeX Warning: Citation `RN154' on page 4 undefined on input line 188.
+
+
+LaTeX Warning: Citation `RN150' on page 4 undefined on input line 190.
+
+
+LaTeX Warning: Citation `RN155' on page 4 undefined on input line 190.
+
+
+LaTeX Warning: Citation `RN88' on page 4 undefined on input line 192.
+
+
+LaTeX Warning: Citation `RN187' on page 4 undefined on input line 192.
+
+
+LaTeX Warning: Citation `RN57' on page 4 undefined on input line 192.
+
+
+LaTeX Warning: Citation `RN157' on page 4 undefined on input line 192.
+
+
+LaTeX Warning: Citation `RN158' on page 4 undefined on input line 192.
+
+
+LaTeX Warning: Citation `RN187' on page 4 undefined on input line 192.
+
+[4]
+
+LaTeX Warning: Citation `RN167' on page 5 undefined on input line 204.
+
+
+LaTeX Warning: Citation `RN4' on page 5 undefined on input line 205.
+
+
+LaTeX Warning: Citation `RN56' on page 5 undefined on input line 208.
+
+
+LaTeX Warning: Citation `RN155' on page 5 undefined on input line 208.
+
+
+LaTeX Warning: Citation `RN55' on page 5 undefined on input line 210.
+
+
+LaTeX Warning: Citation `lei2021maddpg' on page 5 undefined on input line 210.
+
+
+LaTeX Warning: Citation `RN174' on page 5 undefined on input line 210.
+
+
+LaTeX Warning: Citation `RN175' on page 5 undefined on input line 210.
+
+
+LaTeX Warning: Citation `RN102' on page 5 undefined on input line 215.
+
+
+LaTeX Warning: Citation `RN173' on page 5 undefined on input line 215.
+
+
+LaTeX Warning: Citation `RN146' on page 5 undefined on input line 219.
+
+
+LaTeX Warning: Citation `RN181' on page 5 undefined on input line 219.
+
+
+LaTeX Warning: Citation `RN182' on page 5 undefined on input line 219.
+
+
+LaTeX Warning: Citation `he2017mask' on page 5 undefined on input line 222.
+
+
+LaTeX Warning: Citation `RN184' on page 5 undefined on input line 222.
+
+
+LaTeX Warning: Citation `RN61' on page 5 undefined on input line 222.
+
+
+LaTeX Warning: Citation `iphone' on page 5 undefined on input line 222.
+
+
+LaTeX Warning: Citation `RN185' on page 5 undefined on input line 222.
+
+
+LaTeX Warning: Citation `RN186' on page 5 undefined on input line 222.
+
+
+LaTeX Warning: Citation `RN201' on page 5 undefined on input line 230.
+
+
+LaTeX Warning: Citation `RN204' on page 5 undefined on input line 230.
+
+
+LaTeX Warning: Citation `RN205' on page 5 undefined on input line 230.
+
+
+LaTeX Warning: Citation `RN202' on page 5 undefined on input line 230.
+
+
+LaTeX Warning: Citation `RN203' on page 5 undefined on input line 230.
+
+
+LaTeX Warning: Citation `SpaceXNews' on page 5 undefined on input line 230.
+
+[5]
+
+LaTeX Warning: Citation `RN201' on page 6 undefined on input line 235.
+
+
+LaTeX Warning: Citation `RN199' on page 6 undefined on input line 252.
+
+
+LaTeX Warning: Citation `RN206' on page 6 undefined on input line 252.
+
+<fig5.pdf, id=79, 543.08855pt x 639.62663pt>
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf>
+Package pdftex.def Info: fig5.pdf  used on input line 256.
+(pdftex.def)             Requested size: 247.6778pt x 291.704pt.
+<fig8-b.pdf, id=80, 648.60556pt x 377.73721pt>
+File: fig8-b.pdf Graphic file (type pdf)
+<use fig8-b.pdf>
+Package pdftex.def Info: fig8-b.pdf  used on input line 275.
+(pdftex.def)             Requested size: 260.17244pt x 151.51872pt.
+
+Overfull \hbox (2.17244pt too wide) in paragraph at lines 275--275
+ [][] 
+ []
+
+<fig8-a.pdf, id=81, 648.27045pt x 355.55635pt>
+File: fig8-a.pdf Graphic file (type pdf)
+<use fig8-a.pdf>
+Package pdftex.def Info: fig8-a.pdf  used on input line 282.
+(pdftex.def)             Requested size: 260.17244pt x 142.69743pt.
+
+Overfull \hbox (2.17244pt too wide) in paragraph at lines 282--282
+ [][] 
+ []
+
+
+Overfull \hbox (7.00012pt too wide) in paragraph at lines 275--283
+ [][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `RN88' on page 6 undefined on input line 289.
+
+
+LaTeX Warning: Citation `RN207' on page 6 undefined on input line 289.
+
+
+LaTeX Warning: Citation `RN208' on page 6 undefined on input line 289.
+
+
+LaTeX Warning: Citation `RN56' on page 6 undefined on input line 289.
+
+[6 <./fig5.pdf>]
+
+LaTeX Warning: Citation `RN229' on page 7 undefined on input line 302.
+
+
+LaTeX Warning: Citation `RN230' on page 7 undefined on input line 302.
+
+
+LaTeX Warning: Citation `RN260' on page 7 undefined on input line 304.
+
+
+LaTeX Warning: Citation `sos1' on page 7 undefined on input line 307.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Citation `linux1' on page 7 undefined on input line 309.
+
+
+LaTeX Warning: Citation `linux2' on page 7 undefined on input line 309.
+
+
+LaTeX Warning: Citation `linux1' on page 7 undefined on input line 311.
+
+
+LaTeX Warning: Citation `linux2' on page 7 undefined on input line 311.
+
+
+LaTeX Warning: Citation `spaceos' on page 7 undefined on input line 313.
+
+<fig9.pdf, id=93, 768.5815pt x 529.30316pt>
+File: fig9.pdf Graphic file (type pdf)
+<use fig9.pdf>
+Package pdftex.def Info: fig9.pdf  used on input line 318.
+(pdftex.def)             Requested size: 232.19843pt x 159.90672pt.
+
+LaTeX Warning: Citation `denby2023kodan' on page 7 undefined on input line 319.
+
+
+
+LaTeX Warning: Citation `denby2023kodan' on page 7 undefined on input line 319.
+
+
+[7 <./fig8-b.pdf> <./fig8-a.pdf>]
+
+LaTeX Warning: Citation `RN57' on page 8 undefined on input line 328.
+
+
+LaTeX Warning: Citation `RN187' on page 8 undefined on input line 328.
+
+
+LaTeX Warning: Citation `denby2023kodan' on page 8 undefined on input line 328.
+
+
+<fig3.pdf, id=175, 794.97pt x 515.42563pt>
+File: fig3.pdf Graphic file (type pdf)
+<use fig3.pdf>
+Package pdftex.def Info: fig3.pdf  used on input line 339.
+(pdftex.def)             Requested size: 247.6778pt x 160.58249pt.
+
+LaTeX Warning: Citation `RN55' on page 8 undefined on input line 340.
+
+<fig4.pdf, id=176, 790.08989pt x 324.63884pt>
+File: fig4.pdf Graphic file (type pdf)
+<use fig4.pdf>
+Package pdftex.def Info: fig4.pdf  used on input line 347.
+(pdftex.def)             Requested size: 247.6778pt x 101.7664pt.
+
+LaTeX Warning: Citation `RN55' on page 8 undefined on input line 355.
+
+
+LaTeX Warning: Citation `sabol2001' on page 8 undefined on input line 358.
+
+
+LaTeX Warning: Citation `RN46' on page 8 undefined on input line 358.
+
+[8 <./fig9.pdf> <./fig3.pdf> <./fig4.pdf>]
+
+LaTeX Warning: Citation `RN231' on page 9 undefined on input line 369.
+
+
+LaTeX Warning: Citation `RN233' on page 9 undefined on input line 369.
+
+
+LaTeX Warning: Citation `RN232' on page 9 undefined on input line 369.
+
+
+LaTeX Warning: Citation `RN81' on page 9 undefined on input line 369.
+
+
+LaTeX Warning: Citation `RN102' on page 9 undefined on input line 371.
+
+
+LaTeX Warning: Citation `RN234' on page 9 undefined on input line 377.
+
+
+LaTeX Warning: Citation `RN235' on page 9 undefined on input line 377.
+
+
+LaTeX Warning: Citation `RN81' on page 9 undefined on input line 379.
+
+
+LaTeX Warning: Citation `RN237' on page 9 undefined on input line 385.
+
+
+LaTeX Warning: Citation `RN187' on page 9 undefined on input line 385.
+
+
+LaTeX Warning: Citation `RN13' on page 9 undefined on input line 385.
+
+
+LaTeX Warning: Citation `RN236' on page 9 undefined on input line 385.
+
+<fig6-a.pdf, id=267, 664.73749pt x 359.92567pt>
+File: fig6-a.pdf Graphic file (type pdf)
+<use fig6-a.pdf>
+Package pdftex.def Info: fig6-a.pdf  used on input line 396.
+(pdftex.def)             Requested size: 260.17244pt x 140.87021pt.
+
+Overfull \hbox (2.17244pt too wide) in paragraph at lines 396--396
+ [][] 
+ []
+
+<fig6-b.pdf, id=268, 664.40108pt x 375.38544pt>
+File: fig6-b.pdf Graphic file (type pdf)
+<use fig6-b.pdf>
+Package pdftex.def Info: fig6-b.pdf  used on input line 403.
+(pdftex.def)             Requested size: 260.17244pt x 147.00114pt.
+
+Overfull \hbox (2.17244pt too wide) in paragraph at lines 403--403
+ [][] 
+ []
+
+
+Overfull \hbox (7.00012pt too wide) in paragraph at lines 396--404
+ [][][] 
+ []
+
+<fig6-c.pdf, id=269, 725.56508pt x 423.10571pt>
+File: fig6-c.pdf Graphic file (type pdf)
+<use fig6-c.pdf>
+Package pdftex.def Info: fig6-c.pdf  used on input line 411.
+(pdftex.def)             Requested size: 260.17244pt x 151.71106pt.
+
+Overfull \hbox (2.17244pt too wide) in paragraph at lines 411--411
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `RN217' on page 9 undefined on input line 414.
+
+
+LaTeX Warning: Citation `RN217' on page 9 undefined on input line 414.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9]
+
+LaTeX Warning: Citation `RN209' on page 10 undefined on input line 426.
+
+
+LaTeX Warning: Citation `RN225' on page 10 undefined on input line 426.
+
+
+LaTeX Warning: Citation `RN214' on page 10 undefined on input line 426.
+
+
+LaTeX Warning: Citation `RN209' on page 10 undefined on input line 426.
+
+
+LaTeX Warning: Citation `RN210' on page 10 undefined on input line 426.
+
+
+LaTeX Warning: Citation `RN211' on page 10 undefined on input line 426.
+
+[10 <./fig6-a.pdf> <./fig6-b.pdf> <./fig6-c.pdf>]
+
+LaTeX Warning: Citation `RN215' on page 11 undefined on input line 428.
+
+
+LaTeX Warning: Citation `RN217' on page 11 undefined on input line 428.
+
+
+LaTeX Warning: Citation `RN227' on page 11 undefined on input line 428.
+
+
+LaTeX Warning: Citation `RN214' on page 11 undefined on input line 430.
+
+
+LaTeX Warning: Citation `RN81' on page 11 undefined on input line 430.
+
+
+LaTeX Warning: Citation `RN216' on page 11 undefined on input line 432.
+
+
+LaTeX Warning: Citation `RN212' on page 11 undefined on input line 432.
+
+
+LaTeX Warning: Citation `RN217' on page 11 undefined on input line 432.
+
+
+LaTeX Warning: Citation `RN226' on page 11 undefined on input line 432.
+
+
+LaTeX Warning: Citation `RN209' on page 11 undefined on input line 441.
+
+
+LaTeX Warning: Citation `RN224' on page 11 undefined on input line 441.
+
+
+LaTeX Warning: Citation `RN211' on page 11 undefined on input line 443.
+
+
+LaTeX Warning: Citation `RN219' on page 11 undefined on input line 445.
+
+
+LaTeX Warning: Citation `RN215' on page 11 undefined on input line 447.
+
+
+Overfull \vbox (15.15456pt too high) detected at line 449
+ []
+
+
+Overfull \vbox (5.69046pt too high) detected at line 449
+ []
+
+
+LaTeX Warning: Citation `RN225' on page 11 undefined on input line 449.
+
+
+Overfull \vbox (5.69046pt too high) detected at line 449
+ []
+
+
+Overfull \vbox (5.69046pt too high) detected at line 449
+ []
+
+
+LaTeX Warning: Citation `RN217' on page 11 undefined on input line 452.
+
+
+LaTeX Warning: Citation `RN212' on page 11 undefined on input line 454.
+
+
+LaTeX Warning: Citation `RN210' on page 11 undefined on input line 456.
+
+
+LaTeX Warning: Citation `RN214' on page 11 undefined on input line 458.
+
+
+Overfull \hbox (7.13298pt too wide) in paragraph at lines 438--461
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `RN140' on page 11 undefined on input line 469.
+
+
+LaTeX Warning: Citation `iFogsim' on page 11 undefined on input line 469.
+
+
+LaTeX Warning: Citation `mockfog' on page 11 undefined on input line 469.
+
+
+LaTeX Warning: Citation `RN80' on page 11 undefined on input line 472.
+
+
+LaTeX Warning: Citation `RN77' on page 11 undefined on input line 472.
+
+
+LaTeX Warning: Citation `RN76' on page 11 undefined on input line 472.
+
+
+LaTeX Warning: Citation `RN4' on page 11 undefined on input line 474.
+
+
+LaTeX Warning: Citation `RN58' on page 11 undefined on input line 474.
+
+
+LaTeX Warning: Citation `RN56' on page 11 undefined on input line 474.
+
+
+LaTeX Warning: Citation `RN209' on page 11 undefined on input line 474.
+
+
+LaTeX Warning: Citation `RN210' on page 11 undefined on input line 474.
+
+
+LaTeX Warning: Citation `RN212' on page 11 undefined on input line 474.
+
+
+LaTeX Warning: Citation `RN239' on page 11 undefined on input line 474.
+
+
+LaTeX Warning: Citation `RN105' on page 11 undefined on input line 474.
+
+
+LaTeX Warning: Citation `RN60' on page 11 undefined on input line 474.
+
+[11]
+
+LaTeX Warning: Citation `RN78' on page 12 undefined on input line 483.
+
+
+LaTeX Warning: Citation `RN80' on page 12 undefined on input line 483.
+
+
+LaTeX Warning: Citation `RN18' on page 12 undefined on input line 486.
+
+
+LaTeX Warning: Citation `RN81' on page 12 undefined on input line 486.
+
+
+LaTeX Warning: Citation `RN79' on page 12 undefined on input line 486.
+
+
+LaTeX Warning: Citation `RN77' on page 12 undefined on input line 486.
+
+[12]
+
+LaTeX Warning: Citation `RN211' on page 13 undefined on input line 489.
+
+
+LaTeX Warning: Citation `FMOW' on page 13 undefined on input line 489.
+
+
+LaTeX Warning: Citation `RN211' on page 13 undefined on input line 489.
+
+
+LaTeX Warning: Citation `RN241' on page 13 undefined on input line 495.
+
+
+LaTeX Warning: Citation `RN242' on page 13 undefined on input line 495.
+
+
+LaTeX Warning: Citation `RN106' on page 13 undefined on input line 495.
+
+
+LaTeX Warning: Citation `RN102' on page 13 undefined on input line 498.
+
+
+LaTeX Warning: Citation `RN18' on page 13 undefined on input line 506.
+
+
+LaTeX Warning: Citation `RN79' on page 13 undefined on input line 506.
+
+
+LaTeX Warning: Citation `RN78' on page 13 undefined on input line 506.
+
+
+LaTeX Warning: Citation `RN77' on page 13 undefined on input line 508.
+
+
+LaTeX Warning: Citation `RN4' on page 13 undefined on input line 510.
+
+
+LaTeX Warning: Citation `RN18' on page 13 undefined on input line 513.
+
+
+LaTeX Warning: Citation `RN78' on page 13 undefined on input line 513.
+
+
+LaTeX Warning: Citation `RN80' on page 13 undefined on input line 513.
+
+
+LaTeX Warning: Citation `RN245' on page 13 undefined on input line 513.
+
+
+LaTeX Warning: Citation `RN239' on page 13 undefined on input line 514.
+
+[13]
+
+LaTeX Warning: Citation `RN248' on page 14 undefined on input line 516.
+
+
+LaTeX Warning: Citation `RN249' on page 14 undefined on input line 516.
+
+
+LaTeX Warning: Citation `RN247' on page 14 undefined on input line 516.
+
+
+LaTeX Warning: Citation `RN250' on page 14 undefined on input line 516.
+
+
+LaTeX Warning: Citation `RN246' on page 14 undefined on input line 516.
+
+
+LaTeX Warning: Citation `RN243' on page 14 undefined on input line 519.
+
+
+LaTeX Warning: Citation `RN79' on page 14 undefined on input line 519.
+
+
+LaTeX Warning: Citation `RN55' on page 14 undefined on input line 519.
+
+
+LaTeX Warning: Citation `RN240' on page 14 undefined on input line 519.
+
+
+LaTeX Warning: Citation `RN244' on page 14 undefined on input line 521.
+
+[14]
+
+LaTeX Warning: Citation `RN13' on page 15 undefined on input line 540.
+
+
+LaTeX Warning: Citation `denby2023kodan' on page 15 undefined on input line 563
+.
+
+
+LaTeX Warning: Citation `RN102' on page 15 undefined on input line 575.
+
+[15]
+No file 2306.00275_tl2022.bbl.
+\Changes@OutFile=\write4
+\openout4 = `2306.00275_tl2022.soc'.
+
+\tf@loc=\write5
+\openout5 = `2306.00275_tl2022.loc'.
+
+[16
+
+]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00275/2306.00275
+_tl2022.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 19697 strings out of 476024
+ 404119 string characters out of 5790024
+ 1883388 words of memory out of 5000000
+ 39782 multiletter control sequences out of 15000+600000
+ 556622 words of font info for 112 fonts, out of 8000000 for 9000
+ 1145 hyphenation exceptions out of 8191
+ 132i,18n,132p,2074b,389s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00275/2306.00275_tl2022.pdf (16 pages, 1540065 bytes).
+PDF statistics:
+ 515 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+

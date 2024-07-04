@@ -1,0 +1,16 @@
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00275/2306.00275_tl2023.bbl' in following:
+ No file 2306.00275_tl2023.bbl.
+Latexmk: Veto of running of 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00275/2306.00275_tl2023' ($bibtex_use=1)
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00275/2306.00275_tl2023.bbl' in following:
+ No file 2306.00275_tl2023.bbl.
+Latexmk: Veto of running of 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00275/2306.00275_tl2023' ($bibtex_use=1)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Citation `RN143' on page 1 undefined on input line 78
+  Citation `SN1' on page 1 undefined on input line 78
+  Citation `RN141' on page 1 undefined on input line 78
+  Citation `RN257' on page 1 undefined on input line 78
+  Citation `RN72' on page 1 undefined on input line 78
+  Citation `RN142' on page 1 undefined on input line 78
+  Citation `RN77' on page 1 undefined on input line 80
+ And 187 more --- see log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00275/2306.00275_tl2023.log'
+Latexmk: Veto of running of 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00275/2306.00275_tl2023' ($bibtex_use=1)

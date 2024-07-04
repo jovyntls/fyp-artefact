@@ -1,0 +1,1139 @@
+\documentclass{article}
+
+
+% ========================= %
+%         Packages  (add as needed)              %
+% ========================= %
+\usepackage[final]{graphicx} %for the \includegraphics command and figures put [final] before ...
+%%    {graphix} if you want figures to show up even while in draft mode
+\usepackage{subcaption}    % to be able to have multiple plots in one figure
+\usepackage{color} % for changing text color in chapters \textcolor{red}{red text read here}. 
+\usepackage{varioref}  % for \vref{figure} which shows up like ``figure 4 on page 6'' 
+\usepackage{rotating}  % to rotate figures and captions
+
+\usepackage{pdflscape}		%command to rotate a page into landscape mode
+\usepackage{setspace}		%\vspace command
+\usepackage{mathrsfs}			%a fancy script for fourier and hilbert transform symbols
+\usepackage{mathtools}
+\usepackage{verbatim}			%add the \comment option
+
+\usepackage[final]{listings} %used for formatting code
+\usepackage[pdftex,hidelinks]{hyperref}
+\usepackage{cite} %compresses the citations so \cite{ref1,ref2,ref3,ref4} is printed as [1-4] instead of [1,2,3,4]
+
+
+\usepackage{tikz,ulem} % used for creating figures
+\usetikzlibrary{calc}
+\usetikzlibrary{patterns}
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows}
+
+%%mark
+
+%\usepackage{epsfig}
+%\usepackage{graphics}
+%\usepackage{pstricks,pst-node}
+%%\usepackage{auto-pst-pdf}
+%
+\usepackage{latexsym}
+%\usepackage{bm,array}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{bbm}
+\usepackage{afterpage}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % Generates random text
+%\usepackage{hyperref}
+%
+%
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amscd}
+\usepackage{amssymb}
+%
+%\usepackage{t1enc}
+%\usepackage[mathscr]{eucal}
+%\usepackage{indentfirst}
+%\usepackage{graphicx}
+%\usepackage{graphics}
+%\usepackage{pict2e}
+%\usepackage{epic}
+%\numberwithin{equation}{section}
+%
+% 
+%\usepackage{tikz-cd}
+%\usepackage{pgf}
+%\usepackage{multicol}
+%\usepackage{thmtools, thm-restate}
+%\usepackage{extpfeil}
+%\usepackage{comment}
+%\usepackage{epsfig}
+%\usepackage{psfrag}
+%\usepackage{mathrsfs}
+%
+%\usepackage[all]{xy}
+%\usepackage{rotating}
+%\usepackage{lscape}
+\usepackage{amsbsy}
+%\usepackage{verbatim}
+%\usepackage{moreverb}
+%\usepackage{color}
+%\usepackage{bbm}
+%\usepackage{eucal}
+%
+%\usepackage{tikz}
+%\usetikzlibrary{patterns,shapes.geometric,arrows,decorations.markings,matrix}
+%\usepackage{tikz-3dplot}
+%
+%\usepackage{caption}
+%\usepackage{subcaption}
+
+\usepackage{epsf,graphicx,amsmath,verbatim,epsfig,amssymb,bbm}
+\usepackage{tikz-cd,tikz, MnSymbol, relsize,enumitem, dsfont}
+\usepackage{enumitem}
+\usepackage{amsthm}
+
+\usepackage[all]{xy}
+
+\usepackage{pgfplots, tikz}
+
+\usepackage{pgfplots}
+\usepackage{tkz-euclide}
+\usepgfplotslibrary{fillbetween}
+
+
+
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=blue,only marks,mark=*}} \pgfplotsset{holdot/.style={color=blue,fill=white,only marks,mark=*}}
+
+
+
+
+%\usepackage{afterpage}
+
+% Style of code listings (Change as needed)
+\lstset{%set Code listings styles
+	language=Matlab, % program language for keywords and comments styles
+	basicstyle=\small, %font size and style
+	identifierstyle=\color{red}, %variable name style
+	stringstyle=\ttfamily, %string style
+	keywordstyle=\color{blue}\bfseries, %language keyword style
+	commentstyle=\color{black}\itshape, %commentstyle
+	breaklines=true,  % sets automatic line breaking
+	breakatwhitespace=false,   %break line not just at whitespaces
+}
+
+%\graphicspath{{mark/BMB_2016_Adam/_Revision_3_accepted/}}
+
+
+% ======================= %
+%  User defined commands (  %
+% ======================= %
+ \def\numset#1{{\\mathbb #1}}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+
+
+
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{ack}[theorem]{Acknowledgments}
+\newtheorem{observation}[theorem]{Observation}
+\newtheorem{construction}[theorem]{Construction}
+\newtheorem{terminology}[theorem]{Terminology}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{claim}{\sc Claim} [theorem]
+\newtheorem{convention}[theorem]{Convention}
+
+
+\theoremstyle{remark}
+
+
+%\newtheorem{theorem}{Theorem}[section]
+%
+%\theoremstyle{definition}
+%\newtheorem{proposition}{\sc Proposition}[theorem]
+%%\newtheorem{theorem}{\sc Theorem}[theorem]
+%\newtheorem{definition}{\sc Definition}[theorem]
+%\newtheorem{lemma}{\sc Lemma}[theorem]
+%%\newtheorem{example}{\sc Example} [theorem]
+%
+%\newtheorem{observation}{\sc Observation} [theorem]
+%\newtheorem{corollary}{\sc Corollary} [theorem]
+%
+%\theoremstyle{remark}
+%\newtheorem{example}{Example}[theorem]
+%\newtheorem{notation}{Notation}[theorem]
+%\newtheorem{remark}{Remark}[theorem]
+
+\newcommand{\blue}[1]{\color{blue}#1\color{black}}
+
+\newcommand{\aut}{\text{Aut}}
+
+
+\newcommand{\p}{\varphi}
+\newcommand{\RR}{{\rm I\kern -1.6pt{\rm R}}}
+
+\def\ds{\displaystyle}
+\def\finteo{\hfill\vrule height0.3truecm width0.2truecm depth 1pt \bigskip}
+\def\cat{\textbf}
+\def\nat{\text{Nat}}
+\def\deq{:=}
+
+\def\sh{\mathcal{F}}
+\def\shc{\mathcal{F}_{(M,\xi)}}
+\newcommand{\shd}[2]{\mathcal{F}_{(#1,#2)}}
+
+\def\r{\widehat}
+\def\R{\mathbb{R}}
+\def\Mor{\normalfont\text{Mor}}
+\def\sm{{\sf Map}^{\sf sm}}
+\def\contm{{\sf Map}^{\sf cont}}
+\def\S{\mathbb{S}}
+\def\nf{\normalfont}
+\def\exp{\nf\text{exp}}
+\def\id{\mathbbm{1}}
+\def\ge{\mathfrak{g}}
+\def\twilde{\widetilde}
+\def\gsim{\sim_{n'}}
+\def\tnat{\nf\widetilde{\nat}_P}
+\def\b{{ }}%\Box
+\newcommand{\incl}[1]{incl_{#1}}
+
+\def\H{\mathbb{H}}
+
+\def\interior{\mathring}
+\def\closure{\overline}
+\def\dim{\emph{dim}}
+\def\span{\text{span}}
+\def\proj{{\sf pr}}
+\newcommand{\cm}[1]{{\sf Map}^{\sf{H}}\bigl(#1,(M,\xi)\bigr)} 
+\newcommand{\dm}[3]{{\sf Map}^{\sf{H}}\bigl(#1,(#2,#3)\bigr)} 
+\newcommand{\dmpt}[4]{{\sf Map}^{\sf{H}}_{#4}\bigl(#1,(#2,#3)\bigr)} 
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\rank}{\text{rank}}
+\newcommand{\e}[1]{\tilde{#1}}
+
+\newcommand{\der}[2]{D_{#2}{#1}} 
+\newcommand{\de}[1]{D{#1}}
+\newcommand{\deR}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\basis}[1]{\frac{\partial}{\partial #1}}
+\newcommand{\deRtwom}[3]{\frac{\partial^2 #1}{\partial #2 \partial #3}}
+\newcommand{\deRtwo}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+
+\newcommand{\sheaf}[1]{\mathcal{F}(#1)}
+\newcommand{\sheafc}[1]{\mathcal{F}_{(M,\xi)}(#1)}
+\newcommand{\q}[1]{q\left(#1\right)}
+
+\DeclareMathOperator{\Ima}{Im}
+
+
+\DeclareMathOperator{\op}{{\mathsf{op}}}
+
+\def\cl{{\mathcal{U}'}}
+\def\U{{\mathcal{U}}}
+\def\cls{{\mathcal{U}'}}
+\def\fib{{\mathcal{E}}}
+\def\K{\mathcal{K}}
+\def\Ko{\mathcal{K}'}
+
+\def\Hom{{\sf Hom}}
+
+\def\cc{Carnot-Carath\'{e}odory~}
+\newcommand{\g}[1]{g^{#1}}
+\newcommand{\dcc}[1]{d_{CC}^{#1}}
+\def\H{\mathbb{H}}
+\newcommand{\hm}[1]{\mathcal{H}^{#1}}
+\newcommand{\pilip}[1]{\pi_{#1}^{\text{Lip}}}
+\newcommand{\bcc}[1]{B_{CC}^{#1}}
+\newcommand{\length}[1]{\ell}%^{#1}}
+\def\hopath{{\sf Path}^{\sf Horiz}}
+\def\lipmap{{\sf Map}^{\sf Lip}}
+\def\supp{\sf{supp}}
+\def\dT{d^T}
+\def\dR{d^\delta}
+
+\newcommand{\picont}[1]{\pi_{#1}^{\sf{H}}}
+\def\vol{{\sf vol}}
+
+\newcommand{\ps}[2]{\mathcal{P}_{(#1,#2)}}
+\def\dps{d_{\mathcal{P}}}
+\newcommand{\psb}[2]{B_\mathcal{P}\left({{[}#1{]}},#2\right)}
+
+\def\L{\lceil L \rceil}
+
+
+%David notation
+
+\def\cA{\mathcal A}\def\cB{\mathcal B}\def\cC{\mathcal C}\def\cD{\mathcal D}
+\def\cE{\mathcal E}\def\cF{\mathcal F}\def\cG{\mathcal G}\def\cH{\mathcal H}
+\def\cI{\mathcal I}\def\cJ{\mathcal J}\def\cK{\mathcal K}\def\cL{\mathcal L}
+\def\cM{\mathcal M}\def\cN{\mathcal N}\def\cO{\mathcal O}\def\cP{\mathcal P}
+\def\cQ{\mathcal Q}\def\cR{\mathcal R}\def\cS{\mathcal S}\def\cT{\mathcal T}
+\def\cU{\mathcal U}\def\cV{\mathcal V}\def\cW{\mathcal W}\def\cX{\mathcal X}
+\def\cY{\mathcal Y}\def\cZ{\mathcal Z}
+
+\def\fA{\frak A}\def\fB{\frak B}\def\fC{\frak C}\def\fD{\frak D}
+\def\fE{\frak E}\def\fF{\frak F}\def\fG{\frak G}\def\fH{\frak H}
+\def\fI{\frak I}\def\fJ{\frak J}\def\fK{\frak K}\def\fL{\frak L}
+\def\fM{\frak M}\def\fN{\frak N}\def\fO{\frak O}\def\fP{\frak P}
+\def\fQ{\frak Q}\def\fR{\frak R}\def\fS{\frak S}\def\fT{\frak T}
+\def\fU{\frak U}\def\fV{\frak V}\def\fW{\frak W}\def\fX{\frak X}
+\def\fY{\frak Y}\def\fZ{\frak Z}
+
+\def\AA{\mathbb A}\def\BB{\mathbb B}\def\CC{\mathbb C}\def\DD{\mathbb D}
+\def\EE{\mathbb E}\def\FF{\mathbb F}\def\GG{\mathbb G}\def\HH{\mathbb H}
+\def\II{\mathbb I}\def\JJ{\mathbb J}\def\KK{\mathbb K}\def\LL{\mathbb L}
+\def\MM{\mathbb M}\def\NN{\mathbb N}\def\OO{\mathbb O}\def\PP{\mathbb P}
+\def\QQ{\mathbb Q}\def\RR{\mathbb R}\def\SS{\mathbb S}\def\TT{\mathbb T}
+\def\UU{\mathbb U}\def\VV{\mathbb V}\def\WW{\mathbb W}\def\XX{\mathbb X}
+\def\YY{\mathbb Y}\def\ZZ{\mathbb Z}
+
+\newcommand{\xra}{\xrightarrow}
+\newcommand{\xla}{\xleftarrow}
+
+\DeclareMathOperator{\Psh}{\textbf{PShv}}
+\DeclareMathOperator{\PShv}{\textbf{PShv}}
+
+\DeclareMathOperator{\shv}{\textbf{Shv}}
+\DeclareMathOperator{\Shv}{\textbf{Shv}}
+
+\DeclareMathOperator{\man}{\textbf{Man}}
+
+\DeclareMathOperator{\limit}{{\sf lim}}
+
+\DeclareMathOperator{\Set}{\textbf{Set}}
+
+\DeclareMathOperator{\pr}{\sf pr}
+
+\newcommand{\la}{\leftarrow}
+
+\newcommand{\inj}[1]{{#1}_{inj}}
+
+\newcommand{\lip}[1]{\text{Lip}(#1)}
+
+\def\lmin{\ell_{\text{min}}}
+
+\newcommand{\core}[1]{{#1}_\infty}
+
+
+
+\DeclareMathOperator{\Lip}{Lip}
+
+
+\DeclareMathOperator{\diam}{diam}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+
+
+
+
+
+\begin{document}
+
+
+\title{Existence of length minimizers in homotopy classes of Lipschitz paths in $\mathbb{H}^1$}
+\author{Daniel Perry}
+{\let\newpage\relax\maketitle}
+
+  \begin{abstract}
+We show that for any purely 2-unrectifiable metric space $M$, for example the Heisenberg group $\HH^1$ equipped with the \cc metric, every homotopy class $[\alpha]$ of Lipschitz paths contains a length minimizing representative $\core{\alpha}$ that is unique up to reparametrization. 
+%We make substantial use of Wenger and Young's result in \cite{Weg} that all Lipschitz maps from a quasi-convex, Lipschitz simply connected metric space into a purely 2-unrectifiable space factor through a metric tree. Given a pair of homotopic Lipschitz paths $\alpha$ and $\beta$, we use Wenger and Young's factorization to construct a Lipschitz homotopy $H'$ from the initial path $\alpha$ to a Lipschitz path $\beta'$, where $\length{M}(\beta')\leq\length{M}(\beta)$, $\Lip(\beta')\leq\length{M}(\alpha)$, and  $\Lip(H')=\length{M}(\alpha)$. We then construct a sequence of Lipschitz paths in $[\alpha]$ whose lengths limit to the infimum of lengths of paths in $[\alpha]$  as well as a sequence of associated homotopies which all have a uniform bound for their Lipschitz constants and use Arzel\`{a}-Ascoli theorem to prove the existence of a length minimizer $\core{\alpha}$. 
+The length minimizer $\core{\alpha}$ is the core of the homotopy class $[\alpha]$ in the sense that the image of $\core{\alpha}$ is a subset of the image of any path contained in $[\alpha]$. Furthermore, the existence of length minimizers guarantees that only the trivial class in the first Lipschitz homotopy group of $M$ with a base point can be represented by a loop within each neighborhood of the base point. The results detailed here will be used to define and prove properties of a universal Lipschitz path space over $\HH^1$ in a subsequent paper.
+ \blfootnote{{\it Key words and phrases.} Heisenberg group, contact manifolds, unrectifiability, geometric measure theory, sub-Riemannian manifolds, metric trees \\ {\bf Mathematical Reviews subject classification.} Primary: 53C17, 28A75 ; Secondary: 57K33, 54E35 \\ {\bf Acknowledgments.} This material is based upon work supported by the National Science Foundation under Grant Number DMS 1641020.  The author was also supported by NSF awards 1507704 and 1812055 and ARAF awards in 2022 and 2023.}
+  \end{abstract}
+
+% 53D10 - contact manifolds (general theory)
+% 53C17 - Sub-Riemannian geometry
+% 28A75 - Length, area, volume, other geometric measure theory
+% 57K33 - Contact structures in 3 dimensions
+% 54E45 - Compact (locally compact) metric spaces
+% 54E35 - Metric spaces, metrizability
+
+
+\normalem
+
+
+
+%
+%The goal of this chapter is to define and inspect a notion of a metric universal path space for $\H^1$ and in fact any contact 3-manifold with a sub-Riemannian structure. The universal path space construction will echo the construction of the universal cover for path-connected, locally path-connected, and semilocally simply connected spaces. We prove that this universal path space, much like the universal cover, will have a unique lifting property and be simply connected.
+%
+%Let $(M,\xi,g)$ be a contact 3-manifold endowed with a sub-Riemannian structure. As in previous chapters, this induces a \cc metric on $M$, denoted $\dcc{M}$. Then, we will construct a metric space $\ps{M}{\dcc{M}}$ called the \emph{universal path space} of the metric space $(M,\dcc{M})$ and a 1-Lipschitz map
+%\[
+%\pi:\ps{M}{\dcc{M}}\longrightarrow(M,\dcc{M})
+%\]
+%such that the fibers of this map are copies of the first Lipschitz homotopy group $\pilip{1}(M,\dcc{M})$.
+%
+%\begin{claim}\label{claim unique lifting}
+%Let $N$ be a based, connected Riemannian manifold and let $f:N\rightarrow(M,\dcc{M})$ be a locally Lipschitz, based map such that the induced map between homotopy groups
+%\[
+%f_\#:\pilip{1}(N)\longrightarrow\pilip{1}(M,\dcc{M})
+%\]
+%is the constant homomorphism to the identity element of the group $\pilip{1}(M,\dcc{M})$. Then, there exists a unique, based, locally Lipschitz map 
+%\begin{center}
+%\begin{tikzcd}
+%	&&  \ps{M}{\dcc{M}}\arrow[dd, "\pi"]	\\ \\
+%
+%N \arrow[rr, "f"'] \arrow[uurr, dashed, "\exists !"]	&& (M,\dcc{M}).
+%\end{tikzcd}
+%\end{center}
+%When this is the case, $(\ps{M}{\dcc{M}},\dps)$ is said to have the \emph{unique lifting property}.
+%\end{claim}
+%
+%Claim~\ref{claim unique lifting} is verified within this chapter.
+%
+%\begin{claim}\label{universal path space is contractible}
+%For contact 3-manifold $(M,\dcc{M})$, the universal path space $\ps{M}{\dcc{M}}$ is a metric tree, and is thus Lipschitz contractible.
+%\end{claim}
+%
+%A corollary to these two claims would be that the Lipschitz homotopy group $\pilip{n}(M,\dcc{M})$ is trivial for all $n>1$. As this has already been shown in Chapter 6, the desire is that these claims apply to a more general class of metric spaces, namely sub-Riemannian manifolds with dimension 2 distribution. Thus, the higher Lipschitz homotopy groups of all such spaces would be trivial.
+
+
+
+%\section{Regular points in a contact 3-manifold}
+%
+%The definitions of regular points and non-singular points used in this paper are metric versions of definitions that appear in \cite{Bog}. We begin by showing that there are no regular points in a contact 3-manifold. Thus there is no notion of universal covering space over a contact 3-manifold.
+%
+%\begin{definition}
+%For a metric space $(M,d)$, a point $x\in M$ is a \emph{regular point} if there exists an open neighborhood $U\subset M$ of the point $x$ such that the map induced by inclusion on first Lipschitz homotopy groups based at $x$,
+%\[
+%\pilip{1}(U,d|_U)\longrightarrow\pilip{1}(M,d),
+%\]
+%is the trivial map. If every point of $M$ is a regular point, the space $M$ is said to be \emph{semi-locally simply connected}.
+%\end{definition}
+%%May need to note that the metric on U is the restricted metric, though this is the only viable possibility.
+%%6/15/22 - Changed map to emphasize the metric on each space and included the line mentioning the base point.
+%
+%Before proving that there are no regular points in a contact 3-manifold, we prove a slightly more general version of Theorem 32 in \cite{perry2020lipschitz}.
+%
+%\begin{theorem}\label{injective pi-1}
+%Let $(X,d^X)$ and $(Y,d^Y)$ be based metric spaces where $Y$ is purely 2-unrectifiable. Let $\p:(X,d^X)\rightarrow(Y,d^Y)$ be a biLipschitz embedding. Then the homomorphism induced by $\p$ on the first Lipschitz homotopy groups
+%\[
+%\p_{\#}:\pilip{1}(X,d^X)\longrightarrow\pilip{1}(Y,d^Y)
+%\]
+%is injective.
+%\end{theorem}
+%
+%\begin{proof}
+%As $\p_\#$ is a homomorphism, we can show that the map is injective by showing that the kernel of the map is trivial. 
+%
+%Let $\alpha:\S^1\rightarrow(X,d^X)$ be a Lipschitz map that represents an element of the kernel of $\p_\#$. So, there exists a Lipschitz map $H:\D^2\rightarrow(Y,d^Y)$ such that $H$ restricted to the boundary is the Lipschitz map $\p\circ\alpha$:
+%\[
+%H|_{\partial\D^2}=\p\circ\alpha.
+%\]
+%Since $\p\circ\alpha:\S^1\rightarrow(Y,d^Y)$ is the composition of Lipschitz functions, $\p\circ\alpha$ is Lipschitz. 
+%
+%
+%By Lemma 31 in \cite{perry2020lipschitz}, the Lipschitz homotopy $H$ can be taken such that the image of $H$ is contained in the image of the Lipschitz map $\p\circ\alpha$. Thus, $H$ takes image entirely in the image of $\p$:
+%\[
+%\Ima(H)\subset\Ima(\p\circ\alpha)\subset\Ima(\p).
+%\]
+%Since the inverse $\varphi^{-1}:\Ima{\p}\rightarrow (X,d^X)$ is Lipschitz, the map given by composition
+%\[
+%\varphi^{-1}\circ H:\D^2\longrightarrow (X,d^X)
+%\]
+%is Lipschitz and when the map is restricted to the boundary of $\D^2$ equals the map $\alpha$. Thus, $\alpha$ is Lipschitz null homotopic. Therefore, the only element in the kernel of $\varphi_\#$ is the trivial homotopy class.
+%
+%\end{proof}
+%
+%
+%\begin{lemma}\label{no regular points}
+%For a contact 3-manifold $(M,\xi)$ endowed with a sub-Riemannian metric, no point in $M$ is a regular point.
+%\end{lemma}
+%
+%\begin{proof}
+%Let $p\in M$ and take an open neighborhood $U\subset M$ of the point $p$. As the inclusion map
+%\[
+%\incl{U}:(U,\dcc{M}|_U)\hookrightarrow (M,\dcc{M})
+%\]
+%is a biLipschitz embedding and $(M,\dcc{M})$ is purely 2-unrectifiable \cite{perry2020lipschitz}, by Theorem~\ref{injective pi-1}, the homomorphism induced on the first Lipschitz homotopy groups is injective. Via the biLipschitz Darboux Theorem \cite{perry2020lipschitz} and the existence of horizontal embeddings of $\S^1$ into $\H^1$ that are not Lipschitz null-homotopic \cite{Dej}, there are non-identity elements in both groups. Thus, the map of first Lipschitz homotopy groups induced by inclusion of the open set $U$ is not the trivial map.
+%\end{proof}
+%%May need to make explicit how to construct these non-null homotopic loops. Should follow from standard constructions of paths in \H^1. Your dissertation should be helpful for ideas.
+%
+%%Avoiding confusion of U as a contact manifold with dcc metric vs. U as a subset with restrcited metric.
+%%\begin{proof}
+%%Let $p\in M$ and take an open neighborhood $U\subset M$ of the point $p$. By the biLipschitz Darboux theorem (Corollary~\ref{biLipschitz Darboux}), there exists a biLipschitz open distributional embedding
+%%\[
+%%\p:(V,\dcc{\H^1}|_V)\hookrightarrow (M,\dcc{M})
+%%\]
+%%for some open neighborhood $V\subset\H^1$ of the origin such that $\p(0)=p$ and the image of the embedding $\p(V)\subset U$ is contained in $U$. 
+%%
+%%Now, there exists a horizontal embedding $\gamma:\S^1\hookrightarrow V$ based at the origin. As the map $\p$ is a distributional embedding, the composition $\p\circ\gamma$ is a horizontal embedding of $\S^1$ into $(M,\xi)$ based at the point $p$ whose image is contained in $U$. The horizontal embedding $\p\circ\gamma$ is then Lipschitz with respect to the $\dcc{M}$ (Theorem 3.1 in \cite{Dej}).
+%%
+%%Thus, the embedding $\p\circ\gamma$ is also Lipschitz with respect to $\dcc{M}|_U$ when viewed as a map into $U$. So, the based Lipschitz loop $\p\circ\gamma$ represents an element of the first Lipschitz homotopy group $\pilip{1}(U,p)$. By Corollary~\ref{no lipschitz homotopy's}, the loop $\incl{U}\circ\p\circ\gamma$ is not Lipschitz null-homotopic in $M$. Thus, the map of first Lipschitz homotopy groups induced by inclusion of the open set $U$ is not the trivial map.
+%%
+%%\end{proof}
+%
+%%Dissertation Proof
+%%\begin{proof}
+%%Let $p\in M$ and take an open neighborhood $U\subset M$ of the point $p$. By the biLipschitz Darboux theorem (Corollary~\ref{biLipschitz Darboux}), there exists a biLipschitz Darboux neighborhood 
+%%\[
+%%\p:(V,\dcc{\H^1})\hookrightarrow (M,\dcc{M})
+%%\]
+%%for some neighborhood $V\subset\H^1$ of the origin such that $\p(0)=p$ and the biLipschitz Darboux neighborhood $\p(V)\subset U$ is contained in $U$. 
+%%
+%%Since $(V,\xi^{std}|_V)$ is a contact 3-manifold, there exists a horizontal embedding $\gamma:\S^1\hookrightarrow V$ through the origin (see Lemma~\ref{uncountably-many knots}). As the map $\p$ is a distributional embedding, the composition $\p\circ\gamma$ is a Legendrian knot based at the point $p$. The horizontal embedding $\p\circ\gamma$ is then Lipschitz with respect to the \cc metrics (Theorem 3.1 in \cite{Dej}). 
+%%
+%%So, the Lipschitz loop $\p\circ\gamma$ represents an element of the first Lipschitz homotopy group $\pilip{1}(U,p)$. By Corollary~\ref{no lipschitz homotopy's}, this loop is not Lipschitz null-homotopic in $U$. But, also by Corollary~\ref{no lipschitz homotopy's}, the loop $\incl{U}\circ\p\circ\gamma$ is not Lipschitz null-homotopic in $M$ either. Thus, the map of first Lipschitz homotopy groups induced by inclusion of the open set $U$ is not the trivial map.
+%%
+%%\end{proof}
+%
+
+\section{Introduction}
+
+%
+%We show that for any purely 2-unrectifiable metric space $M$, for example the Heisenberg group $\H^1$ endowed with the \cc metric, every homotopy class $[\alpha]$ of Lipschitz paths contains a length minimizing representative $\core{\alpha}\in[\alpha]$ that is unique up to reparametrization.  The existence of a length minimizers in each homotopy class guarantees that only the trivial class in the first Lipschitz homotopy group of $M$ with a base point can be represented by a loop within each neighborhood of the base point. The results and tools developed in this paper will be of significant use in defining a universal Lipschitz path space over $\H^1$ and proving essential properties there of in a future paper.
+
+In this paper, we prove the following theorem.
+
+\begin{theorem}\label{main result}
+Let $M$ be a purely 2-unrectifiable metric space, for example the Heisenberg group $\H^1$ endowed with the \cc metric. For any homotopy class $[\alpha]$ of Lipschitz paths in $M$, there exists a length minimizing Lipschitz path $\core{\alpha}\in[\alpha]$ where
+\[
+\length{M}(\core{\alpha})=\inf\{\length{M}(\alpha)~|~\alpha\in[\alpha]\}.
+\]
+Moreover, for any representative $\alpha\in[\alpha]$ in the class, $\Ima(\core{\alpha})\subset\Ima(\alpha)$.
+\end{theorem}
+A length minimizer $\core{\alpha}\in[\alpha]$ can be thus thought of as the core of the homotopy class $[\alpha]$ where the extraneous branches of the paths in the class have been pruned. An immediate consequence is that for every point in a purely 2-unrectifiable metric space, only the trivial class in the first Lipschitz homotopy group can be represented by a loop within each neighborhood of the point (Corollary~\ref{heisenberg non-singular points}). 
+
+Studying metric spaces, in particular Heisenberg groups endowed with a \cc metric, through Lipschitz homotopies was introduced in \cite{Dej} with the definition Lipschitz homotopy groups. Since, Lipschitz homotopy groups have been calculated for various sub-Riemannian manifolds in \cite{Dej}, \cite{Haj}, \cite{HajSch}, \cite{HajTys}, \cite{perry2020lipschitz}, and \cite{Weg}. For an overview of sub-Riemannian geometry, see \cite{Mon}.
+
+Results in \cite{Dej}, \cite{perry2020lipschitz}, and \cite{Weg} concerning the Lipschitz homotopy groups of the Heisenberg group $\H^1$ and contact 3-manifolds rely heavily on these sub-Riemannian manifolds endowed with the \cc metric being purely 2-unrectifiable metric spaces in the sense of \cite{Amb}. As is shown in \cite{Amb}, the Heisenberg group $\H^1$ is purely 2-unrectifiable and, as is shown in \cite{perry2020lipschitz}, any contact 3-manifold endowed with a sub-Riemannian metric is purely 2-unrectifiable. We likewise make significant use of results of purely 2-unrectifiable metric spaces to conclude the existence of length minimizers in homotopy classes.
+
+The key step to the proof of Theorem~\ref{main result} is, given a Lipschitz path $\alpha$ in a homotopy class $[\alpha]$, determining a sequence of Lipschitz paths that are uniformly Lipschitz homotopic to $\alpha$ and whose lengths converge to the infimum. Once such a sequence is obtained, Arzel\`{a}-Ascoli theorem yields a length minimizing path $\core{\alpha}$ together with a homotopy to $\alpha$. 
+
+To find this sequence of paths, we apply a lemma (Lemma~\ref{Desirable homotopy}) which, given any homotopy from $\alpha$ to any Lipschitz path $\beta$, constructs a homotopy with controlled Lipschitz constant from $\alpha$ to a shorther path $\beta'$. The proof of Lemma~\ref{Desirable homotopy} relies on a result of Wenger and Young in \cite{Weg} concerning a factorization of Lipschitz maps with purely 2-unrectifiable target though a metric tree. Their result is stated in Theorem~\ref{Wenger and Young}.
+
+
+
+%As the domain of every Lipschitz homotopy $H:I\times I\rightarrow M$ between Lipschitz paths is geodesic and Lipschitz simply connected, every Lipschitz homotopy factors through a metric tree. Thus, given such a homotopy between Lipschitz paths $\alpha$ and $\beta$, using geodesic properties of metric trees and Wenger and Young's factorization, a homotopy $H'$ from $\alpha$ to a Lipschitz path $\beta'$ is constructed that has a well-behaved Lipschitz constant in that $\Lip(H')\leq\length{M}(\alpha)$, as is described in Lemma~\ref{Desirable homotopy}. Additionally, the path $\beta'$ is no longer than the original path $\beta$ and has Lipschitz constant bounded by $\length{M}(\alpha)$. 
+%
+%Utilizing the existence of these well-behaved paths and homotopies, a sequence of Lipschitz paths in homotopy class $[\alpha]$ along with a sequence of associated homotopies exists such that the lengths of the paths limit to the infimum of the lengths of paths in $[\alpha]$ and the Lipschitz constants of the paths and homotopies in the sequences have uniform bound. Arzel\`{a}-Ascoli theorem is used to show the existence of the length minimizer $\core{\alpha}$ (Theorem~\ref{existence of length minimizer}). As the length minimizer $\core{\alpha}$ is homotopic to any other path in $[\alpha]$, a homotopy witnessing the relationship would factor through a metric tree, per Wenger and Young. Therefore, the image of $\core{\alpha}$ is a subset of the image of the other path as otherwise a path shorter than $\core{\alpha}$ could be found (Theorem~\ref{uniqueness of core}). %These two results are reported presently.
+
+
+
+We will utilizie Theorem~\ref{main result} in a future paper where we will define a universal Lipschitz path space over $\H^1$ and prove requisite properties. In particular, Corollary~\ref{heisenberg non-singular points} reports a necessary property to define the metric structure on the universal Lipschitz path space. Also, the existence of well-behaved homotopies shown in Lemma~\ref{Desirable homotopy} will be a useful tool to show that the universal Lipschitz path space satisfies the unique path lifting property.
+
+
+
+
+
+\medskip
+\noindent {\bf Acknowledgment}. The author wishes to thank Chris Gartland for his invaluable input on this paper, in particular his suggestion to use Arzel\`{a}-Ascoli theorem. In additon to Gartland, the author would also like to thank Fedya Manin, David Ayala, Lukas Geyer, and Carl Olimb for their input, thoughts, and support as this paper came together.
+
+
+
+
+
+
+
+
+\section{Background}
+
+% Removed on 3/10/23
+%We will show that all points in a contact 3-manifold are non-singular, i.e., the only homotopy class of loops in $\pilip{1}((M,\dcc{M}),p)$ that has a representative in every neighborhood of $p$ is the identity element. This will be achieved by showing that each homotopy class rel endpoints of Lipschitz paths into a purely 2-unrectifiable proper metric space has a length-minimizing representative. Inspired by results in \cite{Bog}, we will be able to define a metric on the universal path space. %Also, the topology on the fibers of the projection map $\pi$ will have a Cantor space topology. 
+
+\subsection{Homotopy, geodesics, and metric trees}
+
+\begin{convention}
+Throughout this paper, $I=[0,1]$ is the closed interval endowed with the Euclidean metric. All paths will have domain $I$. For a metric space $M$ and a path $\alpha:I\rightarrow M$, the length of the path $\alpha$ is denoted $\length{M}(\alpha)$.  For metric spaces $A$ and $M$, the Lipschitz constant of a Lipschitz function $f:A\rightarrow M$ will be denoted by $\Lip(f)$. 
+\end{convention}
+
+As we proceed, we will endow $I\times I$ with the $L^1$ metric: for $(s,t),(s',t')\in I\times I$,
+\[
+d^1((s,t),(s',t'))=|s-s'|+|t-t'|.
+\]
+The metric $d^1$ is Lipschitz equivalent to the Euclidean metric on $I\times I$.
+
+\begin{definition}\label{path classes}
+Let $M$ be a metric space. Two Lipschitz paths $\alpha,\beta:I\longrightarrow M$ are \emph{homotopic rel endpoints} if the initial points $\alpha(0)=\beta(0)$ and end points $\alpha(1)=\beta(1)$ of the paths agree and there exists a Lipschitz map $H:I\times I\rightarrow M$ such that
+\[
+H|_{I\times\{0\}}=\alpha,\hspace{.25cm} H|_{I\times\{1\}}=\beta,\hspace{.25cm} H|_{\{0\}\times I}=\alpha(0),\hspace{.25cm}\text{and}\hspace{.25cm} H|_{\{1\}\times I}=\alpha(1).
+\]
+The map $H$ is a \emph{homotopy} from $\alpha$ to $\beta$. For a Lipschitz path $\alpha$, the class of all Lipschitz paths homotopic rel endpoints to $\alpha$ is denoted $[\alpha]$ and is referred to as the \emph{homotopy class} of $\alpha$. %_{\alpha(0)}^{\alpha(1)}$. The start and end points will often be 
+\end{definition}
+
+The homotopy classes of loops based at a point $x_0\in M$ are the elements of the first Lipschitz homotopy group $\pilip{1}(M,x_0)$ of the metric space $M$. For the complete definition of Lipschitz homotopy groups and the initial study of $\pilip{1}(\H^1)$, see \cite{Dej}. Another example of studying first Lipschitz homotopy groups of purely 2-unrectifiable metric spaces can be found in \cite{perry2020lipschitz} where contact 3-manifolds are considered. 
+
+\begin{definition}\label{geodesic definition}
+Let $(M,d)$ be a metric space. Let $x,y\in M$ and let $\alpha: I\rightarrow M$ be a path from $\alpha(0)=x$ to $\alpha(1)=y$. The path $\alpha$ is \emph{arc length parametrized} if for any $t,t'\in I$,
+\[
+\length{M}\left(\left.\alpha\right|_{[t,t']}\right)=\length{M}(\alpha)~|t'-t|.
+\]
+The path $\alpha$ is a \emph{shortest path} from $x$ to $y$ if 
+\[
+\length{M}(\alpha)=d(x,y).
+\]
+The path $\alpha$ is a \emph{geodesic} from $x$ to $y$ if for any $t,t'\in I$,
+\[
+d(\alpha(t),\alpha(t'))=d(x,y)~|t'-t|.
+\]
+\end{definition}
+
+Every geodesic is a shortest path between its endpoints and is arc length parametrized. %See Claim 2/25/23
+Thus, every geodesic is Lipschitz with Lipschitz constant equal to its length.
+
+We will primarily be discussing geodesics with reference to metric trees.  Metric trees were originally introduced in \cite{tits1977theorem}. For a selection of results concerning metric trees, see \cite{aksoy2006selection}, \cite{aksoy2010some}, and \cite{mayer1992universal}.
+
+\begin{definition}
+A non-empty metric space $T$ is a \textit{metric tree} if for any $x,x'\in T$, there exists a unique arc joining $x$ and $x'$ and there is a geodesic $\gamma$ from $x$ to $x'$. A subset $T'\subset T$ of a metric tree is a \textit{subtree} if $T'$ is a metric tree with reference to the metric on $T$ restricted to $T'$.
+\end{definition}
+
+%Note that all path-connected and non-empty subsets of a metric tree are subtrees.
+
+\subsection{Wenger and Young's factorization through a metric tree}
+
+
+
+We make significant use of the work of Wenger and Young in \cite{Weg} to show the existence of a length minimizing representative, in particular the following factorization:
+
+\begin{theorem}[Theorem 5 in \cite{Weg}]\label{Wenger and Young}
+Let $A$ be a quasi-convex metric space with quasi-convexity constant $C$ and with $\pilip{1}(A)=0$. Let furthermore $M$ be a purely 2-unrectifiable metric space. Then every Lipschitz map $f:A\rightarrow M$ factors through a metric tree $T$,
+\begin{center}
+\begin{tikzcd}
+A\arrow[rr, "f"] \arrow[dr, "\psi"'] && M,  \\ 
+
+& T \arrow[ur, "\varphi"']&
+\end{tikzcd}
+\end{center}
+where $\Lip(\psi)=C\Lip(f)$ and $\Lip(\varphi)=1$. 
+\end{theorem} 
+
+
+%Per Theorem~\ref{Wenger and Young}, for any quasi-convex, Lipschitz simply connected metric space $A$ and any purely 2-unrectifiable metric space $M$, any Lipschitz map $f:A\rightarrow M$ factors through a metric tree $T$,
+%\begin{center}
+%\begin{tikzcd}
+%A\arrow[rr, "f"] \arrow[dr, "\psi"'] && M,  \\ 
+%
+%& T \arrow[ur, "\varphi"']&
+%\end{tikzcd}
+%\end{center}
+%wherein $\Lip(\varphi)=1$ and $\Lip(\psi)=C\Lip(f)$, where $C$ is the quasi-convexity constant of $A$. 
+
+
+ We include some details of their work presently. In the proof of Theorem~\ref{Wenger and Young} in \cite{Weg}, Wenger and Young define the following pseudo-metric on $A$: 
+\[
+d_f(a,a')\deq\inf\{\length{M}(f\circ c)~|~c\text{ is a Lipschitz path in }A\text{ from }a\text{ to }a'\}
+\]
+where $a,a'\in A$. The metric tree is then defined as a quotient space $T\deq A/\sim$, where the equivalence relation is given by $a\sim a'$ if and only if $d_f(a,a')=0$. The metric on $T$ is then
+\[
+d_T([a],[a'])\deq d_f(a,a').
+\]
+The map $\psi$ is the quotient map, $\psi(a)=[a]$. The original function $f$ is constant on equivalence classes. As such, the map $\varphi([a])=f(a)$ is well-defined.
+
+
+\section{Length minimizers of homotopy classes in purely 2-unrectifiable metric spaces}
+
+
+
+%Removed 3/15/23
+%Let $[\alpha]_p^q$ be a Lipschitz homotopy class of Lipschitz paths where each $\alpha:I\rightarrow M$ starts at $\alpha(0)=p$ and ends at $\alpha(1)=q$. Here and going forward, $I=[0,1]$. 
+%
+%We will show that each homotopy class $[\alpha]$ has a length-minimizing representative $\core{\alpha}$ (Theorem~\ref{existence of length minimizer}). The length-minimizer acts as a core of the class in that the image of $\core{\alpha}$ is a subset of the image of any other path in the class (Theorem~\ref{uniqueness of core}). The existence of such a length-minimizer for each homotopy class implies that every point in the metric space $M$ is non-singular (Theorem~\ref{heisenberg non-singular points}). 
+
+\subsection{Building a desirable homotopy}
+
+For the remainder of the paper, let $M$ be a purely 2-unrectifiable metric space with metric $d$. Let $\alpha$ and $\beta$ be Lipschitz homotopic paths. Moreover, assume that $\Lip(\alpha)=\length{M}(\alpha)$ via possible  reparametrization.
+
+We use Theorem~\ref{Wenger and Young} and the definition of the metric tree to fashion a desirable Lipschitz homotopy from the path $\alpha$ to a Lipschitz path $\beta'$ whose length is less than or equal to the length of $\beta$ and whose Lipschitz constant is bounded by the length of $\alpha$. Furthermore, the desirable homotopy will have Lipschitz constant equal to the length of $\alpha$. This homotopy will be used to show the existence of a length minimizer in each homotopy class in a purely 2-unrectifiable metric space.
+
+ Let $H:I\times I\rightarrow M$ be a homotopy from $\alpha$ to $\beta$. So, $H|_{I\times\{0\}}=\alpha$ and $H|_{I\times\{1\}}=\beta$. Since $I\times I$ is a geodesic space and Lipschitz simply connected, Theorem~\ref{Wenger and Young} guarantees the Lipschitz map $H$ factors through a metric tree $T$:
+\begin{center}
+\begin{tikzcd}
+{I\times I}\arrow[rr, "H"] \arrow[dr, "\psi"'] && M,  \\ 
+
+& T \arrow[ur, "\varphi"']&
+\end{tikzcd}
+\end{center}
+where $\Lip(\psi)=\lip{H}$ and $\Lip(\varphi)=1$. Note that, since $H|_{\{0\}\times I}=\alpha(0)$ and $H|_{\{1\}\times I}=\alpha(1)$, the restricted maps $\psi|_{\{0\}\times I}=\psi(0,0)$ and $\psi|_{\{1\}\times I}=\psi(1,0)$ are constant. 
+
+Though the map $\psi$ is $\Lip(H)$-Lipschitz, the restriction of the map $\psi$ to $I\times\{0\}$ is at most $\length{M}(\alpha)$-Lipschitz:
+
+\begin{lemma}\label{Restriction is path Lipschitz}
+$\Lip\left(\psi|_{I\times\{0\}}\right)\leq\length{M}(\alpha)$.
+\end{lemma}
+\begin{proof}
+Let $t,t'\in I$ where $t<t'$. Using the definition of the metric on $T$, 
+\begin{eqnarray*}
+d_T(\psi(t,0),\psi(t',0)) & = & d_T([(t,0)],[(t',0)]) \\
+						  & = & d_H((t,0),(t',0)) \\
+						  & = & \inf\{\length{M}(H\circ c)~|~c\text{ is a path from }(t,0)\text{ to }(t',0)\}.
+\end{eqnarray*}
+Now, selecting the inclusion $c=(\id,0):[t,t']\hookrightarrow I\times I$ which is a Lipschitz path from $(t,0)$ to $(t',0)$, yields that 
+\[
+d_T(\psi(t,0),\psi(t',0))\leq\length{M}\left(H\circ(\id,0):[t,t']\hookrightarrow M\right)=\length{M}(\alpha|_{[t,t']}).
+\]
+Since $\alpha$ is $\length{M}(\alpha)$-Lipschitz, we have the following string of inequalities:
+\begin{eqnarray*}
+d_T(\psi(t,0),\psi(t',0)) & \leq  & \length{M}(\alpha|_{[t,t']}) \\
+						  & \leq & \Lip(\alpha)~|t-t'| \\
+						  & = & \length{M}(\alpha)~|t-t'|.
+\end{eqnarray*}
+
+
+\end{proof}
+
+%\begin{definition} Let $(T, d^T)$ be a metric tree. A subtree $S\subset T$ is a compact, connected, nonempty subset of the metric tree $T$. \end{definition}
+
+When defining the new homotopy, our focus in the metric tree $T$ will be $T'\deq\Ima(\psi|_{I\times\{0\}})$, the image of the restriction in Lemma~\ref{Restriction is path Lipschitz}, which is a subtree of $T$. Note that every element of the subtree $T'$ can be written as $[(t,0)]$ for some $t\in I$. The subtree $T'$ has finite diameter bounded by the length of the path $\alpha$, as is now shown.
+
+%Removed from above 3/15/23
+%The subset $T'\subset T$ is path-connected and non-empty, and thus a subtree of $T$.
+
+\begin{lemma}\label{finite diameter of subtree}
+$\diam(T')\leq\length{M}(\alpha)$.
+\end{lemma}
+
+\begin{proof}
+\begin{eqnarray*}
+\diam(T') & = & \sup_{[(t,0)],[(t',0)]\in T'}~d_T\left([(t,0)],[(t',0)]\right) \\
+		  & = & \sup_{t,t'\in I}~d_H((t,0),(t',0)) \\
+		  & = & \sup_{t,t'\in I}~\inf_{c}~\length{M}(H\circ c) \\
+		  & \leq & \sup_{t,t'\in I}~\length{M}\left(H\circ(\id,0):[t,t']\rightarrow M\right) \\
+		  & = & \sup_{t,t'\in I}~\length{M}\left(\alpha|_{[t,t']}\right) \\
+		  & = & \length{M}(\alpha).
+\end{eqnarray*}
+\end{proof}
+
+
+Now, let $\gamma:I\rightarrow T$ be the geodesic in $T$ from $\psi(0,0)$ to $\psi(1,0)$. Since $\gamma$ is a geodesic, for any $t,t'\in I$,
+\begin{equation}\label{gamma geodesic property}
+d_T(\gamma(t), \gamma(t'))=d_T(\psi(0,0), \psi(1,0)) \left|t-t'\right|.
+\end{equation}
+%Also, the the image of the geodesic, referred to as a geodesic segment, is a subtree of $T'$.
+
+Define a new path $\beta':I\rightarrow M$ by $\beta'(t)=\varphi\circ\gamma(t)$. As will now be shown, the length of $\beta'$ is bounded above by the length of the path $\beta$, the image of $\beta'$ is a subset of the image of $\alpha$, and the Lipschitz constant for $\beta'$ is bounded above by the length of the initial path $\alpha$.
+
+\begin{lemma}\label{length of beta prime}
+$\length{M}(\beta')\leq\length{M}(\beta)$.
+\end{lemma}
+
+\begin{proof}
+If $\psi(0,0)=\psi(1,0)$, then the geodesic $\gamma$ is a constant path, as is the path $\beta'$. The desired result is then immediate.
+
+Assume $\psi(0,0)\neq\psi(1,0)$. Then the geodesic $\gamma$ joining these distinct points is non-constant and injective. Let $0=t_0<t_1<t_2<\ldots<t_{n+1}=1$ be a partition of the interval $I$. Then, as will be argued below, there is a partition $0=t_0^*<t_1^*<t_2^*<\ldots<t_{n+1}^*=1$ such that $\beta'(t_i)=\beta(t_i^*)$. 
+
+Now $\gamma$ is a geodesic from $\psi(0,0)=\psi(0,1)$ to $\psi(1,0)=\psi(1,1)$ and the map $\psi|_{I\times\{1\}}$ is a path in the metric tree $T$ with the same initial and terminal points as $\gamma$. Thus, the image of $\gamma$ is a subset of the image of $\psi|_{I\times\{1\}}$. Furthermore, for each $i=1,\ldots,n$, there is a time $t_i^*\in I$ such that
+\[
+\psi(t_i^*,1)=\gamma(t_i)\text{ and }\psi(t,1)\neq\gamma(t_i)\text{ for all }t>t_i^*,
+\]
+that is, $t_i^*$ is the last time the path $\psi|_{I\times\{1\}}$ visits the point $\gamma(t_i)$. Thus,
+\[
+\beta'(t_i)=\varphi(\gamma(t_i))=\varphi(\psi(t_i^*,1))=\beta(t_i^*).
+\]
+
+Let $i<j$. Suppose $t_i^*\geq t_j^*$. If $t_i^*=t_j^*$, then $\gamma(t_i)=\gamma(t_j)$, contradicting that the geodesic $\gamma$ is injective. Assume $t_i^*>t_j^*$. Then, the resticted path $\psi|_{[t_i^*,1]\times\{1\}}$ begins at $\gamma(t_i)$ and ends at $\gamma(1)$ and therefore travels through the point $\gamma(t_j)$, contradicting that $t_j^*$ is the last time that $\psi|_{I\times\{1\}}$ visits that point $\gamma(t_j)$. Therefore, $t_i^*<t_j^*$ for all $i<j$. We thus have attained the desired partition. 
+
+So, for each partition $0=t_0<t_1<t_2<\ldots<t_{n+1}=1$, there exists a partition $0=t_0^*<t_1^*<t_2^*<\ldots<t_{n+1}^*=1$ such that
+\[
+\sum_{i=0}^{n+1}d\left(\beta'(t_i),\beta'(t_{i+1})\right)=\sum_{i=0}^{n+1}d\left(\beta(t_i^*),\beta(t_{i+1}^*)\right)
+\] 
+Taking supremum over all  partitions $0=t_0<t_1<t_2<\ldots<t_{n+1}=1$, we arrive at $\length{M}(\beta')\leq\length{M}(\beta)$.
+\end{proof}
+
+\begin{lemma}\label{new path has image in initial path} %Added to remove proper 6/2/23
+$\Ima(\beta')\subset\Ima(\alpha)$.
+\end{lemma}
+
+\begin{proof}
+The geodesic $\gamma$ is a path from $\psi(0,0)$ to $\psi(1,0)$, as is the map $\psi|_{I\times\{0\}}$. Since $\gamma$ is a geodesic in the metric tree $T$, the image of the geodesic is a subset of the image of any path with the same initial and terminal points. Thus, $\Ima(\gamma)\subset\Ima(\psi|_{I\times\{0\}})$. Therefore,
+\[
+\Ima(\beta')=\Ima(\varphi\circ\gamma)\subset\Ima(\varphi\circ\psi|_{I\times\{0\}})=\Ima(\alpha).
+\]
+\end{proof}
+
+\begin{lemma}\label{lipschitz constant of beta prime}
+$\Lip(\beta')\leq\length{M}(\alpha)$.
+\end{lemma}
+
+\begin{proof}
+Let $t, t'\in I$. Using that $\Lip(\varphi)=1$ as well as (\ref{gamma geodesic property}) and \text{Lemma}~\ref{finite diameter of subtree}, we have the following inequalities:
+\begin{eqnarray*}
+d(\beta'(t), \beta'(t')) & = & d(\varphi(\gamma(t)), \varphi(\gamma(t')))  \\
+					& \leq & d_T(\gamma(t)), \gamma(t'))  \\
+					& = & d_T(\psi(0,0), \psi(1,0))\left| t-t'\right|  \\
+					& \leq & \diam(T')\left|t-t'\right|  \\
+					& \leq & \length{M}(\alpha)\left|t-t'\right|.
+\end{eqnarray*}
+\end{proof}
+
+We will now construct a homotopy $H'$ from the initial path $\alpha$ to the new path $\beta'$ which has Lipschitz constant $\Lip(H')=\length{M}(\alpha)$. 
+
+Let $t\in I$. There is a geodesic $g_t:I\rightarrow T$ from $g_t(0)=\psi(t,0)$ to $g_t(1)=\gamma(t)$ where, for all $s, s'\in I$,
+\begin{equation}\label{g_t geodesic property}
+d_T(g_t(s), g_t(s')) = d_T(\psi(t,0), \gamma(t))\left|s-s'\right|.
+\end{equation}
+
+Since points $\psi(0,0)=\gamma(0)$ are equal, the geodesic $g_0(s)=\psi(0,0)$ is constant. Similarly, the geodesic $g_1(s)=\psi(1,0)$ is constant. Thus, the function $g:I\times I\rightarrow T$ given by $g(t,s)\deq g_t(s)$ is a homotopy from path $\psi|_{I\times\{0\}}$ to geodesic $\gamma$ provided $g$ is Lipschitz. We show that $g$ is a Lipschitz map with Lipschitz constant bounded by $\length{M}(\alpha)$ and that the image of $g$ is a subset of the image $\Ima(\psi|_{I\times\{0\}})$.
+
+\begin{lemma}\label{Lipschitz constant of the geodesic homotopy}
+$\Lip(g)\leq\length{M}(\alpha).$
+\end{lemma}
+
+\begin{proof}
+Let $(t,s), (t',s')\in I\times I$. 
+
+First, consider $d_T(g_t(s), g_{t'}(s))$. Fix $t$ and $t'$. As $s\in I$ varies, 
+\[
+D(s)\deq d_T(g_t(s), g_{t'}(s))
+\] 
+is a function from $I$ to $\R$. By properties of metric trees, there exists $s_0\in I$ such that the restriction $D|_{[0,s_0]}$ is decreasing and the restriction $D|_{[s_0,1]}$ is increasing. %Detailed outline of proof by exhaustion is in notes on 2/10/23
+Thus, the maximum of the function $D$ occurs when $s=0$ or $s=1$. Now, by Lemma~\ref{Restriction is path Lipschitz},
+\begin{eqnarray*}
+D(0) ~ = ~ d_T(g_t(0), g_{t'}(0)) & = & d_T(\psi(t,0), \psi(t',0)) \\
+						      & \leq & \length{M}(\alpha)\left|t-t'\right|. 
+\end{eqnarray*}
+Also, by (\ref{gamma geodesic property}) and Lemma~\ref{finite diameter of subtree},
+\begin{eqnarray*}
+D(1) ~ = ~ d_T(g_t(1), g_{t'}(1)) & = & d_T(\gamma(t), \gamma(t')) \\
+							      & = & d_T(\gamma(0), \gamma(1))\left|t-t'\right| \\
+							      & \leq & \diam(T')\left|t-t'\right| \\
+							      & \leq & \length{M}(\alpha)\left|t-t'\right|.
+\end{eqnarray*}
+Therefore, for any $s\in I$,
+\[
+d_T(g_t(s), g_{t'}(s)) = D(s) \leq \length{M}(\alpha)\left|t-t'\right|.
+\]
+
+Now, consider the value $d_T(g_t(s), g_{t}(s'))$. Since $\gamma$ is a geodesic from $\psi(0,0)$ to $\psi(1,0)$ and $T'=\Ima(\psi|_{I\times\{0\}})\subset T$ is a subtree containing these points, $\gamma(t)\in T'$. Thus, by (\ref{g_t geodesic property}) and Lemma~\ref{finite diameter of subtree},
+\begin{eqnarray*}
+d_T(g_t(s), g_t(s')) & = & d_T(\psi(t,0), \gamma(t))\left|s-s'\right| \\
+				    & \leq & \diam(T')\left|s-s'\right| \\
+				    & \leq & \length{M}(\alpha)\left|s-s'\right|.
+\end{eqnarray*}
+
+Therefore, we conclude that
+\begin{eqnarray*}
+d_T(g_t(s), g_{t'}(s')) & \leq & d_T(g_t(s), g_{t'}(s)) + d_T(g_{t'}(s), g_{t'}(s')) \\
+					& \leq & \length{M}(\alpha)\left|t-t'\right| + \length{M}(\alpha)\left|s-s'\right| \\
+					& = & \length{M}(\alpha)~d^1((t,s), (t',s')).
+\end{eqnarray*}
+%Thus, the Lipschitz constant of $g(t,s)=g_t(s)$ is bounded above by $\length{M}(\alpha)$. 
+
+\end{proof}
+
+\begin{lemma}\label{g maps into T prime} %Added to remove proper 6/2/23
+$\Ima(g)\subset \Ima(\psi|_{I\times\{0\}})$.
+\end{lemma}
+\begin{proof}
+Let $(t,s)\in I\times I$. The path $g_t$ is a geodesic from $\psi(t,0)$ to $\gamma(t)$. Since $\gamma$ is a geodesic from $\psi(0,0)$ to $\psi(1,0)$ and $T'=\Ima(\psi|_{I\times\{0\}})$ is a subtree containing these points, $\gamma(t)\in T'$. Thus, since $g_t$ is a geodesic between points $\psi(t,0), \gamma(t)\in T'$ and $T'$ is a subtree, $g_t(s)\in T'$ for all $s\in I$. Thus, $\Ima(g)\subset \Ima(\psi|_{I\times\{0\}})$. 
+\end{proof}
+
+We are now ready to define the new homotopy $H':I\times I\rightarrow M$ by $H'(t,s)\deq\varphi\circ g(t,s)$. The function $H'$ is indeed a homotopy from $\alpha$ to $\beta'$ as
+\begin{center}
+$\begin{array}{ccccccc}
+H'(t,0) & = & \varphi(g_t(0)) & = & \varphi(\psi(t,0)) & = & \alpha(t),  \\
+H'(t,1) & = & \varphi(g_t(1)) & = & \varphi(\gamma(t)) & = & \beta'(t), \\
+H'(0,s) & = & \varphi(g_0(s)) & = & \varphi(\psi(0,0)) & = & \alpha(0),  \\
+H'(1,s) & = & \varphi(g_1(s)) & = & \varphi(\psi(1,0)) & = & \alpha(1). 
+\end{array}$
+\end{center}
+Moreover, since $\Lip(\varphi)=1$ and, by Lemma~\ref{Lipschitz constant of the geodesic homotopy}, for $(s,t), (s',t')\in I\times I$,
+\begin{eqnarray*}
+d(H'(t,s), H'(t',s')) & = & d(\varphi(g(t,s)), \varphi(g(t',s'))) \\
+				 & \leq & d_T(g(t,s), g(t',s')) \\
+				 & \leq & \length{M}(\alpha)~d^1((t,s), (t',s')).
+\end{eqnarray*}
+Therefore, $\Lip(H')\leq\length{M}(\alpha)$. In fact, since $\Lip(H|_{I\times\{0\}})=\Lip(\alpha)=\length{M}(\alpha)$, we have that $\Lip(H')=\length{M}(\alpha)$. Also, an immediate consequence of Lemma~\ref{g maps into T prime} is that $\Ima(H')\subset\Ima(\alpha)$.
+
+We have thus defined a Lipschitz homotopy with all of the desired properties, which are collected in the following lemma.
+
+% % Removed on 2/11/23 to make room for more thorough argument.
+%Let $R\deq\psi(I\times\{0\})\cap\psi(I\times\{1\})$. The images $\psi(I\times\{0\})$ and $\psi(I\times\{1\})$ are connected and compact non-empty subsets of the metric tree $T$ and thus are subtrees. Therefore, the subset $R$ is a subtree as well since it is equal to the intersection of subtrees and $R$ is nonempty, as $\psi(0,0)=\psi(0,1)$. % Note, if $\Ima(\beta)\subset\Ima(\alpha)$, then $R=\psi(I\times\{1\})$.
+%
+%
+%We now define a deformation retract of the metric tree $T$ onto the subtree $R$ via geodesics. Let $y\in T$ be an element of the original metric tree. There is a unique element $p(y)\in R$ witnessing the distance from $y$ to $R$:
+%\[
+%d_T(y,R)=d_T(y,p(y)).
+%\]
+%Let $\gamma_y:I\rightarrow T$ be the geodesic from $y$ to $p(y)$. Then, for any $t,t'\in I$,
+%\[
+%d_T(\gamma_y(t),\gamma_y(t'))=d_T(y,p(y))~|t-t'|.
+%\]
+%
+%Define the deformation retract $G:T\times I\rightarrow T$ by $G(y,t)\deq\gamma_y(t)$. The map $G$ is indeed a deformation retract as $G(y,0)=\gamma_y(0)=y$, $G(y,1)=\gamma_y(1)=p(y)\in R$, and for $y'\in R$, since $p(y')=y'$ and thus $\gamma_{y'}$ is constant, $G(y',t)=\gamma_{y'}(t)=y'$.
+%
+%The map $G$ clearly decreases distances between points in $T$ as time goes on, that is, for $y,y'\in T$, if $t>t'$, then
+%\begin{equation}\label{G decreasing}
+%d_T(G(y,t),G(y',t))\leq d_T(G(y,t'),G(y',t')).
+%\end{equation}
+%For argument, see 9/15/22 notes.
+%Furthermore, for any point $y\in T'$, the Lipschitz constant of the restriction $G|_{\{y\}\times I}$ is bounded by $\length{M}(\alpha)$, as is shown below.
+%
+%\begin{lemma}\label{Lipschitz constant of restricted G}
+%If $y\in T'$, then $\Lip(G|_{\{y\}\times I})\leq\length{M}(\alpha)$.
+%\end{lemma}
+%
+%\begin{proof}
+%Let $y\in T'$ and $t,t'\in I$. Note that $p(y)\in T'$ as well. Then
+%\begin{eqnarray*}
+%d_T(G(y,t),G(y,t')) & = & d_T(\gamma_y(t),\gamma_y(t')) \\
+%					& = & d_T(y,p(y))~|t-t'| \\
+%					&\leq & \diam(T')~|t-t'| \\
+%					&\leq & \length{M}(\alpha)~|t-t'|,
+%\end{eqnarray*}
+%where the last step follows from Lemma~\ref{finite diameter of subtree}.
+%\end{proof}
+%
+%We are now ready to define the desirable homotopy. Define the map $H':I\times I \rightarrow M$ by
+%\[
+%H'(s,t)\deq\varphi(G(\psi(s,0),t)).
+%\]
+%and define a path $\beta':I\rightarrow M$ by $\beta'(s)\deq H'(s,1)$. 
+%
+%By construction, through the deformation retract $G$ of the metric tree $T$ onto the subtree $R$, the map $H'$ is a homotopy from the initial path $\alpha$ to the path $\beta'$. Additionally, the image of the path $\beta'$ is a subset of the intersection of the image of the initial path $\alpha$ and the image of the other given path $\beta$. %If it so happens that $\Ima(\beta)\subset\Ima(\alpha)$, since then the subtrees $R=T'$ are equal and thus the deformation retract $G$ is constant on $T'\times \{1\}$, 
+%As is now show, the map $H'$ has Lipschitz constant bounded by the length of $\alpha$.
+%
+%\begin{lemma}\label{bound on lipschitz constant of new homotopy}
+%$\Lip(H')\leq \length{M}(\alpha).$
+%\end{lemma}
+%
+%\begin{proof}
+%Let $(s,t),(s',t')\in I\times I$. Now, since $\varphi$ is $1$-Lipschitz and by Lemma~\ref{Lipschitz constant of restricted G},
+%\begin{eqnarray*}
+%d(H'(s,t),H'(s,t')) & \leq & d_T(G(\psi(s,0),t),G(\psi(s,0),t')) \\
+%			     & \leq & \length{M}(\alpha)~|t-t'|.
+%\end{eqnarray*}
+%
+%Also, since $\varphi$ is $1$-Lipschitz, the map $G$ decreases distances in the sense of (\ref{G decreasing}) and is a deformation retract of $T$, and by Lemma~\ref{Restriction is path Lipschitz}, 
+%\begin{eqnarray*}
+%d(H'(s,t'),H'(s',t')) & \leq & d_T(G(\psi(s,0),t'),G(\psi(s',0),t'))  \\
+%			      & \leq & d_T(G(\psi(s,0),0),G(\psi(s',0),0)) \\
+%				& = & d_T(\psi(s,0),\psi(s',0)) \\
+%				& \leq & \length{M}(\alpha)~|s-s'|.
+%\end{eqnarray*}
+%
+%Therefore, by the triangle inequality, the definition of the metric $d^1$, and the above inequalities, we have the desired inequality:
+%\begin{eqnarray*}
+%d(H'(s,t),H'(s',t')) & \leq & d(H'(s,t),H'(s,t'))+d(H'(s,t'),H'(s',t')) \\
+%&\leq & \length{M}(\alpha)~|t-t'|+\length{M}(\alpha)~|s-s'| \\
+% & = & \length{M}(\alpha)~d^1((s,t),(s',t')).
+%\end{eqnarray*}
+%
+%\begin{eqnarray}
+%d(H'(s,t),H'(s',t')) & \leq & d(H'(s,t),H'(s,t'))+d(H'(s,t'),H'(s',t')) \\
+% & \leq & d_T(G(\psi(s,0),t),G(\psi(s,0),t'))+d_T(G(\psi(s,0),t'),G(\psi(s',0),t')) \\
+% & \leq & \length{M}(\alpha)~|t-t'|+d_T(G(\psi(s,0),t'),G(\psi(s',0),t')) \\
+% & \leq & \length{M}(\alpha)~|t-t'|+d_T(G(\psi(s,0),0),G(\psi(s',0),0)) \\
+% & = & \length{M}(\alpha)~|t-t'|+d_T(\psi(s,0),\psi(s',0)) \\
+%&\leq & \length{M}(\alpha)~|t-t'|+\length{M}(\alpha)~|s-s'| \\
+% & = & \length{M}(\alpha)~d^1((s,t),(s',t')).
+%\end{eqnarray}
+%Here, (2) is by triangle inequality, (3) follows from $\varphi$ being 1-Lipschitz, (4) is by Lemma~\ref{Lipschitz constant of restricted G}, (5) follows from (\ref{G decreasing}), (6) comes from $G$ being a deformation retract, (7) follows from Lemma~\ref{Restriction is path Lipschitz}, and (8) is by the definition of the metric $d^1$ on $I\times I$.
+%\end{proof}
+%
+%As a consequence of Lemma~\ref{bound on lipschitz constant of new homotopy}, $\Lip(\beta')\leq\length{M}(\alpha)$ as well. Also, by construction, $\length{M}(\beta')\leq\length{M}(\beta)$. %May need to include a complete argument for why this length thing is true in the future. 
+%We have thus defined a homotopy with all of the desired properties, which are stated in the following lemma.
+
+\begin{lemma}\label{Desirable homotopy}
+Let $M$ be a purely 2-unrectifiable space. Given Lipschitz paths $\alpha:I\rightarrow M$ and $\beta:I\rightarrow M$ that are  homotopic rel endpoints, there exists a Lipschitz map $H':I\times I\rightarrow M$ and a Lipschitz path $\beta':I\rightarrow M$ such that:
+\begin{itemize}
+\item the map $H'$ is a homotopy from $\alpha$ to $\beta'$,
+\item $\Lip(H')=\length{M}(\alpha)$,
+\item $\Ima(H')\subset\Ima(\alpha)$,
+\item $\Lip(\beta')\leq \length{M}(\alpha)$,
+\item $\Ima(\beta')\subset\Ima(\alpha)$, and
+\item $\length{M}(\beta')\leq\length{M}(\beta)$.
+\end{itemize}
+%Furthermore, if $\Ima(\beta)\subset\Ima(\alpha)$, then the paths $\beta'=\beta$ are equal. %Needed in next paper, but not in this one.
+\end{lemma}
+
+
+
+\subsection{Finding the length minimizer of a homotopy class}
+
+We now prove the primary result of the paper: the existence of a length minimizer in any homotopy class of paths in a purely 2-unrectifiable metric space. We use Lemma~\ref{Desirable homotopy} to fashion a sequence of Lipschitz paths in a given homotopy class, as well as associated homotopies, that have a uniform bound on their Lipschitz constants and then apply Arzel\`{a}-Ascoli theorem to find the length minimizer. 
+
+ %Here, a proper metric space is a metric space in which every closed and bounded set is compact. 
+
+
+
+\begin{theorem}\label{existence of length minimizer}
+Let $M$ be a purely 2-unrectifiable metric space. For any homotopy class $[\alpha]$ of Lipschitz paths in $M$, there exists a length minimizing Lipschitz path $\core{\alpha}\in[\alpha]$ where
+\[
+\length{M}(\core{\alpha})=\inf\{\length{M}(\alpha)~|~\alpha\in[\alpha]\}.
+\]
+\end{theorem}
+
+\begin{proof}
+
+Let $M$ be a purely 2-unrectifiable metric space. Let $[\alpha]$ be a homotopy class of Lipschitz paths and define $\lmin\deq\inf\{\length{M}(\alpha)~|~\alpha\in[\alpha]\}$ to be the infimum of all lengths of paths in $[\alpha]$. 
+
+Select a Lipschitz path $\alpha_1\in[\alpha]$ such that $\length{M}(\alpha_1)\leq\lmin+1$. Via possible reparametrization, the Lipschitz constant of $\alpha_1$ can be assumed to be equal to its length: $\Lip(\alpha_1)=\length{M}(\alpha_1)$. Note also that the image of $\alpha_1$ is compact. 
+
+For each subsequent natural number $n$, let $\alpha_n\in[\alpha]$ be a Lipschitz path such that $\length{M}(\alpha_n)\leq\lmin+\frac{1}{n}$. Furthermore, via Lemma~\ref{Desirable homotopy}, we can assume that $\Lip(\alpha_n)\leq\length{M}(\alpha_1)$ and $\Ima(\alpha_n)\subset\Ima(\alpha_1)$. Additionally, there is a homotopy $H_n:I\times I\rightarrow M$ from $\alpha_1$ to $\alpha_n$ such that $\Lip(H_n)\leq\length{M}(\alpha_1)$ and $\Ima(H_n)\subset\Ima(\alpha_1)$.  
+
+
+Now, for any $n\in\NN$, $\Lip(\alpha_n)\leq\lmin+1$. Since the images of the paths in the sequence $(\alpha_n)$ are subsets of the compact set $\Ima(\alpha_1)$, by Arzel\`{a}-Ascoli theorem, there exists a subsequence $(\alpha_{n_k})$ that uniformly converges to a Lipschitz path $\core{\alpha}$. By lower semi-continuity of the length measure, $\length{M}(\core{\alpha})\leq\liminf_k\length{M}(\alpha_{n_k})$. In fact, due to how the sequence $(\alpha_n)$ was selected, $\length{M}(\core{\alpha})\leq\lmin$. 
+
+We now want to show that $\core{\alpha}\in[\alpha]$. Associated to the subsequence $(\alpha_{n_k})$, there is a sequence of homotopies $(H_{n_k})$ such that $\Lip(H_{n_k})\leq\lmin+1$ for each homotopy in the sequence. %Since the domain of these homotopies is separable, 
+Since $\Ima(H_{n_k})\subset\Ima(\alpha_1)$ for each $n_k$ and $\Ima(\alpha_1)$ is compact, by Arzel\`{a}-Ascoli theorem, there exists a subsequence $(H_{n_{k_j}})$ that converges uniformly to a Lipschitz map $\core{H}:I\times I\rightarrow M$. 
+
+Now, $\core{H}|_{I\times\{0\}}=\alpha_1$ since $H_{n_{k_j}}|_{I\times\{0\}}=\alpha_1$ for all $n_{k_j}$. Also, since the paths $H_{n_{k_j}}|_{I\times\{1\}}=\alpha_{n_{k_j}}$ converge uniformly to $\core{\alpha}$, then $\core{H}|_{I\times\{1\}}=\core{\alpha}$. So, the map $\core{H}$ is a homotopy from $\alpha_1$ to $\core{\alpha}$. Therefore, $\core{\alpha}\in[\alpha]$ and thus $\length{M}(\core{\alpha})=\lmin$.
+
+\end{proof}
+
+\subsection{Consequences of the existence of a length minimizer}
+
+A length minimizer $\core{\alpha}\in[\alpha]$ can be thought of as the core of the homotopy class $[\alpha]$ where the extraneous branches of the paths in the class have been pruned in the sense that the image of $\core{\alpha}$ is a subset of the image of any path contained in $[\alpha]$, as is now shown. A consequence of Theorem~\ref{uniqueness of core} is that a length minimzer for a homotopy class is unique up to reparametrization.
+
+\begin{theorem}\label{uniqueness of core}
+Let $M$ be a purely 2-unrectifiable metric space and let $[\alpha]$ be a homotopy class of Lipschitz paths in $M$ with length minimizer $\core{\alpha}\in[\alpha]$. Additionally, assume that the length minimzer $\core{\alpha}$ is arc length parametrized. Let $\alpha:I\rightarrow M$ be a Lipschitz path that is  homotopic rel endpoints to $\core{\alpha}$. Then the Lipschitz path $\core{\alpha}'$ produced by Lemma~\ref{Desirable homotopy} is equal to the length minimizer $\core{\alpha}$. Furthermore, the image of a length minimizer $\core{\alpha}$ is a subset of the image of $\alpha$, that is,
+\[
+\Ima(\core{\alpha})\subset\Ima(\alpha).
+\]
+\end{theorem}
+
+
+\begin{proof} %Outline of proof in notebook 2/25/23
+Let $H:I\times I\rightarrow M$ be a Lipschitz homotopy from $\alpha$ to $\core{\alpha}$. By Theorem~\ref{Wenger and Young}, the map $H$ factors through a metric tree $T$:
+\begin{center}
+\begin{tikzcd}
+{I\times I}\arrow[rr, "H"] \arrow[dr, "\psi"'] && M.  \\ 
+
+& T \arrow[ur, "\varphi"']&
+\end{tikzcd}
+\end{center}
+
+We now show that the path $\psi|_{I\times\{1\}}$ in the metric tree $T$ is the geodesic from $\psi(0,1)$ to $\psi(1,1)$. Let $t,t'\in I$ where $t<t'$ and let $c$ be a Lipschitz path in $I\times I$ from $(t,1)$ to $(t',1)$. Since $c$ is homotopic to the inclusion $(\id,1):[t,t']\hookrightarrow I\times I$, the paths $H\circ c$ and $H\circ(\id,1)=\core{\alpha}|_{[t,t']}$ are homotopic. Since $\core{\alpha}$ is the length minimizer for $[\alpha]$, the restriction $\core{\alpha}|_{[t,t']}$ is also a length minimizer in its homotopy class. Thus, $\length{M}(\core{\alpha}|_{[t,t']})\leq\length{M}(H\circ c)$. Therefore, by the definition of the metric on $T$, %(See Theorem~\ref{Wenger and Young}),
+\[
+d_T(\psi(t,1),\psi(t',1))=\length{M}\left(\core{\alpha}|_{[t,t']}\right)
+\]
+and in particular, $d_T(\psi(0,1),\psi(1,1))=\length{M}(\core{\alpha}).$ Now, since $\core{\alpha}$ is arc length parametrized,
+\begin{eqnarray*}
+d_T(\psi(t,1),\psi(t',1)) & = & \length{M}\left(\core{\alpha}|_{[t,t']}\right) \\
+					 & = & \length{M}(\core{\alpha})~|t'-t| \\
+					 & = & d_T(\psi(0,1),\psi(1,1))~|t'-t|.
+\end{eqnarray*}
+Therefore, the path $\psi|_{I\times\{1\}}$ is indeed the geodesic from $\psi(0,1)$ to $\psi(1,1)$. 
+
+From the argument of Lemma~\ref{Desirable homotopy}, the path $\core{\alpha}'$ is equal to the geodesic in $T$ from $\psi(0,0)=\psi(0,1)$ to $\psi(1,0)=\psi(1,1)$ post-composed by $\varphi$. As the geodesic in discussion is $\psi|_{I\times\{1\}}$, we have that for all $t\in I$,
+\[
+\core{\alpha}(t)=\varphi\circ\psi(t,1)=\core{\alpha}'(t).
+\]
+
+That  $\Ima(\core{\alpha})\subset\Ima(\alpha)$ follows quickly from $\core{\alpha}$ factoring through a geodesic segment. Indeed, for $t\in I$, the point $\psi(t,1)\in T$ is in the geodesic segment $\Ima(\psi|_{I\times\{1\}})$ connecting $\psi(0,0)=\psi(0,1)$ to $\psi(1,0)=\psi(1,1)$. As the image $\Ima(\psi|_{I\times\{0\}})\subset T$ is a subtree containing these points, the geodesic segement $\Ima(\psi|_{I\times\{1\}})\subset\Ima(\psi|_{I\times\{0\}})$ is a subset of the subtree. Hence, there exists $t'\in I$ such that $\psi(t,1)=\psi(t',0)$. Therefore,
+\[
+\core{\alpha}(t)=\varphi\circ\psi(t,1)=\varphi\circ\psi(t',0)=\alpha(t').
+\]
+Thus, $\Ima(\core{\alpha})\subset\Ima(\alpha)$ as desired.
+
+\end{proof}
+
+Of note, in the proof of Theorem~\ref{uniqueness of core} we have shown that given an arc length parametrized length minimizer and any homotopy of the length minimzer, the length minimzer factors through a geodesic segment in the metric tree generated by the homotopy via Theorem~\ref{Wenger and Young}. 
+
+
+
+
+
+
+
+%The following version of the pruning argument was removed on 2/25/23. The argument works, though is not as clear.
+
+%\begin{corollary}\label{uniqueness of core}
+%Let $M$ be a purely 2-unrectifiable proper metric space and let $[\alpha]$ be a homotopy class of Lipschitz paths in $M$. For any path $\alpha\in[\alpha]$, The image of a length minimizer $\core{\alpha}$ is a subset of the image of $\alpha$, that is,
+%\[
+%\Ima(\core{\alpha})\subset\Ima(\alpha).
+%\]
+%\end{corollary}
+%
+%\begin{proof}
+%Suppose that there exists a path $\alpha\in[\alpha]$ such that the image of a length minimizer $\core{\alpha}$ is not a subset of the image of $\alpha$. Thus, there exists a point $x\in\Ima(\core{\alpha})$ such that $x\nin\Ima(\alpha)$.
+%
+%Let $H:I\times I\rightarrow M$ be a Lipschitz homotopy from $\core{\alpha}$ to $\alpha$. By Theorem~\ref{Wenger and Young}, the map $H$ factors through a metric tree $T$:
+%\begin{center}
+%\begin{tikzcd}
+%{I\times I}\arrow[rr, "H"] \arrow[dr, "\psi"'] && M.  \\ 
+%
+%& T \arrow[ur, "\varphi"']&
+%\end{tikzcd}
+%\end{center}
+%Consider the set $R=\psi(I\times\{0\})\cap\psi(I\times\{1\})$, which is a subtree of $T$. Since $x\nin\Ima(\alpha)$, the preimage of the point $x$ under the map $\varphi$ is disjoint from the subtree, $\varphi^{-1}(x)\cap R=\emptyset$. The subtree $R$ is thus a proper subset of $\psi(I\times\{0\})$.
+%
+%Let $G:T\times I\rightarrow T$ be a deformation retract of the metric tree $T$ onto the subtree $R$ via geodesics. Consider the Lipschitz path $\alpha':I\rightarrow M$ defined by $\alpha'(s)\deq\varphi(G(\psi(s,0),1)$. Clearly, $\alpha'\in[\alpha]$. Also, the point $x$ is not in the image of $\alpha'$ since $\Ima(\alpha')\subset\Ima(\core{\alpha})$.
+%
+%Consider the set $J\deq\{s\in I~|~(s,0)\in\psi^{-1}(R)\}$. Since $G$ is a deformation retract onto the subtree $R$, for $s\in J$, 
+%\[
+%\core{\alpha}(s)=\varphi(\psi(s,0))=\varphi(G(\psi(s,0),0))=\varphi(G(\psi(s,0),1))=\alpha'(s).
+%\]
+%Thus, the paths $\core{\alpha}$ and $\alpha'$ are equal when restricted to the subset $J$ and therefore so too are their lengths, $\length{M}(\core{\alpha}|_J)=\length{M}(\alpha'|_J)$.
+%
+%Since $x\in\Ima(\core{\alpha})\cap(M\setminus\Ima(\alpha'))$, the set $I\setminus J$ is non-empty. Consider $s\in I\setminus J$. Then the point $\psi(s,0)\in T$ is not an element of the subtree $R$. For all points $y$ in the connected component of $T\setminus R$ that contains $\psi(s,0)$, the map $y\mapsto G(y,1)$ is constant. Thus, the path $\alpha'$ is constant when restricted to each connected component of $I\setminus J$. Now, the map $y\mapsto G(y,0)$ is not constant on connected components of $I\setminus J$ since $\psi(s,0)\nin R$. Thus, the length of $\core{\alpha}$ when restricted to each connected component of $I\setminus J$ is positive, while the length of $\alpha'$ on each component is $0$. Therefore, $\length{M}(\alpha')<\length{M}(\core{\alpha}),$ 
+%contradicting that the path $\core{\alpha}$ is a length-minimizer for $[\alpha]$.
+%\end{proof}
+
+%Before applying these results about the core to show that every point is non-singular in a purely 2-unrectifiable proper metric space, we prove a lemma that will be useful when we show that the universal path space over such metric spaces has a unique path lifting property.
+%
+%\begin{lemma}\label{cores and concatenations}
+%Let $M$ be a purely 2-unrectifiable proper metric space. Let $\core{\alpha}$ be the length-minimizing Lipschitz path in a homotopy class of Lipschitz paths in $M$. Let $\alpha$ and $\beta$ be Lipschitz paths in $M$ such that $\core{\alpha}$ is Lipschitz homotopic rel end points to the concatenation $\alpha\ast\beta$. Then, there exists $t\in I$ such that 
+%\[
+%\Ima(\core{\alpha}|_{[0,t]})\subset\Ima(\alpha)\text{ and }\Ima(\core{\alpha}|_{[t,1]})\subset\Ima(\beta)
+%\]
+%and for some $\varepsilon>0$, 
+%\[
+%\Ima(\core{\alpha}|_{(t,t+\varepsilon)})\subset\Ima(\beta)\setminus\Ima(\alpha).
+%\]
+%\end{lemma}
+%
+%\begin{proof}%Notes 12/7/22 has details for a specific case. 
+%\emph{Sketch.} Use Corollay~\ref{uniqueness of core} to get that $\Ima(\core{\alpha})\subset\Ima(\alpha)\cup\Ima(\beta)$. Let $t\in I$ such that $[0,t]\subset(\core{\alpha})^{-1}(\Ima(\alpha))$ is the connected component of $(\core{\alpha})^{-1}(\Ima(\alpha))$ that contains $0$. Then use Theorem~\ref{Wenger and Young} to argue that if there exists $t'>t$ such that $\core{\alpha}(t')\in\Ima(\alpha)\cap(\Ima(\beta))^c$, then there is a path shorter than $\core{\alpha}$, a contradiction. 
+%\end{proof}
+
+
+An immediate consequence of Theorem~\ref{uniqueness of core} is that for every point in a purely 2-unrectifiable metric space, only the trivial class in the first Lipschitz homotopy group can be represented by a loop within each neighborhood of the point, as is now shown.
+
+
+
+%\begin{definition}\label{nonsingular def}
+%For a metric space $M$, a point $x\in M$ is a \emph{non-singular point} if only the trivial Lipschitz homotopy class can be represented by a loop within each neighborhood of $x$, that is, for the class $[\alpha]\in\pilip{1}(M,x)$, if for every open neighborhood $U\subset M$ of the point $x$, there exists a Lipschitz loop $\alpha_U:I\rightarrow M$ based at $\alpha_U(0)=\alpha_U(1)=x$ whose image is contained in $U$ such that $\alpha_U\in[\alpha]$, then $[\alpha]$ is the trivial Lipschitz homotopy class, $[\alpha]=[x]$.
+%\end{definition}
+
+\begin{corollary}\label{heisenberg non-singular points}
+Let $M$ be a purely 2-unrectifiable metric space and let $x\in M$. Let $[\alpha]\in\pilip{1}(M,x)$ be a homotopy class of loops based at $x$ such that for every open neighborhood $U\subset M$ of the point $x$, there exists a Lipschitz loop $\alpha_U\in[\alpha]$ based at $x$ whose image is contained in $U$. Then $[\alpha]$ is the trivial homotopy class, $[\alpha]=[x]$.
+\end{corollary}
+
+\begin{proof}
+Let $[\alpha]\in\pilip{1}(M,x)$ be a homotopy class of loops based at $x$ such that for every open neighborhood $U\subset M$ of the point $x$, there exists a Lipschitz loop $\alpha_U\in[\alpha]$ based at $x$ whose image is contained in $U$. Then, by Theorem~\ref{existence of length minimizer}, $[\alpha]$ has a length minimizer $\core{\alpha}$ and, by Theorem~\ref{uniqueness of core}, the image of the length minimizer $\core{\alpha}$ is a subset of every neighborhood $U$ of $x$. Therefore, $\core{\alpha}$ is the constant loop at $x$ and thus $[\alpha]=[x]$.
+\end{proof}
+
+
+In the language of \cite{Bog}, every point in a purely 2-unrectifiable metric space is non-singular. The harmonic archipelago is an instructive example of a space wherein not every point is non-singular. See Example 1.1 in \cite{Bog}. 
+
+
+In order to define the lifted metric on the universal Lipschitz path space, it is necessary that for every point in the underlying metric space, only the trivial class in the first Lipschitz homotopy group can be represented by a loop within each neighborhood of the point. As such, Corollary~\ref{heisenberg non-singular points} is necessary when discussing the universal Lipschitz path space of a purely 2-unrectifiable metric space such as the Heisenberg group $\H^1$.
+
+
+
+
+
+\bibliography{bib}{}
+\bibliographystyle{plain}
+
+\end{document}
+% do not put anything after this
+

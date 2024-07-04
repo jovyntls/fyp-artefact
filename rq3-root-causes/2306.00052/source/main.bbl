@@ -1,0 +1,725 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
+
+\bibitem{Bordone:2019guc}
+M.~Bordone, N.~Gubernari, D.~van Dyk, and M.~Jung, ``{Heavy-Quark expansion for
+  ${{\bar{B}}_s\rightarrow D^{(*)}_s}$ form factors and unitarity bounds beyond
+  the ${SU(3)_F}$ limit},''
+  \href{https://dx.doi.org/10.1140/epjc/s10052-020-7850-9}{Eur.\  Phys.\  J.\
+  C {\bfseries 80} (2020) 347} {\ttfamily
+  [\href{https://arxiv.org/abs/1912.09335}{arXiv:1912.09335}]}.
+
+\bibitem{Iguro:2020cpg}
+S.~Iguro and R.~Watanabe, ``{Bayesian fit analysis to full distribution data of
+  $ \overline{\mathrm{B}}\to {\mathrm{D}}^{\left(\ast
+  \right)}\mathrm{\ell}\overline{\nu }:\left|{\mathrm{V}}_{\mathrm{cb}}\right|
+  $ determination and new physics constraints},''
+  \href{https://dx.doi.org/10.1007/JHEP08(2020)006}{JHEP {\bfseries 08} (2020)
+  006} {\ttfamily [\href{https://arxiv.org/abs/2004.10208}{arXiv:2004.10208}]}.
+
+\bibitem{HFLAV:2022pwe}
+{\bfseries HFLAV} Collaboration, ``{Averages of $b$-hadron, $c$-hadron, and
+  $\tau$-lepton properties as of 2021}.'' {\ttfamily
+  \href{https://arxiv.org/abs/2206.07501}{arXiv:2206.07501}}. {Average of $R_D$
+  and $R_{D^\ast}$ for Winter 2023 at
+  \url{https://hflav-eos.web.cern.ch/hflav-eos/semi/winter23_prel/html/RDsDsstar/RDRDs.html}}.
+
+\bibitem{Bernlochner:2022ywh}
+F.~U.~Bernlochner, { et al.}, ``{Constrained second-order power corrections in
+  HQET: R(D(*)), $|V_{cb}|$, and new physics},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.106.096015}{Phys.\  Rev.\  D
+  {\bfseries 106} (2022) 096015} {\ttfamily
+  [\href{https://arxiv.org/abs/2206.11281}{arXiv:2206.11281}]}.
+
+\bibitem{Martinelli:2021onb}
+G.~Martinelli, S.~Simula, and L.~Vittorio, ``{$\vert V_{cb} \vert$ and
+  $R(D)^{(*)}$) using lattice QCD and unitarity},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.105.034503}{Phys.\  Rev.\  D
+  {\bfseries 105} (2022) 034503} {\ttfamily
+  [\href{https://arxiv.org/abs/2105.08674}{arXiv:2105.08674}]}.
+
+\bibitem{Martinelli:2021myh}
+G.~Martinelli, S.~Simula, and L.~Vittorio, ``{Exclusive determinations of
+  $\vert V_{cb} \vert $ and $R(D^{*})$ through unitarity},''
+  \href{https://dx.doi.org/10.1140/epjc/s10052-022-11050-0}{Eur.\  Phys.\  J.\
+  C {\bfseries 82} (2022) 1083} {\ttfamily
+  [\href{https://arxiv.org/abs/2109.15248}{arXiv:2109.15248}]}.
+
+\bibitem{FermilabLattice:2021cdg}
+{\bfseries Fermilab Lattice, MILC, Fermilab Lattice, MILC} Collaboration,
+  ``{Semileptonic form factors for $B\rightarrow D^*\ell \nu $ at nonzero
+  recoil from $2+1$-flavor lattice QCD: Fermilab
+  Lattice~and~MILC~Collaborations},''
+  \href{https://dx.doi.org/10.1140/epjc/s10052-022-10984-9}{Eur.\  Phys.\  J.\
+  C {\bfseries 82} (2022) 1141} {\ttfamily
+  [\href{https://arxiv.org/abs/2105.14019}{arXiv:2105.14019}]}. [Erratum:
+  Eur.Phys.J.C 83, 21 (2023)].
+
+\bibitem{Fedele:2023ewe}
+M.~Fedele, { et al.}, ``{Discriminating $B\to D^{*}\ell\nu$ form factors via
+  polarization observables and asymmetries}.'' {\ttfamily
+  \href{https://arxiv.org/abs/2305.15457}{arXiv:2305.15457}}.
+
+\bibitem{Lees:2012xj}
+{\bfseries BaBar} Collaboration, ``{Evidence for an excess of $\bar{B} \to
+  D^{(*)} \tau^-\bar{\nu}_\tau$ decays},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.109.101802}{Phys.\  Rev.\
+  Lett.\  {\bfseries 109} (2012) 101802} {\ttfamily
+  [\href{https://arxiv.org/abs/1205.5442}{arXiv:1205.5442}]}.
+
+\bibitem{Lees:2013uzd}
+{\bfseries BaBar} Collaboration, ``{Measurement of an Excess of $\bar{B} \to
+  D^{(*)}\tau^- \bar{\nu}_\tau$ Decays and Implications for Charged Higgs
+  Bosons},'' \href{https://dx.doi.org/10.1103/PhysRevD.88.072012}{Phys.\  Rev.\
+   D {\bfseries 88} (2013) 072012} {\ttfamily
+  [\href{https://arxiv.org/abs/1303.0571}{arXiv:1303.0571}]}.
+
+\bibitem{Huschle:2015rga}
+{\bfseries Belle} Collaboration, ``{Measurement of the branching ratio of
+  $\bar{B} \to D^{(\ast)} \tau^- \bar{\nu}_\tau$ relative to $\bar{B} \to
+  D^{(\ast)} \ell^- \bar{\nu}_\ell$ decays with hadronic tagging at Belle},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.92.072014}{Phys.\  Rev.\  D
+  {\bfseries 92} (2015) 072014} {\ttfamily
+  [\href{https://arxiv.org/abs/1507.03233}{arXiv:1507.03233}]}.
+
+\bibitem{Hirose:2016wfn}
+{\bfseries Belle} Collaboration, ``{Measurement of the $\tau$ lepton
+  polarization and $R(D^*)$ in the decay $\bar{B} \to D^* \tau^-
+  \bar{\nu}_\tau$},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.118.211801}{Phys.\  Rev.\
+  Lett.\  {\bfseries 118} (2017) 211801} {\ttfamily
+  [\href{https://arxiv.org/abs/1612.00529}{arXiv:1612.00529}]}.
+
+\bibitem{Hirose:2017dxl}
+{\bfseries Belle} Collaboration, ``{Measurement of the $\tau$ lepton
+  polarization and $R(D^*)$ in the decay $\bar{B} \rightarrow D^* \tau^-
+  \bar{\nu}_\tau$ with one-prong hadronic $\tau$ decays at Belle},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.97.012004}{Phys.\  Rev.\  D
+  {\bfseries 97} (2018) 012004} {\ttfamily
+  [\href{https://arxiv.org/abs/1709.00129}{arXiv:1709.00129}]}.
+
+\bibitem{Abdesselam:2019dgh}
+{\bfseries Belle} Collaboration, ``{Measurement of $\mathcal{R}(D)$ and
+  $\mathcal{R}(D^{\ast})$ with a semileptonic tagging method}.'' {\ttfamily
+  \href{https://arxiv.org/abs/1904.08794}{arXiv:1904.08794}}.
+
+\bibitem{Belle:2019rba}
+{\bfseries Belle} Collaboration, ``{Measurement of $\mathcal{R}(D)$ and
+  $\mathcal{R}(D^*)$ with a semileptonic tagging method},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.124.161803}{Phys.\  Rev.\
+  Lett.\  {\bfseries 124} (2020) 161803} {\ttfamily
+  [\href{https://arxiv.org/abs/1910.05864}{arXiv:1910.05864}]}.
+
+\bibitem{Aaij:2015yra}
+{\bfseries LHCb} Collaboration, ``{Measurement of the ratio of branching
+  fractions $\mathcal{B}(\bar{B}^0 \to
+  D^{*+}\tau^{-}\bar{\nu}_{\tau})/\mathcal{B}(\bar{B}^0 \to
+  D^{*+}\mu^{-}\bar{\nu}_{\mu})$},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.115.111803}{Phys.\  Rev.\
+  Lett.\  {\bfseries 115} (2015) 111803} {\ttfamily
+  [\href{https://arxiv.org/abs/1506.08614}{arXiv:1506.08614}]}. [Erratum:
+  Phys.Rev.Lett. 115, 159901 (2015)].
+
+\bibitem{Aaij:2017uff}
+{\bfseries LHCb} Collaboration, ``{Measurement of the ratio of the $B^0 \to
+  D^{*-} \tau^+ \nu_{\tau}$ and $B^0 \to D^{*-} \mu^+ \nu_{\mu}$ branching
+  fractions using three-prong $\tau$-lepton decays},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.120.171802}{Phys.\  Rev.\
+  Lett.\  {\bfseries 120} (2018) 171802} {\ttfamily
+  [\href{https://arxiv.org/abs/1708.08856}{arXiv:1708.08856}]}.
+
+\bibitem{Aaij:2017deq}
+{\bfseries LHCb} Collaboration, ``{Test of Lepton Flavor Universality by the
+  measurement of the $B^0 \to D^{*-} \tau^+ \nu_{\tau}$ branching fraction
+  using three-prong $\tau$ decays},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.97.072013}{Phys.\  Rev.\  D
+  {\bfseries 97} (2018) 072013} {\ttfamily
+  [\href{https://arxiv.org/abs/1711.02505}{arXiv:1711.02505}]}.
+
+\bibitem{LHCb:2023zxo}
+{\bfseries LHCb} Collaboration, ``{Measurement of the ratios of branching
+  fractions $\mathcal{R}(D^{*})$ and $\mathcal{R}(D^{0})$}.'' {\ttfamily
+  \href{https://arxiv.org/abs/2302.02886}{arXiv:2302.02886}}.
+
+\bibitem{LHCbRun1had}
+{\bfseries LHCb} Collaboration, ``{Rare and semileptinic decay $\&$ LFNU at
+  LHCb}.''. {\url{https://agenda.infn.it/event/33694/contributions/190241/}}.
+
+\bibitem{Ciezarek:2837207}
+{\bfseries LHCb} Collaboration, ``{$R(D^\ast)$ and $R(D)$ with $\tau^- \to
+  \mu^- \nu_\tau \overline\nu_\mu$}.''.
+  {\url{https://indico.cern.ch/event/1187939/}}.
+
+\bibitem{LHCbRDst2023}
+R.~Puthumanaillam, ``{Measurement of $R(D^\ast)$ with hadronic $\tau^+$ decays
+  at $\sqrt{s}=13$ TeV by the LHCb collaboration}.'' {Presentation at the CERN
+  Seminar, CERN, 21 March 2023}.
+
+\bibitem{Iguro:2022yzr}
+S.~Iguro, T.~Kitahara, and R.~Watanabe, ``{Global fit to $b \to c\tau\nu$
+  anomalies 2022 mid-autumn}.'' {\ttfamily
+  \href{https://arxiv.org/abs/2210.10751}{arXiv:2210.10751}}.
+
+\bibitem{Aebischer:2022oqe}
+J.~Aebischer, G.~Isidori, M.~Pesut, B.~A.~Stefanek, and F.~Wilsch,
+  ``{Confronting the vector leptoquark hypothesis with new low- and high-energy
+  data},'' \href{https://dx.doi.org/10.1140/epjc/s10052-023-11304-5}{Eur.\
+  Phys.\  J.\  C {\bfseries 83} (2023) 153} {\ttfamily
+  [\href{https://arxiv.org/abs/2210.13422}{arXiv:2210.13422}]}.
+
+\bibitem{Fedele:2022iib}
+M.~Fedele, { et al.}, ``{Impact of
+  \ensuremath{\Lambda}b\textrightarrow{}\ensuremath{\Lambda}c\ensuremath{\tau}\ensuremath{\nu}
+  measurement on new physics in b\textrightarrow{}cl\ensuremath{\nu}
+  transitions},'' \href{https://dx.doi.org/10.1103/PhysRevD.107.055005}{Phys.\
+  Rev.\  D {\bfseries 107} (2023) 055005} {\ttfamily
+  [\href{https://arxiv.org/abs/2211.14172}{arXiv:2211.14172}]}.
+
+\bibitem{Aban:2023pgq}
+J.~C.~Aban, C.-R.~Chen, and C.~S.~Nugroho, ``{Effects of Kaluza-Klein Neutrinos
+  on $R_{D}$ and $R_{D^{*}}$}.'' {\ttfamily
+  \href{https://arxiv.org/abs/2305.10305}{arXiv:2305.10305}}.
+
+\bibitem{Beneke:1996xe}
+M.~Beneke and G.~Buchalla, ``{The $B_c$ Meson Lifetime},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.53.4991}{Phys.\  Rev.\  D
+  {\bfseries 53} (1996) 4991--5000} {\ttfamily
+  [\href{https://arxiv.org/abs/hep-ph/9601249}{hep-ph/9601249}]}.
+
+\bibitem{Alonso:2016oyd}
+R.~Alonso, B.~Grinstein, and J.~Martin~Camalich, ``{Lifetime of $B_c^-$
+  Constrains Explanations for Anomalies in $B\to D^{(*)}\tau\nu$},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.118.081802}{Phys.\  Rev.\
+  Lett.\  {\bfseries 118} (2017) 081802} {\ttfamily
+  [\href{https://arxiv.org/abs/1611.06676}{arXiv:1611.06676}]}.
+
+\bibitem{Celis:2016azn}
+A.~Celis, M.~Jung, X.-Q.~Li, and A.~Pich, ``{Scalar contributions to $b\to c
+  (u) \tau \nu$ transitions},''
+  \href{https://dx.doi.org/10.1016/j.physletb.2017.05.037}{Phys.\  Lett.\  B
+  {\bfseries 771} (2017) 168--179} {\ttfamily
+  [\href{https://arxiv.org/abs/1612.07757}{arXiv:1612.07757}]}.
+
+\bibitem{Akeroyd:2017mhr}
+A.~G.~Akeroyd and C.-H.~Chen, ``{Constraint on the branching ratio of $B_c \to
+  \tau \bar{\nu}$ from LEP1 and consequences for $R(D^{(*)})$ anomaly},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.96.075011}{Phys.\  Rev.\  D
+  {\bfseries 96} (2017) 075011} {\ttfamily
+  [\href{https://arxiv.org/abs/1708.04072}{arXiv:1708.04072}]}.
+
+\bibitem{Blanke:2018yud}
+M.~Blanke, { et al.}, ``{Impact of polarization observables and $ B_c\to \tau
+  \nu$ on new physics explanations of the $b\to c \tau \nu$ anomaly},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.99.075006}{Phys.\  Rev.\  D
+  {\bfseries 99} (2019) 075006} {\ttfamily
+  [\href{https://arxiv.org/abs/1811.09603}{arXiv:1811.09603}]}.
+
+\bibitem{Aebischer:2021ilm}
+J.~Aebischer and B.~Grinstein, ``{Standard Model prediction of the $B_{c}$
+  lifetime},'' \href{https://dx.doi.org/10.1007/JHEP07(2021)130}{JHEP
+  {\bfseries 07} (2021) 130} {\ttfamily
+  [\href{https://arxiv.org/abs/2105.02988}{arXiv:2105.02988}]}.
+
+\bibitem{Tanaka:2012nw}
+M.~Tanaka and R.~Watanabe, ``{New physics in the weak interaction of $\bar B\to
+  D^{(*)}\tau\bar\nu$},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.87.034028}{Phys.\  Rev.\  D
+  {\bfseries 87} (2013) 034028} {\ttfamily
+  [\href{https://arxiv.org/abs/1212.1878}{arXiv:1212.1878}]}.
+
+\bibitem{Belle:2019ewo}
+{\bfseries Belle} Collaboration, ``{Measurement of the $D^{\ast-}$ polarization
+  in the decay $B^0 \to D^{\ast -}\tau^+\nu_{\tau}$}.'' {\ttfamily
+  \href{https://arxiv.org/abs/1903.03102}{arXiv:1903.03102}}.
+
+\bibitem{Crivellin:2012ye}
+A.~Crivellin, C.~Greub, and A.~Kokulu, ``{Explaining $B\to D\tau\nu$, $B\to
+  D^*\tau\nu$ and $B\to \tau\nu$ in a 2HDM of type III},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.86.054014}{Phys.\  Rev.\  D
+  {\bfseries 86} (2012) 054014} {\ttfamily
+  [\href{https://arxiv.org/abs/1206.2634}{arXiv:1206.2634}]}.
+
+\bibitem{Ko:2012sv}
+P.~Ko, Y.~Omura, and C.~Yu, ``{$B \to D^(*) \tau \nu$ and $B \to \tau \nu$ in
+  chiral $U(1)^\prime$ models with flavored multi Higgs doublets},''
+  \href{https://dx.doi.org/10.1007/JHEP03(2013)151}{JHEP {\bfseries 03} (2013)
+  151} {\ttfamily [\href{https://arxiv.org/abs/1212.4607}{arXiv:1212.4607}]}.
+
+\bibitem{Crivellin:2013wna}
+A.~Crivellin, A.~Kokulu, and C.~Greub, ``{Flavor-phenomenology of
+  two-Higgs-doublet models with generic Yukawa structure},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.87.094031}{Phys.\  Rev.\  D
+  {\bfseries 87} (2013) 094031} {\ttfamily
+  [\href{https://arxiv.org/abs/1303.5877}{arXiv:1303.5877}]}.
+
+\bibitem{Cline:2015lqp}
+J.~M.~Cline, ``{Scalar doublet models confront \ensuremath{\tau} and b
+  anomalies},'' \href{https://dx.doi.org/10.1103/PhysRevD.93.075017}{Phys.\
+  Rev.\  D {\bfseries 93} (2016) 075017} {\ttfamily
+  [\href{https://arxiv.org/abs/1512.02210}{arXiv:1512.02210}]}.
+
+\bibitem{Crivellin:2015hha}
+A.~Crivellin, J.~Heeck, and P.~Stoffer, ``{A perturbed lepton-specific
+  two-Higgs-doublet model facing experimental hints for physics beyond the
+  Standard Model},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.116.081801}{Phys.\  Rev.\
+  Lett.\  {\bfseries 116} (2016) 081801} {\ttfamily
+  [\href{https://arxiv.org/abs/1507.07567}{arXiv:1507.07567}]}.
+
+\bibitem{Lee:2017kbi}
+J.-P.~Lee, ``{$B\to D^{(*)}\tau\nu_\tau$ in the 2HDM with an anomalous $\tau$
+  coupling},'' \href{https://dx.doi.org/10.1103/PhysRevD.96.055005}{Phys.\
+  Rev.\  D {\bfseries 96} (2017) 055005} {\ttfamily
+  [\href{https://arxiv.org/abs/1705.02465}{arXiv:1705.02465}]}.
+
+\bibitem{Iguro:2017ysu}
+S.~Iguro and K.~Tobe, ``{$R(D^{(*)})$ in a general two Higgs doublet model},''
+  \href{https://dx.doi.org/10.1016/j.nuclphysb.2017.10.014}{Nucl.\  Phys.\  B
+  {\bfseries 925} (2017) 560--606} {\ttfamily
+  [\href{https://arxiv.org/abs/1708.06176}{arXiv:1708.06176}]}.
+
+\bibitem{Iguro:2018qzf}
+S.~Iguro and Y.~Omura, ``{Status of the semileptonic $B$ decays and muon g-2 in
+  general 2HDMs with right-handed neutrinos},''
+  \href{https://dx.doi.org/10.1007/JHEP05(2018)173}{JHEP {\bfseries 05} (2018)
+  173} {\ttfamily [\href{https://arxiv.org/abs/1802.01732}{arXiv:1802.01732}]}.
+
+\bibitem{Martinez:2018ynq}
+R.~Martinez, C.~F.~Sierra, and G.~Valencia, ``{Beyond $\mathcal{R}(D^{(*)})$
+  with the general type-III 2HDM for $b\to c\tau\nu$},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.98.115012}{Phys.\  Rev.\  D
+  {\bfseries 98} (2018) 115012} {\ttfamily
+  [\href{https://arxiv.org/abs/1805.04098}{arXiv:1805.04098}]}.
+
+\bibitem{Fraser:2018aqj}
+S.~Fraser, C.~Marzo, L.~Marzola, M.~Raidal, and C.~Spethmann, ``{Towards a
+  viable scalar interpretation of $R_{D^{(*)}}$},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.98.035016}{Phys.\  Rev.\  D
+  {\bfseries 98} (2018) 035016} {\ttfamily
+  [\href{https://arxiv.org/abs/1805.08189}{arXiv:1805.08189}]}.
+
+\bibitem{Athron:2021auq}
+P.~Athron, { et al.}, ``{Likelihood analysis of the flavour anomalies and g
+  \textendash{} 2 in the general two Higgs doublet model},''
+  \href{https://dx.doi.org/10.1007/JHEP01(2022)037}{JHEP {\bfseries 01} (2022)
+  037} {\ttfamily [\href{https://arxiv.org/abs/2111.10464}{arXiv:2111.10464}]}.
+
+\bibitem{Iguro:2022uzz}
+S.~Iguro, ``{Revival of H- interpretation of RD(*) anomaly and closing low mass
+  window},'' \href{https://dx.doi.org/10.1103/PhysRevD.105.095011}{Phys.\
+  Rev.\  D {\bfseries 105} (2022) 095011} {\ttfamily
+  [\href{https://arxiv.org/abs/2201.06565}{arXiv:2201.06565}]}.
+
+\bibitem{Blanke:2022pjy}
+M.~Blanke, S.~Iguro, and H.~Zhang, ``{Towards ruling out the charged Higgs
+  interpretation of the $ {R}_{D^{\left(\ast \right)}} $ anomaly},''
+  \href{https://dx.doi.org/10.1007/JHEP06(2022)043}{JHEP {\bfseries 06} (2022)
+  043} {\ttfamily [\href{https://arxiv.org/abs/2202.10468}{arXiv:2202.10468}]}.
+
+\bibitem{Kumar:2022rcf}
+G.~Kumar, ``{Interplay of the charged Higgs boson effects in $R_{D^{(*)}}$, $b
+  \rightarrow s \ell^{+}\ell^{-}$, and $W$ mass},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.107.075016}{Phys.\  Rev.\  D
+  {\bfseries 107} (2023) 075016} {\ttfamily
+  [\href{https://arxiv.org/abs/2212.07233}{arXiv:2212.07233}]}.
+
+\bibitem{Iguro:2023jju}
+S.~Iguro, ``{Conclusive probe of the charged Higgs solution of $P_5^\prime$ and
+  $R_{D^{(*)}}$ discrepancies},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.107.095004}{Phys.\  Rev.\  D
+  {\bfseries 107} (2023) 095004} {\ttfamily
+  [\href{https://arxiv.org/abs/2302.08935}{arXiv:2302.08935}]}.
+
+\bibitem{Angelescu:2018tyl}
+A.~Angelescu, D.~Be\v{c}irevi\'c, D.~A.~Faroughy, and O.~Sumensari, ``{Closing
+  the window on single leptoquark solutions to the $B$-physics anomalies},''
+  \href{https://dx.doi.org/10.1007/JHEP10(2018)183}{JHEP {\bfseries 10} (2018)
+  183} {\ttfamily [\href{https://arxiv.org/abs/1808.08179}{arXiv:1808.08179}]}.
+
+\bibitem{Kosnik:2012dj}
+N.~Kosnik, ``{Model independent constraints on leptoquarks from $b \to s \ell^+
+  \ell^-$ processes},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.86.055004}{Phys.\  Rev.\  D
+  {\bfseries 86} (2012) 055004} {\ttfamily
+  [\href{https://arxiv.org/abs/1206.2970}{arXiv:1206.2970}]}.
+
+\bibitem{Shaw:2018sbe}
+A.~Shaw, A.~Biswas, and A.~K.~Swain, ``{Collider signature of \(V_2\)
+  Leptoquark with \( b\to s\) flavour observables},''
+  \href{https://dx.doi.org/10.31526/lhep.2.2019.126}{LHEP {\bfseries 2} (2019)
+  126} {\ttfamily [\href{https://arxiv.org/abs/1811.08887}{arXiv:1811.08887}]}.
+
+\bibitem{Cheung:2022zsb}
+K.~Cheung, W.-Y.~Keung, and P.-Y.~Tseng, ``{Isodoublet vector leptoquark
+  solution to the muon g-2, RK,K*, RD,D*, and W-mass anomalies},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.106.015029}{Phys.\  Rev.\  D
+  {\bfseries 106} (2022) 015029} {\ttfamily
+  [\href{https://arxiv.org/abs/2204.05942}{arXiv:2204.05942}]}.
+
+\bibitem{Sakaki:2013bfa}
+Y.~Sakaki, M.~Tanaka, A.~Tayduganov, and R.~Watanabe, ``{Testing leptoquark
+  models in $\bar B \to D^{(*)} \tau \bar\nu$},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.88.094012}{Phys.\  Rev.\  D
+  {\bfseries 88} (2013) 094012} {\ttfamily
+  [\href{https://arxiv.org/abs/1309.0301}{arXiv:1309.0301}]}.
+
+\bibitem{Iguro:2018vqb}
+S.~Iguro, T.~Kitahara, Y.~Omura, R.~Watanabe, and K.~Yamamoto, ``{$D^{*}$
+  polarization vs. $ {R}_{D^{\left(\ast \right)}} $ anomalies in the leptoquark
+  models},'' \href{https://dx.doi.org/10.1007/JHEP02(2019)194}{JHEP {\bfseries
+  02} (2019) 194} {\ttfamily
+  [\href{https://arxiv.org/abs/1811.08899}{arXiv:1811.08899}]}.
+
+\bibitem{Allwicher:2022mcg}
+L.~Allwicher, D.~A.~Faroughy, F.~Jaffredo, O.~Sumensari, and F.~Wilsch,
+  ``{HighPT: A tool for high-pT Drell-Yan tails beyond the standard model},''
+  \href{https://dx.doi.org/10.1016/j.cpc.2023.108749}{Comput.\  Phys.\
+  Commun.\  {\bfseries 289} (2023) 108749} {\ttfamily
+  [\href{https://arxiv.org/abs/2207.10756}{arXiv:2207.10756}]}.
+
+\bibitem{Frampton:1989fu}
+P.~H.~Frampton and B.-H.~Lee, ``{SU(15) GRAND UNIFICATION},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.64.619}{Phys.\  Rev.\  Lett.\
+  {\bfseries 64} (1990) 619}.
+
+\bibitem{Frampton:1990hz}
+P.~H.~Frampton and T.~W.~Kephart, ``{Higgs sector and proton decay in SU(15)
+  grand unification},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.42.3892}{Phys.\  Rev.\  D
+  {\bfseries 42} (1990) 3892--3894}.
+
+\bibitem{Frampton:1991ay}
+P.~H.~Frampton, ``{Light leptoquarks as possible signature of strong
+  electroweak unification},''
+  \href{https://dx.doi.org/10.1142/S0217732392000525}{Mod.\  Phys.\  Lett.\  A
+  {\bfseries 7} (1992) 559--562}.
+
+\bibitem{Bernigaud:2021fwn}
+J.~Bernigaud, M.~Blanke, I.~de~Medeiros~Varzielas, J.~Talbert, and J.~Zurita,
+  ``{LHC signatures of \ensuremath{\tau}-flavoured vector leptoquarks},''
+  \href{https://dx.doi.org/10.1007/JHEP08(2022)127}{JHEP {\bfseries 08} (2022)
+  127} {\ttfamily [\href{https://arxiv.org/abs/2112.12129}{arXiv:2112.12129}]}.
+
+\bibitem{Cabibbo:1963yz}
+N.~Cabibbo, ``{Unitary Symmetry and Leptonic Decays},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.10.531}{Phys.\  Rev.\  Lett.\
+  {\bfseries 10} (1963) 531--533}.
+
+\bibitem{Kobayashi:1973fv}
+M.~Kobayashi and T.~Maskawa, ``{CP Violation in the Renormalizable Theory of
+  Weak Interaction},'' \href{https://dx.doi.org/10.1143/PTP.49.652}{Prog.\
+  Theor.\  Phys.\  {\bfseries 49} (1973) 652--657}.
+
+\bibitem{Wolfenstein:1983yz}
+L.~Wolfenstein, ``{Parametrization of the Kobayashi-Maskawa Matrix},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.51.1945}{Phys.\  Rev.\  Lett.\
+  {\bfseries 51} (1983) 1945}.
+
+\bibitem{Kim:2018oih}
+T.~J.~Kim, P.~Ko, J.~Li, J.~Park, and P.~Wu, ``{Correlation between $
+  {R}_{D^{\left(\ast \right)}} $ and top quark FCNC decays in leptoquark
+  models},'' \href{https://dx.doi.org/10.1007/JHEP07(2019)025}{JHEP {\bfseries
+  07} (2019) 025} {\ttfamily
+  [\href{https://arxiv.org/abs/1812.08484}{arXiv:1812.08484}]}.
+
+\bibitem{Jenkins:2013wua}
+E.~E.~Jenkins, A.~V.~Manohar, and M.~Trott, ``{Renormalization Group Evolution
+  of the Standard Model Dimension Six Operators II: Yukawa Dependence},''
+  \href{https://dx.doi.org/10.1007/JHEP01(2014)035}{JHEP {\bfseries 01} (2014)
+  035} {\ttfamily [\href{https://arxiv.org/abs/1310.4838}{arXiv:1310.4838}]}.
+
+\bibitem{Alonso:2013hga}
+R.~Alonso, E.~E.~Jenkins, A.~V.~Manohar, and M.~Trott, ``{Renormalization Group
+  Evolution of the Standard Model Dimension Six Operators III: Gauge Coupling
+  Dependence and Phenomenology},''
+  \href{https://dx.doi.org/10.1007/JHEP04(2014)159}{JHEP {\bfseries 04} (2014)
+  159} {\ttfamily [\href{https://arxiv.org/abs/1312.2014}{arXiv:1312.2014}]}.
+
+\bibitem{Gonzalez-Alonso:2017iyc}
+M.~Gonz\'alez-Alonso, J.~Martin~Camalich, and K.~Mimouni,
+  ``{Renormalization-group evolution of new physics contributions to
+  (semi)leptonic meson decays},''
+  \href{https://dx.doi.org/10.1016/j.physletb.2017.07.003}{Phys.\  Lett.\  B
+  {\bfseries 772} (2017) 777--785} {\ttfamily
+  [\href{https://arxiv.org/abs/1706.00410}{arXiv:1706.00410}]}.
+
+\bibitem{Aebischer:2017gaw}
+J.~Aebischer, M.~Fael, C.~Greub, and J.~Virto, ``{B physics Beyond the Standard
+  Model at One Loop: Complete Renormalization Group Evolution below the
+  Electroweak Scale},'' \href{https://dx.doi.org/10.1007/JHEP09(2017)158}{JHEP
+  {\bfseries 09} (2017) 158} {\ttfamily
+  [\href{https://arxiv.org/abs/1704.06639}{arXiv:1704.06639}]}.
+
+\bibitem{Aebischer:2018acj}
+J.~Aebischer, A.~Crivellin, and C.~Greub, ``{QCD improved matching for
+  semileptonic B decays with leptoquarks},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.99.055002}{Phys.\  Rev.\  D
+  {\bfseries 99} (2019) 055002} {\ttfamily
+  [\href{https://arxiv.org/abs/1811.08907}{arXiv:1811.08907}]}.
+
+\bibitem{Bobeth:1999mk}
+C.~Bobeth, M.~Misiak, and J.~Urban, ``{Photonic penguins at two loops and $m_t$
+  dependence of $BR[B \to X_s l^+ l^-]$},''
+  \href{https://dx.doi.org/10.1016/S0550-3213(00)00007-9}{Nucl.\  Phys.\  B
+  {\bfseries 574} (2000) 291--330} {\ttfamily
+  [\href{https://arxiv.org/abs/hep-ph/9910220}{hep-ph/9910220}]}.
+
+\bibitem{Huber:2005ig}
+T.~Huber, E.~Lunghi, M.~Misiak, and D.~Wyler, ``{Electromagnetic logarithms in
+  $\bar B \to X_s l^+ l^-$},''
+  \href{https://dx.doi.org/10.1016/j.nuclphysb.2006.01.037}{Nucl.\  Phys.\  B
+  {\bfseries 740} (2006) 105--137} {\ttfamily
+  [\href{https://arxiv.org/abs/hep-ph/0512066}{hep-ph/0512066}]}.
+
+\bibitem{LHCb:2017myy}
+{\bfseries LHCb} Collaboration, ``{Search for the decays $B_s^0\to\tau^+\tau^-$
+  and $B^0\to\tau^+\tau^-$},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.118.251802}{Phys.\  Rev.\
+  Lett.\  {\bfseries 118} (2017) 251802} {\ttfamily
+  [\href{https://arxiv.org/abs/1703.02508}{arXiv:1703.02508}]}.
+
+\bibitem{LHCb:2018roe}
+{\bfseries LHCb} Collaboration, ``{Physics case for an LHCb Upgrade II -
+  Opportunities in flavour physics, and beyond, in the HL-LHC era}.''
+  {\ttfamily \href{https://arxiv.org/abs/1808.08865}{arXiv:1808.08865}}.
+
+\bibitem{MILC:2015uhg}
+{\bfseries MILC} Collaboration,
+  ``{B\textrightarrow{}D\ensuremath{\ell}\ensuremath{\nu} form factors at
+  nonzero recoil and |V$_{cb}$| from 2+1-flavor lattice QCD},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.92.034506}{Phys.\  Rev.\  D
+  {\bfseries 92} (2015) 034506} {\ttfamily
+  [\href{https://arxiv.org/abs/1503.07237}{arXiv:1503.07237}]}.
+
+\bibitem{Belle:2017rcc}
+{\bfseries Belle} Collaboration, ``{Precise determination of the CKM matrix
+  element $\left| V_{cb}\right|$ with $\bar B^0 \to D^{*\,+} \, \ell^- \, \bar
+  \nu_\ell$ decays with hadronic tagging at Belle}.'' {\ttfamily
+  \href{https://arxiv.org/abs/1702.01521}{arXiv:1702.01521}}.
+
+\bibitem{Belle:2018ezy}
+{\bfseries Belle} Collaboration, ``{Measurement of the CKM matrix element
+  $|V_{cb}|$ from $B^0\to D^{*-}\ell^ {+} \nu_\ell$ at Belle},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.100.052007}{Phys.\  Rev.\  D
+  {\bfseries 100} (2019) 052007} {\ttfamily
+  [\href{https://arxiv.org/abs/1809.03290}{arXiv:1809.03290}]}. [Erratum:
+  Phys.Rev.D 103, 079901 (2021)].
+
+\bibitem{Zheng:2020ult}
+T.~Zheng, { et al.}, ``{Analysis of $B_c \to \tau\nu_\tau$ at CEPC},''
+  \href{https://dx.doi.org/10.1088/1674-1137/abcf1f}{Chin.\  Phys.\  C
+  {\bfseries 45} (2021) 023001} {\ttfamily
+  [\href{https://arxiv.org/abs/2007.08234}{arXiv:2007.08234}]}.
+
+\bibitem{Amhis:2021cfy}
+Y.~Amhis, M.~Hartmann, C.~Helsens, D.~Hill, and O.~Sumensari, ``{Prospects for
+  $ {B}_c^{+} $\textrightarrow{}
+  \ensuremath{\tau}$^{+}$\ensuremath{\nu}$_{\tau}$ at FCC-ee},''
+  \href{https://dx.doi.org/10.1007/JHEP12(2021)133}{JHEP {\bfseries 12} (2021)
+  133} {\ttfamily [\href{https://arxiv.org/abs/2105.13330}{arXiv:2105.13330}]}.
+
+\bibitem{Fedele:2023gyi}
+M.~Fedele, { et al.}, ``{Prospects for $B_c^+$ and $B^+\to \tau^+ \nu_\tau$ at
+  FCC-ee}.'' {\ttfamily
+  \href{https://arxiv.org/abs/2305.02998}{arXiv:2305.02998}}.
+
+\bibitem{BaBar:2016wgb}
+{\bfseries BaBar} Collaboration, ``{Search for $B^{+}\rightarrow K^{+}
+  \tau^{+}\tau^{-}$ at the BaBar experiment},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.118.031802}{Phys.\  Rev.\
+  Lett.\  {\bfseries 118} (2017) 031802} {\ttfamily
+  [\href{https://arxiv.org/abs/1605.09637}{arXiv:1605.09637}]}.
+
+\bibitem{Capdevila:2017iqn}
+B.~Capdevila, A.~Crivellin, S.~Descotes-Genon, L.~Hofer, and J.~Matias,
+  ``{Searching for New Physics with $b\to s\tau^+\tau^-$ processes},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.120.181802}{Phys.\  Rev.\
+  Lett.\  {\bfseries 120} (2018) 181802} {\ttfamily
+  [\href{https://arxiv.org/abs/1712.01919}{arXiv:1712.01919}]}.
+
+\bibitem{Sirunyan:2018vhk}
+{\bfseries CMS} Collaboration, ``{Search for heavy neutrinos and
+  third-generation leptoquarks in hadronic states of two $\tau$ leptons and two
+  jets in proton-proton collisions at $\sqrt{s} =$ 13 TeV},''
+  \href{https://dx.doi.org/10.1007/JHEP03(2019)170}{JHEP {\bfseries 03} (2019)
+  170} {\ttfamily [\href{https://arxiv.org/abs/1811.00806}{arXiv:1811.00806}]}.
+
+\bibitem{Aaboud:2019bye}
+{\bfseries ATLAS} Collaboration, ``{Searches for third-generation scalar
+  leptoquarks in $\sqrt{s}$ = 13 TeV pp collisions with the ATLAS detector},''
+  \href{https://dx.doi.org/10.1007/JHEP06(2019)144}{JHEP {\bfseries 06} (2019)
+  144} {\ttfamily [\href{https://arxiv.org/abs/1902.08103}{arXiv:1902.08103}]}.
+
+\bibitem{Aad:2021rrh}
+{\bfseries ATLAS} Collaboration, ``{Search for pair production of
+  third-generation scalar leptoquarks decaying into a top quark and a
+  $\tau$-lepton in $pp$ collisions at $ \sqrt{s} $ = 13 TeV with the ATLAS
+  detector},'' \href{https://dx.doi.org/10.1007/JHEP06(2021)179}{JHEP
+  {\bfseries 06} (2021) 179} {\ttfamily
+  [\href{https://arxiv.org/abs/2101.11582}{arXiv:2101.11582}]}.
+
+\bibitem{ATLAS:2021jyv}
+{\bfseries ATLAS} Collaboration, ``{Search for new phenomena in $pp$ collisions
+  in final states with tau leptons, b-jets, and missing transverse momentum
+  with the ATLAS detector},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.104.112005}{Phys.\  Rev.\  D
+  {\bfseries 104} (2021) 112005} {\ttfamily
+  [\href{https://arxiv.org/abs/2108.07665}{arXiv:2108.07665}]}.
+
+\bibitem{Faroughy:2016osc}
+D.~A.~Faroughy, A.~Greljo, and J.~F.~Kamenik, ``{Confronting lepton flavor
+  universality violation in B decays with high-$p_T$ tau lepton searches at
+  LHC},'' \href{https://dx.doi.org/10.1016/j.physletb.2016.11.011}{Phys.\
+  Lett.\  B {\bfseries 764} (2017) 126--134} {\ttfamily
+  [\href{https://arxiv.org/abs/1609.07138}{arXiv:1609.07138}]}.
+
+\bibitem{Iguro:2018fni}
+S.~Iguro, Y.~Omura, and M.~Takeuchi, ``{Test of the $R(D^{(*)})$ anomaly at the
+  LHC},'' \href{https://dx.doi.org/10.1103/PhysRevD.99.075013}{Phys.\  Rev.\  D
+  {\bfseries 99} (2019) 075013} {\ttfamily
+  [\href{https://arxiv.org/abs/1810.05843}{arXiv:1810.05843}]}.
+
+\bibitem{Mandal:2018kau}
+T.~Mandal, S.~Mitra, and S.~Raz, ``{$R_{D^{(*)}}$ motivated $\mathcal{S}_1$
+  leptoquark scenarios: Impact of interference on the exclusion limits from LHC
+  data},'' \href{https://dx.doi.org/10.1103/PhysRevD.99.055028}{Phys.\  Rev.\
+  D {\bfseries 99} (2019) 055028} {\ttfamily
+  [\href{https://arxiv.org/abs/1811.03561}{arXiv:1811.03561}]}.
+
+\bibitem{Greljo:2018tzh}
+A.~Greljo, J.~Martin~Camalich, and J.~D.~Ruiz-\'Alvarez, ``{Mono-$\tau$
+  Signatures at the LHC Constrain Explanations of $B$-decay Anomalies},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.122.131803}{Phys.\  Rev.\
+  Lett.\  {\bfseries 122} (2019) 131803} {\ttfamily
+  [\href{https://arxiv.org/abs/1811.07920}{arXiv:1811.07920}]}.
+
+\bibitem{Altmannshofer:2017poe}
+W.~Altmannshofer, P.~S.~Bhupal~Dev, and A.~Soni, ``{$R_{D^{(*)}}$ anomaly: A
+  possible hint for natural supersymmetry with $R$-parity violation},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.96.095010}{Phys.\  Rev.\  D
+  {\bfseries 96} (2017) 095010} {\ttfamily
+  [\href{https://arxiv.org/abs/1704.06659}{arXiv:1704.06659}]}.
+
+\bibitem{Abdullah:2018ets}
+M.~Abdullah, J.~Calle, B.~Dutta, A.~Fl\'orez, and D.~Restrepo, ``{Probing a
+  simplified, $W^{\prime}$ model of $R(D^{(\ast)})$ anomalies using $b$-tags,
+  $\tau$ leptons and missing energy},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.98.055016}{Phys.\  Rev.\  D
+  {\bfseries 98} (2018) 055016} {\ttfamily
+  [\href{https://arxiv.org/abs/1805.01869}{arXiv:1805.01869}]}.
+
+\bibitem{Marzocca:2020ueu}
+D.~Marzocca, U.~Min, and M.~Son, ``{Bottom-Flavored Mono-Tau Tails at the
+  LHC},'' \href{https://dx.doi.org/10.1007/JHEP12(2020)035}{JHEP {\bfseries 12}
+  (2020) 035} {\ttfamily
+  [\href{https://arxiv.org/abs/2008.07541}{arXiv:2008.07541}]}.
+
+\bibitem{Iguro:2020keo}
+S.~Iguro, M.~Takeuchi, and R.~Watanabe, ``{Testing Leptoquark/EFT in $\bar B
+  \to D^{(*)} l\bar\nu$ at the LHC},''
+  \href{https://dx.doi.org/10.1140/epjc/s10052-021-09125-5}{Eur.\  Phys.\  J.\
+  C {\bfseries 81} (2021) 406} {\ttfamily
+  [\href{https://arxiv.org/abs/2011.02486}{arXiv:2011.02486}]}.
+
+\bibitem{Endo:2021lhi}
+M.~Endo, S.~Iguro, T.~Kitahara, M.~Takeuchi, and R.~Watanabe, ``{Non-resonant
+  new physics search at the LHC for the $b \to
+  c\ensuremath{\tau}\ensuremath{\nu}$ anomalies},''
+  \href{https://dx.doi.org/10.1007/JHEP02(2022)106}{JHEP {\bfseries 02} (2022)
+  106} {\ttfamily [\href{https://arxiv.org/abs/2111.04748}{arXiv:2111.04748}]}.
+
+\bibitem{CMS:2022goy}
+{\bfseries CMS} Collaboration, ``{Searches for additional Higgs bosons and for
+  vector leptoquarks in $\tau\tau$ final states in proton-proton collisions at
+  $\sqrt{s}$ = 13 TeV}.'' {\ttfamily
+  \href{https://arxiv.org/abs/2208.02717}{arXiv:2208.02717}}.
+
+\bibitem{ATLAS:2020zms}
+{\bfseries ATLAS} Collaboration, ``{Search for heavy Higgs bosons decaying into
+  two tau leptons with the ATLAS detector using $pp$ collisions at
+  $\sqrt{s}=13$ TeV},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.125.051801}{Phys.\  Rev.\
+  Lett.\  {\bfseries 125} (2020) 051801} {\ttfamily
+  [\href{https://arxiv.org/abs/2002.12223}{arXiv:2002.12223}]}.
+
+\bibitem{CMS:2015hmx}
+{\bfseries CMS} Collaboration, ``{Search for W' decaying to tau lepton and
+  neutrino in proton-proton collisions at $\sqrt{s} =$ 8 TeV},''
+  \href{https://dx.doi.org/10.1016/j.physletb.2016.02.002}{Phys.\  Lett.\  B
+  {\bfseries 755} (2016) 196--216} {\ttfamily
+  [\href{https://arxiv.org/abs/1508.04308}{arXiv:1508.04308}]}.
+
+\bibitem{Aaboud:2018vgh}
+{\bfseries ATLAS} Collaboration, ``{Search for High-Mass Resonances Decaying to
+  $\tau\nu$ in pp Collisions at $\sqrt{s}$=13 TeV with the ATLAS Detector},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.120.161802}{Phys.\  Rev.\
+  Lett.\  {\bfseries 120} (2018) 161802} {\ttfamily
+  [\href{https://arxiv.org/abs/1801.06992}{arXiv:1801.06992}]}.
+
+\bibitem{Sirunyan:2018lbg}
+{\bfseries CMS} Collaboration, ``{Search for a W' boson decaying to a $\tau$
+  lepton and a neutrino in proton-proton collisions at $\sqrt{s} =$ 13 TeV},''
+  \href{https://dx.doi.org/10.1016/j.physletb.2019.01.069}{Phys.\  Lett.\  B
+  {\bfseries 792} (2019) 107--131} {\ttfamily
+  [\href{https://arxiv.org/abs/1807.11421}{arXiv:1807.11421}]}.
+
+\bibitem{ATLAS:2021bjk}
+{\bfseries ATLAS} Collaboration, ``{Search for high-mass resonances in final
+  states with a tau lepton and missing transverse momentum with the ATLAS
+  detector, ATLAS-CONF-2021-025}.''.
+
+\bibitem{PDG2022}
+{\bfseries Particle Data Group} Collaboration, ``{Review of Particle
+  Physics},'' \href{https://dx.doi.org/10.1093/ptep/ptac097}{PTEP {\bfseries
+  2022} (2022) 083C01}.
+
+\bibitem{Tanaka:2016ijq}
+M.~Tanaka and R.~Watanabe, ``{New physics contributions in $B\to\pi\tau\bar\nu$
+  and $B\to\tau\bar\nu$},'' \href{https://dx.doi.org/10.1093/ptep/ptw175}{PTEP
+  {\bfseries 2017} (2017) 013B05} {\ttfamily
+  [\href{https://arxiv.org/abs/1608.05207}{arXiv:1608.05207}]}.
+
+\bibitem{Kou:2018nap}
+E.~Kou and P.~Urquijo, eds., ``{The Belle II Physics Book},''
+  \href{https://dx.doi.org/10.1093/ptep/ptz106}{PTEP {\bfseries 2019} (2019)
+  123C01} {\ttfamily
+  [\href{https://arxiv.org/abs/1808.10567}{arXiv:1808.10567}]}. [Erratum: PTEP
+  2020, 029201 (2020)].
+
+\bibitem{BESIII:2019vhn}
+{\bfseries BESIII} Collaboration, ``{Observation of the leptonic decay $D^+ \to
+  \tau^+ \nu_\tau$},''
+  \href{https://dx.doi.org/10.1103/PhysRevLett.123.211802}{Phys.\  Rev.\
+  Lett.\  {\bfseries 123} (2019) 211802} {\ttfamily
+  [\href{https://arxiv.org/abs/1908.08877}{arXiv:1908.08877}]}.
+
+\bibitem{Belle:2017oht}
+{\bfseries Belle} Collaboration, ``{Search for $\boldsymbol{B\to
+  h\nu\bar{\nu}}$ decays with semileptonic tagging at Belle},''
+  \href{https://dx.doi.org/10.1103/PhysRevD.96.091101}{Phys.\  Rev.\  D
+  {\bfseries 96} (2017) 091101} {\ttfamily
+  [\href{https://arxiv.org/abs/1702.03224}{arXiv:1702.03224}]}. [Addendum:
+  Phys.Rev.D 97, 099902 (2018)].
+
+\bibitem{Buras:2014fpa}
+A.~J.~Buras, J.~Girrbach-Noe, C.~Niehoff, and D.~M.~Straub, ``{$ B\to
+  {K}^{\left(\ast \right)}\nu \overline{\nu} $ decays in the Standard Model and
+  beyond},'' \href{https://dx.doi.org/10.1007/JHEP02(2015)184}{JHEP {\bfseries
+  02} (2015) 184} {\ttfamily
+  [\href{https://arxiv.org/abs/1409.4557}{arXiv:1409.4557}]}.
+
+\bibitem{Bause:2022rrs}
+R.~Bause, H.~Gisbert, M.~Golz, and G.~Hiller, ``{Model-independent analysis of
+  $b\to d$ processes}.'' {\ttfamily
+  \href{https://arxiv.org/abs/2209.04457}{arXiv:2209.04457}}.
+
+\bibitem{Iguro:2022ozl}
+S.~Iguro, J.~Kawamura, S.~Okawa, and Y.~Omura, ``{Importance of vector
+  leptoquark-scalar box diagrams in Pati-Salam unification with vector-like
+  families},'' \href{https://dx.doi.org/10.1007/JHEP07(2022)022}{JHEP
+  {\bfseries 07} (2022) 022} {\ttfamily
+  [\href{https://arxiv.org/abs/2201.04638}{arXiv:2201.04638}]}.
+
+\bibitem{IOprojectNo17}
+S.~Iguro and Y.~Omura, ``work in progress.''.
+
+\end{thebibliography}\endgroup

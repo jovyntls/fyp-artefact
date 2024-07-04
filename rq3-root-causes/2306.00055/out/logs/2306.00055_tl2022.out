@@ -1,0 +1,55 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00055_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00055"  "submission.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./submission.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo))
+
+! LaTeX Error: File `jheppub.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.4 \bibstyle
+             {JHEP}^^M
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00055/2306.00055_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00055/2306.00055_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00055/2306.00055_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00055/2306.00055_tl2022.log'
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00055/2306.00055_tl2022.log' and/or above output for details
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+Latexmk: Nothing to do for 'submission.tex'.
+Latexmk: All targets () are up-to-date
+Collected error summary (may duplicate other messages):
+  pdflatex: gave an error
+

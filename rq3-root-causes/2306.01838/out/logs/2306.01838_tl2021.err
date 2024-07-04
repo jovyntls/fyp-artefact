@@ -1,0 +1,17 @@
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01838/2306.01838_tl2021.bbl' in following:
+ No file 2306.01838_tl2021.bbl.
+Latexmk: Failed to find one or more bibliography files:
+    'bib.bib'
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01838/2306.01838_tl2021.bbl' in following:
+ No file 2306.01838_tl2021.bbl.
+Latexmk: Failed to find one or more bibliography files:
+    'bib.bib'
+Latexmk: ====List of undefined refs and citations:
+  Citation `Dej' on page 2 undefined on input line 524
+  Citation `Dej' on page 2 undefined on input line 524
+  Citation `Haj' on page 2 undefined on input line 524
+  Citation `HajSch' on page 2 undefined on input line 524
+  Citation `HajTys' on page 2 undefined on input line 524
+  Citation `perry2020lipschitz' on page 2 undefined on input line 524
+  Citation `Weg' on page 2 undefined on input line 524
+ And 19 more --- see log file.

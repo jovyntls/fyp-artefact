@@ -1,0 +1,216 @@
+\begin{thebibliography}{31}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Morrison and Witherell}(1989)}]{Morrison:1989xq}
+\bibinfo{author}{\bibfnamefont{R.~J.} \bibnamefont{Morrison}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.~S.} \bibnamefont{Witherell}},
+  \bibinfo{journal}{Ann. Rev. Nucl. Part. Sci.} \textbf{\bibinfo{volume}{39}},
+  \bibinfo{pages}{183} (\bibinfo{year}{1989}).
+
+\bibitem[{\citenamefont{Browder et~al.}(1996)\citenamefont{Browder, Honscheid,
+  and Pedrini}}]{Browder:1996af}
+\bibinfo{author}{\bibfnamefont{T.~E.} \bibnamefont{Browder}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Honscheid}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Pedrini}},
+  \bibinfo{journal}{Ann. Rev. Nucl. Part. Sci.} \textbf{\bibinfo{volume}{46}},
+  \bibinfo{pages}{395} (\bibinfo{year}{1996}).
+
+\bibitem[{\citenamefont{Lenz}(2015)}]{Lenz:2014jha}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Lenz}}, \bibinfo{journal}{Int.
+  J. Mod. Phys. A} \textbf{\bibinfo{volume}{30}}, \bibinfo{pages}{1543005}
+  (\bibinfo{year}{2015}).
+
+\bibitem[{\citenamefont{Neubert}(1998)}]{Neubert:1997gu}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Neubert}},
+  \bibinfo{journal}{Adv. Ser. Direct. High Energy Phys.}
+  \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{239} (\bibinfo{year}{1998}).
+
+\bibitem[{\citenamefont{Uraltsev}(2000)}]{Uraltsev:2000qw}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Uraltsev}}
+  (\bibinfo{year}{2000}), \eprint{hep-ph/0010328}.
+
+\bibitem[{\citenamefont{Lenz and Rauh}(2013)}]{PhysRevD.88.034004}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Lenz}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Rauh}},
+  \bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{88}},
+  \bibinfo{pages}{034004} (\bibinfo{year}{2013}).
+
+\bibitem[{\citenamefont{Kirk et~al.}(2017)\citenamefont{Kirk, Lenz, and
+  Rauh}}]{Kirk:2017juj}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kirk}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Lenz}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Rauh}},
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{068}
+  (\bibinfo{year}{2017}), \bibinfo{note}{[Erratum: JHEP 06, 162 (2020)]}.
+
+\bibitem[{\citenamefont{Gratrex et~al.}(2022)\citenamefont{Gratrex, Meli\'c,
+  and Ni\v{s}and\v{z}i\'c}}]{Gratrex:2022xpm}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Gratrex}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Meli\'c}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Ni\v{s}and\v{z}i\'c}},
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{07}}, \bibinfo{pages}{058}
+  (\bibinfo{year}{2022}).
+
+\bibitem[{\citenamefont{Aoki
+  et~al.}(2022)}]{FlavourLatticeAveragingGroupFLAG:2021npn}
+\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Aoki}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{Flavour Lattice Averaging Group (FLAG)}),
+  \bibinfo{journal}{Eur. Phys. J. C} \textbf{\bibinfo{volume}{82}},
+  \bibinfo{pages}{869} (\bibinfo{year}{2022}).
+
+\bibitem[{\citenamefont{Aaij et~al.}(2017)}]{LHCb:2017knt}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Aaij}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{LHCb Collaboration}), \bibinfo{journal}{Phys. Rev.
+  Lett.} \textbf{\bibinfo{volume}{119}}, \bibinfo{pages}{101801}
+  (\bibinfo{year}{2017}).
+
+\bibitem[{\citenamefont{Link et~al.}(2005)}]{FOCUS:2005gui}
+\bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{Link}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{FOCUS Collaboration}), \bibinfo{journal}{Phys. Rev.
+  Lett.} \textbf{\bibinfo{volume}{95}}, \bibinfo{pages}{052003}
+  (\bibinfo{year}{2005}).
+
+\bibitem[{\citenamefont{Iori et~al.}(2001)}]{SELEX:2001miq}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Iori}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{SELEX Collaboration}), \bibinfo{journal}{Phys. Lett.
+  B} \textbf{\bibinfo{volume}{523}}, \bibinfo{pages}{22}
+  (\bibinfo{year}{2001}).
+
+\bibitem[{\citenamefont{Aitala et~al.}(1999)}]{E791:1998zjs}
+\bibinfo{author}{\bibfnamefont{E.~M.} \bibnamefont{Aitala}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{E791 Collaboration}),
+  \bibinfo{journal}{Phys. Lett. B} \textbf{\bibinfo{volume}{445}},
+  \bibinfo{pages}{449} (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Bonvicini et~al.}(1999)}]{CLEO:1999xvl}
+\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Bonvicini}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{CLEO Collaboration}),
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{82}},
+  \bibinfo{pages}{4586} (\bibinfo{year}{1999}).
+
+\bibitem[{\citenamefont{Frabetti et~al.}(1993)}]{E687:1993lxk}
+\bibinfo{author}{\bibfnamefont{P.~L.} \bibnamefont{Frabetti}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{E687 Collaboration}),
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{71}},
+  \bibinfo{pages}{827} (\bibinfo{year}{1993}).
+
+\bibitem[{\citenamefont{Raab et~al.}(1988)}]{TaggedPhotonSpectrometer:1987poq}
+\bibinfo{author}{\bibfnamefont{J.~R.} \bibnamefont{Raab}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{E691 Collaboration}), \bibinfo{journal}{Phys. Rev.
+  D} \textbf{\bibinfo{volume}{37}}, \bibinfo{pages}{2391}
+  (\bibinfo{year}{1988}).
+
+\bibitem[{\citenamefont{Workman et~al.}(2022)}]{ParticleDataGroup:2022pth}
+\bibinfo{author}{\bibfnamefont{R.~L.} \bibnamefont{Workman}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{Particle Data Group}),
+  \bibinfo{journal}{PTEP} \textbf{\bibinfo{volume}{2022}},
+  \bibinfo{pages}{083C01} (\bibinfo{year}{2022}).
+
+\bibitem[{cha()}]{charge-conjugates}
+\bibinfo{note}{Throughout this paper, charge-conjugate modes are implicitly
+  included unless noted otherwise.}
+
+\bibitem[{\citenamefont{Abe}(2010)}]{Abe:2010gxa}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Abe}}
+  (\bibinfo{collaboration}{Belle II Collaboration}) (\bibinfo{year}{2010}),
+  \eprint{arXiv:1011.0352}.
+
+\bibitem[{\citenamefont{Altmannshofer et~al.}(2019)}]{Kou:2018nap}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Altmannshofer}}
+  \bibnamefont{et~al.}, \bibinfo{journal}{PTEP}
+  \textbf{\bibinfo{volume}{2019}}, \bibinfo{pages}{123C01}
+  (\bibinfo{year}{2019}).
+
+\bibitem[{\citenamefont{Akai et~al.}(2018)\citenamefont{Akai, Furukawa, and
+  Koiso}}]{Akai:2018mbz}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Akai}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Furukawa}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Koiso}},
+  \bibinfo{journal}{Nucl. Instrum. Meth.} \textbf{\bibinfo{volume}{A907}},
+  \bibinfo{pages}{188} (\bibinfo{year}{2018}).
+
+\bibitem[{\citenamefont{Adamczyk et~al.}(2022)}]{Belle-IISVD:2022upf}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Adamczyk}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{Belle II SVD Group}), \bibinfo{journal}{JINST}
+  \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{P11042}
+  (\bibinfo{year}{2022}).
+
+\bibitem[{\citenamefont{Wang}(2017)}]{Wang:2017ajq}
+\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Wang}}
+  (\bibinfo{collaboration}{Belle II TOP Group}) (\bibinfo{year}{2017}),
+  \eprint{arXiv:1709.09938}.
+
+\bibitem[{\citenamefont{Jadach et~al.}(2000)\citenamefont{Jadach, Ward, and
+  W\c{a}s}}]{Jadach:1999vf}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Jadach}},
+  \bibinfo{author}{\bibfnamefont{B.~F.~L.} \bibnamefont{Ward}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{W\c{a}s}},
+  \bibinfo{journal}{Comput. Phys. Commun.} \textbf{\bibinfo{volume}{130}},
+  \bibinfo{pages}{260} (\bibinfo{year}{2000}).
+
+\bibitem[{\citenamefont{Sj\"{o}strand et~al.}(2015)\citenamefont{Sj\"{o}strand,
+  Ask, Christiansen, Corke, Desai, Ilten, Mrenna, Prestel, Rasmussen, and
+  Skands}}]{Sjostrand:2014zea}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Sj\"{o}strand}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Ask}},
+  \bibinfo{author}{\bibfnamefont{J.~R.} \bibnamefont{Christiansen}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Corke}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Desai}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Ilten}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Mrenna}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Prestel}},
+  \bibinfo{author}{\bibfnamefont{C.~O.} \bibnamefont{Rasmussen}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{P.~Z.}
+  \bibnamefont{Skands}}, \bibinfo{journal}{Comput. Phys. Commun.}
+  \textbf{\bibinfo{volume}{191}}, \bibinfo{pages}{159} (\bibinfo{year}{2015}).
+
+\bibitem[{\citenamefont{Lange}(2001)}]{Lange:2001uf}
+\bibinfo{author}{\bibfnamefont{D.~J.} \bibnamefont{Lange}},
+  \bibinfo{journal}{Nucl. Instrum. Meth.} \textbf{\bibinfo{volume}{A462}},
+  \bibinfo{pages}{152} (\bibinfo{year}{2001}).
+
+\bibitem[{\citenamefont{Agostinelli et~al.}(2003)}]{Agostinelli:2002hh}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Agostinelli}}
+  \bibnamefont{et~al.} (\bibinfo{collaboration}{GEANT4 collaboration}),
+  \bibinfo{journal}{Nucl. Instrum. Meth.} \textbf{\bibinfo{volume}{A506}},
+  \bibinfo{pages}{250} (\bibinfo{year}{2003}).
+
+\bibitem[{\citenamefont{Barberio and Was}(1994)}]{Barberio:1993qi}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Barberio}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{Was}},
+  \bibinfo{journal}{Comput. Phys. Commun.} \textbf{\bibinfo{volume}{79}},
+  \bibinfo{pages}{291} (\bibinfo{year}{1994}).
+
+\bibitem[{\citenamefont{Kuhr et~al.}(2019)\citenamefont{Kuhr, Pulvermacher,
+  Ritter, Hauth, and Braun}}]{Kuhr:2018lps}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Kuhr}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Pulvermacher}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Ritter}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Hauth}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Braun}}
+  (\bibinfo{collaboration}{Belle II Analysis Software Group}),
+  \bibinfo{journal}{Comput. Softw. Big Sci.} \textbf{\bibinfo{volume}{3}},
+  \bibinfo{pages}{1} (\bibinfo{year}{2019}).
+
+\bibitem[{bas()}]{basf2-zenodo}
+\bibinfo{howpublished}{\url{https://doi.org/10.5281/zenodo.5574115}}.
+
+\bibitem[{\citenamefont{Krohn
+  et~al.}(2020)}]{Belle-IIanalysissoftwareGroup:2019dlq}
+\bibinfo{author}{\bibfnamefont{J.~F.} \bibnamefont{Krohn}} \bibnamefont{et~al.}
+  (\bibinfo{collaboration}{Belle II Analysis Software Group}),
+  \bibinfo{journal}{Nucl. Instrum. Meth. A} \textbf{\bibinfo{volume}{976}},
+  \bibinfo{pages}{164269} (\bibinfo{year}{2020}).
+
+\end{thebibliography}

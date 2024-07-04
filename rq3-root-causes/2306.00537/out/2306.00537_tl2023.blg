@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 2306.00537_tl2023.aux
+The style file: pnas.bst
+Database file #1: GapGenes.bib
+You've used 94 entries,
+            1757 wiz_defined-function locations,
+            1097 strings with 21314 characters,
+and the built_in function-call counts, 22166 in all, are:
+= -- 1878
+> -- 1172
+< -- 1
++ -- 426
+- -- 332
+* -- 2193
+:= -- 3532
+add.period$ -- 189
+call.type$ -- 94
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 94
+duplicate$ -- 857
+empty$ -- 1894
+format.name$ -- 332
+if$ -- 4501
+int.to.chr$ -- 0
+int.to.str$ -- 94
+missing$ -- 94
+newline$ -- 380
+num.names$ -- 94
+pop$ -- 98
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 144
+stack$ -- 0
+substring$ -- 2276
+swap$ -- 293
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 251
+width$ -- 96
+write$ -- 849

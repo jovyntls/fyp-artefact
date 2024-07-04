@@ -1,0 +1,2284 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00003_tl2023" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(./jmlr.cls
+Document Class: jmlr 2017/08/01 v1.24 (NLCT) Journal of Machine Learning Resear
+ch
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/x11nam.def)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/relsize/relsize.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/jmlr/jmlrutils.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)))) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations.sty)
+
+Package siunitx Warning: Option "load-configurations" has been removed in this
+(siunitx)                release.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003
+_tl2023.aux)
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd) (./abstract.tex
+)
+
+Package hyperref Warning: Ignoring empty anchor on input line 85.
+
+(./intro.tex
+
+Package natbib Warning: Citation `yadgir2020global' on page 1 undefined on inpu
+t line 2.
+
+
+Package natbib Warning: Citation `gardezi2018cardiac' on page 1 undefined on in
+put line 2.
+
+(./fig1_diagram.tex
+
+Package natbib Warning: Citation `holste2022automated' on page 1 undefined on i
+nput line 8.
+
+Runaway argument?
+figures/MIL_for_AS_diagram_1.pdf \edef \Gin@ext {\Gin@sepdefault \filename@ext 
+\ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.12 &
+       &
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.12 &
+       &
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.12 &
+       &
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.12 &
+       &
+Runaway argument?
+figures/MIL_for_AS_diagram_2.pdf \edef \Gin@ext {\Gin@sepdefault \filename@ext 
+\ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.16 &
+       &
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.16 &
+       &
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.16 &
+       &
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.16 &
+       &
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.16 &
+       &
+Runaway argument?
+figures/MIL_for_AS_diagram_4.pdf \edef \Gin@ext {\Gin@sepdefault \filename@ext 
+\ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.22 &
+       &
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.22 &
+       &
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.22 &
+       &
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.22 &
+       &
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.22 & &
+        
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+
+Package natbib Warning: Citation `mitchell2019guidelines' on page 1 undefined o
+n input line 33.
+
+
+LaTeX Warning: Reference `sec:methods_SA' on page 1 undefined on input line 33.
+
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 1 undefined on input line 33.
+
+
+
+Package natbib Warning: Citation `mitchell2019guidelines' on page 1 undefined o
+n input line 33.
+
+
+LaTeX Warning: Reference `sec:methods_SA' on page 1 undefined on input line 33.
+
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 1 undefined on input line 33.
+
+
+)
+
+LaTeX Warning: Reference `fig:diagrams' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Reference `jmlrstart' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Reference `jmlrend' on page 1 undefined on input line 15.
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+Package natbib Warning: Citation `ilse2018attention' on page 2 undefined on inp
+ut line 21.
+
+
+Package natbib Warning: Citation `lee2019set' on page 2 undefined on input line
+ 21.
+
+
+Package natbib Warning: Citation `sharma2021cluster' on page 2 undefined on inp
+ut line 21.
+
+
+Package natbib Warning: Citation `shao2021transmil' on page 2 undefined on inpu
+t line 21.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 2 undefined on input line 27.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 2 undefined on i
+nput line 27.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 2 undefined on input line 27.
+
+
+Package natbib Warning: Citation `huang2021new' on page 2 undefined on input li
+ne 27.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 2 undefined on 
+input line 27.
+
+
+LaTeX Warning: Reference `sec:Results' on page 2 undefined on input line 28.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 2 undefined on i
+nput line 28.
+
+
+LaTeX Warning: Reference `sec:methods_SA' on page 2 undefined on input line 32.
+
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 2 undefined on inp
+ut line 33.
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 2 undefined on input line 34.
+
+
+[2]
+
+LaTeX Warning: Reference `sec:methods_SA' on page 3 undefined on input line 42.
+
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 3 undefined on input line 42.
+
+
+) (./related_work.tex
+
+Package natbib Warning: Citation `dietterich1997solving' on page 3 undefined on
+ input line 3.
+
+
+Package natbib Warning: Citation `maron1997framework' on page 3 undefined on in
+put line 3.
+
+
+Package natbib Warning: Citation `cosatto2013automated' on page 3 undefined on 
+input line 5.
+
+
+Package natbib Warning: Citation `shao2021transmil' on page 3 undefined on inpu
+t line 5.
+
+
+Package natbib Warning: Citation `li2021dual' on page 3 undefined on input line
+ 5.
+
+
+Package natbib Warning: Citation `quellec2012multiple' on page 3 undefined on i
+nput line 8.
+
+
+Package natbib Warning: Citation `li2021deep' on page 3 undefined on input line
+ 8.
+
+
+Package natbib Warning: Citation `li2021multi' on page 3 undefined on input lin
+e 8.
+
+
+Package natbib Warning: Citation `kandemir2015computer' on page 3 undefined on 
+input line 8.
+
+
+Package natbib Warning: Citation `borowa2020classifying' on page 3 undefined on
+ input line 8.
+
+
+Package natbib Warning: Citation `dietterich1997solving' on page 3 undefined on
+ input line 8.
+
+
+Package natbib Warning: Citation `zhao2013drug' on page 3 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `campanella2019clinical' on page 3 undefined o
+n input line 8.
+
+
+Package natbib Warning: Citation `chikontwe2020multiple' on page 3 undefined on
+ input line 8.
+
+
+Package natbib Warning: Citation `hou2016patch' on page 3 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `ding2012breast' on page 3 undefined on input 
+line 8.
+
+
+Package natbib Warning: Citation `xu2014weakly' on page 3 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `zhou2004multi' on page 3 undefined on input l
+ine 9.
+
+
+Package natbib Warning: Citation `quellec2017multiple' on page 3 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `carbonneau2018multiple' on page 3 undefined o
+n input line 9.
+
+
+Package natbib Warning: Citation `wang2018revisiting' on page 3 undefined on in
+put line 14.
+
+
+Package natbib Warning: Citation `liu2017detecting' on page 3 undefined on inpu
+t line 14.
+
+
+LaTeX Warning: Reference `app:relatedworks' on page 3 undefined on input line 3
+0.
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 3 undefined on inp
+ut line 31.
+
+
+Package natbib Warning: Citation `lee2019set' on page 3 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `vaswani2017attention' on page 3 undefined on 
+input line 32.
+
+
+Package natbib Warning: Citation `shao2021transmil' on page 3 undefined on inpu
+t line 32.
+
+
+Package natbib Warning: Citation `sharma2021cluster' on page 3 undefined on inp
+ut line 32.
+
+
+Package natbib Warning: Citation `li2021dual' on page 3 undefined on input line
+ 33.
+
+[3]
+
+Package natbib Warning: Citation `oord2018representation' on page 4 undefined o
+n input line 44.
+
+
+Package natbib Warning: Citation `chen2020simple' on page 4 undefined on input 
+line 44.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 4 undefined on input 
+line 44.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 4 undefined on inpu
+t line 44.
+
+
+Package natbib Warning: Citation `grill2020bootstrap' on page 4 undefined on in
+put line 44.
+
+
+Package natbib Warning: Citation `caron2020unsupervised' on page 4 undefined on
+ input line 44.
+
+
+Package natbib Warning: Citation `chen2021exploring' on page 4 undefined on inp
+ut line 44.
+
+
+Package natbib Warning: Citation `oord2018representation' on page 4 undefined o
+n input line 46.
+
+
+Package natbib Warning: Citation `gidaris2018unsupervised' on page 4 undefined 
+on input line 47.
+
+
+Package natbib Warning: Citation `noroozi2016unsupervised' on page 4 undefined 
+on input line 48.
+
+
+Package natbib Warning: Citation `wu2018unsupervised' on page 4 undefined on in
+put line 52.
+
+
+Package natbib Warning: Citation `oord2018representation' on page 4 undefined o
+n input line 52.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 4 undefined on input 
+line 52.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 4 undefined on inpu
+t line 52.
+
+
+Package natbib Warning: Citation `holste2022self' on page 4 undefined on input 
+line 56.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 4 undefined on i
+nput line 56.
+
+
+Package natbib Warning: Citation `liu2022multiple' on page 4 undefined on input
+ line 56.
+
+
+Package natbib Warning: Citation `lu2019semi' on page 4 undefined on input line
+ 56.
+
+
+Package natbib Warning: Citation `li2021dual' on page 4 undefined on input line
+ 56.
+
+
+Package natbib Warning: Citation `saillard2021self' on page 4 undefined on inpu
+t line 56.
+
+
+Package natbib Warning: Citation `dehaene2020self' on page 4 undefined on input
+ line 56.
+
+
+Package natbib Warning: Citation `rymarczyk2023protomil' on page 4 undefined on
+ input line 56.
+
+
+Package natbib Warning: Citation `arora2019theoretical' on page 4 undefined on 
+input line 58.
+
+
+Package natbib Warning: Citation `chuang2020debiased' on page 4 undefined on in
+put line 58.
+
+
+Package natbib Warning: Citation `khosla2020supervised' on page 4 undefined on 
+input line 58.
+
+
+Package natbib Warning: Citation `dwibedi2021little' on page 4 undefined on inp
+ut line 58.
+
+
+Package natbib Warning: Citation `zheng2021weakly' on page 4 undefined on input
+ line 58.
+
+
+Package natbib Warning: Citation `ash2021investigating' on page 4 undefined on 
+input line 58.
+
+
+Package natbib Warning: Citation `li2021comatch' on page 4 undefined on input l
+ine 58.
+
+
+Overfull \hbox (13.50099pt too wide) in paragraph at lines 56--59
+[]\OT1/cmr/m/n/10.95 Recently, self-supervision has been suc-cess-fully ap-plie
+d to pre-train MIL mod-els (\OT1/cmr/bx/n/10.95 ????????\OT1/cmr/m/n/10.95 ).
+
+LaTeX Warning: Reference `fig:diagrams' on page 4 undefined on input line 73.
+
+
+Package natbib Warning: Citation `dai2023identifying' on page 4 undefined on in
+put line 74.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 4 undefined on i
+nput line 75.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 4 undefined on input line 78.
+
+
+Package natbib Warning: Citation `huang2021new' on page 4 undefined on input li
+ne 79.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 4 undefined on 
+input line 79.
+
+
+Package natbib Warning: Citation `krishna2023fully' on page 4 undefined on inpu
+t line 81.
+
+
+Package natbib Warning: Citation `cohen2021electrocardiogram' on page 4 undefin
+ed on input line 84.
+
+
+Package natbib Warning: Citation `elias2022deep' on page 4 undefined on input l
+ine 84.
+
+
+Package natbib Warning: Citation `yangClassificationAorticStenosis2020' on page
+ 4 undefined on input line 84.
+
+[4]
+
+Package natbib Warning: Citation `dai2023identifying' on page 5 undefined on in
+put line 87.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 5 undefined on i
+nput line 87.
+
+) (./dataset.tex
+
+Package natbib Warning: Citation `huang2021new' on page 5 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `huang2021new' on page 5 undefined on input li
+ne 9.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd)
+
+Package natbib Warning: Citation `mitchell2019guidelines' on page 5 undefined o
+n input line 23.
+
+) [5]
+
+LaTeX Warning: Reference `sec:methods_formulation' on page 6 undefined on input
+ line 104.
+
+
+LaTeX Warning: Reference `sec:base_arch' on page 6 undefined on input line 105.
+
+
+
+LaTeX Warning: Reference `sec:methods_SA' on page 6 undefined on input line 107
+.
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 6 undefined on input line 108
+.
+
+
+LaTeX Warning: Reference `fig:workflow_diagram' on page 6 undefined on input li
+ne 108.
+
+(./fig2_workflow_diagram.tex)
+Runaway argument?
+figures/SAMIL_diagram_draft1.png \edef \Gin@ext {\Gin@sepdefault \filename@ext 
+\ETC.
+! File ended while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.112 \input{fig2_workflow_diagram}
+                                   
+(./methods.tex
+
+Package natbib Warning: Citation `huang2022tmed' on page 6 undefined on input l
+ine 19.
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 6 undefined on inp
+ut line 26.
+
+
+Package natbib Warning: Citation `li2021dual' on page 6 undefined on input line
+ 26.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 6 undefined on input line 26.
+
+
+LaTeX Warning: Reference `app:Architecture' on page 6 undefined on input line 4
+4.
+
+
+LaTeX Warning: Reference `eq:patient_embedding_abmil' on page 6 undefined on in
+put line 68.
+
+
+LaTeX Warning: Reference `tab:TMED2_BACC' on page 6 undefined on input line 90.
+
+
+
+LaTeX Warning: Reference `eq:patient_embedding_abmil' on page 6 undefined on in
+put line 90.
+
+
+LaTeX Warning: Reference `fig:Attention_View_Alignment' on page 6 undefined on 
+input line 90.
+
+
+Package natbib Warning: Citation `madani2018fast' on page 6 undefined on input 
+line 94.
+
+
+Package natbib Warning: Citation `zhang2018fully' on page 6 undefined on input 
+line 94.
+
+
+Package natbib Warning: Citation `long2018identification' on page 6 undefined o
+n input line 94.
+
+
+Package natbib Warning: Citation `huang2021new' on page 6 undefined on input li
+ne 94.
+
+
+LaTeX Warning: Reference `eq:patient_embedding_abmil' on page 6 undefined on in
+put line 97.
+
+
+Package natbib Warning: Citation `hinton2015distilling' on page 6 undefined on 
+input line 115.
+
+
+Package natbib Warning: Citation `huang2022fix' on page 6 undefined on input li
+ne 121.
+
+
+LaTeX Warning: Reference `app:ViewClassifier' on page 6 undefined on input line
+ 121.
+
+
+Package natbib Warning: Citation `holste2022self' on page 6 undefined on input 
+line 155.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 6 undefined on i
+nput line 155.
+
+
+Package natbib Warning: Citation `liu2022multiple' on page 6 undefined on input
+ line 155.
+
+
+Package natbib Warning: Citation `lu2019semi' on page 6 undefined on input line
+ 155.
+
+
+Package natbib Warning: Citation `li2021dual' on page 6 undefined on input line
+ 155.
+
+
+Package natbib Warning: Citation `saillard2021self' on page 6 undefined on inpu
+t line 155.
+
+
+Package natbib Warning: Citation `dehaene2020self' on page 6 undefined on input
+ line 155.
+
+
+Package natbib Warning: Citation `rymarczyk2023protomil' on page 6 undefined on
+ input line 155.
+
+
+LaTeX Warning: Reference `tab:Pretraining strategy ablation' on page 6 undefine
+d on input line 158.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 6 undefined on input 
+line 163.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 6 undefined on inpu
+t line 163.
+
+
+Package natbib Warning: Citation `wu2018unsupervised' on page 6 undefined on in
+put line 164.
+
+
+Package natbib Warning: Citation `ye2019unsupervised' on page 6 undefined on in
+put line 164.
+
+
+Package natbib Warning: Citation `bachman2019learning' on page 6 undefined on i
+nput line 164.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 6 undefined on input 
+line 172.
+
+
+Package natbib Warning: Citation `oord2018representation' on page 6 undefined o
+n input line 178.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 6 undefined on input 
+line 191.
+
+
+Package natbib Warning: Citation `li2021dual' on page 6 undefined on input line
+ 269.
+
+
+Package natbib Warning: Citation `chen2020simple' on page 6 undefined on input 
+line 269.
+
+
+Package natbib Warning: Citation `he2020momentum' on page 6 undefined on input 
+line 269.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 6 undefined on inpu
+t line 269.
+
+
+LaTeX Warning: Reference `sec:methods_CL' on page 6 undefined on input line 346
+.
+
+
+Package natbib Warning: Citation `chen2020improved' on page 6 undefined on inpu
+t line 347.
+
+
+Package natbib Warning: Citation `chen2020simple' on page 6 undefined on input 
+line 347.
+
+
+LaTeX Warning: Reference `app:SSL_Pretraining' on page 6 undefined on input lin
+e 347.
+
+
+LaTeX Warning: Reference `fig:workflow_diagram' on page 6 undefined on input li
+ne 359.
+
+) (./Results.tex
+
+Package natbib Warning: Citation `huang2021new' on page 6 undefined on input li
+ne 4.
+
+
+Package natbib Warning: Citation `zaheer2017deep' on page 6 undefined on input 
+line 18.
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 6 undefined on inp
+ut line 18.
+
+
+Package natbib Warning: Citation `lee2019set' on page 6 undefined on input line
+ 18.
+
+
+Package natbib Warning: Citation `li2021dual' on page 6 undefined on input line
+ 18.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 6 undefined on 
+input line 18.
+
+
+Package natbib Warning: Citation `holste2022automated' on page 6 undefined on i
+nput line 18.
+
+
+Package natbib Warning: Citation `holste2022self' on page 6 undefined on input 
+line 18.
+
+
+LaTeX Warning: Reference `App:DeepSet' on page 6 undefined on input line 19.
+
+(./tab_1_test_acc_on_TMED.tex
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{table}[!t]
+                     
+
+Package natbib Warning: Citation `holste2022automated' on page 6 undefined on i
+nput line 26.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 6 undefined on 
+input line 26.
+
+
+Package natbib Warning: Citation `ilse2018attention' on page 6 undefined on inp
+ut line 27.
+
+
+Package natbib Warning: Citation `lee2019set' on page 6 undefined on input line
+ 27.
+
+
+Package natbib Warning: Citation `li2021dual' on page 6 undefined on input line
+ 27.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 6 undefined on input line 31.
+
+
+LaTeX Warning: Reference `fig:diagrams' on page 6 undefined on input line 31.
+
+)
+
+LaTeX Warning: Reference `tab:TMED2_BACC' on page 6 undefined on input line 29.
+
+
+
+LaTeX Warning: Reference `tab:TMED2_BACC' on page 6 undefined on input line 38.
+
+
+
+Package natbib Warning: Citation `holste2022automated' on page 6 undefined on i
+nput line 38.
+
+
+Package natbib Warning: Citation `holste2022self' on page 6 undefined on input 
+line 38.
+
+
+Package natbib Warning: Citation `wessler2023automated' on page 6 undefined on 
+input line 38.
+
+
+LaTeX Warning: Reference `fig:confusion_matrix' on page 6 undefined on input li
+ne 40.
+
+
+LaTeX Warning: Reference `fig:TMED2_roc' on page 6 undefined on input line 48.
+
+
+LaTeX Warning: Reference `tab:AUC_analysis_323' on page 6 undefined on input li
+ne 56.
+
+(./tab_2_external_valid.tex
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \begin{table}[h]
+                     
+
+Overfull \hbox (3.84921pt too wide) in paragraph at lines 20--41
+ [][] 
+)
+
+LaTeX Warning: Reference `fig:Attention_View_Alignment' on page 6 undefined on 
+input line 68.
+
+
+Package natbib Warning: Citation `holzinger2017we' on page 6 undefined on input
+ line 70.
+
+
+Package natbib Warning: Citation `lundberg2017unified' on page 6 undefined on i
+nput line 70.
+
+
+Package natbib Warning: Citation `tonekaboni2019clinicians' on page 6 undefined
+ on input line 70.
+
+
+LaTeX Warning: Reference `fig:top_attended_images' on page 6 undefined on input
+ line 77.
+
+
+LaTeX Warning: Reference `app:ViewClassifier' on page 6 undefined on input line
+ 79.
+
+(./fig_AttentionWeights_and_Relevance_Alignment.tex
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin
+          {tabular}{c c c }
+Runaway argument?
+figures/Attention_View_Alignment/data_seed0.pdf \edef \Gin@ext {\Gin@sepdefault
+ \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.7     &
+         
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.7     &
+         
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.7     &
+         
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.7     &
+         
+Runaway argument?
+figures/Attention_View_Alignment/data_seed1.pdf \edef \Gin@ext {\Gin@sepdefault
+ \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.9     &
+         
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.9     &
+         
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.9     &
+         
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.9     &
+         
+)
+Runaway argument?
+figures/Attention_View_Alignment/data_seed2.pdf \edef \Gin@ext {\Gin@sepdefault
+ \ETC.
+! File ended while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.81 ..._AttentionWeights_and_Relevance_Alignment}
+                                                  
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ... evaluations of attention and pretraining}
+                                                  
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ... evaluations of attention and pretraining}
+                                                  
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ... evaluations of attention and pretraining}
+                                                  
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \begin{table}[!h]
+                      
+
+Overfull \hbox (21.06956pt too wide) in paragraph at lines 102--102
+ [][] 
+
+Overfull \hbox (20.52037pt too wide) in paragraph at lines 119--119
+ [][] 
+
+LaTeX Warning: Reference `tab:View Regularization ablation' on page 6 undefined
+ on input line 123.
+
+
+LaTeX Warning: Reference `tab:Pretraining strategy ablation' on page 6 undefine
+d on input line 125.
+
+)
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 \section{Discussion}
+                          
+(./discussion.tex
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...graph{Limitations in diagnostic potential.}
+                                                  
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \paragraph{Limitations in evaluation.}
+                                          
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \paragraph{Limitations in evaluation.}
+                                          
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \paragraph{Limitations in evaluation.}
+                                          
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \paragraph{Advantages.}
+                            
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \paragraph{Advantages.}
+                            
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \paragraph{Advantages.}
+                            
+)
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 }
+       
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 }
+       
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 }
+       
+No file 2306.00003_tl2023.bbl.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 \subsection*{Appendix Contents}
+                                     
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 \subsection*{Appendix Contents}
+                                     
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 \subsection*{Appendix Contents}
+                                     
+No file 2306.00003_tl2023.ptc.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \section{Further Results}
+                               
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \section{Further Results}
+                               
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \section{Further Results}
+                               
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \subsection{Confusion matrix}
+                                   
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \subsection{Confusion matrix}
+                                   
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \subsection{Confusion matrix}
+                                   
+(./fig_confusion_mat.tex
+Runaway argument?
+figures/confusion_matrix/cropped_seed0/JASE.pdf \edef \Gin@ext {\Gin@sepdefault
+ \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.11     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.11     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.11     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.11     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed1/JASE.pdf \edef \Gin@ext {\Gin@sepdefault
+ \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.13     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.13     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.13     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.13     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed2/JASE.pdf \edef \Gin@ext {\Gin@sepdefault
+ \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.17     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.17     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.17     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.17     &
+          
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.17     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed0/OffTheShelfABMIL.pdf \edef \Gin@ext \ETC
+.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.19     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.19     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.19     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.19     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed1/OffTheShelfABMIL.pdf \edef \Gin@ext \ETC
+.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.21     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.21     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.21     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.21     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed2/OffTheShelfABMIL.pdf \edef \Gin@ext \ETC
+.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.25     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.25     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.25     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.25     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed0/OffTheShelfDSMIL_updatedseed0.\ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.27     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.27     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.27     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.27     &
+          
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.27     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed1/OffTheShelfDSMIL.pdf \edef \Gin@ext \ETC
+.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.29     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.29     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.29     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.29     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed2/OffTheShelfDSMIL.pdf \edef \Gin@ext \ETC
+.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.33     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.33     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.33     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.33     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed0/VRABMIL_WholeMILPretrain.pdf \edef \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.35     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.35     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.35     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.35     &
+          
+Runaway argument?
+figures/confusion_matrix/cropped_seed1/VRABMIL_WholeMILPretrain.pdf \edef \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.37     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.37     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.37     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.37     &
+          
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.37     &
+          
+)
+Runaway argument?
+figures/confusion_matrix/cropped_seed2/VRABMIL_WholeMILPretrain.pdf \edef \ETC.
+! File ended while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.162 \input{fig_confusion_mat.tex}
+                                   
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \subsection{ROC for AS Screening Tasks}
+                                             
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \subsection{ROC for AS Screening Tasks}
+                                             
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \subsection{ROC for AS Screening Tasks}
+                                             
+(./fig_TMED2_ROC.tex
+Runaway argument?
+figures/AUC_Analysis/data_seed0/NoASvsSomeAS_withDSMIL_DSMILupdatedse\ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.10     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.10     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.10     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.10     &
+          
+Runaway argument?
+figures/AUC_Analysis/data_seed0/EarlyASvsSignificantAS_withDSMIL_DSMI\ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.12     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.12     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.12     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.12     &
+          
+Runaway argument?
+figures/AUC_Analysis/data_seed0/SignificantASvsNoSignificantAS_withDS\ETC.
+! Paragraph ended before \@tempa was complete.
+<to be read again> 
+                   \par 
+l.14 
+     
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.16     {
+          \rotatebox{90}{~~~~Split2}}
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.16     {
+          \rotatebox{90}{~~~~Split2}}
+Runaway argument?
+figures/AUC_Analysis/data_seed1/NoASvsSomeAS_withDSMIL.pdf \edef \Gin@ext \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.19     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.19     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.19     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.19     &
+          
+Runaway argument?
+figures/AUC_Analysis/data_seed1/EarlyASvsSignificantAS_withDSMIL.pdf \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.21     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.21     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.21     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.21     &
+          
+Runaway argument?
+figures/AUC_Analysis/data_seed1/SignificantASvsNoSignificantAS_withDS\ETC.
+! Paragraph ended before \@tempa was complete.
+<to be read again> 
+                   \par 
+l.23 
+     
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.25     {
+          \rotatebox{90}{~~~~Split3}}
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.25     {
+          \rotatebox{90}{~~~~Split3}}
+Runaway argument?
+figures/AUC_Analysis/data_seed2/NoASvsSomeAS_withDSMIL.pdf \edef \Gin@ext \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.28     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.28     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.28     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.28     &
+          
+Runaway argument?
+figures/AUC_Analysis/data_seed2/EarlyASvsSignificantAS_withDSMIL.pdf \ETC.
+! Forbidden control sequence found while scanning use of \@tempa.
+<inserted text> 
+                \par 
+l.30     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.30     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.30     &
+          
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.30     &
+          
+Runaway argument?
+figures/AUC_Analysis/data_seed2/SignificantASvsNoSignificantAS_withDS\ETC.
+! Paragraph ended before \@tempa was complete.
+<to be read again> 
+                   \par 
+l.32 
+     
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.33     \end{tabular}
+                      	
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.33     \end{tabular}
+                      	
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.37 \end{figure}
+                 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.37 \end{figure}
+                 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.37 \end{figure}
+                 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.37 \end{figure}
+                 
+! Missing } inserted.
+<inserted text> 
+                }
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Missing } inserted.
+<inserted text> 
+                }
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.37 \end{figure}
+                 
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.37 \end{figure}
+                 
+(That makes 100 errors; please try again.)
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00003/2306.00003_tl2023.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2023.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2023.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2023.log'
+Latexmk: Found bibliography file(s):
+  refs_manual.bib
+Bib file(s) not found in search path:
+  refs_manual.bib
+
+Latexmk: The following rules were vetoed from being run, because of the
+setting for the non-use/condititional use of bibtex/biber:
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2023
+Reason: I am configured only to use bibtex/biber if all .bib files exist,
+but the following didn't:
+  refs_manual.bib
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 59 reference(s)
+  Latex failed to resolve 134 citation(s)
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2023.log' and/or above output for details
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+Latexmk: Nothing to do for 'main.tex'.
+
+Latexmk: The following rules were vetoed from being run, because of the
+setting for the non-use/condititional use of bibtex/biber:
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2023
+Reason: I am configured only to use bibtex/biber if all .bib files exist,
+but the following didn't:
+  refs_manual.bib
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00003/2306.00003_tl2023.pdf) are up-to-date
+Collected error summary (may duplicate other messages):
+  pdflatex: gave an error in previous invocation of latexmk.
+

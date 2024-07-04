@@ -1,0 +1,75 @@
+\begin{thebibliography}{10}
+
+\bibitem{aksoy2006selection}
+A~Aksoy and M~Khamsi.
+\newblock A selection theorem in metric trees.
+\newblock {\em Proceedings of the American Mathematical Society},
+  134(10):2957--2966, 2006.
+
+\bibitem{aksoy2010some}
+Asuman~Guven Aksoy and Timur Oikhberg.
+\newblock Some results on metric trees.
+\newblock {\em arXiv preprint arXiv:1007.2207}, 2010.
+
+\bibitem{Amb}
+Luigi Ambrosio and Bernd Kirchheim.
+\newblock Rectifiable sets in metric and {B}anach spaces.
+\newblock {\em Math. Ann.}, 318(3):527--555, 2000.
+
+\bibitem{Bog}
+WA~Bogley and AJ~Sieradski.
+\newblock Universal path spaces.
+\newblock {\em preprint}, 1998.
+
+\bibitem{Dej}
+Noel Dejarnette, Piotr Haj\l~asz, Anton Lukyanenko, and Jeremy~T. Tyson.
+\newblock On the lack of density of {L}ipschitz mappings in {S}obolev spaces
+  with {H}eisenberg target.
+\newblock {\em Conform. Geom. Dyn.}, 18:119--156, 2014.
+
+\bibitem{Haj}
+Piotr Haj\l~asz.
+\newblock The {$(n+1)$}-{L}ipschitz homotopy group of the {H}eisenberg group
+  {$\Bbb H^n$}.
+\newblock {\em Proc. Amer. Math. Soc.}, 146(3):1305--1308, 2018.
+
+\bibitem{HajSch}
+Piotr Haj\l~asz and Armin Schikorra.
+\newblock Lipschitz homotopy and density of {L}ipschitz mappings in {S}obolev
+  spaces.
+\newblock {\em Ann. Acad. Sci. Fenn. Math.}, 39(2):593--604, 2014.
+
+\bibitem{HajTys}
+Piotr Haj\l~asz, Armin Schikorra, and Jeremy~T. Tyson.
+\newblock Homotopy groups of spheres and {L}ipschitz homotopy groups of
+  {H}eisenberg groups.
+\newblock {\em Geom. Funct. Anal.}, 24(1):245--268, 2014.
+
+\bibitem{mayer1992universal}
+John~C Mayer, Jacek Nikiel, and Lex~G Oversteegen.
+\newblock Universal spaces for r-trees.
+\newblock {\em Transactions of the American Mathematical Society},
+  334(1):411--432, 1992.
+
+\bibitem{Mon}
+Richard Montgomery.
+\newblock {\em A tour of subriemannian geometries, their geodesics and
+  applications}, volume~91 of {\em Mathematical Surveys and Monographs}.
+\newblock American Mathematical Society, Providence, RI, 2002.
+
+\bibitem{perry2020lipschitz}
+Daniel Perry.
+\newblock Lipschitz homotopy groups of contact 3-manifolds.
+\newblock {\em Real Analysis Exchange}, 47(1):75--96, 2022.
+
+\bibitem{tits1977theorem}
+Jacques Tits.
+\newblock A “theorem of lie-kolchin” for trees.
+\newblock {\em Contributions to algebra}, pages 377--388, 1977.
+
+\bibitem{Weg}
+Stefan Wenger and Robert Young.
+\newblock Lipschitz homotopy groups of the {H}eisenberg groups.
+\newblock {\em Geom. Funct. Anal.}, 24(1):387--402, 2014.
+
+\end{thebibliography}

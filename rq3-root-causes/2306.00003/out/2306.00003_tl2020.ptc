@@ -1,0 +1,57 @@
+\ttl@starttoc {sections@1}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.0.1}%
+\contentsline {section}{\numberline {2}Related Work}{3}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Multiple-instance learning.}{3}{subsection.0.2.1}%
+\contentsline {paragraph}{Deep attention-based MIL.}{4}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}Self-supervised learning and Pretraining of MIL}{4}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {2.3}Applications of ML to Aortic Stenosis.}{4}{subsection.0.2.3}%
+\contentsline {section}{\numberline {3}Dataset}{5}{section.0.3}%
+\contentsline {section}{\numberline {4}Methods}{6}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Problem Formulation}{6}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}General MIL architecture}{7}{subsection.0.4.2}%
+\contentsline {paragraph}{Instance representation layer $f$.}{7}{subsection.0.4.2}%
+\contentsline {paragraph}{Pooling layer $\sigma $.}{7}{subsection.0.4.2}%
+\contentsline {paragraph}{Output layer $g$.}{8}{equation.0.4.1}%
+\contentsline {paragraph}{Training.}{8}{equation.0.4.2}%
+\contentsline {subsection}{\numberline {4.3}Contribution 1: Attention supervised by a view classifier}{8}{subsection.0.4.3}%
+\contentsline {paragraph}{Supervised attention.}{8}{subsection.0.4.3}%
+\contentsline {paragraph}{View classifier.}{9}{equation.0.4.4}%
+\contentsline {paragraph}{Flexible attention.}{9}{equation.0.4.4}%
+\contentsline {subsection}{\numberline {4.4}Contribution \#2: Contrastive learning of entire study representations}{9}{subsection.0.4.4}%
+\contentsline {paragraph}{MoCo(v2) for representations of individual images.}{10}{subsection.0.4.4}%
+\contentsline {paragraph}{Adapting MoCo to bag-level representations.}{10}{equation.0.4.6}%
+\contentsline {subsection}{\numberline {4.5}SAMIL Pipeline}{11}{subsection.0.4.5}%
+\contentsline {paragraph}{Self-Supervised Pretraining}{11}{subsection.0.4.5}%
+\contentsline {paragraph}{Supervised Fine-Tuning of MIL Using Diagnosis Label}{11}{subsection.0.4.5}%
+\contentsline {section}{\numberline {5}Results}{11}{section.0.5}%
+\contentsline {paragraph}{Performance metrics.}{11}{section.0.5}%
+\contentsline {paragraph}{Comparisons.}{11}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Quantitative evaluation on TMED-2}{12}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Evaluation of screening potential on 2022-Validation set.}{13}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {5.3}Assessment of attention quality}{13}{subsection.0.5.3}%
+\contentsline {subsection}{\numberline {5.4}Ablation evaluations of attention and pretraining}{14}{subsection.0.5.4}%
+\contentsline {section}{\numberline {6}Discussion}{14}{section.0.6}%
+\contentsline {paragraph}{Limitations in diagnostic potential.}{15}{section.0.6}%
+\contentsline {paragraph}{Limitations in evaluation.}{15}{section.0.6}%
+\contentsline {paragraph}{Advantages.}{15}{section.0.6}%
+\ttl@stoptoc {sections@1}
+\ttl@starttoc {sections@2}
+\contentsline {section}{\numberline {A}Further Results}{17}{section.0.A}%
+\contentsline {subsection}{\numberline {A.1}Confusion matrix}{17}{subsection.0.A.1}%
+\contentsline {subsection}{\numberline {A.2}ROC for AS Screening Tasks}{18}{subsection.0.A.2}%
+\contentsline {subsection}{\numberline {A.3}Attended Images by SAMIL and ABMIL}{19}{subsection.0.A.3}%
+\contentsline {section}{\numberline {B}Methods Supplement}{19}{section.0.B}%
+\contentsline {subsection}{\numberline {B.1}Architecture}{19}{subsection.0.B.1}%
+\contentsline {subsection}{\numberline {B.2}View Classifier}{20}{subsection.0.B.2}%
+\contentsline {paragraph}{Backbone.}{20}{table.caption.12}%
+\contentsline {paragraph}{Training and Hyperparameters.}{21}{table.caption.12}%
+\contentsline {section}{\numberline {C}MIL Experiment Details}{21}{section.0.C}%
+\contentsline {subsection}{\numberline {C.1}Details on Filter then Avg. Approach}{21}{subsection.0.C.1}%
+\contentsline {subsection}{\numberline {C.2}Details on DeepSet}{21}{subsection.0.C.2}%
+\contentsline {subsection}{\numberline {C.3}Training.}{22}{subsection.0.C.3}%
+\contentsline {subsection}{\numberline {C.4}Hyperparameter.}{22}{subsection.0.C.4}%
+\contentsline {section}{\numberline {D}Self-supervised Pretraining}{23}{section.0.D}%
+\contentsline {paragraph}{projection head $\psi $.}{23}{section.0.D}%
+\contentsline {section}{\numberline {E}Additional Related Work}{24}{section.0.E}%
+\contentsline {paragraph}{Classic approaches.}{24}{section.0.E}%
+\contentsfinish 

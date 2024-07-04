@@ -1,0 +1,109 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00269" --jobname="2306.00269_tl2020"  "Best_L0_L1_Linf.tex"'
+------------
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00269/2306.00269_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `AHKS_L1' on page 4 undefined on input line 282
+  Citation `BadL1' on page 2 undefined on input line 149
+  Citation `Canoetal_MonoClass19' on page 1 undefined on input line 91
+  Citation `DLG_LinfPolya83' on page 2 undefined on input line 146
+  Citation `EggerTaylorPolya1ConvRate93' on page 12 undefined on input line 591
+  Citation `EggerTaylorPolya1ConvRate93' on page 2 undefined on input line 146
+  Citation `Flow_That' on page 7 undefined on input line 342
+  Citation `HLMT_L1Polya88' on page 2 undefined on input line 146
+  Citation `HLMT_L1Polya88' on page 6 undefined on input line 321
+  Citation `Jackson_Median' on page 11 undefined on input line 581
+  Citation `Jackson_Median' on page 6 undefined on input line 304
+  Citation `LandersRogge_L1approx' on page 6 undefined on input line 321
+  Citation `LandersRogge_L1approx' on page 6 undefined on input line 331
+  Citation `PP_Relabel' on page 12 undefined on input line 595
+  Citation `Pardalosetal94' on page 4 undefined on input line 282
+  Citation `QFOMMB_PolyaL1' on page 12 undefined on input line 591
+  Citation `QFOMMB_PolyaL1' on page 2 undefined on input line 146
+  Citation `QL0Secondary' on page 12 undefined on input line 591
+  Citation `QL0Secondary' on page 12 undefined on input line 595
+  Citation `QL0Secondary' on page 2 undefined on input line 161
+  Citation `QL0Secondary' on page 3 undefined on input line 199
+  Citation `QL0Secondary' on page 8 undefined on input line 394
+  Citation `QL0Secondary' on page 9 undefined on input line 526
+  Citation `QLpviaL0' on page 4 undefined on input line 282
+  Citation `QLpviaL0' on page 6 undefined on input line 334
+  Citation `QLpviaL0' on page 7 undefined on input line 338
+  Citation `QPartition' on page 4 undefined on input line 282
+  Citation `QPartition' on page 6 undefined on input line 334
+  Citation `QPartition' on page 6 undefined on input line 335
+  Citation `QPartition' on page 8 undefined on input line 434
+  Citation `QStrictLinfty' on page 11 undefined on input line 577
+  Citation `QStrictLinfty' on page 13 undefined on input line 678
+  Citation `QStrictLinfty' on page 13 undefined on input line 687
+  Citation `QStrictLinfty' on page 13 undefined on input line 689
+  Citation `QStrictLinfty' on page 2 undefined on input line 155
+  Citation `QStrictLinfty' on page 3 undefined on input line 176
+  Citation `QStrictLinfty' on page 3 undefined on input line 207
+  Citation `QStrictLinfty' on page 3 undefined on input line 209
+  Citation `QStrictLinfty' on page 3 undefined on input line 211
+  Citation `QStrictLinfty' on page 4 undefined on input line 219
+  Citation `QStrictLinfty' on page 4 undefined on input line 224
+  Citation `QStrictLinfty' on page 9 undefined on input line 530
+  Citation `RadeBM_MaxIS' on page 7 undefined on input line 338
+  Citation `RadeBM_Relabel09' on page 12 undefined on input line 591
+  Citation `RadeBM_Relabel09' on page 12 undefined on input line 595
+  Citation `RadeBM_Relabel12' on page 12 undefined on input line 591
+  Citation `Relab_Feelders06' on page 12 undefined on input line 595
+  Citation `RobertsonWright' on page 4 undefined on input line 282
+  Citation `Rote' on page 4 undefined on input line 282
+  Citation `ShiMinL195' on page 12 undefined on input line 591
+  Citation `ShiMinL195' on page 4 undefined on input line 282
+  Citation `StegemanFeeldersAllL0_11' on page 12 undefined on input line 591
+  Citation `Yale_AllLp' on page 11 undefined on input line 577
+  Citation `Yale_AllLp' on page 4 undefined on input line 282
+  Citation `Yale_AllLp' on page 6 undefined on input line 334
+  Citation `Yale_AllLp' on page 6 undefined on input line 335
+  Citation `Yale_LipschitzLearn' on page 3 undefined on input line 210
+  Reference `fig:PAVcode' on page 9 undefined on input line 464
+  Reference `fig:PAVfigure' on page 8 undefined on input line 439
+  Reference `fig:PAVfigure' on page 9 undefined on input line 464
+  Reference `fig:partition' on page 9 undefined on input line 502
+  Reference `sec:Conclude' on page 2 undefined on input line 132
+  Reference `sec:L0' on page 12 undefined on input line 589
+  Reference `sec:L0' on page 2 undefined on input line 130
+  Reference `sec:L0' on page 2 undefined on input line 144
+  Reference `sec:L0' on page 2 undefined on input line 160
+  Reference `sec:L0' on page 3 undefined on input line 177
+  Reference `sec:L1' on page 2 undefined on input line 129
+  Reference `sec:L1' on page 2 undefined on input line 143
+  Reference `sec:L1' on page 3 undefined on input line 178
+  Reference `sec:Linfty' on page 2 undefined on input line 128
+  Reference `sec:Linfty' on page 2 undefined on input line 142
+  Reference `sec:Linfty' on page 3 undefined on input line 180
+  Reference `sec:definitions' on page 11 undefined on input line 576
+  Reference `sec:definitions' on page 2 undefined on input line 126
+  Reference `sec:definitions' on page 4 undefined on input line 225
+  Reference `sec:linear' on page 2 undefined on input line 132
+  Reference `sec:linear' on page 9 undefined on input line 528
+  Reference `sec:strictdown1' on page 12 undefined on input line 598
+  Reference `sec:strictdown1' on page 4 undefined on input line 295
+  Reference `sec:strictup1' on page 11 undefined on input line 584
+  Reference `sec:strictup1' on page 4 undefined on input line 295
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00269/2306.00269_tl2020.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00269" --jobname="2306.00269_tl2020"  "Best_L0_L1_Linf.tex"'
+------------
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00269/2306.00269_tl2020.pdf'
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

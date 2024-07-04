@@ -1,0 +1,29 @@
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.bbl' in following:
+ No file 2306.00060_tl2022.bbl.
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.bbl' in following:
+ No file 2306.00060_tl2022.bbl.
+Latexmk: Maximum runs of bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022 reached without getting stable files
+Latexmk: ====List of undefined refs and citations:
+  Citation `Donnan2023' on page 1 undefined on input line 71
+  Citation `Harikane2023' on page 1 undefined on input line 71
+  Citation `Finkelstein2023' on page 1 undefined on input line 71
+  Citation `Robertson2023' on page 1 undefined on input line 71
+  Citation `Ono2022' on page 1 undefined on input line 71
+  Citation `Tacchella2023' on page 1 undefined on input line 71
+  Citation `Robertson2023' on page 1 undefined on input line 71
+ And 236 more --- see log file.
+----------------------
+This message may duplicate earlier message.
+Latexmk: Failure in processing file 'nitrogen_aurora.tex':
+   'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' needed too many passes
+----------------------
+Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+Latexmk: Maximum runs of bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022 reached without getting stable files
+----------------------
+This message may duplicate earlier message.
+Latexmk: Failure in processing file 'nitrogen_aurora.tex':
+   'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' needed too many passes
+----------------------
+Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.

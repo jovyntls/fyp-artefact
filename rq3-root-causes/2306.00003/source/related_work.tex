@@ -1,0 +1,90 @@
+
+\subsection{Multiple-instance learning.}
+Multiple-instance learning~\citep{dietterich1997solving,maron1997framework} describes a type of problem where an unordered bag of instances and their corresponding bag label are provided as input, and the goal is to predict the bag label for unseen bags. 
+This type of problem appears in many medical applications, including whole-slide image (WSI) analysis in pathology~
+\citep{cosatto2013automated,shao2021transmil,li2021dual},
+% MCH trimmed
+%\citep{cosatto2013automated, xu2014weakly, kandemir2015computer, zhu2017deep, campanella2019clinical, borowa2020classifying, sharma2021cluster, shao2021transmil, lu2021data, li2021dual, rymarczyk2023protomil}. 
+diabetic retinopathy screening ~\citep{quellec2012multiple, li2021deep, li2021multi, kandemir2015computer}, bacteria clones identification ~\citep{borowa2020classifying}, drug activity prediction~\citep{dietterich1997solving, zhao2013drug}, and cancer diagnosis ~\citep{campanella2019clinical, chikontwe2020multiple, hou2016patch, ding2012breast, xu2014weakly}. 
+Extensive reviews of the MIL literature are available~\citep{zhou2004multi, quellec2017multiple,carbonneau2018multiple}.
+%% MCH trimmed: kandemir2015computer was used twice in same paragraph
+
+
+
+Two primary ways for modeling multiple instance learning problems are the instance-based approach and the embedding-based approach. In the instance-based approach, an instance classifier is used to score each instance, and a pooling operator is then used to aggregate the instance scores to produce a bag score. In the embedding-based approach, a feature extractor generates an embedding for each instance, which is then aggregated into a bag-level embedding. A bag-level model is subsequently employed to compute a bag score based on the embedding. The embedding-based approach is argued to deliver better performance than the instance-based approach~\citep{wang2018revisiting}, but at the same time harder to determine the key instances that trigger the classifier~\citep{liu2017detecting}. 
+% MCH: moved dual-stream to the next parag
+
+% \paragraph{Classic approaches.}
+% % Numerous studies have been conducted on MIL even before the  ``deep learning era'' \footnote[1]{It is usually refered to 2012 when AlexNet achieved a significant improvement in image recognition accuracy over previous methods in the ImageNet Large Scale Visual Recognition Challenge}. 
+% % Numerous studies on MIL have been conducted even prior to the advent of deep learning. 
+% Examples of classic MIL methods includes iARP~\citep{dietterich1997solving}, 
+% Diverse Density~\citep{maron1997framework}, 
+% Citation-kNN~\citep{wang2000solving}, MI-Kernels~\citep{zhang2001dd}, MI/mi-SVM~\citep{andrews2002support}, mi-Graph ~\citep{zhou2009multi}, MILBoost~\citep{zhang2005multiple}, among others. 
+
+% Classic approaches toward multiple-instance learning are limited in the choice of $f$. For example, using pre-computed features as the representation of each instance~\citep{dietterich1997solving}or using only fully-connected layers as $f$~\citep{wang2018revisiting} for feature extraction. The choice of $\sigma$ (using restricted and very often non-trainable pooling functions such as mean pooling or max pooling ~\citep{feng2017deep, pinheiro2015image, zhu2017deep}.) 
+
+
+% ~\cite{pappas2014explaining} proposed an attention-based MIL method where the attention weights are learned from an auxiliary linear regression model. 
+
+\paragraph{Deep attention-based MIL.} 
+Our proposed method builds upon recent works advancing attention-based deep neural networks for MIL. (A broader summary of classic MIL can be found in App~\ref{app:relatedworks}).
+ABMIL~\citep{ilse2018attention} is an embedding approach where a two-layer neural network computes attention weights for each instance, with the final representation formed by averaging over instance embeddings weighted by attention.
+Set Transformer~\citep{lee2019set} proposed to model the interactions among instances by using self-attention with multi-head attention~\citep{vaswani2017attention}. Similarly, TransMIL ~\citep{shao2021transmil} uses a Transformer-based architecture to capture correlations among patches for whole-slide image classification. C2C~\citep{sharma2021cluster} divides patches from a whole-slide image into clusters, and sample multiple patches from each cluster for training. 
+C2C then tries to guide attention weights to be similar to a predefined uniform distribution, aiming to minimize intra-cluster variance for patches from the same cluster. A recent method called DSMIL~\citep{li2021dual} attempts to benefit from instance-based and embedding-based approaches via a dual-stream architecture. The author pretrains the \textbf{instance-level} feature extractor using self-supervised contrastive learning.  
+%It also uses KL divergence to guide the attention weights, but different from ours, the KL-divergence is computed between the attention weights and the predefined uniform distribution, aiming to minimize intra-cluster variance for patches from the same cluster. 
+
+%DSMIL~\citep{li2021dual} solves WSI classification with a two-stream architecture and multi-scale fusion. 
+
+% However, such an idea is not directly applicable to our problem of diagnosing AS from multi-view ultrasound images, \todo{TODO, HOW TO EXPLAIN THIS CLEARER. for example, cardiologists can make AS diagnosis decision from a few key images showing the aortic valves, and does not need to look at irrelevant images such as images from other view types other than PLAX and PSAX.}
+
+%DSMIL: where the first stream uses the standard max-pooling to identify the critical instance in the bag, and the second stream computes an attention score for each instance by measuring its distance to the critical instance.
+
+ % predicting the color values in an image~\citep{zhang2016colorful},
+\subsection{Self-supervised learning and Pretraining of MIL}
+Self-supervised learning (SSL) has demonstrated success in learning visual representations ~\citep{oord2018representation, chen2020simple, he2020momentum, chen2020improved, grill2020bootstrap, caron2020unsupervised, chen2021exploring}. %Self-supervised learning methods generally 
+SSL requires defining a pretext task such as
+predicting the future in latent space~\citep{oord2018representation},
+predicting the rotation of an image ~\citep{gidaris2018unsupervised},
+or solving a jigsaw puzzle~\citep{noroozi2016unsupervised}.  %2. loss functions, such as logistic loss ~\citep{mikolov2013efficient}, margin loss~\citep{schroff2015facenet}, triplet loss~\citep{weinberger2009distance}. 
+The term "pretext" suggests that the task being solved is not of genuine interest, but rather serves as a means to learn a better data representation. 
+After selecting a pretext task, an appropriate loss function must also be selected.
+%and loss functions can often be examined separately. 
+Here, we focus on the instance discrimination task~\citep{wu2018unsupervised} and  InfoNCE loss~\citep{oord2018representation} following the success of \emph{momentum contrastive learning} (MoCo) ~\citep{he2020momentum,chen2020improved}. 
+
+% Loss functions can often be investigated independently of pretext tasks and various loss functions have been tried in prior works ~\citep{hadsell2006dimensionality, doersch2015unsupervised, zhang2016colorful, wang2015unsupervised, wu2018unsupervised, hjelm2018learning}.
+
+Recently, self-supervision has been successfully applied to pretrain MIL models \citep{holste2022self, holste2022automated, liu2022multiple, lu2019semi, li2021dual, saillard2021self, dehaene2020self, rymarczyk2023protomil}. However, these studies all apply self-supervised contrastive learning to representations of individual images.
+In our experiments, we observe image-level pretraining is not beneficial and sometimes \textbf{slightly harmful} for our AS diagnosis task.
+This may be because the pretraining task's objective (learning good image level representations) being too distant from (or even contradict) the downstream task's objective (learning good bag-level representations for AS diagnosis). This could relate to an issue prior literature calls \emph{class collision}~\citep{arora2019theoretical, chuang2020debiased, khosla2020supervised, dwibedi2021little, zheng2021weakly, ash2021investigating, li2021comatch}. 
+
+% This could be due to the pretraining objective, which is task-agnositic (pulling together an image with the augmentation of itself, and pushing away all the other) is too different from the objective of our downstream task which is task-specific (diagnosis AS using all images from a study with multiple instance learning), or more broadly the class collision issue that has been studied in prior literatures\citep{arora2019theoretical, chuang2020debiased, khosla2020supervised, dwibedi2021little, zheng2021weakly, ash2021investigating, li2021comatch} 
+
+%\subsection{Connection to Knowledge Distillation}
+
+
+% where the pretrained view classifier teaches the MIL model concept of 'relevant views'. 
+
+% used its softmax predictions on each instance to teach the MIL model.
+
+\subsection{Applications of ML to Aortic Stenosis.}
+
+Work on automatic screening for aortic stenosis from echocardiograms has accelerated in the past few years. These efforts differ in how they overcome the challenge of multi-view images available in each patient scan or \emph{study}.
+
+Some groups have taken the \emph{Filter then Average} approach diagrammed in Fig.~\ref{fig:diagrams} (b). 
+\citet{dai2023identifying} used a single video of the PLAX view to screen for AS.
+\citet{holste2022automated} similarly filters to several PLAX videos, then uses a deep learning architecture specialized to video.
+This latter study reports strong external validation performance. 
+
+Another group pursued the \emph{Weighted Avg. by View Relevance} strategy, shown in Fig.~\ref{fig:diagrams} (c).
+\citet{huang2021new} developed an approach for handling diverse views by combining an image-level view classifer and an image-level diagnosis classifier. This was later developed for a clinical audience in \citet{wessler2023automated}.
+
+Very recent work by \citet{krishna2023fully} demonstrated that a commercial deep learning system can closely emulate human performance on most of the elementary echocardiogram-derived measures for AS assessment, such as aortic valve area, peak velocity of blood through the valve, and mean pressure gradients. However, the inability to assign a study-level AS severity rating limits its usefulness as a screening tool.
+
+More distant work has pursued automated AS screening beyond echo images.
+Some have created classifiers based on time-varying electrocardiogram signals~\citep{cohen2021electrocardiogram, elias2022deep}. Others have used wearable sensors~\citep{yangClassificationAorticStenosis2020}.
+We argue that 2D echocardiograms remain the gold-standard information source for diagnosis.
+
+Overall, the use of video, rather than still frames, is an advantage of some prior work~\citep{dai2023identifying,holste2022automated} over our approach.
+%Our current study uses still frames available in an open-access dataset.
+However, these video works evaluate on proprietary data, while our current work emphasizes reproducibility by using the open-access TMED dataset described below.
+We expect our proposed MIL architecture could be extended to video by a straightforward adaptation of the instance representation layer.

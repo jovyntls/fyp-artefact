@@ -1,0 +1,202 @@
+2024-04-01 16:20:15,170 [INFO] running pipeline with params: NUM_ATTEMPTS=3, YEAR_AND_MONTH='2306', PIXEL_TOLERANCE=500, DOWNLOAD_BY_ARXIV_IDS=['2306.00036', '2306.00207', '2306.00417', '2306.00001', '2306.00002', '2306.00057', '2306.01691', '2306.00004', '2306.00022', '2306.01308']
+2024-04-01 16:20:15,170 [INFO] starting downloads...
+2024-04-01 16:20:15,170 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.00036
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:28,649 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.00036
+2024-04-01 16:20:28,655 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.00036
+2024-04-01 16:20:28,656 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.00207
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:29,536 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.00207
+2024-04-01 16:20:29,537 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.00207
+2024-04-01 16:20:29,540 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.00417
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:30,287 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.00417
+2024-04-01 16:20:30,288 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.00417
+2024-04-01 16:20:30,291 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.00001
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:31,307 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.00001
+2024-04-01 16:20:31,308 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.00001
+2024-04-01 16:20:31,310 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.00002
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:33,437 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.00002
+2024-04-01 16:20:33,438 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.00002
+2024-04-01 16:20:33,441 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.00057
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:37,932 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.00057
+2024-04-01 16:20:37,934 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.00057
+2024-04-01 16:20:37,937 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.01691
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:43,215 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.01691
+2024-04-01 16:20:43,217 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.01691
+2024-04-01 16:20:43,223 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.00004
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:44,920 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.00004
+2024-04-01 16:20:44,921 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.00004
+2024-04-01 16:20:44,923 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.00022
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:46,726 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.00022
+2024-04-01 16:20:46,727 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.00022
+2024-04-01 16:20:46,729 [DEBUG] starting download:
+	from https://arxiv.org/e-print/2306.01308
+	to /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars
+2024-04-01 16:20:48,146 [DEBUG] get_request: (success) https://arxiv.org/e-print/2306.01308
+2024-04-01 16:20:48,146 [DEBUG] file written: /Users/jovyntan/Desktop/work/fyp/diff_test_tex_engines/bin_empirical_final/arxiv_tars/2306.01308
+2024-04-01 16:20:48,148 [INFO] downloaded: 10 papers
+2024-04-01 16:20:48,148 [DEBUG] ['2306.00036', '2306.00207', '2306.00417', '2306.00001', '2306.00002', '2306.00057', '2306.01691', '2306.00004', '2306.00022', '2306.01308']
+2024-04-01 16:20:48,148 [INFO] extracting files...
+2024-04-01 16:20:48,148 [DEBUG] attempting extraction: 2306.01691
+2024-04-01 16:20:48,193 [DEBUG] tar unzip: success	2306.01691
+2024-04-01 16:20:48,193 [DEBUG] attempting extraction: 2306.00057
+2024-04-01 16:20:48,240 [DEBUG] tar unzip: success	2306.00057
+2024-04-01 16:20:48,241 [DEBUG] attempting extraction: 2306.00004
+2024-04-01 16:20:48,283 [DEBUG] tar unzip: success	2306.00004
+2024-04-01 16:20:48,284 [DEBUG] attempting extraction: 2306.00207
+2024-04-01 16:20:48,307 [DEBUG] [tar unzip] ret=1	2306.00207
+2024-04-01 16:20:48,333 [DEBUG] gunzip: success	2306.00207
+2024-04-01 16:20:48,334 [DEBUG] attempting extraction: 2306.00002
+2024-04-01 16:20:48,383 [DEBUG] tar unzip: success	2306.00002
+2024-04-01 16:20:48,383 [DEBUG] attempting extraction: 2306.00417
+2024-04-01 16:20:48,412 [DEBUG] tar unzip: success	2306.00417
+2024-04-01 16:20:48,413 [DEBUG] attempting extraction: 2306.00036
+2024-04-01 16:20:48,510 [DEBUG] tar unzip: success	2306.00036
+2024-04-01 16:20:48,510 [DEBUG] attempting extraction: 2306.00001
+2024-04-01 16:20:48,547 [DEBUG] tar unzip: success	2306.00001
+2024-04-01 16:20:48,547 [DEBUG] attempting extraction: 2306.01308
+2024-04-01 16:20:48,581 [DEBUG] tar unzip: success	2306.01308
+2024-04-01 16:20:48,581 [DEBUG] attempting extraction: 2306.00022
+2024-04-01 16:20:48,614 [DEBUG] tar unzip: success	2306.00022
+2024-04-01 16:20:48,614 [INFO] 10 files extracted. 	0 failures: []
+2024-04-01 16:20:48,614 [INFO] compiling tex files...
+2024-04-01 16:20:48,617 [DEBUG] found latex file: [2306.01691] main.tex
+2024-04-01 16:20:48,617 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:20:48,618 [DEBUG] process engine primitives: no lines removed for 2306.01691
+2024-04-01 16:21:06,869 [DEBUG] compile_tex (1): ret=0 for 2306.01691 [pdflatex]
+2024-04-01 16:21:34,637 [DEBUG] compile_tex (1): ret=0 for 2306.01691 [lualatex]
+2024-04-01 16:21:59,938 [DEBUG] compile_tex (1): ret=0 for 2306.01691 [xelatex]
+2024-04-01 16:21:59,942 [DEBUG] found latex file: [2306.00057] mainarXivSubmission.tex
+2024-04-01 16:21:59,942 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:21:59,946 [DEBUG] process engine primitives: removed 2 for 2306.00057. ['\\pdfpageheight\\paperheight\n', '\\pdfpagewidth\\paperwidth\n']
+2024-04-01 16:22:05,763 [DEBUG] compile_tex (1): ret=0 for 2306.00057 [pdflatex]
+2024-04-01 16:22:08,060 [DEBUG] compile_tex (1): ret=12 for 2306.00057 [lualatex]
+2024-04-01 16:22:08,060 [WARNING] compile_tex: ret=12 for 2306.00057 [lualatex]
+2024-04-01 16:22:09,440 [DEBUG] compile_tex (1): ret=12 for 2306.00057 [xelatex]
+2024-04-01 16:22:09,440 [WARNING] compile_tex: ret=12 for 2306.00057 [xelatex]
+2024-04-01 16:22:09,443 [DEBUG] found latex file: [2306.00004] main_cav23_version.tex
+2024-04-01 16:22:09,444 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:22:09,447 [DEBUG] process engine primitives: no lines removed for 2306.00004
+2024-04-01 16:22:18,120 [DEBUG] compile_tex (1): ret=0 for 2306.00004 [pdflatex]
+2024-04-01 16:22:29,119 [DEBUG] compile_tex (1): ret=0 for 2306.00004 [lualatex]
+2024-04-01 16:22:36,861 [DEBUG] compile_tex (1): ret=0 for 2306.00004 [xelatex]
+2024-04-01 16:22:36,863 [DEBUG] found latex file: [2306.00207] 2306.00207
+2024-04-01 16:22:36,863 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:22:36,866 [DEBUG] process engine primitives: no lines removed for 2306.00207
+2024-04-01 16:22:46,945 [DEBUG] compile_tex (1): ret=0 for 2306.00207 [pdflatex]
+2024-04-01 16:22:52,646 [DEBUG] compile_tex (1): ret=12 for 2306.00207 [lualatex]
+2024-04-01 16:22:52,646 [WARNING] compile_tex: ret=12 for 2306.00207 [lualatex]
+2024-04-01 16:23:02,656 [DEBUG] compile_tex (1): ret=0 for 2306.00207 [xelatex]
+2024-04-01 16:23:02,657 [DEBUG] found latex file: [2306.00002] worton.tex
+2024-04-01 16:23:02,657 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:23:02,658 [DEBUG] process engine primitives: no lines removed for 2306.00002
+2024-04-01 16:23:12,355 [DEBUG] compile_tex (1): ret=0 for 2306.00002 [pdflatex]
+2024-04-01 16:23:26,165 [DEBUG] compile_tex (1): ret=0 for 2306.00002 [lualatex]
+2024-04-01 16:23:35,793 [DEBUG] compile_tex (1): ret=0 for 2306.00002 [xelatex]
+2024-04-01 16:23:35,797 [DEBUG] found latex file: [2306.00417] spectral-density-arxiv.tex
+2024-04-01 16:23:35,797 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:23:35,799 [DEBUG] process engine primitives: no lines removed for 2306.00417
+2024-04-01 16:23:40,182 [DEBUG] compile_tex (1): ret=0 for 2306.00417 [pdflatex]
+2024-04-01 16:23:45,413 [DEBUG] compile_tex (1): ret=0 for 2306.00417 [lualatex]
+2024-04-01 16:23:49,162 [DEBUG] compile_tex (1): ret=0 for 2306.00417 [xelatex]
+2024-04-01 16:23:49,163 [DEBUG] found latex file: [2306.00036] icml2023.tex
+2024-04-01 16:23:49,163 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:23:49,164 [DEBUG] process engine primitives: no lines removed for 2306.00036
+2024-04-01 16:23:59,955 [DEBUG] compile_tex (1): ret=0 for 2306.00036 [pdflatex]
+2024-04-01 16:24:03,934 [DEBUG] compile_tex (1): ret=12 for 2306.00036 [lualatex]
+2024-04-01 16:24:03,934 [WARNING] compile_tex: ret=12 for 2306.00036 [lualatex]
+2024-04-01 16:24:12,656 [DEBUG] compile_tex (1): ret=0 for 2306.00036 [xelatex]
+2024-04-01 16:24:12,657 [DEBUG] found latex file: [2306.00001] conference_101719.tex
+2024-04-01 16:24:12,657 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:24:12,658 [DEBUG] process engine primitives: no lines removed for 2306.00001
+2024-04-01 16:24:18,468 [DEBUG] compile_tex (1): ret=0 for 2306.00001 [pdflatex]
+2024-04-01 16:24:25,763 [DEBUG] compile_tex (1): ret=0 for 2306.00001 [lualatex]
+2024-04-01 16:24:30,996 [DEBUG] compile_tex (1): ret=0 for 2306.00001 [xelatex]
+2024-04-01 16:24:31,000 [DEBUG] found latex file: [2306.01308] Bydzovsky_Structure_v3-arxiv.tex
+2024-04-01 16:24:31,000 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:24:31,002 [DEBUG] process engine primitives: no lines removed for 2306.01308
+2024-04-01 16:24:38,078 [DEBUG] compile_tex (1): ret=0 for 2306.01308 [pdflatex]
+2024-04-01 16:24:42,933 [DEBUG] compile_tex (1): ret=0 for 2306.01308 [lualatex]
+2024-04-01 16:24:47,355 [DEBUG] compile_tex (1): ret=0 for 2306.01308 [xelatex]
+2024-04-01 16:24:47,359 [DEBUG] found latex file: [2306.00022] paper.tex
+2024-04-01 16:24:47,359 [DEBUG] processing files for engine-specific primitives...
+2024-04-01 16:24:47,361 [DEBUG] process engine primitives: no lines removed for 2306.00022
+2024-04-01 16:24:50,308 [DEBUG] compile_tex (1): ret=0 for 2306.00022 [pdflatex]
+2024-04-01 16:24:56,054 [DEBUG] compile_tex (1): ret=0 for 2306.00022 [lualatex]
+2024-04-01 16:24:59,197 [DEBUG] compile_tex (1): ret=0 for 2306.00022 [xelatex]
+2024-04-01 16:24:59,200 [INFO] compiled 10 papers.
+2024-04-01 16:24:59,201 [DEBUG]                                   entrypoint documentclass                                    docclass_params pdf lua  xe xe<>pdf xe<>lua
+arxiv_id                                                                                                                                 
+2306.01691                          main.tex        acmart           [authorversion,manuscript,screen,acmtog]   0   0   0     NaN     NaN
+2306.00057           mainarXivSubmission.tex     revtex4-1  [pra,english,reprint, aps,superscriptaddress, ...   0  12  12     NaN     NaN
+2306.00004            main_cav23_version.tex         llncs                                               None   0   0   0     NaN     NaN
+2306.00207                        2306.00207        amsart                                     [a4paper,11pt]   0  12   0     NaN     NaN
+2306.00002                        worton.tex    elsarticle                                 [preprint,12pt,3p]   0   0   0     NaN     NaN
+2306.00417        spectral-density-arxiv.tex     revtex4-2  [aps,pre,twocolumn,superscriptaddress,notitlep...   0   0   0     NaN     NaN
+2306.00036                      icml2023.tex       article                                       [nohyperref]   0  12   0     NaN     NaN
+2306.00001             conference_101719.tex      IEEEtran                                       [conference]   0   0   0     NaN     NaN
+2306.01308  Bydzovsky_Structure_v3-arxiv.tex       revtex4  [prc,twocolumn,showpacs,preprintnumbers,amsmat...   0   0   0     NaN     NaN
+2306.00022                         paper.tex         mnras                           [fleqn,usenatbib,useAMS]   0   0   0     NaN     NaN
+2024-04-01 16:24:59,211 [INFO] diffing output pdfs...
+2024-04-01 16:25:08,182 [DEBUG] diff-pdf: [2306.01691] ret=1 for [xe] <> [pdf]
+2024-04-01 16:25:14,549 [DEBUG] diff-pdf: [2306.01691] ret=1 for [xe] <> [lua]
+2024-04-01 16:25:14,682 [DEBUG] diff-pdf: [2306.00057] ret=3 for [xe] <> [pdf]
+2024-04-01 16:25:14,814 [DEBUG] diff-pdf: [2306.00057] ret=3 for [xe] <> [lua]
+2024-04-01 16:25:24,356 [DEBUG] diff-pdf: [2306.00004] ret=1 for [xe] <> [pdf]
+2024-04-01 16:25:33,011 [DEBUG] diff-pdf: [2306.00004] ret=1 for [xe] <> [lua]
+2024-04-01 16:25:45,145 [DEBUG] diff-pdf: [2306.00207] ret=1 for [xe] <> [pdf]
+2024-04-01 16:25:57,271 [DEBUG] diff-pdf: [2306.00207] ret=1 for [xe] <> [lua]
+2024-04-01 16:26:03,179 [DEBUG] diff-pdf: [2306.00002] ret=1 for [xe] <> [pdf]
+2024-04-01 16:26:08,898 [DEBUG] diff-pdf: [2306.00002] ret=1 for [xe] <> [lua]
+2024-04-01 16:26:13,668 [DEBUG] diff-pdf: [2306.00417] ret=1 for [xe] <> [pdf]
+2024-04-01 16:26:18,678 [DEBUG] diff-pdf: [2306.00417] ret=1 for [xe] <> [lua]
+2024-04-01 16:26:37,480 [DEBUG] diff-pdf: [2306.00036] ret=1 for [xe] <> [pdf]
+2024-04-01 16:26:55,351 [DEBUG] diff-pdf: [2306.00036] ret=1 for [xe] <> [lua]
+2024-04-01 16:26:57,918 [DEBUG] diff-pdf: [2306.00001] ret=1 for [xe] <> [pdf]
+2024-04-01 16:27:00,204 [DEBUG] diff-pdf: [2306.00001] ret=1 for [xe] <> [lua]
+2024-04-01 16:27:04,693 [DEBUG] diff-pdf: [2306.01308] ret=1 for [xe] <> [pdf]
+2024-04-01 16:27:08,699 [DEBUG] diff-pdf: [2306.01308] ret=1 for [xe] <> [lua]
+2024-04-01 16:27:12,756 [DEBUG] diff-pdf: [2306.00022] ret=1 for [xe] <> [pdf]
+2024-04-01 16:27:16,956 [DEBUG] diff-pdf: [2306.00022] ret=1 for [xe] <> [lua]
+2024-04-01 16:27:16,961 [DEBUG] results as csv:
+arxiv_id,entrypoint,documentclass,docclass_params,pdf,lua,xe,xe<>pdf,xe<>lua
+2306.01691,main.tex,acmart,"[authorversion,manuscript,screen,acmtog]",0,0,0,False,False
+2306.00057,mainarXivSubmission.tex,revtex4-1,"[pra,english,reprint, aps,superscriptaddress, nofootinbib]",0,12,12,False,False
+2306.00004,main_cav23_version.tex,llncs,,0,0,0,False,False
+2306.00207,2306.00207,amsart,"[a4paper,11pt]",0,12,0,False,False
+2306.00002,worton.tex,elsarticle,"[preprint,12pt,3p]",0,0,0,False,False
+2306.00417,spectral-density-arxiv.tex,revtex4-2,"[aps,pre,twocolumn,superscriptaddress,notitlepage]",0,0,0,False,False
+2306.00036,icml2023.tex,article,[nohyperref],0,12,0,False,False
+2306.00001,conference_101719.tex,IEEEtran,[conference],0,0,0,False,False
+2306.01308,Bydzovsky_Structure_v3-arxiv.tex,revtex4,"[prc,twocolumn,showpacs,preprintnumbers,amsmath,amssymb]",0,0,0,False,False
+2306.00022,paper.tex,mnras,"[fleqn,usenatbib,useAMS]",0,0,0,False,False
+
+2024-04-01 16:27:16,963 [INFO] results:
+                                  entrypoint documentclass                                             docclass_params pdf lua  xe xe<>pdf xe<>lua
+arxiv_id                                                                                                                                          
+2306.01691                          main.tex        acmart                    [authorversion,manuscript,screen,acmtog]   0   0   0   False   False
+2306.00057           mainarXivSubmission.tex     revtex4-1  [pra,english,reprint, aps,superscriptaddress, nofootinbib]   0  12  12   False   False
+2306.00004            main_cav23_version.tex         llncs                                                        None   0   0   0   False   False
+2306.00207                        2306.00207        amsart                                              [a4paper,11pt]   0  12   0   False   False
+2306.00002                        worton.tex    elsarticle                                          [preprint,12pt,3p]   0   0   0   False   False
+2306.00417        spectral-density-arxiv.tex     revtex4-2          [aps,pre,twocolumn,superscriptaddress,notitlepage]   0   0   0   False   False
+2306.00036                      icml2023.tex       article                                                [nohyperref]   0  12   0   False   False
+2306.00001             conference_101719.tex      IEEEtran                                                [conference]   0   0   0   False   False
+2306.01308  Bydzovsky_Structure_v3-arxiv.tex       revtex4    [prc,twocolumn,showpacs,preprintnumbers,amsmath,amssymb]   0   0   0   False   False
+2306.00022                         paper.tex         mnras                                    [fleqn,usenatbib,useAMS]   0   0   0   False   False

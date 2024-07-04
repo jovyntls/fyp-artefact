@@ -1,0 +1,440 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003" --jobname="2306.00003_tl2020"  "main.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020.bbl in line'
+ No file 2306.00003_tl2020.bbl.
+Latexmk: Missing input file: '2306.00003_tl2020.ptc' from line
+  'No file 2306.00003_tl2020.ptc.'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `andrews2002support' on page 22 undefined on input line 6
+  Citation `arora2019theoretical' on page 4 undefined on input line 58
+  Citation `ash2021investigating' on page 4 undefined on input line 58
+  Citation `bachman2019learning' on page 10 undefined on input line 164
+  Citation `borowa2020classifying' on page 3 undefined on input line 8
+  Citation `campanella2019clinical' on page 3 undefined on input line 8
+  Citation `carbonneau2018multiple' on page 3 undefined on input line 9
+  Citation `caron2020unsupervised' on page 4 undefined on input line 44
+  Citation `chen2020improved' on page 10 undefined on input line 163
+  Citation `chen2020improved' on page 10 undefined on input line 269
+  Citation `chen2020improved' on page 11 undefined on input line 347
+  Citation `chen2020improved' on page 21 undefined on input line 1
+  Citation `chen2020improved' on page 22 undefined on input line 5
+  Citation `chen2020improved' on page 4 undefined on input line 44
+  Citation `chen2020improved' on page 4 undefined on input line 52
+  Citation `chen2020improved' on page 6 undefined on input line 7
+  Citation `chen2020simple' on page 10 undefined on input line 269
+  Citation `chen2020simple' on page 11 undefined on input line 347
+  Citation `chen2020simple' on page 22 undefined on input line 5
+  Citation `chen2020simple' on page 4 undefined on input line 44
+  Citation `chen2020simple' on page 6 undefined on input line 7
+  Citation `chen2021exploring' on page 4 undefined on input line 44
+  Citation `chikontwe2020multiple' on page 3 undefined on input line 8
+  Citation `chuang2020debiased' on page 4 undefined on input line 58
+  Citation `cohen2021electrocardiogram' on page 5 undefined on input line 84
+  Citation `cosatto2013automated' on page 3 undefined on input line 5
+  Citation `dai2023identifying' on page 4 undefined on input line 74
+  Citation `dai2023identifying' on page 5 undefined on input line 87
+  Citation `dehaene2020self' on page 4 undefined on input line 56
+  Citation `dehaene2020self' on page 9 undefined on input line 155
+  Citation `dietterich1997solving' on page 22 undefined on input line 4
+  Citation `dietterich1997solving' on page 3 undefined on input line 3
+  Citation `dietterich1997solving' on page 3 undefined on input line 8
+  Citation `ding2012breast' on page 3 undefined on input line 8
+  Citation `dwibedi2021little' on page 4 undefined on input line 58
+  Citation `elias2022deep' on page 5 undefined on input line 84
+  Citation `gardezi2018cardiac' on page 1 undefined on input line 2
+  Citation `gidaris2018unsupervised' on page 4 undefined on input line 47
+  Citation `goyal2017accurate' on page 21 undefined on input line 1
+  Citation `grill2020bootstrap' on page 4 undefined on input line 44
+  Citation `he2016deep' on page 20 undefined on input line 3
+  Citation `he2020momentum' on page 10 undefined on input line 163
+  Citation `he2020momentum' on page 10 undefined on input line 172
+  Citation `he2020momentum' on page 10 undefined on input line 191
+  Citation `he2020momentum' on page 10 undefined on input line 269
+  Citation `he2020momentum' on page 21 undefined on input line 1
+  Citation `he2020momentum' on page 4 undefined on input line 44
+  Citation `he2020momentum' on page 4 undefined on input line 52
+  Citation `hinton2015distilling' on page 9 undefined on input line 115
+  Citation `holste2022automated' on page 1 undefined on input line 8
+  Citation `holste2022automated' on page 11 undefined on input line 18
+  Citation `holste2022automated' on page 11 undefined on input line 26
+  Citation `holste2022automated' on page 12 undefined on input line 38
+  Citation `holste2022automated' on page 2 undefined on input line 27
+  Citation `holste2022automated' on page 2 undefined on input line 28
+  Citation `holste2022automated' on page 20 undefined on input line 3
+  Citation `holste2022automated' on page 4 undefined on input line 56
+  Citation `holste2022automated' on page 4 undefined on input line 75
+  Citation `holste2022automated' on page 5 undefined on input line 87
+  Citation `holste2022automated' on page 9 undefined on input line 155
+  Citation `holste2022self' on page 11 undefined on input line 18
+  Citation `holste2022self' on page 12 undefined on input line 38
+  Citation `holste2022self' on page 20 undefined on input line 3
+  Citation `holste2022self' on page 4 undefined on input line 56
+  Citation `holste2022self' on page 9 undefined on input line 155
+  Citation `holzinger2017we' on page 13 undefined on input line 70
+  Citation `hou2016patch' on page 3 undefined on input line 8
+  Citation `huang2021new' on page 1 undefined on input line 20
+  Citation `huang2021new' on page 11 undefined on input line 4
+  Citation `huang2021new' on page 2 undefined on input line 27
+  Citation `huang2021new' on page 5 undefined on input line 79
+  Citation `huang2021new' on page 5 undefined on input line 8
+  Citation `huang2021new' on page 5 undefined on input line 9
+  Citation `huang2021new' on page 8 undefined on input line 94
+  Citation `huang2022fix' on page 19 undefined on input line 1
+  Citation `huang2022fix' on page 9 undefined on input line 121
+  Citation `huang2022tmed' on page 6 undefined on input line 19
+  Citation `ilse2018attention' on page 11 undefined on input line 18
+  Citation `ilse2018attention' on page 11 undefined on input line 27
+  Citation `ilse2018attention' on page 18 undefined on input line 1
+  Citation `ilse2018attention' on page 2 undefined on input line 21
+  Citation `ilse2018attention' on page 3 undefined on input line 33
+  Citation `ilse2018attention' on page 4 undefined on input line 31
+  Citation `ilse2018attention' on page 6 undefined on input line 26
+  Citation `kandemir2015computer' on page 3 undefined on input line 8
+  Citation `khosla2020supervised' on page 4 undefined on input line 58
+  Citation `kim2010gaussian' on page 22 undefined on input line 6
+  Citation `krishna2023fully' on page 5 undefined on input line 81
+  Citation `laine2016temporal' on page 19 undefined on input line 1
+  Citation `lee2019set' on page 11 undefined on input line 18
+  Citation `lee2019set' on page 11 undefined on input line 27
+  Citation `lee2019set' on page 18 undefined on input line 26
+  Citation `lee2019set' on page 2 undefined on input line 21
+  Citation `lee2019set' on page 4 undefined on input line 32
+  Citation `li2021comatch' on page 4 undefined on input line 58
+  Citation `li2021deep' on page 3 undefined on input line 8
+  Citation `li2021dual' on page 10 undefined on input line 269
+  Citation `li2021dual' on page 11 undefined on input line 18
+  Citation `li2021dual' on page 11 undefined on input line 27
+  Citation `li2021dual' on page 18 undefined on input line 26
+  Citation `li2021dual' on page 3 undefined on input line 5
+  Citation `li2021dual' on page 4 undefined on input line 33
+  Citation `li2021dual' on page 4 undefined on input line 56
+  Citation `li2021dual' on page 6 undefined on input line 26
+  Citation `li2021dual' on page 9 undefined on input line 155
+  Citation `li2021multi' on page 3 undefined on input line 8
+  Citation `liu2017detecting' on page 3 undefined on input line 14
+  Citation `liu2022multiple' on page 4 undefined on input line 56
+  Citation `liu2022multiple' on page 9 undefined on input line 155
+  Citation `long2018identification' on page 8 undefined on input line 94
+  Citation `lu2019semi' on page 4 undefined on input line 56
+  Citation `lu2019semi' on page 9 undefined on input line 155
+  Citation `lundberg2017unified' on page 13 undefined on input line 70
+  Citation `madani2018fast' on page 8 undefined on input line 94
+  Citation `maron1997framework' on page 22 undefined on input line 5
+  Citation `maron1997framework' on page 3 undefined on input line 3
+  Citation `mitchell2019guidelines' on page 1 undefined on input line 33
+  Citation `mitchell2019guidelines' on page 5 undefined on input line 23
+  Citation `noroozi2016unsupervised' on page 4 undefined on input line 48
+  Citation `oord2018representation' on page 10 undefined on input line 178
+  Citation `oord2018representation' on page 4 undefined on input line 44
+  Citation `oord2018representation' on page 4 undefined on input line 46
+  Citation `oord2018representation' on page 4 undefined on input line 52
+  Citation `paszke2019pytorch' on page 20 undefined on input line 11
+  Citation `quellec2012multiple' on page 3 undefined on input line 8
+  Citation `quellec2017multiple' on page 3 undefined on input line 9
+  Citation `robbins1951stochastic' on page 19 undefined on input line 19
+  Citation `robbins1951stochastic' on page 20 undefined on input line 11
+  Citation `rymarczyk2023protomil' on page 4 undefined on input line 56
+  Citation `rymarczyk2023protomil' on page 9 undefined on input line 155
+  Citation `saillard2021self' on page 4 undefined on input line 56
+  Citation `saillard2021self' on page 9 undefined on input line 155
+  Citation `shao2021transmil' on page 2 undefined on input line 21
+  Citation `shao2021transmil' on page 3 undefined on input line 5
+  Citation `shao2021transmil' on page 4 undefined on input line 32
+  Citation `sharma2021cluster' on page 2 undefined on input line 21
+  Citation `sharma2021cluster' on page 4 undefined on input line 32
+  Citation `tonekaboni2019clinicians' on page 13 undefined on input line 70
+  Citation `tran2018closer' on page 20 undefined on input line 3
+  Citation `vaswani2017attention' on page 4 undefined on input line 32
+  Citation `wang2000solving' on page 22 undefined on input line 6
+  Citation `wang2018revisiting' on page 3 undefined on input line 14
+  Citation `wessler2023automated' on page 1 undefined on input line 20
+  Citation `wessler2023automated' on page 11 undefined on input line 18
+  Citation `wessler2023automated' on page 11 undefined on input line 26
+  Citation `wessler2023automated' on page 12 undefined on input line 38
+  Citation `wessler2023automated' on page 2 undefined on input line 27
+  Citation `wessler2023automated' on page 5 undefined on input line 79
+  Citation `wu2018unsupervised' on page 10 undefined on input line 164
+  Citation `wu2018unsupervised' on page 4 undefined on input line 52
+  Citation `xu2014weakly' on page 3 undefined on input line 8
+  Citation `yadgir2020global' on page 1 undefined on input line 2
+  Citation `yangClassificationAorticStenosis2020' on page 5 undefined on input line 84
+  Citation `ye2019unsupervised' on page 10 undefined on input line 164
+  Citation `zagoruyko2016wide' on page 19 undefined on input line 17
+  Citation `zaheer2017deep' on page 11 undefined on input line 18
+  Citation `zaheer2017deep' on page 20 undefined on input line 7
+  Citation `zhang2001dd' on page 22 undefined on input line 6
+  Citation `zhang2005multiple' on page 22 undefined on input line 6
+  Citation `zhang2018fully' on page 8 undefined on input line 94
+  Citation `zhao2013drug' on page 3 undefined on input line 8
+  Citation `zheng2021weakly' on page 4 undefined on input line 58
+  Citation `zhou2004multi' on page 3 undefined on input line 9
+  Citation `zhou2009multi' on page 22 undefined on input line 6
+  Reference `App:DeepSet' on page 11 undefined on input line 19
+  Reference `App:Hyper' on page 20 undefined on input line 9
+  Reference `app:Architecture' on page 7 undefined on input line 44
+  Reference `app:SSL_Pretraining' on page 11 undefined on input line 347
+  Reference `app:ViewClassifier' on page 13 undefined on input line 79
+  Reference `app:ViewClassifier' on page 9 undefined on input line 121
+  Reference `app:relatedworks' on page 4 undefined on input line 30
+  Reference `eq:L_SA' on page 21 undefined on input line 17
+  Reference `eq:patient_embedding_abmil' on page 8 undefined on input line 68
+  Reference `eq:patient_embedding_abmil' on page 8 undefined on input line 90
+  Reference `eq:patient_embedding_abmil' on page 8 undefined on input line 97
+  Reference `eq:patient_embedding_samil' on page 6 undefined on input line 7
+  Reference `eq:total_loss' on page 21 undefined on input line 17
+  Reference `fig:Attention_View_Alignment' on page 13 undefined on input line 68
+  Reference `fig:Attention_View_Alignment' on page 8 undefined on input line 90
+  Reference `fig:TMED2_roc' on page 12 undefined on input line 48
+  Reference `fig:confusion_matrix' on page 12 undefined on input line 40
+  Reference `fig:diagrams' on page 1 undefined on input line 14
+  Reference `fig:diagrams' on page 11 undefined on input line 31
+  Reference `fig:diagrams' on page 2 undefined on input line 27
+  Reference `fig:diagrams' on page 4 undefined on input line 73
+  Reference `fig:diagrams' on page 5 undefined on input line 78
+  Reference `fig:diagrams' on page 6 undefined on input line 26
+  Reference `fig:top_attended_images' on page 13 undefined on input line 77
+  Reference `fig:workflow_diagram' on page 11 undefined on input line 359
+  Reference `fig:workflow_diagram' on page 18 undefined on input line 26
+  Reference `fig:workflow_diagram' on page 6 undefined on input line 108
+  Reference `jmlrend' on page 1 undefined on input line 15
+  Reference `jmlrstart' on page 1 undefined on input line 15
+  Reference `sec:Results' on page 2 undefined on input line 28
+  Reference `sec:base_arch' on page 6 undefined on input line 105
+  Reference `sec:methods_CL' on page 1 undefined on input line 33
+  Reference `sec:methods_CL' on page 11 undefined on input line 346
+  Reference `sec:methods_CL' on page 3 undefined on input line 34
+  Reference `sec:methods_CL' on page 3 undefined on input line 42
+  Reference `sec:methods_CL' on page 6 undefined on input line 108
+  Reference `sec:methods_CL' on page 6 undefined on input line 7
+  Reference `sec:methods_SA' on page 1 undefined on input line 33
+  Reference `sec:methods_SA' on page 3 undefined on input line 32
+  Reference `sec:methods_SA' on page 3 undefined on input line 42
+  Reference `sec:methods_SA' on page 6 undefined on input line 107
+  Reference `sec:methods_formulation' on page 6 undefined on input line 104
+  Reference `tab:AUC_analysis_323' on page 12 undefined on input line 56
+  Reference `tab:Feature Extractor $f$' on page 18 undefined on input line 24
+  Reference `tab:Pretraining strategy ablation' on page 14 undefined on input line 125
+  Reference `tab:Pretraining strategy ablation' on page 9 undefined on input line 158
+  Reference `tab:TMED2_BACC' on page 12 undefined on input line 29
+  Reference `tab:TMED2_BACC' on page 12 undefined on input line 38
+  Reference `tab:TMED2_BACC' on page 8 undefined on input line 90
+  Reference `tab:View Regularization ablation' on page 13 undefined on input line 123
+  Reference `tab:ViewClassifier hyperparameters' on page 19 undefined on input line 19
+  Reference `tab:attention_MLP' on page 19 undefined on input line 28
+  Reference `tab:viewclassifier_performance' on page 19 undefined on input line 3
+Latexmk: Failed to find one or more bibliography files:
+    'refs_manual.bib'
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 71 reference(s)
+  Latex failed to resolve 168 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020': The following rules & subrules became out-of-date:
+      'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020'
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020' because I don't find the following files:
+  refs_manual.bib
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020.aux'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003" --jobname="2306.00003_tl2020"  "main.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020.bbl in line'
+ No file 2306.00003_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `andrews2002support' on page 23 undefined on input line 6
+  Citation `arora2019theoretical' on page 4 undefined on input line 58
+  Citation `ash2021investigating' on page 4 undefined on input line 58
+  Citation `bachman2019learning' on page 10 undefined on input line 164
+  Citation `borowa2020classifying' on page 3 undefined on input line 8
+  Citation `campanella2019clinical' on page 3 undefined on input line 8
+  Citation `carbonneau2018multiple' on page 3 undefined on input line 9
+  Citation `caron2020unsupervised' on page 4 undefined on input line 44
+  Citation `chen2020improved' on page 10 undefined on input line 163
+  Citation `chen2020improved' on page 10 undefined on input line 269
+  Citation `chen2020improved' on page 11 undefined on input line 347
+  Citation `chen2020improved' on page 22 undefined on input line 1
+  Citation `chen2020improved' on page 23 undefined on input line 5
+  Citation `chen2020improved' on page 4 undefined on input line 44
+  Citation `chen2020improved' on page 4 undefined on input line 52
+  Citation `chen2020improved' on page 6 undefined on input line 7
+  Citation `chen2020simple' on page 10 undefined on input line 269
+  Citation `chen2020simple' on page 11 undefined on input line 347
+  Citation `chen2020simple' on page 23 undefined on input line 5
+  Citation `chen2020simple' on page 4 undefined on input line 44
+  Citation `chen2020simple' on page 6 undefined on input line 7
+  Citation `chen2021exploring' on page 4 undefined on input line 44
+  Citation `chikontwe2020multiple' on page 3 undefined on input line 8
+  Citation `chuang2020debiased' on page 4 undefined on input line 58
+  Citation `cohen2021electrocardiogram' on page 5 undefined on input line 84
+  Citation `cosatto2013automated' on page 3 undefined on input line 5
+  Citation `dai2023identifying' on page 4 undefined on input line 74
+  Citation `dai2023identifying' on page 5 undefined on input line 87
+  Citation `dehaene2020self' on page 4 undefined on input line 56
+  Citation `dehaene2020self' on page 9 undefined on input line 155
+  Citation `dietterich1997solving' on page 23 undefined on input line 4
+  Citation `dietterich1997solving' on page 3 undefined on input line 3
+  Citation `dietterich1997solving' on page 3 undefined on input line 8
+  Citation `ding2012breast' on page 3 undefined on input line 8
+  Citation `dwibedi2021little' on page 4 undefined on input line 58
+  Citation `elias2022deep' on page 5 undefined on input line 84
+  Citation `gardezi2018cardiac' on page 1 undefined on input line 2
+  Citation `gidaris2018unsupervised' on page 4 undefined on input line 47
+  Citation `goyal2017accurate' on page 22 undefined on input line 1
+  Citation `grill2020bootstrap' on page 4 undefined on input line 44
+  Citation `he2016deep' on page 21 undefined on input line 3
+  Citation `he2020momentum' on page 10 undefined on input line 163
+  Citation `he2020momentum' on page 10 undefined on input line 172
+  Citation `he2020momentum' on page 10 undefined on input line 191
+  Citation `he2020momentum' on page 10 undefined on input line 269
+  Citation `he2020momentum' on page 22 undefined on input line 1
+  Citation `he2020momentum' on page 4 undefined on input line 44
+  Citation `he2020momentum' on page 4 undefined on input line 52
+  Citation `hinton2015distilling' on page 9 undefined on input line 115
+  Citation `holste2022automated' on page 1 undefined on input line 8
+  Citation `holste2022automated' on page 11 undefined on input line 18
+  Citation `holste2022automated' on page 11 undefined on input line 26
+  Citation `holste2022automated' on page 12 undefined on input line 38
+  Citation `holste2022automated' on page 2 undefined on input line 27
+  Citation `holste2022automated' on page 2 undefined on input line 28
+  Citation `holste2022automated' on page 21 undefined on input line 3
+  Citation `holste2022automated' on page 4 undefined on input line 56
+  Citation `holste2022automated' on page 4 undefined on input line 75
+  Citation `holste2022automated' on page 5 undefined on input line 87
+  Citation `holste2022automated' on page 9 undefined on input line 155
+  Citation `holste2022self' on page 11 undefined on input line 18
+  Citation `holste2022self' on page 12 undefined on input line 38
+  Citation `holste2022self' on page 21 undefined on input line 3
+  Citation `holste2022self' on page 4 undefined on input line 56
+  Citation `holste2022self' on page 9 undefined on input line 155
+  Citation `holzinger2017we' on page 13 undefined on input line 70
+  Citation `hou2016patch' on page 3 undefined on input line 8
+  Citation `huang2021new' on page 1 undefined on input line 20
+  Citation `huang2021new' on page 11 undefined on input line 4
+  Citation `huang2021new' on page 2 undefined on input line 27
+  Citation `huang2021new' on page 5 undefined on input line 79
+  Citation `huang2021new' on page 5 undefined on input line 8
+  Citation `huang2021new' on page 5 undefined on input line 9
+  Citation `huang2021new' on page 8 undefined on input line 94
+  Citation `huang2022fix' on page 20 undefined on input line 1
+  Citation `huang2022fix' on page 9 undefined on input line 121
+  Citation `huang2022tmed' on page 6 undefined on input line 19
+  Citation `ilse2018attention' on page 11 undefined on input line 18
+  Citation `ilse2018attention' on page 11 undefined on input line 27
+  Citation `ilse2018attention' on page 19 undefined on input line 1
+  Citation `ilse2018attention' on page 2 undefined on input line 21
+  Citation `ilse2018attention' on page 3 undefined on input line 33
+  Citation `ilse2018attention' on page 4 undefined on input line 31
+  Citation `ilse2018attention' on page 6 undefined on input line 26
+  Citation `kandemir2015computer' on page 3 undefined on input line 8
+  Citation `khosla2020supervised' on page 4 undefined on input line 58
+  Citation `kim2010gaussian' on page 23 undefined on input line 6
+  Citation `krishna2023fully' on page 5 undefined on input line 81
+  Citation `laine2016temporal' on page 20 undefined on input line 1
+  Citation `lee2019set' on page 11 undefined on input line 18
+  Citation `lee2019set' on page 11 undefined on input line 27
+  Citation `lee2019set' on page 19 undefined on input line 26
+  Citation `lee2019set' on page 2 undefined on input line 21
+  Citation `lee2019set' on page 4 undefined on input line 32
+  Citation `li2021comatch' on page 4 undefined on input line 58
+  Citation `li2021deep' on page 3 undefined on input line 8
+  Citation `li2021dual' on page 10 undefined on input line 269
+  Citation `li2021dual' on page 11 undefined on input line 18
+  Citation `li2021dual' on page 11 undefined on input line 27
+  Citation `li2021dual' on page 19 undefined on input line 26
+  Citation `li2021dual' on page 3 undefined on input line 5
+  Citation `li2021dual' on page 4 undefined on input line 33
+  Citation `li2021dual' on page 4 undefined on input line 56
+  Citation `li2021dual' on page 6 undefined on input line 26
+  Citation `li2021dual' on page 9 undefined on input line 155
+  Citation `li2021multi' on page 3 undefined on input line 8
+  Citation `liu2017detecting' on page 3 undefined on input line 14
+  Citation `liu2022multiple' on page 4 undefined on input line 56
+  Citation `liu2022multiple' on page 9 undefined on input line 155
+  Citation `long2018identification' on page 8 undefined on input line 94
+  Citation `lu2019semi' on page 4 undefined on input line 56
+  Citation `lu2019semi' on page 9 undefined on input line 155
+  Citation `lundberg2017unified' on page 13 undefined on input line 70
+  Citation `madani2018fast' on page 8 undefined on input line 94
+  Citation `maron1997framework' on page 23 undefined on input line 5
+  Citation `maron1997framework' on page 3 undefined on input line 3
+  Citation `mitchell2019guidelines' on page 1 undefined on input line 33
+  Citation `mitchell2019guidelines' on page 5 undefined on input line 23
+  Citation `noroozi2016unsupervised' on page 4 undefined on input line 48
+  Citation `oord2018representation' on page 10 undefined on input line 178
+  Citation `oord2018representation' on page 4 undefined on input line 44
+  Citation `oord2018representation' on page 4 undefined on input line 46
+  Citation `oord2018representation' on page 4 undefined on input line 52
+  Citation `paszke2019pytorch' on page 21 undefined on input line 11
+  Citation `quellec2012multiple' on page 3 undefined on input line 8
+  Citation `quellec2017multiple' on page 3 undefined on input line 9
+  Citation `robbins1951stochastic' on page 20 undefined on input line 19
+  Citation `robbins1951stochastic' on page 21 undefined on input line 11
+  Citation `rymarczyk2023protomil' on page 4 undefined on input line 56
+  Citation `rymarczyk2023protomil' on page 9 undefined on input line 155
+  Citation `saillard2021self' on page 4 undefined on input line 56
+  Citation `saillard2021self' on page 9 undefined on input line 155
+  Citation `shao2021transmil' on page 2 undefined on input line 21
+  Citation `shao2021transmil' on page 3 undefined on input line 5
+  Citation `shao2021transmil' on page 4 undefined on input line 32
+  Citation `sharma2021cluster' on page 2 undefined on input line 21
+  Citation `sharma2021cluster' on page 4 undefined on input line 32
+  Citation `tonekaboni2019clinicians' on page 13 undefined on input line 70
+  Citation `tran2018closer' on page 21 undefined on input line 3
+  Citation `vaswani2017attention' on page 4 undefined on input line 32
+  Citation `wang2000solving' on page 23 undefined on input line 6
+  Citation `wang2018revisiting' on page 3 undefined on input line 14
+  Citation `wessler2023automated' on page 1 undefined on input line 20
+  Citation `wessler2023automated' on page 11 undefined on input line 18
+  Citation `wessler2023automated' on page 11 undefined on input line 26
+  Citation `wessler2023automated' on page 12 undefined on input line 38
+  Citation `wessler2023automated' on page 2 undefined on input line 27
+  Citation `wessler2023automated' on page 5 undefined on input line 79
+  Citation `wu2018unsupervised' on page 10 undefined on input line 164
+  Citation `wu2018unsupervised' on page 4 undefined on input line 52
+  Citation `xu2014weakly' on page 3 undefined on input line 8
+  Citation `yadgir2020global' on page 1 undefined on input line 2
+  Citation `yangClassificationAorticStenosis2020' on page 5 undefined on input line 84
+  Citation `ye2019unsupervised' on page 10 undefined on input line 164
+  Citation `zagoruyko2016wide' on page 20 undefined on input line 17
+  Citation `zaheer2017deep' on page 11 undefined on input line 18
+  Citation `zaheer2017deep' on page 21 undefined on input line 7
+  Citation `zhang2001dd' on page 23 undefined on input line 6
+  Citation `zhang2005multiple' on page 23 undefined on input line 6
+  Citation `zhang2018fully' on page 8 undefined on input line 94
+  Citation `zhao2013drug' on page 3 undefined on input line 8
+  Citation `zheng2021weakly' on page 4 undefined on input line 58
+  Citation `zhou2004multi' on page 3 undefined on input line 9
+  Citation `zhou2009multi' on page 23 undefined on input line 6
+Latexmk: Failed to find one or more bibliography files:
+    'refs_manual.bib'
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 168 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00003/2306.00003_tl2020.log' for details
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.

@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 2306.00365_tl2022.aux
+The style file: apsrev.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: 2306.00365_tl2022Notes.bib
+Database file #2: references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty booktitle in Wang:2017ajq
+You've used 31 entries,
+            3411 wiz_defined-function locations,
+            1378 strings with 14699 characters,
+and the built_in function-call counts, 19224 in all, are:
+= -- 1160
+> -- 548
+< -- 77
++ -- 432
+- -- 136
+* -- 2496
+:= -- 2180
+add.period$ -- 31
+call.type$ -- 31
+change.case$ -- 126
+chr.to.int$ -- 31
+cite$ -- 36
+duplicate$ -- 1758
+empty$ -- 1680
+format.name$ -- 366
+if$ -- 3671
+int.to.chr$ -- 1
+int.to.str$ -- 32
+missing$ -- 272
+newline$ -- 108
+num.names$ -- 87
+pop$ -- 453
+preamble$ -- 1
+purify$ -- 124
+quote$ -- 0
+skip$ -- 750
+stack$ -- 0
+substring$ -- 681
+swap$ -- 1314
+text.length$ -- 55
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 186
+warning$ -- 1
+while$ -- 84
+width$ -- 0
+write$ -- 316
+(There was 1 warning)

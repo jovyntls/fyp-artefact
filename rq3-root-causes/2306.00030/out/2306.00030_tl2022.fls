@@ -1,0 +1,6 @@
+PWD /diff_test_tex_engines/bin/tex_sources/2306.00030
+INPUT /usr/local/texlive/2022/texmf.cnf
+INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT 2306.00030
+OUTPUT /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2022.log

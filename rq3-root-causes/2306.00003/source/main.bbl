@@ -1,0 +1,635 @@
+\begin{thebibliography}{84}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Andrews et~al.(2002)Andrews, Tsochantaridis, and
+  Hofmann]{andrews2002support}
+Stuart Andrews, Ioannis Tsochantaridis, and Thomas Hofmann.
+\newblock Support vector machines for multiple-instance learning.
+\newblock \emph{Advances in neural information processing systems}, 15, 2002.
+
+\bibitem[Arora et~al.(2019)Arora, Khandeparkar, Khodak, Plevrakis, and
+  Saunshi]{arora2019theoretical}
+Sanjeev Arora, Hrishikesh Khandeparkar, Mikhail Khodak, Orestis Plevrakis, and
+  Nikunj Saunshi.
+\newblock A theoretical analysis of contrastive unsupervised representation
+  learning.
+\newblock \emph{arXiv preprint arXiv:1902.09229}, 2019.
+
+\bibitem[Ash et~al.(2021)Ash, Goel, Krishnamurthy, and
+  Misra]{ash2021investigating}
+Jordan~T Ash, Surbhi Goel, Akshay Krishnamurthy, and Dipendra Misra.
+\newblock Investigating the role of negatives in contrastive representation
+  learning.
+\newblock \emph{arXiv preprint arXiv:2106.09943}, 2021.
+
+\bibitem[Bachman et~al.(2019)Bachman, Hjelm, and
+  Buchwalter]{bachman2019learning}
+Philip Bachman, R~Devon Hjelm, and William Buchwalter.
+\newblock Learning representations by maximizing mutual information across
+  views.
+\newblock \emph{Advances in neural information processing systems}, 32, 2019.
+
+\bibitem[Borowa et~al.(2020)Borowa, Rymarczyk, Ocho{\'n}ska,
+  Brzychczy-W{\l}och, and Zieli{\'n}ski]{borowa2020classifying}
+Adriana Borowa, Dawid Rymarczyk, Dorota Ocho{\'n}ska, Monika
+  Brzychczy-W{\l}och, and Bartosz Zieli{\'n}ski.
+\newblock Classifying bacteria clones using attention-based deep multiple
+  instance learning interpreted by persistence homology.
+\newblock \emph{arXiv preprint arXiv:2012.01189}, 2020.
+
+\bibitem[Campanella et~al.(2019)Campanella, Hanna, Geneslaw, Miraflor, Werneck
+  Krauss~Silva, Busam, Brogi, Reuter, Klimstra, and
+  Fuchs]{campanella2019clinical}
+Gabriele Campanella, Matthew~G Hanna, Luke Geneslaw, Allen Miraflor, Vitor
+  Werneck Krauss~Silva, Klaus~J Busam, Edi Brogi, Victor~E Reuter, David~S
+  Klimstra, and Thomas~J Fuchs.
+\newblock Clinical-grade computational pathology using weakly supervised deep
+  learning on whole slide images.
+\newblock \emph{Nature medicine}, 25\penalty0 (8):\penalty0 1301--1309, 2019.
+
+\bibitem[Carbonneau et~al.(2018)Carbonneau, Cheplygina, Granger, and
+  Gagnon]{carbonneau2018multiple}
+Marc-Andr{\'e} Carbonneau, Veronika Cheplygina, Eric Granger, and Ghyslain
+  Gagnon.
+\newblock Multiple instance learning: A survey of problem characteristics and
+  applications.
+\newblock \emph{Pattern Recognition}, 77:\penalty0 329--353, 2018.
+
+\bibitem[Caron et~al.(2020)Caron, Misra, Mairal, Goyal, Bojanowski, and
+  Joulin]{caron2020unsupervised}
+Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, and
+  Armand Joulin.
+\newblock Unsupervised learning of visual features by contrasting cluster
+  assignments.
+\newblock \emph{Advances in neural information processing systems},
+  33:\penalty0 9912--9924, 2020.
+
+\bibitem[Chen et~al.(2020{\natexlab{a}})Chen, Kornblith, Norouzi, and
+  Hinton]{chen2020simple}
+Ting Chen, Simon Kornblith, Mohammad Norouzi, and Geoffrey Hinton.
+\newblock A simple framework for contrastive learning of visual
+  representations.
+\newblock In \emph{International conference on machine learning}, pages
+  1597--1607. PMLR, 2020{\natexlab{a}}.
+
+\bibitem[Chen and He(2021)]{chen2021exploring}
+Xinlei Chen and Kaiming He.
+\newblock Exploring simple siamese representation learning.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pages 15750--15758, 2021.
+
+\bibitem[Chen et~al.(2020{\natexlab{b}})Chen, Fan, Girshick, and
+  He]{chen2020improved}
+Xinlei Chen, Haoqi Fan, Ross Girshick, and Kaiming He.
+\newblock Improved baselines with momentum contrastive learning.
+\newblock \emph{arXiv preprint arXiv:2003.04297}, 2020{\natexlab{b}}.
+
+\bibitem[Chikontwe et~al.(2020)Chikontwe, Kim, Nam, Go, and
+  Park]{chikontwe2020multiple}
+Philip Chikontwe, Meejeong Kim, Soo~Jeong Nam, Heounjeong Go, and Sang~Hyun
+  Park.
+\newblock Multiple instance learning with center embeddings for histopathology
+  classification.
+\newblock In \emph{Medical Image Computing and Computer Assisted
+  Intervention--MICCAI 2020: 23rd International Conference, Lima, Peru, October
+  4--8, 2020, Proceedings, Part V 23}, pages 519--528. Springer, 2020.
+
+\bibitem[Chuang et~al.(2020)Chuang, Robinson, Lin, Torralba, and
+  Jegelka]{chuang2020debiased}
+Ching-Yao Chuang, Joshua Robinson, Yen-Chen Lin, Antonio Torralba, and Stefanie
+  Jegelka.
+\newblock Debiased contrastive learning.
+\newblock \emph{Advances in neural information processing systems},
+  33:\penalty0 8765--8775, 2020.
+
+\bibitem[Cohen-Shelly et~al.(2021)Cohen-Shelly, Attia, Friedman, Ito, Essayagh,
+  Ko, Murphree, Michelena, Enriquez-Sarano, Carter,
+  et~al.]{cohen2021electrocardiogram}
+Michal Cohen-Shelly, Zachi~I Attia, Paul~A Friedman, Saki Ito, Benjamin~A
+  Essayagh, Wei-Yin Ko, Dennis~H Murphree, Hector~I Michelena, Maurice
+  Enriquez-Sarano, Rickey~E Carter, et~al.
+\newblock Electrocardiogram screening for aortic valve stenosis using
+  artificial intelligence.
+\newblock \emph{European heart journal}, 42\penalty0 (30), 2021.
+
+\bibitem[Cosatto et~al.(2013)Cosatto, Laquerre, Malon, Graf, Saito, Kiyuna,
+  Marugame, and Kamijo]{cosatto2013automated}
+Eric Cosatto, Pierre-Francois Laquerre, Christopher Malon, Hans-Peter Graf,
+  Akira Saito, Tomoharu Kiyuna, Atsushi Marugame, and Ken'ichi Kamijo.
+\newblock Automated gastric cancer diagnosis on h\&e-stained sections;
+  ltraining a classifier on a large scale with multiple instance machine
+  learning.
+\newblock In \emph{Medical Imaging 2013: Digital Pathology}, volume 8676, pages
+  51--59. SPIE, 2013.
+
+\bibitem[Dai et~al.(2023)Dai, Nazzari, Namasivayam, Hung, and
+  Stultz]{dai2023identifying}
+Wangzhi Dai, Hamed Nazzari, Mayooran Namasivayam, Judy Hung, and Collin~M
+  Stultz.
+\newblock Identifying aortic stenosis with a single parasternal long-axis video
+  using deep learning.
+\newblock \emph{Journal of the American Society of Echocardiography},
+  36\penalty0 (1), 2023.
+
+\bibitem[Dehaene et~al.(2020)Dehaene, Camara, Moindrot, de~Lavergne, and
+  Courtiol]{dehaene2020self}
+Olivier Dehaene, Axel Camara, Olivier Moindrot, Axel de~Lavergne, and Pierre
+  Courtiol.
+\newblock Self-supervision closes the gap between weak and strong supervision
+  in histology.
+\newblock \emph{arXiv preprint arXiv:2012.03583}, 2020.
+
+\bibitem[Dietterich et~al.(1997)Dietterich, Lathrop, and
+  Lozano-P{\'e}rez]{dietterich1997solving}
+Thomas~G Dietterich, Richard~H Lathrop, and Tom{\'a}s Lozano-P{\'e}rez.
+\newblock Solving the multiple instance problem with axis-parallel rectangles.
+\newblock \emph{Artificial intelligence}, 89\penalty0 (1-2):\penalty0 31--71,
+  1997.
+
+\bibitem[Ding et~al.(2012)Ding, Cheng, Huang, Liu, and Zhang]{ding2012breast}
+Jianrui Ding, Heng-Da Cheng, Jianhua Huang, Jiafeng Liu, and Yingtao Zhang.
+\newblock Breast ultrasound image classification based on multiple-instance
+  learning.
+\newblock \emph{Journal of digital imaging}, 25:\penalty0 620--627, 2012.
+
+\bibitem[Dwibedi et~al.(2021)Dwibedi, Aytar, Tompson, Sermanet, and
+  Zisserman]{dwibedi2021little}
+Debidatta Dwibedi, Yusuf Aytar, Jonathan Tompson, Pierre Sermanet, and Andrew
+  Zisserman.
+\newblock With a little help from my friends: Nearest-neighbor contrastive
+  learning of visual representations.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 9588--9597, 2021.
+
+\bibitem[Elias et~al.(2022)Elias, Poterucha, Rajaram, Moller, Rodriguez, Bhave,
+  Hahn, Tison, Abreau, Barrios, et~al.]{elias2022deep}
+Pierre Elias, Timothy~J Poterucha, Vijay Rajaram, Luca~Matos Moller, Victor
+  Rodriguez, Shreyas Bhave, Rebecca~T Hahn, Geoffrey Tison, Sean~A Abreau,
+  Joshua Barrios, et~al.
+\newblock Deep learning electrocardiographic analysis for detection of
+  left-sided valvular heart disease.
+\newblock \emph{Journal of the American College of Cardiology}, 80\penalty0
+  (6):\penalty0 613--626, 2022.
+
+\bibitem[Gardezi et~al.(2018)Gardezi, Myerson, Chambers, Coffey, d’Arcy,
+  Hobbs, Holt, Kennedy, Loudon, Prendergast, et~al.]{gardezi2018cardiac}
+Syed~KM Gardezi, Saul~G Myerson, John Chambers, Sean Coffey, Joanna d’Arcy,
+  FD~Richard Hobbs, Jonathan Holt, Andrew Kennedy, Margaret Loudon, Anne
+  Prendergast, et~al.
+\newblock Cardiac auscultation poorly predicts the presence of valvular heart
+  disease in asymptomatic primary care patients.
+\newblock \emph{Heart}, 104\penalty0 (22):\penalty0 1832--1835, 2018.
+
+\bibitem[Gidaris et~al.(2018)Gidaris, Singh, and
+  Komodakis]{gidaris2018unsupervised}
+Spyros Gidaris, Praveer Singh, and Nikos Komodakis.
+\newblock Unsupervised representation learning by predicting image rotations.
+\newblock \emph{arXiv preprint arXiv:1803.07728}, 2018.
+
+\bibitem[Goyal et~al.(2017)Goyal, Doll{\'a}r, Girshick, Noordhuis, Wesolowski,
+  Kyrola, Tulloch, Jia, and He]{goyal2017accurate}
+Priya Goyal, Piotr Doll{\'a}r, Ross Girshick, Pieter Noordhuis, Lukasz
+  Wesolowski, Aapo Kyrola, Andrew Tulloch, Yangqing Jia, and Kaiming He.
+\newblock Accurate, large minibatch sgd: Training imagenet in 1 hour.
+\newblock \emph{arXiv preprint arXiv:1706.02677}, 2017.
+
+\bibitem[Grill et~al.(2020)Grill, Strub, Altch{\'e}, Tallec, Richemond,
+  Buchatskaya, Doersch, Avila~Pires, Guo, Gheshlaghi~Azar,
+  et~al.]{grill2020bootstrap}
+Jean-Bastien Grill, Florian Strub, Florent Altch{\'e}, Corentin Tallec, Pierre
+  Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Avila~Pires, Zhaohan
+  Guo, Mohammad Gheshlaghi~Azar, et~al.
+\newblock Bootstrap your own latent-a new approach to self-supervised learning.
+\newblock \emph{Advances in neural information processing systems},
+  33:\penalty0 21271--21284, 2020.
+
+\bibitem[He et~al.(2016)He, Zhang, Ren, and Sun]{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 770--778, 2016.
+
+\bibitem[He et~al.(2020)He, Fan, Wu, Xie, and Girshick]{he2020momentum}
+Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, and Ross Girshick.
+\newblock Momentum contrast for unsupervised visual representation learning.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pages 9729--9738, 2020.
+
+\bibitem[Hinton et~al.(2015)Hinton, Vinyals, and Dean]{hinton2015distilling}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+\newblock Distilling the knowledge in a neural network.
+\newblock \emph{arXiv preprint arXiv:1503.02531}, 2015.
+
+\bibitem[Holste et~al.(2022{\natexlab{a}})Holste, Oikonomou, Mortazavi, Wang,
+  and Khera]{holste2022self}
+Gregory Holste, Evangelos~K Oikonomou, Bobak Mortazavi, Zhangyang Wang, and
+  Rohan Khera.
+\newblock Self-supervised learning of echocardiogram videos enables
+  data-efficient clinical diagnosis.
+\newblock \emph{arXiv preprint arXiv:2207.11581}, 2022{\natexlab{a}}.
+
+\bibitem[Holste et~al.(2022{\natexlab{b}})Holste, Oikonomou, Mortazavi, Coppi,
+  Faridi, Miller, Forrest, McNamara, Ohno-Machado, Yuan,
+  et~al.]{holste2022automated}
+Gregory Holste, Evangelos~K Oikonomou, Bobak~J Mortazavi, Andreas Coppi,
+  Kamil~F Faridi, Edward~J Miller, John~K Forrest, Robert~L McNamara, Lucila
+  Ohno-Machado, Neal Yuan, et~al.
+\newblock Automated severe aortic stenosis detection on single-view
+  echocardiography: A multi-center deep learning study.
+\newblock \emph{medRxiv}, 2022{\natexlab{b}}.
+
+\bibitem[Holzinger et~al.(2017)Holzinger, Biemann, Pattichis, and
+  Kell]{holzinger2017we}
+Andreas Holzinger, Chris Biemann, Constantinos~S Pattichis, and Douglas~B Kell.
+\newblock What do we need to build explainable ai systems for the medical
+  domain?
+\newblock \emph{arXiv preprint arXiv:1712.09923}, 2017.
+
+\bibitem[Hou et~al.(2016)Hou, Samaras, Kurc, Gao, Davis, and
+  Saltz]{hou2016patch}
+Le~Hou, Dimitris Samaras, Tahsin~M Kurc, Yi~Gao, James~E Davis, and Joel~H
+  Saltz.
+\newblock Patch-based convolutional neural network for whole slide tissue image
+  classification.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 2424--2433, 2016.
+
+\bibitem[Huang et~al.(2021)Huang, Long, Wessler, and Hughes]{huang2021new}
+Zhe Huang, Gary Long, Benjamin Wessler, and Michael~C Hughes.
+\newblock A new semi-supervised learning benchmark for classifying view and
+  diagnosing aortic stenosis from echocardiograms.
+\newblock In \emph{Machine Learning for Healthcare Conference}, 2021.
+\newblock URL \url{https://proceedings.mlr.press/v149/huang21a.html}.
+
+\bibitem[Huang et~al.(2022)Huang, Long, Wessler, and Hughes]{huang2022tmed}
+Zhe Huang, Gary Long, Benjamin~S Wessler, and Michael~C Hughes.
+\newblock {TMED} 2: A dataset for semi-supervised classification of
+  echocardiograms.
+\newblock In \emph{DataPerf: Benchmarking Data for Data-Centric AI Workshop at
+  ICML}, 2022.
+
+\bibitem[Huang et~al.(2023)Huang, Sidhom, Wessler, and Hughes]{huang2022fix}
+Zhe Huang, Mary-Joy Sidhom, Benjamin~S Wessler, and Michael~C Hughes.
+\newblock Fix-a-step: Semi-supervised learning from uncurated unlabeled data.
+\newblock In \emph{Artificial Intelligence and Statistics (AISTATS)}, 2023.
+\newblock URL \url{https://proceedings.mlr.press/v206/huang23c.html}.
+
+\bibitem[Ilse et~al.(2018)Ilse, Tomczak, and Welling]{ilse2018attention}
+Maximilian Ilse, Jakub Tomczak, and Max Welling.
+\newblock Attention-based deep multiple instance learning.
+\newblock In \emph{International conference on machine learning}, pages
+  2127--2136. PMLR, 2018.
+
+\bibitem[Kandemir and Hamprecht(2015)]{kandemir2015computer}
+Melih Kandemir and Fred~A Hamprecht.
+\newblock Computer-aided diagnosis from weak supervision: A benchmarking study.
+\newblock \emph{Computerized medical imaging and graphics}, 42:\penalty0
+  44--50, 2015.
+
+\bibitem[Khosla et~al.(2020)Khosla, Teterwak, Wang, Sarna, Tian, Isola,
+  Maschinot, Liu, and Krishnan]{khosla2020supervised}
+Prannay Khosla, Piotr Teterwak, Chen Wang, Aaron Sarna, Yonglong Tian, Phillip
+  Isola, Aaron Maschinot, Ce~Liu, and Dilip Krishnan.
+\newblock Supervised contrastive learning.
+\newblock \emph{Advances in neural information processing systems},
+  33:\penalty0 18661--18673, 2020.
+
+\bibitem[Kim and De~la Torre(2010)]{kim2010gaussian}
+Minyoung Kim and Fernando De~la Torre.
+\newblock Gaussian processes multiple instance learning.
+\newblock In \emph{ICML}, pages 535--542. Citeseer, 2010.
+
+\bibitem[Krishna et~al.(2023)Krishna, Desai, Slostad, Bhayani, Arnold,
+  Ouwerkerk, Hummel, Lam, Ezekowitz, Frost, et~al.]{krishna2023fully}
+Hema Krishna, Kevin Desai, Brody Slostad, Siddharth Bhayani, Joshua~H Arnold,
+  Wouter Ouwerkerk, Yoran Hummel, Carolyn~SP Lam, Justin Ezekowitz, Matthew
+  Frost, et~al.
+\newblock Fully automated artificial intelligence assessment of aortic stenosis
+  by echocardiography.
+\newblock \emph{Journal of the American Society of Echocardiography}, 2023.
+
+\bibitem[Laine and Aila(2016)]{laine2016temporal}
+Samuli Laine and Timo Aila.
+\newblock Temporal ensembling for semi-supervised learning.
+\newblock \emph{arXiv preprint arXiv:1610.02242}, 2016.
+
+\bibitem[Lee et~al.(2019)Lee, Lee, Kim, Kosiorek, Choi, and Teh]{lee2019set}
+Juho Lee, Yoonho Lee, Jungtaek Kim, Adam Kosiorek, Seungjin Choi, and Yee~Whye
+  Teh.
+\newblock Set transformer: A framework for attention-based
+  permutation-invariant neural networks.
+\newblock In \emph{International conference on machine learning}, pages
+  3744--3753. PMLR, 2019.
+
+\bibitem[Li et~al.(2021{\natexlab{a}})Li, Li, and Eliceiri]{li2021dual}
+Bin Li, Yin Li, and Kevin~W Eliceiri.
+\newblock Dual-stream multiple instance learning network for whole slide image
+  classification with self-supervised contrastive learning.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition {(CVPR)}}, 2021{\natexlab{a}}.
+
+\bibitem[Li et~al.(2021{\natexlab{b}})Li, Xiong, and Hoi]{li2021comatch}
+Junnan Li, Caiming Xiong, and Steven~CH Hoi.
+\newblock Comatch: Semi-supervised learning with contrastive graph
+  regularization.
+\newblock In \emph{Proceedings of the IEEE/CVF international conference on
+  computer vision}, pages 9475--9484, 2021{\natexlab{b}}.
+
+\bibitem[Li et~al.(2021{\natexlab{c}})Li, Wan, Zhou, Zhao, Wei, Rong, Zhou, Xu,
+  Lang, Liu, et~al.]{li2021deep}
+Xirong Li, Wencui Wan, Yang Zhou, Jianchun Zhao, Qijie Wei, Junbo Rong, Pengyi
+  Zhou, Limin Xu, Lijuan Lang, Yuying Liu, et~al.
+\newblock Deep multiple instance learning with spatial attention for rop case
+  classification, instance selection and abnormality localization.
+\newblock In \emph{2020 25th International Conference on Pattern Recognition
+  (ICPR)}, pages 7293--7298. IEEE, 2021{\natexlab{c}}.
+
+\bibitem[Li et~al.(2021{\natexlab{d}})Li, Zhou, Wang, Lin, Zhao, Ding, Yu, and
+  Chen]{li2021multi}
+Xirong Li, Yang Zhou, Jie Wang, Hailan Lin, Jianchun Zhao, Dayong Ding, Weihong
+  Yu, and Youxin Chen.
+\newblock Multi-modal multi-instance learning for retinal disease recognition.
+\newblock In \emph{Proceedings of the 29th ACM International Conference on
+  Multimedia}, pages 2474--2482, 2021{\natexlab{d}}.
+
+\bibitem[Liu et~al.(2022)Liu, Zhu, Shen, Liu, Razavian, Geras, and
+  Fernandez-Granda]{liu2022multiple}
+Kangning Liu, Weicheng Zhu, Yiqiu Shen, Sheng Liu, Narges Razavian, Krzysztof~J
+  Geras, and Carlos Fernandez-Granda.
+\newblock Multiple instance learning via iterative self-paced supervised
+  contrastive learning.
+\newblock \emph{arXiv preprint arXiv:2210.09452}, 2022.
+
+\bibitem[Liu et~al.(2017)Liu, Gadepalli, Norouzi, Dahl, Kohlberger, Boyko,
+  Venugopalan, Timofeev, Nelson, Corrado, et~al.]{liu2017detecting}
+Yun Liu, Krishna Gadepalli, Mohammad Norouzi, George~E Dahl, Timo Kohlberger,
+  Aleksey Boyko, Subhashini Venugopalan, Aleksei Timofeev, Philip~Q Nelson,
+  Greg~S Corrado, et~al.
+\newblock Detecting cancer metastases on gigapixel pathology images.
+\newblock \emph{arXiv preprint arXiv:1703.02442}, 2017.
+
+\bibitem[Long and Wessler(2018)]{long2018identification}
+Gary Long and Benjamin~S Wessler.
+\newblock Identification of echocardiographic imaging view using deep learning.
+\newblock \emph{Circulation: Cardiovascular Quality and Outcomes}, 11\penalty0
+  (suppl\_1):\penalty0 A276--A276, 2018.
+
+\bibitem[Lu et~al.(2019)Lu, Chen, Wang, Dillon, and Mahmood]{lu2019semi}
+Ming~Y Lu, Richard~J Chen, Jingwen Wang, Debora Dillon, and Faisal Mahmood.
+\newblock Semi-supervised histology classification using deep multiple instance
+  learning and contrastive predictive coding.
+\newblock \emph{arXiv preprint arXiv:1910.10825}, 2019.
+
+\bibitem[Lundberg and Lee(2017)]{lundberg2017unified}
+Scott~M Lundberg and Su-In Lee.
+\newblock A unified approach to interpreting model predictions.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Madani et~al.(2018)Madani, Arnaout, Mofrad, and
+  Arnaout]{madani2018fast}
+Ali Madani, Ramy Arnaout, Mohammad Mofrad, and Rima Arnaout.
+\newblock Fast and accurate view classification of echocardiograms using deep
+  learning.
+\newblock \emph{NPJ digital medicine}, 1\penalty0 (1):\penalty0 6, 2018.
+
+\bibitem[Maron and Lozano-P{\'e}rez(1997)]{maron1997framework}
+Oded Maron and Tom{\'a}s Lozano-P{\'e}rez.
+\newblock A framework for multiple-instance learning.
+\newblock \emph{Advances in neural information processing systems}, 10, 1997.
+
+\bibitem[Mitchell et~al.(2019)Mitchell, Rahko, Blauwet, Canaday, Finstuen,
+  Foster, Horton, Ogunyankin, Palma, and Velazquez]{mitchell2019guidelines}
+Carol Mitchell, Peter~S Rahko, Lori~A Blauwet, Barry Canaday, Joshua~A
+  Finstuen, Michael~C Foster, Kenneth Horton, Kofo~O Ogunyankin, Richard~A
+  Palma, and Eric~J Velazquez.
+\newblock Guidelines for performing a comprehensive transthoracic
+  echocardiographic examination in adults: recommendations from the american
+  society of echocardiography.
+\newblock \emph{Journal of the American Society of Echocardiography},
+  32\penalty0 (1):\penalty0 1--64, 2019.
+
+\bibitem[Noroozi and Favaro(2016)]{noroozi2016unsupervised}
+Mehdi Noroozi and Paolo Favaro.
+\newblock Unsupervised learning of visual representations by solving jigsaw
+  puzzles.
+\newblock In \emph{Computer Vision--ECCV 2016: 14th European Conference,
+  Amsterdam, The Netherlands, October 11-14, 2016, Proceedings, Part VI}, pages
+  69--84. Springer, 2016.
+
+\bibitem[Oord et~al.(2018)Oord, Li, and Vinyals]{oord2018representation}
+Aaron van~den Oord, Yazhe Li, and Oriol Vinyals.
+\newblock Representation learning with contrastive predictive coding.
+\newblock \emph{arXiv preprint arXiv:1807.03748}, 2018.
+
+\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan,
+  Killeen, Lin, Gimelshein, Antiga, et~al.]{paszke2019pytorch}
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory
+  Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, et~al.
+\newblock Pytorch: An imperative style, high-performance deep learning library.
+\newblock \emph{Advances in neural information processing systems}, 32, 2019.
+
+\bibitem[Quellec et~al.(2012)Quellec, Lamard, Abr{\`a}moff, Decenci{\`e}re,
+  Lay, Erginay, Cochener, and Cazuguel]{quellec2012multiple}
+Gw{\'e}nol{\'e} Quellec, Mathieu Lamard, Michael~D Abr{\`a}moff, Etienne
+  Decenci{\`e}re, Bruno Lay, Ali Erginay, B{\'e}atrice Cochener, and Guy
+  Cazuguel.
+\newblock A multiple-instance learning framework for diabetic retinopathy
+  screening.
+\newblock \emph{Medical image analysis}, 16\penalty0 (6):\penalty0 1228--1240,
+  2012.
+
+\bibitem[Quellec et~al.(2017)Quellec, Cazuguel, Cochener, and
+  Lamard]{quellec2017multiple}
+Gwenol{\'e} Quellec, Guy Cazuguel, B{\'e}atrice Cochener, and Mathieu Lamard.
+\newblock Multiple-instance learning for medical image and video analysis.
+\newblock \emph{IEEE reviews in biomedical engineering}, 10:\penalty0 213--234,
+  2017.
+
+\bibitem[Robbins and Monro(1951)]{robbins1951stochastic}
+Herbert Robbins and Sutton Monro.
+\newblock A stochastic approximation method.
+\newblock \emph{The Annals of Mathematical Statistics}, 22\penalty0
+  (3):\penalty0 400--407, 1951.
+
+\bibitem[Rymarczyk et~al.(2023)Rymarczyk, Pardyl, Kraus, Kaczy{\'n}ska,
+  Skomorowski, and Zieli{\'n}ski]{rymarczyk2023protomil}
+Dawid Rymarczyk, Adam Pardyl, Jaros{\l}aw Kraus, Aneta Kaczy{\'n}ska, Marek
+  Skomorowski, and Bartosz Zieli{\'n}ski.
+\newblock Protomil: Multiple instance learning with prototypical parts for
+  whole-slide image classification.
+\newblock In \emph{Machine Learning and Knowledge Discovery in Databases:
+  European Conference, ECML PKDD 2022, Grenoble, France, September 19--23,
+  2022, Proceedings, Part I}, pages 421--436. Springer, 2023.
+
+\bibitem[Saillard et~al.(2021)Saillard, Dehaene, Marchand, Moindrot, Kamoun,
+  Schmauch, and Jegou]{saillard2021self}
+Charlie Saillard, Olivier Dehaene, Tanguy Marchand, Olivier Moindrot,
+  Aur{\'e}lie Kamoun, Benoit Schmauch, and Simon Jegou.
+\newblock Self supervised learning improves dmmr/msi detection from histology
+  slides across multiple cancers.
+\newblock \emph{arXiv preprint arXiv:2109.05819}, 2021.
+
+\bibitem[Shao et~al.(2021)Shao, Bian, Chen, Wang, Zhang, Ji,
+  et~al.]{shao2021transmil}
+Zhuchen Shao, Hao Bian, Yang Chen, Yifeng Wang, Jian Zhang, Xiangyang Ji,
+  et~al.
+\newblock Transmil: Transformer based correlated multiple instance learning for
+  whole slide image classification.
+\newblock \emph{Advances in neural information processing systems},
+  34:\penalty0 2136--2147, 2021.
+
+\bibitem[Sharma et~al.(2021)Sharma, Shrivastava, Ehsan, Moskaluk, Syed, and
+  Brown]{sharma2021cluster}
+Yash Sharma, Aman Shrivastava, Lubaina Ehsan, Christopher~A Moskaluk, Sana
+  Syed, and Donald Brown.
+\newblock Cluster-to-conquer: A framework for end-to-end multi-instance
+  learning for whole slide image classification.
+\newblock In \emph{Medical Imaging with Deep Learning}, pages 682--698. PMLR,
+  2021.
+
+\bibitem[Tonekaboni et~al.(2019)Tonekaboni, Joshi, McCradden, and
+  Goldenberg]{tonekaboni2019clinicians}
+Sana Tonekaboni, Shalmali Joshi, Melissa~D McCradden, and Anna Goldenberg.
+\newblock What clinicians want: contextualizing explainable machine learning
+  for clinical end use.
+\newblock In \emph{Machine learning for healthcare conference}, pages 359--380.
+  PMLR, 2019.
+
+\bibitem[Tran et~al.(2018)Tran, Wang, Torresani, Ray, LeCun, and
+  Paluri]{tran2018closer}
+Du~Tran, Heng Wang, Lorenzo Torresani, Jamie Ray, Yann LeCun, and Manohar
+  Paluri.
+\newblock A closer look at spatiotemporal convolutions for action recognition.
+\newblock In \emph{Proceedings of the IEEE conference on Computer Vision and
+  Pattern Recognition}, pages 6450--6459, 2018.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Wang and Zucker(2000)]{wang2000solving}
+Jun Wang and Jean-Daniel Zucker.
+\newblock Solving multiple-instance problem: A lazy learning approach.
+\newblock In \emph{International Conference on Machine Learnign {(ICML)}},
+  2000.
+
+\bibitem[Wang et~al.(2018)Wang, Yan, Tang, Bai, and Liu]{wang2018revisiting}
+Xinggang Wang, Yongluan Yan, Peng Tang, Xiang Bai, and Wenyu Liu.
+\newblock Revisiting multiple instance neural networks.
+\newblock \emph{Pattern Recognition}, 74:\penalty0 15--24, 2018.
+
+\bibitem[Wessler et~al.(2023)Wessler, Huang, Long~Jr, Pacifici, Prashar,
+  Karmiy, Sandler, Sokol, Sokol, Dehn, et~al.]{wessler2023automated}
+Benjamin~S Wessler, Zhe Huang, Gary~M Long~Jr, Stefano Pacifici, Nishant
+  Prashar, Samuel Karmiy, Roman~A Sandler, Joseph~Z Sokol, Daniel~B Sokol,
+  Monica~M Dehn, et~al.
+\newblock Automated detection of aortic stenosis using machine learning.
+\newblock \emph{Journal of the American Society of Echocardiography}, 2023.
+
+\bibitem[Wu et~al.(2018)Wu, Xiong, Yu, and Lin]{wu2018unsupervised}
+Zhirong Wu, Yuanjun Xiong, Stella~X Yu, and Dahua Lin.
+\newblock Unsupervised feature learning via non-parametric instance
+  discrimination.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and
+  pattern recognition {(CVPR)}}, 2018.
+
+\bibitem[Xu et~al.(2014)Xu, Zhu, Eric, Chang, Lai, and Tu]{xu2014weakly}
+Yan Xu, Jun-Yan Zhu, I~Eric, Chao Chang, Maode Lai, and Zhuowen Tu.
+\newblock Weakly supervised histopathology cancer image segmentation and
+  classification.
+\newblock \emph{Medical image analysis}, 18\penalty0 (3):\penalty0 591--604,
+  2014.
+
+\bibitem[Yadgir et~al.(2020)Yadgir, Johnson, Aboyans, Adebayo, Adedoyin,
+  Afarideh, Alahdab, Alashi, Alipour, Arabloo, et~al.]{yadgir2020global}
+Simon Yadgir, Catherine~Owens Johnson, Victor Aboyans, Oladimeji~M Adebayo,
+  Rufus~Adesoji Adedoyin, Mohsen Afarideh, Fares Alahdab, Alaa Alashi, Vahid
+  Alipour, Jalal Arabloo, et~al.
+\newblock Global, regional, and national burden of calcific aortic valve and
+  degenerative mitral valve diseases, 1990--2017.
+\newblock \emph{Circulation}, 141\penalty0 (21):\penalty0 1670--1680, 2020.
+
+\bibitem[Yang et~al.(2020)Yang, Ojha, Aranoff, Green, and
+  Tavassolian]{yangClassificationAorticStenosis2020}
+Chenxi Yang, Banish~D. Ojha, Nicole~D. Aranoff, Philip Green, and Negar
+  Tavassolian.
+\newblock Classification of aortic stenosis using conventional machine learning
+  and deep learning methods based on multi-dimensional cardio-mechanical
+  signals.
+\newblock \emph{Scientific Reports}, 10\penalty0 (1), 2020.
+
+\bibitem[Ye et~al.(2019)Ye, Zhang, Yuen, and Chang]{ye2019unsupervised}
+Mang Ye, Xu~Zhang, Pong~C Yuen, and Shih-Fu Chang.
+\newblock Unsupervised embedding learning via invariant and spreading instance
+  feature.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 6210--6219, 2019.
+
+\bibitem[Zagoruyko and Komodakis(2016)]{zagoruyko2016wide}
+Sergey Zagoruyko and Nikos Komodakis.
+\newblock Wide residual networks.
+\newblock \emph{arXiv preprint arXiv:1605.07146}, 2016.
+
+\bibitem[Zaheer et~al.(2017)Zaheer, Kottur, Ravanbakhsh, Poczos, Salakhutdinov,
+  and Smola]{zaheer2017deep}
+Manzil Zaheer, Satwik Kottur, Siamak Ravanbakhsh, Barnabas Poczos, Russ~R
+  Salakhutdinov, and Alexander~J Smola.
+\newblock Deep sets.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Zhang et~al.(2005)Zhang, Platt, and Viola]{zhang2005multiple}
+Cha Zhang, John Platt, and Paul Viola.
+\newblock Multiple instance boosting for object detection.
+\newblock \emph{Advances in neural information processing systems}, 18, 2005.
+
+\bibitem[Zhang et~al.(2018)Zhang, Gajjala, Agrawal, Tison, Hallock,
+  Beussink-Nelson, Lassen, Fan, Aras, Jordan, et~al.]{zhang2018fully}
+Jeffrey Zhang, Sravani Gajjala, Pulkit Agrawal, Geoffrey~H Tison, Laura~A
+  Hallock, Lauren Beussink-Nelson, Mats~H Lassen, Eugene Fan, Mandar~A Aras,
+  ChaRandle Jordan, et~al.
+\newblock Fully automated echocardiogram interpretation in clinical practice:
+  feasibility and diagnostic accuracy.
+\newblock \emph{Circulation}, 138\penalty0 (16):\penalty0 1623--1635, 2018.
+
+\bibitem[Zhang and Goldman(2001)]{zhang2001dd}
+Qi~Zhang and Sally Goldman.
+\newblock Em-dd: An improved multiple-instance learning technique.
+\newblock \emph{Advances in neural information processing systems}, 14, 2001.
+
+\bibitem[Zhao et~al.(2013)Zhao, Fu, Liu, Elokely, Doerksen, Chen, and
+  Wilkins]{zhao2013drug}
+Zhendong Zhao, Gang Fu, Sheng Liu, Khaled~M Elokely, Robert~J Doerksen, Yixin
+  Chen, and Dawn~E Wilkins.
+\newblock Drug activity prediction using multiple-instance learning via joint
+  instance and feature selection.
+\newblock \emph{BMC bioinformatics}, 14\penalty0 (S16), 2013.
+\newblock URL \url{https://doi.org/10.1186/1471-2105-14-S14-S16}.
+
+\bibitem[Zheng et~al.(2021)Zheng, Wang, You, Qian, Zhang, Wang, and
+  Xu]{zheng2021weakly}
+Mingkai Zheng, Fei Wang, Shan You, Chen Qian, Changshui Zhang, Xiaogang Wang,
+  and Chang Xu.
+\newblock Weakly supervised contrastive learning.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 10042--10051, 2021.
+
+\bibitem[Zhou(2004)]{zhou2004multi}
+Zhi-Hua Zhou.
+\newblock Multi-instance learning: A survey.
+\newblock \emph{Department of Computer Science \& Technology, Nanjing
+  University, Tech. Rep}, 1, 2004.
+
+\bibitem[Zhou et~al.(2009)Zhou, Sun, and Li]{zhou2009multi}
+Zhi-Hua Zhou, Yu-Yin Sun, and Yu-Feng Li.
+\newblock Multi-instance learning by treating instances as non-iid samples.
+\newblock In \emph{Proceedings of the 26th annual international conference on
+  machine learning}, pages 1249--1256, 2009.
+
+\end{thebibliography}

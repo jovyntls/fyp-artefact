@@ -1,0 +1,139 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001" --jobname="2306.00001_tl2020"  "conference_101719.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.bbl in line'
+ No file 2306.00001_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `boner2022tiny' on page 1 undefined on input line 129
+  Citation `cai_-device_2019' on page 1 undefined on input line 131
+  Citation `cai_once-for-all_2020' on page 1 undefined on input line 131
+  Citation `david_tensorflow_2021' on page 3 undefined on input line 176
+  Citation `dutta_tinyml_2021' on page 1 undefined on input line 129
+  Citation `everingham_pascal_2015' on page 1 undefined on input line 133
+  Citation `everingham_pascal_2015' on page 2 undefined on input line 166
+  Citation `everingham_pascal_2015' on page 2 undefined on input line 170
+  Citation `everingham_pascal_2015' on page 3 undefined on input line 187
+  Citation `gholami_survey_2021' on page 1 undefined on input line 131
+  Citation `giordano_survey_2022' on page 4 undefined on input line 234
+  Citation `goyal_accurate_2018' on page 2 undefined on input line 173
+  Citation `han_deep_2016' on page 1 undefined on input line 131
+  Citation `li_fully_2019' on page 1 undefined on input line 131
+  Citation `lin_mcunet_2020' on page 1 undefined on input line 131
+  Citation `lin_mcunetv2_2021' on page 1 undefined on input line 131
+  Citation `liu_ssd_2016' on page 1 undefined on input line 129
+  Citation `merenda_edge_2020' on page 1 undefined on input line 129
+  Citation `molchanov_pruning_2017' on page 1 undefined on input line 131
+  Citation `noauthor_adi_2022' on page 3 undefined on input line 176
+  Citation `noauthor_overview_nodate-1' on page 2 undefined on input line 144
+  Citation `redmon_you_2016' on page 1 undefined on input line 129
+  Citation `redmon_you_2016' on page 1 undefined on input line 133
+  Citation `redmon_you_2016' on page 2 undefined on input line 155
+  Citation `redmon_you_2016' on page 2 undefined on input line 166
+  Citation `ren_faster_2015' on page 1 undefined on input line 129
+  Citation `reuther_survey_2020' on page 2 undefined on input line 144
+  Citation `saad_-line_1999' on page 2 undefined on input line 173
+  Citation `scherer2021tinyradarnn' on page 1 undefined on input line 131
+  Citation `wang2020fann' on page 1 undefined on input line 131
+  Citation `yang_wider_2016' on page 1 undefined on input line 133
+  Citation `yang_wider_2016' on page 2 undefined on input line 170
+  Citation `yang_wider_2016' on page 3 undefined on input line 186
+  Citation `yousefi_intelligence_2019' on page 2 undefined on input line 144
+  Citation `zhu_prune_2017' on page 1 undefined on input line 131
+  Reference `fig:dev_comparison' on page 4 undefined on input line 234
+  Reference `fig:tinyissimoYOLO' on page 2 undefined on input line 144
+  Reference `tab:map_results_voc' on page 3 undefined on input line 187
+  Reference `tab:map_results_wf' on page 3 undefined on input line 186
+Latexmk: Found bibliography file(s) [/usr/local/texlive/2020/texmf-dist/bibtex/bib/IEEEtran/IEEEabrv.bib AICAS_TinyissimoYOLO.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.aux'
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00001_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.bbl'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001" --jobname="2306.00001_tl2020"  "conference_101719.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `boner2022tiny' on page 1 undefined on input line 129
+  Citation `cai_-device_2019' on page 1 undefined on input line 131
+  Citation `cai_once-for-all_2020' on page 1 undefined on input line 131
+  Citation `david_tensorflow_2021' on page 3 undefined on input line 176
+  Citation `dutta_tinyml_2021' on page 1 undefined on input line 129
+  Citation `everingham_pascal_2015' on page 1 undefined on input line 133
+  Citation `everingham_pascal_2015' on page 2 undefined on input line 166
+  Citation `everingham_pascal_2015' on page 2 undefined on input line 170
+  Citation `everingham_pascal_2015' on page 3 undefined on input line 187
+  Citation `gholami_survey_2021' on page 1 undefined on input line 131
+  Citation `giordano_survey_2022' on page 4 undefined on input line 234
+  Citation `goyal_accurate_2018' on page 2 undefined on input line 173
+  Citation `han_deep_2016' on page 1 undefined on input line 131
+  Citation `li_fully_2019' on page 1 undefined on input line 131
+  Citation `lin_mcunet_2020' on page 1 undefined on input line 131
+  Citation `lin_mcunetv2_2021' on page 1 undefined on input line 131
+  Citation `liu_ssd_2016' on page 1 undefined on input line 129
+  Citation `merenda_edge_2020' on page 1 undefined on input line 129
+  Citation `molchanov_pruning_2017' on page 1 undefined on input line 131
+  Citation `noauthor_adi_2022' on page 3 undefined on input line 176
+  Citation `noauthor_overview_nodate-1' on page 2 undefined on input line 144
+  Citation `redmon_you_2016' on page 1 undefined on input line 129
+  Citation `redmon_you_2016' on page 1 undefined on input line 133
+  Citation `redmon_you_2016' on page 2 undefined on input line 155
+  Citation `redmon_you_2016' on page 2 undefined on input line 166
+  Citation `ren_faster_2015' on page 1 undefined on input line 129
+  Citation `reuther_survey_2020' on page 2 undefined on input line 144
+  Citation `saad_-line_1999' on page 2 undefined on input line 173
+  Citation `scherer2021tinyradarnn' on page 1 undefined on input line 131
+  Citation `wang2020fann' on page 1 undefined on input line 131
+  Citation `yang_wider_2016' on page 1 undefined on input line 133
+  Citation `yang_wider_2016' on page 2 undefined on input line 170
+  Citation `yang_wider_2016' on page 3 undefined on input line 186
+  Citation `yousefi_intelligence_2019' on page 2 undefined on input line 144
+  Citation `zhu_prune_2017' on page 1 undefined on input line 131
+Latexmk: Found bibliography file(s) [/usr/local/texlive/2020/texmf-dist/bibtex/bib/IEEEtran/IEEEabrv.bib AICAS_TinyissimoYOLO.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.aux'
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020'
+------------
+------------
+Running 'bibtex  "2306.00001_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.aux'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001" --jobname="2306.00001_tl2020"  "conference_101719.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00001/2306.00001_tl2020.pdf'
+Latexmk: Found bibliography file(s) [/usr/local/texlive/2020/texmf-dist/bibtex/bib/IEEEtran/IEEEabrv.bib AICAS_TinyissimoYOLO.bib]
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

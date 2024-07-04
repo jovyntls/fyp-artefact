@@ -1,0 +1,37 @@
+\newcommand{\BWWW}{0.4}
+\setlength{\tabcolsep}{0.1cm}
+\begin{figure}[H]
+\begin{tabular}{r c c c }
+    & No vs Some AS & Early vs Significant AS & NoSignificant vs Significant AS
+    \\
+    {\rotatebox{90}{~~~~Split1}}
+    & 
+    \includegraphics[width=\BWWW\textwidth]{figures/AUC_Analysis/data_seed0/NoASvsSomeAS_withDSMIL_DSMILupdatedseed0.pdf}
+    &
+    \includegraphics[width=\BWWW\textwidth]{figures/AUC_Analysis/data_seed0/EarlyASvsSignificantAS_withDSMIL_DSMILupdatedseed0.pdf}
+    &
+    \includegraphics[width=\BWWW\textwidth]{figures/AUC_Analysis/data_seed0/SignificantASvsNoSignificantAS_withDSMIL_DSMILupdatedseed0.pdf}
+    
+    \\
+    {\rotatebox{90}{~~~~Split2}}
+    & 
+    \includegraphics[width=\BWWW\textwidth]{figures/AUC_Analysis/data_seed1/NoASvsSomeAS_withDSMIL.pdf}
+    &
+    \includegraphics[width=\BWWW\textwidth]{figures/AUC_Analysis/data_seed1/EarlyASvsSignificantAS_withDSMIL.pdf}
+    &
+    \includegraphics[width=\BWWW\textwidth]{figures/AUC_Analysis/data_seed1/SignificantASvsNoSignificantAS_withDSMIL.pdf}
+
+    \\
+    {\rotatebox{90}{~~~~Split3}}
+    & 
+    \includegraphics[width=\BWWW\textwidth]{figures/AUC_Analysis/data_seed2/NoASvsSomeAS_withDSMIL.pdf}
+    &
+    \includegraphics[width=\BWWW\textwidth]{figures/AUC_Analysis/data_seed2/EarlyASvsSignificantAS_withDSMIL.pdf}
+    &
+    \includegraphics[width=\BWWW\textwidth]{figures/AUC_Analysis/data_seed2/SignificantASvsNoSignificantAS_withDSMIL.pdf}
+    
+    \end{tabular}	
+    \caption{Diagnosis classification receiver operator curves. Showing results across three predefined train/test splits of TMED2 and three clinically relevant screening tasks.
+     }
+    \label{fig:TMED2_roc}
+\end{figure}

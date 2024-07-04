@@ -1,0 +1,699 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.01017_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017"  "2306.01017"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./2306.01017
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+
+Class revtex4-2 Warning: No journal specified, using default pra.
+
+
+Class revtex4-2 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+
+LaTeX Warning: Unused global option(s):
+    [singlecolumn].
+
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017
+_tl2022.aux)
+
+Package natbib Warning: Citation `1' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `2' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `3' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `4' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `5' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `6' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `7' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `8' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `9' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `10' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `2' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `11' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `11' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `12' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `13' on page 1 undefined on input line 15.
+
+
+Package natbib Warning: Citation `7' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `8' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `14' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `15' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `16' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `17' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `18' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `19' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `20' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `21' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `8' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `17' on page 1 undefined on input line 19.
+
+
+Package natbib Warning: Citation `18' on page 1 undefined on input line 19.
+
+
+Package natbib Warning: Citation `15' on page 1 undefined on input line 19.
+
+
+Package natbib Warning: Citation `8' on page 1 undefined on input line 21.
+
+
+Package natbib Warning: Citation `16' on page 1 undefined on input line 21.
+
+
+Package natbib Warning: Citation `4' on page 1 undefined on input line 25.
+
+
+Package natbib Warning: Citation `5' on page 1 undefined on input line 25.
+
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `22' on page 2 undefined on input line 35.
+
+
+Package natbib Warning: Citation `23' on page 2 undefined on input line 55.
+
+
+Package natbib Warning: Citation `4' on page 2 undefined on input line 55.
+
+
+Package natbib Warning: Citation `2' on page 2 undefined on input line 55.
+
+
+Package natbib Warning: Citation `23' on page 2 undefined on input line 59.
+
+
+Package natbib Warning: Citation `12' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `4' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `4' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `4' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `8' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `7' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `8' on page 2 undefined on input line 63.
+
+[2]
+
+Package natbib Warning: Citation `19' on page 3 undefined on input line 83.
+
+
+Package natbib Warning: Citation `14' on page 3 undefined on input line 85.
+
+[3]
+
+Package natbib Warning: Citation `16' on page 4 undefined on input line 115.
+
+
+Package natbib Warning: Citation `20' on page 4 undefined on input line 115.
+
+
+Package natbib Warning: Citation `16' on page 4 undefined on input line 130.
+
+
+Package natbib Warning: Citation `16' on page 4 undefined on input line 130.
+
+
+Package natbib Warning: Citation `14' on page 4 undefined on input line 130.
+
+[4]
+
+Package natbib Warning: Citation `21' on page 5 undefined on input line 164.
+
+
+Package natbib Warning: Citation `8' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `24' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `14' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `24' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `8' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `24' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `14' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `8' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `14' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `16' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `24' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `25' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `26' on page 5 undefined on input line 180.
+
+
+Package natbib Warning: Citation `8' on page 5 undefined on input line 193.
+
+[5]
+
+Package natbib Warning: Citation `14' on page 6 undefined on input line 195.
+
+
+Package natbib Warning: Citation `16' on page 6 undefined on input line 195.
+
+
+Package natbib Warning: Citation `27' on page 6 undefined on input line 195.
+
+
+Package natbib Warning: Citation `28' on page 6 undefined on input line 195.
+
+
+Package natbib Warning: Citation `27' on page 6 undefined on input line 195.
+
+
+Package natbib Warning: Citation `28' on page 6 undefined on input line 195.
+
+
+Package natbib Warning: Citation `8' on page 6 undefined on input line 195.
+
+
+Package natbib Warning: Citation `2' on page 6 undefined on input line 199.
+
+
+Package natbib Warning: Citation `12' on page 6 undefined on input line 199.
+
+
+Package natbib Warning: Citation `13' on page 6 undefined on input line 199.
+
+
+Package natbib Warning: Citation `15' on page 6 undefined on input line 199.
+
+
+Package natbib Warning: Citation `29' on page 6 undefined on input line 199.
+
+
+Package natbib Warning: Citation `30' on page 6 undefined on input line 199.
+
+
+Package natbib Warning: Citation `31' on page 6 undefined on input line 199.
+
+[6]
+
+Package natbib Warning: Citation `16' on page 7 undefined on input line 232.
+
+
+Package natbib Warning: Citation `17' on page 7 undefined on input line 232.
+
+
+Package natbib Warning: Citation `15' on page 7 undefined on input line 232.
+
+
+Package natbib Warning: Citation `19' on page 7 undefined on input line 232.
+
+
+Package natbib Warning: Citation `25' on page 7 undefined on input line 232.
+
+
+Package natbib Warning: Citation `18' on page 7 undefined on input line 232.
+
+
+Package natbib Warning: Citation `17' on page 7 undefined on input line 240.
+
+
+Package natbib Warning: Citation `18' on page 7 undefined on input line 240.
+
+[7]
+
+Package natbib Warning: Citation `14' on page 8 undefined on input line 263.
+
+
+Package natbib Warning: Citation `15' on page 8 undefined on input line 273.
+
+
+Package natbib Warning: Citation `8' on page 8 undefined on input line 278.
+
+
+Package natbib Warning: Citation `8' on page 8 undefined on input line 278.
+
+
+Package natbib Warning: Citation `32' on page 8 undefined on input line 278.
+
+
+Package natbib Warning: Citation `33' on page 8 undefined on input line 283.
+
+
+Package natbib Warning: Citation `20' on page 8 undefined on input line 283.
+
+
+Package natbib Warning: Citation `33' on page 8 undefined on input line 283.
+
+[8]
+
+Package natbib Warning: Citation `34' on page 9 undefined on input line 293.
+
+
+Package natbib Warning: Citation `34' on page 9 undefined on input line 293.
+
+
+Package natbib Warning: Citation `11' on page 9 undefined on input line 293.
+
+
+Package natbib Warning: Citation `12' on page 9 undefined on input line 293.
+
+
+Package natbib Warning: Citation `13' on page 9 undefined on input line 293.
+
+
+Package natbib Warning: Citation `23' on page 9 undefined on input line 293.
+
+
+Package natbib Warning: Citation `33' on page 9 undefined on input line 293.
+
+
+Package natbib Warning: Citation `34' on page 9 undefined on input line 293.
+
+
+Package natbib Warning: Citation `34' on page 9 undefined on input line 293.
+
+
+Package natbib Warning: Citation `30' on page 9 undefined on input line 295.
+
+
+Package natbib Warning: Citation `31' on page 9 undefined on input line 295.
+
+
+Package natbib Warning: Citation `15' on page 9 undefined on input line 295.
+
+
+Package natbib Warning: Citation `31' on page 9 undefined on input line 295.
+
+
+Package natbib Warning: Citation `30' on page 9 undefined on input line 297.
+
+
+Package natbib Warning: Citation `15' on page 9 undefined on input line 297.
+
+
+Package natbib Warning: Citation `31' on page 9 undefined on input line 301.
+
+
+Package natbib Warning: Citation `30' on page 9 undefined on input line 334.
+
+
+Package natbib Warning: Citation `31' on page 9 undefined on input line 334.
+
+
+Package natbib Warning: Citation `29' on page 9 undefined on input line 334.
+
+
+Package natbib Warning: Citation `29' on page 9 undefined on input line 335.
+
+
+Package natbib Warning: Citation `15' on page 9 undefined on input line 335.
+
+
+Package natbib Warning: Citation `29' on page 9 undefined on input line 335.
+
+[9]
+
+Package natbib Warning: Citation `1' on page 10 undefined on input line 341.
+
+
+Package natbib Warning: Citation `3' on page 10 undefined on input line 341.
+
+
+Package natbib Warning: Citation `7' on page 10 undefined on input line 341.
+
+
+Package natbib Warning: Citation `8' on page 10 undefined on input line 341.
+
+
+Package natbib Warning: Citation `23' on page 10 undefined on input line 341.
+
+
+Package natbib Warning: Citation `7' on page 10 undefined on input line 345.
+
+
+Package natbib Warning: Citation `8' on page 10 undefined on input line 345.
+
+
+Package natbib Warning: Citation `28' on page 10 undefined on input line 345.
+
+
+Package natbib Warning: Citation `10' on page 10 undefined on input line 345.
+
+
+Package natbib Warning: Citation `35' on page 10 undefined on input line 345.
+
+
+Package natbib Warning: Citation `10' on page 10 undefined on input line 353.
+
+
+Package natbib Warning: Citation `12' on page 10 undefined on input line 357.
+
+
+Package natbib Warning: Citation `4' on page 10 undefined on input line 361.
+
+
+Package natbib Warning: Citation `5' on page 10 undefined on input line 361.
+
+
+Package natbib Warning: Citation `12' on page 10 undefined on input line 361.
+
+
+Package natbib Warning: Citation `10' on page 10 undefined on input line 361.
+
+
+Package natbib Warning: Citation `29' on page 10 undefined on input line 365.
+
+
+Package natbib Warning: Citation `30' on page 10 undefined on input line 365.
+
+
+Package natbib Warning: Citation `31' on page 10 undefined on input line 365.
+
+
+Package natbib Warning: Citation `36' on page 10 undefined on input line 366.
+
+
+Package natbib Warning: Citation `12' on page 10 undefined on input line 366.
+
+[10]
+
+LaTeX Warning: Reference `LastBibItem' on page 11 undefined on input line 377.
+
+[11]
+No file 2306.01017_tl2022.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[12]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017
+_tl2022.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.01017/2306.01017_tl2022.pdf (12 pages, 273870 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.01017/2306.01017_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.pdf'
+Latexmk: Found bibliography file(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022Notes.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022' forced or previously required
+
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022'
+------------
+Latexmk: Change directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/'.
+To assist finding of files in document directory, I set
+  BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.01017:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017:'
+  BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.01017:'.
+------------
+Running 'bibtex  "2306.01017_tl2022.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2022)
+The top-level auxiliary file: 2306.01017_tl2022.aux
+The style file: apsrev4-2.bst
+Database file #1: 2306.01017_tl2022Notes.bib
+Warning--I didn't find a database entry for "1"
+Warning--I didn't find a database entry for "2"
+Warning--I didn't find a database entry for "3"
+Warning--I didn't find a database entry for "4"
+Warning--I didn't find a database entry for "5"
+Warning--I didn't find a database entry for "6"
+Warning--I didn't find a database entry for "7"
+Warning--I didn't find a database entry for "8"
+Warning--I didn't find a database entry for "9"
+Warning--I didn't find a database entry for "10"
+Warning--I didn't find a database entry for "11"
+Warning--I didn't find a database entry for "12"
+Warning--I didn't find a database entry for "13"
+Warning--I didn't find a database entry for "14"
+Warning--I didn't find a database entry for "15"
+Warning--I didn't find a database entry for "16"
+Warning--I didn't find a database entry for "17"
+Warning--I didn't find a database entry for "18"
+Warning--I didn't find a database entry for "19"
+Warning--I didn't find a database entry for "20"
+Warning--I didn't find a database entry for "21"
+Warning--I didn't find a database entry for "22"
+Warning--I didn't find a database entry for "23"
+Warning--I didn't find a database entry for "24"
+Warning--I didn't find a database entry for "25"
+Warning--I didn't find a database entry for "26"
+Warning--I didn't find a database entry for "27"
+Warning--I didn't find a database entry for "28"
+Warning--I didn't find a database entry for "29"
+Warning--I didn't find a database entry for "30"
+Warning--I didn't find a database entry for "31"
+Warning--I didn't find a database entry for "32"
+Warning--I didn't find a database entry for "33"
+Warning--I didn't find a database entry for "34"
+Warning--I didn't find a database entry for "35"
+Warning--I didn't find a database entry for "36"
+control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (0) allowed
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+(There were 37 warnings)
+Latexmk: Change directory back to '/diff_test_tex_engines/bin/tex_sources/2306.01017'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.aux
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.bbl
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.01017_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017"  "2306.01017"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./2306.01017
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+
+Class revtex4-2 Warning: No journal specified, using default pra.
+
+
+Class revtex4-2 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+
+LaTeX Warning: Unused global option(s):
+    [singlecolumn].
+
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017
+_tl2022.aux) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdfte
+x.map}] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017
+_tl2022.bbl) [12]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017
+_tl2022.aux) )</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.01017/2306.01017_tl2022.pdf (12 pages, 271960 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.01017/2306.01017_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.log'
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022.pdf'
+Latexmk: Found bibliography file(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01017/2306.01017_tl2022Notes.bib
+Latexmk: All targets () are up-to-date
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+Latexmk: Nothing to do for '2306.01017'.
+Latexmk: All targets () are up-to-date
+

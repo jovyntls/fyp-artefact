@@ -1,0 +1,167 @@
+\providecommand{\newblock}{}
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.1
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{Brillouin_book}
+Brillouin L 1960 {\em Wave Propagation and Group Velocity\/} (Academic Press)
+
+\bibitem{Chiao1997}
+Chiao R~Y and Steinberg A~M 1997 \titlecap{Tunneling times and superluminality}
+  {\em Prog. Opt.\/} {\bf 37} 345--405
+
+\bibitem{Winful2006}
+Winful H~G 2006 \titlecap{Tunneling time, the Hartman effect, and
+  superluminality: A proposed resolution of an old paradox} {\em Phys. Rep.\/}
+  {\bf 436} 1--69
+
+\bibitem{Boyd2002}
+Boyd R~W and Gauthier D~J 2002 \titlecap{Slow and fast light} {\em Prog.
+  Opt.\/} {\bf 43} 497--530
+
+\bibitem{Khurgin2010}
+Khurgin J~B 2010 \titlecap{Slow light in various media: a tutorial} {\em Adv.
+  Opt. Photonics\/} {\bf 2} 287--318
+
+\bibitem{Berry2010}
+Berry M~V 2010 \titlecap{Quantum backflow, negative kinetic energy, and optical
+  retro-propagation} {\em {J. Phys. A: Math. Theor.}\/} {\bf 43} 415302
+
+\bibitem{Berry2012}
+Berry M~V 2012 \titlecap{Superluminal speeds for relativistic random waves}
+  {\em {J. Phys. A: Math. Theor.}\/} {\bf 45} 185308
+
+\bibitem{Bliokh2013NJP_II}
+Bliokh K~Y, Bekshaev A~Y, Kofman A~G and Nori F 2013 \titlecap{Photon
+  trajectories, anomalous velocities and weak measurements: a classical
+  interpretation} {\em New J. Phys.\/} {\bf 15} 073022
+
+\bibitem{Asano2016}
+Asano M, Bliokh K~Y, Bliokh Y~P, Kofman A~G, Ikuta R, Yamamoto T, Kivshar Y~S,
+  Yang L, Imoto N, \"{O}zdemir S~K and Nori F 2016 \titlecap{Anomalous time
+  delays and quantum weak measurements in optical micro-resonators} {\em Nat.
+  Commun.\/} {\bf 7} 13488
+
+\bibitem{Giovannini2015}
+Giovannini D, Romero J, Potocek V, Ferenczi G, Speirits F, Barnett S~M, Faccio
+  D and Padgett M~J 2015 \titlecap{Spatially structured photons that travel in
+  free space slower than the speed of light} {\em Science\/} {\bf 347} 857--860
+
+\bibitem{Yessenov2022}
+Yessenov M, Hall L~A, Schepler K~L and Abouraddy A~F 2022 \titlecap{Space-time
+  wave packets} {\em Adv. Opt. Photonics\/} {\bf 14} 455--570
+
+\bibitem{CT}
+Cohen-Tannoudji C, Dupont-Roc J and Grynberg G 1997 {\em Photons \& Atoms\/}
+  ({Wiley, New York})
+
+\bibitem{BB1996}
+Bialynicki-Birula I 1996 \titlecap{Photon wave function} {\em Prog. Opt.\/}
+  {\bf 36} 245
+
+\bibitem{Weinberg1980}
+Weinberg S and Witten E 1980 \titlecap{Limits on masless particles} {\em Phys.
+  Lett. B\/} {\bf 96} 59
+
+\bibitem{LLfield}
+Landau L~D and Lifshitz E~M 1980 {\em The Classical Theory of Fields\/}
+  ({Butterworth-Heinemann, Oxford})
+
+\bibitem{Bliokh2013NJP}
+Bliokh K~Y, Bekshaev A~Y and Nori F 2013 \titlecap{Dual electromagnetism:
+  helicity, spin, momentum and angular momentum} {\em New J. Phys.\/} {\bf 15}
+  033026
+
+\bibitem{Smirnova2018}
+Smirnova D~A, Travin V~M, Bliokh K~Y and Nori F 2018 \titlecap{Relativistic
+  spin-orbit interactions of photons and electrons} {\em Phys. Rev. A\/} {\bf
+  97} 043840
+
+\bibitem{Bliokh2023}
+Bliokh K~Y 2023 \titlecap{Orbital angular momentum of optical, acoustic, and
+  quantum-mechanical spatiotemporal vortex pulses} {\em Phys. Rev. A\/} {\bf
+  107} L031501
+
+\bibitem{Laporte1931}
+Laporte O and Uhlenbeck G~E 1931 \titlecap{Application of spinor analysis to
+  the Maxwell and Dirac equations} {\em Phys. Rev.\/} {\bf 37} 1380--1397
+
+\bibitem{Oppenheimer1931}
+Oppenheimer J~R 1931 \titlecap{Note on light quanta and the electromagnetic
+  field} {\em Phys. Rev.\/} {\bf 38} 725--746
+
+\bibitem{Jackson}
+Jackson J~D 1999 {\em {Classical Electrodynamics}\/} 3rd ed (Wiley)
+
+\bibitem{Snyder}
+Snyder A~W and Love J 1983 {\em {Optical Waveguide Theory}\/} (Springer)
+
+\bibitem{Nkoma1974}
+Nkoma J, Loudon R and Tilley D~R 1974 \titlecap{Elementary properties of
+  surface polaritons} {\em J. Phys. C\/} {\bf 7} 3547
+
+\bibitem{Bliokh2017PRL}
+Bliokh K~Y, Bekshaev A~Y and Nori F 2017 \titlecap{Optical momentum, spin, and
+  angular momentum in dispersive media} {\em Phys. Rev. Lett.\/} {\bf 119}
+  073901
+
+\bibitem{Picardi2018}
+Picardi M~F, Bliokh K~Y, Rodr{\'\i}guez-Fortu{\~n}o F~J, Alpeggiani F and Nori
+  F 2018 \titlecap{Angular momenta, helicity, and other properties of
+  dielectric-fiber and metallic-wire modes} {\em Optica\/} {\bf 5} 1016--1026
+
+\bibitem{Bliokh2012PRL}
+Bliokh K~Y and Nori F 2012 \titlecap{Relativistic Hall Effect} {\em Phys. Rev.
+  Lett.\/} {\bf 108} 120403
+
+\bibitem{Bliokh2012}
+Bliokh K~Y and Nori F 2012 \titlecap{Spatiotemporal vortex beams and angular
+  momentum} {\em Phys. Rev. A\/} {\bf 86} 033824
+
+\bibitem{Thaller_book}
+Thaller B 2000 {\em Visual Quantum Mechanics\/} (Springer, Berlin)
+
+\bibitem{Siegman_book}
+Siegman A~E 1986 {\em Lasers\/} (University Science Books)
+
+\bibitem{Bliokh2021}
+Bliokh K~Y 2021 \titlecap{Spatiotemporal Vortex Pulses: Angular Momenta and
+  Spin-Orbit Interaction} {\em Phys. Rev. Lett.\/} {\bf 126} 243601
+
+\bibitem{Silberberg1990}
+Silberberg Y 1990 \titlecap{Collapse of optical pulses} {\em Opt. Lett.\/} {\bf
+  15} 1282--1284
+
+\bibitem{Minardi2010}
+Minardi S, Eilenberger F, Kartashov Y~V, Szameit A, R\"opke U, Kobelke J,
+  Schuster K, Bartelt H, Nolte S, Torner L, Lederer F, T\"unnermann A and
+  Pertsch T 2010 \titlecap{Three-Dimensional Light Bullets in Arrays of
+  Waveguides} {\em Phys. Rev. Lett.\/} {\bf 105} 263901
+
+\bibitem{Sommerfeld_book}
+Sommerfeld A 1950 {\em Lectures on Theoretical Physics\/} vol~4 (Academic
+  Press)
+
+\bibitem{Pleshko1969}
+Pleshko P and Pal\'ocz I 1969 \titlecap{Experimental Observation of Sommerfeld
+  and Brillouin Precursors in the Microwave Domain} {\em Phys. Rev. Lett.\/}
+  {\bf 22} 1201--1204
+
+\bibitem{Aaviksoo1991}
+Aaviksoo J, Kuhl J and Ploog K 1991 \titlecap{Observation of optical precursors
+  at pulse propagation in GaAs} {\em Phys. Rev. A\/} {\bf 44} R5353--R5356
+
+\bibitem{Berry2012_II}
+Berry M~V 2012 \titlecap{Causal wave propagation for relativistic massive
+  particles: physical asymptotics in action} {\em Eur. J. Phys.\/} {\bf 33}
+  279--294
+
+\bibitem{Bliokh2018}
+Bliokh K~Y 2018 \titlecap{Lorentz-boost eigenmodes} {\em Phys. Rev. A\/} {\bf
+  98} 012143
+
+\end{thebibliography}

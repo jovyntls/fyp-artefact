@@ -1,0 +1,31 @@
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00469/2306.00469_tl2022.bbl' in following:
+ No file 2306.00469_tl2022.bbl.
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00469/2306.00469_tl2022.bbl' in following:
+ No file 2306.00469_tl2022.bbl.
+Latexmk: Missing bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00469/2306.00469_tl2022.bbl' in following:
+ No file 2306.00469_tl2022.bbl.
+Latexmk: Maximum runs of bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00469/2306.00469_tl2022 reached without getting stable files
+Latexmk: ====List of undefined refs and citations:
+  Citation `bien2013lasso' on page 1 undefined on input line 163
+  Citation `hao2014interaction' on page 1 undefined on input line 163
+  Citation `hao2016model' on page 1 undefined on input line 163
+  Citation `hao2017note' on page 1 undefined on input line 163
+  Citation `yu2019reluctant' on page 1 undefined on input line 163
+  Citation `tang2020high' on page 1 undefined on input line 163
+  Citation `lu2021' on page 1 undefined on input line 163
+ And 40 more --- see log file.
+----------------------
+This message may duplicate earlier message.
+Latexmk: Failure in processing file 'HiQR_v2.tex':
+   'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00469/2306.00469_tl2022' needed too many passes
+----------------------
+Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+Latexmk: Maximum runs of bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00469/2306.00469_tl2022 reached without getting stable files
+----------------------
+This message may duplicate earlier message.
+Latexmk: Failure in processing file 'HiQR_v2.tex':
+   'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00469/2306.00469_tl2022' needed too many passes
+----------------------
+Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.

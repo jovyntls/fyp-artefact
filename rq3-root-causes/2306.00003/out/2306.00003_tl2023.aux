@@ -1,0 +1,96 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plainnat}
+\citation{yadgir2020global}
+\citation{gardezi2018cardiac}
+\citation{holste2022automated}
+\citation{mitchell2019guidelines}
+\citation{mitchell2019guidelines}
+\providecommand \oddpage@label [2]{}
+\jmlr@workshop{}
+\jmlr@title{Detecting Heart Disease from Multi-View Ultrasound via SAMIL}{Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning}
+\jmlr@author{\Name {Zhe Huang}$^{1}$ \Email {\textsc {zhe.huang@tufts.edu}} \AND \Name {Benjamin S. Wessler}$^{2}$ \Email {\textsc {bwessler@tuftsmedicalcenter.org}} \AND \Name {Michael C. Hughes}$^1$ \Email {\textsc {michael.hughes@tufts.edu}} \\ \addr $^1$ Dept. of Computer Science, Tufts University, Medford, MA, USA \\ \addr $^2$ Division of Cardiology, Tufts Medical Center, Boston, MA, USA }{\Name {Zhe Huang}$^{1}$ \Email {\textsc {zhe.huang@tufts.edu}} \AND \Name {Benjamin S. Wessler}$^{2}$ \Email {\textsc {bwessler@tuftsmedicalcenter.org}} \AND \Name {Michael C. Hughes}$^1$ \Email {\textsc {michael.hughes@tufts.edu}} \\ \addr $^1$ Dept. of Computer Science, Tufts University, Medford, MA, USA \\ \addr $^2$ Division of Cardiology, Tufts Medical Center, Boston, MA, USA }
+\newlabel{jmlrstart}{{}{1}{}{Doc-Start}{}}
+\ttl@writefile{ptc}{\ttl@starttoc{sections@1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.0.1}\protected@file@percent }
+\newlabel{sec:Introduction}{{1}{1}{Introduction}{section.0.1}{}}
+\citation{ilse2018attention,lee2019set,sharma2021cluster,shao2021transmil}
+\citation{holste2022automated}
+\citation{huang2021new,wessler2023automated}
+\citation{holste2022automated}
+\citation{ilse2018attention}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Overview of methods for diagnosing aortic valve disease from multiple images of the heart.} In our chosen diagnostic problem, the input is multiple ultrasound images representing different canonical view types of the heart's complex anatomy (e.g. PLAX, PSAX, A2C, A4C, and more, see \citet  {mitchell2019guidelines} for a taxonomy). The required output is a (probabilistic) prediction of the severity of Aortic Stenosis (AS), on a 3-level scale of no / early / significant disease. We wish to develop deep learning methods that can solve this problem like expert cardiologists (panel a). Two recent efforts (panel b by others, panel c by our group) made progress using a separately-trained view type classifier and per-image diagnosis classifier, but rely on combining diagnosis probabilities across images via average pooling that cannot learn how to distribute attention non-uniformly among images of relevant views. In this work, we develop more flexible attention-based multiple instance learning architectures (MIL, panel d), with crucial contributions of supervised attention (Sec.~\ref {sec:methods_SA}) and improved pretraining strategies (Sec.~\ref {sec:methods_CL}) that we show later yield substantially improved performance on this task. }}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:diagrams}{{1}{2}{\textbf {Overview of methods for diagnosing aortic valve disease from multiple images of the heart.} In our chosen diagnostic problem, the input is multiple ultrasound images representing different canonical view types of the heart's complex anatomy (e.g. PLAX, PSAX, A2C, A4C, and more, see \citet {mitchell2019guidelines} for a taxonomy). The required output is a (probabilistic) prediction of the severity of Aortic Stenosis (AS), on a 3-level scale of no / early / significant disease. We wish to develop deep learning methods that can solve this problem like expert cardiologists (panel a). Two recent efforts (panel b by others, panel c by our group) made progress using a separately-trained view type classifier and per-image diagnosis classifier, but rely on combining diagnosis probabilities across images via average pooling that cannot learn how to distribute attention non-uniformly among images of relevant views. In this work, we develop more flexible attention-based multiple instance learning architectures (MIL, panel d), with crucial contributions of supervised attention (Sec.~\ref {sec:methods_SA}) and improved pretraining strategies (Sec.~\ref {sec:methods_CL}) that we show later yield substantially improved performance on this task}{figure.caption.1}{}}
+\citation{dietterich1997solving,maron1997framework}
+\citation{cosatto2013automated,shao2021transmil,li2021dual}
+\citation{quellec2012multiple,li2021deep,li2021multi,kandemir2015computer}
+\citation{borowa2020classifying}
+\citation{dietterich1997solving,zhao2013drug}
+\citation{campanella2019clinical,chikontwe2020multiple,hou2016patch,ding2012breast,xu2014weakly}
+\citation{zhou2004multi,quellec2017multiple,carbonneau2018multiple}
+\citation{wang2018revisiting}
+\citation{liu2017detecting}
+\citation{ilse2018attention}
+\citation{lee2019set}
+\citation{vaswani2017attention}
+\citation{shao2021transmil}
+\citation{sharma2021cluster}
+\citation{li2021dual}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.0.2}\protected@file@percent }
+\newlabel{sec:RelatedWork}{{2}{3}{Related Work}{section.0.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Multiple-instance learning.}{3}{subsection.0.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Deep attention-based MIL.}{3}{subsection.0.2.1}\protected@file@percent }
+\citation{oord2018representation,chen2020simple,he2020momentum,chen2020improved,grill2020bootstrap,caron2020unsupervised,chen2021exploring}
+\citation{oord2018representation}
+\citation{gidaris2018unsupervised}
+\citation{noroozi2016unsupervised}
+\citation{wu2018unsupervised}
+\citation{oord2018representation}
+\citation{he2020momentum,chen2020improved}
+\citation{holste2022self,holste2022automated,liu2022multiple,lu2019semi,li2021dual,saillard2021self,dehaene2020self,rymarczyk2023protomil}
+\citation{arora2019theoretical,chuang2020debiased,khosla2020supervised,dwibedi2021little,zheng2021weakly,ash2021investigating,li2021comatch}
+\citation{dai2023identifying}
+\citation{holste2022automated}
+\citation{huang2021new}
+\citation{wessler2023automated}
+\citation{krishna2023fully}
+\citation{cohen2021electrocardiogram,elias2022deep}
+\citation{yangClassificationAorticStenosis2020}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Self-supervised learning and Pretraining of MIL}{4}{subsection.0.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Applications of ML to Aortic Stenosis.}{4}{subsection.0.2.3}\protected@file@percent }
+\citation{dai2023identifying,holste2022automated}
+\citation{huang2021new}
+\citation{huang2021new}
+\citation{mitchell2019guidelines}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Dataset}{5}{section.0.3}\protected@file@percent }
+\newlabel{sec:Dataset}{{3}{5}{Dataset}{section.0.3}{}}
+\citation{huang2022tmed}
+\citation{ilse2018attention,li2021dual}
+\citation{madani2018fast,zhang2018fully,long2018identification,huang2021new}
+\citation{hinton2015distilling}
+\citation{huang2022fix}
+\citation{holste2022self,holste2022automated,liu2022multiple,lu2019semi,li2021dual,saillard2021self,dehaene2020self,rymarczyk2023protomil}
+\citation{he2020momentum,chen2020improved}
+\citation{wu2018unsupervised,ye2019unsupervised,bachman2019learning}
+\citation{he2020momentum}
+\citation{oord2018representation}
+\citation{he2020momentum}
+\citation{li2021dual}
+\citation{chen2020simple}
+\citation{he2020momentum,chen2020improved}
+\citation{chen2020improved,chen2020simple}
+\citation{huang2021new}
+\citation{zaheer2017deep,ilse2018attention,lee2019set,li2021dual}
+\citation{wessler2023automated,holste2022automated,holste2022self}
+\citation{holste2022automated}
+\citation{wessler2023automated}
+\citation{ilse2018attention}
+\citation{lee2019set}
+\citation{li2021dual}
+\citation{holste2022automated,holste2022self}
+\citation{wessler2023automated}
+\citation{holzinger2017we,lundberg2017unified,tonekaboni2019clinicians}
+\bibdata{refs_manual.bib}

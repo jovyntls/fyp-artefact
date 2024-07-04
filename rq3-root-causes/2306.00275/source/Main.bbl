@@ -1,0 +1,640 @@
+\begin{thebibliography}{100}
+
+\bibitem{RN143}
+A.~Fox, R.~Griffith, A.~Joseph, R.~Katz, A.~Konwinski, G.~Lee, D.~Patterson,
+  A.~Rabkin, I.~Stoica, {\em et~al.}, ``Above the clouds: A berkeley view of
+  cloud computing,'' {\em Dept. Electrical Eng. and Comput. Sciences,
+  University of California, Berkeley, Rep. UCB/EECS}, vol.~28, no.~13, p.~2009,
+  2009.
+
+\bibitem{SN1}
+Y.~C. Hu, M.~Patel, D.~Sabella, N.~Sprecher, and V.~Young, ``Mobile edge
+  computing—a key technology towards 5g,'' {\em ETSI white paper}, vol.~11,
+  no.~11, pp.~1--16, 2015.
+
+\bibitem{RN141}
+S.~Naveen and M.~R. Kounte, ``Key technologies and challenges in iot edge
+  computing,'' in {\em 2019 Third international conference on I-SMAC (IoT in
+  social, mobile, analytics and cloud)(I-SMAC)}, pp.~61--65, IEEE, 2019.
+
+\bibitem{RN257}
+B.~Cao, J.~T. Zhang, X.~Liu, Z.~H. Sun, W.~X. Cao, R.~M. Nowak, and Z.~H. Lv,
+  ``Edge-cloud resource scheduling in space-air-ground-integrated networks for
+  internet of vehicles,'' {\em Ieee Internet of Things Journal}, vol.~9, no.~8,
+  pp.~5765--5772, 2022.
+
+\bibitem{RN72}
+F.~Yang, S.~Wang, J.~Li, Z.~Liu, and Q.~Sun, ``An overview of internet of
+  vehicles,'' {\em China communications}, vol.~11, no.~10, pp.~1--15, 2014.
+
+\bibitem{RN142}
+A.~Al-Ansi, A.~M. Al-Ansi, A.~Muthanna, I.~A. Elgendy, and A.~Koucheryavy,
+  ``Survey on intelligence edge computing in 6g: Characteristics, challenges,
+  potential use cases, and market drivers,'' {\em Future Internet}, vol.~13,
+  no.~5, p.~118, 2021.
+
+\bibitem{RN77}
+Q.~Tang, Z.~Fei, B.~Li, and Z.~Han, ``Computation offloading in leo satellite
+  networks with hybrid cloud and edge computing,'' {\em IEEE Internet of Things
+  Journal}, vol.~8, no.~11, pp.~9164--9176, 2021.
+
+\bibitem{RN88}
+J.~Liu, Y.~Shi, Z.~M. Fadlullah, and N.~Kato, ``Space-air-ground integrated
+  network: A survey,'' {\em IEEE Communications Surveys \& Tutorials}, vol.~20,
+  no.~4, pp.~2714--2741, 2018.
+
+\bibitem{RN144}
+Y.~Henri, ``The oneweb satellite system,'' {\em Handbook of Small Satellites:
+  Technology, Design, Manufacture, Applications, Economics and Regulation},
+  pp.~1--10, 2020.
+
+\bibitem{RN146}
+V.~L. Foreman, A.~Siddiqi, and O.~De~Weck, ``Large satellite constellation
+  orbital debris impacts: Case studies of oneweb and spacex proposals,'' in
+  {\em AIAA SPACE and Astronautics Forum and Exposition}, p.~5200, 2017.
+
+\bibitem{RN147}
+L.~Wood, Y.~Lou, and O.~Olusola, ``Revisiting elliptical satellite orbits to
+  enhance the o3b constellation,'' {\em arXiv preprint arXiv:1407.2521}, 2014.
+
+\bibitem{RN255}
+T.~Kim and J.~P. Choi, ``Performance analysis of satellite server mobile edge
+  computing architecture,'' in {\em 2020 IEEE 92nd Vehicular Technology
+  Conference (VTC2020-Fall)}, pp.~1--6, IEEE, 2020.
+
+\bibitem{RN55}
+C.~Li, Y.~Zhang, R.~Xie, X.~Hao, and T.~Huang, ``Integrating edge computing
+  into low earth orbit satellite networks: Architecture and prototype,'' {\em
+  IEEE Access}, vol.~9, pp.~39126--39137, 2021.
+
+\bibitem{RN148}
+M.~J. Holzinger and M.~K. Jah, ``Challenges and potential in space domain
+  awareness,'' {\em Journal of Guidance, Control, and Dynamics}, vol.~41,
+  no.~1, pp.~15--18, 2018.
+
+\bibitem{RN13}
+S.~Wang, Q.~Li, M.~Xu, X.~Ma, A.~Zhou, and Q.~Sun, ``Tiansuan constellation: An
+  open research platform,'' in {\em 2021 IEEE International Conference on Edge
+  Computing (EDGE)}, pp.~94--101, IEEE, 2021.
+
+\bibitem{RN180}
+K.~Kanev and N.~Mirenkov, ``Satellite cloud computing,'' in {\em 2011 IEEE
+  Workshops of International Conference on Advanced Information Networking and
+  Applications}, pp.~147--152, IEEE, 2011.
+
+\bibitem{RN57}
+B.~Denby and B.~Lucia, ``Orbital edge computing: Machine inference in space,''
+  {\em IEEE Computer Architecture Letters}, vol.~18, pp.~59--62, 2019.
+
+\bibitem{RN102}
+T.~Pfandzelter and D.~Bermbach, ``Celestial: Virtual software system testbeds
+  for the leo edge,'' in {\em 23rd ACM/IFIP International Middleware Conference
+  (Middleware '22)}, 2022.
+
+\bibitem{RN56}
+J.~Wei, J.~Han, and S.~Cao, ``Satellite iot edge intelligent computing: A
+  research on architecture,'' {\em Electronics}, 2019.
+
+\bibitem{RN58}
+F.~Wang, D.~Jiang, S.~Qi, C.~Qiao, and H.~H. Song, ``Fine-grained resource
+  management for edge computing satellite networks,'' {\em 2019 IEEE Global
+  Communications Conference (GLOBECOM)}, pp.~1--6, 2019.
+
+\bibitem{RN16}
+J.~Fang, H.~Liu, J.~Sun, T.~Li, Y.~Liu, Z.~Guo, S.~Zhuang, and L.~Geng,
+  ``Learning-based task offloading in dynamic orbital edge computing network,''
+  in {\em 2021 IEEE 23rd Int Conf on High Performance Computing \&
+  Communications; 7th Int Conf on Data Science \& Systems; 19th Int Conf on
+  Smart City; 7th Int Conf on Dependability in Sensor, Cloud \& Big Data
+  Systems \& Application (HPCC/DSS/SmartCity/DependSys)}, pp.~495--502, IEEE,
+  2021.
+
+\bibitem{RN43}
+S.~Liu, X.~Hu, and W.~Wang, ``Deep reinforcement learning based dynamic channel
+  allocation algorithm in multibeam satellite systems,'' {\em IEEE Access},
+  vol.~6, pp.~15733--15742, 2018.
+
+\bibitem{TN927}
+M.~Luo and J.~Feng, {\em Satellite Communications}.
+\newblock Tsinghua University publishing house, 2020.
+
+\bibitem{RN168}
+A.~C. Clarke, ``Extra-terrestrial relays: Can rocket stations give world-wide
+  radio coverage?,'' in {\em Progress in Astronautics and Rocketry}, vol.~19,
+  pp.~3--6, Elsevier, 1966.
+
+\bibitem{RN169}
+G.~Maral, M.~Bousquet, and Z.~Sun, {\em Satellite communications systems:
+  systems, techniques and technology}.
+\newblock John Wiley and Sons, 2020.
+
+\bibitem{RN194}
+C.~E. Fossa, R.~A. Raines, G.~H. Gunsch, and M.~A. Temple, ``An overview of the
+  iridium (r) low earth orbit (leo) satellite system,'' in {\em Proceedings of
+  the IEEE 1998 National Aerospace and Electronics Conference. NAECON 1998.
+  Celebrating 50 Years (Cat. No. 98CH36185)}, pp.~152--159, IEEE, 1998.
+
+\bibitem{RN197}
+B.~R. Elbert, {\em Introduction to satellite communication}.
+\newblock Artech house, 2008.
+
+\bibitem{RN195}
+J.~G. Walker, ``Satellite constellations,'' {\em Journal of the British
+  Interplanetary Society}, vol.~37, p.~559, 1984.
+
+\bibitem{SpaceXNews}
+M.~Wall, ``Spacex says its 60 starlink satellites are all phoning home (and
+  fading out).''
+  https://www.space.com/spacex-starlink-satellites-phone-home-dimming.html,
+  2019.
+
+\bibitem{lu2022micius}
+C.-Y. Lu, Y.~Cao, C.-Z. Peng, and J.-W. Pan, ``Micius quantum experiments in
+  space,'' {\em Reviews of Modern Physics}, vol.~94, no.~3, p.~035001, 2022.
+
+\bibitem{RN170}
+D.~Bhattacherjee, W.~Aqeel, I.~N. Bozkurt, A.~Aguirre, B.~Chandrasekaran, P.~B.
+  Godfrey, G.~Laughlin, B.~Maggs, and A.~Singla, ``Gearing up for the 21st
+  century space race,'' in {\em Proceedings of the 17th ACM Workshop on Hot
+  Topics in Networks}, pp.~113--119, 2018.
+
+\bibitem{RN171}
+M.~Handley, ``Delay is not an option: Low latency routing in space,'' in {\em
+  Proceedings of the 17th ACM Workshop on Hot Topics in Networks}, pp.~85--91,
+  2018.
+
+\bibitem{RN172}
+N.~V{\'e}drenne, J.-M. Conan, C.~Petit, and V.~Michau, ``Adaptive optics for
+  high data rate satellite to ground laser link,'' in {\em Free-Space Laser
+  Communication and Atmospheric Propagation XXVIII}, vol.~9739, pp.~119--128,
+  SPIE, 2016.
+
+\bibitem{RN218}
+I.~Leyva-Mayorga, B.~Soret, M.~Röper, D.~Wübben, B.~Matthiesen, A.~Dekorsy,
+  and P.~Popovski, ``Leo small-satellite constellations for 5g and beyond-5g
+  communications,'' {\em Ieee Access}, vol.~8, pp.~184955--184964, 2020.
+
+\bibitem{RN196}
+Z.~Chen and W.~Xiong, ``Analysis of satellite communication network
+  characteristics,'' in {\em 2014 Fourth International Conference on
+  Communication Systems and Network Technologies}, pp.~317--320, IEEE, 2014.
+
+\bibitem{RN152}
+H.~Sundmaeker, P.~Guillemin, P.~Friess, and S.~Woelfflé, ``Vision and
+  challenges for realising the internet of things,'' {\em Cluster of European
+  research projects on the internet of things, European Commision}, vol.~3,
+  no.~3, pp.~34--36, 2010.
+
+\bibitem{RN154}
+J.~Gubbi, R.~Buyya, S.~Marusic, and M.~Palaniswami, ``Internet of things (iot):
+  A vision, architectural elements, and future directions,'' {\em Future
+  generation computer systems}, vol.~29, no.~7, pp.~1645--1660, 2013.
+
+\bibitem{RN150}
+W.~Shi, J.~Cao, Q.~Zhang, Y.~Li, and L.~Xu, ``Edge computing: Vision and
+  challenges,'' {\em IEEE Internet of Things Journal}, vol.~3, no.~5,
+  pp.~637--646, 2016.
+
+\bibitem{RN155}
+M.~Patel, B.~Naughton, C.~Chan, N.~Sprecher, S.~Abeta, and A.~Neal,
+  ``Mobile-edge computing introductory technical white paper,'' {\em White
+  paper, mobile-edge computing (MEC) industry initiative}, vol.~29,
+  pp.~854--864, 2014.
+
+\bibitem{RN187}
+B.~Denby and B.~Lucia, ``Orbital edge computing: Nanosatellite constellations
+  as a new class of computer system,'' in {\em Proceedings of the Twenty-Fifth
+  International Conference on Architectural Support for Programming Languages
+  and Operating Systems}, pp.~939--954, 2020.
+
+\bibitem{RN157}
+F.~Pallas, P.~Raschke, and D.~Bermbach, ``Fog computing as privacy enabler,''
+  {\em IEEE Internet Computing}, vol.~24, no.~4, pp.~15--21, 2020.
+
+\bibitem{RN158}
+W.~Shi and S.~Dustdar, ``The promise of edge computing,'' {\em Computer},
+  vol.~49, no.~5, pp.~78--81, 2016.
+
+\bibitem{RN167}
+K.~Dolui and S.~K. Datta, ``Comparison of edge computing implementations: Fog
+  computing, cloudlet and mobile edge computing,'' in {\em 2017 Global Internet
+  of Things Summit (GIoTS)}, pp.~1--6, IEEE, 2017.
+
+\bibitem{RN4}
+Y.~Wang, J.~Yang, X.~Guo, and Z.~Qu, ``A game-theoretic approach to computation
+  offloading in satellite edge computing,'' {\em IEEE Access}, vol.~8,
+  pp.~12510--12520, 2020.
+
+\bibitem{lei2021maddpg}
+W.~Lei, H.~Wen, J.~Wu, and W.~Hou, ``Maddpg-based security situational
+  awareness for smart grid with intelligent edge,'' {\em Applied Sciences},
+  vol.~11, no.~7, p.~3101, 2021.
+
+\bibitem{RN174}
+V.~Balasubramanian, S.~Otoum, M.~Aloqaily, I.~Al~Ridhawi, and Y.~Jararweh,
+  ``Low-latency vehicular edge: A vehicular infrastructure model for 5g,'' {\em
+  Simulation Modelling Practice and Theory}, vol.~98, p.~101968, 2020.
+
+\bibitem{RN175}
+K.~Bilal and A.~Erbad, ``Edge computing for interactive media and video
+  streaming,'' in {\em 2017 Second International Conference on Fog and Mobile
+  Edge Computing (FMEC)}, pp.~68--73, IEEE, 2017.
+
+\bibitem{RN173}
+L.~Wood, {\em Satellite constellation networks}, pp.~13--34.
+\newblock Springer, 2003.
+
+\bibitem{RN181}
+D.~Bhattacherjee and A.~Singla, ``Network topology design at 27,000 km/hour,''
+  in {\em Proceedings of the 15th International Conference on Emerging
+  Networking Experiments And Technologies}, pp.~341--354, 2019.
+
+\bibitem{RN182}
+M.~Handley, ``Delay is not an option: Low latency routing in space,'' in {\em
+  Proceedings of the 17th ACM Workshop on Hot Topics in Networks}, pp.~85--91,
+  2018.
+
+\bibitem{he2017mask}
+K.~He, G.~Gkioxari, P.~Doll{\'a}r, and R.~Girshick, ``Mask r-cnn,'' in {\em
+  Proceedings of the IEEE international conference on computer vision},
+  pp.~2961--2969, 2017.
+
+\bibitem{RN184}
+S.~Hensel, M.~B. Marinov, M.~Koch, and D.~Arnaudov, ``Evaluation of deep
+  learning-based neural network methods for cloud detection and segmentation,''
+  {\em Energies}, vol.~14, no.~19, p.~6156, 2021.
+
+\bibitem{RN61}
+R.~Xie, Q.~Tang, Q.~Wang, X.~Liu, F.~R. Yu, and T.~Huang,
+  ``Satellite-terrestrial integrated edge computing networks: Architecture,
+  challenges, and open issues,'' {\em IEEE Network}, vol.~34, pp.~224--231,
+  2020.
+
+\bibitem{iphone}
+D.~Yates and M.~Z. Islam, ``Data mining on smartphones: An introduction and
+  survey,'' {\em ACM Comput. Surv.}, vol.~55, dec 2022.
+
+\bibitem{RN185}
+B.~Barry, C.~Brick, F.~Connor, D.~Donohoe, D.~Moloney, R.~Richmond, M.~O.
+  Riordan, and V.~Toma, ``Always-on vision processing unit for mobile
+  applications,'' {\em IEEE Micro}, vol.~35, no.~2, pp.~56--66, 2015.
+
+\bibitem{RN186}
+E.~Rapuano, G.~Meoni, T.~Pacini, G.~Dinelli, G.~Furano, G.~Giuffrida, and
+  L.~Fanucci, ``An fpga-based hardware accelerator for cnns inference on board
+  satellites: Benchmarking with myriad 2-based solution for the cloudscout case
+  study,'' {\em Remote Sensing}, vol.~13, no.~8, p.~1518, 2021.
+
+\bibitem{RN201}
+H.~Kaushal and G.~Kaddoum, ``Optical communication in space: Challenges and
+  mitigation techniques,'' {\em IEEE Communications Surveys \& Tutorials},
+  vol.~19, no.~1, pp.~57--96, 2017.
+
+\bibitem{RN204}
+T.~Jono, Y.~Takayama, N.~Kura, K.~Ohinata, Y.~Koyama, K.~Shiratama, Z.~Sodnik,
+  B.~Demelenne, A.~Bird, and K.~Arai, ``Oicets on-orbit laser communication
+  experiments,'' in {\em Free-Space Laser Communication Technologies XVIII},
+  vol.~6105, pp.~13--23, SPIE, 2006.
+
+\bibitem{RN205}
+B.~L. Edwards, B.~Robinson, A.~Biswas, and J.~Hamkins, ``An overview of nasa's
+  latest efforts in optical communications,'' in {\em 2015 IEEE International
+  Conference on Space Optical Systems and Applications (ICSOS)}, pp.~1--8,
+  IEEE, 2015.
+
+\bibitem{RN202}
+Y.~Munemasa, T.~Fuse, T.~Kubo-oka, H.~Kunimori, D.~R. Kolev,
+  A.~Carrasco-Casado, H.~Takenaka, Y.~Saito, P.~V. Trinh, K.~Suzuki, {\em
+  et~al.}, ``Design status of the development for a geo-to-ground optical
+  feeder link, hicali,'' in {\em Free-Space Laser Communication and Atmospheric
+  Propagation XXX}, vol.~10524, pp.~113--119, SPIE, 2018.
+
+\bibitem{RN203}
+H.~Hauschildt, C.~Elia, A.~Jones, H.~L. Moeller, and J.~M.~P. Armengol, ``Esas
+  scylight programme: Activities and status of the high throughput optical
+  network" hydron",'' in {\em International Conference on Space Optics—ICSO
+  2018}, vol.~11180, pp.~174--181, SPIE, 2019.
+
+\bibitem{RN199}
+X.-N. Yang, J.-L. Xu, and C.-Y. Lou, ``Software-defined satellite: A new
+  concept for space information system,'' in {\em 2012 Second International
+  Conference on Instrumentation, Measurement, Computer, Communication and
+  Control}, pp.~586--589, IEEE, 2012.
+
+\bibitem{RN206}
+R.~Xie, Q.~Tang, Q.~Wang, X.~Liu, F.~R. Yu, and T.~Huang,
+  ``Satellite-terrestrial integrated edge computing networks: Architecture,
+  challenges, and open issues,'' {\em IEEE Network}, vol.~34, no.~3,
+  pp.~224--231, 2020.
+
+\bibitem{RN207}
+S.~Zhang, L.~Liu, and M.~Cheriet, ``Application of artificial intelligence for
+  space-air-ground-sea integrated network,'' in {\em Signal and Information
+  Processing, Networking and Computers: Proceedings of the 9th International
+  Conference on Signal and Information Processing, Networking and Computers
+  (ICSINC)}, pp.~88--102, Springer, 2022.
+
+\bibitem{RN208}
+Z.~Qu, G.~Zhang, H.~Cao, and J.~Xie, ``Leo satellite constellation for internet
+  of things,'' {\em IEEE Access}, vol.~5, pp.~18391--18401, 2017.
+
+\bibitem{RN229}
+M.~Esposito, S.~S. Conticello, M.~Pastena, and B.~C. Dom{\'\i}nguez, ``In-orbit
+  demonstration of artificial intelligence applied to hyperspectral and thermal
+  sensing from space,'' in {\em CubeSats and SmallSats for remote sensing III},
+  vol.~11131, pp.~88--96, SPIE, 2019.
+
+\bibitem{RN230}
+G.~Giuffrida, L.~Fanucci, G.~Meoni, M.~Batic, L.~Buckley, A.~Dunne, C.~van
+  Dijk, M.~Esposito, J.~Hefele, and N.~Vercruyssen, ``The phi-sat-1 mission:
+  the first on-board deep neural network demonstrator for satellite earth
+  observation,'' {\em IEEE Transactions on Geoscience and Remote Sensing},
+  vol.~60, pp.~1--14, 2021.
+
+\bibitem{RN260}
+M.~Xu, L.~Zhang, H.~Li, R.~Xing, and Q.~Sun, ``A satellite-born server design
+  with massive tiny chips towards in-space computing,'' in {\em 2022 IEEE
+  International Conference on Satellite Computing (Satellite)}, pp.~1--6, IEEE,
+  2022.
+
+\bibitem{sos1}
+{Eickhoff, Jens}, {\em Onboard computers, onboard software and satellite
+  operations: an introduction}.
+\newblock Springer Science \& Business Media, 2011.
+
+\bibitem{linux1}
+H.~Leppinen, ``Current use of linux in spacecraft flight software,'' {\em IEEE
+  Aerospace and Electronic Systems Magazine}, vol.~32, no.~10, pp.~4--13, 2017.
+
+\bibitem{linux2}
+{Leppinen, Hannu}, ``Current use of linux in spacecraft flight software,'' {\em
+  IEEE Aerospace and Electronic Systems Magazine}, vol.~32, no.~10, pp.~4--13,
+  2017.
+
+\bibitem{spaceos}
+``powerful! china's self-developed spaceos-tianzhuo operating system was
+  officially released.''
+  \url{https://www.laitimes.com/en/article/2ap7d_2l5lk.html}, 2022.
+
+\bibitem{denby2023kodan}
+B.~Denby, K.~Chintalapudi, R.~Chandra, B.~Lucia, and S.~Noghabi, ``Kodan:
+  Addressing the computational bottleneck in space,'' in {\em Proceedings of
+  the 28th ACM International Conference on Architectural Support for
+  Programming Languages and Operating Systems, Volume 3}, pp.~392--403, 2023.
+
+\bibitem{sabol2001}
+C.~Sabol, R.~Burns, and C.~A. McLaughlin, ``Satellite formation flying design
+  and evolution,'' {\em Journal of spacecraft and rockets}, vol.~38, no.~2,
+  pp.~270--278, 2001.
+
+\bibitem{RN46}
+D.~Bhattacherjee, S.~Kassing, M.~Licciardello, and A.~Singla, ``In-orbit
+  computing: An outlandish thought experiment?,'' in {\em Proceedings of the
+  19th ACM Workshop on Hot Topics in Networks}, pp.~197--204, 2020.
+
+\bibitem{RN231}
+T.~Zhan, K.~Yin, J.~Xiong, Z.~He, and S.-T. Wu, ``Augmented reality and virtual
+  reality displays: perspectives and challenges,'' {\em Iscience}, vol.~23,
+  no.~8, p.~101397, 2020.
+
+\bibitem{RN233}
+T.~Jung and M.~C. tom Dieck, ``Augmented reality and virtual reality,'' {\em
+  Ujedinjeno Kraljevstvo: Springer International Publishing AG}, 2018.
+
+\bibitem{RN232}
+M.~Hu, X.~Luo, J.~Chen, Y.~C. Lee, Y.~Zhou, and D.~Wu, ``Virtual reality: A
+  survey of enabling technologies and its applications in iot,'' {\em Journal
+  of Network and Computer Applications}, vol.~178, p.~102970, 2021.
+
+\bibitem{RN81}
+N.~Cheng, F.~Lyu, W.~Quan, C.~Zhou, H.~He, W.~Shi, and X.~Shen,
+  ``Space/aerial-assisted computing offloading for iot applications: A
+  learning-based approach,'' {\em IEEE Journal on Selected Areas in
+  Communications}, vol.~37, no.~5, pp.~1117--1129, 2019.
+
+\bibitem{RN234}
+K.~Lin, C.~Li, P.~Pace, and G.~Fortino, ``Multi-level cluster-based
+  satellite-terrestrial integrated communication in internet of vehicles,''
+  {\em Computer Communications}, vol.~149, pp.~44--50, 2020.
+
+\bibitem{RN235}
+S.~Yu, X.~Gong, Q.~Shi, X.~Wang, and X.~Chen, ``Ec-sagins:
+  Edge-computing-enhanced space–air–ground-integrated networks for internet
+  of vehicles,'' {\em IEEE Internet of Things Journal}, vol.~9, no.~8,
+  pp.~5742--5754, 2021.
+
+\bibitem{RN237}
+S.~Nativi, P.~Mazzetti, M.~Santoro, F.~Papeschi, M.~Craglia, and O.~Ochiai,
+  ``Big data challenges in building the global earth observation system of
+  systems,'' {\em Environmental Modelling \& Software}, vol.~68, pp.~1--26,
+  2015.
+
+\bibitem{RN236}
+Y.~He, Y.~Chen, J.~Lu, C.~Chen, and G.~Wu, ``Scheduling multiple agile earth
+  observation satellites with an edge computing framework and a constructive
+  heuristic algorithm,'' {\em Journal of Systems Architecture}, vol.~95,
+  pp.~55--66, 2019.
+
+\bibitem{RN217}
+N.~Razmi, B.~Matthiesen, A.~Dekorsy, and P.~Popovski, ``On-board federated
+  learning for dense leo constellations,'' in {\em ICC 2022-IEEE International
+  Conference on Communications}, pp.~4715--4720, IEEE, 2022.
+
+\bibitem{RN209}
+{Razmi, N. and Matthiesen, B. and Dekorsy, A. and Popovski, P.},
+  ``Ground-assisted federated learning in leo satellite constellations,'' {\em
+  IEEE Wireless Communications Letters}, vol.~11, no.~4, pp.~717--721, 2022.
+
+\bibitem{RN225}
+H.~Chen, M.~Xiao, and Z.~Pang, ``Satellite-based computing networks with
+  federated learning,'' {\em IEEE Wireless Communications}, vol.~29, no.~1,
+  pp.~78--84, 2022.
+
+\bibitem{RN214}
+Y.~Jing, C.~Jiang, N.~Ge, and L.~Kuang, ``Resource optimization for signal
+  recognition in satellite mec with federated learning,'' in {\em 2021 13th
+  International Conference on Wireless Communications and Signal Processing
+  (WCSP)}, pp.~1--5, IEEE, 2021.
+
+\bibitem{RN210}
+M.~Elmahallawy and T.~Luo, ``Asyncfleo: Asynchronous federated learning for leo
+  satellite constellations with high-altitude platforms,'' {\em arXiv preprint
+  arXiv:2212.11522}, 2022.
+
+\bibitem{RN211}
+J.~So, K.~Hsieh, B.~Arzani, S.~Noghabi, S.~Avestimehr, and R.~Chandra,
+  ``Fedspace: An efficient federated learning framework at satellites and
+  ground stations,'' {\em arXiv preprint arXiv:2202.01267}, 2022.
+
+\bibitem{RN215}
+B.~Matthiesen, N.~Razmi, I.~Leyva-Mayorga, A.~Dekorsy, and P.~Popovski,
+  ``Federated learning in satellite constellations,'' {\em arXiv preprint
+  arXiv:2206.00307}, 2022.
+
+\bibitem{RN227}
+I.~Leyva-Mayorga, B.~Soret, and P.~Popovski, ``Inter-plane inter-satellite
+  connectivity in dense leo constellations,'' {\em IEEE Transactions on
+  Wireless Communications}, vol.~20, no.~6, pp.~3430--3443, 2021.
+
+\bibitem{RN216}
+A.~Perez-Portero, J.~F. Munoz-Martin, H.~Park, and A.~Camps, ``Airborne gnss-r:
+  A key enabling technology for environmental monitoring,'' {\em IEEE Journal
+  of Selected Topics in Applied Earth Observations and Remote Sensing},
+  vol.~14, pp.~6652--6661, 2021.
+
+\bibitem{RN212}
+M.~Elmahallawy and T.~Luo, ``Fedhap: Fast federated learning for leo
+  constellations using collaborative haps,'' {\em arXiv preprint
+  arXiv:2205.07216}, 2022.
+
+\bibitem{RN226}
+F.~Tang, C.~Wen, X.~Chen, and N.~Kato, ``Federated learning for intelligent
+  transmission with space-air-ground integrated network (sagin) toward 6g,''
+  {\em IEEE Network}, 2022.
+
+\bibitem{RN224}
+B.~McMahan, E.~Moore, D.~Ramage, S.~Hampson, and B.~A. y~Arcas,
+  ``Communication-efficient learning of deep networks from decentralized
+  data,'' in {\em Artificial intelligence and statistics}, pp.~1273--1282,
+  PMLR, 2017.
+
+\bibitem{RN219}
+N.~Razmi, B.~Matthiesen, A.~Dekorsy, and P.~Popovski, ``Scheduling for
+  ground-assisted federated learning in leo satellite constellations,'' in {\em
+  2022 30th European Signal Processing Conference (EUSIPCO)}, pp.~1102--1106,
+  IEEE, 2022.
+
+\bibitem{RN140}
+C.~Sonmez, A.~Ozgovde, and C.~Ersoy, ``Edgecloudsim: An environment for
+  performance evaluation of edge computing systems,'' {\em Transactions on
+  Emerging Telecommunications Technologies}, vol.~29, no.~11, p.~e3493, 2018.
+
+\bibitem{iFogsim}
+H.~Gupta, A.~V. Dastjerdi, S.~K. Ghosh, and R.~Buyya, ``ifogsim: A toolkit for
+  modeling and simulation of resource management techniques in internet of
+  things, edge and fog computing environments,'' {\em CoRR},
+  vol.~abs/1606.02007, 2016.
+
+\bibitem{mockfog}
+J.~Hasenburg, M.~Grambow, E.~Grunewald, S.~Huk, and D.~Bermbach, ``{MockFog}:
+  {Emulating} {Fog} {Computing} {Infrastructure} in the {Cloud},'' in {\em
+  Proceedings of the First {IEEE} {International} {Conference} on {Fog}
+  {Computing} 2019 (ICFC 2019)}, IEEE, 2019.
+
+\bibitem{RN80}
+B.~Wang, X.~Li, D.~Huang, and J.~Xie, ``A profit maximization strategy of mec
+  resource provider in the satellite-terrestrial double edge computing
+  system,'' in {\em 2021 IEEE 21st International Conference on Communication
+  Technology (ICCT)}, pp.~906--912, IEEE, 2021.
+
+\bibitem{RN76}
+Z.~Song, Y.~Hao, Y.~Liu, and X.~Sun, ``Energy-efficient multiaccess edge
+  computing for terrestrial-satellite internet of things,'' {\em IEEE Internet
+  of Things Journal}, vol.~8, no.~18, pp.~14202--14218, 2021.
+
+\bibitem{RN239}
+T.~Pfandzelter and D.~Bermbach, ``Qos-aware resource placement for leo
+  satellite edge computing,'' in {\em 2022 IEEE 6th International Conference on
+  Fog and Edge Computing (ICFEC)}, pp.~66--72, IEEE, 2022.
+
+\bibitem{RN105}
+{Pfandzelter, Tobias and Bermbach, David}, ``Edge (of the earth) replication:
+  Optimizing content delivery in large leo satellite communication networks,''
+  in {\em 2021 IEEE/ACM 21st International Symposium on Cluster, Cloud and
+  Internet Computing (CCGrid)}, pp.~565--575, IEEE, 2021.
+
+\bibitem{RN60}
+T.~Kim and J.~P. Choi, ``Performance analysis of satellite server mobile edge
+  computing architecture,'' {\em 2020 IEEE 92nd Vehicular Technology Conference
+  (VTC2020-Fall)}, pp.~1--6, 2020.
+
+\bibitem{RN78}
+G.~Cui, X.~Li, L.~Xu, and W.~Wang, ``Latency and energy optimization for mec
+  enhanced sat-iot networks,'' {\em IEEE Access}, vol.~8, pp.~55915--55926,
+  2020.
+
+\bibitem{RN18}
+H.~Li, C.~Chen, C.~Li, L.~Liu, and G.~Gui, ``Aerial computing offloading by
+  distributed deep learning in collaborative satellite-terrestrial networks,''
+  in {\em 2021 13th International Conference on Wireless Communications and
+  Signal Processing (WCSP)}, pp.~1--6, IEEE, 2021.
+
+\bibitem{RN79}
+D.~Zhu, H.~Liu, T.~Li, J.~Sun, J.~Liang, H.~Zhang, L.~Geng, and Y.~Liu, ``Deep
+  reinforcement learning-based task offloading in satellite-terrestrial edge
+  computing networks,'' in {\em 2021 IEEE Wireless Communications and
+  Networking Conference (WCNC)}, pp.~1--7, IEEE, 2021.
+
+\bibitem{FMOW}
+G.~Christie, N.~Fendley, J.~Wilson, and R.~Mukherjee, ``Functional map of the
+  world,'' in {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, June 2018.
+
+\bibitem{RN241}
+J.~Puttonen, S.~Rantanen, F.~Laakso, J.~Kurjenniemi, K.~Aho, and G.~Acar,
+  ``Satellite model for network simulator 3,'' in {\em Seventh International
+  Conference on Simulation Tools and Techniques}, 2014.
+
+\bibitem{RN242}
+S.~Kassing, D.~Bhattacherjee, A.~B. {\'A}guas, J.~E. Saethre, and A.~Singla,
+  ``Exploring the" internet from space" with hypatia,'' in {\em Proceedings of
+  the ACM Internet Measurement conference}, pp.~214--229, 2020.
+
+\bibitem{RN106}
+B.~Kempton and A.~Riedl, ``Network simulator for large low earth orbit
+  satellite networks,'' in {\em ICC 2021-IEEE International Conference on
+  Communications}, pp.~1--6, IEEE, 2021.
+
+\bibitem{RN245}
+X.~Lin, H.~Zhang, H.~Ji, and V.~C. Leung, ``Joint computation and communication
+  resource allocation in mobile-edge cloud computing networks,'' in {\em 2016
+  IEEE International Conference on Network Infrastructure and Digital Content
+  (IC-NIDC)}, pp.~166--171, IEEE, 2016.
+
+\bibitem{RN248}
+J.~Du, C.~Jiang, J.~Wang, Y.~Ren, S.~Yu, and Z.~Han, ``Resource allocation in
+  space multiaccess systems,'' {\em IEEE Transactions on Aerospace and
+  Electronic Systems}, vol.~53, no.~2, pp.~598--618, 2017.
+
+\bibitem{RN249}
+O.~Kodheli, S.~Andrenacci, N.~Maturo, S.~Chatzinotas, and F.~Zimmer, ``Resource
+  allocation approach for differential doppler reduction in nb-iot over leo
+  satellite,'' in {\em 2018 9th Advanced Satellite Multimedia Systems
+  Conference and the 15th Signal Processing for Space Communications Workshop
+  (ASMS/SPSC)}, pp.~1--8, IEEE, 2018.
+
+\bibitem{RN247}
+C.~Qiu, H.~Yao, F.~R. Yu, F.~Xu, and C.~Zhao, ``Deep q-learning aided
+  networking, caching, and computing resources allocation in software-defined
+  satellite-terrestrial networks,'' {\em IEEE Transactions on Vehicular
+  Technology}, vol.~68, no.~6, pp.~5871--5883, 2019.
+
+\bibitem{RN250}
+M.~Sheng, Y.~Wang, J.~Li, R.~Liu, D.~Zhou, and L.~He, ``Toward a flexible and
+  reconfigurable broadband satellite network: Resource management architecture
+  and strategies,'' {\em IEEE Wireless Communications}, vol.~24, no.~4,
+  pp.~127--133, 2017.
+
+\bibitem{RN246}
+F.~Wang, D.~Jiang, S.~Qi, C.~Qiao, and L.~Shi, ``A dynamic resource scheduling
+  scheme in edge computing satellite networks,'' {\em Mobile Networks and
+  Applications}, vol.~26, pp.~597--608, 2021.
+
+\bibitem{RN243}
+L.~Zhang, H.~Zhang, C.~Guo, H.~Xu, L.~Song, and Z.~Han, ``Satellite-aerial
+  integrated computing in disasters: User association and offloading
+  decision,'' in {\em ICC 2020-2020 IEEE International Conference on
+  Communications (ICC)}, pp.~554--559, IEEE, 2020.
+
+\bibitem{RN240}
+C.~E. Gonzalez, A.~Bergel, and M.~A. Diaz, ``Nanosatellite constellation
+  control framework using evolutionary contact plan design,'' in {\em 2021 IEEE
+  8th International Conference on Space Mission Challenges for Information
+  Technology (SMC-IT)}, pp.~85--92, IEEE, 2021.
+
+\bibitem{RN244}
+K.~C. Foong, ``Mobility management for satellite/terrestrial multi-service
+  convergence networks,'' in {\em 2009 International Conference on
+  Communication Software and Networks}, pp.~362--366, IEEE, 2009.
+
+\end{thebibliography}

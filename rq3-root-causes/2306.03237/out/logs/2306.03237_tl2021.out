@@ -1,0 +1,1156 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 17 Mar. 2022. Version 4.77, version: 4.77.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  2306.03237
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+  pdflatex
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.03237_tl2021" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237"  "2306.03237"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./2306.03237
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+
+Class revtex4-2 Warning: No journal specified, using default pra.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237
+_tl2021.aux)
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+
+Class revtex4-2 Warning: Assuming \noaffiliation for authors.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package natbib Warning: Citation `1' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `2' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `3' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `1' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `4' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `5' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `6' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `1' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `2' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `3' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `7' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Mypapers1' on page 1 undefined on input line 
+107.
+
+
+Package natbib Warning: Citation `Mypapers11' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers12' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers13' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers14' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers15' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers' on page 1 undefined on input line 1
+07.
+
+
+Package natbib Warning: Citation `Mypapers31' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers32' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 1 undefined on input line 
+107.
+
+
+Package natbib Warning: Citation `Mypapers21' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `1' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `1' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Mypapers1' on page 1 undefined on input line 
+107.
+
+
+Package natbib Warning: Citation `Mypapers11' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers12' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers13' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers14' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers15' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers' on page 1 undefined on input line 1
+07.
+
+
+Package natbib Warning: Citation `Mypapers31' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers32' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 1 undefined on input line 
+107.
+
+
+Package natbib Warning: Citation `Mypapers21' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Ground' on page 1 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `Ground2' on page 1 undefined on input line 10
+7.
+
+
+Package natbib Warning: Citation `Ground3' on page 1 undefined on input line 10
+7.
+
+
+Package natbib Warning: Citation `Ground4' on page 1 undefined on input line 10
+7.
+
+
+Package natbib Warning: Citation `Spo' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Spo1' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Spo2' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Spo3' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Spo4' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `gauge' on page 1 undefined on input line 107.
+
+
+
+Package natbib Warning: Citation `Mypapers' on page 1 undefined on input line 1
+07.
+
+
+Package natbib Warning: Citation `Mypapers31' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Mypapers32' on page 1 undefined on input line
+ 107.
+
+
+Package natbib Warning: Citation `Spo' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Spo1' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Spo2' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Spo3' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Higgs' on page 1 undefined on input line 107.
+
+
+
+Package natbib Warning: Citation `Higgs2' on page 1 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `Baquie' on page 1 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 1 undefined on input line 
+107.
+
+
+Package natbib Warning: Citation `1' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Spo2' on page 1 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Higgs' on page 1 undefined on input line 107.
+
+
+
+Package natbib Warning: Citation `Higgs2' on page 1 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `Gauge2' on page 1 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `Gauge3' on page 1 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `Gauge4' on page 1 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `Gauge5' on page 1 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `Gauge6' on page 1 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 1 undefined on input line 
+111.
+
+
+Package natbib Warning: Citation `Baquie' on page 1 undefined on input line 111
+.
+
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Reference `BSHamiltonian' on page 2 undefined on input line 129.
+
+
+
+Package natbib Warning: Citation `Volatility' on page 2 undefined on input line
+ 129.
+
+
+LaTeX Warning: Reference `eq.1' on page 2 undefined on input line 129.
+
+
+Package natbib Warning: Citation `Volatility' on page 2 undefined on input line
+ 129.
+
+
+Package natbib Warning: Citation `Vol2' on page 2 undefined on input line 129.
+
+
+Package natbib Warning: Citation `Volatility' on page 2 undefined on input line
+ 129.
+
+
+Package natbib Warning: Citation `Baquie' on page 2 undefined on input line 129
+.
+
+
+Package natbib Warning: Citation `Baquie' on page 2 undefined on input line 139
+.
+
+
+Package natbib Warning: Citation `Martingale' on page 2 undefined on input line
+ 139.
+
+
+Package natbib Warning: Citation `Martingale2' on page 2 undefined on input lin
+e 139.
+
+
+Package natbib Warning: Citation `Martingale3' on page 2 undefined on input lin
+e 139.
+
+
+Package natbib Warning: Citation `Martingale4' on page 2 undefined on input lin
+e 139.
+
+
+Package natbib Warning: Citation `Martingale5' on page 2 undefined on input lin
+e 139.
+
+
+LaTeX Warning: Reference `eq.2' on page 2 undefined on input line 157.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 2 undefined on input line 
+157.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 2 undefined on input line 
+161.
+
+
+LaTeX Warning: Reference `BSHamiltonian' on page 2 undefined on input line 161.
+
+
+
+LaTeX Warning: Reference `Derivative' on page 2 undefined on input line 173.
+
+
+LaTeX Warning: Reference `beokensym' on page 2 undefined on input line 173.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 2 undefined on input line 
+173.
+
+
+LaTeX Warning: Reference `BSHamiltonian' on page 2 undefined on input line 173.
+
+
+
+LaTeX Warning: Reference `StockPrice' on page 2 undefined on input line 177.
+
+
+LaTeX Warning: Reference `BSHamiltonian' on page 2 undefined on input line 177.
+
+
+
+LaTeX Warning: Reference `BSHamiltonian' on page 2 undefined on input line 177.
+
+
+[2]
+
+LaTeX Warning: Reference `BSHamiltonian' on page 3 undefined on input line 183.
+
+
+
+LaTeX Warning: Reference `BSHamiltonian' on page 3 undefined on input line 190.
+
+
+
+LaTeX Warning: Reference `BSHamiltonian' on page 3 undefined on input line 196.
+
+
+
+LaTeX Warning: Reference `MertonMOdified' on page 3 undefined on input line 209
+.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 3 undefined on input line 21
+6.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 3 undefined on input line 22
+4.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 3 undefined on input line 22
+4.
+
+
+LaTeX Warning: Reference `ModHamiltonia' on page 3 undefined on input line 224.
+
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 3 undefined on input line 22
+4.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 3 undefined on input line 22
+4.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 3 undefined on input line 23
+2.
+
+
+Package natbib Warning: Citation `Baquie' on page 3 undefined on input line 232
+.
+
+
+LaTeX Warning: Reference `Volcoeff' on page 3 undefined on input line 232.
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 230--233
+\OT1/cmr/m/n/10 These ex-pres-sions guar-an-tee the equiv-a-lence of the
+
+LaTeX Warning: Reference `CovDer' on page 3 undefined on input line 238.
+
+[3]
+
+Package natbib Warning: Citation `Baquie' on page 4 undefined on input line 244
+.
+
+
+Package natbib Warning: Citation `Mypapers21' on page 4 undefined on input line
+ 244.
+
+
+LaTeX Warning: Reference `Volcoeff' on page 4 undefined on input line 244.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 4 undefined on input line 24
+8.
+
+
+LaTeX Warning: Reference `Volcoeff' on page 4 undefined on input line 248.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 4 undefined on input line 24
+8.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 4 undefined on input line 25
+4.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 4 undefined on input line 
+254.
+
+
+LaTeX Warning: Reference `newmartin' on page 4 undefined on input line 254.
+
+
+LaTeX Warning: Reference `Volcoeff' on page 4 undefined on input line 260.
+
+
+LaTeX Warning: Reference `corona4' on page 4 undefined on input line 260.
+
+
+LaTeX Warning: Reference `newmartin' on page 4 undefined on input line 272.
+
+
+LaTeX Warning: Reference `Volcoeff' on page 4 undefined on input line 272.
+
+
+LaTeX Warning: Reference `THisonemama' on page 4 undefined on input line 272.
+
+
+LaTeX Warning: Reference `newmartin' on page 4 undefined on input line 272.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 4 undefined on input line 27
+2.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 4 undefined on input line 
+272.
+
+
+Package natbib Warning: Citation `Mypapers21' on page 4 undefined on input line
+ 272.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 4 undefined on input line 
+278.
+
+
+LaTeX Warning: Reference `OperatoirC' on page 4 undefined on input line 285.
+
+
+LaTeX Warning: Reference `happotential' on page 4 undefined on input line 285.
+
+
+LaTeX Warning: Reference `Volcoeff' on page 4 undefined on input line 285.
+
+
+LaTeX Warning: Reference `newmartin' on page 4 undefined on input line 285.
+
+
+LaTeX Warning: Reference `Volcoeff' on page 4 undefined on input line 292.
+
+
+LaTeX Warning: Reference `happotential' on page 4 undefined on input line 292.
+
+
+LaTeX Warning: Reference `happo2' on page 4 undefined on input line 292.
+
+
+LaTeX Warning: Reference `Volcoeff' on page 4 undefined on input line 298.
+
+
+LaTeX Warning: Reference `CovDer' on page 4 undefined on input line 298.
+
+
+LaTeX Warning: Reference `CovDer' on page 4 undefined on input line 298.
+
+
+LaTeX Warning: Reference `Volcoeff' on page 4 undefined on input line 304.
+
+
+LaTeX Warning: Reference `Cagados' on page 4 undefined on input line 304.
+
+
+LaTeX Warning: Reference `Cagados' on page 4 undefined on input line 304.
+
+[4]
+
+Package natbib Warning: Citation `Mypapers2' on page 5 undefined on input line 
+308.
+
+
+LaTeX Warning: Reference `Cagados' on page 5 undefined on input line 314.
+
+
+LaTeX Warning: Reference `Rich' on page 5 undefined on input line 314.
+
+
+LaTeX Warning: Reference `trivacc' on page 5 undefined on input line 314.
+
+
+LaTeX Warning: Reference `newmartin' on page 5 undefined on input line 314.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 5 undefined on input line 
+314.
+
+
+LaTeX Warning: Reference `trivacc' on page 5 undefined on input line 314.
+
+
+LaTeX Warning: Reference `happotential' on page 5 undefined on input line 314.
+
+
+LaTeX Warning: Reference `happo2' on page 5 undefined on input line 314.
+
+
+LaTeX Warning: Reference `happo3' on page 5 undefined on input line 321.
+
+
+LaTeX Warning: Reference `happo3' on page 5 undefined on input line 321.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 5 undefined on input line 
+321.
+
+
+LaTeX Warning: Reference `Vacredef' on page 5 undefined on input line 333.
+
+
+LaTeX Warning: Reference `happo3' on page 5 undefined on input line 333.
+
+
+LaTeX Warning: Reference `happo4' on page 5 undefined on input line 341.
+
+
+LaTeX Warning: Reference `nonunique' on page 5 undefined on input line 349.
+
+
+LaTeX Warning: Reference `happo5' on page 5 undefined on input line 349.
+
+
+Package natbib Warning: Citation `Mypapers2' on page 5 undefined on input line 
+349.
+
+
+LaTeX Warning: Reference `MertonMOdified2' on page 5 undefined on input line 34
+9.
+
+
+LaTeX Warning: Reference `happo5' on page 5 undefined on input line 349.
+
+
+Package natbib Warning: Citation `Mypapers21' on page 5 undefined on input line
+ 349.
+
+
+Package natbib Warning: Citation `Higgs' on page 5 undefined on input line 353.
+
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 353--354
+[]\OT1/cmr/m/n/10 In this pa-per we have demon-strated that the
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+
+LaTeX Warning: Reference `LastBibItem' on page 5 undefined on input line 368.
+
+[5]
+Underfull \hbox (badness 1342) in paragraph at lines 395--396
+ \OT1/cmr/m/it/9 of grav-ity: The case of non-lin-ear mas-sive grav-ity\OT1/cmr
+/m/n/9 ,
+
+Underfull \hbox (badness 1360) in paragraph at lines 416--417
+ []\OT1/cmr/m/n/9 Arraut, I.; \OT1/cmr/m/it/9 The Nambu-Goldstone the-o-rem in 
+non-
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+ \OT1/cmr/m/it/9 relativistic sys-tems\OT1/cmr/m/n/9 , Int.J.Mod.Phys.A \OT1/cm
+r/bx/n/9 32 \OT1/cmr/m/n/9 (2017)
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
+ []\OT1/cmr/m/n/9 Arraut, I.; \OT1/cmr/m/it/9 The ori-gin of the mass of the
+
+Underfull \hbox (badness 3396) in paragraph at lines 449--450
+ []\OT1/cmr/m/n/9 Brauner, T.; \OT1/cmr/m/it/9 Spon-ta-neous sym-me-try break-i
+ng and
+
+Underfull \hbox (badness 1389) in paragraph at lines 497--499
+ \OT1/cmr/m/it/9 tic In-te-grals in the The-ory of Con-tin-u-ous Trad-ing\OT1/c
+mr/m/n/9 ,
+No file 2306.03237_tl2021.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[6]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237
+_tl2021.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2021/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti9.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.03237/2306.03237_tl2021.pdf (6 pages, 267124 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.03237/2306.03237_tl2021.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.pdf'
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021Notes.bib]
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.aux
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021': The following rules & subrules became out-of-date:
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021'
+------------
+Latexmk: Change directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/'.
+To assist finding of files in document
+directory, I set
+  BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.03237:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237:'
+  BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.03237:'.
+------------
+Running 'bibtex  "2306.03237_tl2021.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2021)
+The top-level auxiliary file: 2306.03237_tl2021.aux
+The style file: apsrev4-2.bst
+Database file #1: 2306.03237_tl2021Notes.bib
+Warning--I didn't find a database entry for "1"
+Warning--I didn't find a database entry for "2"
+Warning--I didn't find a database entry for "3"
+Warning--I didn't find a database entry for "4"
+Warning--I didn't find a database entry for "5"
+Warning--I didn't find a database entry for "6"
+Warning--I didn't find a database entry for "7"
+Warning--I didn't find a database entry for "Mypapers1"
+Warning--I didn't find a database entry for "Mypapers11"
+Warning--I didn't find a database entry for "Mypapers12"
+Warning--I didn't find a database entry for "Mypapers13"
+Warning--I didn't find a database entry for "Mypapers14"
+Warning--I didn't find a database entry for "Mypapers15"
+Warning--I didn't find a database entry for "Mypapers"
+Warning--I didn't find a database entry for "Mypapers31"
+Warning--I didn't find a database entry for "Mypapers32"
+Warning--I didn't find a database entry for "Mypapers2"
+Warning--I didn't find a database entry for "Mypapers21"
+Warning--I didn't find a database entry for "Ground"
+Warning--I didn't find a database entry for "Ground2"
+Warning--I didn't find a database entry for "Ground3"
+Warning--I didn't find a database entry for "Ground4"
+Warning--I didn't find a database entry for "Spo"
+Warning--I didn't find a database entry for "Spo1"
+Warning--I didn't find a database entry for "Spo2"
+Warning--I didn't find a database entry for "Spo3"
+Warning--I didn't find a database entry for "Spo4"
+Warning--I didn't find a database entry for "gauge"
+Warning--I didn't find a database entry for "Higgs"
+Warning--I didn't find a database entry for "Higgs2"
+Warning--I didn't find a database entry for "Baquie"
+Warning--I didn't find a database entry for "Gauge2"
+Warning--I didn't find a database entry for "Gauge3"
+Warning--I didn't find a database entry for "Gauge4"
+Warning--I didn't find a database entry for "Gauge5"
+Warning--I didn't find a database entry for "Gauge6"
+Warning--I didn't find a database entry for "Volatility"
+Warning--I didn't find a database entry for "Vol2"
+Warning--I didn't find a database entry for "Martingale"
+Warning--I didn't find a database entry for "Martingale2"
+Warning--I didn't find a database entry for "Martingale3"
+Warning--I didn't find a database entry for "Martingale4"
+Warning--I didn't find a database entry for "Martingale5"
+control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (0) allowed
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+(There were 44 warnings)
+Latexmk: Change directory back to '/diff_test_tex_engines/bin/tex_sources/2306.03237'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.aux
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.bbl
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+  pdflatex
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.03237_tl2021" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237"  "2306.03237"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./2306.03237
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+
+Class revtex4-2 Warning: No journal specified, using default pra.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237
+_tl2021.aux)
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+
+Class revtex4-2 Warning: Assuming \noaffiliation for authors.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/usr/local/t
+exlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 1342) in paragraph at lines 230--233
+\OT1/cmr/m/n/10 These ex-pres-sions guar-an-tee the equiv-a-lence of the
+[3] [4]
+Underfull \hbox (badness 3942) in paragraph at lines 353--354
+[]\OT1/cmr/m/n/10 In this pa-per we have demon-strated that the
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+[5]
+Underfull \hbox (badness 1466) in paragraph at lines 395--396
+ \OT1/cmr/m/it/9 of grav-ity: The case of non-lin-ear mas-sive grav-ity\OT1/cmr
+/m/n/9 ,
+
+Underfull \hbox (badness 1502) in paragraph at lines 416--417
+ []\OT1/cmr/m/n/9 Arraut, I.; \OT1/cmr/m/it/9 The Nambu-Goldstone the-o-rem in 
+non-
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+ \OT1/cmr/m/it/9 relativistic sys-tems\OT1/cmr/m/n/9 , Int.J.Mod.Phys.A \OT1/cm
+r/bx/n/9 32 \OT1/cmr/m/n/9 (2017)
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
+ []\OT1/cmr/m/n/9 Arraut, I.; \OT1/cmr/m/it/9 The ori-gin of the mass of the
+
+Underfull \hbox (badness 1028) in paragraph at lines 434--435
+ []\OT1/cmr/m/n/9 Chin Tzeng, Y.; Chang, P. Y. and Yang, M. F.,
+
+Underfull \hbox (badness 3713) in paragraph at lines 449--450
+ []\OT1/cmr/m/n/9 Brauner, T.; \OT1/cmr/m/it/9 Spon-ta-neous sym-me-try break-i
+ng and
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237
+_tl2021.bbl) [6]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237
+_tl2021.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2021/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti9.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.03237/2306.03237_tl2021.pdf (6 pages, 256329 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.03237/2306.03237_tl2021.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.log'
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.pdf'
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021Notes.bib]
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.aux
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021': The following rules & subrules became out-of-date:
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021'
+------------
+Latexmk: Change directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/'.
+To assist finding of files in document
+directory, I set
+  BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.03237:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237:'
+  BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.03237:'.
+------------
+Running 'bibtex  "2306.03237_tl2021.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2021)
+The top-level auxiliary file: 2306.03237_tl2021.aux
+The style file: apsrev4-2.bst
+Database file #1: 2306.03237_tl2021Notes.bib
+Warning--I didn't find a database entry for "1"
+Warning--I didn't find a database entry for "2"
+Warning--I didn't find a database entry for "3"
+Warning--I didn't find a database entry for "4"
+Warning--I didn't find a database entry for "5"
+Warning--I didn't find a database entry for "6"
+Warning--I didn't find a database entry for "7"
+Warning--I didn't find a database entry for "Mypapers1"
+Warning--I didn't find a database entry for "Mypapers11"
+Warning--I didn't find a database entry for "Mypapers12"
+Warning--I didn't find a database entry for "Mypapers13"
+Warning--I didn't find a database entry for "Mypapers14"
+Warning--I didn't find a database entry for "Mypapers15"
+Warning--I didn't find a database entry for "Mypapers"
+Warning--I didn't find a database entry for "Mypapers31"
+Warning--I didn't find a database entry for "Mypapers32"
+Warning--I didn't find a database entry for "Mypapers2"
+Warning--I didn't find a database entry for "Mypapers21"
+Warning--I didn't find a database entry for "Ground"
+Warning--I didn't find a database entry for "Ground2"
+Warning--I didn't find a database entry for "Ground3"
+Warning--I didn't find a database entry for "Ground4"
+Warning--I didn't find a database entry for "Spo"
+Warning--I didn't find a database entry for "Spo1"
+Warning--I didn't find a database entry for "Spo2"
+Warning--I didn't find a database entry for "Spo3"
+Warning--I didn't find a database entry for "Spo4"
+Warning--I didn't find a database entry for "gauge"
+Warning--I didn't find a database entry for "Higgs"
+Warning--I didn't find a database entry for "Higgs2"
+Warning--I didn't find a database entry for "Baquie"
+Warning--I didn't find a database entry for "Gauge2"
+Warning--I didn't find a database entry for "Gauge3"
+Warning--I didn't find a database entry for "Gauge4"
+Warning--I didn't find a database entry for "Gauge5"
+Warning--I didn't find a database entry for "Gauge6"
+Warning--I didn't find a database entry for "Volatility"
+Warning--I didn't find a database entry for "Vol2"
+Warning--I didn't find a database entry for "Martingale"
+Warning--I didn't find a database entry for "Martingale2"
+Warning--I didn't find a database entry for "Martingale3"
+Warning--I didn't find a database entry for "Martingale4"
+Warning--I didn't find a database entry for "Martingale5"
+control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (0) allowed
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+(There were 44 warnings)
+Latexmk: Change directory back to '/diff_test_tex_engines/bin/tex_sources/2306.03237'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.aux
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+  pdflatex
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.03237_tl2021" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237"  "2306.03237"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./2306.03237
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+
+Class revtex4-2 Warning: No journal specified, using default pra.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237
+_tl2021.aux)
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+
+Class revtex4-2 Warning: Assuming \noaffiliation for authors.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/usr/local/t
+exlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 1342) in paragraph at lines 230--233
+\OT1/cmr/m/n/10 These ex-pres-sions guar-an-tee the equiv-a-lence of the
+[3] [4]
+Underfull \hbox (badness 3942) in paragraph at lines 353--354
+[]\OT1/cmr/m/n/10 In this pa-per we have demon-strated that the
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+[5]
+Underfull \hbox (badness 1466) in paragraph at lines 395--396
+ \OT1/cmr/m/it/9 of grav-ity: The case of non-lin-ear mas-sive grav-ity\OT1/cmr
+/m/n/9 ,
+
+Underfull \hbox (badness 1502) in paragraph at lines 416--417
+ []\OT1/cmr/m/n/9 Arraut, I.; \OT1/cmr/m/it/9 The Nambu-Goldstone the-o-rem in 
+non-
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+ \OT1/cmr/m/it/9 relativistic sys-tems\OT1/cmr/m/n/9 , Int.J.Mod.Phys.A \OT1/cm
+r/bx/n/9 32 \OT1/cmr/m/n/9 (2017)
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
+ []\OT1/cmr/m/n/9 Arraut, I.; \OT1/cmr/m/it/9 The ori-gin of the mass of the
+
+Underfull \hbox (badness 1028) in paragraph at lines 434--435
+ []\OT1/cmr/m/n/9 Chin Tzeng, Y.; Chang, P. Y. and Yang, M. F.,
+
+Underfull \hbox (badness 3713) in paragraph at lines 449--450
+ []\OT1/cmr/m/n/9 Brauner, T.; \OT1/cmr/m/it/9 Spon-ta-neous sym-me-try break-i
+ng and
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237
+_tl2021.bbl) [6]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237
+_tl2021.aux) )
+(see the transcript file for additional information)</usr/local/texlive/2021/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti9.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.03237/2306.03237_tl2021.pdf (6 pages, 256329 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.03237/2306.03237_tl2021.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.log'
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.pdf'
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021Notes.bib]
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.pdf) are up-to-date
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 17 Mar. 2022. Version 4.77, version: 4.77.
+Latexmk: Nothing to do for '2306.03237'.
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.03237/2306.03237_tl2021.pdf) are up-to-date

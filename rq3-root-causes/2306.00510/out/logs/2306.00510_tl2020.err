@@ -1,0 +1,160 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00510" --jobname="2306.00510_tl2020"  "2306.00510"'
+------------
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00510/2306.00510_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `AFKKZ' on page 2 undefined on input line 90
+  Citation `AKZ' on page 2 undefined on input line 90
+  Citation `B' on page 3 undefined on input line 101
+  Citation `BGL' on page 2 undefined on input line 93
+  Citation `BhD' on page 2 undefined on input line 93
+  Citation `Bo' on page 6 undefined on input line 218
+  Citation `D10' on page 7 undefined on input line 262
+  Citation `D96' on page 3 undefined on input line 101
+  Citation `D96' on page 3 undefined on input line 108
+  Citation `DF' on page 2 undefined on input line 93
+  Citation `DF' on page 7 undefined on input line 291
+  Citation `DK' on page 6 undefined on input line 218
+  Citation `Da07' on page 3 undefined on input line 101
+  Citation `DaGu' on page 2 undefined on input line 87
+  Citation `F' on page 2 undefined on input line 93
+  Citation `F' on page 4 undefined on input line 129
+  Citation `F' on page 5 undefined on input line 152
+  Citation `F' on page 5 undefined on input line 157
+  Citation `F' on page 5 undefined on input line 169
+  Citation `F' on page 5 undefined on input line 177
+  Citation `F' on page 5 undefined on input line 185
+  Citation `F' on page 6 undefined on input line 198
+  Citation `F' on page 6 undefined on input line 243
+  Citation `F' on page 6 undefined on input line 255
+  Citation `F95' on page 3 undefined on input line 101
+  Citation `F95' on page 3 undefined on input line 108
+  Citation `F95' on page 6 undefined on input line 236
+  Citation `F95' on page 7 undefined on input line 273
+  Citation `F98' on page 21 undefined on input line 993
+  Citation `F98' on page 3 undefined on input line 101
+  Citation `Fr97' on page 3 undefined on input line 101
+  Citation `GSh' on page 2 undefined on input line 90
+  Citation `Gai' on page 2 undefined on input line 87
+  Citation `Ju' on page 4 undefined on input line 129
+  Citation `KH1' on page 16 undefined on input line 682
+  Citation `KML' on page 2 undefined on input line 87
+  Citation `MJ' on page 2 undefined on input line 87
+  Citation `ML' on page 2 undefined on input line 87
+  Citation `ML2' on page 2 undefined on input line 87
+  Citation `Ma' on page 6 undefined on input line 255
+  Citation `Na' on page 4 undefined on input line 129
+  Citation `P' on page 2 undefined on input line 87
+  Citation `Pe' on page 2 undefined on input line 90
+  Citation `Po' on page 3 undefined on input line 101
+  Citation `Re' on page 5 undefined on input line 192
+  Citation `VDK' on page 4 undefined on input line 129
+  Citation `W1' on page 4 undefined on input line 129
+  Reference `CLNDC2var' on page 13 undefined on input line 583
+  Reference `CLNDC3var' on page 18 undefined on input line 744
+  Reference `CLNDC3var' on page 3 undefined on input line 108
+  Reference `CLNDC3var1' on page 13 undefined on input line 597
+  Reference `R' on page 10 undefined on input line 397
+  Reference `R' on page 16 undefined on input line 693
+  Reference `R' on page 2 undefined on input line 93
+  Reference `R' on page 9 undefined on input line 383
+  Reference `bij' on page 13 undefined on input line 562
+  Reference `c1' on page 12 undefined on input line 527
+  Reference `c1' on page 12 undefined on input line 557
+  Reference `cln' on page 17 undefined on input line 735
+  Reference `comr1' on page 19 undefined on input line 804
+  Reference `comulev' on page 19 undefined on input line 804
+  Reference `corrin' on page 13 undefined on input line 583
+  Reference `corrin' on page 17 undefined on input line 721
+  Reference `corrin' on page 17 undefined on input line 723
+  Reference `crtr' on page 19 undefined on input line 804
+  Reference `crtr' on page 3 undefined on input line 108
+  Reference `df' on page 15 undefined on input line 671
+  Reference `df' on page 18 undefined on input line 744
+  Reference `df' on page 2 undefined on input line 93
+  Reference `dimtwo' on page 10 undefined on input line 446
+  Reference `dimtwo' on page 11 undefined on input line 461
+  Reference `dimtwo' on page 9 undefined on input line 391
+  Reference `dtriang' on page 15 undefined on input line 666
+  Reference `dtriang' on page 15 undefined on input line 670
+  Reference `dtriang' on page 22 undefined on input line 1026
+  Reference `dtriang' on page 23 undefined on input line 1033
+  Reference `ex1' on page 15 undefined on input line 643
+  Reference `ex1' on page 21 undefined on input line 955
+  Reference `ex1' on page 21 undefined on input line 963
+  Reference `ex1' on page 3 undefined on input line 108
+  Reference `ex2' on page 21 undefined on input line 963
+  Reference `fr95c' on page 18 undefined on input line 744
+  Reference `fr95c' on page 3 undefined on input line 101
+  Reference `frcom' on page 15 undefined on input line 666
+  Reference `frcom' on page 17 undefined on input line 721
+  Reference `frext' on page 17 undefined on input line 723
+  Reference `hl' on page 10 undefined on input line 446
+  Reference `hl' on page 11 undefined on input line 456
+  Reference `jvk' on page 10 undefined on input line 444
+  Reference `jvk' on page 12 undefined on input line 530
+  Reference `jvk' on page 13 undefined on input line 562
+  Reference `lndcommute' on page 8 undefined on input line 355
+  Reference `nepsam' on page 3 undefined on input line 105
+  Reference `pl' on page 11 undefined on input line 510
+  Reference `pl' on page 16 undefined on input line 703
+  Reference `proplocsl' on page 23 undefined on input line 1057
+  Reference `qq' on page 15 undefined on input line 650
+  Reference `qu' on page 21 undefined on input line 983
+  Reference `rk2com1' on page 17 undefined on input line 719
+  Reference `rk2com1' on page 17 undefined on input line 721
+  Reference `rk2com1' on page 17 undefined on input line 723
+  Reference `rk2com1' on page 22 undefined on input line 1016
+  Reference `rk2com1' on page 3 undefined on input line 105
+  Reference `rk2lem' on page 16 undefined on input line 703
+  Reference `rk2lem' on page 17 undefined on input line 721
+  Reference `rk2lem' on page 17 undefined on input line 723
+  Reference `rk2lem' on page 23 undefined on input line 1033
+  Reference `rk2sec' on page 15 undefined on input line 643
+  Reference `rk2thm1' on page 3 undefined on input line 105
+  Reference `rk3com1' on page 22 undefined on input line 1029
+  Reference `rk3com2' on page 22 undefined on input line 1029
+  Reference `rk3com2' on page 22 undefined on input line 1030
+  Reference `rk3com2' on page 23 undefined on input line 1057
+  Reference `rk3der' on page 3 undefined on input line 101
+  Reference `rk3final' on page 3 undefined on input line 105
+  Reference `rr11' on page 18 undefined on input line 771
+  Reference `rr11' on page 18 undefined on input line 787
+  Reference `rrr' on page 23 undefined on input line 1054
+  Reference `rrr' on page 3 undefined on input line 105
+  Reference `sectwovar' on page 18 undefined on input line 780
+  Reference `st' on page 18 undefined on input line 744
+  Reference `stper' on page 18 undefined on input line 787
+  Reference `usnap' on page 21 undefined on input line 947
+  Reference `usrt' on page 24 undefined on input line 1086
+  Reference `usrt' on page 26 undefined on input line 1187
+  Reference `ustr' on page 21 undefined on input line 947
+  Reference `var' on page 17 undefined on input line 721
+  Reference `var' on page 18 undefined on input line 744
+  Reference `varema' on page 15 undefined on input line 650
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00510/2306.00510_tl2020.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00510" --jobname="2306.00510_tl2020"  "2306.00510"'
+------------
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00510/2306.00510_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Label `pl' multiply defined
+Latexmk: Summary of warnings from last run of *latex:
+  Latex found 1 multiply defined reference(s)
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

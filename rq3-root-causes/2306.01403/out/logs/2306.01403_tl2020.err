@@ -1,0 +1,267 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403" --jobname="2306.01403_tl2020"  "Doublereplica.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.bbl in line'
+ No file 2306.01403_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Altieri2021' on page 1 undefined on input line 105
+  Citation `Baron2023' on page 1 undefined on input line 105
+  Citation `Bressloff_2017' on page 1 undefined on input line 123
+  Citation `COOLEN2001' on page 2 undefined on input line 171
+  Citation `Ciliberti' on page 2 undefined on input line 214
+  Citation `De_Giuli' on page 1 undefined on input line 105
+  Citation `Dekel2005' on page 4 undefined on input line 380
+  Citation `Dominicis' on page 1 undefined on input line 105
+  Citation `Eissfeller' on page 2 undefined on input line 210
+  Citation `Eldar2010' on page 1 undefined on input line 120
+  Citation `Elowitz' on page 1 undefined on input line 120
+  Citation `Felix' on page 1 undefined on input line 120
+  Citation `Furusawa2005' on page 1 undefined on input line 120
+  Citation `Furusawa2008' on page 2 undefined on input line 214
+  Citation `GLASS' on page 2 undefined on input line 214
+  Citation `Galla2005' on page 1 undefined on input line 105
+  Citation `Galla2006' on page 1 undefined on input line 105
+  Citation `Gross2008' on page 1 undefined on input line 103
+  Citation `Hertz2017' on page 1 undefined on input line 105
+  Citation `Huang2012' on page 1 undefined on input line 103
+  Citation `Inoue' on page 1 undefined on input line 103
+  Citation `Kadmon2015' on page 1 undefined on input line 105
+  Citation `KanekoPloSOne2007' on page 1 undefined on input line 120
+  Citation `KanekoPloSOne2007' on page 1 undefined on input line 140
+  Citation `KanekoPloSOne2007' on page 2 undefined on input line 214
+  Citation `KanekoPloSOne2007' on page 2 undefined on input line 230
+  Citation `KanekoPloSOne2007' on page 4 undefined on input line 346
+  Citation `Karn' on page 1 undefined on input line 120
+  Citation `Keup' on page 1 undefined on input line 105
+  Citation `Koshland' on page 1 undefined on input line 103
+  Citation `Kuehn2015' on page 1 undefined on input line 105
+  Citation `Li2013' on page 1 undefined on input line 103
+  Citation `MJOLSNESS' on page 2 undefined on input line 214
+  Citation `Marti2018' on page 1 undefined on input line 105
+  Citation `Martin' on page 1 undefined on input line 105
+  Citation `Mastrogiuseppe2017' on page 1 undefined on input line 105
+  Citation `Matsushita2020' on page 1 undefined on input line 103
+  Citation `Miyamoto' on page 1 undefined on input line 103
+  Citation `Moran2022' on page 1 undefined on input line 103
+  Citation `Nichol' on page 1 undefined on input line 123
+  Citation `Note1' on page 2 undefined on input line 157
+  Citation `Note2' on page 2 undefined on input line 167
+  Citation `Note3' on page 2 undefined on input line 171
+  Citation `Note4' on page 2 undefined on input line 197
+  Citation `Note5' on page 2 undefined on input line 232
+  Citation `Note6' on page 4 undefined on input line 343
+  Citation `Note7' on page 4 undefined on input line 346
+  Citation `Opper1992' on page 1 undefined on input line 105
+  Citation `PAULSSON' on page 1 undefined on input line 120
+  Citation `Pearce' on page 1 undefined on input line 105
+  Citation `Pereira-Obilinovic' on page 5 undefined on input line 383
+  Citation `Pham2022' on page 1 undefined on input line 123
+  Citation `Pirey' on page 1 undefined on input line 105
+  Citation `Poley' on page 1 undefined on input line 105
+  Citation `Post' on page 1 undefined on input line 103
+  Citation `Roy2019' on page 2 undefined on input line 210
+  Citation `Salazar-Ciudad' on page 2 undefined on input line 214
+  Citation `Schuecker2018' on page 1 undefined on input line 105
+  Citation `Sompolinsky' on page 1 undefined on input line 105
+  Citation `Stern' on page 1 undefined on input line 103
+  Citation `Stern2014' on page 1 undefined on input line 105
+  Citation `Waddington' on page 1 undefined on input line 103
+  Citation `Yoshino2007' on page 1 undefined on input line 105
+  Citation `Zhou2022' on page 4 undefined on input line 378
+  Citation `behera2022' on page 1 undefined on input line 105
+  Citation `berner2023adaptive' on page 1 undefined on input line 103
+  Citation `clark2023theory' on page 5 undefined on input line 382
+  Citation `gerstner2014neuronal' on page 1 undefined on input line 103
+  Citation `hebb1949' on page 2 undefined on input line 232
+  Citation `levine2020phenotypic' on page 1 undefined on input line 103
+  Citation `zou2023' on page 1 undefined on input line 105
+  Reference `GRN_dynamics' on page 4 undefined on input line 343
+  Reference `closed1' on page 3 undefined on input line 268
+  Reference `closed1' on page 3 undefined on input line 270
+  Reference `closed1' on page 4 undefined on input line 353
+  Reference `coupling_dynamics' on page 2 undefined on input line 173
+  Reference `coupling_dynamics' on page 2 undefined on input line 175
+  Reference `fitness_change' on page 3 undefined on input line 253
+  Reference `general1' on page 2 undefined on input line 160
+  Reference `generating_function1' on page 7 undefined on input line 462
+  Reference `generating_function2' on page 7 undefined on input line 487
+  Reference `h_for_Jto' on page 4 undefined on input line 378
+  Reference `h_for_Jtt' on page 3 undefined on input line 338
+  Reference `identity' on page 7 undefined on input line 462
+  Reference `master_equation' on page 6 undefined on input line 449
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020Notes.bib Doublereplica.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.aux'
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020'
+------------
+------------
+Running 'bibtex  "2306.01403_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.bbl'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403" --jobname="2306.01403_tl2020"  "Doublereplica.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Altieri2021' on page 1 undefined on input line 105
+  Citation `Baron2023' on page 1 undefined on input line 105
+  Citation `BenArous2006' on page 6 undefined on input line 564
+  Citation `Bressloff_2017' on page 1 undefined on input line 123
+  Citation `COOLEN2001' on page 2 undefined on input line 171
+  Citation `Ciliberti' on page 2 undefined on input line 214
+  Citation `Ciliberti' on page 6 undefined on input line 720
+  Citation `De_Giuli' on page 1 undefined on input line 105
+  Citation `Dekel2005' on page 4 undefined on input line 380
+  Citation `Dominicis' on page 1 undefined on input line 105
+  Citation `Eissfeller' on page 2 undefined on input line 210
+  Citation `Eldar2010' on page 1 undefined on input line 120
+  Citation `Elowitz' on page 1 undefined on input line 120
+  Citation `Felix' on page 1 undefined on input line 120
+  Citation `Furusawa2005' on page 1 undefined on input line 120
+  Citation `Furusawa2008' on page 2 undefined on input line 214
+  Citation `GLASS' on page 2 undefined on input line 214
+  Citation `Galla2005' on page 1 undefined on input line 105
+  Citation `Galla2006' on page 1 undefined on input line 105
+  Citation `Gross2008' on page 1 undefined on input line 103
+  Citation `Hertz2017' on page 1 undefined on input line 105
+  Citation `Huang2012' on page 1 undefined on input line 103
+  Citation `Inoue' on page 1 undefined on input line 103
+  Citation `Kadmon2015' on page 1 undefined on input line 105
+  Citation `Kaneko2006' on page 6 undefined on input line 720
+  Citation `KanekoPloSOne2007' on page 1 undefined on input line 120
+  Citation `KanekoPloSOne2007' on page 1 undefined on input line 140
+  Citation `KanekoPloSOne2007' on page 2 undefined on input line 214
+  Citation `KanekoPloSOne2007' on page 2 undefined on input line 230
+  Citation `KanekoPloSOne2007' on page 4 undefined on input line 346
+  Citation `KanekoPloSOne2007' on page 6 undefined on input line 720
+  Citation `Karn' on page 1 undefined on input line 120
+  Citation `Keup' on page 1 undefined on input line 105
+  Citation `Koshland' on page 1 undefined on input line 103
+  Citation `Kuehn2015' on page 1 undefined on input line 105
+  Citation `Landry' on page 6 undefined on input line 720
+  Citation `Li2013' on page 1 undefined on input line 103
+  Citation `MJOLSNESS' on page 2 undefined on input line 214
+  Citation `Marti2018' on page 1 undefined on input line 105
+  Citation `Martin' on page 1 undefined on input line 105
+  Citation `Mastrogiuseppe2017' on page 1 undefined on input line 105
+  Citation `Matsushita2020' on page 1 undefined on input line 103
+  Citation `Miyamoto' on page 1 undefined on input line 103
+  Citation `Moran2022' on page 1 undefined on input line 103
+  Citation `Nichol' on page 1 undefined on input line 123
+  Citation `Note1' on page 2 undefined on input line 157
+  Citation `Note2' on page 2 undefined on input line 167
+  Citation `Note3' on page 2 undefined on input line 171
+  Citation `Note4' on page 2 undefined on input line 197
+  Citation `Note5' on page 2 undefined on input line 232
+  Citation `Note6' on page 4 undefined on input line 343
+  Citation `Note7' on page 4 undefined on input line 346
+  Citation `Opper1992' on page 1 undefined on input line 105
+  Citation `PAULSSON' on page 1 undefined on input line 120
+  Citation `Pearce' on page 1 undefined on input line 105
+  Citation `Pereira-Obilinovic' on page 5 undefined on input line 383
+  Citation `Pham2022' on page 1 undefined on input line 123
+  Citation `Pham2022' on page 6 undefined on input line 720
+  Citation `Pirey' on page 1 undefined on input line 105
+  Citation `Poley' on page 1 undefined on input line 105
+  Citation `Post' on page 1 undefined on input line 103
+  Citation `Roy2019' on page 2 undefined on input line 210
+  Citation `Sakata2020' on page 6 undefined on input line 720
+  Citation `Salazar-Ciudad' on page 2 undefined on input line 214
+  Citation `Sato2003' on page 6 undefined on input line 720
+  Citation `Schuecker2018' on page 1 undefined on input line 105
+  Citation `Silva-Rocha' on page 6 undefined on input line 720
+  Citation `Sompolinsky' on page 1 undefined on input line 105
+  Citation `Stern' on page 1 undefined on input line 103
+  Citation `Stern2014' on page 1 undefined on input line 105
+  Citation `Tang2021' on page 6 undefined on input line 720
+  Citation `Uchida' on page 6 undefined on input line 720
+  Citation `Waddington' on page 1 undefined on input line 103
+  Citation `Yoshino2007' on page 1 undefined on input line 105
+  Citation `Zhou2022' on page 4 undefined on input line 378
+  Citation `behera2022' on page 1 undefined on input line 105
+  Citation `berner2023adaptive' on page 1 undefined on input line 103
+  Citation `clark2023theory' on page 5 undefined on input line 382
+  Citation `gerstner2014neuronal' on page 1 undefined on input line 103
+  Citation `hebb1949' on page 2 undefined on input line 232
+  Citation `levine2020phenotypic' on page 1 undefined on input line 103
+  Citation `zou2023' on page 1 undefined on input line 105
+  Reference `LastBibItem' on page 5 undefined on input line 9
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020Notes.bib Doublereplica.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.aux'
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020'
+------------
+------------
+Running 'bibtex  "2306.01403_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.bbl'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403" --jobname="2306.01403_tl2020"  "Doublereplica.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `BenArous2006' on page 6 undefined on input line 564
+  Citation `Kaneko2006' on page 6 undefined on input line 720
+  Citation `Landry' on page 6 undefined on input line 720
+  Citation `Sakata2020' on page 6 undefined on input line 720
+  Citation `Sato2003' on page 6 undefined on input line 720
+  Citation `Silva-Rocha' on page 6 undefined on input line 720
+  Citation `Tang2021' on page 6 undefined on input line 720
+  Citation `Uchida' on page 6 undefined on input line 720
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020Notes.bib Doublereplica.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.aux'
+------------
+Run number 3 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020'
+------------
+------------
+Running 'bibtex  "2306.01403_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.aux'
+------------
+Run number 4 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403" --jobname="2306.01403_tl2020"  "Doublereplica.tex"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020.pdf'
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01403/2306.01403_tl2020Notes.bib Doublereplica.bib]
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

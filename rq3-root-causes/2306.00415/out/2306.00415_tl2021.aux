@@ -1,0 +1,150 @@
+\relax 
+\citation{Freidberg2007}
+\citation{ITER_CS}
+\citation{ITER_CS}
+\citation{Freidberg2007}
+\citation{Baylor2007,Pegourie_2009,Baylor2016}
+\citation{Greenwald1988}
+\citation{Baylor2007}
+\citation{Blanken2018,Sevillano2012}
+\citation{Bemporad1999}
+\citation{Baylor2016}
+\citation{Garzotti2011,Vincenzi2015,Ravensbergen2017}
+\citation{Lang2018,Bosman2021,Bosman2022}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\newlabel{sec:introduction}{{I}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The pellet injection line, which fires pellets into the plasma from inner side of the plasma torus, overlaid on a cutaway diagram of the ITER tokamak. Image courtesy of the ITER Organization, with modifications \cite  {ITER_CS}}}{1}{}\protected@file@percent }
+\newlabel{fig:ITERPIS}{{1}{1}}
+\citation{Bemporad1999,Lazar2006}
+\citation{Bemporad1999}
+\citation{Bosman2021,Bosman2022}
+\citation{Rawlings2017}
+\citation{Kirches2011}
+\citation{Sager2006}
+\citation{Sager2006}
+\citation{Sager2006}
+\citation{Baylor2016}
+\citation{Freidberg2007}
+\citation{Freidberg2007}
+\citation{Freidberg2007,Blanken2018}
+\citation{Garzotti2019}
+\citation{Na2019,Polevoi2002}
+\citation{Pegourie_2009}
+\citation{Freidberg2007}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Problem Formulation}{2}{}\protected@file@percent }
+\newlabel{sec:problemFormulation}{{II}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {II-A}Drift-Diffusion Model}{2}{}\protected@file@percent }
+\newlabel{subsec:driftDiffusionModel}{{II-A}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces (a) Diagram showing nested flux surfaces of the cylindrical tokamak plasma approximation, where a fuel pellet fired along the pellet injection line in Fig. 1\hbox {} will ablate near the plasma edge. Here, $R_0$ is the major radius, $a$ is the minor radius, and $\theta $ is the angle from the midplane. (b) The $1\textrm  {D}$ plasma response to a fuel pellet ablating at $r = 1.7$ m, for $t_c = \{0.000, 0.005, 0.015, 0.050, 0.195\}$ s after the pellet penetrates the plasma.}}{2}{}\protected@file@percent }
+\newlabel{fig:FluxSurfToProfile}{{2}{2}}
+\newlabel{eq:dndt}{{1a}{2}}
+\newlabel{eq:dTdt}{{1b}{2}}
+\newlabel{eq:PDE}{{1}{2}}
+\citation{Blanken2018}
+\citation{Garzotti2019}
+\citation{Baylor2016}
+\citation{Garzotti2019}
+\citation{Franklin1997,Pegourie_2009}
+\citation{Franklin1997,Rawlings2017}
+\citation{Franklin1997}
+\citation{Baylor2016}
+\citation{Rawlings2017}
+\citation{Greenwald1988}
+\citation{Heald1965}
+\citation{Bosman2021kalman}
+\citation{Rawlings2017}
+\citation{Kirches2011}
+\newlabel{eq:xdot}{{2a}{3}}
+\newlabel{eq:x}{{2b}{3}}
+\newlabel{eq:u}{{2c}{3}}
+\newlabel{eq:statedynamics}{{2}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {II-B}Control Problem Description}{3}{}\protected@file@percent }
+\newlabel{subsec:ControlProblem}{{II-B}{3}}
+\newlabel{eq:ZOHfix}{{3}{3}}
+\newlabel{eq:constraintsdef}{{4}{3}}
+\newlabel{eq:lineAvgDens}{{5}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Model Predictive Control Strategies}{3}{}\protected@file@percent }
+\newlabel{sec:MPCapproach}{{III}{3}}
+\citation{Andersson2019,Lofberg2004}
+\citation{gurobi}
+\citation{gurobi}
+\citation{Sager2006}
+\citation{Sager2006}
+\citation{Ferreau2014}
+\citation{Sager2006}
+\citation{Sager2006}
+\citation{Sager2006}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-A}Mixed-Integer MPC}{4}{}\protected@file@percent }
+\newlabel{subsec:MIQP}{{III-A}{4}}
+\newlabel{eq:objective}{{6a}{4}}
+\newlabel{eq:stateEvo}{{6b}{4}}
+\newlabel{eq:lincons}{{6c}{4}}
+\newlabel{eq:binary}{{6d}{4}}
+\newlabel{eq:MIQP}{{6}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-B}Penalty Term Homotopy MPC}{4}{}\protected@file@percent }
+\newlabel{subsec:PTHQP}{{III-B}{4}}
+\newlabel{alg:PTH}{{III-A}{4}}
+\newlabel{eq:PTHobjective}{{7a}{4}}
+\newlabel{eq:PTHstateEvo}{{7b}{4}}
+\newlabel{eq:PTHlincons}{{7c}{4}}
+\newlabel{eq:nonbinary}{{7d}{4}}
+\newlabel{eq:PTHMPC}{{7}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-C}Penalty Term Homotopy MPC with Constraints}{4}{}\protected@file@percent }
+\newlabel{subsec:PTHmod}{{III-C}{4}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces PTH-MPC Sticking Behavior}}{4}{}\protected@file@percent }
+\newlabel{tab:sticky}{{I}{4}}
+\citation{Garzotti2019}
+\citation{Lang2018}
+\citation{Baylor2016}
+\citation{Lang2019}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces (a) The line-averaged density $\bar  {n}_e(t)[\textrm  {m}^{-3}]$ (calculated from $x(t)$ using \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces 5\hbox {}\unskip \@@italiccorr )}}) for $N=5$. The grey dashed line indicates $x^r(t) = \bar  {n}_e^r(t)$. (b) The edge density $n_e(t, r=1.8\textrm  { m})[\textrm  {m}^{-3}]$ with the density limit \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces 4\hbox {}\unskip \@@italiccorr )}} indicated as a black dashed line. Each pellet actuation is visible as a jump in density. (c) The reference tracking error of $\bar  {n}_{e}(t)$ relative to $\bar  {n}_e^r(t)$. (d) The value of the objective function of each MPC strategy.}}{5}{}\protected@file@percent }
+\newlabel{fig:ctrlTrajectory}{{3}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Results}{5}{}\protected@file@percent }
+\newlabel{sec:results}{{IV}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-A}Reference Tracking}{5}{}\protected@file@percent }
+\newlabel{subsec:refTracking}{{IV-A}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Mean Reference Tracking Error}}{5}{}\protected@file@percent }
+\newlabel{tab:error}{{II}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-B}Computation Time}{5}{}\protected@file@percent }
+\newlabel{subsec:compTime}{{IV-B}{5}}
+\citation{Blanken2018,Bosman2021}
+\bibdata{LCSS_CDC_2023_Orrico}
+\bibcite{Freidberg2007}{1}
+\bibcite{ITER_CS}{2}
+\bibcite{Baylor2007}{3}
+\bibcite{Pegourie_2009}{4}
+\bibcite{Baylor2016}{5}
+\bibcite{Greenwald1988}{6}
+\bibcite{Blanken2018}{7}
+\bibcite{Sevillano2012}{8}
+\bibcite{Bemporad1999}{9}
+\bibcite{Garzotti2011}{10}
+\bibcite{Vincenzi2015}{11}
+\bibcite{Ravensbergen2017}{12}
+\bibcite{Lang2018}{13}
+\bibcite{Bosman2021}{14}
+\bibcite{Bosman2022}{15}
+\bibcite{Lazar2006}{16}
+\bibcite{Rawlings2017}{17}
+\bibcite{Kirches2011}{18}
+\bibcite{Sager2006}{19}
+\bibcite{Garzotti2019}{20}
+\bibcite{Na2019}{21}
+\bibcite{Polevoi2002}{22}
+\bibcite{Franklin1997}{23}
+\bibcite{Heald1965}{24}
+\bibcite{Bosman2021kalman}{25}
+\bibcite{Andersson2019}{26}
+\bibcite{Lofberg2004}{27}
+\bibcite{gurobi}{28}
+\bibcite{Ferreau2014}{29}
+\bibcite{Lang2019}{30}
+\bibstyle{IEEEtran}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Computation (CPU) time for the trajectory in Fig. 3\hbox {}a). The solid and dashed lines indicate the MI-MPC and the PTH-MPC controllers, respectively. The $N$ labels identify the two lines directly above them. Simulations were performed on an Intel(R) Core\textsuperscript  {TM} i5 processor running at 2.40 GHz with 15.7 GB of useable RAM.}}{6}{}\protected@file@percent }
+\newlabel{fig:compTime}{{4}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Maximum computation Time}}{6}{}\protected@file@percent }
+\newlabel{tab:compTime}{{III}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{6}{}\protected@file@percent }
+\newlabel{sec:conclusion}{{V}{6}}
+\@writefile{toc}{\contentsline {section}{References}{6}{}\protected@file@percent }
+\gdef \@abspage@last{6}

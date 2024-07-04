@@ -1,0 +1,861 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{75}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Koshland}\ \emph {et~al.}(1982)\citenamefont
+  {Koshland}, \citenamefont {Goldbeter},\ and\ \citenamefont
+  {Stock}}]{Koshland}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~E.}\ \bibnamefont
+  {Koshland}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Goldbeter}},\ and\ \bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont
+  {Stock}},\ }\bibfield  {title} {\bibinfo {title} {Amplification and
+  adaptation in regulatory and sensory systems},\ }\href
+  {https://doi.org/10.1126/science.7089556} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {217}},\ \bibinfo {pages}
+  {220} (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stern}\ \emph {et~al.}(2007)\citenamefont {Stern},
+  \citenamefont {Dror}, \citenamefont {Stolovicki}, \citenamefont {Brenner},\
+  and\ \citenamefont {Braun}}]{Stern}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Stern}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Dror}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Stolovicki}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Brenner}},\ and\ \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Braun}},\ }\bibfield  {title} {\bibinfo
+  {title} {Genome-wide transcriptional plasticity underlies cellular adaptation
+  to novel challenge},\ }\href
+  {https://doi.org/https://doi.org/10.1038/msb4100147} {\bibfield  {journal}
+  {\bibinfo  {journal} {Molecular Systems Biology}\ }\textbf {\bibinfo {volume}
+  {3}},\ \bibinfo {pages} {106} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Inoue}\ and\ \citenamefont {Kaneko}(2013)}]{Inoue}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Inoue}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Kaneko}},\
+  }\bibfield  {title} {\bibinfo {title} {Cooperative adaptive responses in gene
+  regulatory networks with many degrees of freedom},\ }\href
+  {https://doi.org/10.1371/journal.pcbi.1003001} {\bibfield  {journal}
+  {\bibinfo  {journal} {PLOS Computational Biology}\ }\textbf {\bibinfo
+  {volume} {9}},\ \bibinfo {pages} {1} (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Levine}\ \emph {et~al.}(2020)\citenamefont {Levine},
+  \citenamefont {Jolly}, \citenamefont {Kulkarni},\ and\ \citenamefont
+  {Nanjundiah}}]{levine2020phenotypic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Levine}}, \bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont {Jolly}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Kulkarni}},\ and\
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Nanjundiah}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Phenotypic switching: implications
+  in biology and medicine}}}\ (\bibinfo  {publisher} {Academic Press},\
+  \bibinfo {year} {2020})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Waddington}(1957)}]{Waddington}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Waddington}},\ }\href@noop {} {\emph {\bibinfo {title} {The Strategy of the
+  Genes}}}\ (\bibinfo  {publisher} {George Allen \& Unwin},\ \bibinfo {year}
+  {1957})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ and\ \citenamefont {Wang}(2013)}]{Li2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Li}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wang}},\
+  }\bibfield  {title} {\bibinfo {title} {Quantifying waddington landscapes and
+  paths of non-adiabatic cell fate decisions for differentiation, reprogramming
+  and transdifferentiation},\ }\href {https://doi.org/10.1098/rsif.2013.0787}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of The Royal Society
+  Interface}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {20130787}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huang}(2012)}]{Huang2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Huang}},\ }\bibfield  {title} {\bibinfo {title} {The molecular and
+  mathematical basis of waddington's epigenetic landscape: A framework for
+  post-darwinian biology?},\ }\href
+  {https://doi.org/https://doi.org/10.1002/bies.201100031} {\bibfield
+  {journal} {\bibinfo  {journal} {BioEssays}\ }\textbf {\bibinfo {volume}
+  {34}},\ \bibinfo {pages} {149} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Miyamoto}\ \emph {et~al.}(2015)\citenamefont
+  {Miyamoto}, \citenamefont {Furusawa},\ and\ \citenamefont
+  {Kaneko}}]{Miyamoto}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Miyamoto}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Furusawa}},\
+  and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Kaneko}},\
+  }\bibfield  {title} {\bibinfo {title} {Pluripotency, differentiation, and
+  reprogramming: A gene expression dynamics model with epigenetic feedback
+  regulation},\ }\href {https://doi.org/10.1371/journal.pcbi.1004476}
+  {\bibfield  {journal} {\bibinfo  {journal} {PLOS Computational Biology}\
+  }\textbf {\bibinfo {volume} {11}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Matsushita}\ and\ \citenamefont
+  {Kaneko}(2020)}]{Matsushita2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Matsushita}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kaneko}},\ }\bibfield  {title} {\bibinfo {title} {Homeorhesis in
+  waddington's landscape by epigenetic feedback regulation},\ }\href
+  {https://doi.org/10.1103/PhysRevResearch.2.023083} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Res.}\ }\textbf {\bibinfo {volume} {2}},\
+  \bibinfo {pages} {023083} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gerstner}\ \emph {et~al.}(2014)\citenamefont
+  {Gerstner}, \citenamefont {Kistler}, \citenamefont {Naud},\ and\
+  \citenamefont {Paninski}}]{gerstner2014neuronal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Gerstner}}, \bibinfo {author} {\bibfnamefont {W.~M.}\ \bibnamefont
+  {Kistler}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Naud}},\ and\
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Paninski}},\ }\href@noop
+  {} {\emph {\bibinfo {title} {Neuronal dynamics: From single neurons to
+  networks and models of cognition}}}\ (\bibinfo  {publisher} {Cambridge
+  University Press},\ \bibinfo {year} {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Post}\ and\ \citenamefont {Palkovacs}(2009)}]{Post}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
+  {Post}}\ and\ \bibinfo {author} {\bibfnamefont {E.~P.}\ \bibnamefont
+  {Palkovacs}},\ }\bibfield  {title} {\bibinfo {title} {Eco-evolutionary
+  feedbacks in community and ecosystem ecology: interactions between the
+  ecological theatre and the evolutionary play},\ }\href
+  {https://doi.org/10.1098/rstb.2009.0012} {\bibfield  {journal} {\bibinfo
+  {journal} {Philosophical Transactions of the Royal Society B: Biological
+  Sciences}\ }\textbf {\bibinfo {volume} {364}},\ \bibinfo {pages} {1629}
+  (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Moran}\ and\ \citenamefont
+  {Tikhonov}(2022)}]{Moran2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Moran}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Tikhonov}},\ }\bibfield  {title} {\bibinfo {title} {Defining
+  coarse-grainability in a model of structured microbial ecosystems},\ }\href
+  {https://doi.org/10.1103/PhysRevX.12.021038} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo
+  {pages} {021038} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gross}\ and\ \citenamefont
+  {Blasius}(2008)}]{Gross2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Gross}}\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Blasius}},\ }\bibfield  {title} {\bibinfo {title} {Adaptive coevolutionary
+  networks: a review},\ }\href {https://doi.org/10.1098/rsif.2007.1229}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of The Royal Society
+  Interface}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {259}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berner}\ \emph {et~al.}(2023)\citenamefont {Berner},
+  \citenamefont {Gross}, \citenamefont {Kuehn}, \citenamefont {Kurths},\ and\
+  \citenamefont {Yanchuk}}]{berner2023adaptive}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Berner}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Gross}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Kuehn}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Kurths}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Yanchuk}},\ }\href@noop {} {\bibinfo
+  {title} {Adaptive dynamical networks}} (\bibinfo {year} {2023}),\ \Eprint
+  {https://arxiv.org/abs/2304.05652} {arXiv:2304.05652 [nlin.AO]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kuehn}(2015)}]{Kuehn2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Kuehn}},\ }\href@noop {} {\emph {\bibinfo {title} {Multiple time scale
+  dynamics}}},\ Vol.\ \bibinfo {volume} {191}\ (\bibinfo  {publisher}
+  {Springer},\ \bibinfo {year} {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Martin}\ \emph {et~al.}(1973)\citenamefont {Martin},
+  \citenamefont {Siggia},\ and\ \citenamefont {Rose}}]{Martin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~C.}\ \bibnamefont
+  {Martin}}, \bibinfo {author} {\bibfnamefont {E.~D.}\ \bibnamefont {Siggia}},\
+  and\ \bibinfo {author} {\bibfnamefont {H.~A.}\ \bibnamefont {Rose}},\
+  }\bibfield  {title} {\bibinfo {title} {Statistical dynamics of classical
+  systems},\ }\href {https://doi.org/10.1103/PhysRevA.8.423} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo {volume}
+  {8}},\ \bibinfo {pages} {423} (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {De~Dominicis}\ and\ \citenamefont
+  {Peliti}(1978)}]{Dominicis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {De~Dominicis}}\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Peliti}},\ }\bibfield  {title} {\bibinfo {title} {Field-theory
+  renormalization and critical dynamics above ${T}_{c}$: Helium,
+  antiferromagnets, and liquid-gas systems},\ }\href
+  {https://doi.org/10.1103/PhysRevB.18.353} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {18}},\ \bibinfo
+  {pages} {353} (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hertz}\ \emph {et~al.}(2016)\citenamefont {Hertz},
+  \citenamefont {Roudi},\ and\ \citenamefont {Sollich}}]{Hertz2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Hertz}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Roudi}},\ and\
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Sollich}},\ }\bibfield
+  {title} {\bibinfo {title} {Path integral methods for the dynamics of
+  stochastic and disordered systems},\ }\href
+  {https://doi.org/10.1088/1751-8121/50/3/033001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Physics A: Mathematical and Theoretical}\
+  }\textbf {\bibinfo {volume} {50}},\ \bibinfo {pages} {033001} (\bibinfo
+  {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zou}\ and\ \citenamefont {Huang}(2023)}]{zou2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Zou}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Huang}},\
+  }\href@noop {} {\bibinfo {title} {Introduction to dynamical mean-field theory
+  of generic random neural networks}} (\bibinfo {year} {2023}),\ \Eprint
+  {https://arxiv.org/abs/2305.08459} {arXiv:2305.08459 [cond-mat.dis-nn]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sompolinsky}\ \emph {et~al.}(1988)\citenamefont
+  {Sompolinsky}, \citenamefont {Crisanti},\ and\ \citenamefont
+  {Sommers}}]{Sompolinsky}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Sompolinsky}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Crisanti}},\ and\ \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
+  {Sommers}},\ }\bibfield  {title} {\bibinfo {title} {Chaos in random neural
+  networks},\ }\href {https://doi.org/10.1103/PhysRevLett.61.259} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {61}},\ \bibinfo {pages} {259} (\bibinfo {year} {1988})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Opper}\ and\ \citenamefont
+  {Diederich}(1992)}]{Opper1992}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Opper}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Diederich}},\ }\bibfield  {title} {\bibinfo {title} {Phase transition and
+  1/f noise in a game dynamical model},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.69.1616} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo
+  {pages} {1616} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galla}(2005)}]{Galla2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Galla}},\ }\bibfield  {title} {\bibinfo {title} {Dynamics of random
+  replicators with {H}ebbian interactions},\ }\href
+  {https://doi.org/10.1088/1742-5468/2005/11/P11005} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Statistical Mechanics: Theory and
+  Experiment}\ }\textbf {\bibinfo {volume} {2005}},\ \bibinfo {pages} {P11005}
+  (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galla}(2006)}]{Galla2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Galla}},\ }\bibfield  {title} {\bibinfo {title} {Random replicators with
+  asymmetric couplings},\ }\href {https://doi.org/10.1088/0305-4470/39/15/001}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Physics A:
+  Mathematical and General}\ }\textbf {\bibinfo {volume} {39}},\ \bibinfo
+  {pages} {3853} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yoshino}\ \emph {et~al.}(2007)\citenamefont
+  {Yoshino}, \citenamefont {Galla},\ and\ \citenamefont
+  {Tokita}}]{Yoshino2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Yoshino}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Galla}},\
+  and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Tokita}},\
+  }\bibfield  {title} {\bibinfo {title} {Statistical mechanics and stability of
+  a model eco-system},\ }\href
+  {https://doi.org/10.1088/1742-5468/2007/09/P09003} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Statistical Mechanics: Theory and
+  Experiment}\ }\textbf {\bibinfo {volume} {2007}},\ \bibinfo {pages} {P09003}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stern}\ \emph {et~al.}(2014)\citenamefont {Stern},
+  \citenamefont {Sompolinsky},\ and\ \citenamefont {Abbott}}]{Stern2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Stern}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Sompolinsky}},\
+  and\ \bibinfo {author} {\bibfnamefont {L.~F.}\ \bibnamefont {Abbott}},\
+  }\bibfield  {title} {\bibinfo {title} {Dynamics of random neural networks
+  with bistable units},\ }\href {https://doi.org/10.1103/PhysRevE.90.062710}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo
+  {volume} {90}},\ \bibinfo {pages} {062710} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kadmon}\ and\ \citenamefont
+  {Sompolinsky}(2015)}]{Kadmon2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Kadmon}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Sompolinsky}},\ }\bibfield  {title} {\bibinfo {title} {Transition to chaos
+  in random neuronal networks},\ }\href
+  {https://doi.org/10.1103/PhysRevX.5.041030} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages}
+  {041030} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mastrogiuseppe}\ and\ \citenamefont
+  {Ostojic}(2017)}]{Mastrogiuseppe2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Mastrogiuseppe}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ostojic}},\ }\bibfield  {title} {\bibinfo {title} {Intrinsically-generated
+  fluctuating activity in excitatory-inhibitory networks},\ }\href
+  {https://doi.org/10.1371/journal.pcbi.1005498} {\bibfield  {journal}
+  {\bibinfo  {journal} {PLOS Computational Biology}\ }\textbf {\bibinfo
+  {volume} {13}},\ \bibinfo {pages} {1} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mart\'{\i}}\ \emph {et~al.}(2018)\citenamefont
+  {Mart\'{\i}}, \citenamefont {Brunel},\ and\ \citenamefont
+  {Ostojic}}]{Marti2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Mart\'{\i}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Brunel}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ostojic}},\
+  }\bibfield  {title} {\bibinfo {title} {Correlations between synapses in pairs
+  of neurons slow down dynamics in randomly connected neural networks},\ }\href
+  {https://doi.org/10.1103/PhysRevE.97.062314} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
+  {pages} {062314} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schuecker}\ \emph {et~al.}(2018)\citenamefont
+  {Schuecker}, \citenamefont {Goedeke},\ and\ \citenamefont
+  {Helias}}]{Schuecker2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Schuecker}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Goedeke}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Helias}},\
+  }\bibfield  {title} {\bibinfo {title} {Optimal sequence memory in driven
+  random networks},\ }\href {https://doi.org/10.1103/PhysRevX.8.041029}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo
+  {volume} {8}},\ \bibinfo {pages} {041029} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pearce}\ \emph {et~al.}(2020)\citenamefont {Pearce},
+  \citenamefont {Agarwala},\ and\ \citenamefont {Fisher}}]{Pearce}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~T.}\ \bibnamefont
+  {Pearce}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Agarwala}},\
+  and\ \bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont {Fisher}},\
+  }\bibfield  {title} {\bibinfo {title} {Stabilization of extensive fine-scale
+  diversity by ecologically driven spatiotemporal chaos},\ }\href
+  {https://doi.org/10.1073/pnas.1915313117} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {117}},\ \bibinfo {pages} {14572} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Altieri}\ \emph {et~al.}(2021)\citenamefont
+  {Altieri}, \citenamefont {Roy}, \citenamefont {Cammarota},\ and\
+  \citenamefont {Biroli}}]{Altieri2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Altieri}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Roy}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Cammarota}},\ and\
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Biroli}},\ }\bibfield
+  {title} {\bibinfo {title} {Properties of equilibria and glassy phases of the
+  random lotka-volterra model with demographic noise},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.126.258301} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {126}},\
+  \bibinfo {pages} {258301} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Keup}\ \emph {et~al.}(2021)\citenamefont {Keup},
+  \citenamefont {K\"uhn}, \citenamefont {Dahmen},\ and\ \citenamefont
+  {Helias}}]{Keup}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Keup}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {K\"uhn}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Dahmen}},\ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Helias}},\ }\bibfield  {title}
+  {\bibinfo {title} {Transient chaotic dimensionality expansion by recurrent
+  networks},\ }\href {https://doi.org/10.1103/PhysRevX.11.021064} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume}
+  {11}},\ \bibinfo {pages} {021064} (\bibinfo {year} {2021})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {De~Giuli}\ and\ \citenamefont
+  {Scalliet}(2022)}]{De_Giuli}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {De~Giuli}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Scalliet}},\ }\bibfield  {title} {\bibinfo {title} {Dynamical mean-field
+  theory: from ecosystems to reaction networks},\ }\href
+  {https://doi.org/10.1088/1751-8121/aca3df} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Physics A: Mathematical and Theoretical}\ }\textbf
+  {\bibinfo {volume} {55}},\ \bibinfo {pages} {474002} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baron}\ \emph {et~al.}(2023)\citenamefont {Baron},
+  \citenamefont {Jewell}, \citenamefont {Ryder},\ and\ \citenamefont
+  {Galla}}]{Baron2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {Baron}}, \bibinfo {author} {\bibfnamefont {T.~J.}\ \bibnamefont {Jewell}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Ryder}},\ and\ \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Galla}},\ }\bibfield  {title}
+  {\bibinfo {title} {Breakdown of random-matrix universality in persistent
+  {L}otka-{V}olterra communities},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.130.137401} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {130}},\
+  \bibinfo {pages} {137401} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Poley}\ \emph {et~al.}(2023)\citenamefont {Poley},
+  \citenamefont {Baron},\ and\ \citenamefont {Galla}}]{Poley}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Poley}}, \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont {Baron}},\
+  and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Galla}},\ }\bibfield
+   {title} {\bibinfo {title} {Generalized lotka-volterra model with
+  hierarchical interactions},\ }\href
+  {https://doi.org/10.1103/PhysRevE.107.024313} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
+  {pages} {024313} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Arnoulx~de Pirey}\ and\ \citenamefont
+  {Bunin}(2023)}]{Pirey}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Arnoulx~de Pirey}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Bunin}},\ }\bibfield  {title} {\bibinfo {title} {Aging by near-extinctions
+  in many-variable interacting populations},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.130.098401} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {130}},\
+  \bibinfo {pages} {098401} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Behera}\ \emph {et~al.}(2022)\citenamefont {Behera},
+  \citenamefont {Rao}, \citenamefont {Sastry},\ and\ \citenamefont
+  {Vaikuntanathan}}]{behera2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~K.}\ \bibnamefont
+  {Behera}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Rao}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sastry}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Vaikuntanathan}},\ }\href@noop {}
+  {\bibinfo {title} {Enhancing associative memory recall in non-equilibrium
+  materials through activity}} (\bibinfo {year} {2022}),\ \Eprint
+  {https://arxiv.org/abs/2203.03024} {arXiv:2203.03024 [cond-mat.dis-nn]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Elowitz}\ \emph {et~al.}(2002)\citenamefont
+  {Elowitz}, \citenamefont {Levine}, \citenamefont {Siggia},\ and\
+  \citenamefont {Swain}}]{Elowitz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~B.}\ \bibnamefont
+  {Elowitz}}, \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Levine}},
+  \bibinfo {author} {\bibfnamefont {E.~D.}\ \bibnamefont {Siggia}},\ and\
+  \bibinfo {author} {\bibfnamefont {P.~S.}\ \bibnamefont {Swain}},\ }\bibfield
+  {title} {\bibinfo {title} {Stochastic gene expression in a single cell},\
+  }\href {https://doi.org/10.1126/science.1070919} {\bibfield  {journal}
+  {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume} {297}},\ \bibinfo
+  {pages} {1183} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kaern}\ \emph {et~al.}(2005)\citenamefont {Kaern},
+  \citenamefont {Elston}, \citenamefont {Blake},\ and\ \citenamefont
+  {Collins}}]{Karn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kaern}}, \bibinfo {author} {\bibfnamefont {T.~C.}\ \bibnamefont {Elston}},
+  \bibinfo {author} {\bibfnamefont {W.~J.}\ \bibnamefont {Blake}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont {Collins}},\
+  }\bibfield  {title} {\bibinfo {title} {Stochasticity in gene expression: from
+  theories to phenotypes},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature Reviews Genetics}\ }\textbf {\bibinfo {volume} {6}},\
+  \bibinfo {pages} {451} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Paulsson}(2005)}]{PAULSSON}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Paulsson}},\ }\bibfield  {title} {\bibinfo {title} {Models of stochastic
+  gene expression},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.plrev.2005.03.003} {\bibfield
+  {journal} {\bibinfo  {journal} {Physics of Life Reviews}\ }\textbf {\bibinfo
+  {volume} {2}},\ \bibinfo {pages} {157} (\bibinfo {year} {2005})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Eldar}\ and\ \citenamefont
+  {Elowitz}(2010)}]{Eldar2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Eldar}}\ and\ \bibinfo {author} {\bibfnamefont {M.~B.}\ \bibnamefont
+  {Elowitz}},\ }\bibfield  {title} {\bibinfo {title} {Functional roles for
+  noise in genetic circuits},\ }\href {https://doi.org/10.1038/nature09326}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
+  {volume} {467}},\ \bibinfo {pages} {167} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Félix}\ and\ \citenamefont
+  {Barkoulas}(2015)}]{Felix}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.-A.}\ \bibnamefont
+  {Félix}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Barkoulas}},\ }\bibfield  {title} {\bibinfo {title} {Pervasive robustness in
+  biological systems},\ }\href {https://doi.org/10.1038/nrg3949} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Reviews Genetics}\ }\textbf {\bibinfo
+  {volume} {16}},\ \bibinfo {pages} {483} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Furusawa}\ \emph {et~al.}(2005)\citenamefont
+  {Furusawa}, \citenamefont {Suzuki}, \citenamefont {Kashiwagi}, \citenamefont
+  {Yomo},\ and\ \citenamefont {Kaneko}}]{Furusawa2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Furusawa}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Suzuki}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kashiwagi}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Yomo}},\ and\ \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Kaneko}},\ }\bibfield  {title} {\bibinfo
+  {title} {Ubiquity of log-normal distributions in intra-cellular reaction
+  dynamics},\ }\href {https://doi.org/10.2142/biophysics.1.25} {\bibfield
+  {journal} {\bibinfo  {journal} {Biophysics}\ }\textbf {\bibinfo {volume}
+  {1}},\ \bibinfo {pages} {25} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kaneko}(2007)}]{KanekoPloSOne2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kaneko}},\ }\bibfield  {title} {\bibinfo {title} {Evolution of robustness to
+  noise and mutation in gene expression dynamics},\ }\href
+  {https://doi.org/10.1371/journal.pone.0000434} {\bibfield  {journal}
+  {\bibinfo  {journal} {PLOS ONE}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pham}\ and\ \citenamefont {Kaneko}(2023)}]{Pham2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~M.}\ \bibnamefont
+  {Pham}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Kaneko}},\
+  }\bibfield  {title} {\bibinfo {title} {Double-replica theory for evolution of
+  genotype-phenotype interrelationship},\ }\href
+  {https://doi.org/10.1103/PhysRevResearch.5.023049} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Res.}\ }\textbf {\bibinfo {volume} {5}},\
+  \bibinfo {pages} {023049} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bressloff}(2017)}]{Bressloff_2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~C.}\ \bibnamefont
+  {Bressloff}},\ }\bibfield  {title} {\bibinfo {title} {Stochastic switching in
+  biology: from genotype to phenotype},\ }\href
+  {https://doi.org/10.1088/1751-8121/aa5db4} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Physics A: Mathematical and Theoretical}\ }\textbf
+  {\bibinfo {volume} {50}},\ \bibinfo {pages} {133001} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nichol}\ \emph {et~al.}(2019)\citenamefont {Nichol},
+  \citenamefont {Robertson-Tessi}, \citenamefont {Anderson},\ and\
+  \citenamefont {Jeavons}}]{Nichol}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Nichol}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Robertson-Tessi}}, \bibinfo {author} {\bibfnamefont {A.~R.~A.}\ \bibnamefont
+  {Anderson}},\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Jeavons}},\ }\bibfield  {title} {\bibinfo {title} {Model
+  genotype–phenotype mappings and the algorithmic structure of evolution},\
+  }\href {https://doi.org/10.1098/rsif.2019.0332} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of The Royal Society Interface}\ }\textbf
+  {\bibinfo {volume} {16}},\ \bibinfo {pages} {20190332} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{Note1()}]{Note1}%
+  \BibitemOpen
+  \bibinfo {note} {The effective dynamics is expected to yield the same
+  statistics as that of the original dynamics, in an analogous manner to what
+  has been rigorously proven for spin glasses \cite
+  {BenArous2006}.}\BibitemShut {Stop}%
+\bibitem [{Note2()}]{Note2}%
+  \BibitemOpen
+  \bibinfo {note} {Note that $h_{kj}$ differs from the local field typically
+  used in spin-models and neural networks, where for a spin (neuron) $i$ its
+  local field is the sum over the states $\sigma _j$ of its neighbors $h_i =
+  \DOTSB \sum@ \slimits@ _{j\protect \neq i} J_{ij}\sigma _j$.}\BibitemShut
+  {Stop}%
+\bibitem [{Note3()}]{Note3}%
+  \BibitemOpen
+  \bibinfo {note} {Note that when all the interactions between target genes
+  become positive, another rescaling applies for $J_{ij}^{(tt)}$, namely $
+  J_{ij}^{(tt)} \rightarrow J_{ij}^{(tt)}/N_t$, while for the couplings between
+  target- and non-target genes $ J_{ij}^{(to)} \rightarrow
+  J_{ij}^{(to)}/\protect \sqrt {N_t}$.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Coolen}(2001)}]{COOLEN2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Coolen}},\ }\bibfield  {title} {\bibinfo {title} {Statistical mechanics of
+  recurrent neural networks {II} — {D}ynamics},\ }in\ \href
+  {https://doi.org/https://doi.org/10.1016/S1383-8121(01)80018-X} {\emph
+  {\bibinfo {booktitle} {Neuro-Informatics and Neural Modelling}}},\ \bibinfo
+  {series} {Handbook of Biological Physics}, Vol.~\bibinfo {volume} {4},\
+  \bibinfo {editor} {edited by\ \bibinfo {editor} {\bibfnamefont
+  {F.}~\bibnamefont {Moss}}\ and\ \bibinfo {editor} {\bibfnamefont
+  {S.}~\bibnamefont {Gielen}}}\ (\bibinfo  {publisher} {North-Holland},\
+  \bibinfo {year} {2001})\ pp.\ \bibinfo {pages} {619--684}\BibitemShut
+  {NoStop}%
+\bibitem [{Note4()}]{Note4}%
+  \BibitemOpen
+  \bibinfo {note} {If we consider a sequential dynamics for the couplings then
+  the first two equations are $ d\protect \mathbf {Y}(\tau )/d\tau = - \protect
+  \mathbf {Y}(\tau ) + {\protect \rm tanh} \leavevmode@ifvmode {\setbox \z@
+  \hbox {\mathsurround \z@ $\nulldelimiterspace \z@ \left (\vcenter to\@ne
+  \big@size {}\right .$}\box \z@ }\protect \mathbf {H}(\tau
+  )\leavevmode@ifvmode {\setbox \z@ \hbox {\mathsurround \z@
+  $\nulldelimiterspace \z@ \left )\vcenter to\@ne \big@size {}\right .$}\box
+  \z@ }$, where $\protect \mathbf {Y} = (\protect \hat {w}, \protect \hat
+  {\lambda })$ and $\protect \mathbf {H}(\tau )$ is given by the same
+  expressions as in \protect \textup {\hbox {\mathsurround \z@ \protect
+  \normalfont (\ignorespaces \ref {closed1}\unskip \@@italiccorr
+  )}}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eissfeller}\ and\ \citenamefont
+  {Opper}(1992)}]{Eissfeller}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Eissfeller}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Opper}},\ }\bibfield  {title} {\bibinfo {title} {New method for studying the
+  dynamics of disordered spin systems without finite-size effects},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.68.2094} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {68}},\ \bibinfo
+  {pages} {2094} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Roy}\ \emph {et~al.}(2019)\citenamefont {Roy},
+  \citenamefont {Biroli}, \citenamefont {Bunin},\ and\ \citenamefont
+  {Cammarota}}]{Roy2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Roy}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Biroli}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Bunin}},\ and\ \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Cammarota}},\ }\bibfield  {title}
+  {\bibinfo {title} {Numerical implementation of dynamical mean field theory
+  for disordered systems: application to the {L}otka–{V}olterra model of
+  ecosystems},\ }\href {https://doi.org/10.1088/1751-8121/ab1f32} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Physics A: Mathematical and
+  Theoretical}\ }\textbf {\bibinfo {volume} {52}},\ \bibinfo {pages} {484001}
+  (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Glass}\ and\ \citenamefont
+  {A.~Kauffman}(1973)}]{GLASS}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Glass}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {A.~Kauffman}},\ }\bibfield  {title} {\bibinfo {title} {The logical analysis
+  of continuous, non-linear biochemical control networks},\ }\href
+  {https://doi.org/https://doi.org/10.1016/0022-5193(73)90208-7} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Theoretical Biology}\ }\textbf
+  {\bibinfo {volume} {39}},\ \bibinfo {pages} {103} (\bibinfo {year}
+  {1973})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mjolsness}\ \emph {et~al.}(1991)\citenamefont
+  {Mjolsness}, \citenamefont {Sharp},\ and\ \citenamefont
+  {Reinitz}}]{MJOLSNESS}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Mjolsness}}, \bibinfo {author} {\bibfnamefont {D.~H.}\ \bibnamefont
+  {Sharp}},\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Reinitz}},\ }\bibfield  {title} {\bibinfo {title} {A connectionist model of
+  development},\ }\href
+  {https://doi.org/https://doi.org/10.1016/S0022-5193(05)80391-1} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Theoretical Biology}\ }\textbf
+  {\bibinfo {volume} {152}},\ \bibinfo {pages} {429} (\bibinfo {year}
+  {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Furusawa}\ and\ \citenamefont
+  {Kaneko}(2008)}]{Furusawa2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Furusawa}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kaneko}},\ }\bibfield  {title} {\bibinfo {title} {A generic mechanism for
+  adaptive growth rate regulation},\ }\href
+  {https://doi.org/10.1371/journal.pcbi.0040003} {\bibfield  {journal}
+  {\bibinfo  {journal} {PLOS Computational Biology}\ }\textbf {\bibinfo
+  {volume} {4}},\ \bibinfo {pages} {1} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Salazar-Ciudad}\ \emph {et~al.}(2001)\citenamefont
+  {Salazar-Ciudad}, \citenamefont {Newman},\ and\ \citenamefont
+  {Solé}}]{Salazar-Ciudad}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Salazar-Ciudad}}, \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Newman}},\ and\ \bibinfo {author} {\bibfnamefont {R.~V.}\ \bibnamefont
+  {Solé}},\ }\bibfield  {title} {\bibinfo {title} {Phenotypic and dynamical
+  transitions in model genetic networks i. emergence of patterns and
+  genotype-phenotype relationships},\ }\href
+  {https://doi.org/https://doi.org/10.1046/j.1525-142x.2001.003002084.x}
+  {\bibfield  {journal} {\bibinfo  {journal} {Evolution \& Development}\
+  }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages} {84} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ciliberti}\ \emph {et~al.}(2007)\citenamefont
+  {Ciliberti}, \citenamefont {Martin},\ and\ \citenamefont
+  {Wagner}}]{Ciliberti}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ciliberti}}, \bibinfo {author} {\bibfnamefont {O.~C.}\ \bibnamefont
+  {Martin}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Wagner}},\ }\bibfield  {title} {\bibinfo {title} {Robustness can evolve
+  gradually in complex regulatory gene networks with varying topology},\ }\href
+  {https://doi.org/10.1371/journal.pcbi.0030015} {\bibfield  {journal}
+  {\bibinfo  {journal} {PLOS Computational Biology}\ }\textbf {\bibinfo
+  {volume} {3}},\ \bibinfo {pages} {1} (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hebb}(1949)}]{hebb1949}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Hebb}},\ }\href@noop {} {\emph {\bibinfo {title} {The organization of
+  behavior. A neuropsychological theory}}}\ (\bibinfo  {publisher} {John
+  Wiley},\ \bibinfo {year} {1949})\BibitemShut {NoStop}%
+\bibitem [{Note5()}]{Note5}%
+  \BibitemOpen
+  \bibinfo {note} {This square-root form of the original Hebbian rule is due to
+  the definition of fitness $\Psi $.}\BibitemShut {Stop}%
+\bibitem [{Note6()}]{Note6}%
+  \BibitemOpen
+  \bibinfo {note} {Note that since our calculations are restricted to the mean
+  values of $J^{(tt)}$ and $J^{(to)}$, they can not be used to study how
+  similar the evolved genotypes are in the robust phase}\BibitemShut {NoStop}%
+\bibitem [{Note7()}]{Note7}%
+  \BibitemOpen
+  \bibinfo {note} {In case where the system has a non-zero averaged activity $m
+  >0$, as $t, \tau \rightarrow \infty $, $\chi \propto \chi _m := \DOTSB \sum@
+  \slimits@ _{\tau ' = 0}^\tau G_m(t,\tau ,\tau ')$, where $G_{m}(t, \tau ,
+  \tau ') := \partial \langle x(t, \tau ) \rangle \leavevmode@ifvmode {\setbox
+  \z@ \hbox {\mathsurround \z@ $\nulldelimiterspace \z@ \left /\vcenter to\@ne
+  \big@size {}\right .$}\box \z@ }\partial \protect \hat {\mu }(\tau ') $ is
+  the response to mutation. Such proportionality between the two responses that
+  implies a correlation between phenotypic changes due to genetic variation and
+  those in response to environmental perturbations, as suggested by \cite
+  {KanekoPloSOne2007,Sato2003,Kaneko2006,Ciliberti, Sakata2020, Pham2022,
+  Tang2021, Landry, Silva-Rocha, Uchida}, does not exist if $m\simeq
+  0$.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Zhou}\ \emph {et~al.}(2022)\citenamefont {Zhou},
+  \citenamefont {Wong}, \citenamefont {Chen}, \citenamefont {Krainer},
+  \citenamefont {Kinney},\ and\ \citenamefont {McCandlish}}]{Zhou2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Zhou}}, \bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont {Wong}},
+  \bibinfo {author} {\bibfnamefont {W.-C.}\ \bibnamefont {Chen}}, \bibinfo
+  {author} {\bibfnamefont {A.~R.}\ \bibnamefont {Krainer}}, \bibinfo {author}
+  {\bibfnamefont {J.~B.}\ \bibnamefont {Kinney}},\ and\ \bibinfo {author}
+  {\bibfnamefont {D.~M.}\ \bibnamefont {McCandlish}},\ }\bibfield  {title}
+  {\bibinfo {title} {Higher-order epistasis and phenotypic prediction},\ }\href
+  {https://doi.org/10.1073/pnas.2204233119} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {119}},\ \bibinfo {pages} {e2204233119} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dekel}\ and\ \citenamefont {Alon}(2005)}]{Dekel2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Dekel}}\ and\ \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Alon}},\
+  }\bibfield  {title} {\bibinfo {title} {Optimality and evolutionary tuning of
+  the expression level of a protein},\ }\href
+  {https://doi.org/10.1038/nature03842} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature}\ }\textbf {\bibinfo {volume} {436}},\ \bibinfo {pages}
+  {588} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Clark}\ and\ \citenamefont
+  {Abbott}(2023)}]{clark2023theory}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~G.}\ \bibnamefont
+  {Clark}}\ and\ \bibinfo {author} {\bibfnamefont {L.~F.}\ \bibnamefont
+  {Abbott}},\ }\href@noop {} {\bibinfo {title} {Theory of coupled
+  neuronal-synaptic dynamics}} (\bibinfo {year} {2023}),\ \Eprint
+  {https://arxiv.org/abs/2302.08985} {arXiv:2302.08985} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pereira-Obilinovic}\ \emph
+  {et~al.}(2023)\citenamefont {Pereira-Obilinovic}, \citenamefont {Aljadeff},\
+  and\ \citenamefont {Brunel}}]{Pereira-Obilinovic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Pereira-Obilinovic}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Aljadeff}},\ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Brunel}},\ }\bibfield  {title} {\bibinfo {title} {Forgetting leads to chaos
+  in attractor networks},\ }\href {https://doi.org/10.1103/PhysRevX.13.011009}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo
+  {volume} {13}},\ \bibinfo {pages} {011009} (\bibinfo {year}
+  {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ben~Arous}\ \emph {et~al.}(2006)\citenamefont
+  {Ben~Arous}, \citenamefont {Dembo},\ and\ \citenamefont
+  {Guionnet}}]{BenArous2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Ben~Arous}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Dembo}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Guionnet}},\
+  }\bibfield  {title} {\bibinfo {title} {{C}ugliandolo-{K}urchan equations for
+  dynamics of spin-glasses},\ }\href
+  {https://doi.org/10.1007/s00440-005-0491-y} {\bibfield  {journal} {\bibinfo
+  {journal} {Probability Theory and Related Fields}\ }\textbf {\bibinfo
+  {volume} {136}},\ \bibinfo {pages} {619} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sato}\ \emph {et~al.}(2003)\citenamefont {Sato},
+  \citenamefont {Ito}, \citenamefont {Yomo},\ and\ \citenamefont
+  {Kaneko}}]{Sato2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Sato}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Ito}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Yomo}},\ and\ \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Kaneko}},\ }\bibfield  {title} {\bibinfo
+  {title} {On the relation between fluctuation and response in biological
+  systems},\ }\href {https://doi.org/10.1073/pnas.2334996100} {\bibfield
+  {journal} {\bibinfo  {journal} {Proceedings of the National Academy of
+  Sciences}\ }\textbf {\bibinfo {volume} {100}},\ \bibinfo {pages} {14086}
+  (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kaneko}\ and\ \citenamefont
+  {Furusawa}(2006)}]{Kaneko2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kaneko}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Furusawa}},\ }\bibfield  {title} {\bibinfo {title} {An evolutionary
+  relationship between genetic variation and phenotypic fluctuation},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.jtbi.2005.08.029} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Theoretical Biology}\ }\textbf
+  {\bibinfo {volume} {240}},\ \bibinfo {pages} {78} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sakata}\ and\ \citenamefont
+  {Kaneko}(2020)}]{Sakata2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Sakata}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kaneko}},\ }\bibfield  {title} {\bibinfo {title} {Dimensional reduction in
+  evolving spin-glass model: Correlation of phenotypic responses to
+  environmental and mutational changes},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.124.218101} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {124}},\
+  \bibinfo {pages} {218101} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tang}\ and\ \citenamefont {Kaneko}(2021)}]{Tang2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Q.-Y.}\ \bibnamefont
+  {Tang}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Kaneko}},\
+  }\bibfield  {title} {\bibinfo {title} {Dynamics-evolution correspondence in
+  protein structures},\ }\href {https://doi.org/10.1103/PhysRevLett.127.098103}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {127}},\ \bibinfo {pages} {098103} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Landry}\ \emph {et~al.}(2007)\citenamefont {Landry},
+  \citenamefont {Lemos}, \citenamefont {Rifkin}, \citenamefont {Dickinson},\
+  and\ \citenamefont {Hartl}}]{Landry}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont
+  {Landry}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Lemos}},
+  \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont {Rifkin}}, \bibinfo
+  {author} {\bibfnamefont {W.~J.}\ \bibnamefont {Dickinson}},\ and\ \bibinfo
+  {author} {\bibfnamefont {D.~L.}\ \bibnamefont {Hartl}},\ }\bibfield  {title}
+  {\bibinfo {title} {Genetic properties influencing the evolvability of gene
+  expression},\ }\href {https://doi.org/10.1126/science.1140247} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {317}},\ \bibinfo {pages} {118} (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Silva-Rocha}\ and\ \citenamefont
+  {de~Lorenzo}(2010)}]{Silva-Rocha}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Silva-Rocha}}\ and\ \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {de~Lorenzo}},\ }\bibfield  {title} {\bibinfo {title} {Noise and robustness
+  in prokaryotic regulatory networks},\ }\href
+  {https://doi.org/10.1146/annurev.micro.091208.073229} {\bibfield  {journal}
+  {\bibinfo  {journal} {Annual Review of Microbiology}\ }\textbf {\bibinfo
+  {volume} {64}},\ \bibinfo {pages} {257} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Uchida}\ \emph {et~al.}(2022)\citenamefont {Uchida},
+  \citenamefont {Shigenobu}, \citenamefont {Takeda}, \citenamefont {Furusawa},\
+  and\ \citenamefont {Irie}}]{Uchida}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Uchida}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Shigenobu}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Takeda}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Furusawa}},\ and\ \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Irie}},\ }\bibfield  {title}
+  {\bibinfo {title} {Potential contribution of intrinsic developmental
+  stability toward body plan conservation},\ }\href
+  {https://doi.org/10.1186/s12915-022-01276-5} {\bibfield  {journal} {\bibinfo
+  {journal} {BMC Biology}\ }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages}
+  {82} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\end{thebibliography}%

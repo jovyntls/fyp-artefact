@@ -1,0 +1,162 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017" --jobname="2306.01017_tl2020"  "2306.01017"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020.bbl in line'
+ No file 2306.01017_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `1' on page 1 undefined on input line 15
+  Citation `1' on page 10 undefined on input line 341
+  Citation `1' on page 2 undefined on input line 63
+  Citation `10' on page 1 undefined on input line 15
+  Citation `10' on page 10 undefined on input line 345
+  Citation `10' on page 10 undefined on input line 353
+  Citation `10' on page 10 undefined on input line 361
+  Citation `11' on page 1 undefined on input line 15
+  Citation `11' on page 9 undefined on input line 293
+  Citation `12' on page 1 undefined on input line 15
+  Citation `12' on page 10 undefined on input line 357
+  Citation `12' on page 10 undefined on input line 361
+  Citation `12' on page 10 undefined on input line 366
+  Citation `12' on page 2 undefined on input line 63
+  Citation `12' on page 6 undefined on input line 199
+  Citation `12' on page 9 undefined on input line 293
+  Citation `13' on page 1 undefined on input line 15
+  Citation `13' on page 6 undefined on input line 199
+  Citation `13' on page 9 undefined on input line 293
+  Citation `14' on page 1 undefined on input line 17
+  Citation `14' on page 3 undefined on input line 85
+  Citation `14' on page 4 undefined on input line 130
+  Citation `14' on page 5 undefined on input line 180
+  Citation `14' on page 6 undefined on input line 195
+  Citation `14' on page 8 undefined on input line 263
+  Citation `15' on page 1 undefined on input line 17
+  Citation `15' on page 1 undefined on input line 19
+  Citation `15' on page 6 undefined on input line 199
+  Citation `15' on page 7 undefined on input line 232
+  Citation `15' on page 8 undefined on input line 273
+  Citation `15' on page 9 undefined on input line 295
+  Citation `15' on page 9 undefined on input line 297
+  Citation `15' on page 9 undefined on input line 335
+  Citation `16' on page 1 undefined on input line 17
+  Citation `16' on page 1 undefined on input line 21
+  Citation `16' on page 4 undefined on input line 115
+  Citation `16' on page 4 undefined on input line 130
+  Citation `16' on page 5 undefined on input line 180
+  Citation `16' on page 6 undefined on input line 195
+  Citation `16' on page 7 undefined on input line 232
+  Citation `17' on page 1 undefined on input line 17
+  Citation `17' on page 1 undefined on input line 19
+  Citation `17' on page 7 undefined on input line 232
+  Citation `17' on page 7 undefined on input line 240
+  Citation `18' on page 1 undefined on input line 17
+  Citation `18' on page 1 undefined on input line 19
+  Citation `18' on page 7 undefined on input line 232
+  Citation `18' on page 7 undefined on input line 240
+  Citation `19' on page 1 undefined on input line 17
+  Citation `19' on page 3 undefined on input line 83
+  Citation `19' on page 7 undefined on input line 232
+  Citation `2' on page 1 undefined on input line 15
+  Citation `2' on page 2 undefined on input line 55
+  Citation `2' on page 6 undefined on input line 199
+  Citation `20' on page 1 undefined on input line 17
+  Citation `20' on page 4 undefined on input line 115
+  Citation `20' on page 8 undefined on input line 283
+  Citation `21' on page 1 undefined on input line 17
+  Citation `21' on page 5 undefined on input line 164
+  Citation `22' on page 2 undefined on input line 35
+  Citation `23' on page 10 undefined on input line 341
+  Citation `23' on page 2 undefined on input line 55
+  Citation `23' on page 2 undefined on input line 59
+  Citation `23' on page 9 undefined on input line 293
+  Citation `24' on page 5 undefined on input line 180
+  Citation `25' on page 5 undefined on input line 180
+  Citation `25' on page 7 undefined on input line 232
+  Citation `26' on page 5 undefined on input line 180
+  Citation `27' on page 6 undefined on input line 195
+  Citation `28' on page 10 undefined on input line 345
+  Citation `28' on page 6 undefined on input line 195
+  Citation `29' on page 10 undefined on input line 365
+  Citation `29' on page 6 undefined on input line 199
+  Citation `29' on page 9 undefined on input line 334
+  Citation `29' on page 9 undefined on input line 335
+  Citation `3' on page 1 undefined on input line 15
+  Citation `3' on page 10 undefined on input line 341
+  Citation `30' on page 10 undefined on input line 365
+  Citation `30' on page 6 undefined on input line 199
+  Citation `30' on page 9 undefined on input line 295
+  Citation `30' on page 9 undefined on input line 297
+  Citation `30' on page 9 undefined on input line 334
+  Citation `31' on page 10 undefined on input line 365
+  Citation `31' on page 6 undefined on input line 199
+  Citation `31' on page 9 undefined on input line 295
+  Citation `31' on page 9 undefined on input line 301
+  Citation `31' on page 9 undefined on input line 334
+  Citation `32' on page 8 undefined on input line 278
+  Citation `33' on page 8 undefined on input line 283
+  Citation `33' on page 9 undefined on input line 293
+  Citation `34' on page 9 undefined on input line 293
+  Citation `35' on page 10 undefined on input line 345
+  Citation `36' on page 10 undefined on input line 366
+  Citation `4' on page 1 undefined on input line 15
+  Citation `4' on page 1 undefined on input line 25
+  Citation `4' on page 10 undefined on input line 361
+  Citation `4' on page 2 undefined on input line 55
+  Citation `4' on page 2 undefined on input line 63
+  Citation `5' on page 1 undefined on input line 15
+  Citation `5' on page 1 undefined on input line 25
+  Citation `5' on page 10 undefined on input line 361
+  Citation `6' on page 1 undefined on input line 15
+  Citation `7' on page 1 undefined on input line 15
+  Citation `7' on page 1 undefined on input line 17
+  Citation `7' on page 10 undefined on input line 341
+  Citation `7' on page 10 undefined on input line 345
+  Citation `7' on page 2 undefined on input line 63
+  Citation `8' on page 1 undefined on input line 15
+  Citation `8' on page 1 undefined on input line 17
+  Citation `8' on page 1 undefined on input line 21
+  Citation `8' on page 10 undefined on input line 341
+  Citation `8' on page 10 undefined on input line 345
+  Citation `8' on page 2 undefined on input line 63
+  Citation `8' on page 5 undefined on input line 180
+  Citation `8' on page 5 undefined on input line 193
+  Citation `8' on page 6 undefined on input line 195
+  Citation `8' on page 8 undefined on input line 278
+  Citation `9' on page 1 undefined on input line 15
+  Reference `LastBibItem' on page 11 undefined on input line 377
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020Notes.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020.aux'
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020'
+------------
+------------
+Running 'bibtex  "2306.01017_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020.bbl'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017" --jobname="2306.01017_tl2020"  "2306.01017"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020.pdf'
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01017/2306.01017_tl2020Notes.bib]
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

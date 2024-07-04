@@ -1,0 +1,16 @@
+# Fdb version 3
+["pdflatex"] 1710918505 "submission.tex" "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00055/2306.00055_tl2020.pdf" "2306.00055_tl2020" 1710918505
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00055/2306.00055_tl2020.aux" 1710918505 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00055/jheppub.sty" 0 -1 0 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls" 1601675358 20145 aad8c3dd3bc36e260347b84002182bc2 ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo" 1601675358 8465 2dd6985139dc15bc64ec71e501e76e40 ""
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1598393674 39451 15a3ebee027466ecb89701aa91dfebaf ""
+  "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1653298114 2706598 dd3fff2e00bd0acc0b69c80203c057d7 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1653298075 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "jheppub.sty" 0 -1 0 ""
+  "submission.tex" 1695224886 146317 c9223a89e9a61be0e59c60f7887449d7 ""
+  (generated)
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00055/2306.00055_tl2020.log"
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00055/2306.00055_tl2020.pdf"

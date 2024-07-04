@@ -1,0 +1,183 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237" --jobname="2306.03237_tl2020"  "2306.03237"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.bbl in line'
+ No file 2306.03237_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `1' on page 1 undefined on input line 107
+  Citation `2' on page 1 undefined on input line 107
+  Citation `3' on page 1 undefined on input line 107
+  Citation `4' on page 1 undefined on input line 107
+  Citation `5' on page 1 undefined on input line 107
+  Citation `6' on page 1 undefined on input line 107
+  Citation `7' on page 1 undefined on input line 107
+  Citation `Baquie' on page 1 undefined on input line 107
+  Citation `Baquie' on page 1 undefined on input line 111
+  Citation `Baquie' on page 2 undefined on input line 129
+  Citation `Baquie' on page 2 undefined on input line 139
+  Citation `Baquie' on page 3 undefined on input line 232
+  Citation `Baquie' on page 4 undefined on input line 244
+  Citation `Gauge2' on page 1 undefined on input line 107
+  Citation `Gauge3' on page 1 undefined on input line 107
+  Citation `Gauge4' on page 1 undefined on input line 107
+  Citation `Gauge5' on page 1 undefined on input line 107
+  Citation `Gauge6' on page 1 undefined on input line 107
+  Citation `Ground' on page 1 undefined on input line 107
+  Citation `Ground2' on page 1 undefined on input line 107
+  Citation `Ground3' on page 1 undefined on input line 107
+  Citation `Ground4' on page 1 undefined on input line 107
+  Citation `Higgs' on page 1 undefined on input line 107
+  Citation `Higgs' on page 5 undefined on input line 353
+  Citation `Higgs2' on page 1 undefined on input line 107
+  Citation `Martingale' on page 2 undefined on input line 139
+  Citation `Martingale2' on page 2 undefined on input line 139
+  Citation `Martingale3' on page 2 undefined on input line 139
+  Citation `Martingale4' on page 2 undefined on input line 139
+  Citation `Martingale5' on page 2 undefined on input line 139
+  Citation `Mypapers' on page 1 undefined on input line 107
+  Citation `Mypapers1' on page 1 undefined on input line 107
+  Citation `Mypapers11' on page 1 undefined on input line 107
+  Citation `Mypapers12' on page 1 undefined on input line 107
+  Citation `Mypapers13' on page 1 undefined on input line 107
+  Citation `Mypapers14' on page 1 undefined on input line 107
+  Citation `Mypapers15' on page 1 undefined on input line 107
+  Citation `Mypapers2' on page 1 undefined on input line 107
+  Citation `Mypapers2' on page 1 undefined on input line 111
+  Citation `Mypapers2' on page 2 undefined on input line 157
+  Citation `Mypapers2' on page 2 undefined on input line 161
+  Citation `Mypapers2' on page 2 undefined on input line 173
+  Citation `Mypapers2' on page 4 undefined on input line 254
+  Citation `Mypapers2' on page 4 undefined on input line 272
+  Citation `Mypapers2' on page 4 undefined on input line 278
+  Citation `Mypapers2' on page 5 undefined on input line 308
+  Citation `Mypapers2' on page 5 undefined on input line 314
+  Citation `Mypapers2' on page 5 undefined on input line 321
+  Citation `Mypapers2' on page 5 undefined on input line 349
+  Citation `Mypapers21' on page 1 undefined on input line 107
+  Citation `Mypapers21' on page 4 undefined on input line 244
+  Citation `Mypapers21' on page 4 undefined on input line 272
+  Citation `Mypapers21' on page 5 undefined on input line 349
+  Citation `Mypapers31' on page 1 undefined on input line 107
+  Citation `Mypapers32' on page 1 undefined on input line 107
+  Citation `Spo' on page 1 undefined on input line 107
+  Citation `Spo1' on page 1 undefined on input line 107
+  Citation `Spo2' on page 1 undefined on input line 107
+  Citation `Spo3' on page 1 undefined on input line 107
+  Citation `Spo4' on page 1 undefined on input line 107
+  Citation `Vol2' on page 2 undefined on input line 129
+  Citation `Volatility' on page 2 undefined on input line 129
+  Citation `gauge' on page 1 undefined on input line 107
+  Reference `BSHamiltonian' on page 2 undefined on input line 129
+  Reference `BSHamiltonian' on page 2 undefined on input line 161
+  Reference `BSHamiltonian' on page 2 undefined on input line 173
+  Reference `BSHamiltonian' on page 2 undefined on input line 177
+  Reference `BSHamiltonian' on page 3 undefined on input line 183
+  Reference `BSHamiltonian' on page 3 undefined on input line 190
+  Reference `BSHamiltonian' on page 3 undefined on input line 196
+  Reference `Cagados' on page 4 undefined on input line 304
+  Reference `Cagados' on page 5 undefined on input line 314
+  Reference `CovDer' on page 3 undefined on input line 238
+  Reference `CovDer' on page 4 undefined on input line 298
+  Reference `Derivative' on page 2 undefined on input line 173
+  Reference `LastBibItem' on page 5 undefined on input line 368
+  Reference `MertonMOdified' on page 3 undefined on input line 209
+  Reference `MertonMOdified2' on page 3 undefined on input line 216
+  Reference `MertonMOdified2' on page 3 undefined on input line 224
+  Reference `MertonMOdified2' on page 3 undefined on input line 232
+  Reference `MertonMOdified2' on page 4 undefined on input line 248
+  Reference `MertonMOdified2' on page 4 undefined on input line 254
+  Reference `MertonMOdified2' on page 4 undefined on input line 272
+  Reference `MertonMOdified2' on page 5 undefined on input line 349
+  Reference `ModHamiltonia' on page 3 undefined on input line 224
+  Reference `OperatoirC' on page 4 undefined on input line 285
+  Reference `Rich' on page 5 undefined on input line 314
+  Reference `StockPrice' on page 2 undefined on input line 177
+  Reference `THisonemama' on page 4 undefined on input line 272
+  Reference `Vacredef' on page 5 undefined on input line 333
+  Reference `Volcoeff' on page 3 undefined on input line 232
+  Reference `Volcoeff' on page 4 undefined on input line 244
+  Reference `Volcoeff' on page 4 undefined on input line 248
+  Reference `Volcoeff' on page 4 undefined on input line 260
+  Reference `Volcoeff' on page 4 undefined on input line 272
+  Reference `Volcoeff' on page 4 undefined on input line 285
+  Reference `Volcoeff' on page 4 undefined on input line 292
+  Reference `Volcoeff' on page 4 undefined on input line 298
+  Reference `Volcoeff' on page 4 undefined on input line 304
+  Reference `beokensym' on page 2 undefined on input line 173
+  Reference `corona4' on page 4 undefined on input line 260
+  Reference `eq.1' on page 2 undefined on input line 129
+  Reference `eq.2' on page 2 undefined on input line 157
+  Reference `happo2' on page 4 undefined on input line 292
+  Reference `happo2' on page 5 undefined on input line 314
+  Reference `happo3' on page 5 undefined on input line 321
+  Reference `happo3' on page 5 undefined on input line 333
+  Reference `happo4' on page 5 undefined on input line 341
+  Reference `happo5' on page 5 undefined on input line 349
+  Reference `happotential' on page 4 undefined on input line 285
+  Reference `happotential' on page 4 undefined on input line 292
+  Reference `happotential' on page 5 undefined on input line 314
+  Reference `newmartin' on page 4 undefined on input line 254
+  Reference `newmartin' on page 4 undefined on input line 272
+  Reference `newmartin' on page 4 undefined on input line 285
+  Reference `newmartin' on page 5 undefined on input line 314
+  Reference `nonunique' on page 5 undefined on input line 349
+  Reference `trivacc' on page 5 undefined on input line 314
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020Notes.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.aux'
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020'
+------------
+------------
+Running 'bibtex  "2306.03237_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.bbl'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237" --jobname="2306.03237_tl2020"  "2306.03237"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.pdf'
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020Notes.bib]
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.aux'
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020'
+------------
+------------
+Running 'bibtex  "2306.03237_tl2020.aux"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.aux'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237" --jobname="2306.03237_tl2020"  "2306.03237"'
+------------
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020.pdf'
+Latexmk: Found bibliography file(s) [/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.03237/2306.03237_tl2020Notes.bib]
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

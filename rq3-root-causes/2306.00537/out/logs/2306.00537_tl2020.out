@@ -1,0 +1,1812 @@
+Set environment variable BIBINPUTS='/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537:'
+Set environment variable TEXINPUTS='/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537:'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main_v2.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/utf8x.def))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/ucs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-global.def))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/authblk.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.
+00537_tl2020.aux) (/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/ucsencs.def
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/usr/local/t
+exlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `Gregor2007a' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Rogers2011' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Lander2011' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Balaskas2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Kicheva2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Shvartsman2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Briscoe2015' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Bier2015' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Stapornwongkul2020' on page 2 undefined on input line 
+95.
+
+
+LaTeX Warning: Citation `Stapornwongkul2021' on page 2 undefined on input line 
+95.
+
+
+LaTeX Warning: Citation `Simsek2022' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Gregor2007b' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `DubuisPNAS2011' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Wu2015' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Zagorski2017' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Petkova2019' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Kuzmicz-Kowalska2020' on page 2 undefined on input lin
+e 95.
+
+
+LaTeX Warning: Citation `Tkacik2021' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Iyer2022' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Sokolowski2023' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Minchington2023' on page 2 undefined on input line 95.
+
+
+
+LaTeX Warning: Citation `Swain2002' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Raser2005' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Paulsson2005' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Raj2008' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Chalancon2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Averbukh2017' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Zagorski2017' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Kicheva2014' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Cohen2015' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Drocco2011' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Durrieu2018' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Swain2002' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Raser2005' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Paulsson2005' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Raj2008' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Chalancon2012' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Averbukh2017' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Huh2011' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Thomas2019' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Raj2008' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Pedraza2005' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Stockholm2010' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Waddington1942' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Waddington1959' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Simsek2022' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Iyer2022' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Averbukh2017' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Balaskas2012' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Alon2007' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Cotterell2010' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Burda2011' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Martin2016' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Verd2017' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Verd2019' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 2 undefined on input line 103.
+
+
+
+LaTeX Warning: Citation `Sokolowski2015' on page 2 undefined on input line 103.
+
+
+
+LaTeX Warning: Citation `Zagorski2017' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Sokolowski2023' on page 2 undefined on input line 103.
+
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 2 undefined on input line 103.
+
+
+
+LaTeX Warning: Citation `Zagorski2017' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Jaeger2011' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Dubuis2013' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Manu2009PlosBiol' on page 2 undefined on input line 10
+5.
+
+
+LaTeX Warning: Citation `Surkova2008' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Clyde2003' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 2 undefined on input line 109.
+
+
+LaTeX Warning: Citation `Majka2023' on page 2 undefined on input line 109.
+
+[2]
+
+LaTeX Warning: Citation `BeckerTenWolde2012' on page 3 undefined on input line 
+114.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 3 undefined on input 
+line 114.
+
+
+LaTeX Warning: Citation `Majka2023' on page 3 undefined on input line 114.
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 3 undefined on input line 123.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+
+LaTeX Warning: Reference `Fig-ModelSketch' on page 3 undefined on input line 13
+6.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 3 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Jaeger2011' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Dubuis2013' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Manu2009PlosBiol' on page 3 undefined on input line 13
+7.
+
+
+LaTeX Warning: Citation `Surkova2008' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Clyde2003' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Erdmann2009' on page 3 undefined on input line 147.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 3 undefined on input line 147.
+
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 3 undefined on input line 169
+.
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 3 undefined on input line 169
+.
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Clyde2003' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Kraut1991a' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Kraut1991b' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Eldon1991' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Hulskamp1990' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Jackle1986' on page 3 undefined on input line 172.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+[4 <./Figures/FigureModel.pdf>]
+
+LaTeX Warning: Reference `Fig-TypicalOutput' on page 5 undefined on input line 
+197.
+
+
+LaTeX Warning: Reference `Fig-ModelSketch' on page 5 undefined on input line 22
+7.
+
+
+LaTeX Warning: Reference `Fig-ModelSketch' on page 5 undefined on input line 22
+7.
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 5 undefined on input line 235
+.
+
+
+LaTeX Warning: Reference `Fig-TypicalOutput' on page 5 undefined on input line 
+238.
+
+[5 <./Figures/FigureSystemDynamicsPinnedStable.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/FigurePhaseSpaceComicV5.pdf): PDF incl
+usion: found PDF version <1.6>, but at most version <1.5> allowed
+
+LaTeX Warning: Reference `eq:lambdaACBD' on page 6 undefined on input line 261.
+
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 6 undefined on input line 261
+.
+
+
+LaTeX Warning: Reference `eq:lambdaACBD' on page 6 undefined on input line 261.
+
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 6 undefined on input line 261
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+[6 <./Figures/FigurePhaseSpaceComicV5.pdf>]
+
+LaTeX Warning: Reference `Fig-DensityPinned' on page 7 undefined on input line 
+268.
+
+
+LaTeX Warning: Reference `Fig-DensityPinned' on page 7 undefined on input line 
+272.
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 7 undefined on input line 272
+.
+
+
+LaTeX Warning: Reference `Fig-Stability' on page 7 undefined on input line 312.
+
+
+[7 <./Figures/FigureStabilityGrouped.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 8 undefined on input line 323
+.
+
+
+LaTeX Warning: Reference `eq:lambdaACBD' on page 8 undefined on input line 354.
+
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 8 undefined on input line 354
+.
+
+
+LaTeX Warning: Reference `Fig-DensityPinned' on page 8 undefined on input line 
+354.
+
+
+LaTeX Warning: Reference `eq:deltaACBD' on page 8 undefined on input line 354.
+
+
+LaTeX Warning: Reference `eq:lambdaACBD' on page 8 undefined on input line 354.
+
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 8 undefined on input line 354
+.
+
+
+LaTeX Warning: Reference `Fig-DensityPinned' on page 8 undefined on input line 
+354.
+
+
+LaTeX Warning: Reference `eq:deltaACBD' on page 8 undefined on input line 354.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+
+LaTeX Warning: Citation `Zwanzig1961' on page 8 undefined on input line 389.
+
+
+LaTeX Warning: Citation `Mori1965' on page 8 undefined on input line 389.
+
+
+LaTeX Warning: Citation `Yang2006' on page 8 undefined on input line 390.
+
+
+LaTeX Warning: Citation `Kopelevich2005' on page 8 undefined on input line 390.
+
+
+
+LaTeX Warning: Citation `Hummer2003' on page 8 undefined on input line 390.
+
+
+LaTeX Warning: Citation `Plotkin1998' on page 8 undefined on input line 390.
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 8 undefined on input line 396
+.
+
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 8 undefined on inpu
+t line 401.
+
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 8 undefined on inpu
+t line 401.
+
+[8]
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 9 undefined on inpu
+t line 408.
+
+
+LaTeX Warning: Reference `Fig-DensityPinned' on page 9 undefined on input line 
+409.
+
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 9 undefined on inpu
+t line 410.
+
+[9 <./Figures/FigureVelocities+BasinsV2.pdf>]
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 10 undefined on inp
+ut line 418.
+
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 10 undefined on inp
+ut line 418.
+
+
+LaTeX Warning: Citation `Waddington1942' on page 10 undefined on input line 419
+.
+
+
+LaTeX Warning: Citation `Waddington1959' on page 10 undefined on input line 419
+.
+
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 10 undefined on inp
+ut line 422.
+
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 10 undefined on inp
+ut line 427.
+
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 10 undefined on inp
+ut line 427.
+
+
+LaTeX Warning: Reference `Fig-VelocitiesComparison' on page 10 undefined on inp
+ut line 428.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+
+
+LaTeX Warning: Reference `Fig-Stability' on page 11 undefined on input line 437
+.
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 450.
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 452.
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 453.
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 455.
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 460.
+
+[11]
+
+LaTeX Warning: Citation `Majka2023' on page 12 undefined on input line 462.
+
+
+LaTeX Warning: Reference `Fig-TypicalOutput' on page 12 undefined on input line
+ 462.
+
+
+LaTeX Warning: Reference `Eq-kappa' on page 12 undefined on input line 473.
+
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 12 undefined on input line 47
+3.
+
+
+LaTeX Warning: Citation `Majka2023' on page 12 undefined on input line 487.
+
+
+LaTeX Warning: Reference `eq:stabcond' on page 12 undefined on input line 496.
+
+
+LaTeX Warning: Reference `eq:stabcond' on page 12 undefined on input line 496.
+
+
+LaTeX Warning: Reference `eq:stabcond' on page 12 undefined on input line 501.
+
+
+LaTeX Warning: Reference `eq:type(i)' on page 12 undefined on input line 503.
+
+
+LaTeX Warning: Reference `eq:type(ii)' on page 12 undefined on input line 503.
+
+[12]
+
+LaTeX Warning: Reference `sec-GG-Methods' on page 13 undefined on input line 51
+8.
+
+
+LaTeX Warning: Reference `Fig-Stability' on page 13 undefined on input line 518
+.
+
+[13]
+
+LaTeX Warning: Citation `Surkova2008' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Driever1988a' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Driever1988b' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Frohnhofer1986' on page 14 undefined on input line 526
+.
+
+
+LaTeX Warning: Citation `Struhl1989' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Macdonald1986' on page 14 undefined on input line 526.
+
+
+
+LaTeX Warning: Citation `Schulz1995' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Mlodzik1987' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Balaskas2012' on page 14 undefined on input line 527.
+
+
+LaTeX Warning: Citation `Briscoe2015' on page 14 undefined on input line 527.
+
+
+LaTeX Warning: Citation `Bier2015' on page 14 undefined on input line 527.
+
+
+LaTeX Warning: Citation `Kuzmicz-Kowalska2020' on page 14 undefined on input li
+ne 527.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 14 undefined on input line 527.
+
+
+LaTeX Warning: Citation `Minchington2023' on page 14 undefined on input line 52
+7.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 14 undefined on input line 531
+.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Dubuis2013' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Manu2009PlosBiol' on page 14 undefined on input line 5
+31.
+
+
+LaTeX Warning: Citation `Surkova2008' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Sokolowski2015' on page 14 undefined on input line 531
+.
+
+
+LaTeX Warning: Citation `Kozlov2012' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Crombach2012' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Manu2009PlosCompBiol' on page 14 undefined on input li
+ne 531.
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 14 undefined on input line 532.
+
+
+
+LaTeX Warning: Citation `Surdej1998' on page 14 undefined on input line 534.
+
+
+LaTeX Warning: Citation `Spirov2009' on page 14 undefined on input line 534.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 14 undefined on input
+ line 541.
+
+
+LaTeX Warning: Citation `Waddington1942' on page 14 undefined on input line 556
+.
+
+
+LaTeX Warning: Citation `Waddington1959' on page 14 undefined on input line 556
+.
+
+
+LaTeX Warning: Citation `Manu2009PlosBiol' on page 14 undefined on input line 5
+57.
+
+
+LaTeX Warning: Citation `Manu2009PlosCompBiol' on page 14 undefined on input li
+ne 557.
+
+
+LaTeX Warning: Citation `Majka2023' on page 14 undefined on input line 562.
+
+
+LaTeX Warning: Reference `Fig-Stability' on page 14 undefined on input line 564
+.
+
+[14]
+
+LaTeX Warning: Citation `Majka2023' on page 15 undefined on input line 567.
+
+
+LaTeX Warning: Reference `eq:effdyn' on page 15 undefined on input line 567.
+
+
+LaTeX Warning: Reference `eq:effdyn' on page 15 undefined on input line 569.
+
+
+LaTeX Warning: Citation `Majka2023' on page 15 undefined on input line 569.
+
+
+LaTeX Warning: Citation `Simsek2022' on page 15 undefined on input line 593.
+
+
+LaTeX Warning: Citation `Iyer2022' on page 15 undefined on input line 593.
+
+
+LaTeX Warning: Citation `Averbukh2017' on page 15 undefined on input line 593.
+
+[15]
+
+LaTeX Warning: Citation `McCarty2003' on page 16 undefined on input line 621.
+
+
+LaTeX Warning: Citation `Sauer1993' on page 16 undefined on input line 621.
+
+
+LaTeX Warning: Citation `Surkova2008' on page 16 undefined on input line 627.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 16 undefined on input line 627.
+
+
+LaTeX Warning: Citation `Clyde2003' on page 16 undefined on input line 627.
+
+
+LaTeX Warning: Citation `Driever1989' on page 16 undefined on input line 639.
+
+
+LaTeX Warning: Citation `Margolis1995' on page 16 undefined on input line 641.
+
+
+LaTeX Warning: Citation `Casanova1990' on page 16 undefined on input line 641.
+
+
+LaTeX Warning: Citation `Weigel1990' on page 16 undefined on input line 641.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 16 undefined on input line 646
+.
+
+
+LaTeX Warning: Citation `Erdmann2009' on page 16 undefined on input line 646.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 16 undefined on input
+ line 647.
+
+
+LaTeX Warning: Citation `Gillespie1976' on page 16 undefined on input line 653.
+
+
+
+LaTeX Warning: Citation `Gillespie1977' on page 16 undefined on input line 653.
+
+
+
+LaTeX Warning: Citation `Hattne2005' on page 16 undefined on input line 661.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 16 undefined on input
+ line 667.
+
+
+LaTeX Warning: Citation `BeckerTenWolde2012' on page 16 undefined on input line
+ 667.
+
+
+LaTeX Warning: Citation `Allen2005' on page 16 undefined on input line 667.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 16 undefined on input
+ line 675.
+
+[16] [17]
+
+LaTeX Warning: Citation `Warren2004' on page 18 undefined on input line 752.
+
+
+LaTeX Warning: Citation `Warren2005' on page 18 undefined on input line 752.
+
+
+LaTeX Warning: Citation `Morelli2008' on page 18 undefined on input line 752.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 18 undefined on input line 752
+.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 18 undefined on input line 758
+.
+
+
+LaTeX Warning: Citation `Gregor2007a' on page 18 undefined on input line 767.
+
+
+LaTeX Warning: Citation `Gregor2007b' on page 18 undefined on input line 770.
+
+
+LaTeX Warning: Citation `Abu-Arish2010' on page 18 undefined on input line 770.
+
+
+[18] (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmss.fd) [19]
+
+LaTeX Warning: Reference `Fig-ModelSketch' on page 20 undefined on input line 9
+06.
+
+
+LaTeX Warning: Citation `Majka2023' on page 20 undefined on input line 906.
+
+[20]
+
+LaTeX Warning: Reference `eq:start' on page 21 undefined on input line 915.
+
+
+LaTeX Warning: Citation `Majka2023' on page 21 undefined on input line 915.
+
+
+LaTeX Warning: Reference `eq:start' on page 21 undefined on input line 915.
+
+
+LaTeX Warning: Reference `eq:start' on page 21 undefined on input line 929.
+
+
+LaTeX Warning: Citation `Majka2023' on page 21 undefined on input line 946.
+
+
+LaTeX Warning: Reference `eq:effectiveform' on page 21 undefined on input line 
+946.
+
+[21]
+
+LaTeX Warning: Reference `eq:theta' on page 22 undefined on input line 955.
+
+
+LaTeX Warning: Reference `eq:theta' on page 22 undefined on input line 963.
+
+
+LaTeX Warning: Reference `eq:effdyn' on page 22 undefined on input line 963.
+
+No file 2306.00537_tl2020.bbl.
+[22]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.
+00537_tl2020.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information){/usr/local/texlive/2020/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/cm-super/sfss1000.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020
+/2306.00537/2306.00537_tl2020.pdf (22 pages, 4777056 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_
+2020/2306.00537/2306.00537_tl2020.log.
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020'...
+For rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020', running '&run_bibtex(  )' ...
+Latexmk: ==========WARNING:=================
+I am taking action to evade a bug/feature in older versions of bibtex
+This may give problems under some situations, symptomized by bibtex not
+finding a .bib file or an aux file.
+Provided you have a recent version of bibtex (about 2019 or later) you
+can avoid the problems by  putting '$bibtex_fudge = 0;' in an
+initialization file (a latexmrc file for latexmk.
+
+Here my bug-evading action:
+I temporarily changed directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/'
+Set BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.00537:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537:'
+Set BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.00537:'
+This is BibTeX, Version 0.99d (TeX Live 2020)
+The top-level auxiliary file: 2306.00537_tl2020.aux
+The style file: pnas.bst
+Database file #1: GapGenes.bib
+Latexmk: changed directory back to '/diff_test_tex_engines/bin/tex_sources/2306.00537'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main_v2.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/utf8x.def))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/ucs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-global.def))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/authblk.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.
+00537_tl2020.aux) (/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/ucsencs.def
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/usr/local/t
+exlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `Gregor2007a' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Rogers2011' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Lander2011' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Balaskas2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Kicheva2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Shvartsman2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Briscoe2015' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Bier2015' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Stapornwongkul2020' on page 2 undefined on input line 
+95.
+
+
+LaTeX Warning: Citation `Stapornwongkul2021' on page 2 undefined on input line 
+95.
+
+
+LaTeX Warning: Citation `Simsek2022' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Gregor2007b' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `DubuisPNAS2011' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Wu2015' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Zagorski2017' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Petkova2019' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Kuzmicz-Kowalska2020' on page 2 undefined on input lin
+e 95.
+
+
+LaTeX Warning: Citation `Tkacik2021' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Iyer2022' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Sokolowski2023' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Minchington2023' on page 2 undefined on input line 95.
+
+
+
+LaTeX Warning: Citation `Swain2002' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Raser2005' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Paulsson2005' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Raj2008' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Chalancon2012' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Averbukh2017' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Zagorski2017' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Kicheva2014' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Cohen2015' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Drocco2011' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Durrieu2018' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Swain2002' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Raser2005' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Paulsson2005' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Raj2008' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Chalancon2012' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Averbukh2017' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Huh2011' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Thomas2019' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Raj2008' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Pedraza2005' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Stockholm2010' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Waddington1942' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Waddington1959' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Simsek2022' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Iyer2022' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Averbukh2017' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Balaskas2012' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Alon2007' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Cotterell2010' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Burda2011' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Martin2016' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Verd2017' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Verd2019' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 2 undefined on input line 103.
+
+
+
+LaTeX Warning: Citation `Sokolowski2015' on page 2 undefined on input line 103.
+
+
+
+LaTeX Warning: Citation `Zagorski2017' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Sokolowski2023' on page 2 undefined on input line 103.
+
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 2 undefined on input line 103.
+
+
+
+LaTeX Warning: Citation `Zagorski2017' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 2 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Jaeger2011' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Dubuis2013' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Manu2009PlosBiol' on page 2 undefined on input line 10
+5.
+
+
+LaTeX Warning: Citation `Surkova2008' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Clyde2003' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 2 undefined on input line 109.
+
+
+LaTeX Warning: Citation `Majka2023' on page 2 undefined on input line 109.
+
+[2]
+
+LaTeX Warning: Citation `BeckerTenWolde2012' on page 3 undefined on input line 
+114.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 3 undefined on input 
+line 114.
+
+
+LaTeX Warning: Citation `Majka2023' on page 3 undefined on input line 114.
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 3 undefined on input line 123.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 3 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Jaeger2011' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Dubuis2013' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Manu2009PlosBiol' on page 3 undefined on input line 13
+7.
+
+
+LaTeX Warning: Citation `Surkova2008' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Clyde2003' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation `Erdmann2009' on page 3 undefined on input line 147.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 3 undefined on input line 147.
+
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Clyde2003' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Kraut1991a' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Kraut1991b' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Eldon1991' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Hulskamp1990' on page 3 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Jackle1986' on page 3 undefined on input line 172.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+[4 <./Figures/FigureModel.pdf>] [5 <./Figures/FigureSystemDynamicsPinnedStable.
+pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/FigurePhaseSpaceComicV5.pdf): PDF incl
+usion: found PDF version <1.6>, but at most version <1.5> allowed
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+[6 <./Figures/FigurePhaseSpaceComicV5.pdf>] [7 <./Figures/FigureStabilityGroupe
+d.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+
+LaTeX Warning: Citation `Zwanzig1961' on page 8 undefined on input line 389.
+
+
+LaTeX Warning: Citation `Mori1965' on page 8 undefined on input line 389.
+
+
+LaTeX Warning: Citation `Yang2006' on page 8 undefined on input line 390.
+
+
+LaTeX Warning: Citation `Kopelevich2005' on page 8 undefined on input line 390.
+
+
+
+LaTeX Warning: Citation `Hummer2003' on page 8 undefined on input line 390.
+
+
+LaTeX Warning: Citation `Plotkin1998' on page 8 undefined on input line 390.
+
+[8] [9 <./Figures/FigureVelocities+BasinsV2.pdf>]
+
+LaTeX Warning: Citation `Waddington1942' on page 10 undefined on input line 419
+.
+
+
+LaTeX Warning: Citation `Waddington1959' on page 10 undefined on input line 419
+.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 450.
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 452.
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 453.
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 455.
+
+
+LaTeX Warning: Citation `Majka2023' on page 11 undefined on input line 460.
+
+[11]
+
+LaTeX Warning: Citation `Majka2023' on page 12 undefined on input line 462.
+
+
+LaTeX Warning: Citation `Majka2023' on page 12 undefined on input line 487.
+
+[12] [13]
+
+LaTeX Warning: Citation `Surkova2008' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Driever1988a' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Driever1988b' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Frohnhofer1986' on page 14 undefined on input line 526
+.
+
+
+LaTeX Warning: Citation `Struhl1989' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Macdonald1986' on page 14 undefined on input line 526.
+
+
+
+LaTeX Warning: Citation `Schulz1995' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Mlodzik1987' on page 14 undefined on input line 526.
+
+
+LaTeX Warning: Citation `Balaskas2012' on page 14 undefined on input line 527.
+
+
+LaTeX Warning: Citation `Briscoe2015' on page 14 undefined on input line 527.
+
+
+LaTeX Warning: Citation `Bier2015' on page 14 undefined on input line 527.
+
+
+LaTeX Warning: Citation `Kuzmicz-Kowalska2020' on page 14 undefined on input li
+ne 527.
+
+
+LaTeX Warning: Citation `Exelby2021' on page 14 undefined on input line 527.
+
+
+LaTeX Warning: Citation `Minchington2023' on page 14 undefined on input line 52
+7.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 14 undefined on input line 531
+.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Dubuis2013' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Manu2009PlosBiol' on page 14 undefined on input line 5
+31.
+
+
+LaTeX Warning: Citation `Surkova2008' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Sokolowski2015' on page 14 undefined on input line 531
+.
+
+
+LaTeX Warning: Citation `Kozlov2012' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Crombach2012' on page 14 undefined on input line 531.
+
+
+LaTeX Warning: Citation `Manu2009PlosCompBiol' on page 14 undefined on input li
+ne 531.
+
+
+LaTeX Warning: Citation `Vakulenko2009' on page 14 undefined on input line 532.
+
+
+
+LaTeX Warning: Citation `Surdej1998' on page 14 undefined on input line 534.
+
+
+LaTeX Warning: Citation `Spirov2009' on page 14 undefined on input line 534.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 14 undefined on input
+ line 541.
+
+
+LaTeX Warning: Citation `Waddington1942' on page 14 undefined on input line 556
+.
+
+
+LaTeX Warning: Citation `Waddington1959' on page 14 undefined on input line 556
+.
+
+
+LaTeX Warning: Citation `Manu2009PlosBiol' on page 14 undefined on input line 5
+57.
+
+
+LaTeX Warning: Citation `Manu2009PlosCompBiol' on page 14 undefined on input li
+ne 557.
+
+
+LaTeX Warning: Citation `Majka2023' on page 14 undefined on input line 562.
+
+[14]
+
+LaTeX Warning: Citation `Majka2023' on page 15 undefined on input line 567.
+
+
+LaTeX Warning: Citation `Majka2023' on page 15 undefined on input line 569.
+
+
+LaTeX Warning: Citation `Simsek2022' on page 15 undefined on input line 593.
+
+
+LaTeX Warning: Citation `Iyer2022' on page 15 undefined on input line 593.
+
+
+LaTeX Warning: Citation `Averbukh2017' on page 15 undefined on input line 593.
+
+[15]
+
+LaTeX Warning: Citation `McCarty2003' on page 16 undefined on input line 621.
+
+
+LaTeX Warning: Citation `Sauer1993' on page 16 undefined on input line 621.
+
+
+LaTeX Warning: Citation `Surkova2008' on page 16 undefined on input line 627.
+
+
+LaTeX Warning: Citation `Jaeger2004' on page 16 undefined on input line 627.
+
+
+LaTeX Warning: Citation `Clyde2003' on page 16 undefined on input line 627.
+
+
+LaTeX Warning: Citation `Driever1989' on page 16 undefined on input line 639.
+
+
+LaTeX Warning: Citation `Margolis1995' on page 16 undefined on input line 641.
+
+
+LaTeX Warning: Citation `Casanova1990' on page 16 undefined on input line 641.
+
+
+LaTeX Warning: Citation `Weigel1990' on page 16 undefined on input line 641.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 16 undefined on input line 646
+.
+
+
+LaTeX Warning: Citation `Erdmann2009' on page 16 undefined on input line 646.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 16 undefined on input
+ line 647.
+
+
+LaTeX Warning: Citation `Gillespie1976' on page 16 undefined on input line 653.
+
+
+
+LaTeX Warning: Citation `Gillespie1977' on page 16 undefined on input line 653.
+
+
+
+LaTeX Warning: Citation `Hattne2005' on page 16 undefined on input line 661.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 16 undefined on input
+ line 667.
+
+
+LaTeX Warning: Citation `BeckerTenWolde2012' on page 16 undefined on input line
+ 667.
+
+
+LaTeX Warning: Citation `Allen2005' on page 16 undefined on input line 667.
+
+
+LaTeX Warning: Citation `BeckerAllenTenWolde2012' on page 16 undefined on input
+ line 675.
+
+[16] [17]
+
+LaTeX Warning: Citation `Warren2004' on page 18 undefined on input line 752.
+
+
+LaTeX Warning: Citation `Warren2005' on page 18 undefined on input line 752.
+
+
+LaTeX Warning: Citation `Morelli2008' on page 18 undefined on input line 752.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 18 undefined on input line 752
+.
+
+
+LaTeX Warning: Citation `Sokolowski2012' on page 18 undefined on input line 758
+.
+
+
+LaTeX Warning: Citation `Gregor2007a' on page 18 undefined on input line 767.
+
+
+LaTeX Warning: Citation `Gregor2007b' on page 18 undefined on input line 770.
+
+
+LaTeX Warning: Citation `Abu-Arish2010' on page 18 undefined on input line 770.
+
+
+[18] (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmss.fd) [19]
+
+LaTeX Warning: Citation `Majka2023' on page 20 undefined on input line 906.
+
+[20]
+
+LaTeX Warning: Citation `Majka2023' on page 21 undefined on input line 915.
+
+
+LaTeX Warning: Citation `Majka2023' on page 21 undefined on input line 946.
+
+[21]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.
+00537_tl2020.bbl [22]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-1.def)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-0.def) [23]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-32.def) [24])
+[25]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.
+00537_tl2020.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information){/usr/local/texlive/2020/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/cm-super/sfss1000.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020
+/2306.00537/2306.00537_tl2020.pdf (25 pages, 4789590 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_
+2020/2306.00537/2306.00537_tl2020.log.
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020'...
+For rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020', running '&run_bibtex(  )' ...
+Latexmk: ==========WARNING:=================
+I am taking action to evade a bug/feature in older versions of bibtex
+This may give problems under some situations, symptomized by bibtex not
+finding a .bib file or an aux file.
+Provided you have a recent version of bibtex (about 2019 or later) you
+can avoid the problems by  putting '$bibtex_fudge = 0;' in an
+initialization file (a latexmrc file for latexmk.
+
+Here my bug-evading action:
+I temporarily changed directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/'
+Set BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.00537:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537:'
+Set BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.00537:'
+This is BibTeX, Version 0.99d (TeX Live 2020)
+The top-level auxiliary file: 2306.00537_tl2020.aux
+The style file: pnas.bst
+Database file #1: GapGenes.bib
+Latexmk: changed directory back to '/diff_test_tex_engines/bin/tex_sources/2306.00537'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main_v2.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/utf8x.def))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/ucs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-global.def))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfigure/subfigure.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/authblk.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.
+00537_tl2020.aux) (/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/ucsencs.def
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/usr/local/t
+exlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+[4 <./Figures/FigureModel.pdf>] [5 <./Figures/FigureSystemDynamicsPinnedStable.
+pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/FigurePhaseSpaceComicV5.pdf): PDF incl
+usion: found PDF version <1.6>, but at most version <1.5> allowed
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+[6 <./Figures/FigurePhaseSpaceComicV5.pdf>] [7 <./Figures/FigureStabilityGroupe
+d.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+[8] [9 <./Figures/FigureVelocities+BasinsV2.pdf>] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+
+[11] [12] [13] [14] [15] [16] [17] [18]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmss.fd) [19] [20]
+[21]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.
+00537_tl2020.bbl [22]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-1.def)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-0.def) [23]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-32.def) [24])
+[25]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.
+00537_tl2020.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2020/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/cm-super/sfss1000.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020
+/2306.00537/2306.00537_tl2020.pdf (25 pages, 4788423 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_
+2020/2306.00537/2306.00537_tl2020.log.
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.pdf) are up-to-date
+Set environment variable BIBINPUTS='/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537:'
+Set environment variable TEXINPUTS='/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537:'
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00537/2306.00537_tl2020.pdf) are up-to-date

@@ -1,0 +1,3171 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00060_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060"  "nitrogen_aurora.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./nitrogen_aurora.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mnras/mnras.cls
+Document Class: mnras 2015/05/22\ v3.0\ LaTeX2e MNRAS document class
+MNRAS document style v3.0, released 2015/05/22
+
+Package mnras Warning: Unknown option `a4paper' on input line 114.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060
+_tl2022.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/ueur.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package natbib Warning: Citation `Donnan2023' on page 1 undefined on input line
+ 71.
+
+
+Package natbib Warning: Citation `Harikane2023' on page 1 undefined on input li
+ne 71.
+
+
+Package natbib Warning: Citation `Finkelstein2023' on page 1 undefined on input
+ line 71.
+
+
+Package natbib Warning: Citation `Robertson2023' on page 1 undefined on input l
+ine 71.
+
+
+Package natbib Warning: Citation `Ono2022' on page 1 undefined on input line 71
+.
+
+
+Package natbib Warning: Citation `Tacchella2023' on page 1 undefined on input l
+ine 71.
+
+
+Package natbib Warning: Citation `Robertson2023' on page 1 undefined on input l
+ine 71.
+
+
+Package natbib Warning: Citation `Bowens2023' on page 1 undefined on input line
+ 71.
+
+
+Package natbib Warning: Citation `Curtis-Lake2023' on page 1 undefined on input
+ line 71.
+
+
+Package natbib Warning: Citation `Oesch2016' on page 1 undefined on input line 
+75.
+
+
+Package natbib Warning: Citation `Bunker2023' on page 1 undefined on input line
+ 75.
+
+
+Package natbib Warning: Citation `Cameron2023' on page 1 undefined on input lin
+e 75.
+
+
+Package natbib Warning: Citation `Lodders2019' on page 1 undefined on input lin
+e 75.
+
+
+Package natbib Warning: Citation `Bastian_Lardo2018' on page 1 undefined on inp
+ut line 77.
+
+
+Package natbib Warning: Citation `Gratton2019' on page 1 undefined on input lin
+e 77.
+
+
+Package natbib Warning: Citation `Miloni_Marino2022' on page 1 undefined on inp
+ut line 77.
+
+
+Package natbib Warning: Citation `Cameron2023' on page 1 undefined on input lin
+e 77.
+
+
+Package natbib Warning: Citation `Senchyna2023' on page 1 undefined on input li
+ne 77.
+
+
+Package natbib Warning: Citation `Charbonnel2023' on page 1 undefined on input 
+line 77.
+
+
+Package natbib Warning: Citation `Martell_Grebel2010' on page 1 undefined on in
+put line 79.
+
+
+Package natbib Warning: Citation `Carollo2013' on page 1 undefined on input lin
+e 79.
+
+
+Package natbib Warning: Citation `Martell2016' on page 1 undefined on input lin
+e 79.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 1 undefined on input li
+ne 79.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2017' on page 1 undefined o
+n input line 79.
+
+
+Package natbib Warning: Citation `Tang2019' on page 1 undefined on input line 7
+9.
+
+
+Package natbib Warning: Citation `Horta2021' on page 1 undefined on input line 
+79.
+
+
+Package natbib Warning: Citation `Phillips2022' on page 1 undefined on input li
+ne 79.
+
+
+Package natbib Warning: Citation `Lind2015' on page 1 undefined on input line 7
+9.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 1 undefined on input li
+ne 79.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2020b' on page 1 undefined 
+on input line 79.
+
+
+Package natbib Warning: Citation `Horta2021' on page 1 undefined on input line 
+79.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2020' on page 1 undefined o
+n input line 79.
+
+
+Package natbib Warning: Citation `Martell2016' on page 1 undefined on input lin
+e 81.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 1 undefined on input li
+ne 81.
+
+
+Package natbib Warning: Citation `Koch2019' on page 1 undefined on input line 8
+1.
+
+
+Package natbib Warning: Citation `Horta2021' on page 1 undefined on input line 
+81.
+
+
+Underfull \vbox (badness 4366) has occurred while \output is active
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1{/usr/local/t
+exlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Bastian_Lardo2018' on page 2 undefined on inp
+ut line 84.
+
+
+Package natbib Warning: Citation `Gratton2019' on page 2 undefined on input lin
+e 84.
+
+
+Package natbib Warning: Citation `Miloni_Marino2022' on page 2 undefined on inp
+ut line 84.
+
+
+Package natbib Warning: Citation `Dercole2008' on page 2 undefined on input lin
+e 84.
+
+
+Package natbib Warning: Citation `Conroy2012' on page 2 undefined on input line
+ 84.
+
+
+Package natbib Warning: Citation `Bastian2013' on page 2 undefined on input lin
+e 84.
+
+
+Package natbib Warning: Citation `Martell2011' on page 2 undefined on input lin
+e 84.
+
+
+Package natbib Warning: Citation `Milone2017' on page 2 undefined on input line
+ 84.
+
+
+Package natbib Warning: Citation `Koch2019' on page 2 undefined on input line 8
+4.
+
+
+Package natbib Warning: Citation `Kisku2021' on page 2 undefined on input line 
+86.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2022' on page 2 undefined o
+n input line 86.
+
+
+Package natbib Warning: Citation `Trincado2020c' on page 2 undefined on input l
+ine 86.
+
+
+Package natbib Warning: Citation `Tang2020' on page 2 undefined on input line 8
+6.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2022' on page 2 undefined o
+n input line 86.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 2 undefined on input li
+ne 88.
+
+
+Package natbib Warning: Citation `Jurassic' on page 2 undefined on input line 8
+8.
+
+
+Package natbib Warning: Citation `Horta2021' on page 2 undefined on input line 
+88.
+
+
+Package natbib Warning: Citation `Deason2013' on page 2 undefined on input line
+ 90.
+
+
+Package natbib Warning: Citation `Belokurov2018' on page 2 undefined on input l
+ine 90.
+
+
+Package natbib Warning: Citation `Helmi2018' on page 2 undefined on input line 
+90.
+
+
+Package natbib Warning: Citation `Myeong2018' on page 2 undefined on input line
+ 90.
+
+
+Package natbib Warning: Citation `Massari2019' on page 2 undefined on input lin
+e 90.
+
+
+Package natbib Warning: Citation `Krujssen2019' on page 2 undefined on input li
+ne 90.
+
+
+Package natbib Warning: Citation `Myeong2019' on page 2 undefined on input line
+ 90.
+
+
+Package natbib Warning: Citation `Forbes2020' on page 2 undefined on input line
+ 90.
+
+
+Package natbib Warning: Citation `Callingham2022' on page 2 undefined on input 
+line 90.
+
+
+Package natbib Warning: Citation `Koch-Hansen2021' on page 2 undefined on input
+ line 90.
+
+
+Package natbib Warning: Citation `McKenzie2022' on page 2 undefined on input li
+ne 90.
+
+
+Package natbib Warning: Citation `Monty2023' on page 2 undefined on input line 
+90.
+
+
+Package natbib Warning: Citation `Massari2019' on page 2 undefined on input lin
+e 92.
+
+
+Package natbib Warning: Citation `Forbes2020' on page 2 undefined on input line
+ 92.
+
+
+Package natbib Warning: Citation `Krijssen2020' on page 2 undefined on input li
+ne 92.
+
+
+Package natbib Warning: Citation `Callingham2022' on page 2 undefined on input 
+line 92.
+
+
+Package natbib Warning: Citation `Massari2019' on page 2 undefined on input lin
+e 92.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+Package natbib Warning: Citation `Aurora' on page 2 undefined on input line 94.
+
+
+
+Package natbib Warning: Citation `Conroy2022' on page 2 undefined on input line
+ 97.
+
+
+Package natbib Warning: Citation `Rix2022' on page 2 undefined on input line 97
+.
+
+
+Package natbib Warning: Citation `Myeong2022' on page 2 undefined on input line
+ 99.
+
+
+Package natbib Warning: Citation `Krujssen2019' on page 2 undefined on input li
+ne 101.
+
+
+Package natbib Warning: Citation `Horta_heracles' on page 2 undefined on input 
+line 101.
+
+
+Package natbib Warning: Citation `Forbes2020' on page 2 undefined on input line
+ 101.
+
+
+Package natbib Warning: Citation `Aurora' on page 2 undefined on input line 103
+.
+
+
+Package natbib Warning: Citation `Naidu2022' on page 2 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `Myeong2022' on page 2 undefined on input line
+ 103.
+
+
+Package natbib Warning: Citation `Horta2023' on page 2 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `PIGS_I' on page 2 undefined on input line 103
+.
+
+
+Package natbib Warning: Citation `PIGS_II' on page 2 undefined on input line 10
+3.
+
+
+Package natbib Warning: Citation `Aurora' on page 2 undefined on input line 103
+.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 2 undefined on input line
+ 103.
+
+
+Package natbib Warning: Citation `Myeong2022' on page 2 undefined on input line
+ 103.
+
+
+Package natbib Warning: Citation `Rix2022' on page 2 undefined on input line 10
+3.
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 103--104
+[]\OT1/ptm/m/n/9 The main rea-sons to con-sider such a mono-lithic, single-
+
+Underfull \hbox (badness 1281) in paragraph at lines 103--104
+\OT1/ptm/m/n/9 tion in the in-ner MW halo are twofold. First, de-tailed high-
+
+LaTeX Warning: Reference `sec:data' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Reference `sec:res' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 2 undefined on input line 105
+.
+
+
+LaTeX Warning: Reference `sec:conc' on page 2 undefined on input line 105.
+
+
+Underfull \vbox (badness 3690) has occurred while \output is active [2]
+
+Package natbib Warning: Citation `apogeedr17' on page 3 undefined on input line
+ 121.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pcr.fd)
+
+Package natbib Warning: Citation `Leung2019' on page 3 undefined on input line 
+123.
+
+
+Package natbib Warning: Citation `Mackereth2018' on page 3 undefined on input l
+ine 123.
+
+
+Package natbib Warning: Citation `gaia_edr3' on page 3 undefined on input line 
+124.
+
+
+Package natbib Warning: Citation `Lindegren2021' on page 3 undefined on input l
+ine 124.
+
+
+Package natbib Warning: Citation `GRAVITY2022' on page 3 undefined on input lin
+e 124.
+
+
+Package natbib Warning: Citation `Drimmel2022' on page 3 undefined on input lin
+e 124.
+
+
+Package natbib Warning: Citation `wrinkles' on page 3 undefined on input line 1
+24.
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 121--125
+\OT1/ptm/m/n/9 We use el-e-ment abun-dances from the APOGEE Data Re-
+
+Underfull \hbox (badness 3514) in paragraph at lines 121--125
+\OT1/ptm/m/n/9 lease 17 (\OT1/ptm/b/n/9 ?\OT1/ptm/m/n/9 ), as recorded in the \
+OT1/pcr/m/n/9 allStarLite \OT1/ptm/m/n/9 cat-a-logue
+
+Underfull \hbox (badness 3058) in paragraph at lines 121--125
+\OT1/ptm/m/n/9 pro-vided on the sur-vey's web-site. Fol-low-ing BK22, we re-
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+[][]\OT1/pcr/m/n/9 VERY_BRIGHT_NEIGHBOR[]\OT1/ptm/m/n/9 , [][]\OT1/pcr/m/n/9 LO
+W_SNR, PERSIST_HIGH[]\OT1/ptm/m/n/9 ,
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+[][]\OT1/pcr/m/n/9 PERSIST_JUMP_POS[]\OT1/ptm/m/n/9 , [][]\OT1/pcr/m/n/9 SUSPEC
+T_RV_COMBINATION[]\OT1/ptm/m/n/9 ,
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\phi' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 129--130
+\OT1/ptm/m/n/9 Our base sam-ple of field stars is se-lected as fol-lows. First,
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 129--130
+\OT1/pcr/m/n/9 PROGRAMNAME=magclouds\OT1/ptm/m/n/9 . Ad-di-tion-ally, we con-si
+der only
+
+Package natbib Warning: Citation `Harris2010' on page 3 undefined on input line
+ 134.
+
+
+Package natbib Warning: Citation `Vasiliev2021' on page 3 undefined on input li
+ne 136.
+
+
+Package natbib Warning: Citation `Baumgardt2021' on page 3 undefined on input l
+ine 136.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 3 undefined on input l
+ine 136.
+
+
+Package natbib Warning: Citation `Milone2017' on page 3 undefined on input line
+ 136.
+
+
+Package natbib Warning: Citation `VdB2013' on page 3 undefined on input line 13
+6.
+
+
+LaTeX Warning: Reference `sec:data' on page 3 undefined on input line 136.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 3 undefined on input li
+ne 144.
+
+
+Package natbib Warning: Citation `Horta2021' on page 3 undefined on input line 
+144.
+
+
+LaTeX Warning: Reference `fig:select' on page 3 undefined on input line 144.
+
+
+LaTeX Warning: Reference `fig:select' on page 3 undefined on input line 144.
+
+
+LaTeX Warning: Reference `fig:select' on page 3 undefined on input line 146.
+
+
+LaTeX Warning: Reference `sec:gnz11' on page 3 undefined on input line 146.
+
+
+LaTeX Warning: Reference `sec:trends' on page 3 undefined on input line 146.
+
+
+LaTeX Warning: Reference `sec:frac_feh' on page 3 undefined on input line 146.
+
+
+LaTeX Warning: Reference `fig:select' on page 3 undefined on input line 148.
+
+
+LaTeX Warning: Reference `fig:select' on page 3 undefined on input line 150.
+
+
+Package natbib Warning: Citation `Kobayashi2020' on page 3 undefined on input l
+ine 161.
+
+
+Package natbib Warning: Citation `Johnson2023' on page 3 undefined on input lin
+e 161.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 3 undefined on input li
+ne 161.
+
+
+Package natbib Warning: Citation `Hawkins2015' on page 3 undefined on input lin
+e 167.
+
+
+Package natbib Warning: Citation `Das2020' on page 3 undefined on input line 16
+7.
+
+[3]
+
+Package natbib Warning: Citation `Hasselquist2021' on page 4 undefined on input
+ line 169.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 4 undefined on input line 172
+.
+
+
+Underfull \vbox (badness 2173) has occurred while \output is active
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 4 undefined on input line 174
+.
+
+
+Package natbib Warning: Citation `wrinkles' on page 4 undefined on input line 1
+74.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 4 undefined on input line 180
+.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 4 undefined on input line 180
+.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 4 undefined on input line 180
+.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 4 undefined on input line 180
+.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.182 \end{figure*}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.182 \end{figure*}
+                    <./img/fig1.pdf> <./img/elz_aurora.pdf>]
+Underfull \hbox (badness 1642) in paragraph at lines 192--195
+\OT1/ptm/m/n/9 where $\OML/cmm/m/it/9 E$ \OT1/ptm/m/n/9 is in units of $\OT1/cm
+r/m/n/9 10[] [][] s[]$ \OT1/ptm/m/n/9 and $\OML/cmm/m/it/9 L[]$ \OT1/ptm/m/n/9 
+is in units of
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 5 undefined on input line 196
+.
+
+
+Package natbib Warning: Citation `Splash' on page 5 undefined on input line 196
+.
+
+
+LaTeX Warning: Reference `eq:sel' on page 5 undefined on input line 197.
+
+
+Package natbib Warning: Citation `Donlon2023' on page 5 undefined on input line
+ 200.
+
+
+LaTeX Warning: Reference `eq:sel' on page 5 undefined on input line 202.
+
+
+Package natbib Warning: Citation `Friedman.2001' on page 5 undefined on input l
+ine 203.
+
+
+Package natbib Warning: Citation `sklearn' on page 5 undefined on input line 20
+3.
+
+
+LaTeX Warning: Reference `eq:sel' on page 5 undefined on input line 203.
+
+
+LaTeX Warning: Reference `eq:sel' on page 5 undefined on input line 204.
+
+
+LaTeX Warning: Reference `fig:gc_aur_acc' on page 5 undefined on input line 209
+.
+
+
+LaTeX Warning: Reference `sec:no_select' on page 5 undefined on input line 209.
+
+
+
+LaTeX Warning: Reference `fig:gc_aur_acc' on page 5 undefined on input line 211
+.
+
+
+Package natbib Warning: Citation `Horta_GC' on page 5 undefined on input line 2
+11.
+
+
+LaTeX Warning: Reference `fig:gc_aur_acc' on page 5 undefined on input line 213
+.
+
+
+LaTeX Warning: Reference `fig:no_feh_elz' on page 5 undefined on input line 213
+.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 5 undefined on input line
+ 213.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 5 undefined on input l
+ine 219.
+
+
+Package natbib Warning: Citation `Milone2017' on page 5 undefined on input line
+ 219.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 5 undefined on input l
+ine 219.
+
+
+Package natbib Warning: Citation `Milone2017' on page 5 undefined on input line
+ 219.
+
+
+Package natbib Warning: Citation `Weinberg2017' on page 5 undefined on input li
+ne 224.
+
+
+Package natbib Warning: Citation `Hasselquist2021' on page 5 undefined on input
+ line 224.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 5 undefined on input line
+ 224.
+
+
+LaTeX Warning: Reference `fig:gc_aur_acc' on page 5 undefined on input line 224
+.
+
+
+LaTeX Warning: Reference `fig:gc_aur_acc' on page 5 undefined on input line 226
+.
+
+
+Package natbib Warning: Citation `Myeong2019' on page 5 undefined on input line
+ 227.
+
+
+Package natbib Warning: Citation `Massari2019' on page 5 undefined on input lin
+e 227.
+
+
+Package natbib Warning: Citation `Horta_GC' on page 5 undefined on input line 2
+27.
+
+
+Package natbib Warning: Citation `Carretta2022' on page 5 undefined on input li
+ne 227.
+
+
+Package natbib Warning: Citation `Monty2023' on page 5 undefined on input line 
+227.
+
+
+Package natbib Warning: Citation `Perez2020' on page 5 undefined on input line 
+229.
+
+
+Underfull \vbox (badness 6380) has occurred while \output is active [5]
+
+LaTeX Warning: Reference `fig:gc_aur_acc' on page 6 undefined on input line 231
+.
+
+
+LaTeX Warning: Reference `eq:sel' on page 6 undefined on input line 231.
+
+
+LaTeX Warning: Reference `fig:gc_mass' on page 6 undefined on input line 237.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 6 undefined on input line 243
+.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 6 undefined on input line 243
+.
+
+
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 251--252
+ [][] 
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 6 undefined on input line 252
+.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 6 undefined on input line 252
+.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.258 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.258 
+       <./img/gc_aurora_accreted_properties.pdf> <./img/gc_mass_ratio.pdf>]
+
+LaTeX Warning: Reference `fig:gc_mass' on page 7 undefined on input line 259.
+
+
+Package natbib Warning: Citation `Milone2017' on page 7 undefined on input line
+ 259.
+
+
+Package natbib Warning: Citation `Milone2020' on page 7 undefined on input line
+ 259.
+
+
+LaTeX Warning: Reference `fig:gc_mass' on page 7 undefined on input line 261.
+
+
+Package natbib Warning: Citation `Bastian_Lardo2018' on page 7 undefined on inp
+ut line 261.
+
+
+Package natbib Warning: Citation `Gratton2019' on page 7 undefined on input lin
+e 261.
+
+
+LaTeX Warning: Reference `fig:no_feh_elz' on page 7 undefined on input line 265
+.
+
+
+Package natbib Warning: Citation `Rix2022' on page 7 undefined on input line 26
+5.
+
+
+Package natbib Warning: Citation `Aurora' on page 7 undefined on input line 265
+.
+
+
+Package natbib Warning: Citation `Belokurov2018' on page 7 undefined on input l
+ine 265.
+
+
+Package natbib Warning: Citation `Mackereth2019' on page 7 undefined on input l
+ine 265.
+
+
+Package natbib Warning: Citation `Splash' on page 7 undefined on input line 265
+.
+
+
+Package natbib Warning: Citation `Feuillet2020' on page 7 undefined on input li
+ne 265.
+
+
+Package natbib Warning: Citation `Sanders2021' on page 7 undefined on input lin
+e 265.
+
+
+LaTeX Warning: Reference `fig:no_feh_elz' on page 7 undefined on input line 267
+.
+
+
+LaTeX Warning: Reference `fig:no_feh_elz' on page 7 undefined on input line 269
+.
+
+
+LaTeX Warning: Reference `sec:no_select' on page 7 undefined on input line 269.
+
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.271 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.271 
+       <./img/no_feh_elz.pdf> <./img/frac_energy.pdf>]
+
+LaTeX Warning: Reference `fig:frac_energy' on page 8 undefined on input line 27
+2.
+
+
+LaTeX Warning: Reference `fig:frac_energy' on page 8 undefined on input line 27
+3.
+
+
+LaTeX Warning: Reference `fig:frac_energy' on page 8 undefined on input line 27
+5.
+
+
+LaTeX Warning: Reference `fig:frac_feh' on page 8 undefined on input line 280.
+
+
+LaTeX Warning: Reference `fig:frac_feh2' on page 8 undefined on input line 282.
+
+
+
+LaTeX Warning: Reference `fig:frac_feh' on page 8 undefined on input line 282.
+
+
+LaTeX Warning: Reference `fig:gc_mass' on page 8 undefined on input line 286.
+
+
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 291--292
+ [][] 
+
+LaTeX Warning: Reference `fig:feh_dist_ns_gc' on page 8 undefined on input line
+ 297.
+
+
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 302--303
+ [][] 
+
+LaTeX Warning: Reference `fig:frac_feh' on page 8 undefined on input line 303.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 8 undefined on input line 303
+.
+
+
+LaTeX Warning: Reference `fig:frac_feh' on page 8 undefined on input line 303.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 8 undefined on input line 303
+.
+
+
+LaTeX Warning: Reference `fig:feh_dist_ns_gc' on page 8 undefined on input line
+ 320.
+
+
+Package natbib Warning: Citation `Kim.etal.2023' on page 8 undefined on input l
+ine 328.
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.332 
+       <./img/fraction_feh.pdf>]
+
+LaTeX Warning: Reference `fig:feh_dist_ns_gc' on page 9 undefined on input line
+ 334.
+
+
+LaTeX Warning: Reference `fig:gc_mass' on page 9 undefined on input line 350.
+
+
+LaTeX Warning: Reference `fig:frac_feh2' on page 9 undefined on input line 350.
+
+
+
+Package natbib Warning: Citation `Schechter1976' on page 9 undefined on input l
+ine 352.
+
+
+Package natbib Warning: Citation `Choksi2019' on page 9 undefined on input line
+ 353.
+
+
+Package natbib Warning: Citation `Adamo.etal.2020' on page 9 undefined on input
+ line 353.
+
+
+Package natbib Warning: Citation `Krumholz2019' on page 9 undefined on input li
+ne 353.
+
+
+Package natbib Warning: Citation `Norris.etal.2019' on page 9 undefined on inpu
+t line 353.
+
+
+LaTeX Warning: Reference `fig:gc_mass' on page 9 undefined on input line 353.
+
+
+LaTeX Warning: Reference `fig:frac_feh2' on page 9 undefined on input line 357.
+
+
+
+Package natbib Warning: Citation `Rodriguez2023' on page 9 undefined on input l
+ine 361.
+
+
+Package natbib Warning: Citation `Gieles2023' on page 9 undefined on input line
+ 361.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 9 undefined on input l
+ine 361.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 9 undefined on input l
+ine 377.
+
+
+LaTeX Warning: Reference `fig:frac_feh' on page 9 undefined on input line 377.
+
+
+Underfull \vbox (badness 2027) has occurred while \output is active [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.381 \end{equation}
+                     <./img/fraction_feh_aur_acc.pdf>]
+
+LaTeX Warning: Reference `eq:maurora' on page 10 undefined on input line 384.
+
+
+LaTeX Warning: Reference `eq:fno_approx' on page 10 undefined on input line 384
+.
+
+
+Package natbib Warning: Citation `Baumgardt_Vasiliev2021' on page 10 undefined 
+on input line 385.
+
+
+LaTeX Warning: Reference `eq:fno_approx' on page 10 undefined on input line 387
+.
+
+
+LaTeX Warning: Reference `fig:frac_feh' on page 10 undefined on input line 387.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+Package natbib Warning: Citation `Deason.etal.2019' on page 10 undefined on inp
+ut line 396.
+
+
+Package natbib Warning: Citation `Rix2022' on page 10 undefined on input line 3
+96.
+
+
+LaTeX Warning: Reference `fig:ratio_rad' on page 10 undefined on input line 396
+.
+
+
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 403--404
+ [][] 
+
+Package natbib Warning: Citation `Horta2021' on page 10 undefined on input line
+ 404.
+
+
+Package natbib Warning: Citation `Horta2021' on page 10 undefined on input line
+ 404.
+
+
+Package natbib Warning: Citation `Horta2021' on page 10 undefined on input line
+ 411.
+
+
+Package natbib Warning: Citation `Koch2019' on page 10 undefined on input line 
+411.
+
+
+Package natbib Warning: Citation `Horta2021' on page 10 undefined on input line
+ 411.
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.413 F
+       igure~\ref{fig:ratio_rad} explores the radial dependence of the fract...
+ <./img/gcns_feh_elz_dist.pdf>]
+
+LaTeX Warning: Reference `fig:ratio_rad' on page 11 undefined on input line 413
+.
+
+
+LaTeX Warning: Reference `fig:ratio_rad' on page 11 undefined on input line 413
+.
+
+
+LaTeX Warning: Reference `fig:frac_feh' on page 11 undefined on input line 413.
+
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 415.
+
+
+Package natbib Warning: Citation `Iorio2021' on page 11 undefined on input line
+ 417.
+
+
+Package natbib Warning: Citation `wrinkles' on page 11 undefined on input line 
+417.
+
+
+Package natbib Warning: Citation `Deason2013' on page 11 undefined on input lin
+e 417.
+
+
+Package natbib Warning: Citation `Horta_FIRE' on page 11 undefined on input lin
+e 417.
+
+
+Package natbib Warning: Citation `radialize' on page 11 undefined on input line
+ 417.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 11 undefined on input line 41
+7.
+
+
+LaTeX Warning: Reference `fig:ratio_rad' on page 11 undefined on input line 419
+.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 11 undefined on input line 41
+9.
+
+
+LaTeX Warning: Reference `fig:frac_feh' on page 11 undefined on input line 419.
+
+
+
+Package natbib Warning: Citation `Rix2022' on page 11 undefined on input line 4
+21.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 11 undefined on input lin
+e 421.
+
+
+Package natbib Warning: Citation `Myeong2022' on page 11 undefined on input lin
+e 421.
+
+
+LaTeX Warning: Reference `fig:dgc_nrich_dist' on page 11 undefined on input lin
+e 423.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 424.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 424.
+
+
+Overfull \hbox (7.45752pt too wide) in paragraph at lines 429--430
+ [][] 
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 430.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 430.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 430.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 430.
+
+
+Package natbib Warning: Citation `Gieles2023' on page 11 undefined on input lin
+e 435.
+
+
+LaTeX Warning: Reference `fig:dgc_nrich_dist' on page 11 undefined on input lin
+e 436.
+
+
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 441--442
+ [][] 
+
+Package natbib Warning: Citation `Cameron2023' on page 11 undefined on input li
+ne 442.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 11 undefined on input line 44
+2.
+
+
+Package natbib Warning: Citation `Cameron2023' on page 11 undefined on input li
+ne 442.
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 11 undefined on input line 44
+2.
+
+
+LaTeX Warning: Reference `fig:feh_dist_ns_gc' on page 11 undefined on input lin
+e 447.
+
+
+LaTeX Warning: Reference `fig:ratio_rad' on page 11 undefined on input line 447
+.
+
+
+LaTeX Warning: Reference `fig:dgc_nrich_dist' on page 11 undefined on input lin
+e 447.
+
+
+Underfull \vbox (badness 6380) has occurred while \output is active [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.448 
+       <./img/rad_profile_ratio.pdf>]
+
+LaTeX Warning: Reference `fig:no_oh' on page 12 undefined on input line 452.
+
+
+LaTeX Warning: Reference `fig:select' on page 12 undefined on input line 452.
+
+
+Package natbib Warning: Citation `Cameron2023' on page 12 undefined on input li
+ne 452.
+
+
+Package natbib Warning: Citation `Martell2016' on page 12 undefined on input li
+ne 474.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 12 undefined on input l
+ine 474.
+
+
+Package natbib Warning: Citation `Koch2019' on page 12 undefined on input line 
+474.
+
+
+Package natbib Warning: Citation `Horta2021' on page 12 undefined on input line
+ 474.
+
+
+Package natbib Warning: Citation `Martell2011' on page 12 undefined on input li
+ne 475.
+
+
+Package natbib Warning: Citation `Koch2019' on page 12 undefined on input line 
+475.
+
+
+Package natbib Warning: Citation `Horta2021' on page 12 undefined on input line
+ 475.
+
+
+LaTeX Warning: Reference `sec:intro' on page 12 undefined on input line 477.
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.478 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.478 
+       <./img/dgc_nrich_dist.pdf> <./img/no_oh.pdf>]
+
+Package natbib Warning: Citation `Ricotti.2002' on page 13 undefined on input l
+ine 479.
+
+
+Package natbib Warning: Citation `Boylan.Kolchin.2018' on page 13 undefined on 
+input line 479.
+
+
+Package natbib Warning: Citation `Weisz.etal.2023' on page 13 undefined on inpu
+t line 481.
+
+
+Package natbib Warning: Citation `Zick.etal.2018' on page 13 undefined on input
+ line 481.
+
+
+Package natbib Warning: Citation `Kravtsov2005' on page 13 undefined on input l
+ine 484.
+
+
+Package natbib Warning: Citation `Bekki.etal.2008' on page 13 undefined on inpu
+t line 484.
+
+
+Package natbib Warning: Citation `Choksi2018' on page 13 undefined on input lin
+e 484.
+
+
+Package natbib Warning: Citation `Choksi2019' on page 13 undefined on input lin
+e 484.
+
+
+Package natbib Warning: Citation `El_Badry_etal.2019' on page 13 undefined on i
+nput line 484.
+
+
+Package natbib Warning: Citation `Spitler.Forbes.2009' on page 13 undefined on 
+input line 484.
+
+
+Package natbib Warning: Citation `Hudson.etal.2014' on page 13 undefined on inp
+ut line 484.
+
+
+Package natbib Warning: Citation `Harris.etal.2017' on page 13 undefined on inp
+ut line 484.
+
+
+Package natbib Warning: Citation `Forbes.etal.2018' on page 13 undefined on inp
+ut line 484.
+
+
+Package natbib Warning: Citation `Dornan.Harris.2023' on page 13 undefined on i
+nput line 484.
+
+
+Package natbib Warning: Citation `Kravtsov.etal.2018' on page 13 undefined on i
+nput line 484.
+
+
+Package natbib Warning: Citation `Read.Erkal.2019' on page 13 undefined on inpu
+t line 484.
+
+
+Package natbib Warning: Citation `Nadler.etal.2020' on page 13 undefined on inp
+ut line 484.
+
+
+Package natbib Warning: Citation `Chen_Gnedin2023' on page 13 undefined on inpu
+t line 484.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+Package natbib Warning: Citation `Livermore.etal.2015' on page 13 undefined on 
+input line 487.
+
+
+Package natbib Warning: Citation `Johnson.etal.2017' on page 13 undefined on in
+put line 487.
+
+
+Package natbib Warning: Citation `Vanzella.etal.2023' on page 13 undefined on i
+nput line 487.
+
+
+Package natbib Warning: Citation `Adamo.etal.2020' on page 13 undefined on inpu
+t line 488.
+
+
+Package natbib Warning: Citation `Adamo.etal.2020rev' on page 13 undefined on i
+nput line 488.
+
+
+Package natbib Warning: Citation `Kruijssen2012' on page 13 undefined on input 
+line 488.
+
+
+Package natbib Warning: Citation `Naab.Ostriker.2017' on page 13 undefined on i
+nput line 492.
+
+
+Package natbib Warning: Citation `Vogelsberger.etal.2020' on page 13 undefined 
+on input line 492.
+
+
+LaTeX Warning: Reference `fig:dgc_insitu_dist' on page 13 undefined on input li
+ne 494.
+
+
+Package natbib Warning: Citation `Hopkins.etal.2018' on page 13 undefined on in
+put line 494.
+
+
+Package natbib Warning: Citation `Wetzel.etal.2023' on page 13 undefined on inp
+ut line 494.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.496 
+       <./img/dgc_insitu_dist_feh-3.0-1.0.pdf> <./img/age_feh_gc_sim.pdf>]
+
+LaTeX Warning: Reference `fig:dgc_insitu_dist' on page 14 undefined on input li
+ne 497.
+
+
+Package natbib Warning: Citation `Fattahi.etal.2019' on page 14 undefined on in
+put line 498.
+
+
+Package natbib Warning: Citation `Dillamore.etal.2022' on page 14 undefined on 
+input line 498.
+
+
+LaTeX Warning: Reference `fig:frac_feh2' on page 14 undefined on input line 500
+.
+
+
+LaTeX Warning: Reference `eq:fno_approx' on page 14 undefined on input line 500
+.
+
+
+Package natbib Warning: Citation `Bastian_Lardo2018' on page 14 undefined on in
+put line 503.
+
+
+Package natbib Warning: Citation `Maeder.Meynet.2006' on page 14 undefined on i
+nput line 503.
+
+
+Package natbib Warning: Citation `Crowther.2007' on page 14 undefined on input 
+line 503.
+
+
+Package natbib Warning: Citation `Denissenkov.Hartwick.2014' on page 14 undefin
+ed on input line 503.
+
+
+Package natbib Warning: Citation `Dib.etal.2007' on page 14 undefined on input 
+line 503.
+
+
+Package natbib Warning: Citation `Chon.etal.2021' on page 14 undefined on input
+ line 503.
+
+
+Package natbib Warning: Citation `Zick.etal.2018' on page 14 undefined on input
+ line 506.
+
+
+Package natbib Warning: Citation `Finkelstein.etal.2023' on page 14 undefined o
+n input line 507.
+
+
+Package natbib Warning: Citation `Wilkins.etal.2023' on page 14 undefined on in
+put line 507.
+
+
+Package natbib Warning: Citation `Yung.etal.2023' on page 14 undefined on input
+ line 507.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 14 undefined on input lin
+e 515.
+
+
+Package natbib Warning: Citation `Rix2022' on page 14 undefined on input line 5
+15.
+
+
+Package natbib Warning: Citation `Mccluskey2023' on page 14 undefined on input 
+line 515.
+
+
+LaTeX Warning: Reference `fig:gc_aur_acc' on page 14 undefined on input line 52
+1.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 14 undefined on input lin
+e 521.
+
+
+LaTeX Warning: Reference `fig:no_feh_elz' on page 14 undefined on input line 52
+3.
+
+
+Package natbib Warning: Citation `Rix2022' on page 14 undefined on input line 5
+23.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [14]
+
+LaTeX Warning: Reference `fig:select' on page 15 undefined on input line 530.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+
+LaTeX Warning: Reference `fig:elz_aurora' on page 15 undefined on input line 53
+2.
+
+
+LaTeX Warning: Reference `eq:sel' on page 15 undefined on input line 532.
+
+
+Package natbib Warning: Citation `Friedman.2001' on page 15 undefined on input 
+line 532.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+
+LaTeX Warning: Reference `fig:gc_aur_acc' on page 15 undefined on input line 53
+4.
+
+
+Package natbib Warning: Citation `Massari2019' on page 15 undefined on input li
+ne 534.
+
+
+Package natbib Warning: Citation `Krijssen2020' on page 15 undefined on input l
+ine 534.
+
+
+Package natbib Warning: Citation `Forbes2020' on page 15 undefined on input lin
+e 534.
+
+
+Package natbib Warning: Citation `Horta_heracles' on page 15 undefined on input
+ line 534.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+
+
+LaTeX Warning: Reference `fig:no_feh_elz' on page 15 undefined on input line 53
+6.
+
+
+LaTeX Warning: Reference `fig:frac_energy' on page 15 undefined on input line 5
+36.
+
+
+LaTeX Warning: Reference `fig:ratio_rad' on page 15 undefined on input line 536
+.
+
+
+Package natbib Warning: Citation `Hudson.etal.2014' on page 15 undefined on inp
+ut line 536.
+
+
+Package natbib Warning: Citation `Forbes.etal.2018' on page 15 undefined on inp
+ut line 536.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--537
+
+
+LaTeX Warning: Reference `fig:feh_dist_ns_gc' on page 15 undefined on input lin
+e 538.
+
+
+LaTeX Warning: Reference `fig:dgc_nrich_dist' on page 15 undefined on input lin
+e 538.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
+
+
+LaTeX Warning: Reference `fig:frac_feh2' on page 15 undefined on input line 540
+.
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 540--541
+\OT1/ptm/m/n/9 de-creases rapidly with in-creas-ing metal-lic-ity (Fig-ure []) 
+from
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
+
+
+LaTeX Warning: Reference `fig:gc_mass' on page 15 undefined on input line 542.
+
+
+LaTeX Warning: Reference `fig:frac_feh2' on page 15 undefined on input line 542
+.
+
+
+LaTeX Warning: Reference `sec:fcl' on page 15 undefined on input line 542.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+
+
+LaTeX Warning: Reference `fig:dgc_insitu_dist' on page 15 undefined on input li
+ne 544.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+
+LaTeX Warning: Reference `sec:maurora' on page 15 undefined on input line 546.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+
+
+LaTeX Warning: Reference `sec:gnz11' on page 15 undefined on input line 548.
+
+
+LaTeX Warning: Reference `sec:discussion' on page 15 undefined on input line 54
+8.
+
+[15]
+
+Package natbib Warning: Citation `Wetzel.etal.2023' on page 16 undefined on inp
+ut line 567.
+
+
+Package natbib Warning: Citation `hopkins15' on page 16 undefined on input line
+ 567.
+
+
+Package natbib Warning: Citation `hopkins_etal18' on page 16 undefined on input
+ line 567.
+
+
+Package natbib Warning: Citation `NumPy' on page 16 undefined on input line 568
+.
+
+
+Package natbib Warning: Citation `scipy' on page 16 undefined on input line 568
+.
+
+
+Package natbib Warning: Citation `matplotlib' on page 16 undefined on input lin
+e 568.
+
+
+Package natbib Warning: Citation `sklearn' on page 16 undefined on input line 5
+68.
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 572--574
+\OT1/ptm/m/n/9 This study uses [][]\OT1/pcr/m/n/9 allStarLite-dr17-synspec_rev1
+ []\OT1/ptm/m/n/9 and
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
+[][]\OT1/pcr/m/n/9 apogee_astroNN-DR17 []\OT1/ptm/m/n/9 cat-a-logues pub-licly 
+avail-able at
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
+[][]$\OT1/pcr/m/n/9 https : / / www . sdss . org / dr17 / irspec / spectro _
+No file 2306.00060_tl2022.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[16]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060
+_tl2022.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `2306.00060_tl2022.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00060/2306.00060_tl2022.pdf (16 pages, 13506582 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00060/2306.00060_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.pdf'
+Latexmk: Found bibliography file(s):
+  references.bib
+Bib file(s) not found in search path:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' forced or previously required
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.aux
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.out
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00060_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060"  "nitrogen_aurora.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./nitrogen_aurora.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mnras/mnras.cls
+Document Class: mnras 2015/05/22\ v3.0\ LaTeX2e MNRAS document class
+MNRAS document style v3.0, released 2015/05/22
+
+Package mnras Warning: Unknown option `a4paper' on input line 114.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060
+_tl2022.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060
+_tl2022.out)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060
+_tl2022.out)
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/ueur.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package natbib Warning: Citation `Donnan2023' on page 1 undefined on input line
+ 71.
+
+
+Package natbib Warning: Citation `Harikane2023' on page 1 undefined on input li
+ne 71.
+
+
+Package natbib Warning: Citation `Finkelstein2023' on page 1 undefined on input
+ line 71.
+
+
+Package natbib Warning: Citation `Robertson2023' on page 1 undefined on input l
+ine 71.
+
+
+Package natbib Warning: Citation `Ono2022' on page 1 undefined on input line 71
+.
+
+
+Package natbib Warning: Citation `Tacchella2023' on page 1 undefined on input l
+ine 71.
+
+
+Package natbib Warning: Citation `Robertson2023' on page 1 undefined on input l
+ine 71.
+
+
+Package natbib Warning: Citation `Bowens2023' on page 1 undefined on input line
+ 71.
+
+
+Package natbib Warning: Citation `Curtis-Lake2023' on page 1 undefined on input
+ line 71.
+
+
+Package natbib Warning: Citation `Oesch2016' on page 1 undefined on input line 
+75.
+
+
+Package natbib Warning: Citation `Bunker2023' on page 1 undefined on input line
+ 75.
+
+
+Package natbib Warning: Citation `Cameron2023' on page 1 undefined on input lin
+e 75.
+
+
+Package natbib Warning: Citation `Lodders2019' on page 1 undefined on input lin
+e 75.
+
+
+Package natbib Warning: Citation `Bastian_Lardo2018' on page 1 undefined on inp
+ut line 77.
+
+
+Package natbib Warning: Citation `Gratton2019' on page 1 undefined on input lin
+e 77.
+
+
+Package natbib Warning: Citation `Miloni_Marino2022' on page 1 undefined on inp
+ut line 77.
+
+
+Package natbib Warning: Citation `Cameron2023' on page 1 undefined on input lin
+e 77.
+
+
+Package natbib Warning: Citation `Senchyna2023' on page 1 undefined on input li
+ne 77.
+
+
+Package natbib Warning: Citation `Charbonnel2023' on page 1 undefined on input 
+line 77.
+
+
+Package natbib Warning: Citation `Martell_Grebel2010' on page 1 undefined on in
+put line 79.
+
+
+Package natbib Warning: Citation `Carollo2013' on page 1 undefined on input lin
+e 79.
+
+
+Package natbib Warning: Citation `Martell2016' on page 1 undefined on input lin
+e 79.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 1 undefined on input li
+ne 79.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2017' on page 1 undefined o
+n input line 79.
+
+
+Package natbib Warning: Citation `Tang2019' on page 1 undefined on input line 7
+9.
+
+
+Package natbib Warning: Citation `Horta2021' on page 1 undefined on input line 
+79.
+
+
+Package natbib Warning: Citation `Phillips2022' on page 1 undefined on input li
+ne 79.
+
+
+Package natbib Warning: Citation `Lind2015' on page 1 undefined on input line 7
+9.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 1 undefined on input li
+ne 79.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2020b' on page 1 undefined 
+on input line 79.
+
+
+Package natbib Warning: Citation `Horta2021' on page 1 undefined on input line 
+79.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2020' on page 1 undefined o
+n input line 79.
+
+
+Package natbib Warning: Citation `Martell2016' on page 1 undefined on input lin
+e 81.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 1 undefined on input li
+ne 81.
+
+
+Package natbib Warning: Citation `Koch2019' on page 1 undefined on input line 8
+1.
+
+
+Package natbib Warning: Citation `Horta2021' on page 1 undefined on input line 
+81.
+
+
+Underfull \vbox (badness 4366) has occurred while \output is active
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1{/usr/local/t
+exlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Bastian_Lardo2018' on page 2 undefined on inp
+ut line 84.
+
+
+Package natbib Warning: Citation `Gratton2019' on page 2 undefined on input lin
+e 84.
+
+
+Package natbib Warning: Citation `Miloni_Marino2022' on page 2 undefined on inp
+ut line 84.
+
+
+Package natbib Warning: Citation `Dercole2008' on page 2 undefined on input lin
+e 84.
+
+
+Package natbib Warning: Citation `Conroy2012' on page 2 undefined on input line
+ 84.
+
+
+Package natbib Warning: Citation `Bastian2013' on page 2 undefined on input lin
+e 84.
+
+
+Package natbib Warning: Citation `Martell2011' on page 2 undefined on input lin
+e 84.
+
+
+Package natbib Warning: Citation `Milone2017' on page 2 undefined on input line
+ 84.
+
+
+Package natbib Warning: Citation `Koch2019' on page 2 undefined on input line 8
+4.
+
+
+Package natbib Warning: Citation `Kisku2021' on page 2 undefined on input line 
+86.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2022' on page 2 undefined o
+n input line 86.
+
+
+Package natbib Warning: Citation `Trincado2020c' on page 2 undefined on input l
+ine 86.
+
+
+Package natbib Warning: Citation `Tang2020' on page 2 undefined on input line 8
+6.
+
+
+Package natbib Warning: Citation `Fernandez_Trincado2022' on page 2 undefined o
+n input line 86.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 2 undefined on input li
+ne 88.
+
+
+Package natbib Warning: Citation `Jurassic' on page 2 undefined on input line 8
+8.
+
+
+Package natbib Warning: Citation `Horta2021' on page 2 undefined on input line 
+88.
+
+
+Package natbib Warning: Citation `Deason2013' on page 2 undefined on input line
+ 90.
+
+
+Package natbib Warning: Citation `Belokurov2018' on page 2 undefined on input l
+ine 90.
+
+
+Package natbib Warning: Citation `Helmi2018' on page 2 undefined on input line 
+90.
+
+
+Package natbib Warning: Citation `Myeong2018' on page 2 undefined on input line
+ 90.
+
+
+Package natbib Warning: Citation `Massari2019' on page 2 undefined on input lin
+e 90.
+
+
+Package natbib Warning: Citation `Krujssen2019' on page 2 undefined on input li
+ne 90.
+
+
+Package natbib Warning: Citation `Myeong2019' on page 2 undefined on input line
+ 90.
+
+
+Package natbib Warning: Citation `Forbes2020' on page 2 undefined on input line
+ 90.
+
+
+Package natbib Warning: Citation `Callingham2022' on page 2 undefined on input 
+line 90.
+
+
+Package natbib Warning: Citation `Koch-Hansen2021' on page 2 undefined on input
+ line 90.
+
+
+Package natbib Warning: Citation `McKenzie2022' on page 2 undefined on input li
+ne 90.
+
+
+Package natbib Warning: Citation `Monty2023' on page 2 undefined on input line 
+90.
+
+
+Package natbib Warning: Citation `Massari2019' on page 2 undefined on input lin
+e 92.
+
+
+Package natbib Warning: Citation `Forbes2020' on page 2 undefined on input line
+ 92.
+
+
+Package natbib Warning: Citation `Krijssen2020' on page 2 undefined on input li
+ne 92.
+
+
+Package natbib Warning: Citation `Callingham2022' on page 2 undefined on input 
+line 92.
+
+
+Package natbib Warning: Citation `Massari2019' on page 2 undefined on input lin
+e 92.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+Package natbib Warning: Citation `Aurora' on page 2 undefined on input line 94.
+
+
+
+Package natbib Warning: Citation `Conroy2022' on page 2 undefined on input line
+ 97.
+
+
+Package natbib Warning: Citation `Rix2022' on page 2 undefined on input line 97
+.
+
+
+Package natbib Warning: Citation `Myeong2022' on page 2 undefined on input line
+ 99.
+
+
+Package natbib Warning: Citation `Krujssen2019' on page 2 undefined on input li
+ne 101.
+
+
+Package natbib Warning: Citation `Horta_heracles' on page 2 undefined on input 
+line 101.
+
+
+Package natbib Warning: Citation `Forbes2020' on page 2 undefined on input line
+ 101.
+
+
+Package natbib Warning: Citation `Aurora' on page 2 undefined on input line 103
+.
+
+
+Package natbib Warning: Citation `Naidu2022' on page 2 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `Myeong2022' on page 2 undefined on input line
+ 103.
+
+
+Package natbib Warning: Citation `Horta2023' on page 2 undefined on input line 
+103.
+
+
+Package natbib Warning: Citation `PIGS_I' on page 2 undefined on input line 103
+.
+
+
+Package natbib Warning: Citation `PIGS_II' on page 2 undefined on input line 10
+3.
+
+
+Package natbib Warning: Citation `Aurora' on page 2 undefined on input line 103
+.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 2 undefined on input line
+ 103.
+
+
+Package natbib Warning: Citation `Myeong2022' on page 2 undefined on input line
+ 103.
+
+
+Package natbib Warning: Citation `Rix2022' on page 2 undefined on input line 10
+3.
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 103--104
+[]\OT1/ptm/m/n/9 The main rea-sons to con-sider such a mono-lithic, single-
+
+Underfull \hbox (badness 1281) in paragraph at lines 103--104
+\OT1/ptm/m/n/9 tion in the in-ner MW halo are twofold. First, de-tailed high-
+
+Underfull \vbox (badness 3690) has occurred while \output is active [2]
+
+Package natbib Warning: Citation `apogeedr17' on page 3 undefined on input line
+ 121.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pcr.fd)
+
+Package natbib Warning: Citation `Leung2019' on page 3 undefined on input line 
+123.
+
+
+Package natbib Warning: Citation `Mackereth2018' on page 3 undefined on input l
+ine 123.
+
+
+Package natbib Warning: Citation `gaia_edr3' on page 3 undefined on input line 
+124.
+
+
+Package natbib Warning: Citation `Lindegren2021' on page 3 undefined on input l
+ine 124.
+
+
+Package natbib Warning: Citation `GRAVITY2022' on page 3 undefined on input lin
+e 124.
+
+
+Package natbib Warning: Citation `Drimmel2022' on page 3 undefined on input lin
+e 124.
+
+
+Package natbib Warning: Citation `wrinkles' on page 3 undefined on input line 1
+24.
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 121--125
+\OT1/ptm/m/n/9 We use el-e-ment abun-dances from the APOGEE Data Re-
+
+Underfull \hbox (badness 3514) in paragraph at lines 121--125
+\OT1/ptm/m/n/9 lease 17 (\OT1/ptm/b/n/9 ?\OT1/ptm/m/n/9 ), as recorded in the \
+OT1/pcr/m/n/9 allStarLite \OT1/ptm/m/n/9 cat-a-logue
+
+Underfull \hbox (badness 3058) in paragraph at lines 121--125
+\OT1/ptm/m/n/9 pro-vided on the sur-vey's web-site. Fol-low-ing BK22, we re-
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+[][]\OT1/pcr/m/n/9 VERY_BRIGHT_NEIGHBOR[]\OT1/ptm/m/n/9 , [][]\OT1/pcr/m/n/9 LO
+W_SNR, PERSIST_HIGH[]\OT1/ptm/m/n/9 ,
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+[][]\OT1/pcr/m/n/9 PERSIST_JUMP_POS[]\OT1/ptm/m/n/9 , [][]\OT1/pcr/m/n/9 SUSPEC
+T_RV_COMBINATION[]\OT1/ptm/m/n/9 ,
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\phi' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 129--130
+\OT1/ptm/m/n/9 Our base sam-ple of field stars is se-lected as fol-lows. First,
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 129--130
+\OT1/pcr/m/n/9 PROGRAMNAME=magclouds\OT1/ptm/m/n/9 . Ad-di-tion-ally, we con-si
+der only
+
+Package natbib Warning: Citation `Harris2010' on page 3 undefined on input line
+ 134.
+
+
+Package natbib Warning: Citation `Vasiliev2021' on page 3 undefined on input li
+ne 136.
+
+
+Package natbib Warning: Citation `Baumgardt2021' on page 3 undefined on input l
+ine 136.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 3 undefined on input l
+ine 136.
+
+
+Package natbib Warning: Citation `Milone2017' on page 3 undefined on input line
+ 136.
+
+
+Package natbib Warning: Citation `VdB2013' on page 3 undefined on input line 13
+6.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 3 undefined on input li
+ne 144.
+
+
+Package natbib Warning: Citation `Horta2021' on page 3 undefined on input line 
+144.
+
+
+Package natbib Warning: Citation `Kobayashi2020' on page 3 undefined on input l
+ine 161.
+
+
+Package natbib Warning: Citation `Johnson2023' on page 3 undefined on input lin
+e 161.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 3 undefined on input li
+ne 161.
+
+
+Package natbib Warning: Citation `Hawkins2015' on page 3 undefined on input lin
+e 167.
+
+
+Package natbib Warning: Citation `Das2020' on page 3 undefined on input line 16
+7.
+
+[3]
+
+Package natbib Warning: Citation `Hasselquist2021' on page 4 undefined on input
+ line 169.
+
+
+Underfull \vbox (badness 2173) has occurred while \output is active
+
+Package natbib Warning: Citation `wrinkles' on page 4 undefined on input line 1
+74.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.182 \end{figure*}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.182 \end{figure*}
+                    <./img/fig1.pdf> <./img/elz_aurora.pdf>]
+Underfull \hbox (badness 1642) in paragraph at lines 192--195
+\OT1/ptm/m/n/9 where $\OML/cmm/m/it/9 E$ \OT1/ptm/m/n/9 is in units of $\OT1/cm
+r/m/n/9 10[] [][] s[]$ \OT1/ptm/m/n/9 and $\OML/cmm/m/it/9 L[]$ \OT1/ptm/m/n/9 
+is in units of
+
+Package natbib Warning: Citation `Splash' on page 5 undefined on input line 196
+.
+
+
+Package natbib Warning: Citation `Donlon2023' on page 5 undefined on input line
+ 200.
+
+
+Package natbib Warning: Citation `Friedman.2001' on page 5 undefined on input l
+ine 203.
+
+
+Package natbib Warning: Citation `sklearn' on page 5 undefined on input line 20
+3.
+
+
+Package natbib Warning: Citation `Horta_GC' on page 5 undefined on input line 2
+11.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 5 undefined on input line
+ 213.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 5 undefined on input l
+ine 219.
+
+
+Package natbib Warning: Citation `Milone2017' on page 5 undefined on input line
+ 219.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 5 undefined on input l
+ine 219.
+
+
+Package natbib Warning: Citation `Milone2017' on page 5 undefined on input line
+ 219.
+
+
+Package natbib Warning: Citation `Weinberg2017' on page 5 undefined on input li
+ne 224.
+
+
+Package natbib Warning: Citation `Hasselquist2021' on page 5 undefined on input
+ line 224.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 5 undefined on input line
+ 224.
+
+
+Package natbib Warning: Citation `Myeong2019' on page 5 undefined on input line
+ 227.
+
+
+Package natbib Warning: Citation `Massari2019' on page 5 undefined on input lin
+e 227.
+
+
+Package natbib Warning: Citation `Horta_GC' on page 5 undefined on input line 2
+27.
+
+
+Package natbib Warning: Citation `Carretta2022' on page 5 undefined on input li
+ne 227.
+
+
+Package natbib Warning: Citation `Monty2023' on page 5 undefined on input line 
+227.
+
+
+Package natbib Warning: Citation `Perez2020' on page 5 undefined on input line 
+229.
+
+
+Underfull \vbox (badness 6380) has occurred while \output is active [5]
+Underfull \vbox (badness 10000) has occurred while \output is active
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 251--252
+ [][] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.258 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.258 
+       <./img/gc_aurora_accreted_properties.pdf> <./img/gc_mass_ratio.pdf>]
+
+Package natbib Warning: Citation `Milone2017' on page 7 undefined on input line
+ 259.
+
+
+Package natbib Warning: Citation `Milone2020' on page 7 undefined on input line
+ 259.
+
+
+Package natbib Warning: Citation `Bastian_Lardo2018' on page 7 undefined on inp
+ut line 261.
+
+
+Package natbib Warning: Citation `Gratton2019' on page 7 undefined on input lin
+e 261.
+
+
+Package natbib Warning: Citation `Rix2022' on page 7 undefined on input line 26
+5.
+
+
+Package natbib Warning: Citation `Aurora' on page 7 undefined on input line 265
+.
+
+
+Package natbib Warning: Citation `Belokurov2018' on page 7 undefined on input l
+ine 265.
+
+
+Package natbib Warning: Citation `Mackereth2019' on page 7 undefined on input l
+ine 265.
+
+
+Package natbib Warning: Citation `Splash' on page 7 undefined on input line 265
+.
+
+
+Package natbib Warning: Citation `Feuillet2020' on page 7 undefined on input li
+ne 265.
+
+
+Package natbib Warning: Citation `Sanders2021' on page 7 undefined on input lin
+e 265.
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.271 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.271 
+       <./img/no_feh_elz.pdf> <./img/frac_energy.pdf>]
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 291--292
+ [][] 
+
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 302--303
+ [][] 
+
+Package natbib Warning: Citation `Kim.etal.2023' on page 8 undefined on input l
+ine 328.
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.332 
+       <./img/fraction_feh.pdf>]
+
+Package natbib Warning: Citation `Schechter1976' on page 9 undefined on input l
+ine 352.
+
+
+Package natbib Warning: Citation `Choksi2019' on page 9 undefined on input line
+ 353.
+
+
+Package natbib Warning: Citation `Adamo.etal.2020' on page 9 undefined on input
+ line 353.
+
+
+Package natbib Warning: Citation `Krumholz2019' on page 9 undefined on input li
+ne 353.
+
+
+Package natbib Warning: Citation `Norris.etal.2019' on page 9 undefined on inpu
+t line 353.
+
+
+Package natbib Warning: Citation `Rodriguez2023' on page 9 undefined on input l
+ine 361.
+
+
+Package natbib Warning: Citation `Gieles2023' on page 9 undefined on input line
+ 361.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 9 undefined on input l
+ine 361.
+
+
+Package natbib Warning: Citation `Baumgardt2003' on page 9 undefined on input l
+ine 377.
+
+
+Underfull \vbox (badness 2027) has occurred while \output is active [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.381 \end{equation}
+                     <./img/fraction_feh_aur_acc.pdf>]
+
+Package natbib Warning: Citation `Baumgardt_Vasiliev2021' on page 10 undefined 
+on input line 385.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+Package natbib Warning: Citation `Deason.etal.2019' on page 10 undefined on inp
+ut line 396.
+
+
+Package natbib Warning: Citation `Rix2022' on page 10 undefined on input line 3
+96.
+
+
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 403--404
+ [][] 
+
+Package natbib Warning: Citation `Horta2021' on page 10 undefined on input line
+ 404.
+
+
+Package natbib Warning: Citation `Horta2021' on page 10 undefined on input line
+ 404.
+
+
+Package natbib Warning: Citation `Horta2021' on page 10 undefined on input line
+ 411.
+
+
+Package natbib Warning: Citation `Koch2019' on page 10 undefined on input line 
+411.
+
+
+Package natbib Warning: Citation `Horta2021' on page 10 undefined on input line
+ 411.
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.413 F
+       igure~\ref{fig:ratio_rad} explores the radial dependence of the fract...
+ <./img/gcns_feh_elz_dist.pdf>]
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 415.
+
+
+Package natbib Warning: Citation `Iorio2021' on page 11 undefined on input line
+ 417.
+
+
+Package natbib Warning: Citation `wrinkles' on page 11 undefined on input line 
+417.
+
+
+Package natbib Warning: Citation `Deason2013' on page 11 undefined on input lin
+e 417.
+
+
+Package natbib Warning: Citation `Horta_FIRE' on page 11 undefined on input lin
+e 417.
+
+
+Package natbib Warning: Citation `radialize' on page 11 undefined on input line
+ 417.
+
+
+Package natbib Warning: Citation `Rix2022' on page 11 undefined on input line 4
+21.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 11 undefined on input lin
+e 421.
+
+
+Package natbib Warning: Citation `Myeong2022' on page 11 undefined on input lin
+e 421.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 424.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 424.
+
+
+Overfull \hbox (7.45752pt too wide) in paragraph at lines 429--430
+ [][] 
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 430.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 430.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 430.
+
+
+Package natbib Warning: Citation `Horta2021' on page 11 undefined on input line
+ 430.
+
+
+Package natbib Warning: Citation `Gieles2023' on page 11 undefined on input lin
+e 435.
+
+
+Overfull \hbox (4.92279pt too wide) in paragraph at lines 441--442
+ [][] 
+
+Package natbib Warning: Citation `Cameron2023' on page 11 undefined on input li
+ne 442.
+
+
+Package natbib Warning: Citation `Cameron2023' on page 11 undefined on input li
+ne 442.
+
+
+Underfull \vbox (badness 6380) has occurred while \output is active [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.448 
+       <./img/rad_profile_ratio.pdf>]
+
+Package natbib Warning: Citation `Cameron2023' on page 12 undefined on input li
+ne 452.
+
+
+Package natbib Warning: Citation `Martell2016' on page 12 undefined on input li
+ne 474.
+
+
+Package natbib Warning: Citation `Schiavon2017' on page 12 undefined on input l
+ine 474.
+
+
+Package natbib Warning: Citation `Koch2019' on page 12 undefined on input line 
+474.
+
+
+Package natbib Warning: Citation `Horta2021' on page 12 undefined on input line
+ 474.
+
+
+Package natbib Warning: Citation `Martell2011' on page 12 undefined on input li
+ne 475.
+
+
+Package natbib Warning: Citation `Koch2019' on page 12 undefined on input line 
+475.
+
+
+Package natbib Warning: Citation `Horta2021' on page 12 undefined on input line
+ 475.
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.478 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.478 
+       <./img/dgc_nrich_dist.pdf> <./img/no_oh.pdf>]
+
+Package natbib Warning: Citation `Ricotti.2002' on page 13 undefined on input l
+ine 479.
+
+
+Package natbib Warning: Citation `Boylan.Kolchin.2018' on page 13 undefined on 
+input line 479.
+
+
+Package natbib Warning: Citation `Weisz.etal.2023' on page 13 undefined on inpu
+t line 481.
+
+
+Package natbib Warning: Citation `Zick.etal.2018' on page 13 undefined on input
+ line 481.
+
+
+Package natbib Warning: Citation `Kravtsov2005' on page 13 undefined on input l
+ine 484.
+
+
+Package natbib Warning: Citation `Bekki.etal.2008' on page 13 undefined on inpu
+t line 484.
+
+
+Package natbib Warning: Citation `Choksi2018' on page 13 undefined on input lin
+e 484.
+
+
+Package natbib Warning: Citation `Choksi2019' on page 13 undefined on input lin
+e 484.
+
+
+Package natbib Warning: Citation `El_Badry_etal.2019' on page 13 undefined on i
+nput line 484.
+
+
+Package natbib Warning: Citation `Spitler.Forbes.2009' on page 13 undefined on 
+input line 484.
+
+
+Package natbib Warning: Citation `Hudson.etal.2014' on page 13 undefined on inp
+ut line 484.
+
+
+Package natbib Warning: Citation `Harris.etal.2017' on page 13 undefined on inp
+ut line 484.
+
+
+Package natbib Warning: Citation `Forbes.etal.2018' on page 13 undefined on inp
+ut line 484.
+
+
+Package natbib Warning: Citation `Dornan.Harris.2023' on page 13 undefined on i
+nput line 484.
+
+
+Package natbib Warning: Citation `Kravtsov.etal.2018' on page 13 undefined on i
+nput line 484.
+
+
+Package natbib Warning: Citation `Read.Erkal.2019' on page 13 undefined on inpu
+t line 484.
+
+
+Package natbib Warning: Citation `Nadler.etal.2020' on page 13 undefined on inp
+ut line 484.
+
+
+Package natbib Warning: Citation `Chen_Gnedin2023' on page 13 undefined on inpu
+t line 484.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+Package natbib Warning: Citation `Livermore.etal.2015' on page 13 undefined on 
+input line 487.
+
+
+Package natbib Warning: Citation `Johnson.etal.2017' on page 13 undefined on in
+put line 487.
+
+
+Package natbib Warning: Citation `Vanzella.etal.2023' on page 13 undefined on i
+nput line 487.
+
+
+Package natbib Warning: Citation `Adamo.etal.2020' on page 13 undefined on inpu
+t line 488.
+
+
+Package natbib Warning: Citation `Adamo.etal.2020rev' on page 13 undefined on i
+nput line 488.
+
+
+Package natbib Warning: Citation `Kruijssen2012' on page 13 undefined on input 
+line 488.
+
+
+Package natbib Warning: Citation `Naab.Ostriker.2017' on page 13 undefined on i
+nput line 492.
+
+
+Package natbib Warning: Citation `Vogelsberger.etal.2020' on page 13 undefined 
+on input line 492.
+
+
+Package natbib Warning: Citation `Hopkins.etal.2018' on page 13 undefined on in
+put line 494.
+
+
+Package natbib Warning: Citation `Wetzel.etal.2023' on page 13 undefined on inp
+ut line 494.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.496 
+       <./img/dgc_insitu_dist_feh-3.0-1.0.pdf> <./img/age_feh_gc_sim.pdf>]
+
+Package natbib Warning: Citation `Fattahi.etal.2019' on page 14 undefined on in
+put line 498.
+
+
+Package natbib Warning: Citation `Dillamore.etal.2022' on page 14 undefined on 
+input line 498.
+
+
+Package natbib Warning: Citation `Bastian_Lardo2018' on page 14 undefined on in
+put line 503.
+
+
+Package natbib Warning: Citation `Maeder.Meynet.2006' on page 14 undefined on i
+nput line 503.
+
+
+Package natbib Warning: Citation `Crowther.2007' on page 14 undefined on input 
+line 503.
+
+
+Package natbib Warning: Citation `Denissenkov.Hartwick.2014' on page 14 undefin
+ed on input line 503.
+
+
+Package natbib Warning: Citation `Dib.etal.2007' on page 14 undefined on input 
+line 503.
+
+
+Package natbib Warning: Citation `Chon.etal.2021' on page 14 undefined on input
+ line 503.
+
+
+Package natbib Warning: Citation `Zick.etal.2018' on page 14 undefined on input
+ line 506.
+
+
+Package natbib Warning: Citation `Finkelstein.etal.2023' on page 14 undefined o
+n input line 507.
+
+
+Package natbib Warning: Citation `Wilkins.etal.2023' on page 14 undefined on in
+put line 507.
+
+
+Package natbib Warning: Citation `Yung.etal.2023' on page 14 undefined on input
+ line 507.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 14 undefined on input lin
+e 515.
+
+
+Package natbib Warning: Citation `Rix2022' on page 14 undefined on input line 5
+15.
+
+
+Package natbib Warning: Citation `Mccluskey2023' on page 14 undefined on input 
+line 515.
+
+
+Package natbib Warning: Citation `Conroy2022' on page 14 undefined on input lin
+e 521.
+
+
+Package natbib Warning: Citation `Rix2022' on page 14 undefined on input line 5
+23.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [14]
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+
+Package natbib Warning: Citation `Friedman.2001' on page 15 undefined on input 
+line 532.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+
+Package natbib Warning: Citation `Massari2019' on page 15 undefined on input li
+ne 534.
+
+
+Package natbib Warning: Citation `Krijssen2020' on page 15 undefined on input l
+ine 534.
+
+
+Package natbib Warning: Citation `Forbes2020' on page 15 undefined on input lin
+e 534.
+
+
+Package natbib Warning: Citation `Horta_heracles' on page 15 undefined on input
+ line 534.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+
+
+Package natbib Warning: Citation `Hudson.etal.2014' on page 15 undefined on inp
+ut line 536.
+
+
+Package natbib Warning: Citation `Forbes.etal.2018' on page 15 undefined on inp
+ut line 536.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--537
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 540--541
+\OT1/ptm/m/n/9 de-creases rapidly with in-creas-ing metal-lic-ity (Fig-ure [][]
+8[][]) from
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+
+[15]
+
+Package natbib Warning: Citation `Wetzel.etal.2023' on page 16 undefined on inp
+ut line 567.
+
+
+Package natbib Warning: Citation `hopkins15' on page 16 undefined on input line
+ 567.
+
+
+Package natbib Warning: Citation `hopkins_etal18' on page 16 undefined on input
+ line 567.
+
+
+Package natbib Warning: Citation `NumPy' on page 16 undefined on input line 568
+.
+
+
+Package natbib Warning: Citation `scipy' on page 16 undefined on input line 568
+.
+
+
+Package natbib Warning: Citation `matplotlib' on page 16 undefined on input lin
+e 568.
+
+
+Package natbib Warning: Citation `sklearn' on page 16 undefined on input line 5
+68.
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 572--574
+\OT1/ptm/m/n/9 This study uses [][]\OT1/pcr/m/n/9 allStarLite-dr17-synspec_rev1
+ []\OT1/ptm/m/n/9 and
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
+[][]\OT1/pcr/m/n/9 apogee_astroNN-DR17 []\OT1/ptm/m/n/9 cat-a-logues pub-licly 
+avail-able at
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
+[][]$\OT1/pcr/m/n/9 https : / / www . sdss . org / dr17 / irspec / spectro _
+No file 2306.00060_tl2022.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[16]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060
+_tl2022.aux) )
+(see the transcript file for additional information)
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00060/2306.00060_tl2022.pdf (16 pages, 13512072 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00060/2306.00060_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.log'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022.pdf'
+Latexmk: Found bibliography file(s):
+  references.bib
+Bib file(s) not found in search path:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 243 citation(s)
+Latexmk: All targets () are up-to-date
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022' because I don't find the following files:
+  references.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022':  Reasons for rerun
+Category 'no_dest':
+  bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00060/2306.00060_tl2022
+
+Latexmk: All targets () are up-to-date
+

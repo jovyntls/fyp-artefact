@@ -1,0 +1,118 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01235" --jobname="2306.01235_tl2020"  "2306.01235"'
+------------
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01235/2306.01235_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `B2' on page 4 undefined on input line 126
+  Citation `B2' on page 4 undefined on input line 128
+  Citation `H1' on page 2 undefined on input line 45
+  Citation `H1' on page 3 undefined on input line 90
+  Citation `H1' on page 4 undefined on input line 111
+  Citation `H1' on page 4 undefined on input line 137
+  Citation `H1' on page 5 undefined on input line 145
+  Citation `H10' on page 1 undefined on input line 29
+  Citation `H10' on page 1 undefined on input line 31
+  Citation `H10' on page 1 undefined on input line 32
+  Citation `H10' on page 2 undefined on input line 52
+  Citation `H10' on page 2 undefined on input line 53
+  Citation `H10' on page 2 undefined on input line 59
+  Citation `H10' on page 2 undefined on input line 62
+  Citation `H10' on page 2 undefined on input line 70
+  Citation `H10' on page 3 undefined on input line 73
+  Citation `H10' on page 3 undefined on input line 75
+  Citation `H10' on page 3 undefined on input line 81
+  Citation `H10' on page 6 undefined on input line 182
+  Citation `H10' on page 6 undefined on input line 205
+  Citation `H10' on page 6 undefined on input line 207
+  Citation `H10' on page 6 undefined on input line 210
+  Citation `H10' on page 6 undefined on input line 215
+  Citation `H10' on page 6 undefined on input line 218
+  Citation `H10' on page 6 undefined on input line 219
+  Citation `H10' on page 7 undefined on input line 225
+  Citation `H10' on page 7 undefined on input line 226
+  Citation `H10' on page 7 undefined on input line 228
+  Citation `H2' on page 2 undefined on input line 45
+  Citation `H2' on page 3 undefined on input line 90
+  Citation `H2' on page 4 undefined on input line 111
+  Citation `H2' on page 4 undefined on input line 137
+  Citation `H2' on page 6 undefined on input line 188
+  Citation `H3' on page 2 undefined on input line 45
+  Citation `H3' on page 3 undefined on input line 101
+  Citation `H3' on page 3 undefined on input line 90
+  Citation `H3' on page 4 undefined on input line 105
+  Citation `H3' on page 4 undefined on input line 111
+  Citation `H3' on page 4 undefined on input line 117
+  Citation `H3' on page 5 undefined on input line 145
+  Citation `H3' on page 6 undefined on input line 188
+  Citation `H4' on page 3 undefined on input line 88
+  Citation `H4' on page 4 undefined on input line 126
+  Citation `H4' on page 4 undefined on input line 128
+  Citation `H5' on page 2 undefined on input line 45
+  Citation `H5' on page 4 undefined on input line 111
+  Citation `H5' on page 4 undefined on input line 117
+  Citation `H5' on page 6 undefined on input line 188
+  Citation `H6' on page 1 undefined on input line 31
+  Citation `H6' on page 2 undefined on input line 44
+  Citation `H6' on page 2 undefined on input line 51
+  Citation `H6' on page 2 undefined on input line 57
+  Citation `H6' on page 2 undefined on input line 58
+  Citation `H6' on page 4 undefined on input line 141
+  Citation `H6' on page 5 undefined on input line 152
+  Citation `H6' on page 5 undefined on input line 154
+  Citation `H6' on page 5 undefined on input line 162
+  Citation `H6' on page 5 undefined on input line 163
+  Citation `H6' on page 5 undefined on input line 175
+  Citation `H6' on page 5 undefined on input line 176
+  Citation `H7' on page 3 undefined on input line 101
+  Citation `H7' on page 3 undefined on input line 90
+  Citation `H8' on page 4 undefined on input line 107
+  Citation `H8' on page 6 undefined on input line 199
+  Citation `H9' on page 1 undefined on input line 31
+  Citation `H9' on page 2 undefined on input line 57
+  Citation `H9' on page 2 undefined on input line 58
+  Citation `H9' on page 3 undefined on input line 72
+  Citation `H9' on page 3 undefined on input line 76
+  Citation `H9' on page 3 undefined on input line 77
+  Citation `H9' on page 4 undefined on input line 141
+  Citation `H9' on page 5 undefined on input line 145
+  Citation `H9' on page 6 undefined on input line 205
+  Citation `H9' on page 6 undefined on input line 207
+  Citation `H9' on page 6 undefined on input line 214
+  Citation `KR1' on page 3 undefined on input line 89
+  Citation `KR1' on page 4 undefined on input line 105
+  Citation `P1' on page 2 undefined on input line 50
+  Citation `P1' on page 2 undefined on input line 57
+  Citation `P1' on page 2 undefined on input line 58
+  Citation `P1' on page 2 undefined on input line 61
+  Citation `P1' on page 2 undefined on input line 62
+  Citation `P1' on page 3 undefined on input line 79
+  Citation `P1' on page 6 undefined on input line 179
+  Citation `P1' on page 6 undefined on input line 182
+  Citation `P2' on page 2 undefined on input line 57
+  Citation `P2' on page 2 undefined on input line 58
+  Citation `P2' on page 3 undefined on input line 79
+  Citation `P2' on page 3 undefined on input line 80
+  Citation `R1' on page 3 undefined on input line 89
+  Citation `R1' on page 4 undefined on input line 115
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01235/2306.01235_tl2020.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01235" --jobname="2306.01235_tl2020"  "2306.01235"'
+------------
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.01235/2306.01235_tl2020.pdf'
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

@@ -1,0 +1,39 @@
+We train a view classifier for each of the three splits independently. We train the classifiers using a recently proposed semi-supervised learning method~\citep{huang2022fix} with Pi-model~\citep{laine2016temporal}. We used the view labeled images in each split's train set (as the labeled data) as well as the unlabeled set (as the unlabeled data). 
+
+The view classifiers are trained to output probabilities of three category: PLAX, PSAX and Other. The view classifiers' performance is shown in \ref{tab:viewclassifier_performance}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c|c|c|c}
+Method & split1 & split2 & split3 \\
+\hline
+Fix-A-Step + Pi  & 97.20  & 98.14 & 98.00
+
+\end{tabular}
+\caption{Balanced accuracy on view classification. Showing view classification on TMED2 test set's view labeled images.}
+\label{tab:viewclassifier_performance}
+\end{table}
+
+\paragraph{Backbone.} The view classifiers use Wide ResNet~\citep{zagoruyko2016wide} as backbone,  specifically, the ``WRN-28-2'' that has a depth 28 and width 2.
+
+\paragraph{Training and Hyperparameters.} We train the view classifiers using SGD~\citep{robbins1951stochastic} as optimizer. We train the classifiers for 500 epochs, and retain the checkpoint that has maximum validation accuracy on the validation set. Hyperparameters used are reported below~\ref{tab:ViewClassifier hyperparameters}
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{l|c|c|c}
+Hyperparameter & split1 & split2 & split3 \\
+\midrule
+Labeled batch size & 64 & 64 & 64 \\
+Unlabeled batch size & 64 & 64 & 64 \\
+Learning rate & 0.0003 & 0.009 & 0.009 \\
+Weight decay & 0.05 & 0.0005 & 0.0005 \\
+Max consistency coefficient & 0.3 & 0.3 & 0.3 \\
+Beta shape $\alpha$ & 0.5 & 0.5 & 0.5 \\
+Unlabeled loss warmup schedule & linear & linear & linear \\
+Learning rate schedule & cosine & cosine & cosine\\
+\end{tabular}
+\caption{Hyperparameters used for the view classifiers in each split.}
+\label{tab:ViewClassifier hyperparameters}
+\end{table}
+
+

@@ -1,0 +1,47 @@
+Below we report the architecture details for SAMIL. For feature extractor $f$, we use a simple stack of convolution layers as done in ABMIL~\citep{ilse2018attention}.
+\begin{table}[!h] 
+\centering 
+\begin{tabular}{l}
+~~~~~Feature Extractor $f$ \\
+\midrule
+Conv2d(3, 20, kernel=(5,5))\\
+ReLU()\\
+MaxPool2d(2, stride=2)\\
+Conv2d(20, 50, kernel=(5,5))\\
+ReLU()\\
+MaxPool2d(2, stride=2)\\
+Conv2d(50, 100, kernel=(5,5))\\
+ReLU()\\
+Conv2d(100, 200, kernel=(5,5))\\
+ReLU()\\
+MaxPool2d(2, stride=2)\\
+
+\bottomrule
+\end{tabular}
+\caption{Details of Feature Extractor $f$}
+\label{tab:Feature Extractor $f$}
+\end{table} 
+We used the same feature extractor $f$ shown in \ref{tab:Feature Extractor $f$} for SAMIL, ABMIL, Set Transformer and DSMIL.
+
+The feature extractor $f$ maps each of the original images into 200 feature maps with smaller size. In practice, a MLP can be use (optional) to further process the flattened feature maps (also see Fig~\ref{fig:workflow_diagram}). We use the same MLP [Linear(32000, 500), ReLU(), Linear(500, 250), ReLU(), Linear(250, 500), ReLU()] for both SAMIL and ABMIL. For Set Transformer, we directly flattened the extracted feature maps and feed them to the Set Transformer's ISAB blocks. Please refer to original paper~\citep{lee2019set} for more details. For DSMIL, the extracted feature maps are flattened and projected to vectors of dimension 500 by a linear layer followed by ReLU, and then feed to its two streams. Please refer to original paper~\citep{li2021dual} for more details.
+
+For the pooling layer $\sigma$, we use the same MLP architectures (shown in \ref{tab:attention_MLP}) for both the supervised attention branch and flexible attention branch in SAMIL. Note that this is also the same MLP architecture to learn attention weights in ABMIL.
+
+\begin{table}[!h] 
+\centering 
+\begin{tabular}{l}
+MLP learning attention weights \\
+\midrule
+Linear(500, 128)\\
+Tanh()\\
+Linear(128, 1)\\
+
+\bottomrule
+\end{tabular}
+\caption{Details of MLP used to learn attention weights for SAMIL and ABMIL}
+\label{tab:attention_MLP}
+\end{table} 
+
+For output layer $g$ both SAMIL and ABMIL use a simple linear layer (with softmax). Our experiments for DSMIL,  and Set Transformer are mainly based on the official open-source code from corresponding paper. Please refer to the original papers for more details on their $\sigma$ and $g$.
+
+

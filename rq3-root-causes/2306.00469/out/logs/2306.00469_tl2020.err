@@ -1,0 +1,238 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469" --jobname="2306.00469_tl2020"  "HiQR_v2.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.bbl in line'
+ No file 2306.00469_tl2020.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `bien2013lasso' on page 1 undefined on input line 163
+  Citation `bien2013lasso' on page 2 undefined on input line 186
+  Citation `bien2013lasso' on page 8 undefined on input line 374
+  Citation `bien2015convex' on page 2 undefined on input line 180
+  Citation `boyd2011distributed' on page 5 undefined on input line 281
+  Citation `boyd2011distributed' on page 9 undefined on input line 396
+  Citation `breheny2011coordinate' on page 13 undefined on input line 539
+  Citation `choi2010variable' on page 2 undefined on input line 186
+  Citation `duchi2009efficient' on page 11 undefined on input line 455
+  Citation `duchi2009efficient' on page 11 undefined on input line 467
+  Citation `fan2015innovated' on page 3 undefined on input line 209
+  Citation `friedman2001elements' on page 5 undefined on input line 281
+  Citation `friedman2010regularization' on page 13 undefined on input line 539
+  Citation `glmnet' on page 3 undefined on input line 206
+  Citation `hao2014interaction' on page 1 undefined on input line 163
+  Citation `hao2014interaction' on page 3 undefined on input line 209
+  Citation `hao2016model' on page 1 undefined on input line 163
+  Citation `hao2016model' on page 3 undefined on input line 209
+  Citation `hao2017note' on page 1 undefined on input line 163
+  Citation `haris2016convex' on page 11 undefined on input line 468
+  Citation `haris2016convex' on page 11 undefined on input line 480
+  Citation `haris2016convex' on page 2 undefined on input line 186
+  Citation `haris2016convex' on page 5 undefined on input line 283
+  Citation `haris2016convex' on page 8 undefined on input line 368
+  Citation `haris2016convex' on page 8 undefined on input line 374
+  Citation `kong2017interaction' on page 3 undefined on input line 209
+  Citation `lee2015strong' on page 13 undefined on input line 558
+  Citation `lim2015learning' on page 2 undefined on input line 186
+  Citation `lim2015learning' on page 8 undefined on input line 363
+  Citation `lu2021' on page 1 undefined on input line 163
+  Citation `lu2021' on page 8 undefined on input line 380
+  Citation `parikh2014proximal' on page 9 undefined on input line 417
+  Citation `radchenko2010variable' on page 2 undefined on input line 186
+  Citation `radchenko2010variable' on page 8 undefined on input line 363
+  Citation `she2017group' on page 2 undefined on input line 186
+  Citation `tang2020high' on page 1 undefined on input line 163
+  Citation `tang2020high' on page 3 undefined on input line 210
+  Citation `tibshirani2012strong' on page 13 undefined on input line 558
+  Citation `wainwright2019high' on page 3 undefined on input line 205
+  Citation `wang2021penalized' on page 1 undefined on input line 163
+  Citation `wang2021penalized' on page 3 undefined on input line 210
+  Citation `yu2019reluctant' on page 1 undefined on input line 163
+  Citation `yu2019reluctant' on page 3 undefined on input line 209
+  Citation `yuan2006model' on page 10 undefined on input line 451
+  Citation `yuan2009structured' on page 2 undefined on input line 186
+  Citation `zhao2016analysis' on page 3 undefined on input line 205
+  Reference `RidgeQR' on page 7 undefined on input line 336
+  Reference `RidgeQR' on page 7 undefined on input line 338
+  Reference `eff_sol' on page 7 undefined on input line 348
+  Reference `fig1' on page 15 undefined on input line 618
+  Reference `fig1' on page 15 undefined on input line 619
+  Reference `gen1' on page 9 undefined on input line 400
+  Reference `l2proc' on page 10 undefined on input line 421
+  Reference `m1' on page 15 undefined on input line 646
+  Reference `m2' on page 15 undefined on input line 646
+  Reference `m3' on page 15 undefined on input line 646
+  Reference `p1' on page 7 undefined on input line 336
+  Reference `p3' on page 7 undefined on input line 336
+  Reference `pqr' on page 2 undefined on input line 193
+  Reference `pqr' on page 2 undefined on input line 201
+  Reference `pqr' on page 3 undefined on input line 205
+  Reference `pqr' on page 3 undefined on input line 209
+  Reference `pqr' on page 3 undefined on input line 217
+  Reference `pqr' on page 7 undefined on input line 356
+  Reference `pqr' on page 8 undefined on input line 383
+  Reference `prop1' on page 10 undefined on input line 421
+  Reference `prop1' on page 8 undefined on input line 383
+  Reference `ridge_eq' on page 5 undefined on input line 256
+  Reference `sol' on page 12 undefined on input line 513
+  Reference `sol' on page 5 undefined on input line 272
+  Reference `sol' on page 5 undefined on input line 283
+  Reference `sol' on page 6 undefined on input line 287
+  Reference `sol' on page 6 undefined on input line 291
+  Reference `sol' on page 7 undefined on input line 348
+  Reference `svd' on page 12 undefined on input line 513
+  Reference `svd' on page 7 undefined on input line 348
+  Reference `tab2' on page 12 undefined on input line 536
+  Reference `tab3' on page 13 undefined on input line 539
+  Reference `tab4' on page 14 undefined on input line 565
+  Reference `wood' on page 12 undefined on input line 513
+  Reference `wood' on page 5 undefined on input line 283
+  Reference `wood' on page 6 undefined on input line 291
+Latexmk: Failed to find one or more bibliography files:
+    'ref.bib'
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.aux'
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020' because I don't find the following files:
+  ref.bib
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.out'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469" --jobname="2306.00469_tl2020"  "HiQR_v2.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.bbl in line'
+ No file 2306.00469_tl2020.bbl.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `bien2013lasso' on page 1 undefined on input line 163
+  Citation `bien2013lasso' on page 2 undefined on input line 186
+  Citation `bien2013lasso' on page 8 undefined on input line 374
+  Citation `bien2015convex' on page 2 undefined on input line 180
+  Citation `boyd2011distributed' on page 5 undefined on input line 281
+  Citation `boyd2011distributed' on page 9 undefined on input line 396
+  Citation `breheny2011coordinate' on page 13 undefined on input line 539
+  Citation `choi2010variable' on page 2 undefined on input line 186
+  Citation `duchi2009efficient' on page 11 undefined on input line 455
+  Citation `duchi2009efficient' on page 11 undefined on input line 467
+  Citation `fan2015innovated' on page 3 undefined on input line 209
+  Citation `friedman2001elements' on page 5 undefined on input line 281
+  Citation `friedman2010regularization' on page 13 undefined on input line 539
+  Citation `glmnet' on page 3 undefined on input line 206
+  Citation `hao2014interaction' on page 1 undefined on input line 163
+  Citation `hao2014interaction' on page 3 undefined on input line 209
+  Citation `hao2016model' on page 1 undefined on input line 163
+  Citation `hao2016model' on page 3 undefined on input line 209
+  Citation `hao2017note' on page 1 undefined on input line 163
+  Citation `haris2016convex' on page 11 undefined on input line 468
+  Citation `haris2016convex' on page 11 undefined on input line 480
+  Citation `haris2016convex' on page 2 undefined on input line 186
+  Citation `haris2016convex' on page 5 undefined on input line 283
+  Citation `haris2016convex' on page 8 undefined on input line 368
+  Citation `haris2016convex' on page 8 undefined on input line 374
+  Citation `kong2017interaction' on page 3 undefined on input line 209
+  Citation `lee2015strong' on page 13 undefined on input line 558
+  Citation `lim2015learning' on page 2 undefined on input line 186
+  Citation `lim2015learning' on page 8 undefined on input line 363
+  Citation `lu2021' on page 1 undefined on input line 163
+  Citation `lu2021' on page 8 undefined on input line 380
+  Citation `parikh2014proximal' on page 9 undefined on input line 417
+  Citation `radchenko2010variable' on page 2 undefined on input line 186
+  Citation `radchenko2010variable' on page 8 undefined on input line 363
+  Citation `she2017group' on page 2 undefined on input line 186
+  Citation `tang2020high' on page 1 undefined on input line 163
+  Citation `tang2020high' on page 3 undefined on input line 210
+  Citation `tibshirani2012strong' on page 13 undefined on input line 558
+  Citation `wainwright2019high' on page 3 undefined on input line 205
+  Citation `wang2021penalized' on page 1 undefined on input line 163
+  Citation `wang2021penalized' on page 3 undefined on input line 210
+  Citation `yu2019reluctant' on page 1 undefined on input line 163
+  Citation `yu2019reluctant' on page 3 undefined on input line 209
+  Citation `yuan2006model' on page 10 undefined on input line 451
+  Citation `yuan2009structured' on page 2 undefined on input line 186
+  Citation `zhao2016analysis' on page 3 undefined on input line 205
+Latexmk: Failed to find one or more bibliography files:
+    'ref.bib'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.spl'
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469" --jobname="2306.00469_tl2020"  "HiQR_v2.tex"'
+------------
+Latexmk: Non-existent bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.bbl in line'
+ No file 2306.00469_tl2020.bbl.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `bien2013lasso' on page 1 undefined on input line 163
+  Citation `bien2013lasso' on page 2 undefined on input line 186
+  Citation `bien2013lasso' on page 8 undefined on input line 374
+  Citation `bien2015convex' on page 2 undefined on input line 180
+  Citation `boyd2011distributed' on page 5 undefined on input line 281
+  Citation `boyd2011distributed' on page 9 undefined on input line 396
+  Citation `breheny2011coordinate' on page 13 undefined on input line 539
+  Citation `choi2010variable' on page 2 undefined on input line 186
+  Citation `duchi2009efficient' on page 11 undefined on input line 455
+  Citation `duchi2009efficient' on page 11 undefined on input line 467
+  Citation `fan2015innovated' on page 3 undefined on input line 209
+  Citation `friedman2001elements' on page 5 undefined on input line 281
+  Citation `friedman2010regularization' on page 13 undefined on input line 539
+  Citation `glmnet' on page 3 undefined on input line 206
+  Citation `hao2014interaction' on page 1 undefined on input line 163
+  Citation `hao2014interaction' on page 3 undefined on input line 209
+  Citation `hao2016model' on page 1 undefined on input line 163
+  Citation `hao2016model' on page 3 undefined on input line 209
+  Citation `hao2017note' on page 1 undefined on input line 163
+  Citation `haris2016convex' on page 11 undefined on input line 468
+  Citation `haris2016convex' on page 11 undefined on input line 480
+  Citation `haris2016convex' on page 2 undefined on input line 186
+  Citation `haris2016convex' on page 5 undefined on input line 283
+  Citation `haris2016convex' on page 8 undefined on input line 368
+  Citation `haris2016convex' on page 8 undefined on input line 374
+  Citation `kong2017interaction' on page 3 undefined on input line 209
+  Citation `lee2015strong' on page 13 undefined on input line 558
+  Citation `lim2015learning' on page 2 undefined on input line 186
+  Citation `lim2015learning' on page 8 undefined on input line 363
+  Citation `lu2021' on page 1 undefined on input line 163
+  Citation `lu2021' on page 8 undefined on input line 380
+  Citation `parikh2014proximal' on page 9 undefined on input line 417
+  Citation `radchenko2010variable' on page 2 undefined on input line 186
+  Citation `radchenko2010variable' on page 8 undefined on input line 363
+  Citation `she2017group' on page 2 undefined on input line 186
+  Citation `tang2020high' on page 1 undefined on input line 163
+  Citation `tang2020high' on page 3 undefined on input line 210
+  Citation `tibshirani2012strong' on page 13 undefined on input line 558
+  Citation `wainwright2019high' on page 3 undefined on input line 205
+  Citation `wang2021penalized' on page 1 undefined on input line 163
+  Citation `wang2021penalized' on page 3 undefined on input line 210
+  Citation `yu2019reluctant' on page 1 undefined on input line 163
+  Citation `yu2019reluctant' on page 3 undefined on input line 209
+  Citation `yuan2006model' on page 10 undefined on input line 451
+  Citation `yuan2009structured' on page 2 undefined on input line 186
+  Citation `zhao2016analysis' on page 3 undefined on input line 205
+Latexmk: Failed to find one or more bibliography files:
+    'ref.bib'
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 47 citation(s)
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020': The following rules & subrules became out-of-date:
+      'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020'
+Latexmk: I WON'T RUN 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020' because I don't find the following files:
+  ref.bib

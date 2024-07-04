@@ -1,0 +1,1234 @@
+Set environment variable BIBINPUTS='/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469:'
+Set environment variable TEXINPUTS='/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469:'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./HiQR_v2.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (./elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.20b: Elsevier Ltd
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/upzd.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/upsy.fd))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/epsfig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(./numcompress.sty
+
+Package numcompress Warning: ****************************************
+(numcompress)                Package numcompress v,187 loaded
+(numcompress)                [Compress numbers (CVR)]
+(numcompress)                ****************************************.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package natbib Warning: Citation `bien2013lasso' on page 1 undefined on input l
+ine 163.
+
+
+Package natbib Warning: Citation `hao2014interaction' on page 1 undefined on in
+put line 163.
+
+
+Package natbib Warning: Citation `hao2016model' on page 1 undefined on input li
+ne 163.
+
+
+Package natbib Warning: Citation `hao2017note' on page 1 undefined on input lin
+e 163.
+
+
+Package natbib Warning: Citation `yu2019reluctant' on page 1 undefined on input
+ line 163.
+
+
+Package natbib Warning: Citation `tang2020high' on page 1 undefined on input li
+ne 163.
+
+
+Package natbib Warning: Citation `lu2021' on page 1 undefined on input line 163
+.
+
+
+Package natbib Warning: Citation `wang2021penalized' on page 1 undefined on inp
+ut line 163.
+
+[1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `bien2015convex' on page 2 undefined on input 
+line 180.
+
+
+Package natbib Warning: Citation `yuan2009structured' on page 2 undefined on in
+put line 186.
+
+
+Package natbib Warning: Citation `radchenko2010variable' on page 2 undefined on
+ input line 186.
+
+
+Package natbib Warning: Citation `choi2010variable' on page 2 undefined on inpu
+t line 186.
+
+
+Package natbib Warning: Citation `bien2013lasso' on page 2 undefined on input l
+ine 186.
+
+
+Package natbib Warning: Citation `lim2015learning' on page 2 undefined on input
+ line 186.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 2 undefined on input
+ line 186.
+
+
+Package natbib Warning: Citation `she2017group' on page 2 undefined on input li
+ne 186.
+
+
+LaTeX Warning: Reference `pqr' on page 2 undefined on input line 193.
+
+
+LaTeX Warning: Reference `pqr' on page 2 undefined on input line 201.
+
+[2]
+
+LaTeX Warning: Reference `pqr' on page 3 undefined on input line 205.
+
+
+Package natbib Warning: Citation `wainwright2019high' on page 3 undefined on in
+put line 205.
+
+
+Package natbib Warning: Citation `zhao2016analysis' on page 3 undefined on inpu
+t line 205.
+
+
+Package natbib Warning: Citation `glmnet' on page 3 undefined on input line 206
+.
+
+
+Package natbib Warning: Citation `hao2014interaction' on page 3 undefined on in
+put line 209.
+
+
+Package natbib Warning: Citation `fan2015innovated' on page 3 undefined on inpu
+t line 209.
+
+
+Package natbib Warning: Citation `kong2017interaction' on page 3 undefined on i
+nput line 209.
+
+
+Package natbib Warning: Citation `hao2016model' on page 3 undefined on input li
+ne 209.
+
+
+Package natbib Warning: Citation `yu2019reluctant' on page 3 undefined on input
+ line 209.
+
+
+LaTeX Warning: Reference `pqr' on page 3 undefined on input line 209.
+
+
+Package natbib Warning: Citation `wang2021penalized' on page 3 undefined on inp
+ut line 210.
+
+
+Package natbib Warning: Citation `tang2020high' on page 3 undefined on input li
+ne 210.
+
+
+Overfull \hbox (4.44998pt too wide) in paragraph at lines 209--212
+[]\OT1/cmr/m/n/10.95 To ad-dress the com-pu-ta-tional chal-lenges as-so-ci-ated
+ with high-dimensional
+
+LaTeX Warning: Reference `pqr' on page 3 undefined on input line 217.
+
+[3] [4]
+
+LaTeX Warning: Reference `ridge_eq' on page 5 undefined on input line 256.
+
+
+LaTeX Warning: Reference `sol' on page 5 undefined on input line 272.
+
+
+Package natbib Warning: Citation `boyd2011distributed' on page 5 undefined on i
+nput line 281.
+
+
+Package natbib Warning: Citation `friedman2001elements' on page 5 undefined on 
+input line 281.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 5 undefined on input
+ line 283.
+
+
+LaTeX Warning: Reference `wood' on page 5 undefined on input line 283.
+
+
+LaTeX Warning: Reference `sol' on page 5 undefined on input line 283.
+
+[5]
+
+LaTeX Warning: Reference `sol' on page 6 undefined on input line 287.
+
+
+LaTeX Warning: Reference `wood' on page 6 undefined on input line 291.
+
+
+LaTeX Warning: Reference `sol' on page 6 undefined on input line 291.
+
+[6]
+
+LaTeX Warning: Reference `p1' on page 7 undefined on input line 336.
+
+
+LaTeX Warning: Reference `p3' on page 7 undefined on input line 336.
+
+
+LaTeX Warning: Reference `RidgeQR' on page 7 undefined on input line 336.
+
+
+LaTeX Warning: Reference `RidgeQR' on page 7 undefined on input line 338.
+
+
+LaTeX Warning: Reference `eff_sol' on page 7 undefined on input line 348.
+
+
+LaTeX Warning: Reference `sol' on page 7 undefined on input line 348.
+
+
+LaTeX Warning: Reference `svd' on page 7 undefined on input line 348.
+
+
+LaTeX Warning: Reference `pqr' on page 7 undefined on input line 356.
+
+[7]
+
+Package natbib Warning: Citation `radchenko2010variable' on page 8 undefined on
+ input line 363.
+
+
+Package natbib Warning: Citation `lim2015learning' on page 8 undefined on input
+ line 363.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 8 undefined on input
+ line 368.
+
+
+Package natbib Warning: Citation `bien2013lasso' on page 8 undefined on input l
+ine 374.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 8 undefined on input
+ line 374.
+
+
+Package natbib Warning: Citation `lu2021' on page 8 undefined on input line 380
+.
+
+
+LaTeX Warning: Reference `prop1' on page 8 undefined on input line 383.
+
+
+LaTeX Warning: Reference `pqr' on page 8 undefined on input line 383.
+
+[8]
+
+Package natbib Warning: Citation `boyd2011distributed' on page 9 undefined on i
+nput line 396.
+
+
+LaTeX Warning: Reference `gen1' on page 9 undefined on input line 400.
+
+
+Overfull \hbox (7.3593pt too wide) in paragraph at lines 407--408
+[]\OT1/cmr/m/n/10.95 Step 1: $\OT1/cmr/bx/n/10.95 B[] \OT1/cmr/m/n/10.95 = [][]
+ [] \OML/cmm/m/it/10.95 ; i \OT1/cmr/m/n/10.95 = 0\OML/cmm/m/it/10.95 ; []  ; N
+$\OT1/cmr/m/n/10.95 ; 
+
+Package natbib Warning: Citation `parikh2014proximal' on page 9 undefined on in
+put line 417.
+
+[9]
+
+LaTeX Warning: Reference `prop1' on page 10 undefined on input line 421.
+
+
+LaTeX Warning: Reference `l2proc' on page 10 undefined on input line 421.
+
+
+LaTeX Warning: Reference `prop1' on page 10 undefined on input line 421.
+
+
+Package natbib Warning: Citation `yuan2006model' on page 10 undefined on input 
+line 451.
+
+[10]
+
+Package natbib Warning: Citation `duchi2009efficient' on page 11 undefined on i
+nput line 455.
+
+
+Package natbib Warning: Citation `duchi2009efficient' on page 11 undefined on i
+nput line 467.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 11 undefined on inpu
+t line 468.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 11 undefined on inpu
+t line 480.
+
+[11]
+
+LaTeX Warning: Reference `sol' on page 12 undefined on input line 513.
+
+
+LaTeX Warning: Reference `wood' on page 12 undefined on input line 513.
+
+
+LaTeX Warning: Reference `svd' on page 12 undefined on input line 513.
+
+
+Overfull \hbox (5.81877pt too wide) in paragraph at lines 513--514
+[]\OT1/cmr/m/n/10.95 In this part, we com-pare four al-go-rithms for com-put-in
+g the ridge-penalized
+
+LaTeX Warning: Reference `tab2' on page 12 undefined on input line 536.
+
+[12]
+
+Package natbib Warning: Citation `friedman2010regularization' on page 13 undefi
+ned on input line 539.
+
+
+Package natbib Warning: Citation `breheny2011coordinate' on page 13 undefined o
+n input line 539.
+
+
+LaTeX Warning: Reference `tab3' on page 13 undefined on input line 539.
+
+
+LaTeX Warning: Reference `tab3' on page 13 undefined on input line 539.
+
+
+Package natbib Warning: Citation `tibshirani2012strong' on page 13 undefined on
+ input line 558.
+
+
+Package natbib Warning: Citation `lee2015strong' on page 13 undefined on input 
+line 558.
+
+
+Package natbib Warning: Citation `tibshirani2012strong' on page 13 undefined on
+ input line 558.
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.559 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.2
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.559 
+      ]
+
+LaTeX Warning: Reference `tab4' on page 14 undefined on input line 565.
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{table.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.612 
+      ]
+
+LaTeX Warning: Reference `fig1' on page 15 undefined on input line 618.
+
+
+LaTeX Warning: Reference `fig1' on page 15 undefined on input line 619.
+
+
+LaTeX Warning: Reference `m1' on page 15 undefined on input line 646.
+
+
+LaTeX Warning: Reference `m2' on page 15 undefined on input line 646.
+
+
+LaTeX Warning: Reference `m3' on page 15 undefined on input line 646.
+
+No file 2306.00469_tl2020.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[15] [16pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.657 \end{document}
+                     <./500-200-1-12.pdf> <./500-200-1-13.pdf> <./500-200-1-14.
+pdf> <./500-200-1-15.pdf> <./500-200-2-12.pdf> <./500-200-2-13.pdf> <./500-200-
+2-14.pdf> <./500-200-2-15.pdf> <./500-200-3-12.pdf> <./500-200-3-13.pdf> <./500
+-200-3-14.pdf> <./500-200-3-15.pdf>]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `2306.00469_tl2020.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){/usr/local/texlive/2020/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm
+1095.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020
+/2306.00469/2306.00469_tl2020.pdf (16 pages, 465530 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_
+2020/2306.00469/2306.00469_tl2020.log.
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020'...
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./HiQR_v2.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (./elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.20b: Elsevier Ltd
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/upzd.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/upsy.fd))
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.spl)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/epsfig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(./numcompress.sty
+
+Package numcompress Warning: ****************************************
+(numcompress)                Package numcompress v,187 loaded
+(numcompress)                [Compress numbers (CVR)]
+(numcompress)                ****************************************.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty))
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.out)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.out)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package natbib Warning: Citation `bien2013lasso' on page 1 undefined on input l
+ine 163.
+
+
+Package natbib Warning: Citation `hao2014interaction' on page 1 undefined on in
+put line 163.
+
+
+Package natbib Warning: Citation `hao2016model' on page 1 undefined on input li
+ne 163.
+
+
+Package natbib Warning: Citation `hao2017note' on page 1 undefined on input lin
+e 163.
+
+
+Package natbib Warning: Citation `yu2019reluctant' on page 1 undefined on input
+ line 163.
+
+
+Package natbib Warning: Citation `tang2020high' on page 1 undefined on input li
+ne 163.
+
+
+Package natbib Warning: Citation `lu2021' on page 1 undefined on input line 163
+.
+
+
+Package natbib Warning: Citation `wang2021penalized' on page 1 undefined on inp
+ut line 163.
+
+[1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `bien2015convex' on page 2 undefined on input 
+line 180.
+
+
+Package natbib Warning: Citation `yuan2009structured' on page 2 undefined on in
+put line 186.
+
+
+Package natbib Warning: Citation `radchenko2010variable' on page 2 undefined on
+ input line 186.
+
+
+Package natbib Warning: Citation `choi2010variable' on page 2 undefined on inpu
+t line 186.
+
+
+Package natbib Warning: Citation `bien2013lasso' on page 2 undefined on input l
+ine 186.
+
+
+Package natbib Warning: Citation `lim2015learning' on page 2 undefined on input
+ line 186.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 2 undefined on input
+ line 186.
+
+
+Package natbib Warning: Citation `she2017group' on page 2 undefined on input li
+ne 186.
+
+[2]
+
+Package natbib Warning: Citation `wainwright2019high' on page 3 undefined on in
+put line 205.
+
+
+Package natbib Warning: Citation `zhao2016analysis' on page 3 undefined on inpu
+t line 205.
+
+
+Package natbib Warning: Citation `glmnet' on page 3 undefined on input line 206
+.
+
+
+Package natbib Warning: Citation `hao2014interaction' on page 3 undefined on in
+put line 209.
+
+
+Package natbib Warning: Citation `fan2015innovated' on page 3 undefined on inpu
+t line 209.
+
+
+Package natbib Warning: Citation `kong2017interaction' on page 3 undefined on i
+nput line 209.
+
+
+Package natbib Warning: Citation `hao2016model' on page 3 undefined on input li
+ne 209.
+
+
+Package natbib Warning: Citation `yu2019reluctant' on page 3 undefined on input
+ line 209.
+
+
+Package natbib Warning: Citation `wang2021penalized' on page 3 undefined on inp
+ut line 210.
+
+
+Package natbib Warning: Citation `tang2020high' on page 3 undefined on input li
+ne 210.
+
+
+Overfull \hbox (4.44998pt too wide) in paragraph at lines 209--212
+[]\OT1/cmr/m/n/10.95 To ad-dress the com-pu-ta-tional chal-lenges as-so-ci-ated
+ with high-dimensional
+[3] [4]
+
+Package natbib Warning: Citation `boyd2011distributed' on page 5 undefined on i
+nput line 281.
+
+
+Package natbib Warning: Citation `friedman2001elements' on page 5 undefined on 
+input line 281.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 5 undefined on input
+ line 283.
+
+[5] [6] [7]
+
+Package natbib Warning: Citation `radchenko2010variable' on page 8 undefined on
+ input line 363.
+
+
+Package natbib Warning: Citation `lim2015learning' on page 8 undefined on input
+ line 363.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 8 undefined on input
+ line 368.
+
+
+Package natbib Warning: Citation `bien2013lasso' on page 8 undefined on input l
+ine 374.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 8 undefined on input
+ line 374.
+
+
+Package natbib Warning: Citation `lu2021' on page 8 undefined on input line 380
+.
+
+[8]
+
+Package natbib Warning: Citation `boyd2011distributed' on page 9 undefined on i
+nput line 396.
+
+
+Overfull \hbox (7.3593pt too wide) in paragraph at lines 407--408
+[]\OT1/cmr/m/n/10.95 Step 1: $\OT1/cmr/bx/n/10.95 B[] \OT1/cmr/m/n/10.95 = [][]
+ [] \OML/cmm/m/it/10.95 ; i \OT1/cmr/m/n/10.95 = 0\OML/cmm/m/it/10.95 ; []  ; N
+$\OT1/cmr/m/n/10.95 ; 
+
+Package natbib Warning: Citation `parikh2014proximal' on page 9 undefined on in
+put line 417.
+
+[9]
+
+Package natbib Warning: Citation `yuan2006model' on page 10 undefined on input 
+line 451.
+
+[10]
+
+Package natbib Warning: Citation `duchi2009efficient' on page 11 undefined on i
+nput line 455.
+
+
+Package natbib Warning: Citation `duchi2009efficient' on page 11 undefined on i
+nput line 467.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 11 undefined on inpu
+t line 468.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 11 undefined on inpu
+t line 480.
+
+[11]
+Overfull \hbox (5.81877pt too wide) in paragraph at lines 513--514
+[]\OT1/cmr/m/n/10.95 In this part, we com-pare four al-go-rithms for com-put-in
+g the ridge-penalized
+[12]
+
+Package natbib Warning: Citation `friedman2010regularization' on page 13 undefi
+ned on input line 539.
+
+
+Package natbib Warning: Citation `breheny2011coordinate' on page 13 undefined o
+n input line 539.
+
+
+Package natbib Warning: Citation `tibshirani2012strong' on page 13 undefined on
+ input line 558.
+
+
+Package natbib Warning: Citation `lee2015strong' on page 13 undefined on input 
+line 558.
+
+
+Package natbib Warning: Citation `tibshirani2012strong' on page 13 undefined on
+ input line 558.
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.559 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.2
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.559 
+      ] [14pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.612 
+      ]
+No file 2306.00469_tl2020.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[15] [16pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.657 \end{document}
+                     <./500-200-1-12.pdf> <./500-200-1-13.pdf> <./500-200-1-14.
+pdf> <./500-200-1-15.pdf> <./500-200-2-12.pdf> <./500-200-2-13.pdf> <./500-200-
+2-14.pdf> <./500-200-2-15.pdf> <./500-200-3-12.pdf> <./500-200-3-13.pdf> <./500
+-200-3-14.pdf> <./500-200-3-15.pdf>]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2020/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
+.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm10
+95.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020
+/2306.00469/2306.00469_tl2020.pdf (16 pages, 479259 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_
+2020/2306.00469/2306.00469_tl2020.log.
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./HiQR_v2.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (./elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.20b: Elsevier Ltd
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/upzd.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/upsy.fd))
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.spl)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/epsfig.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(./numcompress.sty
+
+Package numcompress Warning: ****************************************
+(numcompress)                Package numcompress v,187 loaded
+(numcompress)                [Compress numbers (CVR)]
+(numcompress)                ****************************************.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.aux)
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty))
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.out)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.out)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Package natbib Warning: Citation `bien2013lasso' on page 1 undefined on input l
+ine 163.
+
+
+Package natbib Warning: Citation `hao2014interaction' on page 1 undefined on in
+put line 163.
+
+
+Package natbib Warning: Citation `hao2016model' on page 1 undefined on input li
+ne 163.
+
+
+Package natbib Warning: Citation `hao2017note' on page 1 undefined on input lin
+e 163.
+
+
+Package natbib Warning: Citation `yu2019reluctant' on page 1 undefined on input
+ line 163.
+
+
+Package natbib Warning: Citation `tang2020high' on page 1 undefined on input li
+ne 163.
+
+
+Package natbib Warning: Citation `lu2021' on page 1 undefined on input line 163
+.
+
+
+Package natbib Warning: Citation `wang2021penalized' on page 1 undefined on inp
+ut line 163.
+
+[1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `bien2015convex' on page 2 undefined on input 
+line 180.
+
+
+Package natbib Warning: Citation `yuan2009structured' on page 2 undefined on in
+put line 186.
+
+
+Package natbib Warning: Citation `radchenko2010variable' on page 2 undefined on
+ input line 186.
+
+
+Package natbib Warning: Citation `choi2010variable' on page 2 undefined on inpu
+t line 186.
+
+
+Package natbib Warning: Citation `bien2013lasso' on page 2 undefined on input l
+ine 186.
+
+
+Package natbib Warning: Citation `lim2015learning' on page 2 undefined on input
+ line 186.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 2 undefined on input
+ line 186.
+
+
+Package natbib Warning: Citation `she2017group' on page 2 undefined on input li
+ne 186.
+
+[2]
+
+Package natbib Warning: Citation `wainwright2019high' on page 3 undefined on in
+put line 205.
+
+
+Package natbib Warning: Citation `zhao2016analysis' on page 3 undefined on inpu
+t line 205.
+
+
+Package natbib Warning: Citation `glmnet' on page 3 undefined on input line 206
+.
+
+
+Package natbib Warning: Citation `hao2014interaction' on page 3 undefined on in
+put line 209.
+
+
+Package natbib Warning: Citation `fan2015innovated' on page 3 undefined on inpu
+t line 209.
+
+
+Package natbib Warning: Citation `kong2017interaction' on page 3 undefined on i
+nput line 209.
+
+
+Package natbib Warning: Citation `hao2016model' on page 3 undefined on input li
+ne 209.
+
+
+Package natbib Warning: Citation `yu2019reluctant' on page 3 undefined on input
+ line 209.
+
+
+Package natbib Warning: Citation `wang2021penalized' on page 3 undefined on inp
+ut line 210.
+
+
+Package natbib Warning: Citation `tang2020high' on page 3 undefined on input li
+ne 210.
+
+
+Overfull \hbox (4.44998pt too wide) in paragraph at lines 209--212
+[]\OT1/cmr/m/n/10.95 To ad-dress the com-pu-ta-tional chal-lenges as-so-ci-ated
+ with high-dimensional
+[3] [4]
+
+Package natbib Warning: Citation `boyd2011distributed' on page 5 undefined on i
+nput line 281.
+
+
+Package natbib Warning: Citation `friedman2001elements' on page 5 undefined on 
+input line 281.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 5 undefined on input
+ line 283.
+
+[5] [6] [7]
+
+Package natbib Warning: Citation `radchenko2010variable' on page 8 undefined on
+ input line 363.
+
+
+Package natbib Warning: Citation `lim2015learning' on page 8 undefined on input
+ line 363.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 8 undefined on input
+ line 368.
+
+
+Package natbib Warning: Citation `bien2013lasso' on page 8 undefined on input l
+ine 374.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 8 undefined on input
+ line 374.
+
+
+Package natbib Warning: Citation `lu2021' on page 8 undefined on input line 380
+.
+
+[8]
+
+Package natbib Warning: Citation `boyd2011distributed' on page 9 undefined on i
+nput line 396.
+
+
+Overfull \hbox (7.3593pt too wide) in paragraph at lines 407--408
+[]\OT1/cmr/m/n/10.95 Step 1: $\OT1/cmr/bx/n/10.95 B[] \OT1/cmr/m/n/10.95 = [][]
+ [] \OML/cmm/m/it/10.95 ; i \OT1/cmr/m/n/10.95 = 0\OML/cmm/m/it/10.95 ; []  ; N
+$\OT1/cmr/m/n/10.95 ; 
+
+Package natbib Warning: Citation `parikh2014proximal' on page 9 undefined on in
+put line 417.
+
+[9]
+
+Package natbib Warning: Citation `yuan2006model' on page 10 undefined on input 
+line 451.
+
+[10]
+
+Package natbib Warning: Citation `duchi2009efficient' on page 11 undefined on i
+nput line 455.
+
+
+Package natbib Warning: Citation `duchi2009efficient' on page 11 undefined on i
+nput line 467.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 11 undefined on inpu
+t line 468.
+
+
+Package natbib Warning: Citation `haris2016convex' on page 11 undefined on inpu
+t line 480.
+
+[11]
+Overfull \hbox (5.81877pt too wide) in paragraph at lines 513--514
+[]\OT1/cmr/m/n/10.95 In this part, we com-pare four al-go-rithms for com-put-in
+g the ridge-penalized
+[12]
+
+Package natbib Warning: Citation `friedman2010regularization' on page 13 undefi
+ned on input line 539.
+
+
+Package natbib Warning: Citation `breheny2011coordinate' on page 13 undefined o
+n input line 539.
+
+
+Package natbib Warning: Citation `tibshirani2012strong' on page 13 undefined on
+ input line 558.
+
+
+Package natbib Warning: Citation `lee2015strong' on page 13 undefined on input 
+line 558.
+
+
+Package natbib Warning: Citation `tibshirani2012strong' on page 13 undefined on
+ input line 558.
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.559 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.2
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.559 
+      ] [14pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.612 
+      ]
+No file 2306.00469_tl2020.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[15] [16pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.657 \end{document}
+                     <./500-200-1-12.pdf> <./500-200-1-13.pdf> <./500-200-1-14.
+pdf> <./500-200-1-15.pdf> <./500-200-2-12.pdf> <./500-200-2-13.pdf> <./500-200-
+2-14.pdf> <./500-200-2-15.pdf> <./500-200-3-12.pdf> <./500-200-3-13.pdf> <./500
+-200-3-14.pdf> <./500-200-3-15.pdf>]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.
+00469_tl2020.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2020/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9
+.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm10
+95.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020
+/2306.00469/2306.00469_tl2020.pdf (16 pages, 479259 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_
+2020/2306.00469/2306.00469_tl2020.log.
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.pdf) are up-to-date
+Set environment variable BIBINPUTS='/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469:'
+Set environment variable TEXINPUTS='/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469:'
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020'...
+Latexmk: All targets (/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00469/2306.00469_tl2020.pdf) are up-to-date

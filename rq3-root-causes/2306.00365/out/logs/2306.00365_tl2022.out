@@ -1,0 +1,1510 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00365_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+
+Class revtex4-2 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ulem/ulem.sty) (./orcidlink.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarysvg.path.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibrarysvg.pat
+h.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleparser.cod
+e.tex))))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.aux)
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./author.tex) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Class revtex4-2 Warning: Assuming \noaffiliation for collaboration.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 69.
+
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./bel
+le2-logo.pdf>]
+
+LaTeX Warning: Reference `fig:Dfeynman' on page 2 undefined on input line 86.
+
+
+Package natbib Warning: Citation `Morrison:1989xq' on page 2 undefined on input
+ line 86.
+
+
+Package natbib Warning: Citation `Browder:1996af' on page 2 undefined on input 
+line 90.
+
+
+LaTeX Warning: Reference `fig:Dfeynman' on page 2 undefined on input line 91.
+
+
+Package natbib Warning: Citation `Lenz:2014jha' on page 2 undefined on input li
+ne 117.
+
+
+Package natbib Warning: Citation `Neubert:1997gu' on page 2 undefined on input 
+line 117.
+
+
+Package natbib Warning: Citation `Uraltsev:2000qw' on page 2 undefined on input
+ line 117.
+
+
+Package natbib Warning: Citation `PhysRevD.88.034004' on page 2 undefined on in
+put line 117.
+
+
+Package natbib Warning: Citation `Kirk:2017juj' on page 2 undefined on input li
+ne 117.
+
+
+Package natbib Warning: Citation `Gratrex:2022xpm' on page 2 undefined on input
+ line 117.
+
+
+Package natbib Warning: Citation `FlavourLatticeAveragingGroupFLAG:2021npn' on 
+page 2 undefined on input line 121.
+
+
+Package natbib Warning: Citation `LHCb:2017knt' on page 2 undefined on input li
+ne 123.
+
+
+Package natbib Warning: Citation `FOCUS:2005gui' on page 2 undefined on input l
+ine 123.
+
+
+Package natbib Warning: Citation `SELEX:2001miq' on page 2 undefined on input l
+ine 123.
+
+
+Package natbib Warning: Citation `E791:1998zjs' on page 2 undefined on input li
+ne 123.
+
+
+Package natbib Warning: Citation `CLEO:1999xvl' on page 2 undefined on input li
+ne 123.
+
+
+Package natbib Warning: Citation `E687:1993lxk' on page 2 undefined on input li
+ne 123.
+
+
+Package natbib Warning: Citation `TaggedPhotonSpectrometer:1987poq' on page 2 u
+ndefined on input line 123.
+
+
+Package natbib Warning: Citation `ParticleDataGroup:2022pth' on page 2 undefine
+d on input line 125.
+
+
+Package natbib Warning: Citation `charge-conjugates' on page 2 undefined on inp
+ut line 127.
+
+
+Package natbib Warning: Citation `Abe:2010gxa' on page 2 undefined on input lin
+e 128.
+
+
+Package natbib Warning: Citation `Kou:2018nap' on page 2 undefined on input lin
+e 128.
+
+
+Package natbib Warning: Citation `Akai:2018mbz' on page 2 undefined on input li
+ne 132.
+
+
+Package natbib Warning: Citation `Abe:2010gxa' on page 2 undefined on input lin
+e 133.
+
+
+Package natbib Warning: Citation `Belle-IISVD:2022upf' on page 2 undefined on i
+nput line 135.
+
+
+Package natbib Warning: Citation `Wang:2017ajq' on page 2 undefined on input li
+ne 141.
+
+
+Package natbib Warning: Citation `Jadach:1999vf' on page 2 undefined on input l
+ine 155.
+
+
+Package natbib Warning: Citation `Sjostrand:2014zea' on page 2 undefined on inp
+ut line 157.
+
+
+Package natbib Warning: Citation `Lange:2001uf' on page 2 undefined on input li
+ne 158.
+
+
+Package natbib Warning: Citation `Agostinelli:2002hh' on page 2 undefined on in
+put line 159.
+
+
+Package natbib Warning: Citation `Barberio:1993qi' on page 2 undefined on input
+ line 161.
+
+
+Package natbib Warning: Citation `Kuhr:2018lps' on page 2 undefined on input li
+ne 163.
+
+
+Package natbib Warning: Citation `basf2-zenodo' on page 2 undefined on input li
+ne 163.
+
+[2 <./Dspectator-eps-converted-to.pdf> <./Dcolorsupp-eps-converted-to.pdf> <./D
+annihil-eps-converted-to.pdf>]
+Underfull \hbox (badness 1997) in paragraph at lines 183--194
+[]\OT1/cmr/m/n/10 We iden-tify tracks as pi-ons or kaons based on
+
+Package natbib Warning: Citation `Belle-IIanalysissoftwareGroup:2019dlq' on pag
+e 3 undefined on input line 203.
+
+
+LaTeX Warning: Reference `fig:Mkkpi_plot' on page 3 undefined on input line 227
+.
+
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 243--244
+ [][] 
+
+Package natbib Warning: Citation `ParticleDataGroup:2022pth' on page 3 undefine
+d on input line 264.
+
+[3 <./c1d_dsm-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:Mkkpi_plot' on page 4 undefined on input line 315
+.
+
+
+LaTeX Warning: Reference `fig:datafit_tproj' on page 4 undefined on input line 
+324.
+
+
+Overfull \hbox (27.17749pt too wide) in paragraph at lines 333--334
+ [][] 
+
+LaTeX Warning: Reference `tab:syst_summary' on page 4 undefined on input line 3
+43.
+
+
+LaTeX Warning: Reference `eqn:decay_time' on page 4 undefined on input line 371
+.
+
+[4 <./fit_data_100p-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `ParticleDataGroup:2022pth' on page 5 undefine
+d on input line 393.
+
+
+LaTeX Warning: Reference `eqn:decay_time' on page 5 undefined on input line 394
+.
+
+
+LaTeX Warning: Reference `tab:syst_summary' on page 5 undefined on input line 3
+96.
+
+
+LaTeX Warning: Reference `fig:run_period' on page 5 undefined on input line 426
+.
+
+
+Package natbib Warning: Citation `ParticleDataGroup:2022pth' on page 5 undefine
+d on input line 452.
+
+
+Package natbib Warning: Citation `Lenz:2014jha' on page 5 undefined on input li
+ne 453.
+
+
+Package natbib Warning: Citation `PhysRevD.88.034004' on page 5 undefined on in
+put line 453.
+
+
+Package natbib Warning: Citation `Gratrex:2022xpm' on page 5 undefined on input
+ line 453.
+
+(./acknowledgements.tex
+Underfull \hbox (badness 3690) in paragraph at lines 2--165
+[]\OT1/cmr/m/n/10 This work, based on data col-lected us-ing the
+
+Underfull \hbox (badness 3977) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Belle II de-tec-tor, which was built and com-mis-
+
+Underfull \hbox (badness 1527) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Ed-u-ca-tion, Sci-ence and Re-search, Aus-trian Sci-ence
+
+Underfull \hbox (badness 1371) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Nat-u-ral Sci-ences and En-gi-neer-ing Re-search Coun-cil
+
+Underfull \hbox (badness 1603) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 of Canada, Com-pute Canada and CA-NARIE; Na-
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 11761141009, No. 11705209, No. 11975076,
+
+Underfull \hbox (badness 2503) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Grant No. 22-18469S; Eu-ro-pean Re-search Coun-cil,
+
+Underfull \hbox (badness 3219) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Sev-enth Frame-work PIEF-GA-2013-622527, Hori-zon
+
+Underfull \hbox (badness 1609) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Hori-zon 2020 ERC-Consolidator Grant No. 819127,
+
+Underfull \hbox (badness 1062) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Hori-zon 2020 Marie Sklodowska-Curie RISE project
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 16K05323, No. 17H01133, No. 17H05405,
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 18K03621, No. 18H03710, No. 18H05226,
+
+Underfull \hbox (badness 2035) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 19H00682, No. 22H00144, No. 26220706, and
+
+Underfull \hbox (badness 1019) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 06024970, No. 2018R1-D1A1B-07047294, No. 2019R1-
+
+Underfull \hbox (badness 1142) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Hub Cen-ter of the Ko-rea In-sti-tute of Sci-ence and
+
+Underfull \hbox (badness 1383) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Tech-nol-ogy In-for-ma-tion and KRE-ONET/GLORIAD;
+
+Underfull \hbox (badness 1067) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 and No. SEP-CINVESTAV re-search Grant No. 237
+
+Underfull \hbox (badness 1242) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 and re-search Grants No. MOST106-2112-M-002-005-
+
+Underfull \hbox (badness 3009) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Na-tional Re-search Foun-da-tion of Ukraine, project
+
+Underfull \hbox (badness 1337) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 2111604, and the U.S. De-part-ment of En-ergy and
+
+Underfull \hbox (badness 3179) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. DE-SC0010007, No. DE-SC0010073, No. DE-
+
+Underfull \hbox (badness 3179) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. DE-SC0012704, No. DE-SC0019230, No. DE-
+[5 <./exp_split_fit_res-eps-converted-to.pdf>])
+No file 2306.00365_tl2022.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[6]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `2306.00365_tl2022.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy9.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00365/2306.00365_tl2022.pdf (6 pages, 362424 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00365/2306.00365_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.pdf'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022Notes.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022' forced or previously required
+
+------------
+Run number 1 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022'
+------------
+Latexmk: Change directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/'.
+To assist finding of files in document directory, I set
+  BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.00365:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365:'
+  BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.00365:'.
+------------
+Running 'bibtex  "2306.00365_tl2022.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2022)
+The top-level auxiliary file: 2306.00365_tl2022.aux
+The style file: apsrev.bst
+Database file #1: 2306.00365_tl2022Notes.bib
+Database file #2: references.bib
+Warning--empty booktitle in Wang:2017ajq
+(There was 1 warning)
+Latexmk: Change directory back to '/diff_test_tex_engines/bin/tex_sources/2306.00365'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.aux
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.bbl
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.out
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00365_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+
+Class revtex4-2 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ulem/ulem.sty) (./orcidlink.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarysvg.path.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibrarysvg.pat
+h.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleparser.cod
+e.tex))))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.aux)
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.out)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.out) (./author.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Class revtex4-2 Warning: Assuming \noaffiliation for collaboration.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 69.
+
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./bel
+le2-logo.pdf>]
+
+Package natbib Warning: Citation `Morrison:1989xq' on page 2 undefined on input
+ line 86.
+
+
+Package natbib Warning: Citation `Browder:1996af' on page 2 undefined on input 
+line 90.
+
+
+Package natbib Warning: Citation `Lenz:2014jha' on page 2 undefined on input li
+ne 117.
+
+
+Package natbib Warning: Citation `Neubert:1997gu' on page 2 undefined on input 
+line 117.
+
+
+Package natbib Warning: Citation `Uraltsev:2000qw' on page 2 undefined on input
+ line 117.
+
+
+Package natbib Warning: Citation `PhysRevD.88.034004' on page 2 undefined on in
+put line 117.
+
+
+Package natbib Warning: Citation `Kirk:2017juj' on page 2 undefined on input li
+ne 117.
+
+
+Package natbib Warning: Citation `Gratrex:2022xpm' on page 2 undefined on input
+ line 117.
+
+
+Package natbib Warning: Citation `FlavourLatticeAveragingGroupFLAG:2021npn' on 
+page 2 undefined on input line 121.
+
+
+Package natbib Warning: Citation `LHCb:2017knt' on page 2 undefined on input li
+ne 123.
+
+
+Package natbib Warning: Citation `FOCUS:2005gui' on page 2 undefined on input l
+ine 123.
+
+
+Package natbib Warning: Citation `SELEX:2001miq' on page 2 undefined on input l
+ine 123.
+
+
+Package natbib Warning: Citation `E791:1998zjs' on page 2 undefined on input li
+ne 123.
+
+
+Package natbib Warning: Citation `CLEO:1999xvl' on page 2 undefined on input li
+ne 123.
+
+
+Package natbib Warning: Citation `E687:1993lxk' on page 2 undefined on input li
+ne 123.
+
+
+Package natbib Warning: Citation `TaggedPhotonSpectrometer:1987poq' on page 2 u
+ndefined on input line 123.
+
+
+Package natbib Warning: Citation `ParticleDataGroup:2022pth' on page 2 undefine
+d on input line 125.
+
+
+Package natbib Warning: Citation `charge-conjugates' on page 2 undefined on inp
+ut line 127.
+
+
+Package natbib Warning: Citation `Abe:2010gxa' on page 2 undefined on input lin
+e 128.
+
+
+Package natbib Warning: Citation `Kou:2018nap' on page 2 undefined on input lin
+e 128.
+
+
+Package natbib Warning: Citation `Akai:2018mbz' on page 2 undefined on input li
+ne 132.
+
+
+Package natbib Warning: Citation `Abe:2010gxa' on page 2 undefined on input lin
+e 133.
+
+
+Package natbib Warning: Citation `Belle-IISVD:2022upf' on page 2 undefined on i
+nput line 135.
+
+
+Package natbib Warning: Citation `Wang:2017ajq' on page 2 undefined on input li
+ne 141.
+
+
+Package natbib Warning: Citation `Jadach:1999vf' on page 2 undefined on input l
+ine 155.
+
+
+Package natbib Warning: Citation `Sjostrand:2014zea' on page 2 undefined on inp
+ut line 157.
+
+
+Package natbib Warning: Citation `Lange:2001uf' on page 2 undefined on input li
+ne 158.
+
+
+Package natbib Warning: Citation `Agostinelli:2002hh' on page 2 undefined on in
+put line 159.
+
+
+Package natbib Warning: Citation `Barberio:1993qi' on page 2 undefined on input
+ line 161.
+
+
+Package natbib Warning: Citation `Kuhr:2018lps' on page 2 undefined on input li
+ne 163.
+
+
+Package natbib Warning: Citation `basf2-zenodo' on page 2 undefined on input li
+ne 163.
+
+[2 <./Dspectator-eps-converted-to.pdf> <./Dcolorsupp-eps-converted-to.pdf> <./D
+annihil-eps-converted-to.pdf>]
+Underfull \hbox (badness 1997) in paragraph at lines 183--194
+[]\OT1/cmr/m/n/10 We iden-tify tracks as pi-ons or kaons based on
+
+Package natbib Warning: Citation `Belle-IIanalysissoftwareGroup:2019dlq' on pag
+e 3 undefined on input line 203.
+
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 243--244
+ [][] 
+
+Package natbib Warning: Citation `ParticleDataGroup:2022pth' on page 3 undefine
+d on input line 264.
+
+[3 <./c1d_dsm-eps-converted-to.pdf>]
+Overfull \hbox (27.17749pt too wide) in paragraph at lines 333--334
+ [][] 
+[4 <./fit_data_100p-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `ParticleDataGroup:2022pth' on page 5 undefine
+d on input line 393.
+
+
+Package natbib Warning: Citation `ParticleDataGroup:2022pth' on page 5 undefine
+d on input line 452.
+
+
+Package natbib Warning: Citation `Lenz:2014jha' on page 5 undefined on input li
+ne 453.
+
+
+Package natbib Warning: Citation `PhysRevD.88.034004' on page 5 undefined on in
+put line 453.
+
+
+Package natbib Warning: Citation `Gratrex:2022xpm' on page 5 undefined on input
+ line 453.
+
+(./acknowledgements.tex
+Underfull \hbox (badness 3690) in paragraph at lines 2--165
+[]\OT1/cmr/m/n/10 This work, based on data col-lected us-ing the
+
+Underfull \hbox (badness 3977) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Belle II de-tec-tor, which was built and com-mis-
+
+Underfull \hbox (badness 1527) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Ed-u-ca-tion, Sci-ence and Re-search, Aus-trian Sci-ence
+
+Underfull \hbox (badness 1371) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Nat-u-ral Sci-ences and En-gi-neer-ing Re-search Coun-cil
+
+Underfull \hbox (badness 1603) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 of Canada, Com-pute Canada and CA-NARIE; Na-
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 11761141009, No. 11705209, No. 11975076,
+
+Underfull \hbox (badness 2503) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Grant No. 22-18469S; Eu-ro-pean Re-search Coun-cil,
+
+Underfull \hbox (badness 3219) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Sev-enth Frame-work PIEF-GA-2013-622527, Hori-zon
+
+Underfull \hbox (badness 1609) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Hori-zon 2020 ERC-Consolidator Grant No. 819127,
+
+Underfull \hbox (badness 1062) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Hori-zon 2020 Marie Sklodowska-Curie RISE project
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 16K05323, No. 17H01133, No. 17H05405,
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 18K03621, No. 18H03710, No. 18H05226,
+
+Underfull \hbox (badness 2035) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 19H00682, No. 22H00144, No. 26220706, and
+
+Underfull \hbox (badness 1019) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 06024970, No. 2018R1-D1A1B-07047294, No. 2019R1-
+
+Underfull \hbox (badness 1142) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Hub Cen-ter of the Ko-rea In-sti-tute of Sci-ence and
+
+Underfull \hbox (badness 1383) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Tech-nol-ogy In-for-ma-tion and KRE-ONET/GLORIAD;
+
+Underfull \hbox (badness 1067) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 and No. SEP-CINVESTAV re-search Grant No. 237
+
+Underfull \hbox (badness 1242) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 and re-search Grants No. MOST106-2112-M-002-005-
+
+Underfull \hbox (badness 3009) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Na-tional Re-search Foun-da-tion of Ukraine, project
+
+Underfull \hbox (badness 1337) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 2111604, and the U.S. De-part-ment of En-ergy and
+
+Underfull \hbox (badness 3179) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. DE-SC0010007, No. DE-SC0010073, No. DE-
+
+Underfull \hbox (badness 3179) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. DE-SC0012704, No. DE-SC0019230, No. DE-
+[5 <./exp_split_fit_res-eps-converted-to.pdf>])
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.bbl
+
+LaTeX Warning: Reference `LastBibItem' on page 6 undefined on input line 1.
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 67--71
+ []\OT1/cmr/m/n/9 Y. Aoki et al. (Flavour Lat-tice Av-er-ag-ing Group
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--153
+ []\OT1/cmr/m/n/9 B. Wang (Belle II TOP Group) (2017),
+[6])
+
+Package natbib Warning: There were undefined citations.
+
+[7]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `2306.00365_tl2022.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmtt9.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00365/2306.00365_tl2022.pdf (7 pages, 390233 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00365/2306.00365_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.log'
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.pdf'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022Notes.bib
+Latexmk: applying rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022'...
+Rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.aux
+
+------------
+Run number 2 of rule 'bibtex /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022'
+------------
+Latexmk: Change directory to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/'.
+To assist finding of files in document directory, I set
+  BIBINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.00365:/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365:'
+  BSTINPUTS='/diff_test_tex_engines/bin/tex_sources/2306.00365:'.
+------------
+Running 'bibtex  "2306.00365_tl2022.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2022)
+The top-level auxiliary file: 2306.00365_tl2022.aux
+The style file: apsrev.bst
+Database file #1: 2306.00365_tl2022Notes.bib
+Database file #2: references.bib
+Warning--empty booktitle in Wang:2017ajq
+(There was 1 warning)
+Latexmk: Change directory back to '/diff_test_tex_engines/bin/tex_sources/2306.00365'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.aux
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.out
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.00365_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for
+ documentation)
+ltxutil[2020/10/03 4.2e utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+ltxfront[2020/10/03 4.2e frontmatter package (AO,DPC,MD)]
+ltxgrid[2020/10/03 4.2e page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps4-2.rtx)
+
+Class revtex4-2 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/revtex/revsymb4-2.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment')
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ulem/ulem.sty) (./orcidlink.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarysvg.path.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibrarysvg.pat
+h.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleparser.cod
+e.tex))))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.aux)
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.out)
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.out) (./author.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+Class revtex4-2 Warning: Assuming \noaffiliation for collaboration.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 69.
+
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./bel
+le2-logo.pdf>] [2 <./Dspectator-eps-converted-to.pdf> <./Dcolorsupp-eps-convert
+ed-to.pdf> <./Dannihil-eps-converted-to.pdf>]
+Underfull \hbox (badness 1997) in paragraph at lines 183--194
+[]\OT1/cmr/m/n/10 We iden-tify tracks as pi-ons or kaons based on
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 243--244
+ [][] 
+[3 <./c1d_dsm-eps-converted-to.pdf>]
+Overfull \hbox (27.17749pt too wide) in paragraph at lines 333--334
+ [][] 
+[4 <./fit_data_100p-eps-converted-to.pdf>] (./acknowledgements.tex
+Underfull \hbox (badness 3690) in paragraph at lines 2--165
+[]\OT1/cmr/m/n/10 This work, based on data col-lected us-ing the
+
+Underfull \hbox (badness 3977) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Belle II de-tec-tor, which was built and com-mis-
+
+Underfull \hbox (badness 1527) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Ed-u-ca-tion, Sci-ence and Re-search, Aus-trian Sci-ence
+
+Underfull \hbox (badness 1371) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Nat-u-ral Sci-ences and En-gi-neer-ing Re-search Coun-cil
+
+Underfull \hbox (badness 1603) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 of Canada, Com-pute Canada and CA-NARIE; Na-
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 11761141009, No. 11705209, No. 11975076,
+
+Underfull \hbox (badness 2503) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Grant No. 22-18469S; Eu-ro-pean Re-search Coun-cil,
+
+Underfull \hbox (badness 3219) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Sev-enth Frame-work PIEF-GA-2013-622527, Hori-zon
+
+Underfull \hbox (badness 1609) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Hori-zon 2020 ERC-Consolidator Grant No. 819127,
+
+Underfull \hbox (badness 1062) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Hori-zon 2020 Marie Sklodowska-Curie RISE project
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 16K05323, No. 17H01133, No. 17H05405,
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 18K03621, No. 18H03710, No. 18H05226,
+
+Underfull \hbox (badness 2035) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. 19H00682, No. 22H00144, No. 26220706, and
+
+Underfull \hbox (badness 1019) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 06024970, No. 2018R1-D1A1B-07047294, No. 2019R1-
+
+Underfull \hbox (badness 1142) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Hub Cen-ter of the Ko-rea In-sti-tute of Sci-ence and
+
+Underfull \hbox (badness 1383) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Tech-nol-ogy In-for-ma-tion and KRE-ONET/GLORIAD;
+
+Underfull \hbox (badness 1067) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 and No. SEP-CINVESTAV re-search Grant No. 237
+
+Underfull \hbox (badness 1242) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 and re-search Grants No. MOST106-2112-M-002-005-
+
+Underfull \hbox (badness 3009) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 Na-tional Re-search Foun-da-tion of Ukraine, project
+
+Underfull \hbox (badness 1337) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 2111604, and the U.S. De-part-ment of En-ergy and
+
+Underfull \hbox (badness 3179) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. DE-SC0010007, No. DE-SC0010073, No. DE-
+
+Underfull \hbox (badness 3179) in paragraph at lines 2--165
+\OT1/cmr/m/n/10 No. DE-SC0012704, No. DE-SC0019230, No. DE-
+[5 <./exp_split_fit_res-eps-converted-to.pdf>])
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.bbl
+Underfull \hbox (badness 2229) in paragraph at lines 67--71
+ []\OT1/cmr/m/n/9 Y. Aoki et al. (Flavour Lat-tice Av-er-ag-ing Group
+[6]) [7]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365
+_tl2022.aux) )
+(see the transcript file for additional information)</usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmtt9.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.00365/2306.00365_tl2022.pdf (7 pages, 381837 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.00365/2306.00365_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.log'
+Latexmk: Found input bbl file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.bbl'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022.pdf'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00365/2306.00365_tl2022Notes.bib
+Latexmk: All targets () are up-to-date
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+Latexmk: Nothing to do for 'main.tex'.
+Latexmk: All targets () are up-to-date
+

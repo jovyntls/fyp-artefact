@@ -1,0 +1,44 @@
+\newcommand{\BW}{0.29}
+\setlength{\tabcolsep}{0.05cm}
+% \begin{figure}[!h]
+\begin{figure}[H]
+\begin{tabular}{r c c c }
+    & Split 1 & Split 2 & Split 3
+    \\
+    {\rotatebox{90}{~~~~~W. Avg. by View Rel.}}
+    & 
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed0/JASE.pdf}
+    &
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed1/JASE.pdf}
+    &
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed2/JASE.pdf}
+    \\
+    {\rotatebox{90}{~~~~~~~~~~~~ABMIL}}
+    & 
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed0/OffTheShelfABMIL.pdf}
+    &
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed1/OffTheShelfABMIL.pdf}
+    &
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed2/OffTheShelfABMIL.pdf}
+    \\
+    {\rotatebox{90}{~~~~~~~~~~~~DSMIL}}
+    & 
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed0/OffTheShelfDSMIL_updatedseed0.pdf}
+    &
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed1/OffTheShelfDSMIL.pdf}
+    &
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed2/OffTheShelfDSMIL.pdf}
+    \\
+    {\rotatebox{90}{~~~~~~~~ SAMIL (ours)}}
+    & 
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed0/VRABMIL_WholeMILPretrain.pdf}
+    &
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed1/VRABMIL_WholeMILPretrain.pdf}
+    &
+    \includegraphics[width=\BW\textwidth]{figures/confusion_matrix/cropped_seed2/VRABMIL_WholeMILPretrain.pdf}
+    \end{tabular}
+    \vspace{-.5cm} %% WHITESPACE HACK
+    \caption{Confusion matrices for the patient-level AS diagnosis classification, across three predefined train/test splits of TMED2.
+     }
+    \label{fig:confusion_matrix}
+\end{figure}

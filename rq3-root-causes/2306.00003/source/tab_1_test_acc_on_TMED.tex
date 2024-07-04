@@ -1,0 +1,33 @@
+\begin{table}[!t]
+    \begin{tabular}{l|rrr| r | r r}
+	    & \multicolumn{4}{c}{Test Set Bal. Accuracy} & & \\
+     Method & split 1 & split 2 & split 3 & average & \# params & view clf.?\\
+    \hline
+    Filter then Avg. [b] & 62.06 & 65.12 & 70.35 & 65.90 & 11.18 M & Yes
+    \\
+    W. Avg. by View Rel. [c]$*$
+    & 74.46 & 72.61 & 76.24 & 74.43 &  5.93 M & Yes
+    \\
+    %JASE  & 11.87 M & 74.46 & 72.61 & 76.24 & 74.43 & Yes\\
+    %Yale  & 11.18 M & 62.06 & 65.12 & 70.35 & 65.90 & Yes\\
+    SAMIL (ours)            & 75.41 & 73.78 & 79.42 & \textbf{76.20}& 2.31 M & No
+    \\
+    \hline
+    ABMIL [d]                 & 58.51 & 60.39 & 61.61 & 60.17 & 2.25 M & No\\
+    ABMIL + Gate Attn. [d]  & 57.83 & 62.60 & 59.79 & 60.07 & 2.31 M & No \\
+    Set Transformer [e]  & 60.95 & 62.61 & 62.64 & 62.06&  1.98 M & No \\
+    DSMIL [f]  & 60.10 & 67.59 & 73.11 & 66.93&  2.02 M & No \\
+    % VR ABMIL (ours)  & 2.31 M & 72.72 & 71.60 & 73.46 & 72.59& No \\
+    \end{tabular}
+    \\
+    % {\small [b] \citet{holste2022automated}, [c] \citet{wessler2023automated} 
+    %  [d] \citet{ilse2018attention} [e] \citet{lee2019set} [f] \citet{li2021dual} 
+    % }%end citation list
+     {\footnotesize [b] \citet{holste2022automated}, [c] \citet{wessler2023automated} 
+     [d] \citet{ilse2018attention} [e] \citet{lee2019set} [f] \citet{li2021dual} 
+    }%end citation list
+    \caption{AS diagnosis results on TMED2. Showing balanced accuracy (percentage, higher is better) on the test set across three train/test splits. Methods b, c, d are diagrammed in corresponding panel in Fig.~\ref{fig:diagrams}.
+    Methods above the line are approaches specialized to the AS task, others are generic MIL methods. Column ``\# params'' shows number of trainable parameters. Column ``view clf.?'' shows whether an additional view classifier is needed at deployment. $*$: value from the cited paper.
+    }%endcaption
+    \label{tab:TMED2_BACC}
+\end{table}

@@ -1,0 +1,14 @@
+# Fdb version 4
+["pdflatex"] 1710330623.75697 "2306.00030" "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2023.pdf" "2306.00030_tl2023" 1710330624.06518 2
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2023.aux" 1710330623.73789 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/iopart.cls" 0 -1 0 ""
+  "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1697057529 41009 84b61f42d16d06bedb915f57aa2374cf ""
+  "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1709532154 8221366 86ace821d48002f754a514e96b5c6531 ""
+  "/usr/local/texlive/2023/texmf.cnf" 1709532059 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "2306.00030" 1695224546.11917 123389 dcbb6dd8d334e6321ea144b2c22c912d ""
+  "iopart.cls" 0 -1 0 ""
+  (generated)
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2023.aux"
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2023.log"
+  "/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.00030/2306.00030_tl2023.pdf"
+  (rewritten before read)

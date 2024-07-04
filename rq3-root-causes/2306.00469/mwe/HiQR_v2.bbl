@@ -1,0 +1,219 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\url{#1}\endgroup}\fi
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitem[{Bien et~al.(2013)Bien, Taylor, and Tibshirani}]{bien2013lasso}
+\bibinfo{author}{J.~Bien}, \bibinfo{author}{J.~Taylor},
+  \bibinfo{author}{R.~Tibshirani}, \bibinfo{title}{A lasso for hierarchical
+  interactions}, \bibinfo{journal}{Annals of Statistics}
+  \bibinfo{volume}{41}~(\bibinfo{number}{3}) (\bibinfo{year}{2013})
+  \bibinfo{pages}{1111}.
+
+\bibitem[{Hao and Zhang(2014)}]{hao2014interaction}
+\bibinfo{author}{N.~Hao}, \bibinfo{author}{H.~H. Zhang},
+  \bibinfo{title}{Interaction screening for ultrahigh-dimensional data},
+  \bibinfo{journal}{Journal of the American Statistical Association}
+  \bibinfo{volume}{109}~(\bibinfo{number}{507}) (\bibinfo{year}{2014})
+  \bibinfo{pages}{1285--1301}.
+
+\bibitem[{Hao et~al.(2018)Hao, Feng, and Zhang}]{hao2016model}
+\bibinfo{author}{N.~Hao}, \bibinfo{author}{Y.~Feng}, \bibinfo{author}{H.~H.
+  Zhang}, \bibinfo{title}{Model selection for high-dimensional quadratic
+  regression via regularization}, \bibinfo{journal}{Journal of the American
+  Statistical Association} \bibinfo{volume}{113}~(\bibinfo{number}{522})
+  (\bibinfo{year}{2018}) \bibinfo{pages}{615--625}.
+
+\bibitem[{Hao and Zhang(2017)}]{hao2017note}
+\bibinfo{author}{N.~Hao}, \bibinfo{author}{H.~H. Zhang}, \bibinfo{title}{A note
+  on high-dimensional linear regression with interactions},
+  \bibinfo{journal}{The American Statistician}
+  \bibinfo{volume}{71}~(\bibinfo{number}{4}) (\bibinfo{year}{2017})
+  \bibinfo{pages}{291--297}.
+
+\bibitem[{Yu et~al.(2023)Yu, Bien, and Tibshirani}]{yu2019reluctant}
+\bibinfo{author}{G.~Yu}, \bibinfo{author}{J.~Bien},
+  \bibinfo{author}{R.~Tibshirani}, \bibinfo{title}{Reluctant interaction
+  modeling}, \bibinfo{journal}{arXiv:1907.08414} .
+
+\bibitem[{Tang et~al.(2020)Tang, Fang, and Dong}]{tang2020high}
+\bibinfo{author}{C.~Y. Tang}, \bibinfo{author}{E.~X. Fang},
+  \bibinfo{author}{Y.~Dong}, \bibinfo{title}{High-dimensional interactions
+  detection with sparse principal hessian matrix}, \bibinfo{journal}{Journal of
+  Machine Learning Research} \bibinfo{volume}{21}~(\bibinfo{number}{1})
+  (\bibinfo{year}{2020}) \bibinfo{pages}{665--689}.
+
+\bibitem[{Lu et~al.(2023)Lu, Zhu, and Lian}]{lu2021}
+\bibinfo{author}{W.~Lu}, \bibinfo{author}{Z.~Zhu}, \bibinfo{author}{H.~Lian},
+  \bibinfo{title}{Sparse and low-rank matrix quantile estimation with
+  application to quadratic regression}, \bibinfo{journal}{Statistica Sinica}
+  \bibinfo{volume}{in press}.
+
+\bibitem[{Wang et~al.(2021)Wang, Jiang, and Zhu}]{wang2021penalized}
+\bibinfo{author}{C.~Wang}, \bibinfo{author}{B.~Jiang},
+  \bibinfo{author}{L.~Zhu}, \bibinfo{title}{Penalized interaction estimation
+  for ultrahigh dimensional quadratic regression}, \bibinfo{journal}{Statistica
+  Sinica} \bibinfo{volume}{31}~(\bibinfo{number}{3}) (\bibinfo{year}{2021})
+  \bibinfo{pages}{1549--1570}.
+
+\bibitem[{Bien et~al.(2015)Bien, Simon, and Tibshirani}]{bien2015convex}
+\bibinfo{author}{J.~Bien}, \bibinfo{author}{N.~Simon},
+  \bibinfo{author}{R.~Tibshirani}, \bibinfo{title}{Convex hierarchical testing
+  of interactions}, \bibinfo{journal}{Annals of Applied Statistics}
+  \bibinfo{volume}{9}~(\bibinfo{number}{1}) (\bibinfo{year}{2015})
+  \bibinfo{pages}{27--42}.
+
+\bibitem[{Yuan et~al.(2009)Yuan, Joseph, and Zou}]{yuan2009structured}
+\bibinfo{author}{M.~Yuan}, \bibinfo{author}{R.~Joseph},
+  \bibinfo{author}{H.~Zou}, \bibinfo{title}{Structured variable selection and
+  estimation}, \bibinfo{journal}{Annals of Applied Statistics}
+  \bibinfo{volume}{3}~(\bibinfo{number}{4}) (\bibinfo{year}{2009})
+  \bibinfo{pages}{1738--1757}.
+
+\bibitem[{Radchenko and James(2010)}]{radchenko2010variable}
+\bibinfo{author}{P.~Radchenko}, \bibinfo{author}{G.~James},
+  \bibinfo{title}{Variable selection using adaptive nonlinear interaction
+  structures in high dimensions}, \bibinfo{journal}{Journal of the American
+  Statistical Association} \bibinfo{volume}{105}~(\bibinfo{number}{492})
+  (\bibinfo{year}{2010}) \bibinfo{pages}{1541--1553}.
+
+\bibitem[{Choi et~al.(2010)Choi, Li, and Zhu}]{choi2010variable}
+\bibinfo{author}{N.~H. Choi}, \bibinfo{author}{W.~Li},
+  \bibinfo{author}{J.~Zhu}, \bibinfo{title}{Variable selection with the strong
+  heredity constraint and its oracle property}, \bibinfo{journal}{Journal of
+  the American Statistical Association}
+  \bibinfo{volume}{105}~(\bibinfo{number}{489}) (\bibinfo{year}{2010})
+  \bibinfo{pages}{354--364}.
+
+\bibitem[{Lim and Hastie(2015)}]{lim2015learning}
+\bibinfo{author}{M.~Lim}, \bibinfo{author}{T.~Hastie}, \bibinfo{title}{Learning
+  interactions via hierarchical group-lasso regularization},
+  \bibinfo{journal}{Journal of Computational and Graphical Statistics}
+  \bibinfo{volume}{24}~(\bibinfo{number}{3}) (\bibinfo{year}{2015})
+  \bibinfo{pages}{627--654}.
+
+\bibitem[{Haris et~al.(2016)Haris, Witten, and Simon}]{haris2016convex}
+\bibinfo{author}{A.~Haris}, \bibinfo{author}{D.~Witten},
+  \bibinfo{author}{N.~Simon}, \bibinfo{title}{Convex modeling of interactions
+  with strong heredity}, \bibinfo{journal}{Journal of Computational and
+  Graphical Statistics} \bibinfo{volume}{25}~(\bibinfo{number}{4})
+  (\bibinfo{year}{2016}) \bibinfo{pages}{981--1004}.
+
+\bibitem[{She et~al.(2018)She, Wang, and Jiang}]{she2017group}
+\bibinfo{author}{Y.~She}, \bibinfo{author}{Z.~Wang},
+  \bibinfo{author}{H.~Jiang}, \bibinfo{title}{Group regularized estimation
+  under structural hierarchy}, \bibinfo{journal}{Journal of the American
+  Statistical Association} \bibinfo{volume}{113}~(\bibinfo{number}{521})
+  (\bibinfo{year}{2018}) \bibinfo{pages}{445--454}.
+
+\bibitem[{Wainwright(2019)}]{wainwright2019high}
+\bibinfo{author}{M.~J. Wainwright}, \bibinfo{title}{High-dimensional
+  statistics: {A} non-asymptotic viewpoint}, \bibinfo{publisher}{Cambridge
+  University Press}, \bibinfo{address}{Cambridge}, \bibinfo{year}{2019}.
+
+\bibitem[{Zhao and Leng(2016)}]{zhao2016analysis}
+\bibinfo{author}{J.~Zhao}, \bibinfo{author}{C.~Leng}, \bibinfo{title}{An
+  analysis of penalized interaction models}, \bibinfo{journal}{Bernoulli}
+  \bibinfo{volume}{22}~(\bibinfo{number}{3}) (\bibinfo{year}{2016})
+  \bibinfo{pages}{1937--1961}.
+
+\bibitem[{Friedman et~al.(2010{\natexlab{a}})Friedman, Hastie, and
+  Tibshirani}]{glmnet}
+\bibinfo{author}{J.~Friedman}, \bibinfo{author}{T.~Hastie},
+  \bibinfo{author}{R.~Tibshirani}, \bibinfo{title}{Regularization paths for
+  generalized linear models via coordinate descent}, \bibinfo{journal}{Journal
+  of Statistical Software} \bibinfo{volume}{33}~(\bibinfo{number}{1})
+  (\bibinfo{year}{2010}{\natexlab{a}}) \bibinfo{pages}{1}.
+
+\bibitem[{Fan et~al.(2015)Fan, Kong, Li, and Zheng}]{fan2015innovated}
+\bibinfo{author}{Y.~Fan}, \bibinfo{author}{Y.~Kong}, \bibinfo{author}{D.~Li},
+  \bibinfo{author}{Z.~Zheng}, \bibinfo{title}{Innovated interaction screening
+  for high-dimensional nonlinear classification}, \bibinfo{journal}{Annals of
+  Statistics} \bibinfo{volume}{43}~(\bibinfo{number}{3}) (\bibinfo{year}{2015})
+  \bibinfo{pages}{1243--1272}.
+
+\bibitem[{Kong et~al.(2017)Kong, Li, Fan, and Lv}]{kong2017interaction}
+\bibinfo{author}{Y.~Kong}, \bibinfo{author}{D.~Li}, \bibinfo{author}{Y.~Fan},
+  \bibinfo{author}{J.~Lv}, \bibinfo{title}{Interaction pursuit in
+  high-dimensional multi-response regression via distance correlation},
+  \bibinfo{journal}{Annals of Statistics}
+  \bibinfo{volume}{45}~(\bibinfo{number}{2}) (\bibinfo{year}{2017})
+  \bibinfo{pages}{897--922}.
+
+\bibitem[{Boyd et~al.(2011)Boyd, Parikh, Chu, Peleato, and
+  Eckstein}]{boyd2011distributed}
+\bibinfo{author}{S.~Boyd}, \bibinfo{author}{N.~Parikh},
+  \bibinfo{author}{E.~Chu}, \bibinfo{author}{B.~Peleato},
+  \bibinfo{author}{J.~Eckstein}, \bibinfo{title}{Distributed optimization and
+  statistical learning via the alternating direction method of multipliers},
+  \bibinfo{journal}{Foundations and Trends in Machine Learning}
+  \bibinfo{volume}{3}~(\bibinfo{number}{1}) (\bibinfo{year}{2011})
+  \bibinfo{pages}{1--122}.
+
+\bibitem[{Friedman et~al.(2001)Friedman, Hastie, and
+  Tibshirani}]{friedman2001elements}
+\bibinfo{author}{J.~Friedman}, \bibinfo{author}{T.~Hastie},
+  \bibinfo{author}{R.~Tibshirani}, \bibinfo{title}{The Elements of Statistical
+  Learning}, \bibinfo{publisher}{Springer}, \bibinfo{address}{New York},
+  \bibinfo{year}{2001}.
+
+\bibitem[{Parikh and Boyd(2014)}]{parikh2014proximal}
+\bibinfo{author}{N.~Parikh}, \bibinfo{author}{S.~Boyd},
+  \bibinfo{title}{Proximal algorithms}, \bibinfo{journal}{Foundations and
+  trends{\textregistered} in Optimization}
+  \bibinfo{volume}{1}~(\bibinfo{number}{3}) (\bibinfo{year}{2014})
+  \bibinfo{pages}{127--239}.
+
+\bibitem[{Yuan and Lin(2006)}]{yuan2006model}
+\bibinfo{author}{M.~Yuan}, \bibinfo{author}{Y.~Lin}, \bibinfo{title}{Model
+  selection and estimation in regression with grouped variables},
+  \bibinfo{journal}{Journal of the Royal Statistical Society, Series B}
+  \bibinfo{volume}{68}~(\bibinfo{number}{1}) (\bibinfo{year}{2006})
+  \bibinfo{pages}{49--67}.
+
+\bibitem[{Duchi and Singer(2009)}]{duchi2009efficient}
+\bibinfo{author}{J.~Duchi}, \bibinfo{author}{Y.~Singer},
+  \bibinfo{title}{Efficient online and batch learning using forward backward
+  splitting}, \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{10} (\bibinfo{year}{2009}) \bibinfo{pages}{2899--2934}.
+
+\bibitem[{Friedman et~al.(2010{\natexlab{b}})Friedman, Hastie, and
+  Tibshirani}]{friedman2010regularization}
+\bibinfo{author}{J.~Friedman}, \bibinfo{author}{T.~Hastie},
+  \bibinfo{author}{R.~Tibshirani}, \bibinfo{title}{Regularization paths for
+  generalized linear models via coordinate descent}, \bibinfo{journal}{Journal
+  of Statistical Software} \bibinfo{volume}{33}~(\bibinfo{number}{1})
+  (\bibinfo{year}{2010}{\natexlab{b}}) \bibinfo{pages}{1--22}.
+
+\bibitem[{Breheny and Huang(2011)}]{breheny2011coordinate}
+\bibinfo{author}{P.~Breheny}, \bibinfo{author}{J.~Huang},
+  \bibinfo{title}{Coordinate descent algorithms for nonconvex penalized
+  regression, with applications to biological feature selection},
+  \bibinfo{journal}{Annals of Applied Statistics}
+  \bibinfo{volume}{5}~(\bibinfo{number}{1}) (\bibinfo{year}{2011})
+  \bibinfo{pages}{232}.
+
+\bibitem[{Tibshirani et~al.(2012)Tibshirani, Bien, Friedman, Hastie, Simon,
+  Taylor, and Tibshirani}]{tibshirani2012strong}
+\bibinfo{author}{R.~Tibshirani}, \bibinfo{author}{J.~Bien},
+  \bibinfo{author}{J.~Friedman}, \bibinfo{author}{T.~Hastie},
+  \bibinfo{author}{N.~Simon}, \bibinfo{author}{J.~Taylor},
+  \bibinfo{author}{R.~J. Tibshirani}, \bibinfo{title}{Strong rules for
+  discarding predictors in lasso-type problems}, \bibinfo{journal}{Journal of
+  the Royal Statistical Society, Series B}
+  \bibinfo{volume}{74}~(\bibinfo{number}{2}) (\bibinfo{year}{2012})
+  \bibinfo{pages}{245--266}.
+
+\bibitem[{Lee and Breheny(2015)}]{lee2015strong}
+\bibinfo{author}{S.~Lee}, \bibinfo{author}{P.~Breheny}, \bibinfo{title}{Strong
+  rules for nonconvex penalties and their implications for efficient algorithms
+  in high-dimensional regression}, \bibinfo{journal}{Journal of Computational
+  and Graphical Statistics} \bibinfo{volume}{24}~(\bibinfo{number}{4})
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1074--1091}.
+
+\end{thebibliography}

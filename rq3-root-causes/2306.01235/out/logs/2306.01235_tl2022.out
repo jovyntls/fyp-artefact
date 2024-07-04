@@ -1,0 +1,550 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.01235_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235"  "2306.01235"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./2306.01235
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def))))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+
+LaTeX Warning: Unused global option(s):
+    [J].
+
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235
+_tl2022.aux) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+
+LaTeX Warning: Citation `H10' on page 1 undefined on input line 29.
+
+
+LaTeX Warning: Citation `H6' on page 1 undefined on input line 31.
+
+
+LaTeX Warning: Citation `H9' on page 1 undefined on input line 31.
+
+
+LaTeX Warning: Citation `H10' on page 1 undefined on input line 31.
+
+
+LaTeX Warning: Citation `H10' on page 1 undefined on input line 32.
+
+
+LaTeX Warning: Citation `H10' on page 1 undefined on input line 32.
+
+
+Overfull \hbox (9.34552pt too wide) in paragraph at lines 26--34
+[]\OT1/cmr/m/n/10 The no-tions of a lo-cal $(\OML/cmm/m/it/10 k[]; k[]\OT1/cmr/
+m/n/10 )$-isomorphism and a weakly
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `H6' on page 2 undefined on input line 44.
+
+
+LaTeX Warning: Citation `H1' on page 2 undefined on input line 45.
+
+
+LaTeX Warning: Citation `H2' on page 2 undefined on input line 45.
+
+
+LaTeX Warning: Citation `H3' on page 2 undefined on input line 45.
+
+
+LaTeX Warning: Citation `H5' on page 2 undefined on input line 45.
+
+
+LaTeX Warning: Citation `P1' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `H6' on page 2 undefined on input line 51.
+
+
+LaTeX Warning: Citation `H10' on page 2 undefined on input line 52.
+
+
+LaTeX Warning: Citation `H10' on page 2 undefined on input line 53.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--54
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+
+LaTeX Warning: Citation `H6' on page 2 undefined on input line 57.
+
+
+LaTeX Warning: Citation `H9' on page 2 undefined on input line 57.
+
+
+LaTeX Warning: Citation `P1' on page 2 undefined on input line 57.
+
+
+LaTeX Warning: Citation `P2' on page 2 undefined on input line 57.
+
+
+LaTeX Warning: Citation `H6' on page 2 undefined on input line 58.
+
+
+LaTeX Warning: Citation `H9' on page 2 undefined on input line 58.
+
+
+LaTeX Warning: Citation `P1' on page 2 undefined on input line 58.
+
+
+LaTeX Warning: Citation `P2' on page 2 undefined on input line 58.
+
+
+LaTeX Warning: Citation `H10' on page 2 undefined on input line 59.
+
+
+LaTeX Warning: Citation `P1' on page 2 undefined on input line 61.
+
+
+LaTeX Warning: Citation `P1' on page 2 undefined on input line 62.
+
+
+LaTeX Warning: Citation `H10' on page 2 undefined on input line 62.
+
+
+Overfull \hbox (14.9826pt too wide) in paragraph at lines 57--63
+[]\OT1/cmr/m/n/12 The four pa-pers [[], [], [], []] stud-ied var-i-ous prop-er-
+ties of $\$pseudocovering
+
+LaTeX Warning: Citation `H10' on page 2 undefined on input line 70.
+
+[2]
+
+LaTeX Warning: Citation `H9' on page 3 undefined on input line 72.
+
+
+LaTeX Warning: Citation `H10' on page 3 undefined on input line 73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+
+LaTeX Warning: Citation `H10' on page 3 undefined on input line 75.
+
+
+LaTeX Warning: Citation `H9' on page 3 undefined on input line 76.
+
+
+LaTeX Warning: Citation `H9' on page 3 undefined on input line 77.
+
+
+LaTeX Warning: Citation `P1' on page 3 undefined on input line 79.
+
+
+LaTeX Warning: Citation `P2' on page 3 undefined on input line 79.
+
+
+LaTeX Warning: Citation `P2' on page 3 undefined on input line 80.
+
+
+LaTeX Warning: Citation `H10' on page 3 undefined on input line 81.
+
+
+LaTeX Warning: Citation `H4' on page 3 undefined on input line 88.
+
+
+LaTeX Warning: Citation `KR1' on page 3 undefined on input line 89.
+
+
+LaTeX Warning: Citation `R1' on page 3 undefined on input line 89.
+
+
+LaTeX Warning: Citation `H7' on page 3 undefined on input line 90.
+
+
+LaTeX Warning: Citation `H1' on page 3 undefined on input line 90.
+
+
+LaTeX Warning: Citation `H2' on page 3 undefined on input line 90.
+
+
+LaTeX Warning: Citation `H3' on page 3 undefined on input line 90.
+
+
+LaTeX Warning: Citation `H7' on page 3 undefined on input line 101.
+
+
+LaTeX Warning: Citation `H3' on page 3 undefined on input line 101.
+
+
+Overfull \hbox (6.75836pt too wide) in paragraph at lines 84--102
+\OT1/cmr/m/n/12 For a nat-u-ral num-ber $\OML/cmm/m/it/12 t$\OT1/cmr/m/n/12 , $
+1 \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 t \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12
+ n$\OT1/cmr/m/n/12 , the dis-tinct points $\OML/cmm/m/it/12 p \OT1/cmr/m/n/12 =
+ (\OML/cmm/m/it/12 p[]; p[]; []  ; p[]\OT1/cmr/m/n/12 )$
+[3]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 102.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+
+LaTeX Warning: Citation `H3' on page 4 undefined on input line 105.
+
+
+LaTeX Warning: Citation `KR1' on page 4 undefined on input line 105.
+
+
+LaTeX Warning: Citation `H8' on page 4 undefined on input line 107.
+
+
+LaTeX Warning: Citation `H1' on page 4 undefined on input line 111.
+
+
+LaTeX Warning: Citation `H2' on page 4 undefined on input line 111.
+
+
+LaTeX Warning: Citation `H3' on page 4 undefined on input line 111.
+
+
+LaTeX Warning: Citation `H5' on page 4 undefined on input line 111.
+
+
+LaTeX Warning: Citation `R1' on page 4 undefined on input line 115.
+
+
+LaTeX Warning: Citation `H3' on page 4 undefined on input line 117.
+
+
+LaTeX Warning: Citation `H5' on page 4 undefined on input line 117.
+
+
+Overfull \hbox (7.41618pt too wide) in paragraph at lines 117--122
+\OT1/cmr/m/it/12 and only if for ev-ery point $\OML/cmm/m/it/12 x \OMS/cmsy/m/n
+/12 2 \OML/cmm/m/it/12 X$\OT1/cmr/m/it/12 , $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 
+(\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; \OT1/cmr/m/n/12 1))$ 
+\OT1/cmr/m/it/12 is a sub-set of $\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 (\OML/cmm
+/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 
+; \OT1/cmr/m/n/12 1)$\OT1/cmr/m/it/12 . 
+
+LaTeX Warning: Citation `H4' on page 4 undefined on input line 126.
+
+
+LaTeX Warning: Citation `B2' on page 4 undefined on input line 126.
+
+
+LaTeX Warning: Citation `B2' on page 4 undefined on input line 128.
+
+
+LaTeX Warning: Citation `H4' on page 4 undefined on input line 128.
+
+
+LaTeX Warning: Citation `H1' on page 4 undefined on input line 137.
+
+
+LaTeX Warning: Citation `H2' on page 4 undefined on input line 137.
+
+
+LaTeX Warning: Citation `H6' on page 4 undefined on input line 141.
+
+
+LaTeX Warning: Citation `H9' on page 4 undefined on input line 141.
+
+[4]
+
+LaTeX Warning: Citation `H1' on page 5 undefined on input line 145.
+
+
+LaTeX Warning: Citation `H3' on page 5 undefined on input line 145.
+
+
+LaTeX Warning: Citation `H9' on page 5 undefined on input line 145.
+
+
+LaTeX Warning: Citation `H6' on page 5 undefined on input line 152.
+
+
+LaTeX Warning: Citation `H6' on page 5 undefined on input line 154.
+
+
+LaTeX Warning: Citation `H6' on page 5 undefined on input line 162.
+
+
+LaTeX Warning: Citation `H6' on page 5 undefined on input line 163.
+
+
+LaTeX Warning: Citation `H6' on page 5 undefined on input line 175.
+
+
+LaTeX Warning: Citation `H6' on page 5 undefined on input line 176.
+
+[5]
+
+LaTeX Warning: Citation `P1' on page 6 undefined on input line 179.
+
+
+LaTeX Warning: Citation `P1' on page 6 undefined on input line 182.
+
+
+LaTeX Warning: Citation `H10' on page 6 undefined on input line 182.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
+
+
+LaTeX Warning: Citation `H2' on page 6 undefined on input line 188.
+
+
+LaTeX Warning: Citation `H3' on page 6 undefined on input line 188.
+
+
+LaTeX Warning: Citation `H5' on page 6 undefined on input line 188.
+
+
+LaTeX Warning: Citation `H8' on page 6 undefined on input line 199.
+
+
+LaTeX Warning: Citation `H9' on page 6 undefined on input line 205.
+
+
+LaTeX Warning: Citation `H10' on page 6 undefined on input line 205.
+
+
+LaTeX Warning: Citation `H10' on page 6 undefined on input line 207.
+
+
+LaTeX Warning: Citation `H9' on page 6 undefined on input line 207.
+
+
+LaTeX Warning: Citation `H10' on page 6 undefined on input line 210.
+
+
+LaTeX Warning: Citation `H9' on page 6 undefined on input line 214.
+
+
+LaTeX Warning: Citation `H10' on page 6 undefined on input line 215.
+
+
+LaTeX Warning: Citation `H10' on page 6 undefined on input line 218.
+
+
+LaTeX Warning: Citation `H10' on page 6 undefined on input line 219.
+
+[6]
+
+LaTeX Warning: Citation `H10' on page 7 undefined on input line 225.
+
+
+LaTeX Warning: Citation `H10' on page 7 undefined on input line 226.
+
+
+LaTeX Warning: Citation `H10' on page 7 undefined on input line 228.
+
+[7] [8]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235
+_tl2022.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm7.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.01235/2306.01235_tl2022.pdf (8 pages, 263445 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.01235/2306.01235_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235_tl2022.log'
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235_tl2022.pdf'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235_tl2022.aux
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder --jobname="2306.01235_tl2022" -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235"  "2306.01235"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./2306.01235
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def))))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+
+LaTeX Warning: Unused global option(s):
+    [J].
+
+
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235
+_tl2022.aux) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+Overfull \hbox (9.34552pt too wide) in paragraph at lines 26--34
+[]\OT1/cmr/m/n/10 The no-tions of a lo-cal $(\OML/cmm/m/it/10 k[]; k[]\OT1/cmr/
+m/n/10 )$-isomorphism and a weakly
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 44--54
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+
+Overfull \hbox (30.60718pt too wide) in paragraph at lines 57--63
+[]\OT1/cmr/m/n/12 The four pa-pers [[], [], [], []] stud-ied var-i-ous prop-er-
+ties of $\$pseudocovering
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+
+Overfull \hbox (6.75836pt too wide) in paragraph at lines 84--102
+\OT1/cmr/m/n/12 For a nat-u-ral num-ber $\OML/cmm/m/it/12 t$\OT1/cmr/m/n/12 , $
+1 \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 t \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12
+ n$\OT1/cmr/m/n/12 , the dis-tinct points $\OML/cmm/m/it/12 p \OT1/cmr/m/n/12 =
+ (\OML/cmm/m/it/12 p[]; p[]; []  ; p[]\OT1/cmr/m/n/12 )$
+[3]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 102.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+
+Overfull \hbox (7.41618pt too wide) in paragraph at lines 117--122
+\OT1/cmr/m/it/12 and only if for ev-ery point $\OML/cmm/m/it/12 x \OMS/cmsy/m/n
+/12 2 \OML/cmm/m/it/12 X$\OT1/cmr/m/it/12 , $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 
+(\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; \OT1/cmr/m/n/12 1))$ 
+\OT1/cmr/m/it/12 is a sub-set of $\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 (\OML/cmm
+/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 
+; \OT1/cmr/m/n/12 1)$\OT1/cmr/m/it/12 . 
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
+
+[6] [7] [8]
+(/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235
+_tl2022.aux) )
+(see the transcript file for additional information)</usr/local/texlive/2022/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm7.pfb>
+Output written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306
+.01235/2306.01235_tl2022.pdf (8 pages, 261459 bytes).
+Transcript written on /diff_test_tex_engines/docker_bin_2/version_compiled_pdf/
+2306.01235/2306.01235_tl2022.log.
+Latexmk: Getting log file '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235_tl2022.log'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235_tl2022.fls'
+Latexmk: Examining '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235_tl2022.log'
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf/2306.01235/2306.01235_tl2022.pdf'
+Latexmk: All targets () are up-to-date
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 7 Jan. 2023. Version 4.79.
+Latexmk: Nothing to do for '2306.01235'.
+Latexmk: All targets () are up-to-date
+

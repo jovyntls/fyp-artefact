@@ -1,0 +1,61 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00746" --jobname="2306.00746_tl2020"  "2306.00746"'
+------------
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00746/2306.00746_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `BH' on page 15 undefined on input line 968
+  Citation `BH' on page 17 undefined on input line 1100
+  Citation `BH' on page 26 undefined on input line 1549
+  Citation `BH' on page 27 undefined on input line 1653
+  Citation `BH' on page 28 undefined on input line 1697
+  Citation `BH' on page 29 undefined on input line 1703
+  Citation `BH' on page 30 undefined on input line 1796
+  Citation `BH' on page 4 undefined on input line 288
+  Citation `BH' on page 5 undefined on input line 306
+  Citation `BH' on page 5 undefined on input line 336
+  Citation `BH' on page 6 undefined on input line 388
+  Citation `CM' on page 2 undefined on input line 177
+  Citation `CMR' on page 1 undefined on input line 130
+  Citation `Co' on page 1 undefined on input line 126
+  Citation `Co' on page 1 undefined on input line 130
+  Citation `Co' on page 31 undefined on input line 1873
+  Citation `KS' on page 22 undefined on input line 1399
+  Citation `La' on page 2 undefined on input line 178
+  Citation `La' on page 31 undefined on input line 1873
+  Citation `Lo' on page 19 undefined on input line 1216
+  Citation `Lo' on page 31 undefined on input line 1852
+  Citation `Lo' on page 8 undefined on input line 487
+  Citation `Mi' on page 32 undefined on input line 1882
+  Citation `Ni' on page 1 undefined on input line 130
+  Citation `Ni' on page 2 undefined on input line 170
+  Citation `Pu1' on page 1 undefined on input line 132
+  Citation `Pu1' on page 2 undefined on input line 166
+  Citation `Pu1' on page 7 undefined on input line 431
+  Citation `Pu2' on page 1 undefined on input line 141
+  Citation `Pu2' on page 21 undefined on input line 1357
+  Citation `Pu2' on page 30 undefined on input line 1815
+  Citation `Pu3' on page 29 undefined on input line 1733
+  Citation `Pu4' on page 3 undefined on input line 188
+  Citation `Pu4' on page 32 undefined on input line 1878
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00746/2306.00746_tl2020.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00746" --jobname="2306.00746_tl2020"  "2306.00746"'
+------------
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00746/2306.00746_tl2020.pdf'
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

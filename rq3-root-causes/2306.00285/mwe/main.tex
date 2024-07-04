@@ -1,0 +1,16 @@
+\documentclass{article}
+
+\usepackage{hyperref}  % commenting this out causes a change in 2022
+
+\newtheorem{theorem}{Theorem}
+
+\begin{document}
+% \LinkTargetOff  % use this workaround to prevent the change: https://github.com/lvjr/tabularray/issues/196#issuecomment-1784223410
+$$ x=y $$
+\begin{theorem}
+	theorem after math
+\end{theorem}
+
+% \LinkTargetOn
+\end{document}
+

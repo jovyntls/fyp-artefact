@@ -1,0 +1,85 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00285" --jobname="2306.00285_tl2020"  "2306.00285"'
+------------
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00285/2306.00285_tl2020.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `Massey' on page 4 undefined on input line 150
+  Citation `artin' on page 4 undefined on input line 138
+  Citation `ba2019' on page 8 undefined on input line 263
+  Citation `boon' on page 1 undefined on input line 100
+  Citation `burn2006' on page 1 undefined on input line 100
+  Citation `burn2006' on page 8 undefined on input line 276
+  Citation `carlet19' on page 1 undefined on input line 100
+  Citation `carlet19' on page 2 undefined on input line 103
+  Citation `carlet19' on page 2 undefined on input line 105
+  Citation `carlet19' on page 5 undefined on input line 186
+  Citation `carlet19' on page 7 undefined on input line 240
+  Citation `carlet19' on page 8 undefined on input line 274
+  Citation `carlet2018' on page 1 undefined on input line 100
+  Citation `carlet2018' on page 2 undefined on input line 103
+  Citation `carlet2018' on page 5 undefined on input line 180
+  Citation `carlet2018' on page 5 undefined on input line 189
+  Citation `guenda2018' on page 2 undefined on input line 103
+  Citation `guenda2018' on page 4 undefined on input line 155
+  Citation `guenda2018' on page 4 undefined on input line 156
+  Citation `hao' on page 10 undefined on input line 357
+  Citation `hao' on page 2 undefined on input line 105
+  Citation `hao' on page 8 undefined on input line 269
+  Citation `hao' on page 8 undefined on input line 274
+  Citation `jin' on page 1 undefined on input line 100
+  Citation `li19' on page 2 undefined on input line 103
+  Citation `massey92' on page 1 undefined on input line 100
+  Citation `sendrier' on page 2 undefined on input line 103
+  Citation `sok22' on page 2 undefined on input line 103
+  Citation `st2006' on page 8 undefined on input line 263
+  Citation `tang17' on page 1 undefined on input line 100
+  Citation `yan' on page 1 undefined on input line 100
+  Citation `yang' on page 1 undefined on input line 100
+  Reference `carlthe' on page 7 undefined on input line 240
+  Reference `co1' on page 4 undefined on input line 155
+  Reference `corollaryself' on page 8 undefined on input line 267
+  Reference `guenda' on page 10 undefined on input line 337
+  Reference `guenda' on page 10 undefined on input line 353
+  Reference `guenda' on page 12 undefined on input line 417
+  Reference `guenda' on page 7 undefined on input line 228
+  Reference `lemma1' on page 10 undefined on input line 337
+  Reference `lemma1' on page 7 undefined on input line 240
+  Reference `lemma1' on page 7 undefined on input line 242
+  Reference `lemma2' on page 8 undefined on input line 253
+  Reference `lemma46' on page 11 undefined on input line 383
+  Reference `matrixlemma' on page 11 undefined on input line 371
+  Reference `matrixlemma' on page 6 undefined on input line 202
+  Reference `th23' on page 10 undefined on input line 335
+  Reference `th41' on page 10 undefined on input line 340
+  Reference `th41' on page 11 undefined on input line 370
+  Reference `theorem1' on page 4 undefined on input line 146
+  Reference `theorem1' on page 4 undefined on input line 155
+  Reference `theorem42' on page 12 undefined on input line 389
+  Reference `theoremlong' on page 8 undefined on input line 267
+  Reference `theorm31' on page 10 undefined on input line 340
+  Reference `theorm31' on page 11 undefined on input line 368
+  Reference `theorm31' on page 11 undefined on input line 383
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00285/2306.00285_tl2020.aux'
+      '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00285/2306.00285_tl2020.out'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -recorder -output-directory="/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00285" --jobname="2306.00285_tl2020"  "2306.00285"'
+------------
+Latexmk: Log file says output to '/diff_test_tex_engines/docker_bin_2/version_compiled_pdf_2020/2306.00285/2306.00285_tl2020.pdf'
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 29 September 2020, version: 4.70b.

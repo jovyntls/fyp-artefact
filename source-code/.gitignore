@@ -1,0 +1,7 @@
+__pycache__
+bin*
+logs
+.DS_Store
+version_cmp/docker_bin
+version_cmp/docker_bin/version_compiled_pdf
+version_cmp/docker_bin/compile_results

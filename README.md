@@ -1,6 +1,6 @@
 # Artefacts for 'Inconsistencies in TeX-produced PDF Documents'
 
-This artefact contains data and runnable code the reproduction of results in our paper (_'Inconsistencies in TeX-produced PDF Documents'_), particularly the motivating study (Section 3), methodology (Section 4), and results (Section 5).
+This artefact contains data and runnable code for the reproduction of results in our paper (_'Inconsistencies in TeX-produced PDF Documents'_), particularly the motivating study (Section 3), methodology (Section 4), and results (Section 5).
 
 # Getting Started
 
@@ -33,7 +33,7 @@ The following directories (created automatically) may be helpful in interpreting
         * e.g. `diff_2306.00001_xe_lua.pdf` is a pixel-wise comparison of the PDF produced by XeLaTeX against LuaLaTeX, for arXiv ID 2306.00001
     * The results of each engine are super-imposed with different colours to emphasise any inconsistencies. Thus, all orange and blue pixels represent inconsistencies.
         * e.g. for `diff_2306.00001_xe_lua.pdf`, blue pixels are present only in XeLaTeX output, orange pixels are present only in LuaLaTeX output, and grayscale pixels are present in both.
-    * The column of red markings (on the left of each page) are visual indicators to highlight inconsistencies. A red marking indicates the presence of some inconsistency on the same row.
+    * The column of red markings (on the left of each page) are visual indicators to help highlight inconsistencies. A red marking indicates the presence of some inconsistency on the same row.
 * `source-code/logs/`: This directory contains the results generated from running the pipeline.
     * `<TIMESTAMP>_results.csv`: A summary of the compilation and pixel-wise comparison results
     * `<TIMESTAMP>_analysis_results.csv`: Detailed results of text- and font-based comparisons
@@ -43,10 +43,10 @@ The following directories (created automatically) may be helpful in interpreting
 
 ## Source Code
 
-The source code of our automated pipeline can be found in the `source-code/`, or on [Github](https://github.com/jovyntls/inconsistencies-in-tex).
+The source code of our automated pipeline can be found in the `source-code/` directory, which is also [hosted on Github](https://github.com/jovyntls/inconsistencies-in-tex).
 
 Besides the end-to-end pipeline, this directory also includes supplementary scripts that may be useful for verifying and analysing results.
-See `source-code/README.md` for details.
+See `source-code/README.md` for details on all available scripts and flags.
 
 ## Motivating Study
 
@@ -116,8 +116,9 @@ The inconsistencies found are detailed in `motivating-study/alignment/inconsiste
 The data and results from RQ1 can be found in `rq1-tex-engines/`:
 ```
 rq1-tex-engines
-├── bin
-├── logs
+├── bin/
+├── logs/
+├── config.py
 └── results_workbook_final.xlsx
 ```
 
@@ -132,7 +133,7 @@ To reproduce RQ1,
     1. Ensure that the `PROJECT_ROOT` in `config.py` is correctly set to the (absolute) path of the source code directory.
 1. Change the working directory: `cd source-code/`
 1. Run the pipeline: `python3 main.py`. 
-    * Due to the size of the dataset, this might take a few hours. If you wish to run a concise demo of the pipeline, an quick way to do so would be to comment out some subjects in `source-code/constants/arxiv_subjects.py`.
+    * Due to the size of the dataset, this might take a few hours. If you wish to run a concise demo of the pipeline, a quick way to do so would be to comment out some subjects in `source-code/constants/arxiv_subjects.py`.
 1. Run analysis on the comparison methods: 
     1. `python3 run_text_based_comparison.py`
     1. `python3 run_img_comparison.py`
@@ -158,9 +159,10 @@ The results from RQ2 can be found in `rq2-texlive-distributions/`:
 
 ```
 rq2-texlive-distributions
-├── bin
-├── results_default
-└── results_with_flag
+├── bin/
+├── results_default/
+├── results_with_flag/
+└── config.py
 ```
 
 `results_default` contains the results for the initial run; 
@@ -197,7 +199,7 @@ The following directories (created automatically) may be helpful in interpreting
     * `<TIMESTAMP>_analysis_results.csv`: Detailed results of text- and font-based comparisons
     * `<TIMESTAMP>_imgcompare.csv`: Results of feature-based comparisons
 
-The results are collated and formatted in an Excel sheet: `rq2-texlive-distributions/version_results_3.xlsx`.
+The results are collated and formatted in an Excel sheet: `rq2-texlive-distributions/results_default/version_results_2.xlsx`.
 
 ### Reproduction of "Breaking changes in compilation flags"
 
@@ -206,9 +208,13 @@ The results are collated and formatted in an Excel sheet: `rq2-texlive-distribut
     1. Run compilation with updated compilation flags: `python3 run_compile_only.py -ver 2020 -flags`
     1. Exit the Docker container: `exit`
 
+The above steps will demonstrate how breaking changes in compilation flags accounted for a significant proportion of documents with inconsistencies from 2020 to 2021.
+
 **Interpreting the results**
 
-* Compilation output will be saved in `version_compiled_pdf_2020/` instead of `version_compiled_pdf/`.
+Compilation output will be saved in `version_compiled_pdf_2020/` instead of `version_compiled_pdf/`.
+
+The results are collated and formatted in an Excel sheet: `rq2-texlive-distributions/results_with_flag/version_results_3.xlsx`.
 
 ---
 
@@ -234,8 +240,8 @@ arXiv ID   | 20 | 21 | 22 | 23 | root cause
 2306.00030 | Y  | Y  | Y  | Y  | (expected behaviour) syntax error by author
 2306.00275 | Y  | N  | N  | N  | (expected behaviour) imported a package that did not exist yet [tabularray.sty]
 2306.03822 | Y  | N  | N  | N  | (expected behaviour) imported a package that did not exist yet [tabularray.sty]
-2306.05750 | Y  | N  | N  | N  | (fixed bug) adding a linebreak in footnotes breaks compilation
-2306.00003 | N  | N  | N  | Y  | (reported bug) jmlr package
+2306.05750 | Y  | N  | N  | N  | ([fixed bug](https://github.com/latex3/latex2e/issues/548)) adding a linebreak in footnotes breaks compilation
+2306.00003 | N  | N  | N  | Y  | ([reported bug](https://www.dickimaw-books.com/bugtracker.php?key=273)) jmlr package
 
 ### Reverts
 
@@ -253,7 +259,7 @@ arXiv ID   | change | revert | root cause
 arXiv ID   | inconsistency                                    | root cause
 ---------- | ------------------------------------------------ | ----------
 2306.00285 | inconsistent vertical spacing                    | (fixed bug) importing hyperref changes line spacing
-2306.00052 | different horizontal spacing of tables           | (confirmed bug) importing the colortbl package changes horizontal spacing
+2306.00052 | different horizontal spacing of tables           | ([fixed bug](https://github.com/davidcarlisle/dpctex/issues/48)) importing the colortbl package changes horizontal spacing
 2306.00329 | different spacing with tilde alignment character | (expected behaviour) due to redefining tilde character
 2306.00415 | different spacing with tilde alignment character | (expected behaviour) due to redefining tilde character
 2306.01017 | different spacing with tilde alignment character | (expected behaviour) due to redefining tilde character

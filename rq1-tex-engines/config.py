@@ -1,9 +1,12 @@
 import os
 
-PROJECT_ROOT = os.path.join(os.path.expanduser("~"), "Desktop", "tmp", "inconsistencies-in-tex")  # REPLACE WITH YOUR PATH
+PROJECT_ROOT = os.path.join(os.path.expanduser("~"), "PATH", "TO", "SOURCE", "CODE", "DIRECTORY", "source-code")  # REPLACE WITH YOUR PATH
 LOGS_FOLDER = os.path.join(PROJECT_ROOT, 'logs')
 PROJECT_BIN = os.path.join(PROJECT_ROOT, 'bin')
 # PROJECT_BIN = os.path.join(PROJECT_ROOT, 'version_cmp', 'docker_bin_2')
+
+CMP_TYPE = 'ENGINE'  # or 'VERSION'
+USE_TL2020_DIR = False   # set True to use COMPILED_FOLDER_2020 for TL2020 instead of COMPILED_FOLDER
 
 DOWNLOAD_FOLDER = os.path.join(PROJECT_BIN, 'arxiv_tars')
 EXTRACTED_FOLDER = os.path.join(PROJECT_BIN, 'arxiv_tars_extracted')

@@ -83,7 +83,6 @@ To reproduce the motivating study,
 
 1. Ensure software requirements are met (see "Getting Started > Requirements" above).
 1. In the source code directory (`source-code/`), 
-    1. In `source-code/utils/tex_engine_utils.py`: uncomment lines 1-3, and comment out lines 5-7
     1. Use the config file provided in `motivating-study/`, i.e.: replace `source-code/config.py` with `motivating-study/config.py`
     1. Ensure that the `PROJECT_ROOT` in `config.py` is correctly set to the (absolute) path of the source code directory.
 1. Change the working directory: `cd source-code/`
@@ -128,7 +127,6 @@ To reproduce RQ1,
 
 1. Ensure software requirements are met (see "Getting Started > Requirements" above).
 1. In the source code directory (`source-code/`), 
-    1. In `source-code/utils/tex_engine_utils.py`: uncomment lines 1-3, and comment out lines 5-7
     1. Use the config file provided in `rq1-tex-engines/`, i.e.: replace `source-code/config.py` with `rq1-tex-engines/config.py`
     1. Ensure that the `PROJECT_ROOT` in `config.py` is correctly set to the (absolute) path of the source code directory.
 1. Change the working directory: `cd source-code/`
@@ -174,7 +172,6 @@ To reproduce RQ2,
 
 1. Ensure software requirements are met (see "Getting Started > Requirements" above).
 1. In the source code directory (`source-code/`), 
-    1. In `source-code/utils/tex_engine_utils.py`: comment out lines 1-3, and uncomment lines 5-7
     1. Use the config file provided in `rq2-texlive-distributions/`, i.e.: replace `source-code/config.py` with `rq2-texlive-distributions/config.py`
     1. Ensure that the `PROJECT_ROOT` in `config.py` is correctly set to the (absolute) path of the source code directory.
 1. Change the working directory: `cd source-code/`
